@@ -1,0 +1,47 @@
+---
+import type { BloqueEnlaces } from '@lib/enlaces';
+
+interface Props {
+  bloques: BloqueEnlaces[];
+  indice?: string;
+  titulo?: string;
+}
+const { bloques, indice, titulo = 'Seguir explorando' } = Astro.props;
+const visibles = bloques.filter((b) => b.enlaces.length > 0);
+---
+
+{visibles.length > 0 && (
+  <section class="wrap pt-20 sm:pt-28">
+    {indice && <p class="label">[ {indice} — Enlaces relacionados ]</p>}
+
+    <h2 class="display-lg mt-8">{titulo}</h2>
+
+    <div class="mt-12 grid grid-cols-1 gap-x-10 gap-y-12 sm:grid-cols-2 lg:grid-cols-4">
+      {visibles.map((bloque) => (
+        <div>
+          <div class="rule flex items-baseline justify-between gap-3 pt-5">
+            <p class="label text-signal">{bloque.titulo}</p>
+            <p class="label muted">{String(bloque.enlaces.length).padStart(2, '0')}</p>
+          </div>
+
+          <ul class="mt-4">
+            {bloque.enlaces.map((e) => (
+              <li class="border-b border-ink/10">
+                <a href={e.href} class="group flex items-baseline justify-between gap-3 py-2.5">
+                  <span class="text-sm leading-snug underline-hover">{e.titulo}</span>
+                  {e.meta && <span class="label muted shrink-0">{e.meta}</span>}
+                </a>
+              </li>
+            ))}
+          </ul>
+
+          {bloque.verTodo && (
+            <a href={bloque.verTodo.href} class="label underline-hover mt-4 inline-block">
+              {bloque.verTodo.titulo} →
+            </a>
+          )}
+        </div>
+      ))}
+    </div>
+  </section>
+)}

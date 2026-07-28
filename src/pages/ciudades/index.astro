@@ -1,0 +1,69 @@
+---
+import BaseLayout from '@layouts/BaseLayout.astro';
+import Cabecera from '@components/Cabecera.astro';
+import Relacionados from '@components/Relacionados.astro';
+import { cargarDatos, conteoPorCiudad, bloqueRubros, bloqueServicios, bloqueGuias, bloqueEmpresas } from '@lib/enlaces';
+
+const d = await cargarDatos();
+const conteo = conteoPorCiudad(d);
+const nn = (n: number): string => String(n).padStart(2, '0');
+---
+
+<BaseLayout
+  title="Ciudades"
+  description="Cobertura del directorio de seguridad por ciudad. Consulta proveedores por plaza."
+  path="/ciudades"
+  pageType="itemlist"
+  breadcrumbs={[
+    { name: 'Inicio', href: '/' },
+    { name: 'Ciudades', href: '/ciudades' },
+  ]}
+>
+  <Cabecera
+    ruta={[{ nombre: 'Inicio', href: '/' }, { nombre: 'Ciudades' }]}
+    indice="Cobertura"
+    meta={`${nn(d.ciudades.length)} ${d.ciudades.length === 1 ? 'plaza' : 'plazas'}`}
+    titulo="Ciudades"
+    lede="Arrancamos en la Ciudad de México y su zona metropolitana. Sumamos plazas conforme verificamos proveedores en cada una."
+    stats={[
+      { k: 'Ciudades', v: nn(d.ciudades.length) },
+      { k: 'Empresas', v: nn(d.empresas.length) },
+    ]}
+  />
+
+  <section class="wrap pt-16 sm:pt-20">
+    <div class="border-b border-ink/20">
+      {d.ciudades.map((c, i) => (
+        <a
+          href={`/ciudades/${c.id}`}
+          class="idx-row grid grid-cols-12 items-baseline gap-x-4 gap-y-3 py-7 sm:py-9"
+        >
+          <span class="label col-span-2 sm:col-span-1">{nn(i + 1)}</span>
+          <span class="col-span-10 sm:col-span-4">
+            <span class="display-md block">{c.data.nombre}</span>
+            <span class="label muted mt-2 block">{c.data.estado}</span>
+          </span>
+          <span class="muted col-span-12 text-sm leading-snug sm:col-span-5">
+            {c.data.descripcion}
+          </span>
+          <span class="col-span-12 flex items-baseline justify-between gap-4 sm:col-span-2 sm:justify-end">
+            <span class="label muted">
+              {conteo.get(c.id) ?? 0} {(conteo.get(c.id) ?? 0) === 1 ? 'empresa' : 'empresas'}
+            </span>
+            <span class="idx-arrow label">→</span>
+          </span>
+        </a>
+      ))}
+    </div>
+  </section>
+
+  <Relacionados
+    indice="01"
+    bloques={[
+      bloqueRubros(d),
+      bloqueEmpresas(d, { limite: 5 }),
+      bloqueServicios(d),
+      bloqueGuias(d, { limite: 5 }),
+    ]}
+  />
+</BaseLayout>

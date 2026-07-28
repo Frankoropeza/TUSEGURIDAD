@@ -1,0 +1,355 @@
+---
+import BaseLayout from '@layouts/BaseLayout.astro';
+import CategoriaRow from '@components/CategoriaRow.astro';
+import EmpresaRow from '@components/EmpresaRow.astro';
+import { getCollection } from 'astro:content';
+import { SITE } from '@config/site';
+import { hrefEmpresa } from '@lib/enlaces';
+
+const todasCategorias = (await getCollection('categorias')).sort(
+  (a, b) => a.data.orden - b.data.orden
+);
+const categoriasActivas = todasCategorias.filter((c) => c.data.destacada);
+const categoriasProximas = todasCategorias.filter((c) => !c.data.destacada);
+
+const empresas = (await getCollection('empresas')).sort(
+  (a, b) => b.data.orden - a.data.orden
+);
+const ciudades = (await getCollection('ciudades')).sort(
+  (a, b) => a.data.orden - b.data.orden
+);
+const servicios = (await getCollection('servicios')).sort(
+  (a, b) => a.data.orden - b.data.orden
+);
+const guias = (await getCollection('guias'))
+  .filter((g) => !g.data.draft)
+  .sort((a, b) => b.data.fecha.valueOf() - a.data.fecha.valueOf())
+  .slice(0, 4);
+
+const nombreCategoria = new Map(todasCategorias.map((c) => [c.id, c.data.nombre]));
+const nombreCiudad = new Map(ciudades.map((c) => [c.id, c.data.nombre]));
+
+// cruces rubro × estado: son las páginas que atienden la búsqueda local.
+// En el home solo se muestran los estados que ya tienen padrón; el resto
+// se alcanza desde /ciudades y desde el selector de cada rubro.
+const plazas = ciudades
+  .map((c) => ({
+    ...c,
+    corto: c.data.nombreCorto ?? c.data.nombre,
+    empresas: empresas.filter((e) => [e.data.ciudad, ...e.data.ciudades].includes(c.id)).length,
+    cruces: categoriasActivas.map((r) => ({
+      nombre: r.data.nombre,
+      href: `/categorias/${r.id}/${c.id}`,
+      total: empresas.filter(
+        (e) =>
+          [e.data.categoria, ...e.data.categorias].includes(r.id) &&
+          [e.data.ciudad, ...e.data.ciudades].includes(c.id)
+      ).length,
+    })),
+  }))
+  .filter((c) => c.empresas > 0)
+  .sort((a, b) => b.empresas - a.empresas);
+
+// conteo real de empresas por categoría (sin cifras inventadas)
+const conteo = new Map<string, number>();
+for (const e of empresas) {
+  for (const slug of new Set([e.data.categoria, ...e.data.categorias])) {
+    conteo.set(slug, (conteo.get(slug) ?? 0) + 1);
+  }
+}
+
+const nn = (n: number): string => String(n).padStart(2, '0');
+const fecha = (d: Date): string =>
+  `${d.getFullYear()}.${nn(d.getMonth() + 1)}.${nn(d.getDate())}`;
+
+const year = new Date().getFullYear();
+
+const registro = [
+  { k: 'Categorías activas', v: nn(categoriasActivas.length) },
+  { k: 'Empresas listadas', v: nn(empresas.length) },
+  { k: 'Ciudades', v: nn(ciudades.length) },
+  { k: 'Costo de consulta', v: 'Libre' },
+];
+
+const proceso = [
+  {
+    n: '01',
+    t: 'Localiza',
+    d: 'Entra por rubro —seguridad privada o protección contra incendios— o por la ciudad donde necesitas el servicio.',
+  },
+  {
+    n: '02',
+    t: 'Compara',
+    d: 'Cada ficha declara servicios, zonas de cobertura, horarios y datos de contacto. Las verificadas llevan marca.',
+  },
+  {
+    n: '03',
+    t: 'Contacta',
+    d: 'Escribes directo a la empresa. No intermediamos la negociación ni cobramos comisión por el contacto.',
+  },
+];
+
+const criterios = [
+  { n: '/01', t: 'Verificación', d: 'Marcamos únicamente a las empresas que acreditan registro, permisos vigentes y datos de contacto reales.' },
+  { n: '/02', t: 'Sin ratings inventados', d: 'No publicamos calificaciones ni reseñas que no provengan de una fuente verificable. Preferimos el dato duro.' },
+  { n: '/03', t: 'Consulta libre', d: 'Buscar y contactar no cuesta. Sin registro obligatorio ni intercambio de datos personales.' },
+  { n: '/04', t: 'Cobertura gradual', d: 'Arrancamos en la Ciudad de México y su zona metropolitana. Sumamos ciudades conforme verificamos proveedores.' },
+];
+---
+
+<BaseLayout title="Inicio" path="/" pageType="website" sidebar={false}>
+  <!-- ================= 01 · PORTADA ================= -->
+  <section class="wrap pt-12 sm:pt-16">
+    <div class="flex items-baseline justify-between gap-4">
+      <p class="label">[ 01 — Portada ]</p>
+      <p class="label muted">MX · {year}</p>
+    </div>
+
+    <h1 class="display-xl mt-8">
+      Directorio<br />de seguridad<br /><span class="text-signal">en México</span>
+    </h1>
+
+    <div class="rule mt-10 grid grid-cols-12 gap-x-6 gap-y-10 pt-8">
+      <div class="col-span-12 lg:col-span-6">
+        <p class="lede max-w-2xl">
+          Un registro abierto de empresas de seguridad privada y protección contra incendios.
+          Fichas comparables, cobertura declarada y contacto directo —sin intermediarios y sin
+          costo para quien busca.
+        </p>
+        <div class="mt-9 flex flex-wrap gap-3">
+          <a href="#categorias" class="cta-solid">Consultar el directorio →</a>
+          <a href="/registrar" class="cta">Registrar empresa</a>
+        </div>
+      </div>
+
+      <!-- tabla de registro -->
+      <div class="col-span-12 lg:col-span-5 lg:col-start-8">
+        <p class="label muted">Estado del registro</p>
+        <dl class="mt-5">
+          {registro.map((r) => (
+            <div class="rule flex items-baseline justify-between gap-4 py-3.5">
+              <dt class="label">{r.k}</dt>
+              <dd class="numeral text-2xl sm:text-3xl">{r.v}</dd>
+            </div>
+          ))}
+        </dl>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= 02 · CATEGORÍAS ================= -->
+  <section id="categorias" class="wrap pt-24 sm:pt-32">
+    <div class="flex flex-wrap items-baseline justify-between gap-4">
+      <p class="label">[ 02 — Rubros ]</p>
+      <p class="label muted">
+        {nn(categoriasActivas.length)} activos · {nn(categoriasProximas.length)} en preparación
+      </p>
+    </div>
+
+    <h2 class="display-lg mt-8 max-w-5xl">Qué tipo de<br />seguridad necesitas</h2>
+
+    <div class="mt-14 border-b border-ink/20">
+      {categoriasActivas.map((cat, i) => (
+        <CategoriaRow
+          indice={nn(i + 1)}
+          nombre={cat.data.nombre}
+          descripcion={cat.data.descripcion}
+          href={`/categorias/${cat.id}`}
+          total={conteo.get(cat.id) ?? 0}
+        />
+      ))}
+      {categoriasProximas.map((cat, i) => (
+        <CategoriaRow
+          indice={nn(categoriasActivas.length + i + 1)}
+          nombre={cat.data.nombre}
+          descripcion={cat.data.descripcion}
+          disponible={false}
+        />
+      ))}
+    </div>
+  </section>
+
+  <!-- ================= 02b · PLAZAS ================= -->
+  {plazas.length > 0 && (
+    <section class="wrap pt-24 sm:pt-32" aria-labelledby="plazas-title">
+      <div class="flex flex-wrap items-baseline justify-between gap-4">
+        <p class="label">[ 03 — Estados con padrón ]</p>
+        <a href="/ciudades" class="label underline-hover">Ver las 32 entidades →</a>
+      </div>
+
+      <h2 id="plazas-title" class="display-lg mt-8 max-w-5xl">¿Dónde lo<br />necesitas?</h2>
+
+      <p class="muted mt-6 max-w-2xl text-base leading-snug">
+        Cubrimos las 32 entidades federativas. Estos son los estados donde ya hay proveedores
+        publicados; cada rubro tiene además su propio selector de estado.
+      </p>
+
+      <div class="mt-14 grid grid-cols-1 gap-x-12 gap-y-12 lg:grid-cols-2">
+        {plazas.map((p, i) => (
+          <div>
+            <div class="rule flex items-baseline justify-between gap-4 pt-6">
+              <a href={`/ciudades/${p.id}`} class="flex items-baseline gap-4">
+                <span class="label muted">{nn(i + 1)}</span>
+                <span class="display-md underline-hover">{p.data.nombre}</span>
+              </a>
+              <span class="label muted">
+                {p.empresas} {p.empresas === 1 ? 'empresa' : 'empresas'}
+              </span>
+            </div>
+
+            <p class="muted mt-4 max-w-xl text-sm leading-snug">{p.data.descripcion}</p>
+
+            <ul class="mt-6">
+              {p.cruces.map((x) => (
+                <li class="border-b border-ink/10">
+                  <a href={x.href} class="flex items-baseline justify-between gap-3 py-3">
+                    <span class="text-sm leading-snug underline-hover">
+                      {x.nombre} en {p.corto}
+                    </span>
+                    <span class="label muted">{nn(x.total)}</span>
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </div>
+        ))}
+      </div>
+    </section>
+  )}
+
+  <!-- ================= 03 · DECLARACIÓN (banda invertida) ================= -->
+  <section class="on-ink mt-24 sm:mt-32">
+    <div class="wrap py-20 sm:py-28">
+      <p class="label muted">[ 03 — Criterio editorial ]</p>
+
+      <p class="display-lg mt-10 max-w-6xl">
+        La seguridad no se<br />contrata <span class="text-signal">a ciegas</span>.
+      </p>
+
+      <div class="mt-16 grid grid-cols-1 gap-x-8 gap-y-12 sm:grid-cols-2 lg:grid-cols-4">
+        {criterios.map((c) => (
+          <div class="rule pt-6">
+            <p class="label text-signal">{c.n}</p>
+            <h3 class="display-md mt-4">{c.t}</h3>
+            <p class="muted mt-3 max-w-xs text-sm leading-snug">{c.d}</p>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= 04 · PROCESO ================= -->
+  <section class="wrap pt-24 sm:pt-32">
+    <div class="flex items-baseline justify-between gap-4">
+      <p class="label">[ 04 — Procedimiento ]</p>
+      <p class="label muted">Tres pasos</p>
+    </div>
+
+    <div class="mt-12 border-b border-ink/20">
+      {proceso.map((p) => (
+        <div class="rule grid grid-cols-12 items-start gap-x-6 gap-y-4 py-10 sm:py-14">
+          <span class="numeral col-span-12 text-signal sm:col-span-3" style="font-size: clamp(3rem, 7vw, 7rem);">
+            {p.n}
+          </span>
+          <h3 class="display-md col-span-12 sm:col-span-4">{p.t}</h3>
+          <p class="col-span-12 max-w-xl text-base leading-snug sm:col-span-5">{p.d}</p>
+        </div>
+      ))}
+    </div>
+  </section>
+
+  <!-- ================= 05 · EMPRESAS ================= -->
+  {empresas.length > 0 && (
+    <section class="wrap pt-24 sm:pt-32">
+      <div class="flex flex-wrap items-baseline justify-between gap-4">
+        <p class="label">[ 05 — Padrón ]</p>
+        <a href="/empresas" class="label underline-hover">Ver padrón completo →</a>
+      </div>
+
+      <h2 class="display-lg mt-8">Empresas<br />en el directorio</h2>
+
+      <div class="mt-14 border-b border-ink/20">
+        {empresas.slice(0, 8).map((e, i) => (
+          <EmpresaRow
+            indice={nn(i + 1)}
+            nombre={e.data.nombre}
+            descripcion={e.data.descripcion}
+            href={hrefEmpresa(e)}
+            categoria={nombreCategoria.get(e.data.categoria)}
+            ciudad={nombreCiudad.get(e.data.ciudad)}
+            verificado={e.data.verificado}
+          />
+        ))}
+      </div>
+    </section>
+  )}
+
+  <!-- ================= 06 · SERVICIOS + 07 · GUÍAS ================= -->
+  <section class="wrap grid grid-cols-12 gap-x-12 gap-y-20 pt-24 sm:pt-32">
+    {servicios.length > 0 && (
+      <div class="col-span-12 lg:col-span-6">
+        <div class="flex items-baseline justify-between gap-4">
+          <p class="label">[ 06 — Servicios ]</p>
+          <a href="/servicios" class="label underline-hover">Todos →</a>
+        </div>
+        <div class="mt-10 border-b border-ink/20">
+          {servicios.slice(0, 5).map((s, i) => (
+            <a href={`/servicios/${s.id}`} class="idx-row flex items-baseline gap-5 py-6">
+              <span class="label shrink-0">{nn(i + 1)}</span>
+              <span class="flex-1">
+                <span class="display-md block">{s.data.titulo}</span>
+                <span class="muted mt-2 block text-sm leading-snug">{s.data.descripcion}</span>
+              </span>
+              <span class="idx-arrow label shrink-0">→</span>
+            </a>
+          ))}
+        </div>
+      </div>
+    )}
+
+    {guias.length > 0 && (
+      <div class="col-span-12 lg:col-span-6">
+        <div class="flex items-baseline justify-between gap-4">
+          <p class="label">[ 07 — Documentación ]</p>
+          <a href="/guias" class="label underline-hover">Todas →</a>
+        </div>
+        <div class="mt-10 border-b border-ink/20">
+          {guias.map((g) => (
+            <a href={`/guias/${g.id}`} class="idx-row flex items-baseline gap-5 py-6">
+              <span class="label muted shrink-0 tabular-nums">{fecha(g.data.fecha)}</span>
+              <span class="flex-1">
+                <span class="display-md block">{g.data.titulo}</span>
+                <span class="muted mt-2 block text-sm leading-snug">{g.data.descripcion}</span>
+              </span>
+              <span class="idx-arrow label shrink-0">→</span>
+            </a>
+          ))}
+        </div>
+      </div>
+    )}
+  </section>
+
+  <!-- ================= 08 · ALTA DE PROVEEDORES ================= -->
+  <section class="wrap pt-24 sm:pt-32">
+    <div class="rule-strong pt-10">
+      <p class="label">[ 08 — Alta de proveedores ]</p>
+
+      <div class="mt-8 grid grid-cols-12 items-end gap-x-6 gap-y-10">
+        <h2 class="display-lg col-span-12 lg:col-span-8">
+          ¿Operas una<br />empresa de<br /><span class="text-signal">seguridad?</span>
+        </h2>
+
+        <div class="col-span-12 lg:col-span-4">
+          <p class="text-base leading-snug">
+            Publica tu ficha en {SITE.name} con servicios, zonas de cobertura y contacto directo.
+            El alta se revisa antes de publicarse: verificamos registro y datos.
+          </p>
+          <div class="mt-8 flex flex-wrap gap-3">
+            <a href="/registrar" class="cta-solid">Solicitar alta →</a>
+            <a href="/contacto" class="cta">Contacto</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</BaseLayout>

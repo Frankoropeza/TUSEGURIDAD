@@ -1,0 +1,227 @@
+---
+import type { GetStaticPaths } from 'astro';
+import BaseLayout from '@layouts/BaseLayout.astro';
+import Cabecera from '@components/Cabecera.astro';
+import EmpresaRow from '@components/EmpresaRow.astro';
+import Relacionados from '@components/Relacionados.astro';
+import Foto from '@components/Foto.astro';
+import { tieneFotos, fotoPara } from '@lib/imagenes';
+import { getCollection } from 'astro:content';
+import {
+  cargarDatos,
+  empresasDeRubroEnCiudad,
+  zonasDe,
+  bloqueCruces,
+  bloqueRubros,
+  bloqueCiudades,
+  bloqueServicios,
+  bloqueGuias,
+  hrefEmpresaEn,
+} from '@lib/enlaces';
+
+/**
+ * Página cruzada rubro × plaza.
+ * Solo se generan para rubros activos: un cruce de un rubro "en preparación"
+ * sería una página vacía sin valor para nadie.
+ */
+export const getStaticPaths = (async () => {
+  const [categorias, ciudades] = await Promise.all([
+    getCollection('categorias'),
+    getCollection('ciudades'),
+  ]);
+
+  return categorias
+    .filter((c) => c.data.destacada)
+    .flatMap((categoria) =>
+      ciudades.map((ciudad) => ({
+        params: { id: categoria.id, ciudad: ciudad.id },
+        props: { categoria, ciudad },
+      }))
+    );
+}) satisfies GetStaticPaths;
+
+const { categoria, ciudad } = Astro.props;
+const r = categoria.data;
+const c = ciudad.data;
+
+const d = await cargarDatos();
+const empresas = empresasDeRubroEnCiudad(d, categoria.id, ciudad.id);
+const zonas = [...new Set(empresas.flatMap((e) => zonasDe(e, ciudad.id)))].sort();
+
+const corto = c.nombreCorto ?? c.nombre;
+const titulo = `${r.nombre} en ${c.nombre}`;
+const path = `/categorias/${categoria.id}/${ciudad.id}`;
+const nn = (n: number): string => String(n).padStart(2, '0');
+
+// una foto distinta por plaza, elegida de forma determinista (build reproducible)
+const foto = tieneFotos(categoria.id) ? fotoPara(`${categoria.id}:${ciudad.id}`) : null;
+
+const norm = c.normativa;
+const datosNorm = norm
+  ? ([
+      { k: 'Autoriza', v: norm.autoridad },
+      norm.dependencia && { k: 'Dependencia', v: norm.dependencia },
+      norm.vigencia && { k: 'Vigencia', v: norm.vigencia },
+      norm.modalidades && { k: 'Modalidades', v: `${norm.modalidades} en la ley local` },
+      norm.registro && { k: 'Registro', v: norm.registro },
+    ].filter(Boolean) as { k: string; v: string }[])
+  : [];
+---
+
+<BaseLayout
+  title={titulo}
+  description={`Empresas de ${r.nombre.toLowerCase()} que operan en ${c.nombre}: cobertura declarada, zonas atendidas y qué autoridad las autoriza en esta plaza.`}
+  path={path}
+  pageType="category"
+  breadcrumbs={[
+    { name: 'Inicio', href: '/' },
+    { name: 'Categorías', href: '/categorias' },
+    { name: r.nombre, href: `/categorias/${categoria.id}` },
+    { name: c.nombre, href: path },
+  ]}
+>
+  <Cabecera
+    ruta={[
+      { nombre: 'Inicio', href: '/' },
+      { nombre: 'Categorías', href: '/categorias' },
+      { nombre: r.nombre, href: `/categorias/${categoria.id}` },
+      { nombre: corto },
+    ]}
+    indice={`Rubro × plaza`}
+    meta={c.estado}
+    titulo={titulo}
+    lede={`Proveedores de ${r.nombre.toLowerCase()} con cobertura declarada en ${c.nombre}. Cada ficha indica sus zonas de servicio y sus datos de contacto directo.`}
+    stats={[
+      { k: 'Empresas aquí', v: nn(empresas.length) },
+      { k: 'Zonas cubiertas', v: nn(zonas.length) },
+    ]}
+  />
+
+  {foto && (
+    <section class="wrap pt-14">
+      <div class="foto-banda">
+        <Foto foto={foto} prioridad sizes="(min-width: 1680px) 1600px, 100vw" mono />
+      </div>
+    </section>
+  )}
+
+  <!-- padrón cruzado -->
+  <section class="wrap pt-16 sm:pt-20">
+    <div class="flex flex-wrap items-baseline justify-between gap-4">
+      <p class="label">[ 01 — Padrón ]</p>
+      <a href={`/categorias/${categoria.id}`} class="label underline-hover">
+        Ver el rubro completo →
+      </a>
+    </div>
+
+    <h2 class="display-lg mt-8">{r.nombre}<br />en {corto}</h2>
+
+    {empresas.length > 0 ? (
+      <div class="mt-12 border-b border-ink/20">
+        {empresas.map((e, i) => (
+          <EmpresaRow
+            indice={nn(i + 1)}
+            nombre={e.data.nombre}
+            descripcion={e.data.descripcion}
+            href={hrefEmpresaEn(e, categoria.id, ciudad.id)}
+            categoria={r.nombre}
+            ciudad={corto}
+            verificado={e.data.verificado}
+          />
+        ))}
+      </div>
+    ) : (
+      <div class="rule mt-12 py-14">
+        <p class="display-md">Sin proveedores en esta plaza todavía</p>
+        <p class="muted mt-4 max-w-xl text-base leading-snug">
+          Aún no publicamos empresas de {r.nombre.toLowerCase()} con cobertura en {c.nombre}.
+          Puedes revisar el rubro completo o solicitar tu alta.
+        </p>
+        <div class="mt-8 flex flex-wrap gap-3">
+          <a href={`/categorias/${categoria.id}`} class="cta">Ver el rubro</a>
+          <a href="/registrar" class="cta-solid">Registrar mi empresa →</a>
+        </div>
+      </div>
+    )}
+  </section>
+
+  <!-- zonas cubiertas -->
+  {zonas.length > 0 && (
+    <section class="wrap pt-20 sm:pt-28">
+      <p class="label">[ 02 — Zonas con cobertura ]</p>
+      <h2 class="display-lg mt-8">Dónde operan</h2>
+      <p class="muted mt-6 max-w-2xl text-base leading-snug">
+        Zonas de {c.nombre} declaradas por los proveedores de este rubro.
+      </p>
+      <div class="mt-10 grid grid-cols-2 gap-px border-t border-ink/20 sm:grid-cols-3 lg:grid-cols-4">
+        {zonas.map((z, i) => (
+          <div class="border-b border-r border-ink/10 py-5">
+            <span class="label muted">{nn(i + 1)}</span>
+            <p class="display-sm mt-2">{z}</p>
+          </div>
+        ))}
+      </div>
+    </section>
+  )}
+
+  <!-- normativa local -->
+  {datosNorm.length > 0 && (
+    <section class="on-ink mt-20 sm:mt-28">
+      <div class="wrap py-20 sm:py-28">
+        <p class="label muted">[ 03 — Marco local ]</p>
+        <h2 class="display-lg mt-10 max-w-5xl">
+          Quién autoriza<br />en <span class="text-signal">{corto}</span>
+        </h2>
+
+        <div class="mt-14 grid grid-cols-12 gap-x-10 gap-y-10">
+          <dl class="col-span-12 lg:col-span-6">
+            {datosNorm.map((x) => (
+              <div class="rule grid grid-cols-12 items-baseline gap-4 py-4">
+                <dt class="label col-span-12 sm:col-span-4">{x.k}</dt>
+                <dd class="col-span-12 text-base leading-snug sm:col-span-8">{x.v}</dd>
+              </div>
+            ))}
+          </dl>
+
+          <div class="col-span-12 lg:col-span-5 lg:col-start-8">
+            <p class="text-base leading-snug">
+              El permiso o autorización se otorga por modalidad y por territorio. Si el proveedor
+              atiende también fuera de {corto}, esa operación cruza entidades federativas y entra
+              en el supuesto de la autorización federal, que es un documento adicional.
+            </p>
+            <a href={`/ciudades/${ciudad.id}`} class="label underline-hover mt-6 inline-block text-signal">
+              Ver la plaza completa →
+            </a>
+          </div>
+        </div>
+
+        {c.fuentes.length > 0 && (
+          <div class="rule mt-14 pt-6">
+            <p class="label muted">Fuentes</p>
+            <ul class="mt-4 flex flex-wrap gap-x-8 gap-y-2">
+              {c.fuentes.map((f) => (
+                <li>
+                  <a href={f.url} rel="noopener nofollow" target="_blank" class="label underline-hover">
+                    {f.titulo} ↗
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </div>
+        )}
+      </div>
+    </section>
+  )}
+
+  <Relacionados
+    indice="04"
+    bloques={[
+      bloqueCruces(d, { rubro: categoria.id, titulo: 'Este rubro en otras plazas' }),
+      bloqueCruces(d, { ciudad: ciudad.id, titulo: `Otros rubros en ${corto}` }),
+      bloqueRubros(d, { excluir: categoria.id, titulo: 'Rubros' }),
+      bloqueCiudades(d, { titulo: 'Plazas' }),
+      bloqueServicios(d, { soloRubro: categoria.id, titulo: 'Servicios' }),
+      bloqueGuias(d, { soloRubro: categoria.id, limite: 4, titulo: 'Guías' }),
+    ]}
+  />
+</BaseLayout>

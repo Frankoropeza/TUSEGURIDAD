@@ -1,0 +1,41 @@
+---
+interface Props {
+  indice: string;
+  nombre: string;
+  descripcion: string;
+  href?: string;
+  total?: number;
+  disponible?: boolean;
+}
+const { indice, nombre, descripcion, href, total = 0, disponible = true } = Astro.props;
+const Tag = disponible && href ? 'a' : 'div';
+---
+
+<Tag
+  href={disponible && href ? href : undefined}
+  class:list={[
+    'group grid grid-cols-12 items-baseline gap-x-4 gap-y-3 py-7 sm:py-9',
+    disponible ? 'idx-row' : 'border-t border-ink/20 opacity-40',
+  ]}
+>
+  <span class="label col-span-2 sm:col-span-1">{indice}</span>
+
+  <span class="display-md col-span-10 sm:col-span-5 lg:col-span-4">{nombre}</span>
+
+  <span class="muted col-span-12 max-w-prose text-sm leading-snug sm:col-span-6 lg:col-span-5">
+    {descripcion}
+  </span>
+
+  <span class="col-span-12 flex items-baseline justify-between gap-4 sm:col-span-12 lg:col-span-2 lg:justify-end">
+    {disponible ? (
+      <>
+        <span class="label muted">
+          {total} {total === 1 ? 'empresa' : 'empresas'}
+        </span>
+        <span class="idx-arrow label">→</span>
+      </>
+    ) : (
+      <span class="label">Próximamente</span>
+    )}
+  </span>
+</Tag>

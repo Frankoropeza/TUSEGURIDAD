@@ -1,0 +1,129 @@
+---
+import BaseLayout from '@layouts/BaseLayout.astro';
+import Cabecera from '@components/Cabecera.astro';
+import Relacionados from '@components/Relacionados.astro';
+import { SITE } from '@config/site';
+import { cargarDatos, bloqueRubros, bloqueCiudades, bloqueServicios, bloqueGuias } from '@lib/enlaces';
+
+const d = await cargarDatos();
+const L = SITE.legal;
+const borrador = !L.completo;
+
+// Marcador visible para los datos que faltan: nunca inventar razón social,
+// domicilio ni responsable de datos personales.
+const falta = (v: string, etiqueta: string) => v || `«${etiqueta} — PENDIENTE»`;
+
+const secciones = [
+  {
+    t: 'Responsable de los datos personales',
+    p: [
+      `${falta(L.razonSocial, 'RAZÓN SOCIAL')}, responsable del sitio ${SITE.domain}, es la entidad que recaba y trata los datos personales descritos en este aviso.`,
+      `Domicilio: ${falta(L.domicilio, 'DOMICILIO FISCAL')}. Correo para asuntos de datos personales: ${falta(L.correoDatos, 'CORREO ARCO')}.`,
+    ],
+  },
+  {
+    t: 'Datos que se recaban',
+    p: [
+      'De quien consulta el directorio no se solicita registro ni datos personales para navegar o contactar a un proveedor.',
+      'De quien solicita el alta de una empresa se recaban: nombre de la empresa, nombre de la persona de contacto, correo, teléfono, rubro, ciudad de operación y la información que la propia empresa decida publicar en su ficha.',
+      'De quien escribe por el formulario de contacto se recaban los datos que incluya en su mensaje.',
+    ],
+  },
+  {
+    t: 'Finalidades del tratamiento',
+    p: [
+      'Finalidades primarias: verificar la información de las empresas que solicitan alta, publicar y mantener actualizada su ficha en el directorio, y responder consultas o reportes de datos incorrectos.',
+      'No se realizan finalidades secundarias de mercadotecnia ni prospección comercial sin consentimiento expreso.',
+    ],
+  },
+  {
+    t: 'Transferencias',
+    p: [
+      'No se venden, ceden ni transfieren datos personales a terceros. La información de contacto de una empresa que aparece publicada en su ficha es la que esa empresa autorizó publicar para ser localizada.',
+    ],
+  },
+  {
+    t: 'Derechos ARCO',
+    p: [
+      'Toda persona titular puede ejercer sus derechos de Acceso, Rectificación, Cancelación y Oposición, así como revocar su consentimiento, enviando su solicitud al correo señalado en este aviso.',
+      'La solicitud debe permitir identificar al titular y precisar el derecho que se desea ejercer.',
+    ],
+  },
+  {
+    t: 'Cambios al aviso',
+    p: [
+      `Cualquier modificación a este aviso se publicará en esta misma dirección: ${SITE.url}/aviso-de-privacidad.`,
+    ],
+  },
+];
+---
+
+<BaseLayout
+  title="Aviso de privacidad"
+  description="Aviso de privacidad del directorio: qué datos se recaban, con qué finalidad y cómo ejercer derechos ARCO."
+  path="/aviso-de-privacidad"
+  noindex={borrador}
+  breadcrumbs={[
+    { name: 'Inicio', href: '/' },
+    { name: 'Aviso de privacidad', href: '/aviso-de-privacidad' },
+  ]}
+>
+  <Cabecera
+    ruta={[{ nombre: 'Inicio', href: '/' }, { nombre: 'Aviso de privacidad' }]}
+    indice="Legal"
+    meta={borrador ? 'Borrador — sin datos del titular' : undefined}
+    titulo="Aviso de privacidad"
+  />
+
+  <section class="wrap pt-14 sm:pt-16">
+    {borrador && (
+      <div class="on-ink mb-14 p-8">
+        <p class="label text-signal">Documento incompleto</p>
+        <p class="mt-4 max-w-3xl text-base leading-snug">
+          Este aviso tiene la estructura que exige la ley pero le faltan los datos del titular
+          (razón social, domicilio y correo para derechos ARCO). Se completan en
+          <code class="font-mono text-sm"> src/config/site.ts </code> y se marca
+          <code class="font-mono text-sm"> legal.completo: true</code>. Mientras tanto la página
+          no se indexa.
+        </p>
+      </div>
+    )}
+
+    <div class="grid grid-cols-12 gap-x-12 gap-y-10">
+      <div class="col-span-12 lg:col-span-8">
+        {secciones.map((s, i) => (
+          <div class="rule py-8">
+            <p class="label text-signal">/{String(i + 1).padStart(2, '0')}</p>
+            <h2 class="display-md mt-3">{s.t}</h2>
+            {s.p.map((x) => (
+              <p class="mt-4 max-w-3xl text-base leading-relaxed">{x}</p>
+            ))}
+          </div>
+        ))}
+      </div>
+
+      <aside class="col-span-12 lg:col-span-3 lg:col-start-10">
+        <p class="label">[ Documentos ]</p>
+        <ul class="mt-4 border-b border-ink/20">
+          <li class="rule">
+            <a href="/terminos" class="flex items-baseline justify-between gap-3 py-3">
+              <span class="text-sm underline-hover">Términos de uso</span>
+              <span class="label muted">→</span>
+            </a>
+          </li>
+          <li class="rule">
+            <a href="/contacto" class="flex items-baseline justify-between gap-3 py-3">
+              <span class="text-sm underline-hover">Contacto</span>
+              <span class="label muted">→</span>
+            </a>
+          </li>
+        </ul>
+      </aside>
+    </div>
+  </section>
+
+  <Relacionados
+    indice="01"
+    bloques={[bloqueRubros(d), bloqueCiudades(d), bloqueServicios(d), bloqueGuias(d, { limite: 4 })]}
+  />
+</BaseLayout>

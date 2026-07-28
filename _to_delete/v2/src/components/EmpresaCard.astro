@@ -1,0 +1,43 @@
+---
+interface Props {
+  nombre: string;
+  descripcion: string;
+  href: string;
+  categoria?: string;
+  ciudad?: string;
+  verificado?: boolean;
+  destacado?: boolean;
+  logo?: string;
+}
+const { nombre, descripcion, href, categoria, ciudad, verificado, destacado, logo } = Astro.props;
+---
+
+<article class:list={['card flex flex-col', destacado && 'ring-1 ring-brand-200']}>
+  <div class="flex items-start gap-3">
+    {logo ? (
+      <img src={logo} alt={`Logo de ${nombre}`} width="48" height="48" class="h-12 w-12 rounded-lg object-cover" />
+    ) : (
+      <div class="flex h-12 w-12 items-center justify-center rounded-lg bg-brand-50 text-lg font-bold text-brand-700">
+        {nombre.charAt(0)}
+      </div>
+    )}
+    <div class="min-w-0 flex-1">
+      <h3 class="flex items-center gap-2 text-base font-semibold text-ink-900">
+        <a href={href} class="hover:text-brand-700">{nombre}</a>
+        {verificado && (
+          <span class="badge bg-green-50 text-green-700" title="Empresa verificada">✓ Verificada</span>
+        )}
+      </h3>
+      <p class="mt-0.5 text-xs text-ink-700">
+        {[categoria, ciudad].filter(Boolean).join(' · ')}
+      </p>
+    </div>
+    {destacado && <span class="badge bg-accent-500/10 text-accent-600">Destacada</span>}
+  </div>
+
+  <p class="mt-3 line-clamp-3 flex-1 text-sm text-ink-700">{descripcion}</p>
+
+  <a href={href} class="mt-4 text-sm font-semibold text-brand-600 hover:text-brand-700">
+    Ver ficha →
+  </a>
+</article>

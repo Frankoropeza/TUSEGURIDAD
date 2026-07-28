@@ -1,0 +1,250 @@
+---
+import type { GetStaticPaths } from 'astro';
+import BaseLayout from '@layouts/BaseLayout.astro';
+import Cabecera from '@components/Cabecera.astro';
+import Relacionados from '@components/Relacionados.astro';
+import { getCollection, render } from 'astro:content';
+import {
+  cargarDatos,
+  rubrosDe,
+  ciudadesDe,
+  zonasDe,
+  bloqueCruces,
+  bloqueRubros,
+  bloqueCiudades,
+  bloqueServicios,
+  bloqueGuias,
+  bloqueEmpresas,
+} from '@lib/enlaces';
+
+export const getStaticPaths = (async () => {
+  const empresas = await getCollection('empresas');
+  return empresas.map((empresa) => ({ params: { id: empresa.id }, props: { empresa } }));
+}) satisfies GetStaticPaths;
+
+const { empresa } = Astro.props;
+const e = empresa.data;
+const { Content } = await render(empresa);
+
+const d = await cargarDatos();
+const catPorId = new Map(d.categorias.map((c) => [c.id, c.data.nombre]));
+const ciudadPorId = new Map(d.ciudades.map((c) => [c.id, c.data.nombre]));
+
+const rubros = rubrosDe(empresa);
+const plazas = ciudadesDe(empresa);
+const ciudad = ciudadPorId.get(e.ciudad);
+const rubrosActivos = new Set(d.categorias.filter((c) => c.data.destacada).map((c) => c.id));
+const path = `/empresas/${empresa.id}`;
+const nn = (n: number): string => String(n).padStart(2, '0');
+
+/** wa.me exige el número a 12 dígitos con lada país; los .md guardan el formato legible. */
+const waLink = (n: string): string => {
+  const d = n.replace(/\D/g, '');
+  return `https://wa.me/${d.length === 10 ? `52${d}` : d}`;
+};
+
+// contacto declarado (solo lo que existe — nada inventado)
+const contacto = [
+  e.telefono && { k: 'Teléfono', v: e.telefono, href: `tel:+52${e.telefono.replace(/\D/g, '')}` },
+  e.whatsapp && { k: 'WhatsApp', v: e.whatsapp, href: waLink(e.whatsapp) },
+  e.email && { k: 'Correo', v: e.email, href: `mailto:${e.email}` },
+  e.sitio && {
+    k: 'Sitio web',
+    v: e.sitio.replace(/^https?:\/\//, '').replace(/\/$/, ''),
+    href: e.sitio,
+  },
+].filter(Boolean) as { k: string; v: string; href: string }[];
+
+const ficha = [
+  { k: 'Rubro principal', v: catPorId.get(e.categoria) ?? e.categoria },
+  { k: 'Plazas', v: plazas.map((p) => ciudadPorId.get(p) ?? p).join(' · ') },
+  e.direccion && { k: 'Dirección', v: e.direccion },
+  e.horario && { k: 'Horario', v: e.horario },
+].filter(Boolean) as { k: string; v: string }[];
+
+// zonas agrupadas por plaza — así se ve dónde cubre exactamente en cada una
+const zonasPorPlaza = plazas
+  .map((p) => ({ plaza: p, nombre: ciudadPorId.get(p) ?? p, zonas: zonasDe(empresa, p) }))
+  .filter((x) => x.zonas.length > 0);
+
+// JSON-LD LocalBusiness — sin aggregateRating ni reseñas fabricadas
+const jsonld: Record<string, unknown> = {
+  ...(e.telefono ? { telephone: e.telefono } : {}),
+  ...(e.email ? { email: e.email } : {}),
+  ...(e.sitio ? { sameAs: [e.sitio] } : {}),
+  ...(e.direccion || ciudad
+    ? {
+        address: {
+          '@type': 'PostalAddress',
+          ...(e.direccion ? { streetAddress: e.direccion } : {}),
+          ...(ciudad ? { addressLocality: ciudad } : {}),
+          addressCountry: 'MX',
+        },
+      }
+    : {}),
+  ...(e.horario ? { openingHours: e.horario } : {}),
+};
+---
+
+<BaseLayout
+  title={e.nombre}
+  description={e.descripcion}
+  path={path}
+  pageType="business"
+  jsonld={jsonld}
+  breadcrumbs={[
+    { name: 'Inicio', href: '/' },
+    { name: 'Empresas', href: '/empresas' },
+    { name: e.nombre, href: path },
+  ]}
+>
+  <Cabecera
+    ruta={[
+      { nombre: 'Inicio', href: '/' },
+      { nombre: 'Empresas', href: '/empresas' },
+      { nombre: e.nombre },
+    ]}
+    indice="Ficha de empresa"
+    meta={e.verificado ? 'Verificada' : 'Sin verificar'}
+    titulo={e.nombre}
+    lede={e.descripcion}
+  />
+
+  <!-- ficha de datos + contacto -->
+  <section class="wrap pt-16 sm:pt-20">
+    <div class="grid grid-cols-12 gap-x-12 gap-y-12">
+      <div class="col-span-12 lg:col-span-7">
+        <p class="label">[ 01 — Datos declarados ]</p>
+        <dl class="mt-6 border-b border-ink/20">
+          {ficha.map((f) => (
+            <div class="rule grid grid-cols-12 items-baseline gap-4 py-4">
+              <dt class="label col-span-12 sm:col-span-4">{f.k}</dt>
+              <dd class="col-span-12 text-base leading-snug sm:col-span-8">{f.v}</dd>
+            </div>
+          ))}
+        </dl>
+
+        {zonasPorPlaza.length > 0 && (
+          <>
+            <p class="label mt-14">[ 02 — Cobertura declarada ]</p>
+            <div class="mt-6 border-b border-ink/20">
+              {zonasPorPlaza.map((x) => (
+                <div class="rule grid grid-cols-12 items-baseline gap-4 py-4">
+                  <a href={`/ciudades/${x.plaza}`} class="col-span-12 sm:col-span-4">
+                    <span class="label text-signal underline-hover">{x.nombre} →</span>
+                  </a>
+                  <p class="col-span-12 text-base leading-snug sm:col-span-8">
+                    {x.zonas.join(' · ')}
+                  </p>
+                </div>
+              ))}
+            </div>
+          </>
+        )}
+
+        {e.servicios.length > 0 && (
+          <>
+            <p class="label mt-14">[ 03 — Servicios que declara ]</p>
+            <ul class="mt-6 border-b border-ink/20">
+              {e.servicios.map((s, i) => (
+                <li class="rule flex items-baseline gap-4 py-3.5">
+                  <span class="label muted shrink-0">{nn(i + 1)}</span>
+                  <span class="text-base leading-snug">{s}</span>
+                </li>
+              ))}
+            </ul>
+          </>
+        )}
+
+        <div class="prose-content mt-14">
+          <Content />
+        </div>
+      </div>
+
+      <!-- columna de contacto -->
+      <aside class="col-span-12 lg:col-span-4 lg:col-start-9">
+        <p class="label">[ Contacto ]</p>
+        {contacto.length > 0 ? (
+          <ul class="mt-6 border-b border-ink/20">
+            {contacto.map((c) => (
+              <li class="rule py-3.5">
+                <p class="label muted">{c.k}</p>
+                <a href={c.href} rel="noopener" class="mt-1 block text-base leading-snug underline-hover">
+                  {c.v}
+                </a>
+              </li>
+            ))}
+          </ul>
+        ) : (
+          <div class="rule mt-6 py-6">
+            <p class="muted text-sm leading-snug">
+              Esta empresa aún no publica datos de contacto en el directorio.
+            </p>
+          </div>
+        )}
+
+        <p class="label mt-10">[ Rubros ]</p>
+        <ul class="mt-4 border-b border-ink/20">
+          {rubros.map((r) => (
+            <li class="rule">
+              <a href={`/categorias/${r}`} class="flex items-baseline justify-between gap-3 py-3">
+                <span class="text-sm leading-snug underline-hover">{catPorId.get(r) ?? r}</span>
+                <span class="label muted">→</span>
+              </a>
+            </li>
+          ))}
+        </ul>
+
+        <p class="label mt-10">[ Plazas ]</p>
+        <ul class="mt-4 border-b border-ink/20">
+          {plazas.map((p) => (
+            <li class="rule">
+              <a href={`/ciudades/${p}`} class="flex items-baseline justify-between gap-3 py-3">
+                <span class="text-sm leading-snug underline-hover">{ciudadPorId.get(p) ?? p}</span>
+                <span class="label muted">→</span>
+              </a>
+            </li>
+          ))}
+        </ul>
+
+        <!-- cruces rubro × plaza donde aparece esta empresa -->
+        <p class="label mt-10">[ Aparece en ]</p>
+        <ul class="mt-4 border-b border-ink/20">
+          {rubros.filter((r) => rubrosActivos.has(r)).flatMap((r) =>
+            plazas.map((p) => (
+              <li class="rule">
+                <a href={`/categorias/${r}/${p}`} class="flex items-baseline justify-between gap-3 py-3">
+                  <span class="text-sm leading-snug underline-hover">
+                    {catPorId.get(r)} en {ciudadPorId.get(p)}
+                  </span>
+                  <span class="label muted">→</span>
+                </a>
+              </li>
+            ))
+          )}
+        </ul>
+
+        <div class="rule mt-10 pt-6">
+          <p class="muted text-sm leading-snug">
+            Los datos los declara la empresa. Si detectas información incorrecta, avísanos.
+          </p>
+          <a href="/contacto" class="label underline-hover mt-4 inline-block">Reportar un dato →</a>
+        </div>
+      </aside>
+    </div>
+  </section>
+
+  <Relacionados
+    indice="04"
+    titulo="Seguir explorando"
+    bloques={[
+      bloqueCruces(d, { rubro: e.categoria, titulo: 'Este rubro por plaza' }),
+      bloqueEmpresas(d, { excluir: empresa.id, rubro: e.categoria, titulo: 'Mismo rubro', limite: 5 }),
+      bloqueEmpresas(d, { excluir: empresa.id, ciudad: e.ciudad, titulo: 'Misma ciudad', limite: 5 }),
+      bloqueRubros(d, { titulo: 'Otros rubros' }),
+      bloqueGuias(d, { soloRubro: e.categoria, limite: 4, titulo: 'Guías del rubro' }),
+      bloqueServicios(d, { soloRubro: e.categoria, titulo: 'Servicios' }),
+      bloqueCiudades(d, { excluir: e.ciudad, titulo: 'Otras ciudades' }),
+    ]}
+  />
+</BaseLayout>

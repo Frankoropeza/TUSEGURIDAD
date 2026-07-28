@@ -1,0 +1,100 @@
+---
+import BaseLayout from '@layouts/BaseLayout.astro';
+import Cabecera from '@components/Cabecera.astro';
+import EmpresaRow from '@components/EmpresaRow.astro';
+import Relacionados from '@components/Relacionados.astro';
+import {
+  cargarDatos,
+  bloqueRubros,
+  bloqueCiudades,
+  bloqueServicios,
+  bloqueGuias,
+  hrefEmpresa,
+} from '@lib/enlaces';
+
+const d = await cargarDatos();
+const nombreCategoria = new Map(d.categorias.map((c) => [c.id, c.data.nombre]));
+const nombreCiudad = new Map(d.ciudades.map((c) => [c.id, c.data.nombre]));
+
+const verificadas = d.empresas.filter((e) => e.data.verificado).length;
+const nn = (n: number): string => String(n).padStart(2, '0');
+---
+
+<BaseLayout
+  title="Padrón de empresas"
+  description="Padrón de empresas de seguridad publicadas en el directorio, con rubro, ciudad y estado de verificación."
+  path="/empresas"
+  pageType="itemlist"
+  breadcrumbs={[
+    { name: 'Inicio', href: '/' },
+    { name: 'Empresas', href: '/empresas' },
+  ]}
+>
+  <Cabecera
+    ruta={[{ nombre: 'Inicio', href: '/' }, { nombre: 'Empresas' }]}
+    indice="Padrón"
+    meta={`${nn(d.empresas.length)} publicadas · ${nn(verificadas)} verificadas`}
+    titulo="Padrón"
+    lede="Todas las empresas publicadas en el directorio. Publicamos una ficha solo cuando podemos confirmar registro y datos de contacto; las verificadas llevan marca."
+    stats={[
+      { k: 'Empresas', v: nn(d.empresas.length) },
+      { k: 'Verificadas', v: nn(verificadas) },
+      { k: 'Rubros', v: nn(d.categorias.filter((c) => c.data.destacada).length) },
+    ]}
+  />
+
+  <section class="wrap pt-16 sm:pt-20">
+    {d.empresas.length > 0 ? (
+      <div class="border-b border-ink/20">
+        {d.empresas.map((e, i) => (
+          <EmpresaRow
+            indice={nn(i + 1)}
+            nombre={e.data.nombre}
+            descripcion={e.data.descripcion}
+            href={hrefEmpresa(e)}
+            categoria={nombreCategoria.get(e.data.categoria)}
+            ciudad={nombreCiudad.get(e.data.ciudad)}
+            verificado={e.data.verificado}
+          />
+        ))}
+      </div>
+    ) : (
+      <div class="rule py-14">
+        <p class="display-md">Padrón en construcción</p>
+        <p class="muted mt-4 max-w-xl text-base leading-snug">
+          Estamos verificando a los primeros proveedores. Si operas una empresa de seguridad,
+          puedes solicitar tu alta.
+        </p>
+        <a href="/registrar" class="cta-solid mt-8">Registrar mi empresa →</a>
+      </div>
+    )}
+  </section>
+
+  <Relacionados
+    indice="01"
+    bloques={[
+      bloqueRubros(d),
+      bloqueCiudades(d),
+      bloqueServicios(d),
+      bloqueGuias(d, { limite: 5 }),
+    ]}
+  />
+
+  <section class="wrap pt-20 sm:pt-28">
+    <div class="rule-strong grid grid-cols-12 items-end gap-x-6 gap-y-10 pt-10">
+      <h2 class="display-lg col-span-12 lg:col-span-7">
+        ¿Falta tu<br /><span class="text-signal">empresa?</span>
+      </h2>
+      <div class="col-span-12 lg:col-span-4 lg:col-start-9">
+        <p class="text-base leading-snug">
+          Solicita tu alta en el padrón. Revisamos autorización, modalidad y datos de contacto
+          antes de publicar la ficha.
+        </p>
+        <div class="mt-8 flex flex-wrap gap-3">
+          <a href="/registrar" class="cta-solid">Solicitar alta →</a>
+          <a href="/contacto" class="cta">Contacto</a>
+        </div>
+      </div>
+    </div>
+  </section>
+</BaseLayout>

@@ -1,0 +1,91 @@
+---
+import Foto from '@components/Foto.astro';
+import { foto as tomarFoto, fotoPara, tieneFotos } from '@lib/imagenes';
+
+interface Props {
+  indice: string;
+  nombre: string;
+  descripcion: string;
+  href: string;
+  /** slug del grupo de fotografía declarado en la ficha */
+  fotoSlug?: string;
+  /** semilla para elegir foto cuando la ficha no declara una */
+  semilla: string;
+  rubro?: string;
+  rubroSlug?: string;
+  plazas?: string[];
+  servicios?: number;
+  zonas?: number;
+  verificado?: boolean;
+  demo?: boolean;
+  sizes?: string;
+}
+
+const {
+  indice,
+  nombre,
+  descripcion,
+  href,
+  fotoSlug,
+  semilla,
+  rubro,
+  rubroSlug,
+  plazas = [],
+  servicios = 0,
+  zonas = 0,
+  verificado = false,
+  demo = false,
+  sizes = '(min-width: 1280px) 30vw, (min-width: 640px) 45vw, 92vw',
+} = Astro.props;
+
+const hayFotos = !rubroSlug || tieneFotos(rubroSlug);
+const imagen = hayFotos
+  ? fotoSlug
+    ? tomarFoto(fotoSlug, (parseInt(indice, 10) || 1))
+    : fotoPara(semilla)
+  : null;
+---
+
+<article class="tarjeta group flex h-full flex-col">
+  <a href={href} class="flex h-full flex-col">
+    <!-- lámina -->
+    <div class="tarjeta-lamina">
+      {imagen ? (
+        <Foto foto={imagen} sizes={sizes} mono />
+      ) : (
+        <div class="flex h-full w-full items-center justify-center bg-bone">
+          <span class="label muted">Sin fotografía</span>
+        </div>
+      )}
+
+      <span class="absolute left-0 top-0 flex items-center gap-2 bg-paper px-2.5 py-1.5">
+        <span class="label tabular-nums">{indice}</span>
+      </span>
+
+      <span class="absolute right-0 top-0 flex flex-col items-end">
+        {demo && <span class="label bg-ink px-2.5 py-1.5 text-paper">Demo</span>}
+        {verificado && (
+          <span class="label bg-signal px-2.5 py-1.5 text-paper">Verificada</span>
+        )}
+      </span>
+    </div>
+
+    <!-- identidad -->
+    <div class="flex flex-1 flex-col border-t border-ink px-4 pb-3 pt-3.5">
+      <h3 class="display-sm">{nombre}</h3>
+      <p class="label muted mt-2">
+        {[rubro, plazas.join(' · ')].filter(Boolean).join(' / ')}
+      </p>
+      <p class="muted mt-3 line-clamp-3 text-[13px] leading-[1.45]">{descripcion}</p>
+      <span class="flex-1"></span>
+    </div>
+
+    <!-- pie de datos -->
+    <div class="flex items-center justify-between gap-3 border-t border-ink/15 px-4 py-2.5">
+      <span class="label muted tabular-nums">
+        {String(servicios).padStart(2, '0')} servicios · {String(zonas).padStart(2, '0')} zonas
+      </span>
+      <span class="label tarjeta-flecha">→</span>
+    </div>
+  </a>
+</article>

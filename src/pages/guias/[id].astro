@@ -1,0 +1,138 @@
+---
+import type { GetStaticPaths } from 'astro';
+import BaseLayout from '@layouts/BaseLayout.astro';
+import Cabecera from '@components/Cabecera.astro';
+import Relacionados from '@components/Relacionados.astro';
+import { getCollection, render } from 'astro:content';
+import {
+  cargarDatos,
+  bloqueRubros,
+  bloqueCiudades,
+  bloqueServicios,
+  bloqueGuias,
+  bloqueEmpresas,
+} from '@lib/enlaces';
+
+export const getStaticPaths = (async () => {
+  const guias = await getCollection('guias');
+  return guias
+    .filter((g) => !g.data.draft)
+    .map((guia) => ({ params: { id: guia.id }, props: { guia } }));
+}) satisfies GetStaticPaths;
+
+const { guia } = Astro.props;
+const g = guia.data;
+const { Content } = await render(guia);
+
+const d = await cargarDatos();
+const catPorId = new Map(d.categorias.map((c) => [c.id, c.data.nombre]));
+
+const path = `/guias/${guia.id}`;
+const nn = (n: number): string => String(n).padStart(2, '0');
+const iso = (x: Date): string => x.toISOString().slice(0, 10);
+const legible = (x: Date): string =>
+  x.toLocaleDateString('es-MX', { year: 'numeric', month: 'long', day: 'numeric' });
+
+const rubroPrincipal = g.rubros[0];
+---
+
+<BaseLayout
+  title={g.titulo}
+  description={g.descripcion}
+  path={path}
+  pageType="article"
+  jsonld={{
+    datePublished: iso(g.fecha),
+    ...(g.actualizado ? { dateModified: iso(g.actualizado) } : {}),
+    author: { '@type': 'Organization', name: g.autor },
+    ...(g.rubros.length > 0
+      ? { about: g.rubros.map((r) => ({ '@type': 'Thing', name: catPorId.get(r) ?? r })) }
+      : {}),
+  }}
+  breadcrumbs={[
+    { name: 'Inicio', href: '/' },
+    { name: 'Guías', href: '/guias' },
+    { name: g.titulo, href: path },
+  ]}
+>
+  <Cabecera
+    ruta={[
+      { nombre: 'Inicio', href: '/' },
+      { nombre: 'Guías', href: '/guias' },
+      { nombre: g.titulo },
+    ]}
+    indice="Guía"
+    meta={legible(g.fecha)}
+    titulo={g.titulo}
+    lede={g.descripcion}
+  />
+
+  <section class="wrap pt-16 sm:pt-20">
+    <div class="grid grid-cols-12 gap-x-12 gap-y-12">
+      <article class="col-span-12 lg:col-span-8">
+        <div class="prose-content">
+          <Content />
+        </div>
+      </article>
+
+      <aside class="col-span-12 lg:col-span-3 lg:col-start-10">
+        <p class="label">[ Ficha ]</p>
+        <dl class="mt-4 border-b border-ink/20">
+          <div class="rule flex items-baseline justify-between gap-3 py-3">
+            <dt class="label muted">Publicado</dt>
+            <dd class="label">{legible(g.fecha)}</dd>
+          </div>
+          {g.actualizado && (
+            <div class="rule flex items-baseline justify-between gap-3 py-3">
+              <dt class="label muted">Actualizado</dt>
+              <dd class="label">{legible(g.actualizado)}</dd>
+            </div>
+          )}
+          <div class="rule flex items-baseline justify-between gap-3 py-3">
+            <dt class="label muted">Autor</dt>
+            <dd class="label">{g.autor}</dd>
+          </div>
+        </dl>
+
+        {g.rubros.length > 0 && (
+          <>
+            <p class="label mt-10">[ Rubros tratados ]</p>
+            <ul class="mt-4 border-b border-ink/20">
+              {g.rubros.map((r) => (
+                <li class="rule">
+                  <a href={`/categorias/${r}`} class="flex items-baseline justify-between gap-3 py-3">
+                    <span class="text-sm leading-snug underline-hover">{catPorId.get(r) ?? r}</span>
+                    <span class="label muted">→</span>
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </>
+        )}
+
+        {g.tags.length > 0 && (
+          <>
+            <p class="label mt-10">[ Temas ]</p>
+            <p class="label muted mt-3 leading-relaxed">{g.tags.join(' · ')}</p>
+          </>
+        )}
+
+        <div class="rule mt-10 pt-6">
+          <p class="text-sm leading-snug">¿Buscas proveedor? Consulta el padrón del directorio.</p>
+          <a href="/empresas" class="cta-solid mt-6">Ver padrón →</a>
+        </div>
+      </aside>
+    </div>
+  </section>
+
+  <Relacionados
+    indice="02"
+    bloques={[
+      bloqueGuias(d, { excluir: guia.id, limite: 5, titulo: 'Otras guías' }),
+      bloqueRubros(d, { titulo: 'Rubros' }),
+      bloqueEmpresas(d, { rubro: rubroPrincipal, limite: 5, titulo: 'Proveedores' }),
+      bloqueServicios(d, { titulo: 'Servicios' }),
+      bloqueCiudades(d, { titulo: 'Ciudades' }),
+    ]}
+  />
+</BaseLayout>

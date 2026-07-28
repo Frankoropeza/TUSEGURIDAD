@@ -1,0 +1,130 @@
+---
+import BaseLayout from '@layouts/BaseLayout.astro';
+import Cabecera from '@components/Cabecera.astro';
+import Relacionados from '@components/Relacionados.astro';
+import { SITE } from '@config/site';
+import { cargarDatos, bloqueRubros, bloqueCiudades, bloqueServicios, bloqueGuias } from '@lib/enlaces';
+
+const d = await cargarDatos();
+const L = SITE.legal;
+const borrador = !L.completo;
+const falta = (v: string, etiqueta: string) => v || `«${etiqueta} — PENDIENTE»`;
+
+const secciones = [
+  {
+    t: 'Qué es este sitio',
+    p: [
+      `${SITE.name} es un directorio de consulta que reúne información de empresas que prestan servicios de seguridad en México. Operado por ${falta(L.razonSocial, 'RAZÓN SOCIAL')}.`,
+      'No somos una empresa de seguridad, no prestamos los servicios listados ni participamos en la contratación entre el usuario y el proveedor.',
+    ],
+  },
+  {
+    t: 'Naturaleza de la información publicada',
+    p: [
+      'Los datos de cada ficha los declara la propia empresa. Cuando marcamos una ficha como verificada significa que confirmamos la existencia de su registro y que sus datos de contacto responden, no que avalemos la calidad de su servicio.',
+      'No publicamos calificaciones ni reseñas que no provengan de una fuente verificable.',
+    ],
+  },
+  {
+    t: 'Ausencia de relación comercial',
+    p: [
+      'El contacto entre usuario y proveedor es directo. No cobramos comisión por ese contacto ni intermediamos la negociación, el contrato o el pago.',
+      'Cualquier acuerdo, contrato o controversia derivada de la contratación es exclusivamente entre el usuario y la empresa proveedora.',
+    ],
+  },
+  {
+    t: 'Limitación de responsabilidad',
+    p: [
+      'La información se ofrece con fines de consulta. Aunque procuramos mantenerla correcta y actualizada, puede contener errores o quedar desfasada.',
+      'El usuario es responsable de verificar directamente con el proveedor su autorización vigente, la modalidad amparada y las condiciones del servicio antes de contratar.',
+      'El contenido de las guías es material informativo de carácter general y no constituye asesoría legal.',
+    ],
+  },
+  {
+    t: 'Titularidad de la ficha',
+    p: [
+      'Una empresa listada puede solicitar la edición o retiro de su ficha escribiendo desde un correo institucional que permita acreditar su titularidad.',
+      'Nos reservamos el derecho de no publicar o de retirar una ficha cuando no podamos confirmar la información declarada.',
+    ],
+  },
+  {
+    t: 'Enlaces a terceros',
+    p: [
+      'El sitio puede enlazar a documentos oficiales y a los sitios de las empresas listadas. No controlamos ni respondemos por el contenido de esos destinos.',
+    ],
+  },
+  {
+    t: 'Cambios a estos términos',
+    p: [`Cualquier modificación se publicará en esta misma dirección: ${SITE.url}/terminos.`],
+  },
+];
+---
+
+<BaseLayout
+  title="Términos de uso"
+  description="Términos de uso del directorio: naturaleza de la información publicada, ausencia de relación comercial y limitación de responsabilidad."
+  path="/terminos"
+  noindex={borrador}
+  breadcrumbs={[
+    { name: 'Inicio', href: '/' },
+    { name: 'Términos', href: '/terminos' },
+  ]}
+>
+  <Cabecera
+    ruta={[{ nombre: 'Inicio', href: '/' }, { nombre: 'Términos' }]}
+    indice="Legal"
+    meta={borrador ? 'Borrador — sin datos del titular' : undefined}
+    titulo="Términos de uso"
+  />
+
+  <section class="wrap pt-14 sm:pt-16">
+    {borrador && (
+      <div class="on-ink mb-14 p-8">
+        <p class="label text-signal">Documento incompleto</p>
+        <p class="mt-4 max-w-3xl text-base leading-snug">
+          Falta la razón social del titular del sitio. Se completa en
+          <code class="font-mono text-sm"> src/config/site.ts </code> y se marca
+          <code class="font-mono text-sm"> legal.completo: true</code>. Mientras tanto la página
+          no se indexa.
+        </p>
+      </div>
+    )}
+
+    <div class="grid grid-cols-12 gap-x-12 gap-y-10">
+      <div class="col-span-12 lg:col-span-8">
+        {secciones.map((s, i) => (
+          <div class="rule py-8">
+            <p class="label text-signal">/{String(i + 1).padStart(2, '0')}</p>
+            <h2 class="display-md mt-3">{s.t}</h2>
+            {s.p.map((x) => (
+              <p class="mt-4 max-w-3xl text-base leading-relaxed">{x}</p>
+            ))}
+          </div>
+        ))}
+      </div>
+
+      <aside class="col-span-12 lg:col-span-3 lg:col-start-10">
+        <p class="label">[ Documentos ]</p>
+        <ul class="mt-4 border-b border-ink/20">
+          <li class="rule">
+            <a href="/aviso-de-privacidad" class="flex items-baseline justify-between gap-3 py-3">
+              <span class="text-sm underline-hover">Aviso de privacidad</span>
+              <span class="label muted">→</span>
+            </a>
+          </li>
+          <li class="rule">
+            <a href="/contacto" class="flex items-baseline justify-between gap-3 py-3">
+              <span class="text-sm underline-hover">Contacto</span>
+              <span class="label muted">→</span>
+            </a>
+          </li>
+        </ul>
+      </aside>
+    </div>
+  </section>
+
+  <Relacionados
+    indice="01"
+    bloques={[bloqueRubros(d), bloqueCiudades(d), bloqueServicios(d), bloqueGuias(d, { limite: 4 })]}
+  />
+</BaseLayout>

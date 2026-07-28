@@ -1,0 +1,73 @@
+---
+import BaseLayout from '@layouts/BaseLayout.astro';
+import Cabecera from '@components/Cabecera.astro';
+import Relacionados from '@components/Relacionados.astro';
+import { cargarDatos, bloqueRubros, bloqueCiudades, bloqueServicios, bloqueEmpresas } from '@lib/enlaces';
+
+const d = await cargarDatos();
+const catPorId = new Map(d.categorias.map((c) => [c.id, c.data.nombre]));
+const nn = (n: number): string => String(n).padStart(2, '0');
+const fecha = (x: Date): string =>
+  `${x.getFullYear()}.${nn(x.getMonth() + 1)}.${nn(x.getDate())}`;
+---
+
+<BaseLayout
+  title="Guías"
+  description="Guías prácticas para contratar servicios de seguridad con criterio: permisos, normativa, verificación y señales de alerta."
+  path="/guias"
+  pageType="itemlist"
+  breadcrumbs={[
+    { name: 'Inicio', href: '/' },
+    { name: 'Guías', href: '/guias' },
+  ]}
+>
+  <Cabecera
+    ruta={[{ nombre: 'Inicio', href: '/' }, { nombre: 'Guías' }]}
+    indice="Documentación"
+    meta={`${nn(d.guias.length)} ${d.guias.length === 1 ? 'publicada' : 'publicadas'}`}
+    titulo="Guías"
+    lede="Material de consulta para contratar seguridad con criterio: qué permisos exigir, cómo verificarlos y qué señales indican que conviene buscar otro proveedor."
+    stats={[{ k: 'Publicadas', v: nn(d.guias.length) }]}
+  />
+
+  <section class="wrap pt-16 sm:pt-20">
+    {d.guias.length > 0 ? (
+      <div class="border-b border-ink/20">
+        {d.guias.map((g, i) => (
+          <a
+            href={`/guias/${g.id}`}
+            class="idx-row grid grid-cols-12 items-baseline gap-x-4 gap-y-3 py-7 sm:py-9"
+          >
+            <span class="label muted col-span-4 tabular-nums sm:col-span-1">
+              {fecha(g.data.fecha)}
+            </span>
+            <span class="display-md col-span-8 sm:col-span-5">{g.data.titulo}</span>
+            <span class="muted col-span-12 text-sm leading-snug sm:col-span-4">
+              {g.data.descripcion}
+            </span>
+            <span class="col-span-12 flex items-baseline justify-between gap-4 sm:col-span-2 sm:justify-end">
+              {g.data.rubros.length > 0 && (
+                <span class="label muted">{catPorId.get(g.data.rubros[0]!)}</span>
+              )}
+              <span class="idx-arrow label">→</span>
+            </span>
+          </a>
+        ))}
+      </div>
+    ) : (
+      <div class="rule py-14">
+        <p class="display-md">Sin guías publicadas todavía</p>
+      </div>
+    )}
+  </section>
+
+  <Relacionados
+    indice="01"
+    bloques={[
+      bloqueRubros(d),
+      bloqueEmpresas(d, { limite: 5 }),
+      bloqueServicios(d),
+      bloqueCiudades(d),
+    ]}
+  />
+</BaseLayout>

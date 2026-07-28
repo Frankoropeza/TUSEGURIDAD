@@ -1,0 +1,51 @@
+---
+interface Props {
+  ruta: { nombre: string; href?: string }[];
+  indice?: string;
+  meta?: string;
+  titulo: string;
+  lede?: string;
+  stats?: { k: string; v: string }[];
+}
+const { ruta, indice, meta, titulo, lede, stats = [] } = Astro.props;
+---
+
+<section class="wrap pt-10 sm:pt-14">
+  <nav class="label flex flex-wrap items-center gap-2" aria-label="Ruta">
+    {ruta.map((r, i) => (
+      <>
+        {i > 0 && <span class="text-ink/30">/</span>}
+        {r.href ? (
+          <a href={r.href} class="underline-hover">{r.nombre}</a>
+        ) : (
+          <span class="text-signal">{r.nombre}</span>
+        )}
+      </>
+    ))}
+  </nav>
+
+  {(indice || meta) && (
+    <div class="mt-10 flex flex-wrap items-baseline justify-between gap-4">
+      <p class="label">{indice ? `[ ${indice} ]` : ''}</p>
+      {meta && <p class="label muted">{meta}</p>}
+    </div>
+  )}
+
+  <h1 class="display-xl mt-6">{titulo}</h1>
+
+  {(lede || stats.length > 0) && (
+    <div class="rule mt-10 grid grid-cols-12 gap-x-6 gap-y-8 pt-8">
+      {lede && <p class="lede col-span-12 max-w-3xl lg:col-span-7">{lede}</p>}
+      {stats.length > 0 && (
+        <dl class="col-span-12 lg:col-span-4 lg:col-start-9">
+          {stats.map((s) => (
+            <div class="rule flex items-baseline justify-between gap-4 py-3">
+              <dt class="label">{s.k}</dt>
+              <dd class="numeral text-2xl">{s.v}</dd>
+            </div>
+          ))}
+        </dl>
+      )}
+    </div>
+  )}
+</section>

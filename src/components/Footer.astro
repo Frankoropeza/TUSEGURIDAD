@@ -1,0 +1,78 @@
+---
+import { SITE } from '@config/site';
+
+const year = new Date().getFullYear();
+const socials = Object.entries(SITE.social).filter(([, v]) => Boolean(v));
+---
+
+<footer class="on-ink mt-24">
+  <!-- wordmark a sangre -->
+  <div class="wrap pt-16">
+    <p class="display w-full text-signal" style="font-size: clamp(2.5rem, 11.4vw, 13rem);">
+      {SITE.name}
+    </p>
+  </div>
+
+  <div class="wrap">
+    <div class="rule mt-10 grid gap-10 pt-10 sm:grid-cols-2 lg:grid-cols-4">
+      <div>
+        <p class="label muted">Qué es</p>
+        <p class="mt-4 max-w-xs text-sm leading-snug">
+          {SITE.tagline}. Consulta libre, contacto directo con cada proveedor.
+        </p>
+      </div>
+
+      <div>
+        <p class="label muted">Explorar</p>
+        <ul class="mt-4 space-y-2">
+          {SITE.nav.map((item) => (
+            <li>
+              <a href={item.href} class="label underline-hover">{item.label}</a>
+            </li>
+          ))}
+        </ul>
+      </div>
+
+      <div>
+        <p class="label muted">Sitio</p>
+        <ul class="mt-4 space-y-2">
+          {SITE.navFooter.map((item) => (
+            <li>
+              <a href={item.href} class="label underline-hover">{item.label}</a>
+            </li>
+          ))}
+        </ul>
+      </div>
+
+      <div>
+        <p class="label muted">Contacto</p>
+        <ul class="mt-4 space-y-2">
+          {SITE.contacto.email && (
+            <li>
+              <a href={`mailto:${SITE.contacto.email}`} class="label underline-hover">
+                {SITE.contacto.email}
+              </a>
+            </li>
+          )}
+          {SITE.contacto.telefono && (
+            <li>
+              <a href={`tel:${SITE.contacto.telefono}`} class="label underline-hover">
+                {SITE.contacto.telefono}
+              </a>
+            </li>
+          )}
+          {socials.map(([name, url]) => (
+            <li><a href={url} rel="noopener" class="label underline-hover">{name}</a></li>
+          ))}
+        </ul>
+      </div>
+    </div>
+
+    <!-- colofón -->
+    <div class="rule mt-14 flex flex-col gap-2 py-6 sm:flex-row sm:items-center sm:justify-between">
+      <p class="label muted">© {year} {SITE.legalName}</p>
+      <p class="label muted">{SITE.domain}</p>
+      <p class="label muted">Hecho en México</p>
+    </div>
+  </div>
+</footer>

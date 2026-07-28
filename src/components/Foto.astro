@@ -1,0 +1,35 @@
+---
+import type { Foto } from '@lib/imagenes';
+
+interface Props {
+  foto: Foto;
+  /** ancho de presentación aproximado, para que el navegador elija variante */
+  sizes?: string;
+  /** la primera imagen visible del documento no debe ir en lazy */
+  prioridad?: boolean;
+  class?: string;
+  /** tratamiento monocromo, coherente con el sistema editorial */
+  mono?: boolean;
+}
+
+const {
+  foto,
+  sizes = '(min-width: 1024px) 50vw, 100vw',
+  prioridad = false,
+  class: clase = '',
+  mono = false,
+} = Astro.props;
+---
+
+<img
+  src={foto.src}
+  srcset={foto.srcset}
+  sizes={sizes}
+  alt={foto.alt}
+  width={foto.width}
+  height={foto.height}
+  loading={prioridad ? 'eager' : 'lazy'}
+  decoding={prioridad ? 'sync' : 'async'}
+  fetchpriority={prioridad ? 'high' : undefined}
+  class:list={['block h-full w-full object-cover', mono && 'foto-mono', clase]}
+/>

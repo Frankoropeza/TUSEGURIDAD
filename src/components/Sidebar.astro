@@ -1,0 +1,166 @@
+---
+
+import { cargarDatos, conteoPorRubro, conteoPorCiudad } from '@lib/enlaces';
+
+const d = await cargarDatos();
+const porRubro = conteoPorRubro(d);
+const porCiudad = conteoPorCiudad(d);
+
+const ruta = Astro.url.pathname.replace(/\/$/, '') || '/';
+const activo = (href: string) => ruta === href;
+const dentro = (base: string) => ruta === base || ruta.startsWith(`${base}/`);
+
+/** Sección del sitio en la que está el visitante. */
+const SECCIONES = [
+  { base: '/categorias', nombre: 'Rubros' },
+  { base: '/ciudades', nombre: 'Estados' },
+  { base: '/empresas', nombre: 'Padrón' },
+  { base: '/servicios', nombre: 'Servicios' },
+  { base: '/guias', nombre: 'Guías' },
+  { base: '/registrar', nombre: 'Alta' },
+  { base: '/contacto', nombre: 'Contacto' },
+];
+const seccionActual = SECCIONES.find((s) => dentro(s.base));
+
+const rubros = d.categorias;
+const conPadron = d.ciudades.filter((c) => (porCiudad.get(c.id) ?? 0) > 0);
+const plazas = [...d.ciudades]
+  .sort(
+    (a, b) => (porCiudad.get(b.id) ?? 0) - (porCiudad.get(a.id) ?? 0) || a.data.orden - b.data.orden
+  )
+  .slice(0, 3);
+
+const enlaces = [
+  { l: 'Padrón', h: '/empresas' },
+  { l: 'Servicios', h: '/servicios' },
+  { l: 'Guías', h: '/guias' },
+  { l: 'Contacto', h: '/contacto' },
+];
+
+const nn = (n: number): string => String(n).padStart(2, '0');
+---
+
+{/* A 1024px la columna de 3/12 es tan angosta que los nombres de rubro saltan
+    de línea y la barra deja de caber en pantalla. Se ensancha a 4/12 en lg y
+    vuelve a 3/12 en xl, donde ya hay espacio de sobra. */}
+<aside class="col-span-12 lg:col-span-4 lg:border-l lg:border-ink/15 lg:pl-8 xl:col-span-3">
+  <div class="lg:sticky lg:top-8">
+    <!-- dónde estoy -->
+    <div class="flex items-baseline justify-between gap-2">
+      <p class="label text-signal">[ Índice ]</p>
+      {seccionActual && <p class="label muted">{seccionActual.nombre}</p>}
+    </div>
+
+    <!-- rubros -->
+    <nav class="mt-5" aria-label="Rubros">
+      <div class="rule-strong flex items-baseline justify-between gap-2 pt-2.5">
+        <p class="label">Rubros</p>
+        <p class="label muted tabular-nums">{nn(rubros.length)}</p>
+      </div>
+      <ul>
+        {rubros.map((c, i) => {
+          const aqui = dentro(`/categorias/${c.id}`);
+          return (
+            <li>
+              <a
+                href={`/categorias/${c.id}`}
+                aria-current={aqui ? 'page' : undefined}
+                class:list={[
+                  'group flex items-baseline gap-2.5 border-b border-ink/10 py-[6px]',
+                  aqui ? 'text-signal' : 'hover:text-signal',
+                ]}
+              >
+                <span class:list={['label tabular-nums', aqui ? 'text-signal' : 'text-ink/35']}>
+                  {nn(i + 1)}
+                </span>
+                <span class="flex-1 text-[13px] leading-[1.25]">{c.data.nombre}</span>
+                <span
+                  class:list={[
+                    'label tabular-nums shrink-0',
+                    c.data.destacada ? 'muted' : 'text-ink/25',
+                  ]}
+                >
+                  {c.data.destacada ? nn(porRubro.get(c.id) ?? 0) : '··'}
+                </span>
+              </a>
+            </li>
+          );
+        })}
+      </ul>
+    </nav>
+
+    <!-- estados -->
+    <nav class="mt-7" aria-label="Estados">
+      <div class="rule-strong flex items-baseline justify-between gap-2 pt-2.5">
+        <p class="label">Estados</p>
+        <p class="label muted tabular-nums">{nn(d.ciudades.length)}</p>
+      </div>
+      <ul>
+        {plazas.map((c) => {
+          const aqui = dentro(`/ciudades/${c.id}`);
+          const n = porCiudad.get(c.id) ?? 0;
+          return (
+            <li>
+              <a
+                href={`/ciudades/${c.id}`}
+                aria-current={aqui ? 'page' : undefined}
+                class:list={[
+                  'flex items-baseline gap-2.5 border-b border-ink/10 py-[6px]',
+                  aqui ? 'text-signal' : 'hover:text-signal',
+                ]}
+              >
+                <span class="flex-1 text-[13px] leading-[1.25]">
+                  {c.data.nombreCorto ?? c.data.nombre}
+                </span>
+                <span class:list={['label tabular-nums shrink-0', n > 0 ? 'muted' : 'text-ink/25']}>
+                  {nn(n)}
+                </span>
+              </a>
+            </li>
+          );
+        })}
+      </ul>
+      <a href="/ciudades" class="label underline-hover muted mt-2.5 inline-block">
+        Ver las {d.ciudades.length} entidades →
+      </a>
+    </nav>
+
+    <!-- secciones -->
+    <nav class="mt-7" aria-label="Secciones">
+      <div class="rule-strong pt-2.5">
+        <p class="label">Secciones</p>
+      </div>
+      <p class="mt-2.5 text-[13px] leading-[1.5]">
+        {enlaces.map((x, i) => (
+          <>
+            {i > 0 && <span class="text-ink/25"> · </span>}
+            <a
+              href={x.h}
+              aria-current={dentro(x.h) ? 'page' : undefined}
+              class:list={[dentro(x.h) ? 'text-signal' : 'underline-hover hover:text-signal']}
+            >
+              {x.l}
+            </a>
+          </>
+        ))}
+      </p>
+    </nav>
+
+    <!-- alta -->
+    <a
+      href="/registrar"
+      class:list={[
+        'mt-7 flex items-baseline justify-between gap-3 border border-ink px-4 py-3.5',
+        activo('/registrar') ? 'bg-ink text-paper' : 'hover:bg-ink hover:text-paper',
+      ]}
+    >
+      <span class="label">Registrar empresa</span>
+      <span class="label">→</span>
+    </a>
+
+    <p class="label muted mt-4">
+      {nn(d.empresas.length)} {d.empresas.length === 1 ? 'empresa' : 'empresas'} · {nn(conPadron.length)} con padrón
+    </p>
+
+  </div>
+</aside>

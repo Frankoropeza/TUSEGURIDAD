@@ -1,0 +1,196 @@
+---
+import type { GetStaticPaths } from 'astro';
+import BaseLayout from '@layouts/BaseLayout.astro';
+import Cabecera from '@components/Cabecera.astro';
+import EmpresaRow from '@components/EmpresaRow.astro';
+import Relacionados from '@components/Relacionados.astro';
+import { getCollection, render } from 'astro:content';
+import {
+  cargarDatos,
+  empresasDeCiudad,
+  rubrosDe,
+  zonasDe,
+  bloqueCruces,
+  bloqueRubros,
+  bloqueCiudades,
+  bloqueServicios,
+  bloqueGuias,
+  hrefEmpresaEn,
+} from '@lib/enlaces';
+
+export const getStaticPaths = (async () => {
+  const ciudades = await getCollection('ciudades');
+  return ciudades.map((ciudad) => ({ params: { id: ciudad.id }, props: { ciudad } }));
+}) satisfies GetStaticPaths;
+
+const { ciudad } = Astro.props;
+const c = ciudad.data;
+const { Content } = await render(ciudad);
+
+const d = await cargarDatos();
+const catPorId = new Map(d.categorias.map((x) => [x.id, x.data.nombre]));
+const empresas = empresasDeCiudad(d, ciudad.id);
+
+// rubros con presencia real en esta ciudad
+const rubrosAqui = [...new Set(empresas.flatMap(rubrosDe))];
+const zonas = [...new Set(empresas.flatMap((e) => zonasDe(e, ciudad.id)))].sort();
+const norm = c.normativa;
+const datosNorm = norm
+  ? ([
+      { k: 'Autoriza', v: norm.autoridad },
+      norm.dependencia && { k: 'Dependencia', v: norm.dependencia },
+      norm.vigencia && { k: 'Vigencia', v: norm.vigencia },
+      norm.modalidades && { k: 'Modalidades', v: `${norm.modalidades} en la ley local` },
+      norm.registro && { k: 'Registro', v: norm.registro },
+    ].filter(Boolean) as { k: string; v: string }[])
+  : [];
+
+const path = `/ciudades/${ciudad.id}`;
+const nn = (n: number): string => String(n).padStart(2, '0');
+---
+
+<BaseLayout
+  title={`Empresas de seguridad en ${c.nombre}`}
+  description={c.descripcion}
+  path={path}
+  pageType="category"
+  breadcrumbs={[
+    { name: 'Inicio', href: '/' },
+    { name: 'Ciudades', href: '/ciudades' },
+    { name: c.nombre, href: path },
+  ]}
+>
+  <Cabecera
+    ruta={[
+      { nombre: 'Inicio', href: '/' },
+      { nombre: 'Ciudades', href: '/ciudades' },
+      { nombre: c.nombre },
+    ]}
+    indice="Plaza"
+    meta={c.estado}
+    titulo={c.nombre}
+    lede={c.descripcion}
+    stats={[
+      { k: 'Empresas', v: nn(empresas.length) },
+      { k: 'Rubros con presencia', v: nn(rubrosAqui.length) },
+    ]}
+  />
+
+  <!-- padrón local -->
+  <section class="wrap pt-16 sm:pt-20">
+    <div class="flex flex-wrap items-baseline justify-between gap-4">
+      <p class="label">[ 01 — Padrón local ]</p>
+      {zonas.length > 0 && <p class="label muted">Zonas: {zonas.join(' · ')}</p>}
+    </div>
+
+    <h2 class="display-lg mt-8">Proveedores<br />en {c.nombre}</h2>
+
+    {empresas.length > 0 ? (
+      <div class="mt-12 border-b border-ink/20">
+        {empresas.map((e, i) => (
+          <EmpresaRow
+            indice={nn(i + 1)}
+            nombre={e.data.nombre}
+            descripcion={e.data.descripcion}
+            href={hrefEmpresaEn(e, e.data.categoria, ciudad.id)}
+            categoria={catPorId.get(e.data.categoria)}
+            ciudad={c.nombre}
+            verificado={e.data.verificado}
+          />
+        ))}
+      </div>
+    ) : (
+      <div class="rule mt-12 py-14">
+        <p class="display-md">Sin proveedores publicados en esta plaza</p>
+        <p class="muted mt-4 max-w-xl text-base leading-snug">
+          Estamos verificando empresas en {c.nombre}. Publicamos una ficha solo cuando podemos
+          confirmar registro y datos de contacto.
+        </p>
+        <a href="/registrar" class="cta-solid mt-8">Registrar mi empresa →</a>
+      </div>
+    )}
+  </section>
+
+  <!-- cruces rubro × esta plaza -->
+  <section class="wrap pt-20 sm:pt-28">
+    <p class="label">[ 02 — Rubros en esta plaza ]</p>
+    <h2 class="display-lg mt-8">Buscar por<br />rubro en {c.nombreCorto ?? c.nombre}</h2>
+    <div class="mt-12 border-b border-ink/20">
+      {d.categorias.filter((x) => x.data.destacada).map((r, i) => {
+        const n = empresas.filter((e) => rubrosDe(e).includes(r.id)).length;
+        return (
+          <a
+            href={`/categorias/${r.id}/${ciudad.id}`}
+            class="idx-row grid grid-cols-12 items-baseline gap-x-4 gap-y-2 py-7"
+          >
+            <span class="label col-span-2 sm:col-span-1">{nn(i + 1)}</span>
+            <span class="display-md col-span-10 sm:col-span-5">
+              {r.data.nombre} en {c.nombreCorto ?? c.nombre}
+            </span>
+            <span class="muted col-span-12 text-sm leading-snug sm:col-span-4">
+              {r.data.descripcion}
+            </span>
+            <span class="col-span-12 flex items-baseline justify-between gap-4 sm:col-span-2 sm:justify-end">
+              <span class="label muted">{n} {n === 1 ? 'empresa' : 'empresas'}</span>
+              <span class="idx-arrow label">→</span>
+            </span>
+          </a>
+        );
+      })}
+    </div>
+  </section>
+
+  <!-- marco normativo local -->
+  {datosNorm.length > 0 && (
+    <section class="on-ink mt-20 sm:mt-28">
+      <div class="wrap py-20 sm:py-28">
+        <p class="label muted">[ 03 — Marco local ]</p>
+        <h2 class="display-lg mt-10">Quién autoriza aquí</h2>
+        <dl class="mt-12 max-w-3xl">
+          {datosNorm.map((x) => (
+            <div class="rule grid grid-cols-12 items-baseline gap-4 py-4">
+              <dt class="label col-span-12 sm:col-span-4">{x.k}</dt>
+              <dd class="col-span-12 text-base leading-snug sm:col-span-8">{x.v}</dd>
+            </div>
+          ))}
+        </dl>
+      </div>
+    </section>
+  )}
+
+  <section class="wrap pt-20 sm:pt-28">
+    <div class="grid grid-cols-12 gap-x-12 gap-y-10">
+      <div class="col-span-12 lg:col-span-8">
+        <p class="label">[ 04 — Contexto ]</p>
+        <div class="prose-content rule mt-8 pt-10">
+          <Content />
+        </div>
+      </div>
+      {c.fuentes.length > 0 && (
+        <aside class="col-span-12 lg:col-span-3 lg:col-start-10">
+          <p class="label muted">Fuentes</p>
+          <ul class="mt-5">
+            {c.fuentes.map((f) => (
+              <li class="rule py-3">
+                <a href={f.url} rel="noopener nofollow" target="_blank" class="label underline-hover block leading-relaxed">
+                  {f.titulo} ↗
+                </a>
+              </li>
+            ))}
+          </ul>
+        </aside>
+      )}
+    </div>
+  </section>
+
+  <Relacionados
+    indice="05"
+    bloques={[
+      bloqueCruces(d, { ciudad: ciudad.id, titulo: `Rubros en ${c.nombreCorto ?? c.nombre}` }),
+      bloqueRubros(d, { titulo: 'Todos los rubros' }),
+      bloqueCiudades(d, { excluir: ciudad.id, titulo: 'Otras plazas' }),
+      bloqueServicios(d),
+      bloqueGuias(d, { limite: 5 }),
+    ]}
+  />
+</BaseLayout>

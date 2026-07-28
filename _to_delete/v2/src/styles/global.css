@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --brand: #1b41d6;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    -webkit-text-size-adjust: 100%;
+  }
+
+  body {
+    @apply bg-white text-ink-800 antialiased;
+    font-feature-settings: 'cv02', 'cv03', 'cv04', 'cv11';
+  }
+
+  h1, h2, h3, h4 {
+    @apply font-semibold tracking-tight text-ink-900;
+    text-wrap: balance;
+  }
+
+  a {
+    @apply transition-colors;
+  }
+}
+
+@layer components {
+  .container-x {
+    @apply mx-auto w-full max-w-6xl px-4 sm:px-6 lg:px-8;
+  }
+
+  .btn {
+    @apply inline-flex items-center justify-center gap-2 rounded-lg px-5 py-2.5 text-sm font-semibold transition;
+  }
+
+  .btn-primary {
+    @apply btn bg-brand-600 text-white hover:bg-brand-700;
+  }
+
+  .btn-outline {
+    @apply btn border border-brand-200 text-brand-700 hover:bg-brand-50;
+  }
+
+  .card {
+    @apply rounded-xl border border-slate-200 bg-white p-5 shadow-sm transition hover:shadow-md;
+  }
+
+  .badge {
+    @apply inline-flex items-center gap-1 rounded-full px-2.5 py-0.5 text-xs font-medium;
+  }
+
+  .prose-content {
+    @apply max-w-none leading-relaxed text-ink-700;
+  }
+
+  .prose-content h2 {
+    @apply mt-8 mb-3 text-2xl;
+  }
+
+  .prose-content h3 {
+    @apply mt-6 mb-2 text-xl;
+  }
+
+  .prose-content p {
+    @apply my-4;
+  }
+
+  .prose-content ul {
+    @apply my-4 list-disc space-y-1 pl-6;
+  }
+
+  .prose-content a {
+    @apply text-brand-600 underline underline-offset-2 hover:text-brand-700;
+  }
+}

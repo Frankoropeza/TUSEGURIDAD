@@ -1,0 +1,64 @@
+---
+import { SITE } from '@config/site';
+
+const path = Astro.url.pathname;
+const isActive = (href: string) => (href === '/' ? path === '/' : path.startsWith(href));
+const items = SITE.nav.filter((i) => i.href !== '/');
+---
+
+<header class="border-b border-ink">
+  <!-- franja superior -->
+  <div class="on-ink">
+    <div class="wrap flex h-8 items-center justify-between overflow-hidden">
+      <p class="label whitespace-nowrap">
+        Sistema de consulta <span class="text-signal">/</span> Proveedores de seguridad
+        <span class="text-signal">/</span> México
+      </p>
+      <p class="label hidden whitespace-nowrap sm:block">Acceso libre — sin registro</p>
+    </div>
+  </div>
+
+  <!-- barra principal -->
+  <div class="wrap flex h-[70px] items-center justify-between gap-6">
+    <a href="/" class="flex items-baseline gap-1.5" aria-label={`${SITE.name} — inicio`}>
+      <span class="display text-[1.6rem] leading-none sm:text-[1.85rem]">{SITE.name}</span>
+      <span class="label text-signal">MX</span>
+    </a>
+
+    <nav class="hidden items-center gap-7 lg:flex" aria-label="Principal">
+      {items.map((item, i) => (
+        <a
+          href={item.href}
+          class="label group flex items-baseline gap-1.5"
+          aria-current={isActive(item.href) ? 'page' : undefined}
+        >
+          <span class:list={[isActive(item.href) ? 'text-signal' : 'text-ink/35']}>
+            {String(i + 1).padStart(2, '0')}
+          </span>
+          <span class="underline-hover">{item.label}</span>
+        </a>
+      ))}
+    </nav>
+
+    <div class="flex items-center gap-4">
+      <a href="/registrar" class="label hidden border border-ink px-4 py-2.5 hover:bg-ink hover:text-paper sm:inline-block">
+        Registrar empresa
+      </a>
+
+      <details class="relative lg:hidden">
+        <summary class="label flex h-9 cursor-pointer list-none items-center border border-ink px-3">
+          Menú
+        </summary>
+        <div class="absolute right-0 z-50 mt-2 w-64 border border-ink bg-paper">
+          {SITE.nav.map((item, i) => (
+            <a href={item.href} class="label flex items-baseline gap-2 border-b border-ink/15 px-4 py-3.5 hover:bg-ink hover:text-paper">
+              <span class="text-ink/35">{String(i).padStart(2, '0')}</span>
+              {item.label}
+            </a>
+          ))}
+          <a href="/registrar" class="label block bg-ink px-4 py-3.5 text-paper">Registrar empresa →</a>
+        </div>
+      </details>
+    </div>
+  </div>
+</header>

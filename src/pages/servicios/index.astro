@@ -1,0 +1,64 @@
+---
+import BaseLayout from '@layouts/BaseLayout.astro';
+import Cabecera from '@components/Cabecera.astro';
+import Relacionados from '@components/Relacionados.astro';
+import { cargarDatos, bloqueRubros, bloqueCiudades, bloqueGuias, bloqueEmpresas } from '@lib/enlaces';
+
+const d = await cargarDatos();
+const catPorId = new Map(d.categorias.map((c) => [c.id, c.data.nombre]));
+const nn = (n: number): string => String(n).padStart(2, '0');
+---
+
+<BaseLayout
+  title="Servicios"
+  description="Servicios de seguridad más solicitados. Te conectamos con proveedores verificados para cada uno."
+  path="/servicios"
+  pageType="itemlist"
+  breadcrumbs={[
+    { name: 'Inicio', href: '/' },
+    { name: 'Servicios', href: '/servicios' },
+  ]}
+>
+  <Cabecera
+    ruta={[{ nombre: 'Inicio', href: '/' }, { nombre: 'Servicios' }]}
+    indice="Servicios"
+    meta={`${nn(d.servicios.length)} publicados`}
+    titulo="Servicios"
+    lede="Los servicios de seguridad que más se buscan. Cada uno explica qué incluye y te conecta con los proveedores del rubro correspondiente."
+    stats={[
+      { k: 'Servicios', v: nn(d.servicios.length) },
+      { k: 'Rubros', v: nn(d.categorias.filter((c) => c.data.destacada).length) },
+    ]}
+  />
+
+  <section class="wrap pt-16 sm:pt-20">
+    <div class="border-b border-ink/20">
+      {d.servicios.map((s, i) => (
+        <a
+          href={`/servicios/${s.id}`}
+          class="idx-row grid grid-cols-12 items-baseline gap-x-4 gap-y-3 py-7 sm:py-9"
+        >
+          <span class="label col-span-2 sm:col-span-1">{nn(i + 1)}</span>
+          <span class="display-md col-span-10 sm:col-span-4">{s.data.titulo}</span>
+          <span class="muted col-span-12 text-sm leading-snug sm:col-span-5">
+            {s.data.descripcion}
+          </span>
+          <span class="col-span-12 flex items-baseline justify-between gap-4 sm:col-span-2 sm:justify-end">
+            {s.data.rubro && <span class="label muted">{catPorId.get(s.data.rubro)}</span>}
+            <span class="idx-arrow label">→</span>
+          </span>
+        </a>
+      ))}
+    </div>
+  </section>
+
+  <Relacionados
+    indice="01"
+    bloques={[
+      bloqueRubros(d),
+      bloqueEmpresas(d, { limite: 5 }),
+      bloqueCiudades(d),
+      bloqueGuias(d, { limite: 5 }),
+    ]}
+  />
+</BaseLayout>

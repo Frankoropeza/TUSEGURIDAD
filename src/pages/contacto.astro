@@ -1,0 +1,117 @@
+---
+import BaseLayout from '@layouts/BaseLayout.astro';
+import Cabecera from '@components/Cabecera.astro';
+import Relacionados from '@components/Relacionados.astro';
+import { SITE } from '@config/site';
+import { cargarDatos, bloqueRubros, bloqueCiudades, bloqueServicios, bloqueGuias } from '@lib/enlaces';
+
+const d = await cargarDatos();
+
+const motivos = [
+  {
+    t: 'Corregir un dato',
+    dsc: 'Detectaste información incorrecta en una ficha. Indícanos la empresa y el dato: lo verificamos y lo corregimos.',
+    cta: null,
+  },
+  {
+    t: 'Dar de alta tu empresa',
+    dsc: 'Si prestas servicios de seguridad y quieres aparecer en el padrón, el alta tiene su propio formulario.',
+    cta: { t: 'Ir a registrar empresa →', href: '/registrar' },
+  },
+  {
+    t: 'Baja o edición de ficha',
+    dsc: 'Eres el titular de una empresa listada y quieres modificar o retirar tu ficha. Escríbenos desde un correo de la empresa.',
+    cta: null,
+  },
+  {
+    t: 'Prensa y colaboraciones',
+    dsc: 'Consultas de medios o propuestas de contenido para la sección de guías.',
+    cta: { t: 'Ver guías →', href: '/guias' },
+  },
+];
+---
+
+<BaseLayout
+  title="Contacto"
+  description="Escríbenos para corregir un dato del directorio, dar de alta o editar una ficha, o consultas de prensa."
+  path="/contacto"
+  breadcrumbs={[
+    { name: 'Inicio', href: '/' },
+    { name: 'Contacto', href: '/contacto' },
+  ]}
+>
+  <Cabecera
+    ruta={[{ nombre: 'Inicio', href: '/' }, { nombre: 'Contacto' }]}
+    indice="Contacto"
+    titulo="Contacto"
+    lede="Este directorio se corrige con lo que nos reportan. Si algo está mal o falta, dínoslo."
+  />
+
+  <section class="wrap pt-16 sm:pt-20">
+    <div class="grid grid-cols-12 gap-x-12 gap-y-12">
+      <div class="col-span-12 lg:col-span-7">
+        <p class="label">[ 01 — Motivos ]</p>
+        <div class="mt-6 border-b border-ink/20">
+          {motivos.map((m, i) => (
+            <div class="rule py-7">
+              <div class="flex items-baseline gap-4">
+                <span class="label muted shrink-0">{String(i + 1).padStart(2, '0')}</span>
+                <div>
+                  <h2 class="display-md">{m.t}</h2>
+                  <p class="muted mt-2 max-w-xl text-sm leading-snug">{m.dsc}</p>
+                  {m.cta && (
+                    <a href={m.cta.href} class="label underline-hover text-signal mt-3 inline-block">
+                      {m.cta.t}
+                    </a>
+                  )}
+                </div>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+
+      <aside class="col-span-12 lg:col-span-4 lg:col-start-9">
+        <p class="label">[ Datos ]</p>
+        <ul class="mt-6 border-b border-ink/20">
+          <li class="rule py-4">
+            <p class="label muted">Correo</p>
+            <a href={`mailto:${SITE.contacto.email}`} class="mt-1 block text-base underline-hover">
+              {SITE.contacto.email}
+            </a>
+          </li>
+          {SITE.contacto.telefono && (
+            <li class="rule py-4">
+              <p class="label muted">Teléfono</p>
+              <a href={`tel:${SITE.contacto.telefono}`} class="mt-1 block text-base underline-hover">
+                {SITE.contacto.telefono}
+              </a>
+            </li>
+          )}
+          <li class="rule py-4">
+            <p class="label muted">Cobertura</p>
+            <p class="mt-1 text-base">México</p>
+          </li>
+        </ul>
+
+        <div class="rule mt-10 pt-6">
+          <p class="text-sm leading-snug">
+            Si vas a reportar un dato de una ficha, incluye el nombre de la empresa y el enlace
+            de su página. Acelera la corrección.
+          </p>
+          <a href="/empresas" class="label underline-hover mt-4 inline-block">Ver padrón →</a>
+        </div>
+      </aside>
+    </div>
+  </section>
+
+  <Relacionados
+    indice="02"
+    bloques={[
+      bloqueRubros(d),
+      bloqueCiudades(d),
+      bloqueServicios(d),
+      bloqueGuias(d, { limite: 4 }),
+    ]}
+  />
+</BaseLayout>

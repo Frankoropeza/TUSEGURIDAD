@@ -1,0 +1,176 @@
+---
+import BaseLayout from '@layouts/BaseLayout.astro';
+import Cabecera from '@components/Cabecera.astro';
+import Relacionados from '@components/Relacionados.astro';
+import { SITE } from '@config/site';
+import { cargarDatos, bloqueRubros, bloqueCiudades, bloqueServicios, bloqueGuias } from '@lib/enlaces';
+
+const d = await cargarDatos();
+const activos = d.categorias.filter((c) => c.data.destacada);
+const nn = (n: number): string => String(n).padStart(2, '0');
+
+const requisitos = [
+  {
+    t: 'Autorización o permiso vigente',
+    d: 'Federal si operas en dos o más entidades federativas; local si operas dentro de una sola. Necesitamos el documento y su fecha de vencimiento.',
+  },
+  {
+    t: 'Modalidad declarada',
+    d: 'La modalidad amparada por tu autorización debe coincidir con los servicios que quieras publicar en tu ficha.',
+  },
+  {
+    t: 'Datos de contacto reales',
+    d: 'Teléfono o correo operativo al que efectivamente respondas. Es lo que verá quien te busque.',
+  },
+  {
+    t: 'Cobertura declarada',
+    d: 'Ciudad y zonas donde prestas servicio. Aparecerás en el padrón de esas plazas.',
+  },
+];
+
+const proceso = [
+  { n: '01', t: 'Envías la solicitud', d: 'Con los datos de tu empresa y el rubro en el que quieres aparecer.' },
+  { n: '02', t: 'Revisamos', d: 'Confirmamos autorización, modalidad y que los datos de contacto respondan.' },
+  { n: '03', t: 'Publicamos', d: 'Tu ficha entra al padrón y a los rubros y ciudades que declaraste.' },
+];
+---
+
+<BaseLayout
+  title="Registrar empresa"
+  description="Solicita el alta de tu empresa de seguridad en el directorio. Revisamos autorización, modalidad y datos de contacto antes de publicar."
+  path="/registrar"
+  breadcrumbs={[
+    { name: 'Inicio', href: '/' },
+    { name: 'Registrar empresa', href: '/registrar' },
+  ]}
+>
+  <Cabecera
+    ruta={[{ nombre: 'Inicio', href: '/' }, { nombre: 'Registrar empresa' }]}
+    indice="Alta de proveedores"
+    meta="Revisión previa a publicación"
+    titulo="Registrar empresa"
+    lede="Publica la ficha de tu empresa en el directorio. No cobramos por el alta ni por el contacto: lo que pedimos es que puedas acreditar tu autorización y que tus datos respondan."
+    stats={[
+      { k: 'Costo del alta', v: 'Libre' },
+      { k: 'Rubros abiertos', v: nn(activos.length) },
+    ]}
+  />
+
+  <!-- requisitos -->
+  <section class="wrap pt-16 sm:pt-20">
+    <p class="label">[ 01 — Requisitos ]</p>
+    <h2 class="display-lg mt-8">Qué te vamos<br />a pedir</h2>
+    <div class="mt-12 grid grid-cols-1 gap-x-10 gap-y-10 sm:grid-cols-2 lg:grid-cols-4">
+      {requisitos.map((r, i) => (
+        <div class="rule pt-5">
+          <p class="label text-signal">/{nn(i + 1)}</p>
+          <h3 class="display-md mt-4">{r.t}</h3>
+          <p class="muted mt-3 text-sm leading-snug">{r.d}</p>
+        </div>
+      ))}
+    </div>
+  </section>
+
+  <!-- proceso -->
+  <section class="on-ink mt-20 sm:mt-28">
+    <div class="wrap py-20 sm:py-28">
+      <p class="label muted">[ 02 — Proceso ]</p>
+      <div class="mt-12 border-b border-paper/25">
+        {proceso.map((p) => (
+          <div class="rule grid grid-cols-12 items-start gap-x-6 gap-y-3 py-10">
+            <span class="numeral col-span-12 text-signal sm:col-span-3" style="font-size: clamp(2.5rem, 6vw, 6rem);">
+              {p.n}
+            </span>
+            <h3 class="display-md col-span-12 sm:col-span-4">{p.t}</h3>
+            <p class="col-span-12 max-w-xl text-base leading-snug sm:col-span-5">{p.d}</p>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- formulario -->
+  <section class="wrap pt-20 sm:pt-28">
+    <p class="label">[ 03 — Solicitud ]</p>
+    <h2 class="display-lg mt-8">Enviar<br />solicitud</h2>
+
+    <form
+      class="mt-12 grid grid-cols-12 gap-x-6 gap-y-8"
+      method={SITE.formEndpoint ? 'POST' : undefined}
+      action={SITE.formEndpoint || undefined}
+    >
+      <div class="col-span-12 sm:col-span-6">
+        <label for="empresa" class="label">Nombre de la empresa *</label>
+        <input id="empresa" name="empresa" type="text" required
+          class="mt-3 w-full border-b border-ink bg-transparent py-3 text-base outline-none focus:border-signal" />
+      </div>
+
+      <div class="col-span-12 sm:col-span-6">
+        <label for="contacto" class="label">Persona de contacto *</label>
+        <input id="contacto" name="contacto" type="text" required
+          class="mt-3 w-full border-b border-ink bg-transparent py-3 text-base outline-none focus:border-signal" />
+      </div>
+
+      <div class="col-span-12 sm:col-span-6">
+        <label for="email" class="label">Correo *</label>
+        <input id="email" name="email" type="email" required
+          class="mt-3 w-full border-b border-ink bg-transparent py-3 text-base outline-none focus:border-signal" />
+      </div>
+
+      <div class="col-span-12 sm:col-span-6">
+        <label for="telefono" class="label">Teléfono</label>
+        <input id="telefono" name="telefono" type="tel"
+          class="mt-3 w-full border-b border-ink bg-transparent py-3 text-base outline-none focus:border-signal" />
+      </div>
+
+      <div class="col-span-12 sm:col-span-6">
+        <label for="rubro" class="label">Rubro *</label>
+        <select id="rubro" name="rubro" required
+          class="mt-3 w-full border-b border-ink bg-transparent py-3 text-base outline-none focus:border-signal">
+          {activos.map((c) => <option value={c.id}>{c.data.nombre}</option>)}
+        </select>
+      </div>
+
+      <div class="col-span-12 sm:col-span-6">
+        <label for="ciudad" class="label">Ciudad *</label>
+        <select id="ciudad" name="ciudad" required
+          class="mt-3 w-full border-b border-ink bg-transparent py-3 text-base outline-none focus:border-signal">
+          {d.ciudades.map((c) => <option value={c.id}>{c.data.nombre}</option>)}
+        </select>
+      </div>
+
+      <div class="col-span-12">
+        <label for="mensaje" class="label">Servicios que prestas y número de autorización</label>
+        <textarea id="mensaje" name="mensaje" rows="4"
+          class="mt-3 w-full border-b border-ink bg-transparent py-3 text-base outline-none focus:border-signal"></textarea>
+      </div>
+
+      <div class="col-span-12">
+        {SITE.formEndpoint ? (
+          <button type="submit" class="cta-solid">Enviar solicitud →</button>
+        ) : (
+          <div class="rule pt-6">
+            <p class="label text-signal">Formulario sin endpoint configurado</p>
+            <p class="muted mt-3 max-w-2xl text-sm leading-snug">
+              Todavía no se conecta el destino de envío. Mientras tanto, manda los mismos datos
+              por correo y damos de alta la ficha igual.
+            </p>
+            <a href={`mailto:${SITE.contacto.email}?subject=Alta%20en%20el%20directorio`} class="cta-solid mt-6">
+              Escribir a {SITE.contacto.email} →
+            </a>
+          </div>
+        )}
+      </div>
+    </form>
+  </section>
+
+  <Relacionados
+    indice="04"
+    bloques={[
+      bloqueRubros(d, { titulo: 'Rubros abiertos' }),
+      bloqueCiudades(d),
+      bloqueServicios(d),
+      bloqueGuias(d, { limite: 4 }),
+    ]}
+  />
+</BaseLayout>
