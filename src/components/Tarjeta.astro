@@ -1,0 +1,92 @@
+---
+import Foto from '@components/Foto.astro';
+import type { Foto as TipoFoto } from '@lib/imagenes';
+
+export interface Distintivo {
+  texto: string;
+  tono?: 'signal' | 'ink' | 'suave';
+}
+
+interface Props {
+  href?: string;
+  indice?: string;
+  titulo: string;
+  /** línea mono bajo el título: rubro, plaza, fecha… */
+  meta?: string;
+  descripcion?: string;
+  /** pie izquierdo: cifras reales de la entidad */
+  pie?: string;
+  distintivos?: Distintivo[];
+
+  /** lámina: fotografía si existe, si no un panel tipográfico */
+  foto?: TipoFoto | null;
+  laminaTexto?: string;
+  sizes?: string;
+
+  /** sin enlace y atenuada (p. ej. un rubro en preparación) */
+  inactivo?: boolean;
+}
+
+const {
+  href,
+  indice,
+  titulo,
+  meta,
+  descripcion,
+  pie,
+  distintivos = [],
+  foto = null,
+  laminaTexto,
+  sizes = '(min-width: 1280px) 30vw, (min-width: 640px) 45vw, 92vw',
+  inactivo = false,
+} = Astro.props;
+
+const Contenedor = href && !inactivo ? 'a' : 'div';
+const tono = (t: Distintivo['tono']) =>
+  t === 'signal' ? 'bg-signal text-paper' : t === 'suave' ? 'bg-bone text-ink' : 'bg-ink text-paper';
+---
+
+<article class:list={['tarjeta group flex h-full flex-col', inactivo && 'tarjeta-inactiva']}>
+  <Contenedor href={href && !inactivo ? href : undefined} class="flex h-full flex-col">
+    <!-- lámina -->
+    <div class="tarjeta-lamina">
+      {foto ? (
+        <Foto foto={foto} sizes={sizes} mono />
+      ) : (
+        <div class="flex h-full w-full items-center justify-center bg-bone px-4">
+          <span class="numeral tarjeta-sigla">{laminaTexto ?? titulo.slice(0, 3)}</span>
+        </div>
+      )}
+
+      {indice && (
+        <span class="absolute left-0 top-0 bg-paper px-2.5 py-1.5">
+          <span class="label tabular-nums">{indice}</span>
+        </span>
+      )}
+
+      {distintivos.length > 0 && (
+        <span class="absolute right-0 top-0 flex flex-col items-end">
+          {distintivos.map((x) => (
+            <span class:list={['label px-2.5 py-1.5', tono(x.tono)]}>{x.texto}</span>
+          ))}
+        </span>
+      )}
+    </div>
+
+    <!-- identidad -->
+    <div class="flex flex-1 flex-col border-t border-ink px-4 pb-3 pt-3.5">
+      <h3 class="display-sm">{titulo}</h3>
+      {meta && <p class="label muted mt-2">{meta}</p>}
+      {descripcion && (
+        <p class="muted mt-3 line-clamp-3 text-[13px] leading-[1.45]">{descripcion}</p>
+      )}
+      <span class="flex-1"></span>
+    </div>
+
+    <!-- pie -->
+    <div class="flex items-center justify-between gap-3 border-t border-ink/15 px-4 py-2.5">
+      <span class="label muted tabular-nums">{pie}</span>
+      <span class="label tarjeta-flecha">{inactivo ? '·' : '→'}</span>
+    </div>
+  </Contenedor>
+</article>

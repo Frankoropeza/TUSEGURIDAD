@@ -2,6 +2,7 @@
 import BaseLayout from '@layouts/BaseLayout.astro';
 import Cabecera from '@components/Cabecera.astro';
 import Relacionados from '@components/Relacionados.astro';
+import Tarjeta from '@components/Tarjeta.astro';
 import { cargarDatos, conteoPorCiudad, bloqueRubros, bloqueServicios, bloqueGuias, bloqueEmpresas } from '@lib/enlaces';
 
 const d = await cargarDatos();
@@ -32,28 +33,22 @@ const nn = (n: number): string => String(n).padStart(2, '0');
   />
 
   <section class="wrap pt-16 sm:pt-20">
-    <div class="border-b border-ink/20">
-      {d.ciudades.map((c, i) => (
-        <a
-          href={`/ciudades/${c.id}`}
-          class="idx-row grid grid-cols-12 items-baseline gap-x-4 gap-y-3 py-7 sm:py-9"
-        >
-          <span class="label col-span-2 sm:col-span-1">{nn(i + 1)}</span>
-          <span class="col-span-10 sm:col-span-4">
-            <span class="display-md block">{c.data.nombre}</span>
-            <span class="label muted mt-2 block">{c.data.estado}</span>
-          </span>
-          <span class="muted col-span-12 text-sm leading-snug sm:col-span-5">
-            {c.data.descripcion}
-          </span>
-          <span class="col-span-12 flex items-baseline justify-between gap-4 sm:col-span-2 sm:justify-end">
-            <span class="label muted">
-              {conteo.get(c.id) ?? 0} {(conteo.get(c.id) ?? 0) === 1 ? 'empresa' : 'empresas'}
-            </span>
-            <span class="idx-arrow label">→</span>
-          </span>
-        </a>
-      ))}
+    <div class="grid grid-cols-1 items-stretch gap-5 sm:grid-cols-2 xl:grid-cols-3">
+      {d.ciudades.map((c, i) => {
+        const n = conteo.get(c.id) ?? 0;
+        return (
+          <Tarjeta
+            href={`/ciudades/${c.id}`}
+            indice={nn(i + 1)}
+            titulo={c.data.nombre}
+            meta={c.data.normativa?.autoridad ?? c.data.estado}
+            descripcion={c.data.descripcion}
+            pie={`${nn(n)} ${n === 1 ? 'empresa' : 'empresas'}`}
+            distintivos={n > 0 ? [{ texto: 'Con padrón', tono: 'signal' }] : []}
+            laminaTexto={c.data.abreviatura ?? c.data.nombre.slice(0, 3)}
+          />
+        );
+      })}
     </div>
   </section>
 

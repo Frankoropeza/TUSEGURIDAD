@@ -254,6 +254,32 @@
     aspect-ratio: 16 / 10;
   }
 
+  /* Lámina tipográfica para lo que no tiene fotografía: en vez de inventar una
+     imagen, la sigla ocupa el mismo hueco y mantiene la rejilla homogénea. */
+  .tarjeta-sigla {
+    @apply text-ink/25;
+    font-size: clamp(2.5rem, 6vw, 4.5rem);
+    text-transform: uppercase;
+  }
+
+  .tarjeta:hover .tarjeta-sigla {
+    @apply text-paper/30;
+  }
+
+  /* Rubro en preparación: se muestra, no se enlaza. */
+  .tarjeta-inactiva {
+    @apply border-ink/30;
+  }
+
+  .tarjeta-inactiva:hover {
+    @apply bg-paper text-ink;
+  }
+
+  .tarjeta-inactiva h3,
+  .tarjeta-inactiva .tarjeta-flecha {
+    @apply text-ink/40;
+  }
+
   /* Sin movimiento: la lámina no escala ni transiciona. La única respuesta al
      cursor es la inversión de color de la tarjeta, que es instantánea. */
 

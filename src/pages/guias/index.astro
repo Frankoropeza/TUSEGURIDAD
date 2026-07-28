@@ -2,6 +2,8 @@
 import BaseLayout from '@layouts/BaseLayout.astro';
 import Cabecera from '@components/Cabecera.astro';
 import Relacionados from '@components/Relacionados.astro';
+import Tarjeta from '@components/Tarjeta.astro';
+import { tieneFotos, fotoPara } from '@lib/imagenes';
 import { cargarDatos, bloqueRubros, bloqueCiudades, bloqueServicios, bloqueEmpresas } from '@lib/enlaces';
 
 const d = await cargarDatos();
@@ -32,26 +34,18 @@ const fecha = (x: Date): string =>
 
   <section class="wrap pt-16 sm:pt-20">
     {d.guias.length > 0 ? (
-      <div class="border-b border-ink/20">
+      <div class="grid grid-cols-1 items-stretch gap-5 sm:grid-cols-2 xl:grid-cols-3">
         {d.guias.map((g, i) => (
-          <a
+          <Tarjeta
             href={`/guias/${g.id}`}
-            class="idx-row grid grid-cols-12 items-baseline gap-x-4 gap-y-3 py-7 sm:py-9"
-          >
-            <span class="label muted col-span-4 tabular-nums sm:col-span-1">
-              {fecha(g.data.fecha)}
-            </span>
-            <span class="display-md col-span-8 sm:col-span-5">{g.data.titulo}</span>
-            <span class="muted col-span-12 text-sm leading-snug sm:col-span-4">
-              {g.data.descripcion}
-            </span>
-            <span class="col-span-12 flex items-baseline justify-between gap-4 sm:col-span-2 sm:justify-end">
-              {g.data.rubros.length > 0 && (
-                <span class="label muted">{catPorId.get(g.data.rubros[0]!)}</span>
-              )}
-              <span class="idx-arrow label">→</span>
-            </span>
-          </a>
+            indice={nn(i + 1)}
+            titulo={g.data.titulo}
+            meta={fecha(g.data.fecha)}
+            descripcion={g.data.descripcion}
+            pie={g.data.rubros.length > 0 ? catPorId.get(g.data.rubros[0]!) ?? '' : g.data.autor}
+            foto={g.data.rubros.length > 0 && tieneFotos(g.data.rubros[0]!) ? fotoPara(`guia:${g.id}`) : null}
+            laminaTexto={String(g.data.fecha.getFullYear())}
+          />
         ))}
       </div>
     ) : (

@@ -4,7 +4,7 @@ import BaseLayout from '@layouts/BaseLayout.astro';
 import RejillaEmpresas from '@components/RejillaEmpresas.astro';
 import Relacionados from '@components/Relacionados.astro';
 import Foto from '@components/Foto.astro';
-import { tieneFotos, todasLasFotos } from '@lib/imagenes';
+import { tieneFotos, fotoPara } from '@lib/imagenes';
 import { getCollection, render } from 'astro:content';
 import { SITE } from '@config/site';
 import {
@@ -63,10 +63,8 @@ const regiones = ORDEN_REGION.map((region) => ({
 })).filter((r) => r.estados.length > 0);
 const conPadron = datos.ciudades.filter((c) => (conteoEstado.get(c.id) ?? 0) > 0).length;
 
-// fotografía del rubro (solo los rubros que tienen catálogo propio)
-const galeria = tieneFotos(categoria.id) ? todasLasFotos() : [];
-const totalFotos = galeria.reduce((n, g) => n + g.fotos.length, 0);
-const portada = galeria.length > 0 ? galeria[0]!.fotos[0]! : null;
+// portada fotográfica (solo los rubros que tienen catálogo propio)
+const portada = tieneFotos(categoria.id) ? fotoPara(`portada:${categoria.id}`) : null;
 
 // zonas declaradas por las empresas de este rubro (dato real, no inventado)
 const zonas = [...new Set(empresas.flatMap((e) => zonasDe(e)))].sort();
@@ -355,42 +353,6 @@ const path = `/categorias/${categoria.id}`;
       ))}
     </div>
   </section>
-
-  <!-- ================= 06b · GALERÍA DEL RUBRO ================= -->
-  {galeria.length > 0 && (
-    <section class="wrap pt-20 sm:pt-28">
-      <div class="flex flex-wrap items-baseline justify-between gap-4">
-        <p class="label">[ 06 — El rubro en imágenes ]</p>
-        <p class="label muted">{nn(galeria.length)} escenarios · {totalFotos} fotografías</p>
-      </div>
-
-      <h2 class="display-lg mt-8 max-w-4xl">Cómo se ve<br />el servicio</h2>
-
-      <p class="muted mt-8 max-w-2xl text-base leading-snug">
-        Escenarios reales de operación del rubro: control de acceso, patrullaje, monitoreo y
-        vigilancia perimetral en distintos tipos de inmueble.
-      </p>
-
-      {galeria.map(({ grupo, fotos }, gi) => (
-        <div class="mt-14">
-          <div class="rule flex flex-wrap items-baseline justify-between gap-3 pt-4">
-            <p class="label">
-              <span class="text-signal">{nn(gi + 1)}</span>&nbsp; {grupo.titulo}
-            </p>
-            <p class="label muted">{nn(fotos.length)}</p>
-          </div>
-
-          <div class="mt-4 grid grid-cols-3 gap-2 sm:grid-cols-4 lg:grid-cols-6 xl:grid-cols-8">
-            {fotos.map((f) => (
-              <figure class="foto-marco">
-                <Foto foto={f} sizes="(min-width: 1280px) 12vw, (min-width: 1024px) 16vw, 33vw" mono />
-              </figure>
-            ))}
-          </div>
-        </div>
-      ))}
-    </section>
-  )}
 
   <Relacionados
     indice="07"

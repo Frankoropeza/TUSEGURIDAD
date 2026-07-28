@@ -1,6 +1,7 @@
 ---
 import BaseLayout from '@layouts/BaseLayout.astro';
-import CategoriaRow from '@components/CategoriaRow.astro';
+import Tarjeta from '@components/Tarjeta.astro';
+import { tieneFotos, fotoPara } from '@lib/imagenes';
 import Relacionados from '@components/Relacionados.astro';
 import { getCollection } from 'astro:content';
 import { cargarDatos, bloqueCruces, bloqueCiudades, bloqueServicios, bloqueGuias, bloqueEmpresas } from '@lib/enlaces';
@@ -54,25 +55,28 @@ const d = await cargarDatos();
   </section>
 
   <section class="wrap pt-16 sm:pt-20">
-    <div class="border-b border-ink/20">
-      {activas.map((cat, i) => (
-        <CategoriaRow
-          indice={nn(i + 1)}
-          nombre={cat.data.nombre}
-          descripcion={cat.data.descripcion}
-          href={`/categorias/${cat.id}`}
-          total={conteo.get(cat.id) ?? 0}
-        />
-      ))}
-      {proximas.map((cat, i) => (
-        <CategoriaRow
-          indice={nn(activas.length + i + 1)}
-          nombre={cat.data.nombre}
-          descripcion={cat.data.descripcion}
-          href={`/categorias/${cat.id}`}
-          total={conteo.get(cat.id) ?? 0}
-        />
-      ))}
+    <div class="grid grid-cols-1 items-stretch gap-5 sm:grid-cols-2 xl:grid-cols-3">
+      {todas.map((cat, i) => {
+        const n = conteo.get(cat.id) ?? 0;
+        return (
+          <Tarjeta
+            href={`/categorias/${cat.id}`}
+            indice={nn(i + 1)}
+            titulo={cat.data.nombre}
+            meta={cat.data.destacada ? 'Rubro activo' : 'En preparación'}
+            descripcion={cat.data.descripcion}
+            pie={
+              cat.data.destacada
+                ? `${nn(n)} ${n === 1 ? 'empresa' : 'empresas'}`
+                : 'Sin padrón'
+            }
+            distintivos={cat.data.destacada && n > 0 ? [{ texto: 'Con padrón', tono: 'signal' }] : []}
+            foto={tieneFotos(cat.id) ? fotoPara(`rubro:${cat.id}`) : null}
+            laminaTexto={cat.data.nombre.slice(0, 2)}
+            inactivo={!cat.data.destacada}
+          />
+        );
+      })}
     </div>
   </section>
 

@@ -2,6 +2,8 @@
 import BaseLayout from '@layouts/BaseLayout.astro';
 import Cabecera from '@components/Cabecera.astro';
 import Relacionados from '@components/Relacionados.astro';
+import Tarjeta from '@components/Tarjeta.astro';
+import { tieneFotos, fotoPara } from '@lib/imagenes';
 import { cargarDatos, bloqueRubros, bloqueCiudades, bloqueGuias, bloqueEmpresas } from '@lib/enlaces';
 
 const d = await cargarDatos();
@@ -32,22 +34,18 @@ const nn = (n: number): string => String(n).padStart(2, '0');
   />
 
   <section class="wrap pt-16 sm:pt-20">
-    <div class="border-b border-ink/20">
+    <div class="grid grid-cols-1 items-stretch gap-5 sm:grid-cols-2 xl:grid-cols-3">
       {d.servicios.map((s, i) => (
-        <a
+        <Tarjeta
           href={`/servicios/${s.id}`}
-          class="idx-row grid grid-cols-12 items-baseline gap-x-4 gap-y-3 py-7 sm:py-9"
-        >
-          <span class="label col-span-2 sm:col-span-1">{nn(i + 1)}</span>
-          <span class="display-md col-span-10 sm:col-span-4">{s.data.titulo}</span>
-          <span class="muted col-span-12 text-sm leading-snug sm:col-span-5">
-            {s.data.descripcion}
-          </span>
-          <span class="col-span-12 flex items-baseline justify-between gap-4 sm:col-span-2 sm:justify-end">
-            {s.data.rubro && <span class="label muted">{catPorId.get(s.data.rubro)}</span>}
-            <span class="idx-arrow label">→</span>
-          </span>
-        </a>
+          indice={nn(i + 1)}
+          titulo={s.data.titulo}
+          meta={s.data.rubro ? catPorId.get(s.data.rubro) : undefined}
+          descripcion={s.data.descripcion}
+          pie={`${nn(s.data.faq.length)} preguntas`}
+          foto={s.data.rubro && tieneFotos(s.data.rubro) ? fotoPara(`servicio:${s.id}`) : null}
+          laminaTexto={s.data.titulo.slice(0, 2)}
+        />
       ))}
     </div>
   </section>
