@@ -1,4 +1,5 @@
 import type { CollectionEntry } from 'astro:content';
+import { FOTOS, foto as tomarFoto, type Foto } from '@lib/imagenes';
 
 /**
  * Servicios declarados por una empresa, normalizados.
@@ -15,6 +16,29 @@ export interface ServicioDeclarado {
   servicio?: string;
   /** slug de un grupo del catálogo de fotografía */
   foto?: string;
+  /** apartado extendido con texto largo y galería */
+  detalle?: {
+    intro: string;
+    puntos: { titulo: string; texto: string }[];
+    galeria: string[];
+  };
+}
+
+/**
+ * Resuelve las referencias de galería del frontmatter a fotos del catálogo.
+ * Formato de cada entrada: "grupo" (primera variante) o "grupo:N".
+ * Las referencias a grupos inexistentes se descartan en silencio: una foto
+ * mal escrita no debe tumbar el build de una ficha.
+ */
+export function galeriaDe(refs: string[]): Foto[] {
+  const grupos = new Set(FOTOS.map((g) => g.slug));
+  return refs
+    .map((ref) => {
+      const [slug, n] = ref.split(':');
+      if (!slug || !grupos.has(slug)) return null;
+      return tomarFoto(slug, Number(n) || 1);
+    })
+    .filter((f): f is Foto => f !== null);
 }
 
 export function serviciosDe(empresa: CollectionEntry<'empresas'>): ServicioDeclarado[] {

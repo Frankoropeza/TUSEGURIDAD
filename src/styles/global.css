@@ -216,6 +216,13 @@
     }
   }
 
+  /* Foto de apoyo de la galería: recorte más cerrado que el marco principal,
+     para que las dos pequeñas no compitan con la grande. */
+  .foto-cuadro {
+    @apply relative overflow-hidden border border-ink/15 bg-bone;
+    aspect-ratio: 4 / 3;
+  }
+
   /* Monocromo fijo: la fotografía entra al sistema editorial y se queda
      quieta. Sin cambio de filtro al pasar el cursor. */
   .foto-mono {

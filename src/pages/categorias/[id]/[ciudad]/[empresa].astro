@@ -4,6 +4,7 @@ import BaseLayout from '@layouts/BaseLayout.astro';
 import Cabecera from '@components/Cabecera.astro';
 import Relacionados from '@components/Relacionados.astro';
 import ServiciosEmpresa from '@components/ServiciosEmpresa.astro';
+import ServicioDetalle from '@components/ServicioDetalle.astro';
 import { serviciosDe } from '@lib/servicios';
 import { getCollection, render } from 'astro:content';
 import {
@@ -121,10 +122,14 @@ const paginasServicio = [
   ).values(),
 ];
 
+/* Servicios con apartado extendido: salen además en el módulo a dos columnas. */
+const conDetalle = servicios.filter((s) => s.detalle);
+
 /* Numeración de apartados: se calcula sobre los que realmente se renderizan,
    para que una ficha sin servicios o sin zonas no salte números. */
 const secciones = [
   servicios.length > 0 && 'servicios',
+  conDetalle.length > 0 && 'detalle',
   'datos',
   zonasPorPlaza.length > 0 && 'cobertura',
 ].filter(Boolean) as string[];
@@ -207,6 +212,19 @@ const jsonld: Record<string, unknown> = {
       telefono={e.telefono}
       plaza={ciudadCorta.get(plaza) ?? nombrePlaza}
       paginas={paginasServicio}
+    />
+  )}
+
+  <!-- servicio en detalle: argumento + galería -->
+  {conDetalle.length > 0 && (
+    <ServicioDetalle
+      indice={idx('detalle')}
+      servicios={conDetalle}
+      paginas={servicioPorId}
+      rubroNombre={nombreRubro}
+      plaza={ciudadCorta.get(plaza) ?? nombrePlaza}
+      whatsapp={e.whatsapp}
+      telefono={e.telefono}
     />
   )}
 

@@ -41,6 +41,20 @@ const empresas = defineCollection({
             servicio: z.string().optional(),
             /** slug de un grupo del catálogo de fotografía (src/lib/imagenes.ts) */
             foto: z.string().optional(),
+            /**
+             * Apartado extendido: texto largo + galería. Los servicios que lo
+             * declaran salen además en el módulo a dos columnas de la ficha.
+             */
+            detalle: z
+              .object({
+                intro: z.string(),
+                puntos: z
+                  .array(z.object({ titulo: z.string(), texto: z.string() }))
+                  .default([]),
+                /** fotos: "grupo" o "grupo:N" (N = variante del grupo, base 1) */
+                galeria: z.array(z.string()).default([]),
+              })
+              .optional(),
           }),
         ])
       )

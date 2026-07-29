@@ -1,0 +1,123 @@
+---
+import Foto from '@components/Foto.astro';
+import type { ServicioDeclarado } from '@lib/servicios';
+import { galeriaDe, waServicio } from '@lib/servicios';
+
+/**
+ * Servicio en detalle: módulo a dos columnas.
+ *
+ * Izquierda el argumento —qué es el servicio, qué incluye y cómo contratarlo—;
+ * derecha la galería: una fotografía grande y dos de apoyo.
+ *
+ * Se renderiza un bloque por cada servicio que declare `detalle` en su
+ * frontmatter; el resto se queda solo en las tarjetas de arriba.
+ */
+interface Props {
+  indice: string;
+  servicios: ServicioDeclarado[];
+  /** título de la página de servicio del directorio, por slug */
+  paginas: Map<string, string>;
+  rubroNombre?: string;
+  plaza?: string;
+  whatsapp?: string;
+  telefono?: string;
+}
+
+const { indice, servicios, paginas, rubroNombre, plaza, whatsapp, telefono } = Astro.props;
+
+const nn = (n: number): string => String(n).padStart(2, '0');
+const meta = [rubroNombre, plaza].filter(Boolean).join(' / ');
+
+const enlace = (nombre: string): string | undefined => {
+  if (whatsapp) return waServicio(whatsapp, nombre, plaza);
+  if (telefono) return `tel:+52${telefono.replace(/\D/g, '')}`;
+  return undefined;
+};
+
+const cta = whatsapp ? 'Cotizar por WhatsApp' : telefono ? 'Llamar' : '';
+---
+
+<section class="wrap pt-20 sm:pt-28">
+  <div class="flex flex-wrap items-baseline justify-between gap-x-6 gap-y-2">
+    <p class="label">[ {indice} — Servicios en detalle ]</p>
+    <p class="label muted tabular-nums">{nn(servicios.length)} desarrollados</p>
+  </div>
+
+  {servicios.map((s, i) => {
+    const galeria = galeriaDe(s.detalle?.galeria ?? []);
+    const [principal, ...apoyo] = galeria;
+    const href = enlace(s.nombre);
+    const pagina = s.servicio && paginas.has(s.servicio) ? s.servicio : undefined;
+
+    return (
+      <article class="rule-strong mt-10 pt-10">
+        <div class="grid grid-cols-12 gap-x-12 gap-y-10">
+          <!-- el argumento -->
+          <div class="col-span-12 lg:col-span-5">
+            <p class="label muted tabular-nums">{nn(i + 1)}</p>
+            <h2 class="display-md mt-3">{s.nombre}</h2>
+            {meta && <p class="label muted mt-3">{meta}</p>}
+
+            <p class="mt-6 max-w-[52ch] text-[1.0625rem] leading-[1.6]">{s.detalle?.intro}</p>
+
+            {s.detalle && s.detalle.puntos.length > 0 && (
+              <dl class="mt-8 grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2">
+                {s.detalle.puntos.map((p, j) => (
+                  <div class="rule pt-4">
+                    <dt>
+                      <span class="label text-signal tabular-nums">{nn(j + 1)}</span>
+                      <span class="label ml-3">{p.titulo}</span>
+                    </dt>
+                    <dd class="muted mt-3 text-[13px] leading-[1.5]">{p.texto}</dd>
+                  </div>
+                ))}
+              </dl>
+            )}
+
+            <div class="mt-8 flex flex-wrap items-center gap-5">
+              {href && (
+                <a
+                  href={href}
+                  rel={href.startsWith('https') ? 'noopener' : undefined}
+                  class="cta-solid"
+                >
+                  {cta} <span aria-hidden="true">→</span>
+                </a>
+              )}
+              {pagina && (
+                <a href={`/servicios/${pagina}`} class="label underline-hover text-signal">
+                  Qué incluye →
+                </a>
+              )}
+            </div>
+
+            <p class="muted mt-6 max-w-[52ch] text-[13px] leading-[1.5]">
+              El alcance de este servicio lo declara la empresa. Confirma con el proveedor la
+              modalidad que ampara su permiso antes de contratar.
+            </p>
+          </div>
+
+          <!-- la galería: una grande, dos de apoyo -->
+          {galeria.length > 0 && (
+            <div class="col-span-12 lg:col-span-6 lg:col-start-7">
+              {principal && (
+                <div class="foto-marco">
+                  <Foto foto={principal} sizes="(min-width: 1024px) 48vw, 92vw" mono />
+                </div>
+              )}
+              {apoyo.length > 0 && (
+                <div class="mt-3 grid grid-cols-2 gap-3">
+                  {apoyo.slice(0, 2).map((f) => (
+                    <div class="foto-cuadro">
+                      <Foto foto={f} sizes="(min-width: 1024px) 24vw, 46vw" mono />
+                    </div>
+                  ))}
+                </div>
+              )}
+            </div>
+          )}
+        </div>
+      </article>
+    );
+  })}
+</section>
