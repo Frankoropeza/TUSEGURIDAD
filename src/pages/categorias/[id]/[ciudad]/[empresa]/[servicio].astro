@@ -572,7 +572,7 @@ const jsonld: Record<string, unknown> = {
   <Faq
     preguntas={p.faq}
     indice={p.faq.length > 0 ? idx('faq') : undefined}
-    titulo={`Dudas sobre ${p.nombre.toLowerCase()}`}
+    titulo={h2('faq', `Dudas sobre ${p.nombre.toLowerCase()}`)}
   />
 
   <!-- otros servicios de la empresa con página propia -->
