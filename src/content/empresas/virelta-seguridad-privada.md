@@ -35,23 +35,6 @@ servicios:
         cada punto de servicio y bitácora de novedades que queda a disposición de quien
         contrata. Es el esquema base sobre el que se montan el control de accesos, el
         patrullaje y la vigilancia remota por CCTV.
-      puntos:
-        - titulo: Consigna por punto
-          texto: >-
-            Cada posición tiene por escrito qué se revisa, con qué frecuencia y a quién se
-            reporta. Sin consigna no hay servicio que se pueda auditar.
-        - titulo: Bitácora de turno
-          texto: >-
-            Registro de entradas, salidas, incidencias y pendientes que se entrega al relevo
-            y queda disponible para el cliente.
-        - titulo: Relevo y supervisión
-          texto: >-
-            Cambio de turno presencial y visitas de supervisión para verificar presentación,
-            consigna y equipo del personal en sitio.
-        - titulo: Personal acreditado
-          texto: >-
-            La empresa declara personal con certificación SSC, alta ante IMSS e INFONAVIT y
-            verificación de antecedentes previa a la asignación.
       galeria:
         - guardia-seguridad-privada-polanco-cdmx:1
         - guardia-verificando-acceso:2
