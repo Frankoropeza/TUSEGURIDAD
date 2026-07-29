@@ -1,7 +1,7 @@
 ---
 import Foto from '@components/Foto.astro';
 import type { ServicioDeclarado } from '@lib/servicios';
-import { galeriaDe, waServicio } from '@lib/servicios';
+import { galeriaDe, slugServicio, waServicio } from '@lib/servicios';
 
 /**
  * Servicio en detalle: módulo a dos columnas.
@@ -21,9 +21,20 @@ interface Props {
   plaza?: string;
   whatsapp?: string;
   telefono?: string;
+  /** páginas propias del servicio dentro de esta empresa, por slug */
+  fichas?: Map<string, string>;
 }
 
-const { indice, servicios, paginas, rubroNombre, plaza, whatsapp, telefono } = Astro.props;
+const {
+  indice,
+  servicios,
+  paginas,
+  rubroNombre,
+  plaza,
+  whatsapp,
+  telefono,
+  fichas = new Map<string, string>(),
+} = Astro.props;
 
 const nn = (n: number): string => String(n).padStart(2, '0');
 const meta = [rubroNombre, plaza].filter(Boolean).join(' / ');
@@ -47,7 +58,10 @@ const cta = whatsapp ? 'Cotizar por WhatsApp' : telefono ? 'Llamar' : '';
     const galeria = galeriaDe(s.detalle?.galeria ?? []);
     const [principal, ...apoyo] = galeria;
     const href = enlace(s.nombre);
-    const pagina = s.servicio && paginas.has(s.servicio) ? s.servicio : undefined;
+    /* Primero la página propia del servicio; si no existe, la genérica del
+       directorio. Nunca las dos: sería el mismo enlace dos veces. */
+    const propia = fichas.get(slugServicio(s.nombre));
+    const pagina = !propia && s.servicio && paginas.has(s.servicio) ? s.servicio : undefined;
 
     return (
       <article class="rule-strong mt-10 pt-10">
@@ -82,6 +96,11 @@ const cta = whatsapp ? 'Cotizar por WhatsApp' : telefono ? 'Llamar' : '';
                   class="cta-solid"
                 >
                   {cta} <span aria-hidden="true">→</span>
+                </a>
+              )}
+              {propia && (
+                <a href={propia} class="label underline-hover text-signal">
+                  Ver el servicio completo →
                 </a>
               )}
               {pagina && (

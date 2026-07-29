@@ -176,6 +176,52 @@ const servicios = defineCollection({
   }),
 });
 
+/**
+ * Página de servicio de una empresa (cliente VIP).
+ *
+ * Un archivo por servicio, en `src/content/servicios-empresa/<empresa>/<slug>.md`,
+ * de modo que `entry.id` sea `<empresa>/<slug>` y la URL se derive de él:
+ *   /categorias/<rubro>/<plaza>/<empresa>/<slug>/
+ *
+ * Es lo que distingue a un cliente VIP: solo sus servicios tienen página
+ * propia. El resto del padrón se queda en la tarjeta de su ficha.
+ */
+const serviciosEmpresa = defineCollection({
+  loader: glob({ pattern: '**/*.{md,mdx}', base: './src/content/servicios-empresa' }),
+  schema: z.object({
+    /** slug de la ficha de empresa a la que pertenece */
+    empresa: z.string(),
+    /** segmento final de la URL; debe coincidir con el nombre del archivo */
+    slug: z.string(),
+    /** nombre tal cual aparece en la tarjeta de la ficha — es la llave de enlace */
+    nombre: z.string(),
+    /** H1 de la página; puede ser más largo y con plaza para SEO */
+    titulo: z.string(),
+    /** meta description y lede de la cabecera */
+    descripcion: z.string(),
+    /** párrafo de apertura del apartado 01 */
+    intro: z.string(),
+    /** cifras declaradas para la cabecera: { k: 'Cobertura', v: 'CDMX · Edomex' } */
+    stats: z.array(z.object({ k: z.string(), v: z.string() })).default([]),
+    /** qué incluye el servicio */
+    incluye: z.array(z.object({ titulo: z.string(), texto: z.string() })).default([]),
+    /** esquemas o modalidades en que se presta */
+    modalidades: z.array(z.object({ titulo: z.string(), texto: z.string() })).default([]),
+    /** perfiles de inmueble o cliente a los que aplica */
+    paraQuien: z.array(z.object({ titulo: z.string(), texto: z.string() })).default([]),
+    /** pasos del alta del servicio, en orden */
+    proceso: z.array(z.object({ titulo: z.string(), texto: z.string() })).default([]),
+    /** documentos y registros que el cliente recibe */
+    entregables: z.array(z.string()).default([]),
+    /** fotos: "grupo" o "grupo:N" (N = variante del grupo, base 1) */
+    galeria: z.array(z.string()).default([]),
+    faq: z.array(z.object({ q: z.string(), a: z.string() })).default([]),
+    /** slug de la página genérica del directorio, si existe */
+    servicio: z.string().optional(),
+    orden: z.number().default(0),
+  }),
+});
+
 const guias = defineCollection({
   loader: glob({ pattern: '**/*.{md,mdx}', base: './src/content/guias' }),
   schema: z.object({
@@ -192,4 +238,11 @@ const guias = defineCollection({
   }),
 });
 
-export const collections = { empresas, categorias, ciudades, servicios, guias };
+export const collections = {
+  empresas,
+  categorias,
+  ciudades,
+  servicios,
+  serviciosEmpresa,
+  guias,
+};

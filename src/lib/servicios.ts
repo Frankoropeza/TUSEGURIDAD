@@ -53,6 +53,23 @@ export function tienenDetalle(servicios: ServicioDeclarado[]): boolean {
 }
 
 /**
+ * Slug de URL a partir del nombre visible de un servicio.
+ *
+ * Es la llave que une la tarjeta de la ficha con su página propia: la tarjeta
+ * no guarda la ruta, la deriva del nombre. Si el nombre cambia, el slug cambia
+ * y el enlace deja de resolver — deliberado: obliga a renombrar también el
+ * archivo de contenido en vez de dejar dos verdades.
+ */
+export function slugServicio(nombre: string): string {
+  return nombre
+    .normalize('NFD')
+    .replace(/[\u0300-\u036f]/g, '')
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/^-+|-+$/g, '');
+}
+
+/**
  * Enlace de WhatsApp con el mensaje ya escrito para ese servicio.
  * wa.me exige el número a 12 dígitos con lada país; los .md guardan el
  * formato legible.

@@ -1,0 +1,516 @@
+---
+import type { GetStaticPaths } from 'astro';
+import BaseLayout from '@layouts/BaseLayout.astro';
+import Cabecera from '@components/Cabecera.astro';
+import Faq from '@components/Faq.astro';
+import Foto from '@components/Foto.astro';
+import Tarjeta from '@components/Tarjeta.astro';
+import Relacionados from '@components/Relacionados.astro';
+import { getCollection, render } from 'astro:content';
+import { galeriaDe, serviciosDe, slugServicio, waServicio } from '@lib/servicios';
+import { FOTOS, foto as tomarFoto, fotoPara, tieneFotos } from '@lib/imagenes';
+import {
+  cargarDatos,
+  bloqueCruces,
+  bloqueRubros,
+  bloqueCiudades,
+  bloqueServicios,
+  bloqueGuias,
+  bloqueEmpresas,
+  hrefEmpresa,
+  hrefEmpresaEn,
+} from '@lib/enlaces';
+
+/**
+ * Página de un servicio de un cliente VIP.
+ *
+ *   /categorias/<rubro>/<plaza>/<empresa>/<servicio>/
+ *
+ * Cuelga de la ficha de empresa a propósito: el servicio es de esa empresa, no
+ * del directorio. Las páginas genéricas del rubro viven en /servicios/.
+ *
+ * Igual que la ficha, una empresa con varios rubros o plazas genera variantes
+ * con el mismo contenido; solo la combinación principal es indexable y el
+ * resto lleva rel=canonical hacia ella.
+ */
+export const getStaticPaths = (async () => {
+  const [empresas, categorias, paginas] = await Promise.all([
+    getCollection('empresas'),
+    getCollection('categorias'),
+    getCollection('serviciosEmpresa'),
+  ]);
+  const activos = new Set(categorias.filter((c) => c.data.destacada).map((c) => c.id));
+  const porEmpresa = new Map<string, typeof paginas>();
+  for (const p of paginas) {
+    const lista = porEmpresa.get(p.data.empresa) ?? [];
+    lista.push(p);
+    porEmpresa.set(p.data.empresa, lista);
+  }
+
+  return empresas.flatMap((empresa) => {
+    const suyas = porEmpresa.get(empresa.id) ?? [];
+    if (suyas.length === 0) return [];
+
+    const rubros = [...new Set([empresa.data.categoria, ...empresa.data.categorias])].filter((r) =>
+      activos.has(r)
+    );
+    const plazas = [...new Set([empresa.data.ciudad, ...empresa.data.ciudades])];
+
+    return rubros.flatMap((rubro) =>
+      plazas.flatMap((plaza) =>
+        suyas.map((pagina) => ({
+          params: { id: rubro, ciudad: plaza, empresa: empresa.id, servicio: pagina.data.slug },
+          props: { empresa, rubro, plaza, pagina },
+        }))
+      )
+    );
+  });
+}) satisfies GetStaticPaths;
+
+const { empresa, rubro, plaza, pagina } = Astro.props;
+const e = empresa.data;
+const p = pagina.data;
+const { Content } = await render(pagina);
+
+const d = await cargarDatos();
+const catPorId = new Map(d.categorias.map((c) => [c.id, c.data.nombre]));
+const ciudadPorId = new Map(d.ciudades.map((c) => [c.id, c.data.nombre]));
+const ciudadCorta = new Map(d.ciudades.map((c) => [c.id, c.data.nombreCorto ?? c.data.nombre]));
+
+const nombreRubro = catPorId.get(rubro) ?? rubro;
+const nombrePlaza = ciudadPorId.get(plaza) ?? plaza;
+const plazaCorta = ciudadCorta.get(plaza) ?? nombrePlaza;
+const nn = (n: number): string => String(n).padStart(2, '0');
+
+/* Rutas. La ficha y la página del servicio se canonicalizan por la misma
+   regla: manda la combinación categoria + ciudad del frontmatter. */
+const fichaPath = hrefEmpresaEn(empresa, rubro, plaza);
+const fichaCanonica = hrefEmpresa(empresa);
+const path = `${fichaPath}/${p.slug}`;
+const canonicalPath = `${fichaCanonica}/${p.slug}`;
+const esCanonica = path === canonicalPath;
+
+/* Contacto: el WhatsApp con el mensaje ya escrito para este servicio. */
+const enlaceContacto = e.whatsapp
+  ? waServicio(e.whatsapp, p.nombre, plazaCorta)
+  : e.telefono
+    ? `tel:+52${e.telefono.replace(/\D/g, '')}`
+    : undefined;
+const textoContacto = e.whatsapp ? 'Cotizar por WhatsApp' : e.telefono ? 'Llamar ahora' : '';
+
+/* Galería. La primera abre la página, las dos siguientes la acompañan y el
+   resto baja a la banda de tres, antes de las preguntas. */
+const galeria = galeriaDe(p.galeria);
+const principal = galeria[0];
+const apoyo = galeria.slice(1, 3);
+const banda = galeria.slice(3, 6);
+
+/* Otros servicios de la misma empresa: los que tienen página propia enlazan a
+   ella; los demás salen en la lista corta del pie. */
+const todas = await getCollection('serviciosEmpresa');
+const propias = todas.filter((x) => x.data.empresa === empresa.id);
+const hermanas = propias
+  .filter((x) => x.data.slug !== p.slug)
+  .sort((a, b) => a.data.orden - b.data.orden || a.data.nombre.localeCompare(b.data.nombre));
+
+const declarados = serviciosDe(empresa);
+const conPagina = new Set(propias.map((x) => x.data.slug));
+const sinPagina = declarados.filter((s) => !conPagina.has(slugServicio(s.nombre)));
+
+const hayFotos = tieneFotos(rubro);
+const grupos = new Set(FOTOS.map((g) => g.slug));
+const fotoDe = (nombre: string, declarada: string | undefined, i: number) => {
+  if (!hayFotos) return null;
+  if (declarada && grupos.has(declarada)) return tomarFoto(declarada, i + 1);
+  return fotoPara(`servicio:${rubro}:${nombre}`);
+};
+const fotoDeclarada = new Map(declarados.map((s) => [slugServicio(s.nombre), s.foto] as const));
+const descripcionDe = new Map(
+  declarados.map((s) => [slugServicio(s.nombre), s.descripcion] as const)
+);
+
+/* Numeración: se calcula sobre los apartados que realmente se renderizan. */
+const secciones = [
+  'servicio',
+  p.incluye.length > 0 && 'incluye',
+  p.modalidades.length > 0 && 'modalidades',
+  p.paraQuien.length > 0 && 'para-quien',
+  p.proceso.length > 0 && 'proceso',
+  'contratar',
+  p.faq.length > 0 && 'faq',
+  hermanas.length > 0 && 'otros',
+].filter(Boolean) as string[];
+const idx = (k: string): string => nn(secciones.indexOf(k) + 1);
+
+/* JSON-LD Service: el proveedor es la EMPRESA, no TuSeguridad — por eso se
+   sobreescribe `provider`. `areaServed` son las zonas declaradas en la ficha. */
+const zonasDeclaradas = [
+  ...new Set([
+    ...[...new Set([e.ciudad, ...e.ciudades])].map((c) => ciudadPorId.get(c) ?? c),
+    ...Object.values(e.zonas ?? {}).flat(),
+  ]),
+];
+
+const jsonld: Record<string, unknown> = {
+  serviceType: p.nombre,
+  provider: {
+    '@type': 'LocalBusiness',
+    name: e.nombre,
+    ...(e.telefono ? { telephone: e.telefono } : {}),
+  },
+  areaServed: zonasDeclaradas.map((n) => ({ '@type': 'AdministrativeArea', name: n })),
+  category: nombreRubro,
+  ...(p.incluye.length > 0
+    ? {
+        hasOfferCatalog: {
+          '@type': 'OfferCatalog',
+          name: `Alcance de ${p.nombre.toLowerCase()}`,
+          itemListElement: p.incluye.map((x) => ({
+            '@type': 'Offer',
+            itemOffered: { '@type': 'Service', name: x.titulo, description: x.texto },
+          })),
+        },
+      }
+    : {}),
+};
+---
+
+<BaseLayout
+  title={p.titulo}
+  description={p.descripcion}
+  path={path}
+  canonicalPath={canonicalPath}
+  noindex={!esCanonica || e.demo}
+  pageType="service"
+  faq={p.faq}
+  jsonld={jsonld}
+  breadcrumbs={[
+    { name: 'Inicio', href: '/' },
+    { name: 'Categorías', href: '/categorias' },
+    { name: nombreRubro, href: `/categorias/${rubro}` },
+    { name: nombrePlaza, href: `/categorias/${rubro}/${plaza}` },
+    { name: e.nombre, href: fichaPath },
+    { name: p.nombre, href: path },
+  ]}
+>
+  <Cabecera
+    ruta={[
+      { nombre: 'Inicio', href: '/' },
+      { nombre: 'Categorías', href: '/categorias' },
+      { nombre: nombreRubro, href: `/categorias/${rubro}` },
+      { nombre: plazaCorta, href: `/categorias/${rubro}/${plaza}` },
+      { nombre: e.nombre, href: fichaPath },
+      { nombre: p.nombre },
+    ]}
+    indice="Servicio"
+    meta={`${e.nombre} · ${nombreRubro}`}
+    titulo={p.titulo}
+    lede={p.descripcion}
+    stats={p.stats}
+  />
+
+  <!-- el servicio: argumento + fotografía -->
+  <section class="wrap pt-16 sm:pt-20">
+    <div class="rule-strong grid grid-cols-12 gap-x-12 gap-y-10 pt-10">
+      <div class="col-span-12 lg:col-span-5">
+        <p class="label">[ {idx('servicio')} — El servicio ]</p>
+        <h2 class="display-md mt-4">{p.nombre}</h2>
+        <p class="label muted mt-3">{nombreRubro} / {plazaCorta}</p>
+
+        <p class="mt-6 max-w-[52ch] text-[1.0625rem] leading-[1.6]">{p.intro}</p>
+
+        <div class="mt-8 flex flex-wrap items-center gap-4">
+          {enlaceContacto && (
+            <a
+              href={enlaceContacto}
+              rel={enlaceContacto.startsWith('https') ? 'noopener' : undefined}
+              class="cta-solid"
+            >
+              {textoContacto} <span aria-hidden="true">→</span>
+            </a>
+          )}
+          <a href={fichaPath} class="label underline-hover">Ver la ficha de la empresa →</a>
+        </div>
+
+        {p.entregables.length > 0 && (
+          <>
+            <p class="label mt-12">[ Qué se entrega ]</p>
+            <ul class="mt-4 border-b border-ink/20">
+              {p.entregables.map((x, i) => (
+                <li class="rule flex items-baseline gap-4 py-3">
+                  <span class="label muted tabular-nums shrink-0">{nn(i + 1)}</span>
+                  <span class="text-[15px] leading-snug">{x}</span>
+                </li>
+              ))}
+            </ul>
+          </>
+        )}
+      </div>
+
+      {principal && (
+        <div class="col-span-12 lg:col-span-6 lg:col-start-7">
+          <div class="foto-marco">
+            <Foto foto={principal} sizes="(min-width: 1024px) 48vw, 92vw" mono prioridad />
+          </div>
+          {apoyo.length > 0 && (
+            <div class="mt-3 grid grid-cols-2 gap-3">
+              {apoyo.map((f) => (
+                <div class="foto-cuadro">
+                  <Foto foto={f} sizes="(min-width: 1024px) 24vw, 46vw" mono />
+                </div>
+              ))}
+            </div>
+          )}
+        </div>
+      )}
+    </div>
+  </section>
+
+  <!-- qué incluye -->
+  {p.incluye.length > 0 && (
+    <section class="wrap pt-16 sm:pt-20">
+      <div class="flex flex-wrap items-baseline justify-between gap-x-6 gap-y-2">
+        <p class="label">[ {idx('incluye')} — Qué incluye ]</p>
+        <p class="label muted tabular-nums">{nn(p.incluye.length)} puntos</p>
+      </div>
+
+      <h2 class="display-md mt-4 max-w-[24ch]">Lo que queda por escrito</h2>
+
+      <dl class="mt-8 border-b border-ink/20">
+        {p.incluye.map((x, i) => (
+          <div class="rule grid grid-cols-12 items-baseline gap-x-6 gap-y-1 py-5">
+            <dt class="label col-span-12 sm:col-span-4">
+              <span class="text-signal tabular-nums">{nn(i + 1)}</span> {x.titulo}
+            </dt>
+            <dd class="col-span-12 max-w-[62ch] text-[15px] leading-[1.55] sm:col-span-8">
+              {x.texto}
+            </dd>
+          </div>
+        ))}
+      </dl>
+    </section>
+  )}
+
+  <!-- modalidades -->
+  {p.modalidades.length > 0 && (
+    <section class="wrap pt-16 sm:pt-20">
+      <div class="flex flex-wrap items-baseline justify-between gap-x-6 gap-y-2">
+        <p class="label">[ {idx('modalidades')} — Modalidades ]</p>
+        <p class="label muted tabular-nums">{nn(p.modalidades.length)}</p>
+      </div>
+
+      <h2 class="display-md mt-4 max-w-[24ch]">Cómo se puede contratar</h2>
+
+      <div class="mt-8 grid grid-cols-1 gap-5 sm:grid-cols-2 xl:grid-cols-4">
+        {p.modalidades.map((x, i) => (
+          <!-- caja estática: no usa .tarjeta porque no es enlazable y su
+               hover invertido daría a entender que se puede pulsar -->
+          <div class="flex h-full flex-col border border-ink bg-paper p-5">
+            <span class="label text-signal tabular-nums">{nn(i + 1)}</span>
+            <h3 class="display-sm mt-3">{x.titulo}</h3>
+            <p class="muted mt-3 text-[14px] leading-[1.5]">{x.texto}</p>
+          </div>
+        ))}
+      </div>
+    </section>
+  )}
+
+  <!-- para quién -->
+  {p.paraQuien.length > 0 && (
+    <section class="wrap pt-16 sm:pt-20">
+      <div class="grid grid-cols-12 gap-x-12 gap-y-8">
+        <div class="col-span-12 lg:col-span-4">
+          <p class="label">[ {idx('para-quien')} — Para quién ]</p>
+          <h2 class="display-md mt-4">Dónde aplica<br />este servicio</h2>
+          <p class="muted mt-6 max-w-[38ch] text-[15px] leading-[1.55]">
+            El dispositivo cambia según el inmueble: no es lo mismo un acceso residencial
+            que un andén de carga. La consigna se escribe para el sitio, no en general.
+          </p>
+        </div>
+
+        <div class="col-span-12 lg:col-span-7 lg:col-start-6">
+          <dl class="border-b border-ink/20">
+            {p.paraQuien.map((x, i) => (
+              <div class="rule grid grid-cols-12 items-baseline gap-x-6 gap-y-1 py-4">
+                <dt class="label col-span-12 sm:col-span-5">
+                  <span class="muted tabular-nums">{nn(i + 1)}</span> {x.titulo}
+                </dt>
+                <dd class="col-span-12 text-[15px] leading-[1.5] sm:col-span-7">{x.texto}</dd>
+              </div>
+            ))}
+          </dl>
+        </div>
+      </div>
+    </section>
+  )}
+
+  <!-- proceso -->
+  {p.proceso.length > 0 && (
+    <section class="wrap pt-16 sm:pt-20">
+      <div class="flex flex-wrap items-baseline justify-between gap-x-6 gap-y-2">
+        <p class="label">[ {idx('proceso')} — Cómo se implementa ]</p>
+        <p class="label muted tabular-nums">{nn(p.proceso.length)} pasos</p>
+      </div>
+
+      <h2 class="display-md mt-4 max-w-[24ch]">Del recorrido al arranque</h2>
+
+      <ol class="mt-8 grid grid-cols-1 gap-x-12 sm:grid-cols-2 xl:grid-cols-3">
+        {p.proceso.map((x, i) => (
+          <li class="rule-strong pb-6 pt-5">
+            <span class="numeral text-signal text-3xl tabular-nums">{nn(i + 1)}</span>
+            <h3 class="display-sm mt-3">{x.titulo}</h3>
+            <p class="muted mt-2 max-w-[42ch] text-[14px] leading-[1.5]">{x.texto}</p>
+          </li>
+        ))}
+      </ol>
+    </section>
+  )}
+
+  <!-- cuerpo editorial + panel de contratación -->
+  <section class="wrap pt-16 sm:pt-20">
+    <div class="grid grid-cols-12 gap-x-12 gap-y-12">
+      <div class="col-span-12 lg:col-span-7">
+        <div class="prose-content">
+          <Content />
+        </div>
+      </div>
+
+      <aside class="col-span-12 lg:col-span-4 lg:col-start-9">
+        <p class="label">[ {idx('contratar')} — Contratar ]</p>
+        <div class="on-ink mt-6 p-6 sm:p-8">
+          <p class="label">{e.nombre}</p>
+          <p class="display-sm mt-3">{p.nombre}</p>
+          <p class="muted mt-4 text-[14px] leading-[1.5]">
+            El mensaje va con el servicio y la plaza ya indicados; la empresa responde
+            directamente. TuSeguridad no participa en la contratación.
+          </p>
+
+          {enlaceContacto ? (
+            <a
+              href={enlaceContacto}
+              rel={enlaceContacto.startsWith('https') ? 'noopener' : undefined}
+              class="mt-6 inline-flex items-center gap-3 bg-paper px-7 py-4 font-mono text-[11px] uppercase tracking-[0.18em] text-ink hover:bg-signal hover:text-paper"
+            >
+              {textoContacto} <span aria-hidden="true">→</span>
+            </a>
+          ) : (
+            <p class="muted mt-6 text-[14px] leading-[1.5]">
+              Esta empresa aún no publica un canal de contacto directo.
+            </p>
+          )}
+
+          <dl class="mt-8 border-t border-paper/25">
+            {e.telefono && (
+              <div class="rule flex items-baseline justify-between gap-4 py-3">
+                <dt class="label muted">Teléfono</dt>
+                <dd class="text-sm">{e.telefono}</dd>
+              </div>
+            )}
+            {e.horario && (
+              <div class="rule flex items-baseline justify-between gap-4 py-3">
+                <dt class="label muted">Horario</dt>
+                <dd class="text-right text-sm">{e.horario}</dd>
+              </div>
+            )}
+            <div class="rule flex items-baseline justify-between gap-4 py-3">
+              <dt class="label muted">Cobertura</dt>
+              <dd class="text-right text-sm">
+                {[...new Set([e.ciudad, ...e.ciudades])]
+                  .map((c) => ciudadCorta.get(c) ?? c)
+                  .join(' · ')}
+              </dd>
+            </div>
+          </dl>
+        </div>
+
+        {p.servicio && (
+          <div class="rule mt-10 pt-6">
+            <p class="label muted">[ En el directorio ]</p>
+            <a href={`/servicios/${p.servicio}`} class="mt-3 block">
+              <span class="text-base leading-snug underline-hover">
+                Qué debe cumplir cualquier proveedor de este servicio
+              </span>
+              <span class="label text-signal mt-2 inline-block">Ver la guía del directorio →</span>
+            </a>
+          </div>
+        )}
+
+        {sinPagina.length > 0 && (
+          <div class="rule mt-10 pt-6">
+            <p class="label muted">[ Otros servicios declarados ]</p>
+            <p class="mt-3 text-[14px] leading-[1.5]">
+              {sinPagina.map((s) => s.nombre).join(' · ')}
+            </p>
+            <a href={fichaPath} class="label underline-hover mt-4 inline-block">
+              Ver la ficha completa →
+            </a>
+          </div>
+        )}
+      </aside>
+    </div>
+  </section>
+
+  <!-- banda fotográfica: el resto de la galería, antes de las preguntas -->
+  {banda.length > 0 && (
+    <section class="wrap pt-16 sm:pt-20">
+      <div class="grid grid-cols-1 gap-3 sm:grid-cols-3">
+        {banda.map((f) => (
+          <div class="foto-cuadro">
+            <Foto foto={f} sizes="(min-width: 640px) 31vw, 92vw" mono />
+          </div>
+        ))}
+      </div>
+      <p class="muted mt-4 text-[13px] leading-[1.5]">
+        Fotografía de referencia del rubro. No corresponde a instalaciones de la empresa.
+      </p>
+    </section>
+  )}
+
+  <Faq
+    preguntas={p.faq}
+    indice={p.faq.length > 0 ? idx('faq') : undefined}
+    titulo={`Dudas sobre ${p.nombre.toLowerCase()}`}
+  />
+
+  <!-- otros servicios de la empresa con página propia -->
+  {hermanas.length > 0 && (
+    <section class="wrap pt-16 sm:pt-20">
+      <div class="flex flex-wrap items-baseline justify-between gap-x-6 gap-y-2">
+        <p class="label">[ {idx('otros')} — Más de esta empresa ]</p>
+        <a href={fichaPath} class="label underline-hover">
+          Ver los {nn(declarados.length)} servicios →
+        </a>
+      </div>
+
+      <h2 class="display-md mt-4 max-w-[24ch]">Otros servicios de la empresa</h2>
+
+      <div class="mt-8 grid grid-cols-1 items-stretch gap-5 sm:grid-cols-2 xl:grid-cols-3">
+        {hermanas.map((h, i) => (
+          <Tarjeta
+            href={`${fichaPath}/${h.data.slug}`}
+            indice={nn(i + 1)}
+            titulo={h.data.nombre}
+            meta={`${nombreRubro} / ${plazaCorta}`}
+            descripcion={descripcionDe.get(h.data.slug) ?? h.data.descripcion}
+            pie="Ver el servicio"
+            foto={fotoDe(h.data.nombre, fotoDeclarada.get(h.data.slug), i)}
+            laminaTexto={h.data.nombre.slice(0, 2)}
+          />
+        ))}
+      </div>
+    </section>
+  )}
+
+  <Relacionados
+    indice={nn(secciones.length + 1)}
+    titulo="Seguir explorando"
+    bloques={[
+      bloqueEmpresas(d, { excluir: empresa.id, rubro, titulo: 'Otras empresas del rubro', limite: 5 }),
+      bloqueCruces(d, { rubro, titulo: 'Este rubro por plaza' }),
+      bloqueServicios(d, { soloRubro: rubro, titulo: 'Servicios del directorio' }),
+      bloqueGuias(d, { soloRubro: rubro, limite: 4, titulo: 'Guías del rubro' }),
+      bloqueCiudades(d, { excluir: plaza, titulo: 'Otras ciudades' }),
+      bloqueRubros(d, { titulo: 'Otros rubros' }),
+    ]}
+  />
+</BaseLayout>

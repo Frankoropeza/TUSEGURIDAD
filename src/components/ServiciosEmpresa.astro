@@ -1,7 +1,7 @@
 ---
 import Tarjeta from '@components/Tarjeta.astro';
 import type { ServicioDeclarado } from '@lib/servicios';
-import { waServicio } from '@lib/servicios';
+import { slugServicio, waServicio } from '@lib/servicios';
 import { FOTOS, foto as tomarFoto, fotoPara, tieneFotos } from '@lib/imagenes';
 
 /**
@@ -29,10 +29,25 @@ interface Props {
   plaza?: string;
   /** enlaces a páginas de servicio del directorio */
   paginas?: { href: string; titulo: string }[];
+  /**
+   * Páginas propias del servicio dentro de esta empresa, por slug de servicio.
+   * Cuando existe, la tarjeta lleva a la página en vez de a WhatsApp: es una
+   * ruta indexable y la conversión ocurre dentro de ella.
+   */
+  fichas?: Map<string, string>;
 }
 
-const { indice, servicios, rubro, rubroNombre, whatsapp, telefono, plaza, paginas = [] } =
-  Astro.props;
+const {
+  indice,
+  servicios,
+  rubro,
+  rubroNombre,
+  whatsapp,
+  telefono,
+  plaza,
+  paginas = [],
+  fichas = new Map<string, string>(),
+} = Astro.props;
 
 /** misma línea meta que la tarjeta de empresa: rubro / plaza */
 const meta = [rubroNombre, plaza].filter(Boolean).join(' / ');
@@ -41,13 +56,25 @@ const nn = (n: number): string => String(n).padStart(2, '0');
 const hayFotos = tieneFotos(rubro);
 const grupos = new Set(FOTOS.map((g) => g.slug));
 
+/**
+ * Destino de la tarjeta. Primero su página propia —es donde se explica y donde
+ * se convierte—; si el servicio todavía no la tiene, cae al contacto directo
+ * para que la tarjeta no quede muerta.
+ */
 const enlace = (nombre: string): string | undefined => {
+  const propia = fichas.get(slugServicio(nombre));
+  if (propia) return propia;
   if (whatsapp) return waServicio(whatsapp, nombre, plaza);
   if (telefono) return `tel:+52${telefono.replace(/\D/g, '')}`;
   return undefined;
 };
 
-const cta = whatsapp ? 'Cotizar por WhatsApp' : telefono ? 'Llamar' : 'Sin contacto directo';
+const pie = (nombre: string): string => {
+  if (fichas.has(slugServicio(nombre))) return 'Ver el servicio';
+  if (whatsapp) return 'Cotizar por WhatsApp';
+  if (telefono) return 'Llamar';
+  return 'Sin contacto directo';
+};
 
 /** Foto declarada en la ficha; si no la hay, selección determinista del catálogo. */
 const imagen = (s: ServicioDeclarado, i: number) => {
@@ -71,7 +98,7 @@ const imagen = (s: ServicioDeclarado, i: number) => {
         titulo={s.nombre}
         meta={meta}
         descripcion={s.descripcion}
-        pie={cta}
+        pie={pie(s.nombre)}
         foto={imagen(s, i)}
         laminaTexto={s.nombre.slice(0, 2)}
         inactivo={!enlace(s.nombre)}

@@ -125,6 +125,15 @@ const paginasServicio = [
 /* Servicios con apartado extendido: salen además en el módulo a dos columnas. */
 const conDetalle = servicios.filter((s) => s.detalle);
 
+/* Páginas propias de servicio (cliente VIP). La tarjeta lleva ahí en vez de a
+   WhatsApp: es una ruta indexable y la conversión ocurre dentro de la página. */
+const propias = await getCollection('serviciosEmpresa');
+const fichasServicio = new Map(
+  propias
+    .filter((x) => x.data.empresa === empresa.id)
+    .map((x) => [x.data.slug, `${path}/${x.data.slug}`] as const)
+);
+
 /* Numeración de apartados: se calcula sobre los que realmente se renderizan,
    para que una ficha sin servicios o sin zonas no salte números. */
 const secciones = [
@@ -212,6 +221,7 @@ const jsonld: Record<string, unknown> = {
       telefono={e.telefono}
       plaza={ciudadCorta.get(plaza) ?? nombrePlaza}
       paginas={paginasServicio}
+      fichas={fichasServicio}
     />
   )}
 
@@ -225,6 +235,7 @@ const jsonld: Record<string, unknown> = {
       plaza={ciudadCorta.get(plaza) ?? nombrePlaza}
       whatsapp={e.whatsapp}
       telefono={e.telefono}
+      fichas={fichasServicio}
     />
   )}
 
