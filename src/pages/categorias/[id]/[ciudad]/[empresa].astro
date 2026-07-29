@@ -3,6 +3,8 @@ import type { GetStaticPaths } from 'astro';
 import BaseLayout from '@layouts/BaseLayout.astro';
 import Cabecera from '@components/Cabecera.astro';
 import Relacionados from '@components/Relacionados.astro';
+import ServiciosEmpresa from '@components/ServiciosEmpresa.astro';
+import { serviciosDe } from '@lib/servicios';
 import { getCollection, render } from 'astro:content';
 import {
   cargarDatos,
@@ -103,6 +105,31 @@ const zonasPorPlaza = plazas
   .map((p) => ({ plaza: p, nombre: ciudadPorId.get(p) ?? p, zonas: zonasDe(empresa, p) }))
   .filter((x) => x.zonas.length > 0);
 
+/* Servicios declarados. Abren la ficha: quien llega buscando a la empresa
+   quiere saber primero qué hace, no su domicilio fiscal. */
+const servicios = serviciosDe(empresa);
+
+/* Páginas de servicio del directorio referidas desde el frontmatter — solo
+   las que existen de verdad, para no generar enlaces rotos. */
+const servicioPorId = new Map(d.servicios.map((s) => [s.id, s.data.titulo]));
+const paginasServicio = [
+  ...new Map(
+    servicios
+      .map((s) => s.servicio)
+      .filter((slug): slug is string => Boolean(slug) && servicioPorId.has(slug!))
+      .map((slug) => [slug, { href: `/servicios/${slug}`, titulo: servicioPorId.get(slug)! }])
+  ).values(),
+];
+
+/* Numeración de apartados: se calcula sobre los que realmente se renderizan,
+   para que una ficha sin servicios o sin zonas no salte números. */
+const secciones = [
+  servicios.length > 0 && 'servicios',
+  'datos',
+  zonasPorPlaza.length > 0 && 'cobertura',
+].filter(Boolean) as string[];
+const idx = (k: string): string => nn(secciones.indexOf(k) + 1);
+
 // JSON-LD LocalBusiness — sin aggregateRating ni reseñas fabricadas
 const jsonld: Record<string, unknown> = {
   ...(e.telefono ? { telephone: e.telefono } : {}),
@@ -119,6 +146,23 @@ const jsonld: Record<string, unknown> = {
       }
     : {}),
   ...(e.horario ? { openingHours: e.horario } : {}),
+  // catálogo de servicios declarados — hecho, no valoración
+  ...(servicios.length > 0
+    ? {
+        hasOfferCatalog: {
+          '@type': 'OfferCatalog',
+          name: `Servicios de ${e.nombre}`,
+          itemListElement: servicios.map((s) => ({
+            '@type': 'Offer',
+            itemOffered: {
+              '@type': 'Service',
+              name: s.nombre,
+              ...(s.descripcion ? { description: s.descripcion } : {}),
+            },
+          })),
+        },
+      }
+    : {}),
 };
 ---
 
@@ -152,11 +196,23 @@ const jsonld: Record<string, unknown> = {
     lede={e.descripcion}
   />
 
+  <!-- lo que ofrece: primero, antes que los datos administrativos -->
+  {servicios.length > 0 && (
+    <ServiciosEmpresa
+      indice={idx('servicios')}
+      servicios={servicios}
+      whatsapp={e.whatsapp}
+      telefono={e.telefono}
+      plaza={ciudadCorta.get(plaza) ?? nombrePlaza}
+      paginas={paginasServicio}
+    />
+  )}
+
   <!-- ficha de datos + contacto -->
   <section class="wrap pt-16 sm:pt-20">
     <div class="grid grid-cols-12 gap-x-12 gap-y-12">
       <div class="col-span-12 lg:col-span-7">
-        <p class="label">[ 01 — Datos declarados ]</p>
+        <p class="label">[ {idx('datos')} — Datos declarados ]</p>
         <dl class="mt-6 border-b border-ink/20">
           {ficha.map((f) => (
             <div class="rule grid grid-cols-12 items-baseline gap-4 py-4">
@@ -168,7 +224,7 @@ const jsonld: Record<string, unknown> = {
 
         {zonasPorPlaza.length > 0 && (
           <>
-            <p class="label mt-14">[ 02 — Cobertura declarada ]</p>
+            <p class="label mt-14">[ {idx('cobertura')} — Cobertura declarada ]</p>
             <div class="mt-6 border-b border-ink/20">
               {zonasPorPlaza.map((x) => (
                 <div class="rule grid grid-cols-12 items-baseline gap-4 py-4">
@@ -181,20 +237,6 @@ const jsonld: Record<string, unknown> = {
                 </div>
               ))}
             </div>
-          </>
-        )}
-
-        {e.servicios.length > 0 && (
-          <>
-            <p class="label mt-14">[ 03 — Servicios que declara ]</p>
-            <ul class="mt-6 border-b border-ink/20">
-              {e.servicios.map((s, i) => (
-                <li class="rule flex items-baseline gap-4 py-3.5">
-                  <span class="label muted shrink-0">{nn(i + 1)}</span>
-                  <span class="text-base leading-snug">{s}</span>
-                </li>
-              ))}
-            </ul>
           </>
         )}
 
@@ -277,7 +319,7 @@ const jsonld: Record<string, unknown> = {
   </section>
 
   <Relacionados
-    indice="04"
+    indice={nn(secciones.length + 1)}
     titulo="Seguir explorando"
     bloques={[
       bloqueCruces(d, { rubro: e.categoria, titulo: 'Este rubro por plaza' }),

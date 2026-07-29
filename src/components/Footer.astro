@@ -64,6 +64,9 @@ const socials = Object.entries(SITE.social).filter(([, v]) => Boolean(v));
           {socials.map(([name, url]) => (
             <li><a href={url} rel="noopener" class="label underline-hover">{name}</a></li>
           ))}
+          {!SITE.contacto.email && !SITE.contacto.telefono && socials.length === 0 && (
+            <li><p class="label muted">Canales en habilitación</p></li>
+          )}
         </ul>
       </div>
     </div>

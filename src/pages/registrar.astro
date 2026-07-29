@@ -165,7 +165,7 @@ const proceso = [
       <div class="col-span-12">
         {SITE.formEndpoint ? (
           <button type="submit" class="cta-solid">Enviar solicitud →</button>
-        ) : (
+        ) : SITE.contacto.email ? (
           <div class="rule pt-6">
             <p class="label text-signal">Formulario sin endpoint configurado</p>
             <p class="muted mt-3 max-w-2xl text-sm leading-snug">
@@ -175,6 +175,15 @@ const proceso = [
             <a href={`mailto:${SITE.contacto.email}?subject=Alta%20en%20el%20directorio`} class="cta-solid mt-6">
               Escribir a {SITE.contacto.email} →
             </a>
+          </div>
+        ) : (
+          <div class="rule pt-6">
+            <p class="label text-signal">Canal de alta en habilitación</p>
+            <p class="muted mt-3 max-w-2xl text-sm leading-snug">
+              Estamos habilitando la recepción de solicitudes. Ten a la mano tu autorización
+              vigente, la modalidad amparada y tus datos de contacto: son lo que revisamos
+              para publicar la ficha.
+            </p>
           </div>
         )}
       </div>

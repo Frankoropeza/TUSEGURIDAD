@@ -17,7 +17,12 @@ export const SITE = {
   themeColor: '#121211',
 
   contacto: {
-    email: 'contacto@tuseguridad.mx',
+    /**
+     * Vacíos hasta que existan de verdad (buzón que enrute, línea que
+     * conteste). Publicar un canal muerto es peor que no publicar ninguno:
+     * las plantillas muestran su estado "en preparación" mientras tanto.
+     */
+    email: '',
     telefono: '',
     whatsapp: '',
   },
@@ -38,7 +43,12 @@ export const SITE = {
     // publicado en seguridad-privada.com.mx (misma titularidad).
     razonSocial: 'Virelta Seguridad Privada, S.A. de C.V.',
     domicilio: 'Basiliso Romo Anguiano No. 22, int. 3, Col. Industrial, C.P. 07800, Ciudad de México',
-    correoDatos: 'contacto@tuseguridad.mx',
+    /**
+     * Sin buzón todavía. El aviso indica el ejercicio de derechos ARCO por
+     * escrito al domicilio (medio válido conforme a la LFPDPPP); al existir
+     * el correo, llenarlo y el aviso lo publica solo.
+     */
+    correoDatos: '',
     completo: true,
   },
 

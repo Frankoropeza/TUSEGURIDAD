@@ -18,7 +18,11 @@ const secciones = [
     t: 'Responsable de los datos personales',
     p: [
       `${falta(L.razonSocial, 'RAZÓN SOCIAL')}, responsable del sitio ${SITE.domain}, es la entidad que recaba y trata los datos personales descritos en este aviso.`,
-      `Domicilio: ${falta(L.domicilio, 'DOMICILIO FISCAL')}. Correo para asuntos de datos personales: ${falta(L.correoDatos, 'CORREO ARCO')}.`,
+      `Domicilio: ${falta(L.domicilio, 'DOMICILIO FISCAL')}.${
+        L.correoDatos
+          ? ` Correo para asuntos de datos personales: ${L.correoDatos}.`
+          : ' Los asuntos de datos personales se atienden mediante solicitud por escrito presentada en ese domicilio.'
+      }`,
     ],
   },
   {
@@ -45,7 +49,9 @@ const secciones = [
   {
     t: 'Derechos ARCO',
     p: [
-      'Toda persona titular puede ejercer sus derechos de Acceso, Rectificación, Cancelación y Oposición, así como revocar su consentimiento, enviando su solicitud al correo señalado en este aviso.',
+      L.correoDatos
+        ? 'Toda persona titular puede ejercer sus derechos de Acceso, Rectificación, Cancelación y Oposición, así como revocar su consentimiento, enviando su solicitud al correo señalado en este aviso.'
+        : 'Toda persona titular puede ejercer sus derechos de Acceso, Rectificación, Cancelación y Oposición, así como revocar su consentimiento, mediante solicitud por escrito presentada en el domicilio del responsable señalado en este aviso.',
       'La solicitud debe permitir identificar al titular y precisar el derecho que se desea ejercer.',
     ],
   },

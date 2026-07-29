@@ -74,18 +74,28 @@ const motivos = [
       <aside class="col-span-12 lg:col-span-4 lg:col-start-9">
         <p class="label">[ Datos ]</p>
         <ul class="mt-6 border-b border-ink/20">
-          <li class="rule py-4">
-            <p class="label muted">Correo</p>
-            <a href={`mailto:${SITE.contacto.email}`} class="mt-1 block text-base underline-hover">
-              {SITE.contacto.email}
-            </a>
-          </li>
+          {SITE.contacto.email && (
+            <li class="rule py-4">
+              <p class="label muted">Correo</p>
+              <a href={`mailto:${SITE.contacto.email}`} class="mt-1 block text-base underline-hover">
+                {SITE.contacto.email}
+              </a>
+            </li>
+          )}
           {SITE.contacto.telefono && (
             <li class="rule py-4">
               <p class="label muted">Teléfono</p>
               <a href={`tel:${SITE.contacto.telefono}`} class="mt-1 block text-base underline-hover">
                 {SITE.contacto.telefono}
               </a>
+            </li>
+          )}
+          {!SITE.contacto.email && !SITE.contacto.telefono && (
+            <li class="rule py-4">
+              <p class="label muted">Canales</p>
+              <p class="mt-1 text-base leading-snug">
+                En habilitación. Publicaremos aquí el correo y el teléfono de contacto.
+              </p>
             </li>
           )}
           <li class="rule py-4">
