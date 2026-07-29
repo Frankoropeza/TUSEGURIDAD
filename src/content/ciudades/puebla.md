@@ -4,7 +4,7 @@ abreviatura: "PUE"
 capital: "Puebla de Zaragoza"
 region: "Centro"
 estado: "Puebla"
-descripcion: "Empresas de seguridad privada en Puebla. Autorización ante Dirección General de Seguridad Privada, vigencia de 1 año, revalidable por periodos de 1 año."
+descripcion: "Empresas de seguridad privada en Puebla. Autorización ante la Dirección General de Seguridad Privada, vigencia de 1 año, revalidable por periodos de 1 año."
 orden: 21
 normativa:
   ley: "Ley de Seguridad Privada del Estado Libre y Soberano de Puebla"
@@ -26,7 +26,7 @@ Consultar un proveedor de seguridad privada en **Puebla** exige revisar el marco
 
 La norma aplicable es la **Ley de Seguridad Privada del Estado Libre y Soberano de Puebla**.
 
-La instancia que tramita y otorga la autorización es **Dirección General de Seguridad Privada**, adscrita a Secretaría de Seguridad Pública del Estado.
+La instancia que tramita y otorga la autorización es la **Dirección General de Seguridad Privada**, adscrita a la Secretaría de Seguridad Pública del Estado.
 
 ### Datos clave
 

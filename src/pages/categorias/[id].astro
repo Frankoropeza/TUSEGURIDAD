@@ -3,12 +3,16 @@ import type { GetStaticPaths } from 'astro';
 import BaseLayout from '@layouts/BaseLayout.astro';
 import RejillaEmpresas from '@components/RejillaEmpresas.astro';
 import Relacionados from '@components/Relacionados.astro';
+import Tarjeta from '@components/Tarjeta.astro';
+import Faq from '@components/Faq.astro';
+import Apartados from '@components/Apartados.astro';
 import Foto from '@components/Foto.astro';
 import { tieneFotos, fotoPara } from '@lib/imagenes';
-import { getCollection, render } from 'astro:content';
+import { getCollection } from 'astro:content';
 import { SITE } from '@config/site';
 import {
   cargarDatos,
+  conteoPorRubro,
   zonasDe,
   bloqueCruces,
   bloqueCiudades,
@@ -17,6 +21,7 @@ import {
   bloqueEmpresas,
   hrefEmpresaEn,
 } from '@lib/enlaces';
+import { plazasConPadron, padronDe, fechaCorta } from '@lib/padron';
 
 export const getStaticPaths = (async () => {
   const categorias = await getCollection('categorias');
@@ -28,13 +33,11 @@ export const getStaticPaths = (async () => {
 
 const { categoria } = Astro.props;
 const d = categoria.data;
-const { Content } = await render(categoria);
+
 
 const todasCategorias = (await getCollection('categorias')).sort(
   (a, b) => a.data.orden - b.data.orden
 );
-const ciudades = await getCollection('ciudades');
-const nombreCiudad = new Map(ciudades.map((c) => [c.id, c.data.nombre]));
 
 const empresas = (await getCollection('empresas'))
   .filter((e) => e.data.categoria === categoria.id || e.data.categorias.includes(categoria.id))
@@ -45,6 +48,7 @@ const empresas = (await getCollection('empresas'))
 
 const otras = todasCategorias.filter((c) => c.id !== categoria.id);
 const datos = await cargarDatos();
+const conteoRubro = conteoPorRubro(datos);
 
 // reja de las 32 entidades federativas, agrupada por región
 const conteoEstado = new Map<string, number>();
@@ -72,10 +76,23 @@ const zonas = [...new Set(empresas.flatMap((e) => zonasDe(e)))].sort();
 const nn = (n: number): string => String(n).padStart(2, '0');
 const titulo = d.tituloSeo ?? d.nombre;
 const path = `/categorias/${categoria.id}`;
+const anio = new Date().getFullYear();
+
+// Plazas de este rubro donde ya publicamos el registro oficial de la autoridad.
+// Es el activo que distingue al directorio, así que se anuncia desde el rubro.
+const padrones = plazasConPadron(categoria.id)
+  .map((slug) => ({
+    plaza: datos.ciudades.find((c) => c.id === slug),
+    padron: padronDe(categoria.id, slug)!,
+  }))
+  .filter((x): x is { plaza: NonNullable<typeof x.plaza>; padron: NonNullable<typeof x.padron> } =>
+    Boolean(x.plaza)
+  );
+const totalPadron = padrones.reduce((n, x) => n + x.padron.total, 0);
 ---
 
 <BaseLayout
-  title={titulo}
+  title={`${titulo} ${anio}`}
   description={d.descripcion}
   path={path}
   pageType="category"
@@ -129,7 +146,44 @@ const path = `/categorias/${categoria.id}`;
     </div>
   </section>
 
-  <!-- ================= 01b · PORTADA FOTOGRÁFICA ================= -->
+  <!-- ================= 01b · REGISTROS OFICIALES ================= -->
+  {padrones.length > 0 && (
+    <section class="wrap pt-14">
+      <div class="rule flex flex-wrap items-baseline justify-between gap-4 pt-8">
+        <p class="label text-signal">[ Registro oficial ]</p>
+        <p class="label muted tabular-nums">
+          {totalPadron} {totalPadron === 1 ? 'empresa' : 'empresas'} con permiso vigente
+        </p>
+      </div>
+      <p class="mt-6 max-w-3xl text-base leading-snug">
+        Publicamos íntegro el registro que cada autoridad hace público, con número de expediente y
+        fecha de vencimiento, para que puedas cotejar cualquier permiso antes de contratar.
+      </p>
+      <ul class="mt-8">
+        {padrones.map((x) => (
+          <li>
+            <a
+              href={`/categorias/${categoria.id}/${x.plaza.id}`}
+              class="idx-row grid grid-cols-12 items-baseline gap-x-4 gap-y-1 py-5"
+            >
+              <span class="numeral col-span-12 text-3xl tabular-nums sm:col-span-2">
+                {x.padron.total}
+              </span>
+              <span class="col-span-12 text-[15px] font-semibold leading-snug sm:col-span-4">
+                {x.plaza.data.nombreCorto ?? x.plaza.data.nombre}
+              </span>
+              <span class="label muted col-span-12 sm:col-span-4">
+                {x.padron.modalidad} · corte {fechaCorta(x.padron.fechaCorte)}
+              </span>
+              <span class="label col-span-12 text-signal sm:col-span-2 sm:text-right">Ver →</span>
+            </a>
+          </li>
+        ))}
+      </ul>
+    </section>
+  )}
+
+  <!-- ================= 01c · PORTADA FOTOGRÁFICA ================= -->
   {portada && (
     <section class="wrap pt-14">
       <div class="foto-banda">
@@ -182,9 +236,9 @@ const path = `/categorias/${categoria.id}`;
       </h2>
 
       <p class="muted mt-8 max-w-2xl text-base leading-snug">
-        La autorización de seguridad privada se otorga por entidad y las reglas cambian entre
-        estados: la vigencia va de un año a cinco, y el catálogo de modalidades va de tres a once.
-        Elige el tuyo para ver a los proveedores y la normativa que aplica.
+        {d.marcoLocal
+          ? 'La autorización de seguridad privada se otorga por entidad y las reglas cambian entre estados: la vigencia va de un año a cinco, y el catálogo de modalidades va de tres a once. Elige el tuyo para ver a los proveedores y la normativa que aplica.'
+          : 'Las normas del ramo aplican en todo el país, pero el padrón de proveedores se organiza por entidad. Elige la tuya para ver a las empresas con cobertura declarada ahí.'}
       </p>
 
       {regiones.map((grupo) => (
@@ -222,8 +276,8 @@ const path = `/categorias/${categoria.id}`;
   {d.modalidades.length > 0 && (
     <section class="wrap pt-20 sm:pt-28">
       <div class="flex flex-wrap items-baseline justify-between gap-4">
-        <p class="label">[ 02 — Modalidades ]</p>
-        <p class="label muted">Marco normativo federal</p>
+        <p class="label">[ 03 — Modalidades ]</p>
+        <p class="label muted">{d.modalidadesEtiqueta ?? 'Marco normativo federal'}</p>
       </div>
 
       <h2 class="display-lg mt-8 max-w-4xl">Qué cubre<br />cada modalidad</h2>
@@ -259,36 +313,42 @@ const path = `/categorias/${categoria.id}`;
 
   <!-- ================= 04 · CONTENIDO EDITORIAL ================= -->
   <section class="wrap pt-20 sm:pt-28">
-    <p class="label">[ 03 — Contexto ]</p>
-    <div class="rule mt-8 grid grid-cols-12 gap-x-12 gap-y-10 pt-10">
-      <div class="col-span-12 lg:col-span-8">
-        <div class="prose-content">
-          <Content />
-        </div>
-      </div>
+    <p class="label">[ 04 — Contexto ]</p>
 
-      {d.fuentes.length > 0 && (
-        <aside class="col-span-12 lg:col-span-3 lg:col-start-10">
-          <p class="label muted">Fuentes</p>
-          <ul class="mt-5">
-            {d.fuentes.map((f) => (
-              <li class="rule py-3">
-                <a href={f.url} rel="noopener nofollow" target="_blank" class="label underline-hover block leading-relaxed">
-                  {f.titulo} ↗
-                </a>
-              </li>
-            ))}
-          </ul>
-        </aside>
-      )}
+    <div class="mt-8">
+      <Apartados html={(categoria as any).rendered?.html ?? ''} />
     </div>
+
+    {d.fuentes.length > 0 && (
+      <div class="rule mt-14 pt-5">
+        <p class="label muted">Fuentes consultadas</p>
+        <ol class="mt-4 grid gap-x-10 lg:grid-cols-2">
+          {d.fuentes.map((f, i) => (
+            <li class="border-b border-ink/10">
+              <a
+                href={f.url}
+                rel="noopener nofollow"
+                target="_blank"
+                class="flex items-baseline gap-4 py-2.5 hover:text-signal"
+              >
+                <span class="label muted tabular-nums shrink-0">
+                  {String(i + 1).padStart(2, '0')}
+                </span>
+                <span class="flex-1 text-[13px] leading-snug underline-hover">{f.titulo}</span>
+                <span class="label muted shrink-0">↗</span>
+              </a>
+            </li>
+          ))}
+        </ol>
+      </div>
+    )}
   </section>
 
   <!-- ================= 05 · VERIFICACIÓN ================= -->
   {d.verificacion.length > 0 && (
     <section class="on-ink mt-20 sm:mt-28">
       <div class="wrap py-20 sm:py-28">
-        <p class="label muted">[ 04 — Lista de verificación ]</p>
+        <p class="label muted">[ 05 — Lista de verificación ]</p>
         <h2 class="display-lg mt-10 max-w-5xl">
           Qué revisar<br />antes de <span class="text-signal">firmar</span>
         </h2>
@@ -306,56 +366,34 @@ const path = `/categorias/${categoria.id}`;
     </section>
   )}
 
-  <!-- ================= 06 · PREGUNTAS FRECUENTES ================= -->
-  {d.faq.length > 0 && (
-    <section class="wrap pt-20 sm:pt-28">
-      <div class="flex items-baseline justify-between gap-4">
-        <p class="label">[ 05 — Preguntas frecuentes ]</p>
-        <p class="label muted">{nn(d.faq.length)}</p>
-      </div>
+  <Faq preguntas={d.faq} indice="06" />
 
-      <h2 class="display-lg mt-8">Dudas<br />frecuentes</h2>
-
-      <dl class="mt-12 border-b border-ink/20">
-        {d.faq.map((f, i) => (
-          <div class="rule grid grid-cols-12 items-start gap-x-6 gap-y-3 py-8">
-            <dt class="col-span-12 flex gap-4 sm:col-span-5">
-              <span class="label mt-1 shrink-0 text-signal">{nn(i + 1)}</span>
-              <span class="display-sm">{f.q}</span>
-            </dt>
-            <dd class="col-span-12 max-w-2xl text-base leading-snug sm:col-span-6 sm:col-start-7">
-              {f.a}
-            </dd>
-          </div>
-        ))}
-      </dl>
-    </section>
-  )}
-
-  <!-- ================= 07 · OTROS RUBROS ================= -->
+  <!-- ================= OTROS RUBROS ================= -->
   <section class="wrap pt-20 sm:pt-28">
-    <p class="label">[ 06 — Otros rubros ]</p>
-    <div class="mt-8 border-b border-ink/20">
-      {otras.map((c, i) => (
-        <a
-          href={`/categorias/${c.id}`}
-          class="idx-row grid grid-cols-12 items-baseline gap-x-4 gap-y-2 py-6"
-        >
-          <span class="label col-span-2 sm:col-span-1">{nn(i + 1)}</span>
-          <span class="display-md col-span-10 sm:col-span-4">{c.data.nombre}</span>
-          <span class="muted col-span-12 text-sm leading-snug sm:col-span-6">
-            {c.data.descripcion}
-          </span>
-          <span class="idx-arrow label col-span-12 sm:col-span-1 sm:text-right">
-            {c.data.destacada ? '→' : '·'}
-          </span>
-        </a>
-      ))}
+    <p class="label">[ 07 — Otros rubros ]</p>
+    <div class="mt-8 grid grid-cols-1 items-stretch gap-5 sm:grid-cols-2 xl:grid-cols-3">
+      {otras.map((c, i) => {
+        const n = conteoRubro.get(c.id) ?? 0;
+        return (
+          <Tarjeta
+            href={`/categorias/${c.id}`}
+            indice={nn(i + 1)}
+            titulo={c.data.nombre}
+            meta={c.data.destacada ? 'Rubro activo' : 'En preparación'}
+            descripcion={c.data.descripcion}
+            pie={c.data.destacada ? `${nn(n)} ${n === 1 ? 'empresa' : 'empresas'}` : 'Sin padrón'}
+            distintivos={c.data.destacada && n > 0 ? [{ texto: 'Con padrón', tono: 'signal' }] : []}
+            foto={tieneFotos(c.id) ? fotoPara(`rubro:${c.id}`) : null}
+            laminaTexto={c.data.nombre.slice(0, 2)}
+            inactivo={!c.data.destacada}
+          />
+        );
+      })}
     </div>
   </section>
 
   <Relacionados
-    indice="07"
+    indice="08"
     bloques={[
       bloqueCruces(datos, { rubro: categoria.id, titulo: 'Este rubro por plaza' }),
       bloqueCiudades(datos, { soloRubro: categoria.id, titulo: 'Ciudades con presencia' }),

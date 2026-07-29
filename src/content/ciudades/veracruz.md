@@ -4,7 +4,7 @@ abreviatura: "VER"
 capital: "Xalapa-Enríquez"
 region: "Sureste"
 estado: "Veracruz"
-descripcion: "Empresas de seguridad privada en Veracruz. Autorización ante Coordinación de Servicios de Seguridad Privada, vigencia de 1 año, con ratificación anual."
+descripcion: "Empresas de seguridad privada en Veracruz. Autorización ante la Coordinación de Servicios de Seguridad Privada, vigencia de 1 año, con ratificación anual."
 orden: 30
 normativa:
   ley: "Ley Número 489 del Sistema Estatal de Seguridad Pública, Título Sexto"
@@ -26,7 +26,7 @@ Consultar un proveedor de seguridad privada en **Veracruz** exige revisar el mar
 
 Veracruz no cuenta con una ley específica de seguridad privada. La materia se regula mediante **Ley Número 489 del Sistema Estatal de Seguridad Pública, Título Sexto**, en conjunto con la legislación estatal de seguridad pública.
 
-La instancia que tramita y otorga la autorización es **Coordinación de Servicios de Seguridad Privada**, adscrita a Secretaría Ejecutiva del Sistema y del Consejo Estatal de Seguridad Pública.
+La instancia que tramita y otorga la autorización es la **Coordinación de Servicios de Seguridad Privada**, adscrita a la Secretaría Ejecutiva del Sistema y del Consejo Estatal de Seguridad Pública.
 
 ### Datos clave
 

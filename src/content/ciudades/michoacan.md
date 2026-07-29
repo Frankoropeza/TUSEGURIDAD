@@ -4,7 +4,7 @@ abreviatura: "MICH"
 capital: "Morelia"
 region: "Occidente"
 estado: "Michoacán"
-descripcion: "Empresas de seguridad privada en Michoacán. Autorización ante Dirección de Empresas de Seguridad Privada y Servicios Auxiliares, vigencia de 1 año calendario, revalidable."
+descripcion: "Empresas de seguridad privada en Michoacán. Autorización ante la Dirección de Empresas de Seguridad Privada y Servicios Auxiliares, vigencia de 1 año calendario, revalidable."
 orden: 16
 normativa:
   ley: "Ley de Seguridad Privada del Estado de Michoacán de Ocampo"
@@ -26,7 +26,7 @@ Consultar un proveedor de seguridad privada en **Michoacán** exige revisar el m
 
 La norma aplicable es la **Ley de Seguridad Privada del Estado de Michoacán de Ocampo**.
 
-La instancia que tramita y otorga la autorización es **Dirección de Empresas de Seguridad Privada y Servicios Auxiliares**, adscrita a Secretaría de Seguridad Pública del Estado.
+La instancia que tramita y otorga la autorización es la **Dirección de Empresas de Seguridad Privada y Servicios Auxiliares**, adscrita a la Secretaría de Seguridad Pública del Estado.
 
 ### Datos clave
 

@@ -4,7 +4,7 @@ abreviatura: "SON"
 capital: "Hermosillo"
 region: "Norte"
 estado: "Sonora"
-descripcion: "Empresas de seguridad privada en Sonora. Autorización ante Dirección de Control y Registro de Empresas de Seguridad Privada, vigencia de 1 año, revalidable."
+descripcion: "Empresas de seguridad privada en Sonora. Autorización ante la Dirección de Control y Registro de Empresas de Seguridad Privada, vigencia de 1 año, revalidable."
 orden: 26
 normativa:
   ley: "Ley número 196, de Seguridad Privada para el Estado de Sonora"
@@ -26,7 +26,7 @@ Consultar un proveedor de seguridad privada en **Sonora** exige revisar el marco
 
 La norma aplicable es la **Ley número 196, de Seguridad Privada para el Estado de Sonora**.
 
-La instancia que tramita y otorga la autorización es **Dirección de Control y Registro de Empresas de Seguridad Privada**, adscrita a Secretaría de Seguridad Pública del Estado.
+La instancia que tramita y otorga la autorización es la **Dirección de Control y Registro de Empresas de Seguridad Privada**, adscrita a la Secretaría de Seguridad Pública del Estado.
 
 ### Datos clave
 

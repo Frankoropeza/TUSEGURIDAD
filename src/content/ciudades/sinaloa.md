@@ -4,7 +4,7 @@ abreviatura: "SIN"
 capital: "Culiacán Rosales"
 region: "Norte"
 estado: "Sinaloa"
-descripcion: "Empresas de seguridad privada en Sinaloa. Autorización ante Dirección de Coordinación del Registro Estatal de Empresas y Organismos de Servicios de Seguridad Privada, vigencia de 1 año."
+descripcion: "Empresas de seguridad privada en Sinaloa. Autorización ante la Dirección de Coordinación del Registro Estatal de Empresas y Organismos de Servicios de Seguridad Privada, vigencia de 1 año."
 orden: 25
 normativa:
   autoridad: "Dirección de Coordinación del Registro Estatal de Empresas y Organismos de Servicios de Seguridad Privada"
@@ -23,7 +23,7 @@ Consultar un proveedor de seguridad privada en **Sinaloa** exige revisar el marc
 
 Sinaloa no cuenta con una ley ni un reglamento estatal específico y vigente en la materia.
 
-La instancia que tramita y otorga la autorización es **Dirección de Coordinación del Registro Estatal de Empresas y Organismos de Servicios de Seguridad Privada**, adscrita a Secretaría de Seguridad Pública del Estado.
+La instancia que tramita y otorga la autorización es la **Dirección de Coordinación del Registro Estatal de Empresas y Organismos de Servicios de Seguridad Privada**, adscrita a la Secretaría de Seguridad Pública del Estado.
 
 ### Datos clave
 

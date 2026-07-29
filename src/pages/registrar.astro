@@ -127,6 +127,7 @@ const proceso = [
         <label for="rubro" class="label">Rubro *</label>
         <select id="rubro" name="rubro" required
           class="mt-3 w-full border-b border-ink bg-transparent py-3 text-base outline-none focus:border-signal">
+          <option value="" disabled selected>Elige el rubro</option>
           {activos.map((c) => <option value={c.id}>{c.data.nombre}</option>)}
         </select>
       </div>
@@ -135,6 +136,7 @@ const proceso = [
         <label for="ciudad" class="label">Ciudad *</label>
         <select id="ciudad" name="ciudad" required
           class="mt-3 w-full border-b border-ink bg-transparent py-3 text-base outline-none focus:border-signal">
+          <option value="" disabled selected>Elige el estado</option>
           {d.ciudades.map((c) => <option value={c.id}>{c.data.nombre}</option>)}
         </select>
       </div>

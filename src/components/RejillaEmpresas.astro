@@ -1,7 +1,7 @@
 ---
 import EmpresaCard from '@components/EmpresaCard.astro';
 import type { Datos } from '@lib/enlaces';
-import { rubrosDe, ciudadesDe, zonasDe } from '@lib/enlaces';
+import { ciudadesDe, zonasDe } from '@lib/enlaces';
 
 interface Props {
   empresas: Datos['empresas'];
@@ -39,7 +39,7 @@ const nn = (n: number): string => String(n).padStart(2, '0');
         rubroSlug={rubro}
         plazas={plazas.map((p) => nombrePlaza.get(p) ?? p)}
         servicios={e.data.servicios.length}
-        zonas={zonasDe(e, ciudadFija).length || zonasDe(e).length}
+        zonas={zonasDe(e, ciudadFija).length}
         verificado={e.data.verificado}
         demo={e.data.demo}
       />

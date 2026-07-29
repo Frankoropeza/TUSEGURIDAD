@@ -28,7 +28,6 @@ const guias = (await getCollection('guias'))
   .slice(0, 4);
 
 const nombreCategoria = new Map(todasCategorias.map((c) => [c.id, c.data.nombre]));
-const nombreCiudad = new Map(ciudades.map((c) => [c.id, c.data.nombre]));
 
 // cruces rubro × estado: son las páginas que atienden la búsqueda local.
 // En el home solo se muestran los estados que ya tienen padrón; el resto
@@ -218,10 +217,10 @@ const criterios = [
     </section>
   )}
 
-  <!-- ================= 03 · DECLARACIÓN (banda invertida) ================= -->
+  <!-- ================= 04 · DECLARACIÓN (banda invertida) ================= -->
   <section class="on-ink mt-24 sm:mt-32">
     <div class="wrap py-20 sm:py-28">
-      <p class="label muted">[ 03 — Criterio editorial ]</p>
+      <p class="label muted">[ 04 — Criterio editorial ]</p>
 
       <p class="display-lg mt-10 max-w-6xl">
         La seguridad no se<br />contrata <span class="text-signal">a ciegas</span>.
@@ -239,10 +238,10 @@ const criterios = [
     </div>
   </section>
 
-  <!-- ================= 04 · PROCESO ================= -->
+  <!-- ================= 05 · PROCESO ================= -->
   <section class="wrap pt-24 sm:pt-32">
     <div class="flex items-baseline justify-between gap-4">
-      <p class="label">[ 04 — Procedimiento ]</p>
+      <p class="label">[ 05 — Procedimiento ]</p>
       <p class="label muted">Tres pasos</p>
     </div>
 
@@ -259,11 +258,11 @@ const criterios = [
     </div>
   </section>
 
-  <!-- ================= 05 · EMPRESAS ================= -->
+  <!-- ================= 06 · EMPRESAS ================= -->
   {empresas.length > 0 && (
     <section class="wrap pt-24 sm:pt-32">
       <div class="flex flex-wrap items-baseline justify-between gap-4">
-        <p class="label">[ 05 — Padrón ]</p>
+        <p class="label">[ 06 — Padrón ]</p>
         <a href="/empresas" class="label underline-hover">Ver padrón completo →</a>
       </div>
 
@@ -280,24 +279,26 @@ const criterios = [
     </section>
   )}
 
-  <!-- ================= 06 · SERVICIOS + 07 · GUÍAS ================= -->
+  <!-- ================= 07 · SERVICIOS + 08 · GUÍAS ================= -->
   <section class="wrap grid grid-cols-12 gap-x-12 gap-y-20 pt-24 sm:pt-32">
     {servicios.length > 0 && (
       <div class="col-span-12 lg:col-span-6">
         <div class="flex items-baseline justify-between gap-4">
-          <p class="label">[ 06 — Servicios ]</p>
+          <p class="label">[ 07 — Servicios ]</p>
           <a href="/servicios" class="label underline-hover">Todos →</a>
         </div>
-        <div class="mt-10 border-b border-ink/20">
-          {servicios.slice(0, 5).map((s, i) => (
-            <a href={`/servicios/${s.id}`} class="idx-row flex items-baseline gap-5 py-6">
-              <span class="label shrink-0">{nn(i + 1)}</span>
-              <span class="flex-1">
-                <span class="display-md block">{s.data.titulo}</span>
-                <span class="muted mt-2 block text-sm leading-snug">{s.data.descripcion}</span>
-              </span>
-              <span class="idx-arrow label shrink-0">→</span>
-            </a>
+        <div class="mt-10 grid grid-cols-1 items-stretch gap-5 sm:grid-cols-2">
+          {servicios.slice(0, 4).map((s, i) => (
+            <Tarjeta
+              href={`/servicios/${s.id}`}
+              indice={nn(i + 1)}
+              titulo={s.data.titulo}
+              meta={s.data.rubro ? nombreCategoria.get(s.data.rubro) : undefined}
+              descripcion={s.data.descripcion}
+              pie={`${nn(s.data.faq.length)} preguntas`}
+              foto={s.data.rubro && tieneFotos(s.data.rubro) ? fotoPara(`servicio:${s.id}`) : null}
+              laminaTexto={s.data.titulo.slice(0, 2)}
+            />
           ))}
         </div>
       </div>
@@ -306,29 +307,31 @@ const criterios = [
     {guias.length > 0 && (
       <div class="col-span-12 lg:col-span-6">
         <div class="flex items-baseline justify-between gap-4">
-          <p class="label">[ 07 — Documentación ]</p>
+          <p class="label">[ 08 — Documentación ]</p>
           <a href="/guias" class="label underline-hover">Todas →</a>
         </div>
-        <div class="mt-10 border-b border-ink/20">
-          {guias.map((g) => (
-            <a href={`/guias/${g.id}`} class="idx-row flex items-baseline gap-5 py-6">
-              <span class="label muted shrink-0 tabular-nums">{fecha(g.data.fecha)}</span>
-              <span class="flex-1">
-                <span class="display-md block">{g.data.titulo}</span>
-                <span class="muted mt-2 block text-sm leading-snug">{g.data.descripcion}</span>
-              </span>
-              <span class="idx-arrow label shrink-0">→</span>
-            </a>
+        <div class="mt-10 grid grid-cols-1 items-stretch gap-5 sm:grid-cols-2">
+          {guias.map((g, i) => (
+            <Tarjeta
+              href={`/guias/${g.id}`}
+              indice={nn(i + 1)}
+              titulo={g.data.titulo}
+              meta={fecha(g.data.fecha)}
+              descripcion={g.data.descripcion}
+              pie={g.data.rubros.length > 0 ? nombreCategoria.get(g.data.rubros[0]!) ?? '' : g.data.autor}
+              foto={g.data.rubros.length > 0 && tieneFotos(g.data.rubros[0]!) ? fotoPara(`guia:${g.id}`) : null}
+              laminaTexto={String(g.data.fecha.getFullYear())}
+            />
           ))}
         </div>
       </div>
     )}
   </section>
 
-  <!-- ================= 08 · ALTA DE PROVEEDORES ================= -->
+  <!-- ================= 09 · ALTA DE PROVEEDORES ================= -->
   <section class="wrap pt-24 sm:pt-32">
     <div class="rule-strong pt-10">
-      <p class="label">[ 08 — Alta de proveedores ]</p>
+      <p class="label">[ 09 — Alta de proveedores ]</p>
 
       <div class="mt-8 grid grid-cols-12 items-end gap-x-6 gap-y-10">
         <h2 class="display-lg col-span-12 lg:col-span-8">

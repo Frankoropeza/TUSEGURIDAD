@@ -46,9 +46,11 @@ const imagen = hayFotos
     : fotoPara(semilla)
   : null;
 
+// Una ficha de maqueta jamás muestra "Verificada": la marca de verificación
+// solo puede acompañar a empresas reales con documentación confirmada.
 const distintivos: Distintivo[] = [
   ...(demo ? [{ texto: 'Demo', tono: 'ink' as const }] : []),
-  ...(verificado ? [{ texto: 'Verificada', tono: 'signal' as const }] : []),
+  ...(verificado && !demo ? [{ texto: 'Verificada', tono: 'signal' as const }] : []),
 ];
 
 const nn = (n: number): string => String(n).padStart(2, '0');

@@ -4,7 +4,10 @@ import BaseLayout from '@layouts/BaseLayout.astro';
 import Cabecera from '@components/Cabecera.astro';
 import RejillaEmpresas from '@components/RejillaEmpresas.astro';
 import Relacionados from '@components/Relacionados.astro';
-import { getCollection, render } from 'astro:content';
+import Apartados from '@components/Apartados.astro';
+import Tarjeta from '@components/Tarjeta.astro';
+import { tieneFotos, fotoPara } from '@lib/imagenes';
+import { getCollection } from 'astro:content';
 import {
   cargarDatos,
   empresasDeCiudad,
@@ -25,10 +28,9 @@ export const getStaticPaths = (async () => {
 
 const { ciudad } = Astro.props;
 const c = ciudad.data;
-const { Content } = await render(ciudad);
+
 
 const d = await cargarDatos();
-const catPorId = new Map(d.categorias.map((x) => [x.id, x.data.nombre]));
 const empresas = empresasDeCiudad(d, ciudad.id);
 
 // rubros con presencia real en esta ciudad
@@ -37,7 +39,7 @@ const zonas = [...new Set(empresas.flatMap((e) => zonasDe(e, ciudad.id)))].sort(
 const norm = c.normativa;
 const datosNorm = norm
   ? ([
-      { k: 'Autoriza', v: norm.autoridad },
+      norm.autoridad && { k: 'Autoriza', v: norm.autoridad },
       norm.dependencia && { k: 'Dependencia', v: norm.dependencia },
       norm.vigencia && { k: 'Vigencia', v: norm.vigencia },
       norm.modalidades && { k: 'Modalidades', v: `${norm.modalidades} en la ley local` },
@@ -109,26 +111,21 @@ const nn = (n: number): string => String(n).padStart(2, '0');
   <section class="wrap pt-20 sm:pt-28">
     <p class="label">[ 02 — Rubros en esta plaza ]</p>
     <h2 class="display-lg mt-8">Buscar por<br />rubro en {c.nombreCorto ?? c.nombre}</h2>
-    <div class="mt-12 border-b border-ink/20">
+    <div class="mt-12 grid grid-cols-1 items-stretch gap-5 sm:grid-cols-2 xl:grid-cols-3">
       {d.categorias.filter((x) => x.data.destacada).map((r, i) => {
         const n = empresas.filter((e) => rubrosDe(e).includes(r.id)).length;
         return (
-          <a
+          <Tarjeta
             href={`/categorias/${r.id}/${ciudad.id}`}
-            class="idx-row grid grid-cols-12 items-baseline gap-x-4 gap-y-2 py-7"
-          >
-            <span class="label col-span-2 sm:col-span-1">{nn(i + 1)}</span>
-            <span class="display-md col-span-10 sm:col-span-5">
-              {r.data.nombre} en {c.nombreCorto ?? c.nombre}
-            </span>
-            <span class="muted col-span-12 text-sm leading-snug sm:col-span-4">
-              {r.data.descripcion}
-            </span>
-            <span class="col-span-12 flex items-baseline justify-between gap-4 sm:col-span-2 sm:justify-end">
-              <span class="label muted">{n} {n === 1 ? 'empresa' : 'empresas'}</span>
-              <span class="idx-arrow label">→</span>
-            </span>
-          </a>
+            indice={nn(i + 1)}
+            titulo={`${r.data.nombre} en ${c.nombreCorto ?? c.nombre}`}
+            meta={c.nombre}
+            descripcion={r.data.descripcion}
+            pie={`${nn(n)} ${n === 1 ? 'empresa' : 'empresas'}`}
+            distintivos={n > 0 ? [{ texto: 'Con padrón', tono: 'signal' }] : []}
+            foto={tieneFotos(r.id) ? fotoPara(`cruce:${r.id}:${ciudad.id}`) : null}
+            laminaTexto={c.abreviatura ?? (c.nombreCorto ?? c.nombre).slice(0, 3)}
+          />
         );
       })}
     </div>
@@ -153,28 +150,35 @@ const nn = (n: number): string => String(n).padStart(2, '0');
   )}
 
   <section class="wrap pt-20 sm:pt-28">
-    <div class="grid grid-cols-12 gap-x-12 gap-y-10">
-      <div class="col-span-12 lg:col-span-8">
-        <p class="label">[ 04 — Contexto ]</p>
-        <div class="prose-content rule mt-8 pt-10">
-          <Content />
-        </div>
-      </div>
-      {c.fuentes.length > 0 && (
-        <aside class="col-span-12 lg:col-span-3 lg:col-start-10">
-          <p class="label muted">Fuentes</p>
-          <ul class="mt-5">
-            {c.fuentes.map((f) => (
-              <li class="rule py-3">
-                <a href={f.url} rel="noopener nofollow" target="_blank" class="label underline-hover block leading-relaxed">
-                  {f.titulo} ↗
-                </a>
-              </li>
-            ))}
-          </ul>
-        </aside>
-      )}
+    <p class="label">[ 04 — Contexto ]</p>
+
+    <div class="mt-8">
+      <Apartados html={(ciudad as any).rendered?.html ?? ''} />
     </div>
+
+    {c.fuentes.length > 0 && (
+      <div class="rule mt-14 pt-5">
+        <p class="label muted">Fuentes consultadas</p>
+        <ol class="mt-4 grid gap-x-10 lg:grid-cols-2">
+          {c.fuentes.map((f, i) => (
+            <li class="border-b border-ink/10">
+              <a
+                href={f.url}
+                rel="noopener nofollow"
+                target="_blank"
+                class="flex items-baseline gap-4 py-2.5 hover:text-signal"
+              >
+                <span class="label muted tabular-nums shrink-0">
+                  {String(i + 1).padStart(2, '0')}
+                </span>
+                <span class="flex-1 text-[13px] leading-snug underline-hover">{f.titulo}</span>
+                <span class="label muted shrink-0">↗</span>
+              </a>
+            </li>
+          ))}
+        </ol>
+      </div>
+    )}
   </section>
 
   <Relacionados

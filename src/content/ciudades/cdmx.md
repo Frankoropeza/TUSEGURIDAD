@@ -5,7 +5,7 @@ abreviatura: "CDMX"
 capital: "Ciudad de México"
 region: "Centro"
 estado: "Ciudad de México"
-descripcion: "Empresas de seguridad privada en Ciudad de México. Autorización ante Dirección General de Seguridad Privada y Colaboración Interinstitucional."
+descripcion: "Empresas de seguridad privada en Ciudad de México. Autorización ante la Dirección General de Seguridad Privada y Colaboración Interinstitucional."
 orden: 1
 normativa:
   ley: "Ley de Seguridad Privada para el Distrito Federal"
@@ -26,7 +26,7 @@ Consultar un proveedor de seguridad privada en **Ciudad de México** exige revis
 
 La norma aplicable es la **Ley de Seguridad Privada para el Distrito Federal**.
 
-La instancia que tramita y otorga la autorización es **Dirección General de Seguridad Privada y Colaboración Interinstitucional**, adscrita a Secretaría de Seguridad Ciudadana de la Ciudad de México.
+La instancia que tramita y otorga la autorización es la **Dirección General de Seguridad Privada y Colaboración Interinstitucional**, adscrita a la Secretaría de Seguridad Ciudadana de la Ciudad de México.
 
 ### Datos clave
 

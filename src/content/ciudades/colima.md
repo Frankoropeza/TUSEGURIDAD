@@ -4,7 +4,7 @@ abreviatura: "COL"
 capital: "Colima"
 region: "Occidente"
 estado: "Colima"
-descripcion: "Empresas de seguridad privada en Colima. Autorización ante Dirección General de Seguridad Privada, vigencia de 1 año fiscal."
+descripcion: "Empresas de seguridad privada en Colima. Autorización ante la Dirección General de Seguridad Privada, vigencia de 1 año fiscal."
 orden: 10
 normativa:
   ley: "Reglamento de los Servicios de Seguridad Privada para el Estado de Colima"
@@ -16,16 +16,16 @@ normativa:
   sinLeyEspecifica: true
 fuentes:
   - titulo: "Reglamento de los Servicios de Seguridad Privada para el Estado de Colima"
-    url: "http://www.ordenjuridico.gob.mx/Documentos/Estatal/Colima/wo53520.pdf"
+    url: "https://www.ordenjuridico.gob.mx/Documentos/Estatal/Colima/wo53520.pdf"
 ---
 
 Consultar un proveedor de seguridad privada en **Colima** exige revisar el marco local: la autorización se otorga por entidad y por modalidad, y las reglas cambian de un estado a otro.
 
 ## Quién autoriza aquí
 
-Colima no cuenta con una ley específica de seguridad privada. La materia se regula mediante **Reglamento de los Servicios de Seguridad Privada para el Estado de Colima**, en conjunto con la legislación estatal de seguridad pública.
+Colima no cuenta con una ley específica de seguridad privada. La materia se regula mediante el **Reglamento de los Servicios de Seguridad Privada para el Estado de Colima**, en conjunto con la legislación estatal de seguridad pública.
 
-La instancia que tramita y otorga la autorización es **Dirección General de Seguridad Privada**, adscrita a Secretaría de Seguridad Pública y Protección Ciudadana.
+La instancia que tramita y otorga la autorización es la **Dirección General de Seguridad Privada**, adscrita a la Secretaría de Seguridad Pública y Protección Ciudadana.
 
 ### Datos clave
 

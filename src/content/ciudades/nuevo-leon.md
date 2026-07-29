@@ -4,7 +4,7 @@ abreviatura: "NL"
 capital: "Monterrey"
 region: "Norte"
 estado: "Nuevo León"
-descripcion: "Empresas de seguridad privada en Nuevo León. Autorización ante Dirección de Control y Supervisión a Empresas y Servicios de Seguridad Privada, vigencia de 1 año, revalidable."
+descripcion: "Empresas de seguridad privada en Nuevo León. Autorización ante la Dirección de Control y Supervisión a Empresas y Servicios de Seguridad Privada, vigencia de 1 año, revalidable."
 orden: 19
 normativa:
   ley: "Ley de Seguridad Privada para el Estado de Nuevo León"
@@ -26,7 +26,7 @@ Consultar un proveedor de seguridad privada en **Nuevo León** exige revisar el 
 
 La norma aplicable es la **Ley de Seguridad Privada para el Estado de Nuevo León**.
 
-La instancia que tramita y otorga la autorización es **Dirección de Control y Supervisión a Empresas y Servicios de Seguridad Privada**, adscrita a Secretaría de Seguridad del Estado.
+La instancia que tramita y otorga la autorización es la **Dirección de Control y Supervisión a Empresas y Servicios de Seguridad Privada**, adscrita a la Secretaría de Seguridad del Estado.
 
 ### Datos clave
 

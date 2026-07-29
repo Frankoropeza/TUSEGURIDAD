@@ -4,7 +4,7 @@ abreviatura: "CHIS"
 capital: "Tuxtla Gutiérrez"
 region: "Sureste"
 estado: "Chiapas"
-descripcion: "Empresas de seguridad privada en Chiapas. Autorización ante Área de Servicios de Seguridad Privada, vigencia de 1 año."
+descripcion: "Empresas de seguridad privada en Chiapas. Autorización ante el Área de Servicios de Seguridad Privada, vigencia de 1 año."
 orden: 7
 normativa:
   ley: "Ley de Seguridad Privada para el Estado de Chiapas"
@@ -26,7 +26,7 @@ Consultar un proveedor de seguridad privada en **Chiapas** exige revisar el marc
 
 La norma aplicable es la **Ley de Seguridad Privada para el Estado de Chiapas**.
 
-La instancia que tramita y otorga la autorización es **Área de Servicios de Seguridad Privada**, adscrita a Secretaría de Seguridad del Pueblo.
+La instancia que tramita y otorga la autorización es el **Área de Servicios de Seguridad Privada**, adscrita a la Secretaría de Seguridad del Pueblo.
 
 ### Datos clave
 

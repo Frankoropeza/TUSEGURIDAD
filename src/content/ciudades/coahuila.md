@@ -4,7 +4,7 @@ abreviatura: "COAH"
 capital: "Saltillo"
 region: "Norte"
 estado: "Coahuila"
-descripcion: "Empresas de seguridad privada en Coahuila. Autorización ante Dirección General de Registro y Control de los Servicios de Seguridad Privada, vigencia de 1 año, prorrogable por periodos iguales."
+descripcion: "Empresas de seguridad privada en Coahuila. Autorización ante la Dirección General de Registro y Control de los Servicios de Seguridad Privada, vigencia de 1 año, prorrogable por periodos iguales."
 orden: 9
 normativa:
   ley: "Ley del Sistema de Seguridad Pública del Estado, Título Sexto"
@@ -26,7 +26,7 @@ Consultar un proveedor de seguridad privada en **Coahuila** exige revisar el mar
 
 Coahuila no cuenta con una ley específica de seguridad privada. La materia se regula mediante **Ley del Sistema de Seguridad Pública del Estado, Título Sexto**, en conjunto con la legislación estatal de seguridad pública.
 
-La instancia que tramita y otorga la autorización es **Dirección General de Registro y Control de los Servicios de Seguridad Privada**, adscrita a Secretaría de Seguridad Pública del Estado.
+La instancia que tramita y otorga la autorización es la **Dirección General de Registro y Control de los Servicios de Seguridad Privada**, adscrita a la Secretaría de Seguridad Pública del Estado.
 
 ### Datos clave
 

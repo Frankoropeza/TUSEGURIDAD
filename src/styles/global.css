@@ -283,38 +283,118 @@
   /* Sin movimiento: la lámina no escala ni transiciona. La única respuesta al
      cursor es la inversión de color de la tarjeta, que es instantánea. */
 
-  /* ---------- contenido largo (guías / fichas) ---------- */
-  .prose-content {
-    @apply max-w-[68ch] text-[1.05rem] leading-[1.6];
+  /* ---------- acordeón de preguntas ---------- */
+  .faq {
+    @apply border-t border-ink/20;
   }
 
-  .prose-content h2 {
-    @apply display-md mt-14 mb-4;
+  .faq > summary {
+    @apply flex cursor-pointer list-none items-baseline gap-4 py-3.5;
   }
 
-  .prose-content h3 {
-    @apply mt-10 mb-3 font-mono text-xs uppercase tracking-[0.2em];
+  /* el triángulo por defecto no encaja con el sistema */
+  .faq > summary::-webkit-details-marker {
+    display: none;
   }
 
-  .prose-content p {
-    @apply my-5;
+  .faq > summary::marker {
+    content: '';
   }
 
-  .prose-content ul {
-    @apply my-5 space-y-2 border-t border-ink/20 pt-5;
+  .faq > summary:hover {
+    @apply text-signal;
   }
 
-  .prose-content li {
-    @apply border-b border-ink/10 pb-2;
+  .faq[open] > summary {
+    @apply text-signal;
   }
 
-  .prose-content a {
+  .faq-signo::after {
+    content: '+';
+  }
+
+  .faq[open] .faq-signo::after {
+    content: '–';
+  }
+
+  .faq-cuerpo {
+    @apply pb-5 pl-[calc(theme(spacing.4)+2ch)] pr-8;
+  }
+
+  /* ---------- contenido editorial ---------- */
+  /* El título de cada apartado vive en la columna de margen (ver
+     Apartados.astro); aquí solo se estila el cuerpo de lectura. */
+  .prose-flujo {
+    @apply text-[1.0625rem] leading-[1.62];
+  }
+
+  .prose-flujo > *:first-child {
+    @apply mt-0;
+  }
+
+  .prose-flujo > *:last-child {
+    @apply mb-0;
+  }
+
+  .prose-flujo p {
+    @apply my-4;
+  }
+
+  .prose-flujo h3 {
+    @apply mt-8 mb-2 font-mono text-xs uppercase tracking-[0.2em] text-ink/70;
+  }
+
+  .prose-flujo strong {
+    @apply font-semibold;
+  }
+
+  .prose-flujo ol {
+    @apply my-6 border-t border-ink/20 pt-1;
+    counter-reset: renglon;
+  }
+
+  .prose-flujo ol > li {
+    counter-increment: renglon;
+    @apply relative border-b border-ink/10 py-2.5 pl-[3ch];
+    list-style: none;
+  }
+
+  .prose-flujo ol > li::before {
+    content: counter(renglon, decimal-leading-zero);
+    @apply label absolute left-0 top-[0.9em] text-signal;
+  }
+
+  .prose-flujo ul {
+    @apply my-5 border-t border-ink/20;
+  }
+
+  .prose-flujo li {
+    @apply border-b border-ink/10 py-2.5;
+    list-style: none;
+  }
+
+  .prose-flujo a {
     @apply text-signal;
     text-decoration: underline;
     text-underline-offset: 3px;
   }
 
-  .prose-content blockquote {
-    @apply my-8 border-l-2 border-signal pl-6 text-[1.15rem] leading-snug;
+  .prose-flujo blockquote {
+    @apply my-7 border-l-2 border-signal py-1 pl-5;
   }
+
+  .prose-flujo blockquote p {
+    @apply my-0 text-[1.15rem] font-semibold leading-[1.35];
+  }
+
+  /* fichas de empresa y guías: texto corrido sin retícula de apartados */
+  .prose-content {
+    @apply prose-flujo max-w-[68ch];
+  }
+
+  .prose-content h2 {
+    @apply display-md mt-12 mb-4;
+  }
+
+
 }

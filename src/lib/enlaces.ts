@@ -229,7 +229,16 @@ export function bloqueEmpresas(
  */
 export function bloqueCruces(
   d: Datos,
-  opts: { rubro?: string; ciudad?: string; titulo?: string; limite?: number } = {}
+  opts: {
+    rubro?: string;
+    ciudad?: string;
+    titulo?: string;
+    limite?: number;
+    /** plaza a omitir (la página cruzada no debe enlazarse a sí misma) */
+    excluirCiudad?: string;
+    /** rubro a omitir en el modo de plaza fija */
+    excluirRubro?: string;
+  } = {}
 ): BloqueEnlaces {
   const activos = d.categorias.filter((c) => c.data.destacada);
   const lim = opts.limite ?? 8;
@@ -246,7 +255,10 @@ export function bloqueCruces(
     return {
       titulo: opts.titulo ?? 'Este rubro por estado',
       verTodo: { titulo: 'Ver los 32 estados', href: `/categorias/${rubro.id}#estados` },
-      enlaces: porPadron.slice(0, lim).map((c) => ({
+      enlaces: porPadron
+        .filter((c) => c.id !== opts.excluirCiudad)
+        .slice(0, lim)
+        .map((c) => ({
         titulo: `${rubro.data.nombre} en ${c.data.nombreCorto ?? c.data.nombre}`,
         href: `/categorias/${rubro.id}/${c.id}`,
         meta: String(empresasDeRubroEnCiudad(d, rubro.id, c.id).length).padStart(2, '0'),
@@ -260,11 +272,13 @@ export function bloqueCruces(
     if (!ciudad) return { titulo: opts.titulo ?? 'Por rubro', enlaces: [] };
     return {
       titulo: opts.titulo ?? 'Rubros en esta plaza',
-      enlaces: activos.map((r) => ({
-        titulo: `${r.data.nombre} en ${ciudad.data.nombreCorto ?? ciudad.data.nombre}`,
-        href: `/categorias/${r.id}/${ciudad.id}`,
-        meta: String(empresasDeRubroEnCiudad(d, r.id, ciudad.id).length).padStart(2, '0'),
-      })),
+      enlaces: activos
+        .filter((r) => r.id !== opts.excluirRubro)
+        .map((r) => ({
+          titulo: `${r.data.nombre} en ${ciudad.data.nombreCorto ?? ciudad.data.nombre}`,
+          href: `/categorias/${r.id}/${ciudad.id}`,
+          meta: String(empresasDeRubroEnCiudad(d, r.id, ciudad.id).length).padStart(2, '0'),
+        })),
     };
   }
 

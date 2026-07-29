@@ -28,7 +28,6 @@ const d = await cargarDatos();
 const catPorId = new Map(d.categorias.map((c) => [c.id, c.data.nombre]));
 
 const path = `/guias/${guia.id}`;
-const nn = (n: number): string => String(n).padStart(2, '0');
 const iso = (x: Date): string => x.toISOString().slice(0, 10);
 const legible = (x: Date): string =>
   x.toLocaleDateString('es-MX', { year: 'numeric', month: 'long', day: 'numeric' });

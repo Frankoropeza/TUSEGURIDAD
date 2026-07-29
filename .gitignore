@@ -26,3 +26,12 @@ pnpm-debug.log*
 .vscode/*
 !.vscode/extensions.json
 .idea/
+
+# cuarentena de borrados (el mount no permite unlink; se mueve aquí)
+_to_delete/
+_to_delete_audit/
+
+# scratch de sincronización
+.overwrite_test*
+.wrangler/
+*.tgz

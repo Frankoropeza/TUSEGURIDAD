@@ -4,7 +4,7 @@ abreviatura: "JAL"
 capital: "Guadalajara"
 region: "Occidente"
 estado: "Jalisco"
-descripcion: "Empresas de seguridad privada en Jalisco. Autorización ante Dirección de Servicios Privados de Seguridad, vigencia de refrendo anual."
+descripcion: "Empresas de seguridad privada en Jalisco. Autorización ante la Dirección de Servicios Privados de Seguridad, vigencia de refrendo anual."
 orden: 15
 normativa:
   ley: "Reglamento de los Servicios Privados de Seguridad del Estado de Jalisco"
@@ -23,9 +23,9 @@ Consultar un proveedor de seguridad privada en **Jalisco** exige revisar el marc
 
 ## Quién autoriza aquí
 
-Jalisco no cuenta con una ley específica de seguridad privada. La materia se regula mediante **Reglamento de los Servicios Privados de Seguridad del Estado de Jalisco**, en conjunto con la legislación estatal de seguridad pública.
+Jalisco no cuenta con una ley específica de seguridad privada. La materia se regula mediante el **Reglamento de los Servicios Privados de Seguridad del Estado de Jalisco**, en conjunto con la legislación estatal de seguridad pública.
 
-La instancia que tramita y otorga la autorización es **Dirección de Servicios Privados de Seguridad**, adscrita a Consejo Estatal de Seguridad Pública.
+La instancia que tramita y otorga la autorización es la **Dirección de Servicios Privados de Seguridad**, adscrita al Consejo Estatal de Seguridad Pública.
 
 ### Datos clave
 

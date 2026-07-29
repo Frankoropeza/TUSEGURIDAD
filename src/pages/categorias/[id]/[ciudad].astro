@@ -4,6 +4,7 @@ import BaseLayout from '@layouts/BaseLayout.astro';
 import Cabecera from '@components/Cabecera.astro';
 import RejillaEmpresas from '@components/RejillaEmpresas.astro';
 import Relacionados from '@components/Relacionados.astro';
+import Faq from '@components/Faq.astro';
 import Foto from '@components/Foto.astro';
 import { tieneFotos, fotoPara } from '@lib/imagenes';
 import { getCollection } from 'astro:content';
@@ -18,6 +19,15 @@ import {
   bloqueGuias,
   hrefEmpresaEn,
 } from '@lib/enlaces';
+import {
+  padronDe,
+  telefonoLegible,
+  telefonoHref,
+  fechaLarga,
+  fechaCorta,
+  porVencer,
+} from '@lib/padron';
+import { faqPlaza } from '@lib/faq-plaza';
 
 /**
  * Página cruzada rubro × plaza.
@@ -49,30 +59,97 @@ const empresas = empresasDeRubroEnCiudad(d, categoria.id, ciudad.id);
 const zonas = [...new Set(empresas.flatMap((e) => zonasDe(e, ciudad.id)))].sort();
 
 const corto = c.nombreCorto ?? c.nombre;
-const titulo = `${r.nombre} en ${c.nombre}`;
+const rubroMin = r.nombre.toLowerCase();
 const path = `/categorias/${categoria.id}/${ciudad.id}`;
 const nn = (n: number): string => String(n).padStart(2, '0');
+
+// Año en el título: es una página de listado que se revisa por corte, y el año
+// se calcula en build para que no quede congelado en el contenido.
+const anio = new Date().getFullYear();
 
 // una foto distinta por plaza, elegida de forma determinista (build reproducible)
 const foto = tieneFotos(categoria.id) ? fotoPara(`${categoria.id}:${ciudad.id}`) : null;
 
-const norm = c.normativa;
+// El marco normativo estatal (leyes de seguridad privada) solo aplica a los
+// rubros que declaran marcoLocal; en el resto sería atribuir una autoridad
+// que no regula ese servicio.
+const norm = r.marcoLocal ? c.normativa : undefined;
 const datosNorm = norm
   ? ([
-      { k: 'Autoriza', v: norm.autoridad },
+      norm.autoridad && { k: 'Autoriza', v: norm.autoridad },
       norm.dependencia && { k: 'Dependencia', v: norm.dependencia },
       norm.vigencia && { k: 'Vigencia', v: norm.vigencia },
       norm.modalidades && { k: 'Modalidades', v: `${norm.modalidades} en la ley local` },
       norm.registro && { k: 'Registro', v: norm.registro },
     ].filter(Boolean) as { k: string; v: string }[])
   : [];
+
+// Padrón oficial de la autoridad para este rubro en esta plaza, si lo hay.
+const padron = r.marcoLocal ? padronDe(categoria.id, ciudad.id) : undefined;
+const proximos = padron
+  ? padron.empresas.filter((e) => porVencer(e.vigencia, padron.fechaCorte)).length
+  : 0;
+
+const faq = faqPlaza({
+  rubro: rubroMin,
+  plaza: c.nombre,
+  plazaCorta: corto,
+  normativa: norm,
+  padron,
+  enDirectorio: empresas.length,
+});
+
+// Índices editoriales: las secciones son condicionales, así que la numeración
+// se calcula a partir de las que realmente se renderizan.
+const secciones = [
+  'directorio',
+  padron && 'padron',
+  zonas.length > 0 && 'zonas',
+  datosNorm.length > 0 && 'marco',
+  r.marcoLocal && r.verificacion.length > 0 && 'verificar',
+  faq.length > 0 && 'faq',
+  'relacionados',
+].filter(Boolean) as string[];
+const ix = (k: string): string => nn(secciones.indexOf(k) + 1);
+
+const titulo = `Empresas de ${rubroMin} en ${corto}`;
+
+const descripcion = padron
+  ? `${padron.total} empresas con permiso vigente de ${padron.modalidad.toLowerCase()} en ${c.nombre}, ` +
+    `con número de expediente y fecha de vencimiento según el registro de la autoridad. ` +
+    `Corte del ${fechaLarga(padron.fechaCorte)}.`
+  : r.marcoLocal
+    ? `Empresas de ${rubroMin} que operan en ${c.nombre}: cobertura declarada, zonas atendidas y qué autoridad las autoriza en esta plaza.`
+    : `Empresas de ${rubroMin} que operan en ${c.nombre}: cobertura declarada, zonas atendidas y contacto directo con cada proveedor.`;
+
+// ItemList del padrón oficial: describe exactamente lo que la página publica.
+const itemList = padron
+  ? padron.empresas.map((e) => ({
+      name: e.razonSocial,
+      telephone: e.telefonos[0] ? telefonoHref(e.telefonos[0]) : undefined,
+      identifier: `Expediente ${e.expediente}`,
+      areaServed: c.nombre,
+    }))
+  : [];
+
+const stats = [
+  { k: 'En el directorio', v: nn(empresas.length) },
+  padron
+    ? { k: 'Padrón oficial', v: String(padron.total) }
+    : { k: 'Zonas cubiertas', v: nn(zonas.length) },
+];
 ---
 
 <BaseLayout
-  title={titulo}
-  description={`Empresas de ${r.nombre.toLowerCase()} que operan en ${c.nombre}: cobertura declarada, zonas atendidas y qué autoridad las autoriza en esta plaza.`}
+  title={`${titulo} ${anio}`}
+  description={descripcion}
   path={path}
   pageType="category"
+  faq={faq}
+  itemList={itemList}
+  itemListName={padron
+    ? `Empresas con permiso vigente de ${padron.modalidad.toLowerCase()} en ${c.nombre}`
+    : undefined}
   breadcrumbs={[
     { name: 'Inicio', href: '/' },
     { name: 'Categorías', href: '/categorias' },
@@ -90,11 +167,12 @@ const datosNorm = norm
     indice={`Rubro × plaza`}
     meta={c.estado}
     titulo={titulo}
-    lede={`Proveedores de ${r.nombre.toLowerCase()} con cobertura declarada en ${c.nombre}. Cada ficha indica sus zonas de servicio y sus datos de contacto directo.`}
-    stats={[
-      { k: 'Empresas aquí', v: nn(empresas.length) },
-      { k: 'Zonas cubiertas', v: nn(zonas.length) },
-    ]}
+    lede={
+      padron
+        ? `La autoridad de ${corto} publica ${padron.total} empresas con permiso vigente de ${padron.modalidad.toLowerCase()}. Aquí está el listado completo, con expediente y vencimiento, junto a los proveedores con ficha propia en el directorio.`
+        : `Proveedores de ${rubroMin} con cobertura declarada en ${c.nombre}. Cada ficha indica sus zonas de servicio y sus datos de contacto directo.`
+    }
+    stats={stats}
   />
 
   {foto && (
@@ -105,10 +183,10 @@ const datosNorm = norm
     </section>
   )}
 
-  <!-- padrón cruzado -->
+  <!-- fichas propias del directorio -->
   <section class="wrap pt-16 sm:pt-20">
     <div class="flex flex-wrap items-baseline justify-between gap-4">
-      <p class="label">[ 01 — Padrón ]</p>
+      <p class="label">[ {ix('directorio')} — En el directorio ]</p>
       <a href={`/categorias/${categoria.id}`} class="label underline-hover">
         Ver el rubro completo →
       </a>
@@ -117,19 +195,27 @@ const datosNorm = norm
     <h2 class="display-lg mt-8">{r.nombre}<br />en {corto}</h2>
 
     {empresas.length > 0 ? (
-      <RejillaEmpresas
-        empresas={empresas}
-        categorias={d.categorias}
-        ciudades={d.ciudades}
-        rubroFijo={categoria.id} ciudadFija={ciudad.id}
-        href={(e) => hrefEmpresaEn(e, categoria.id, ciudad.id)}
-      />
+      <>
+        <p class="muted mt-6 max-w-2xl text-base leading-snug">
+          Empresas con ficha propia en TuSeguridad. La insignia de verificada solo aparece cuando
+          la empresa nos exhibió el documento de autorización.
+        </p>
+        <div class="mt-10">
+          <RejillaEmpresas
+            empresas={empresas}
+            categorias={d.categorias}
+            ciudades={d.ciudades}
+            rubroFijo={categoria.id} ciudadFija={ciudad.id}
+            href={(e) => hrefEmpresaEn(e, categoria.id, ciudad.id)}
+          />
+        </div>
+      </>
     ) : (
       <div class="rule mt-12 py-14">
-        <p class="display-md">Sin proveedores en esta plaza todavía</p>
+        <p class="display-md">Sin fichas propias en esta plaza todavía</p>
         <p class="muted mt-4 max-w-xl text-base leading-snug">
-          Aún no publicamos empresas de {r.nombre.toLowerCase()} con cobertura en {c.nombre}.
-          Puedes revisar el rubro completo o solicitar tu alta.
+          Aún no publicamos fichas de empresas de {rubroMin} con cobertura en {c.nombre}.
+          {padron && ' El padrón oficial de la autoridad sí está publicado más abajo.'}
         </p>
         <div class="mt-8 flex flex-wrap gap-3">
           <a href={`/categorias/${categoria.id}`} class="cta">Ver el rubro</a>
@@ -139,13 +225,154 @@ const datosNorm = norm
     )}
   </section>
 
+  <!-- padrón oficial de la autoridad -->
+  {padron && (
+    <section class="wrap pt-20 sm:pt-28">
+      <div class="flex flex-wrap items-baseline justify-between gap-4">
+        <p class="label">[ {ix('padron')} — Registro oficial ]</p>
+        <p class="label muted tabular-nums">{padron.total} empresas</p>
+      </div>
+
+      <h2 class="display-lg mt-8">
+        Permiso vigente<br />en <span class="text-signal">{corto}</span>
+      </h2>
+
+      <div class="rule mt-10 grid grid-cols-12 gap-x-10 gap-y-8 pt-8">
+        <p class="col-span-12 max-w-2xl text-base leading-snug lg:col-span-7">
+          Reproducción del registro que publica <strong>{padron.autoridad}</strong> para la
+          modalidad de <strong>{padron.modalidad.toLowerCase()}</strong>. No es una selección
+          nuestra ni un ranking: es el listado completo, en orden alfabético, con el número de
+          expediente y la fecha de vencimiento con los que puedes cotejarlo contra la fuente.
+        </p>
+        <dl class="col-span-12 lg:col-span-4 lg:col-start-9">
+          <div class="rule flex items-baseline justify-between gap-4 py-3">
+            <dt class="label">Fecha de corte</dt>
+            <dd class="text-base tabular-nums">{fechaCorta(padron.fechaCorte)}</dd>
+          </div>
+          <div class="rule flex items-baseline justify-between gap-4 py-3">
+            <dt class="label">Estatus</dt>
+            <dd class="text-base">{padron.estatus}</dd>
+          </div>
+          {padron.fuenteRevocados && (
+            <div class="rule flex items-baseline justify-between gap-4 py-3">
+              <dt class="label">Revocados</dt>
+              <dd class="text-base">Ninguno</dd>
+            </div>
+          )}
+        </dl>
+      </div>
+
+      {proximos > 0 && (
+        <p class="rule mt-8 py-4 text-[14px] leading-snug text-ink/75">
+          <span class="label text-signal">Nota de lectura</span>{' '}
+          <span class="tabular-nums">{proximos}</span> de estos permisos vencen dentro de los 90 días
+          siguientes al corte. No es una irregularidad —la revalidación puede estar en trámite—, pero
+          es el dato que conviene confirmar antes de firmar.
+        </p>
+      )}
+
+      <div class="mt-10">
+        <label class="label block" for="filtro-padron" id="filtro-padron-label" hidden>
+          Buscar en el padrón
+        </label>
+        <input
+          type="search"
+          id="filtro-padron"
+          class="mt-3 w-full max-w-md border border-ink/25 bg-transparent px-4 py-3 text-base outline-none focus:border-ink"
+          placeholder="Filtrar por razón social o expediente…"
+          autocomplete="off"
+          hidden
+        />
+        <p class="label muted mt-3" id="filtro-padron-conteo" aria-live="polite" hidden></p>
+      </div>
+
+      <div class="mt-8 overflow-x-auto">
+        <table class="w-full border-collapse text-left" id="tabla-padron">
+          <caption class="sr-only">
+            Empresas con permiso vigente de {padron.modalidad.toLowerCase()} en {c.nombre},
+            según {padron.autoridad}. Corte del {fechaLarga(padron.fechaCorte)}.
+          </caption>
+          <thead>
+            <tr class="border-y border-ink/25">
+              <th scope="col" class="label py-3 pr-4 font-normal">#</th>
+              <th scope="col" class="label py-3 pr-4 font-normal">Razón social</th>
+              <th scope="col" class="label py-3 pr-4 font-normal">Expediente</th>
+              <th scope="col" class="label py-3 pr-4 font-normal">Vigencia</th>
+              <th scope="col" class="label py-3 font-normal">Teléfono</th>
+            </tr>
+          </thead>
+          <tbody>
+            {padron.empresas.map((e, i) => (
+              <tr
+                class="border-b border-ink/10 align-baseline"
+                data-fila={`${e.razonSocial} ${e.expediente}`.toLowerCase()}
+              >
+                <td class="numeral py-4 pr-4 text-[13px] tabular-nums text-ink/40">{nn(i + 1)}</td>
+                <td class="py-4 pr-4 text-[15px] leading-snug">
+                  {e.razonSocial}
+                  {e.personaFisica && (
+                    <span class="label muted ml-2 whitespace-nowrap">persona física</span>
+                  )}
+                </td>
+                <td class="py-4 pr-4 font-mono text-[13px] tabular-nums">{e.expediente}</td>
+                <td class="py-4 pr-4 font-mono text-[13px] tabular-nums">{fechaCorta(e.vigencia)}</td>
+                <td class="py-4 text-[13px]">
+                  {e.telefonos.length > 0 ? (
+                    <a href={`tel:${telefonoHref(e.telefonos[0])}`} class="underline-hover font-mono">
+                      {telefonoLegible(e.telefonos[0])}
+                    </a>
+                  ) : (
+                    <span class="text-ink/30">—</span>
+                  )}
+                </td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+
+      <div class="rule mt-10 pt-6">
+        <p class="label muted">Fuente</p>
+        <ul class="mt-4 flex flex-wrap gap-x-8 gap-y-2">
+          <li>
+            <a href={padron.fuente.url} rel="noopener nofollow" target="_blank" class="label underline-hover">
+              {padron.fuente.titulo} ↗
+            </a>
+          </li>
+          {padron.fuenteRevocados && (
+            <li>
+              <a
+                href={padron.fuenteRevocados.url}
+                rel="noopener nofollow"
+                target="_blank"
+                class="label underline-hover"
+              >
+                {padron.fuenteRevocados.titulo} ↗
+              </a>
+            </li>
+          )}
+        </ul>
+        <p class="muted mt-4 max-w-2xl text-[14px] leading-snug">
+          El registro es un documento vivo: la autoridad lo actualiza conforme otorga, revalida o
+          revoca permisos. Publicamos la fecha de corte para que sepas a qué momento corresponde lo
+          que estás leyendo, y no añadimos ningún dato que la fuente no publique.
+        </p>
+      </div>
+
+      <div class="mt-10 flex flex-wrap gap-3">
+        <a href="/registrar" class="cta-solid">¿Es tu empresa? Reclama tu ficha →</a>
+        <a href={`/ciudades/${ciudad.id}`} class="cta">Ver la plaza completa</a>
+      </div>
+    </section>
+  )}
+
   <!-- zonas cubiertas -->
   {zonas.length > 0 && (
     <section class="wrap pt-20 sm:pt-28">
-      <p class="label">[ 02 — Zonas con cobertura ]</p>
+      <p class="label">[ {ix('zonas')} — Zonas con cobertura ]</p>
       <h2 class="display-lg mt-8">Dónde operan</h2>
       <p class="muted mt-6 max-w-2xl text-base leading-snug">
-        Zonas de {c.nombre} declaradas por los proveedores de este rubro.
+        Zonas de {c.nombre} declaradas por los proveedores con ficha en el directorio.
       </p>
       <div class="mt-10 grid grid-cols-2 gap-px border-t border-ink/20 sm:grid-cols-3 lg:grid-cols-4">
         {zonas.map((z, i) => (
@@ -162,7 +389,7 @@ const datosNorm = norm
   {datosNorm.length > 0 && (
     <section class="on-ink mt-20 sm:mt-28">
       <div class="wrap py-20 sm:py-28">
-        <p class="label muted">[ 03 — Marco local ]</p>
+        <p class="label muted">[ {ix('marco')} — Marco local ]</p>
         <h2 class="display-lg mt-10 max-w-5xl">
           Quién autoriza<br />en <span class="text-signal">{corto}</span>
         </h2>
@@ -207,15 +434,87 @@ const datosNorm = norm
     </section>
   )}
 
+  <!-- qué exigir antes de contratar -->
+  {r.marcoLocal && r.verificacion.length > 0 && (
+    <section class="wrap pt-20 sm:pt-28">
+      <div class="flex flex-wrap items-baseline justify-between gap-4">
+        <p class="label">[ {ix('verificar')} — Antes de contratar ]</p>
+        <p class="label muted tabular-nums">{nn(r.verificacion.length)}</p>
+      </div>
+      <h2 class="display-lg mt-8">Qué exigirle<br />a un proveedor</h2>
+      <dl class="mt-10">
+        {r.verificacion.map((v, i) => (
+          <div class="rule grid grid-cols-12 items-baseline gap-x-6 gap-y-2 py-5">
+            <dt class="col-span-12 sm:col-span-4">
+              <span class="label muted tabular-nums mr-3">{nn(i + 1)}</span>
+              <span class="text-[15px] font-semibold leading-snug">{v.punto}</span>
+            </dt>
+            <dd class="col-span-12 text-[14px] leading-[1.55] text-ink/75 sm:col-span-8">
+              {v.detalle}
+            </dd>
+          </div>
+        ))}
+      </dl>
+    </section>
+  )}
+
+  <Faq preguntas={faq} indice={ix('faq')} titulo={`${r.nombre} en ${corto}: dudas frecuentes`} />
+
   <Relacionados
-    indice="04"
+    indice={ix('relacionados')}
     bloques={[
-      bloqueCruces(d, { rubro: categoria.id, titulo: 'Este rubro en otras plazas' }),
-      bloqueCruces(d, { ciudad: ciudad.id, titulo: `Otros rubros en ${corto}` }),
+      bloqueCruces(d, {
+        rubro: categoria.id,
+        excluirCiudad: ciudad.id,
+        titulo: 'Este rubro en otras plazas',
+      }),
+      bloqueCruces(d, {
+        ciudad: ciudad.id,
+        excluirRubro: categoria.id,
+        titulo: `Otros rubros en ${corto}`,
+      }),
       bloqueRubros(d, { excluir: categoria.id, titulo: 'Rubros' }),
       bloqueCiudades(d, { titulo: 'Plazas' }),
       bloqueServicios(d, { soloRubro: categoria.id, titulo: 'Servicios' }),
       bloqueGuias(d, { soloRubro: categoria.id, limite: 4, titulo: 'Guías' }),
     ]}
   />
+
+  {padron && (
+    <script is:inline>
+      /* Filtro del padrón. Las filas ya vienen completas en el HTML: esto solo
+         oculta las que no coinciden, así que sin JavaScript la tabla sigue
+         siendo legible y rastreable. Por eso el control nace oculto y se
+         habilita desde aquí. */
+      (function () {
+        var input = document.getElementById('filtro-padron');
+        var etiqueta = document.getElementById('filtro-padron-label');
+        var conteo = document.getElementById('filtro-padron-conteo');
+        var tabla = document.getElementById('tabla-padron');
+        if (!input || !tabla || !conteo || !etiqueta) return;
+
+        var filas = Array.prototype.slice.call(tabla.tBodies[0].rows);
+        var total = filas.length;
+        input.hidden = false;
+        etiqueta.hidden = false;
+        conteo.hidden = false;
+
+        function pinta(n) {
+          conteo.textContent = n === total ? total + ' empresas' : n + ' de ' + total + ' empresas';
+        }
+        pinta(total);
+
+        input.addEventListener('input', function () {
+          var q = input.value.trim().toLowerCase();
+          var n = 0;
+          for (var i = 0; i < filas.length; i++) {
+            var ok = !q || filas[i].getAttribute('data-fila').indexOf(q) !== -1;
+            filas[i].hidden = !ok;
+            if (ok) n++;
+          }
+          pinta(n);
+        });
+      })();
+    </script>
+  )}
 </BaseLayout>

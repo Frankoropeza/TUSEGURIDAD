@@ -4,7 +4,7 @@ abreviatura: "CAM"
 capital: "San Francisco de Campeche"
 region: "Sureste"
 estado: "Campeche"
-descripcion: "Empresas de seguridad privada en Campeche. Autorización ante Unidad de Registro Estatal de Empresas, Personal y Equipo de Seguridad Privada, vigencia de 1 año, revalidable hasta por 3 años más."
+descripcion: "Empresas de seguridad privada en Campeche. Autorización ante la Unidad de Registro Estatal de Empresas, Personal y Equipo de Seguridad Privada, vigencia de 1 año, revalidable hasta por 3 años más."
 orden: 6
 normativa:
   ley: "Reglamento para la Prestación de Servicios de Seguridad Privada en el Estado de Campeche"
@@ -24,9 +24,9 @@ Consultar un proveedor de seguridad privada en **Campeche** exige revisar el mar
 
 ## Quién autoriza aquí
 
-Campeche no cuenta con una ley específica de seguridad privada. La materia se regula mediante **Reglamento para la Prestación de Servicios de Seguridad Privada en el Estado de Campeche**, en conjunto con la legislación estatal de seguridad pública.
+Campeche no cuenta con una ley específica de seguridad privada. La materia se regula mediante el **Reglamento para la Prestación de Servicios de Seguridad Privada en el Estado de Campeche**, en conjunto con la legislación estatal de seguridad pública.
 
-La instancia que tramita y otorga la autorización es **Unidad de Registro Estatal de Empresas, Personal y Equipo de Seguridad Privada**, adscrita a Secretaría de Protección y Seguridad Ciudadana.
+La instancia que tramita y otorga la autorización es la **Unidad de Registro Estatal de Empresas, Personal y Equipo de Seguridad Privada**, adscrita a la Secretaría de Protección y Seguridad Ciudadana.
 
 ### Datos clave
 

@@ -4,7 +4,7 @@ abreviatura: "QRO"
 capital: "Santiago de Querétaro"
 region: "Bajío"
 estado: "Querétaro"
-descripcion: "Empresas de seguridad privada en Querétaro. Autorización ante Dirección de Servicios al Público y Seguridad Privada, vigencia de 1 año, refrendable anualmente."
+descripcion: "Empresas de seguridad privada en Querétaro. Autorización ante la Dirección de Servicios al Público y Seguridad Privada, vigencia de 1 año, refrendable anualmente."
 orden: 22
 normativa:
   ley: "Reglamento para la Prestación de Servicios de Seguridad Privada en el Estado de Querétaro"
@@ -22,9 +22,9 @@ Consultar un proveedor de seguridad privada en **Querétaro** exige revisar el m
 
 ## Quién autoriza aquí
 
-Querétaro no cuenta con una ley específica de seguridad privada. La materia se regula mediante **Reglamento para la Prestación de Servicios de Seguridad Privada en el Estado de Querétaro**, en conjunto con la legislación estatal de seguridad pública.
+Querétaro no cuenta con una ley específica de seguridad privada. La materia se regula mediante el **Reglamento para la Prestación de Servicios de Seguridad Privada en el Estado de Querétaro**, en conjunto con la legislación estatal de seguridad pública.
 
-La instancia que tramita y otorga la autorización es **Dirección de Servicios al Público y Seguridad Privada**, adscrita a Secretaría de Seguridad Ciudadana del Estado.
+La instancia que tramita y otorga la autorización es la **Dirección de Servicios al Público y Seguridad Privada**, adscrita a la Secretaría de Seguridad Ciudadana del Estado.
 
 ### Datos clave
 

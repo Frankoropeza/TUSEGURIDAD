@@ -147,7 +147,7 @@ const jsonld: Record<string, unknown> = {
       { nombre: e.nombre },
     ]}
     indice="Ficha de empresa"
-    meta={e.verificado ? 'Verificada' : 'Sin verificar'}
+    meta={e.demo ? 'Ficha de maqueta' : e.verificado ? 'Verificada' : 'Sin verificar'}
     titulo={e.nombre}
     lede={e.descripcion}
   />

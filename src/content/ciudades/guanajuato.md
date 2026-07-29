@@ -4,7 +4,7 @@ abreviatura: "GTO"
 capital: "Guanajuato"
 region: "Bajío"
 estado: "Guanajuato"
-descripcion: "Empresas de seguridad privada en Guanajuato. Autorización ante Secretaría de Seguridad y Paz del Estado, vigencia de 1 año."
+descripcion: "Empresas de seguridad privada en Guanajuato. Autorización ante la Secretaría de Seguridad y Paz del Estado, vigencia de 1 año."
 orden: 12
 normativa:
   ley: "Ley de Seguridad Privada del Estado de Guanajuato"
@@ -26,7 +26,7 @@ Consultar un proveedor de seguridad privada en **Guanajuato** exige revisar el m
 
 La norma aplicable es la **Ley de Seguridad Privada del Estado de Guanajuato**.
 
-La instancia que tramita y otorga la autorización es **Secretaría de Seguridad y Paz del Estado**, adscrita a Gobierno del Estado de Guanajuato.
+La instancia que tramita y otorga la autorización es la **Secretaría de Seguridad y Paz del Estado**, adscrita al Gobierno del Estado de Guanajuato.
 
 ### Datos clave
 

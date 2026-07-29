@@ -4,7 +4,7 @@ abreviatura: "TLAX"
 capital: "Tlaxcala de Xicohténcatl"
 region: "Centro"
 estado: "Tlaxcala"
-descripcion: "Empresas de seguridad privada en Tlaxcala. Autorización ante Oficina de Seguridad Privada, vigencia de 1 año, con refrendo anual."
+descripcion: "Empresas de seguridad privada en Tlaxcala. Autorización ante la Oficina de Seguridad Privada, vigencia de 1 año, con refrendo anual."
 orden: 29
 normativa:
   ley: "Ley que Regula los Servicios Privados de Seguridad en el Estado de Tlaxcala"
@@ -26,7 +26,7 @@ Consultar un proveedor de seguridad privada en **Tlaxcala** exige revisar el mar
 
 La norma aplicable es la **Ley que Regula los Servicios Privados de Seguridad en el Estado de Tlaxcala**.
 
-La instancia que tramita y otorga la autorización es **Oficina de Seguridad Privada**, adscrita a Secretaría de Seguridad Ciudadana.
+La instancia que tramita y otorga la autorización es la **Oficina de Seguridad Privada**, adscrita a la Secretaría de Seguridad Ciudadana.
 
 ### Datos clave
 

@@ -4,7 +4,7 @@ abreviatura: "CHIH"
 capital: "Chihuahua"
 region: "Norte"
 estado: "Chihuahua"
-descripcion: "Empresas de seguridad privada en Chihuahua. Autorización ante Departamento de Seguridad Privada, vigencia de 1 año."
+descripcion: "Empresas de seguridad privada en Chihuahua. Autorización ante el Departamento de Seguridad Privada, vigencia de 1 año."
 orden: 8
 normativa:
   ley: "Ley de Seguridad Privada para el Estado de Chihuahua"
@@ -26,7 +26,7 @@ Consultar un proveedor de seguridad privada en **Chihuahua** exige revisar el ma
 
 La norma aplicable es la **Ley de Seguridad Privada para el Estado de Chihuahua**.
 
-La instancia que tramita y otorga la autorización es **Departamento de Seguridad Privada**, adscrita a Secretaría de Seguridad Pública del Estado.
+La instancia que tramita y otorga la autorización es el **Departamento de Seguridad Privada**, adscrito a la Secretaría de Seguridad Pública del Estado.
 
 ### Datos clave
 

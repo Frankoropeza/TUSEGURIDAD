@@ -1,4 +1,5 @@
-import { defineCollection, z } from 'astro:content';
+import { defineCollection } from 'astro:content';
+import { z } from 'astro/zod';
 import { glob } from 'astro/loaders';
 
 /**
@@ -20,8 +21,8 @@ const empresas = defineCollection({
     zonas: z.record(z.string(), z.array(z.string())).default({}),
     telefono: z.string().optional(),
     whatsapp: z.string().optional(),
-    email: z.string().email().or(z.literal('')).optional(),
-    sitio: z.string().url().or(z.literal('')).optional(),
+    email: z.email().or(z.literal('')).optional(),
+    sitio: z.url().or(z.literal('')).optional(),
     direccion: z.string().optional(),
     servicios: z.array(z.string()).default([]),
     horario: z.string().optional(),
@@ -55,6 +56,17 @@ const categorias = defineCollection({
     tituloSeo: z.string().optional(),
     intro: z.string().optional(),
 
+    /**
+     * true cuando el rubro se regula con las leyes estatales de seguridad
+     * privada (el bloque "quién autoriza en esta plaza" de los cruces solo
+     * tiene sentido en ese caso; mostrarlo en un rubro regulado por NOMs
+     * federales sería atribuirle una autoridad que no le aplica).
+     */
+    marcoLocal: z.boolean().default(false),
+
+    /** etiqueta de la sección de modalidades (default: Marco normativo federal) */
+    modalidadesEtiqueta: z.string().optional(),
+
     // --- bloques editoriales de la ficha de rubro ---
     modalidades: z
       .array(
@@ -75,7 +87,7 @@ const categorias = defineCollection({
 
     /** referencias normativas citadas en la ficha */
     fuentes: z
-      .array(z.object({ titulo: z.string(), url: z.string().url() }))
+      .array(z.object({ titulo: z.string(), url: z.url() }))
       .default([]),
   }),
 });
@@ -111,7 +123,7 @@ const ciudades = defineCollection({
       .optional(),
 
     fuentes: z
-      .array(z.object({ titulo: z.string(), url: z.string().url() }))
+      .array(z.object({ titulo: z.string(), url: z.url() }))
       .default([]),
   }),
 });

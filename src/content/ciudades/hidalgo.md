@@ -4,7 +4,7 @@ abreviatura: "HGO"
 capital: "Pachuca de Soto"
 region: "Centro"
 estado: "Hidalgo"
-descripcion: "Empresas de seguridad privada en Hidalgo. Autorización ante Unidad de Registro y Supervisión de Prestadores de Seguridad Privada, vigencia de 1 año."
+descripcion: "Empresas de seguridad privada en Hidalgo. Autorización ante la Unidad de Registro y Supervisión de Prestadores de Seguridad Privada, vigencia de 1 año."
 orden: 14
 normativa:
   ley: "Ley de Seguridad Privada para el Estado de Hidalgo"
@@ -26,7 +26,7 @@ Consultar un proveedor de seguridad privada en **Hidalgo** exige revisar el marc
 
 La norma aplicable es la **Ley de Seguridad Privada para el Estado de Hidalgo**.
 
-La instancia que tramita y otorga la autorización es **Unidad de Registro y Supervisión de Prestadores de Seguridad Privada**, adscrita a Secretaría de Seguridad Pública del Estado.
+La instancia que tramita y otorga la autorización es la **Unidad de Registro y Supervisión de Prestadores de Seguridad Privada**, adscrita a la Secretaría de Seguridad Pública del Estado.
 
 ### Datos clave
 

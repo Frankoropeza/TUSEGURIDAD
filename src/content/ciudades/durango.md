@@ -4,7 +4,7 @@ abreviatura: "DGO"
 capital: "Victoria de Durango"
 region: "Norte"
 estado: "Durango"
-descripcion: "Empresas de seguridad privada en Durango. Autorización ante Dirección de Seguridad Privada, vigencia de 1 año, revalidable."
+descripcion: "Empresas de seguridad privada en Durango. Autorización ante la Dirección de Seguridad Privada, vigencia de 1 año, revalidable."
 orden: 11
 normativa:
   ley: "Ley de Seguridad Privada para el Estado de Durango"
@@ -26,7 +26,7 @@ Consultar un proveedor de seguridad privada en **Durango** exige revisar el marc
 
 La norma aplicable es la **Ley de Seguridad Privada para el Estado de Durango**.
 
-La instancia que tramita y otorga la autorización es **Dirección de Seguridad Privada**, adscrita a Secretaría de Seguridad Pública del Estado.
+La instancia que tramita y otorga la autorización es la **Dirección de Seguridad Privada**, adscrita a la Secretaría de Seguridad Pública del Estado.
 
 ### Datos clave
 

@@ -4,7 +4,7 @@ abreviatura: "SLP"
 capital: "San Luis Potosí"
 region: "Bajío"
 estado: "San Luis Potosí"
-descripcion: "Empresas de seguridad privada en San Luis Potosí. Autorización ante Unidad de Servicios de Seguridad Privada, vigencia de 5 años, con refrendo anual obligatorio."
+descripcion: "Empresas de seguridad privada en San Luis Potosí. Autorización ante la Unidad de Servicios de Seguridad Privada, vigencia de 5 años, con refrendo anual obligatorio."
 orden: 24
 normativa:
   ley: "Ley de Servicios de Seguridad Privada para el Estado de San Luis Potosí"
@@ -17,7 +17,7 @@ normativa:
   sinLeyEspecifica: false
 fuentes:
   - titulo: "Ley de Servicios de Seguridad Privada para el Estado de San Luis Potosí"
-    url: "http://congresosanluis.gob.mx/sites/default/files/unpload/legislacion/leyes/2025/01/Ley_de_Servicios_de_Seguridad_Privada_para_el_Estado_04_Diciembre_2024.pdf"
+    url: "https://congresosanluis.gob.mx/sites/default/files/unpload/legislacion/leyes/2025/01/Ley_de_Servicios_de_Seguridad_Privada_para_el_Estado_04_Diciembre_2024.pdf"
 ---
 
 Consultar un proveedor de seguridad privada en **San Luis Potosí** exige revisar el marco local: la autorización se otorga por entidad y por modalidad, y las reglas cambian de un estado a otro.
@@ -26,7 +26,7 @@ Consultar un proveedor de seguridad privada en **San Luis Potosí** exige revisa
 
 La norma aplicable es la **Ley de Servicios de Seguridad Privada para el Estado de San Luis Potosí**.
 
-La instancia que tramita y otorga la autorización es **Unidad de Servicios de Seguridad Privada**, adscrita a Secretaría de Seguridad y Protección Ciudadana.
+La instancia que tramita y otorga la autorización es la **Unidad de Servicios de Seguridad Privada**, adscrita a la Secretaría de Seguridad y Protección Ciudadana.
 
 ### Datos clave
 

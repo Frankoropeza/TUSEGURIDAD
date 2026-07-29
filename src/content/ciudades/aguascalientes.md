@@ -4,7 +4,7 @@ abreviatura: "AGS"
 capital: "Aguascalientes"
 region: "Bajío"
 estado: "Aguascalientes"
-descripcion: "Empresas de seguridad privada en Aguascalientes. Autorización ante Secretaría de Seguridad Pública del Estado, vigencia de 1 año, revalidable."
+descripcion: "Empresas de seguridad privada en Aguascalientes. Autorización ante la Secretaría de Seguridad Pública del Estado, vigencia de 1 año, revalidable."
 orden: 3
 normativa:
   ley: "Ley de Seguridad Privada del Estado de Aguascalientes"
@@ -26,7 +26,7 @@ Consultar un proveedor de seguridad privada en **Aguascalientes** exige revisar 
 
 La norma aplicable es la **Ley de Seguridad Privada del Estado de Aguascalientes**.
 
-La instancia que tramita y otorga la autorización es **Secretaría de Seguridad Pública del Estado**, adscrita a Gobierno del Estado de Aguascalientes.
+La instancia que tramita y otorga la autorización es la **Secretaría de Seguridad Pública del Estado**, adscrita al Gobierno del Estado de Aguascalientes.
 
 ### Datos clave
 

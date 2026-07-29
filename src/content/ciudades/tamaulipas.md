@@ -4,7 +4,7 @@ abreviatura: "TAMPS"
 capital: "Ciudad Victoria"
 region: "Norte"
 estado: "Tamaulipas"
-descripcion: "Empresas de seguridad privada en Tamaulipas. Autorización ante Dirección General de Operación Policial, vigencia de 1 año, revalidable."
+descripcion: "Empresas de seguridad privada en Tamaulipas. Autorización ante la Dirección General de Operación Policial, vigencia de 1 año, revalidable."
 orden: 28
 normativa:
   ley: "Ley para Regular los Servicios Privados de Seguridad en el Estado de Tamaulipas"
@@ -26,7 +26,7 @@ Consultar un proveedor de seguridad privada en **Tamaulipas** exige revisar el m
 
 La norma aplicable es la **Ley para Regular los Servicios Privados de Seguridad en el Estado de Tamaulipas**.
 
-La instancia que tramita y otorga la autorización es **Dirección General de Operación Policial**, adscrita a Secretaría de Seguridad Pública del Estado.
+La instancia que tramita y otorga la autorización es la **Dirección General de Operación Policial**, adscrita a la Secretaría de Seguridad Pública del Estado.
 
 ### Datos clave
 

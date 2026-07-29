@@ -4,7 +4,7 @@ abreviatura: "OAX"
 capital: "Oaxaca de Juárez"
 region: "Sur"
 estado: "Oaxaca"
-descripcion: "Empresas de seguridad privada en Oaxaca. Autorización ante Dirección de Seguridad Privada, vigencia de 1 año."
+descripcion: "Empresas de seguridad privada en Oaxaca. Autorización ante la Dirección de Seguridad Privada, vigencia de 1 año."
 orden: 20
 normativa:
   ley: "Reglamento para la Prestación de Servicios de Seguridad Privada en el Estado de Oaxaca"
@@ -24,9 +24,9 @@ Consultar un proveedor de seguridad privada en **Oaxaca** exige revisar el marco
 
 ## Quién autoriza aquí
 
-Oaxaca no cuenta con una ley específica de seguridad privada. La materia se regula mediante **Reglamento para la Prestación de Servicios de Seguridad Privada en el Estado de Oaxaca**, en conjunto con la legislación estatal de seguridad pública.
+Oaxaca no cuenta con una ley específica de seguridad privada. La materia se regula mediante el **Reglamento para la Prestación de Servicios de Seguridad Privada en el Estado de Oaxaca**, en conjunto con la legislación estatal de seguridad pública.
 
-La instancia que tramita y otorga la autorización es **Dirección de Seguridad Privada**, adscrita a Secretaría de Seguridad y Protección Ciudadana.
+La instancia que tramita y otorga la autorización es la **Dirección de Seguridad Privada**, adscrita a la Secretaría de Seguridad y Protección Ciudadana.
 
 ### Datos clave
 

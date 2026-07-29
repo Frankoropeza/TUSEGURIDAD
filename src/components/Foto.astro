@@ -29,7 +29,7 @@ const {
   width={foto.width}
   height={foto.height}
   loading={prioridad ? 'eager' : 'lazy'}
-  decoding={prioridad ? 'sync' : 'async'}
+  decoding="async"
   fetchpriority={prioridad ? 'high' : undefined}
   class:list={['block h-full w-full object-cover', mono && 'foto-mono', clase]}
 />

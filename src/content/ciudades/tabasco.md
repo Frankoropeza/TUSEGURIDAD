@@ -4,7 +4,7 @@ abreviatura: "TAB"
 capital: "Villahermosa"
 region: "Sureste"
 estado: "Tabasco"
-descripcion: "Empresas de seguridad privada en Tabasco. Autorización ante Dirección de la Policía Auxiliar y la Bancaria, Industrial y Comercial, vigencia de 1 año, revalidable."
+descripcion: "Empresas de seguridad privada en Tabasco. Autorización ante la Dirección de la Policía Auxiliar y la Bancaria, Industrial y Comercial, vigencia de 1 año, revalidable."
 orden: 27
 normativa:
   ley: "Reglamento que Regula la Prestación de Servicios de Seguridad Privada en el Estado de Tabasco"
@@ -24,9 +24,9 @@ Consultar un proveedor de seguridad privada en **Tabasco** exige revisar el marc
 
 ## Quién autoriza aquí
 
-Tabasco no cuenta con una ley específica de seguridad privada. La materia se regula mediante **Reglamento que Regula la Prestación de Servicios de Seguridad Privada en el Estado de Tabasco**, en conjunto con la legislación estatal de seguridad pública.
+Tabasco no cuenta con una ley específica de seguridad privada. La materia se regula mediante el **Reglamento que Regula la Prestación de Servicios de Seguridad Privada en el Estado de Tabasco**, en conjunto con la legislación estatal de seguridad pública.
 
-La instancia que tramita y otorga la autorización es **Dirección de la Policía Auxiliar y la Bancaria, Industrial y Comercial**, adscrita a Secretaría de Seguridad y Protección Ciudadana.
+La instancia que tramita y otorga la autorización es la **Dirección de la Policía Auxiliar y la Bancaria, Industrial y Comercial**, adscrita a la Secretaría de Seguridad y Protección Ciudadana.
 
 ### Datos clave
 

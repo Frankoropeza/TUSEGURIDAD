@@ -4,7 +4,7 @@ abreviatura: "BCS"
 capital: "La Paz"
 region: "Norte"
 estado: "Baja California Sur"
-descripcion: "Empresas de seguridad privada en Baja California Sur. Autorización ante Dirección de Seguridad Privada, vigencia de 1 año."
+descripcion: "Empresas de seguridad privada en Baja California Sur. Autorización ante la Dirección de Seguridad Privada, vigencia de 1 año."
 orden: 5
 normativa:
   ley: "Ley de Servicios de Seguridad Privada para el Estado de Baja California Sur"
@@ -26,7 +26,7 @@ Consultar un proveedor de seguridad privada en **Baja California Sur** exige rev
 
 La norma aplicable es la **Ley de Servicios de Seguridad Privada para el Estado de Baja California Sur**.
 
-La instancia que tramita y otorga la autorización es **Dirección de Seguridad Privada**, adscrita a Secretaría de Seguridad Pública del Estado.
+La instancia que tramita y otorga la autorización es la **Dirección de Seguridad Privada**, adscrita a la Secretaría de Seguridad Pública del Estado.
 
 ### Datos clave
 

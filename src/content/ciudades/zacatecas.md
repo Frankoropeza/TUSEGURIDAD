@@ -4,7 +4,7 @@ abreviatura: "ZAC"
 capital: "Zacatecas"
 region: "Bajío"
 estado: "Zacatecas"
-descripcion: "Empresas de seguridad privada en Zacatecas. Autorización ante Dirección de Empresas de Seguridad Privada, vigencia de 1 año, revalidable."
+descripcion: "Empresas de seguridad privada en Zacatecas. Autorización ante la Dirección de Empresas de Seguridad Privada, vigencia de 1 año, revalidable."
 orden: 32
 normativa:
   ley: "Reglamento para el Registro y Revalidación de Empresas de Seguridad Privada en el Estado de Zacatecas"
@@ -24,9 +24,9 @@ Consultar un proveedor de seguridad privada en **Zacatecas** exige revisar el ma
 
 ## Quién autoriza aquí
 
-Zacatecas no cuenta con una ley específica de seguridad privada. La materia se regula mediante **Reglamento para el Registro y Revalidación de Empresas de Seguridad Privada en el Estado de Zacatecas**, en conjunto con la legislación estatal de seguridad pública.
+Zacatecas no cuenta con una ley específica de seguridad privada. La materia se regula mediante el **Reglamento para el Registro y Revalidación de Empresas de Seguridad Privada en el Estado de Zacatecas**, en conjunto con la legislación estatal de seguridad pública.
 
-La instancia que tramita y otorga la autorización es **Dirección de Empresas de Seguridad Privada**, adscrita a Secretaría de Seguridad Pública del Estado.
+La instancia que tramita y otorga la autorización es la **Dirección de Empresas de Seguridad Privada**, adscrita a la Secretaría de Seguridad Pública del Estado.
 
 ### Datos clave
 

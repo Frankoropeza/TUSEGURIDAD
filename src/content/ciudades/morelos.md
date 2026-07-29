@@ -4,7 +4,7 @@ abreviatura: "MOR"
 capital: "Cuernavaca"
 region: "Centro"
 estado: "Morelos"
-descripcion: "Empresas de seguridad privada en Morelos. Autorización ante Dirección General de Seguridad Privada, vigencia de 1 año, revalidable."
+descripcion: "Empresas de seguridad privada en Morelos. Autorización ante la Dirección General de Seguridad Privada, vigencia de 1 año, revalidable."
 orden: 17
 normativa:
   ley: "Ley de Seguridad Privada para el Estado de Morelos"
@@ -26,7 +26,7 @@ Consultar un proveedor de seguridad privada en **Morelos** exige revisar el marc
 
 La norma aplicable es la **Ley de Seguridad Privada para el Estado de Morelos**.
 
-La instancia que tramita y otorga la autorización es **Dirección General de Seguridad Privada**, adscrita a Comisión Estatal de Seguridad Pública.
+La instancia que tramita y otorga la autorización es la **Dirección General de Seguridad Privada**, adscrita a la Comisión Estatal de Seguridad Pública.
 
 ### Datos clave
 

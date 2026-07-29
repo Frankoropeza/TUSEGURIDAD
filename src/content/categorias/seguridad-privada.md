@@ -10,6 +10,7 @@ intro: >-
 icono: "🛡️"
 destacada: true
 orden: 1
+marcoLocal: true
 
 modalidades:
   - nombre: Seguridad privada a personas

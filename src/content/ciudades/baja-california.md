@@ -4,7 +4,7 @@ abreviatura: "BC"
 capital: "Mexicali"
 region: "Norte"
 estado: "Baja California"
-descripcion: "Empresas de seguridad privada en Baja California. Autorización ante Dirección de Servicios Especiales en Protección y Seguridad Privada, vigencia de 1 año."
+descripcion: "Empresas de seguridad privada en Baja California. Autorización ante la Dirección de Servicios Especiales en Protección y Seguridad Privada, vigencia de 1 año."
 orden: 4
 normativa:
   ley: "Reglamento de Seguridad Privada para el Estado de Baja California"
@@ -24,9 +24,9 @@ Consultar un proveedor de seguridad privada en **Baja California** exige revisar
 
 ## Quién autoriza aquí
 
-Baja California no cuenta con una ley específica de seguridad privada. La materia se regula mediante **Reglamento de Seguridad Privada para el Estado de Baja California**, en conjunto con la legislación estatal de seguridad pública.
+Baja California no cuenta con una ley específica de seguridad privada. La materia se regula mediante el **Reglamento de Seguridad Privada para el Estado de Baja California**, en conjunto con la legislación estatal de seguridad pública.
 
-La instancia que tramita y otorga la autorización es **Dirección de Servicios Especiales en Protección y Seguridad Privada**, adscrita a Secretaría de Seguridad Ciudadana del Estado.
+La instancia que tramita y otorga la autorización es la **Dirección de Servicios Especiales en Protección y Seguridad Privada**, adscrita a la Secretaría de Seguridad Ciudadana del Estado.
 
 ### Datos clave
 

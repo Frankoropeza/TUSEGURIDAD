@@ -4,7 +4,7 @@ abreviatura: "GRO"
 capital: "Chilpancingo"
 region: "Sur"
 estado: "Guerrero"
-descripcion: "Empresas de seguridad privada en Guerrero. Autorización ante Dirección General de Registro y Supervisión a Empresas y Servicios de Seguridad Privada, vigencia de 1 año."
+descripcion: "Empresas de seguridad privada en Guerrero. Autorización ante la Dirección General de Registro y Supervisión a Empresas y Servicios de Seguridad Privada, vigencia de 1 año."
 orden: 13
 normativa:
   ley: "Ley Número 850 de Seguridad Privada del Estado de Guerrero"
@@ -26,7 +26,7 @@ Consultar un proveedor de seguridad privada en **Guerrero** exige revisar el mar
 
 La norma aplicable es la **Ley Número 850 de Seguridad Privada del Estado de Guerrero**.
 
-La instancia que tramita y otorga la autorización es **Dirección General de Registro y Supervisión a Empresas y Servicios de Seguridad Privada**, adscrita a Secretaría de Seguridad Pública del Estado.
+La instancia que tramita y otorga la autorización es la **Dirección General de Registro y Supervisión a Empresas y Servicios de Seguridad Privada**, adscrita a la Secretaría de Seguridad Pública del Estado.
 
 ### Datos clave
 

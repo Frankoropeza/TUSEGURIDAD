@@ -4,7 +4,7 @@ abreviatura: "QROO"
 capital: "Chetumal"
 region: "Sureste"
 estado: "Quintana Roo"
-descripcion: "Empresas de seguridad privada en Quintana Roo. Autorización ante Dirección de Registro y Supervisión de Empresas y Servicios Privados de Seguridad, vigencia de 1 año improrrogable."
+descripcion: "Empresas de seguridad privada en Quintana Roo. Autorización ante la Dirección de Registro y Supervisión de Empresas y Servicios Privados de Seguridad, vigencia de 1 año improrrogable."
 orden: 23
 normativa:
   ley: "Ley de Seguridad Ciudadana del Estado de Quintana Roo"
@@ -26,7 +26,7 @@ Consultar un proveedor de seguridad privada en **Quintana Roo** exige revisar el
 
 Quintana Roo no cuenta con una ley específica de seguridad privada. La materia se regula mediante **Ley de Seguridad Ciudadana del Estado de Quintana Roo**, en conjunto con la legislación estatal de seguridad pública.
 
-La instancia que tramita y otorga la autorización es **Dirección de Registro y Supervisión de Empresas y Servicios Privados de Seguridad**, adscrita a Secretaría de Seguridad Ciudadana del Estado.
+La instancia que tramita y otorga la autorización es la **Dirección de Registro y Supervisión de Empresas y Servicios Privados de Seguridad**, adscrita a la Secretaría de Seguridad Ciudadana del Estado.
 
 ### Datos clave
 

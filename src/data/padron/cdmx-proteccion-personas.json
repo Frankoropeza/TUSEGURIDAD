@@ -1,0 +1,1247 @@
+{
+  "plaza": "cdmx",
+  "rubro": "seguridad-privada",
+  "modalidad": "Protección a personas (escolta)",
+  "estatus": "Permiso vigente",
+  "autoridad": "Dirección General de Seguridad Privada y Colaboración Interinstitucional (SSC CDMX)",
+  "fuente": {
+    "titulo": "Empresas registradas para servicio de seguridad privada — SSC Ciudad de México",
+    "url": "https://data.ssc.cdmx.gob.mx/escoltas/empresas_registradas.html"
+  },
+  "fuenteRevocados": {
+    "titulo": "Empresas con permiso revocado — SSC Ciudad de México",
+    "url": "https://data.ssc.cdmx.gob.mx/escoltas/empresas_jn.html",
+    "nota": "A la fecha de corte, la autoridad no reporta empresas con permiso revocado en esta modalidad."
+  },
+  "fechaCorte": "2026-07-29",
+  "total": 111,
+  "empresas": [
+    {
+      "expediente": "3687-13",
+      "razonSocial": "Adamantium Private Security Services, S. de R.L. de C.V.",
+      "razonOficial": "ADAMANTIUM PRIVATE SECURITY SERVICES, S. DE R.L. DE C.V.",
+      "slug": "adamantium-private-security-services",
+      "telefonos": [
+        "5576526500",
+        "5591711278"
+      ],
+      "vigencia": "2026-12-18",
+      "personaFisica": false
+    },
+    {
+      "expediente": "4557-17",
+      "razonSocial": "Afimac Mexico, S. de R.L. de C.V.",
+      "razonOficial": "AFIMAC MEXICO, S. DE R.L. DE C.V.",
+      "slug": "afimac-mexico",
+      "telefonos": [
+        "5552922757"
+      ],
+      "vigencia": "2026-11-21",
+      "personaFisica": false
+    },
+    {
+      "expediente": "5158-19",
+      "razonSocial": "Agencia de Guardia, Proteccion e Investigaciones, S.A. de C.V.",
+      "razonOficial": "AGENCIA DE GUARDIA, PROTECCION E INVESTIGACIONES, S.A. DE C.V.",
+      "slug": "agencia-de-guardia-proteccion-e-investigaciones",
+      "telefonos": [
+        "5510387685",
+        "5551038738"
+      ],
+      "vigencia": "2026-12-17",
+      "personaFisica": false
+    },
+    {
+      "expediente": "5114-19",
+      "razonSocial": "Agencia T. Rango, S.A. de C.V.",
+      "razonOficial": "AGENCIA T. RANGO, S.A. DE C.V.",
+      "slug": "agencia-t-rango",
+      "telefonos": [
+        "5552077596",
+        "5551623715"
+      ],
+      "vigencia": "2026-12-04",
+      "personaFisica": false
+    },
+    {
+      "expediente": "5928-22",
+      "razonSocial": "Alemag Seguridad Privada, S.A. de C.V.",
+      "razonOficial": "ALEMAG SEGURIDAD PRIVADA, S.A. DE C.V.",
+      "slug": "alemag-seguridad-privada",
+      "telefonos": [],
+      "vigencia": "2026-09-25",
+      "personaFisica": false
+    },
+    {
+      "expediente": "5972-22",
+      "razonSocial": "Allied Universal Private Security Services, S.A. de C.V.",
+      "razonOficial": "ALLIED UNIVERSAL PRIVATE SECURITY SERVICES, S.A. DE C.V.",
+      "slug": "allied-universal-private-security-services",
+      "telefonos": [
+        "5533347721"
+      ],
+      "vigencia": "2026-12-05",
+      "personaFisica": false
+    },
+    {
+      "expediente": "5963-22",
+      "razonSocial": "Armour King, S.A. de C.V.",
+      "razonOficial": "ARMOUR KING, S.A. DE C.V.",
+      "slug": "armour-king",
+      "telefonos": [
+        "5556154828",
+        "5552991610"
+      ],
+      "vigencia": "2026-11-26",
+      "personaFisica": false
+    },
+    {
+      "expediente": "6826-25",
+      "razonSocial": "Asesoria Corporativa en Seguridad Privada, S.A. de C.V.",
+      "razonOficial": "ASESORIA CORPORATIVA EN SEGURIDAD PRIVADA, S.A. DE C.V.",
+      "slug": "asesoria-corporativa-en-seguridad-privada",
+      "telefonos": [
+        "5555553097",
+        "5538120610"
+      ],
+      "vigencia": "2026-12-01",
+      "personaFisica": false
+    },
+    {
+      "expediente": "6428-24",
+      "razonSocial": "Asvfonz, S.A. de C.V.",
+      "razonOficial": "ASVFONZ, S.A. DE C.V.",
+      "slug": "asvfonz",
+      "telefonos": [
+        "5592647390"
+      ],
+      "vigencia": "2026-08-21",
+      "personaFisica": false
+    },
+    {
+      "expediente": "6887-26",
+      "razonSocial": "Automobili Artt, S.A. de C.V.",
+      "razonOficial": "AUTOMOBILI ARTT, S.A. DE C.V.",
+      "slug": "automobili-artt",
+      "telefonos": [
+        "5551604434"
+      ],
+      "vigencia": "2027-02-25",
+      "personaFisica": false
+    },
+    {
+      "expediente": "6533-25",
+      "razonSocial": "Bendel & Durvall Seguridad Privada, S.A. de C.V.",
+      "razonOficial": "BENDEL & DURVALL SEGURIDAD PRIVADA, S.A. DE C.V.",
+      "slug": "bendel-y-durvall-seguridad-privada",
+      "telefonos": [
+        "5570908364",
+        "5534558533"
+      ],
+      "vigencia": "2027-01-16",
+      "personaFisica": false
+    },
+    {
+      "expediente": "5651-21",
+      "razonSocial": "CB Executive Protection, S.A. de C.V.",
+      "razonOficial": "CB EXECUTIVE PROTECTION, S.A. DE C.V.",
+      "slug": "cb-executive-protection",
+      "telefonos": [
+        "5555342294"
+      ],
+      "vigencia": "2026-12-05",
+      "personaFisica": false
+    },
+    {
+      "expediente": "6373-24",
+      "razonSocial": "Cintya Pamela Romano Niño",
+      "razonOficial": "CINTYA PAMELA ROMANO NIÑO",
+      "slug": "cintya-pamela-romano-nino",
+      "telefonos": [
+        "5635810866"
+      ],
+      "vigencia": "2027-06-14",
+      "personaFisica": true
+    },
+    {
+      "expediente": "4497-17",
+      "razonSocial": "Comercializadora de Vinos Alianza, S.A. de C.V.",
+      "razonOficial": "COMERCIALIZADORA DE VINOS ALIANZA, S.A. DE C.V.",
+      "slug": "comercializadora-de-vinos-alianza",
+      "telefonos": [
+        "5558043361",
+        "5525779556"
+      ],
+      "vigencia": "2026-11-23",
+      "personaFisica": false
+    },
+    {
+      "expediente": "3247-11",
+      "razonSocial": "Cometra Seguridad Privada, S.A. de C.V.",
+      "razonOficial": "COMETRA SEGURIDAD PRIVADA, S.A. DE C.V.",
+      "slug": "cometra-seguridad-privada",
+      "telefonos": [
+        "5552080393",
+        "5552088641"
+      ],
+      "vigencia": "2027-01-16",
+      "personaFisica": false
+    },
+    {
+      "expediente": "6073-23",
+      "razonSocial": "Consorcio de Servicios Mexicanos, S.A. de C.V.",
+      "razonOficial": "CONSORCIO DE SERVICIOS MEXICANOS, S.A. DE C.V.",
+      "slug": "consorcio-de-servicios-mexicanos",
+      "telefonos": [
+        "5530289273"
+      ],
+      "vigencia": "2027-05-28",
+      "personaFisica": false
+    },
+    {
+      "expediente": "6248-23",
+      "razonSocial": "Consorcio Integral en Logistica y de Seguridad Privada del Centro, S.A. de C.V.",
+      "razonOficial": "CONSORCIO INTEGRAL EN LOGISTICA Y DE SEGURIDAD PRIVADA DEL CENTRO, S.A. DE C.V.",
+      "slug": "consorcio-integral-en-logistica-y-de-seguridad-privada-del-centro",
+      "telefonos": [
+        "5568215341"
+      ],
+      "vigencia": "2026-12-14",
+      "personaFisica": false
+    },
+    {
+      "expediente": "5991-23",
+      "razonSocial": "Control Risks Managed Services Mexico, S.A. de C.V.",
+      "razonOficial": "CONTROL RISKS MANAGED SERVICES MEXICO, S.A. DE C.V.",
+      "slug": "control-risks-managed-services-mexico",
+      "telefonos": [
+        "5538994522"
+      ],
+      "vigencia": "2027-01-06",
+      "personaFisica": false
+    },
+    {
+      "expediente": "6807-25",
+      "razonSocial": "Control Servicios Tacticos Integrales, S.A. de C.V.",
+      "razonOficial": "CONTROL SERVICIOS TACTICOS INTEGRALES, S.A. DE C.V.",
+      "slug": "control-servicios-tacticos-integrales",
+      "telefonos": [
+        "5552084148",
+        "5553319187"
+      ],
+      "vigencia": "2026-11-12",
+      "personaFisica": false
+    },
+    {
+      "expediente": "3065-09",
+      "razonSocial": "Corporativo Arvig en Servicios Profesionales en Seguridad Privada, S.A. de C.V.",
+      "razonOficial": "CORPORATIVO ARVIG EN SERVICIOS PROFESIONALES EN SEGURIDAD PRIVADA, S.A. DE C.V.",
+      "slug": "corporativo-arvig-en-servicios-profesionales-en-seguridad-privada",
+      "telefonos": [
+        "5553535771",
+        "5515602000"
+      ],
+      "vigencia": "2027-05-02",
+      "personaFisica": false
+    },
+    {
+      "expediente": "5545-21",
+      "razonSocial": "Corporativo Operacion Aguila, S.A. de C.V.",
+      "razonOficial": "CORPORATIVO OPERACION AGUILA, S.A. DE C.V.",
+      "slug": "corporativo-operacion-aguila",
+      "telefonos": [
+        "5513423715",
+        "5552345769"
+      ],
+      "vigencia": "2027-08-31",
+      "personaFisica": false
+    },
+    {
+      "expediente": "5319-20",
+      "razonSocial": "Corporativo Seprinal Macc, S.A. de C.V.",
+      "razonOficial": "CORPORATIVO SEPRINAL MACC, S.A. DE C.V.",
+      "slug": "corporativo-seprinal-macc",
+      "telefonos": [
+        "5583116255",
+        "5589368366"
+      ],
+      "vigencia": "2026-12-16",
+      "personaFisica": false
+    },
+    {
+      "expediente": "4996-19",
+      "razonSocial": "CSCP, S.A. de C.V.",
+      "razonOficial": "CSCP, S.A. DE C.V.",
+      "slug": "cscp",
+      "telefonos": [
+        "5570510596",
+        "8115882950"
+      ],
+      "vigencia": "2026-12-01",
+      "personaFisica": false
+    },
+    {
+      "expediente": "6554-25",
+      "razonSocial": "Cuerpos de Seguridad Privada Mexicana, S.A. de C.V.",
+      "razonOficial": "CUERPOS DE SEGURIDAD PRIVADA MEXICANA, S.A. DE C.V.",
+      "slug": "cuerpos-de-seguridad-privada-mexicana",
+      "telefonos": [],
+      "vigencia": "2027-02-27",
+      "personaFisica": false
+    },
+    {
+      "expediente": "5454-21",
+      "razonSocial": "DBM Factor Humano, S.A. de C.V.",
+      "razonOficial": "DBM FACTOR HUMANO, S.A. DE C.V.",
+      "slug": "dbm-factor-humano",
+      "telefonos": [
+        "5552450764"
+      ],
+      "vigencia": "2027-06-05",
+      "personaFisica": false
+    },
+    {
+      "expediente": "6831-25",
+      "razonSocial": "Dinamica Seguridad Privada Consultores, S.A. de C.V.",
+      "razonOficial": "DINAMICA SEGURIDAD PRIVADA CONSULTORES, S.A. DE C.V.",
+      "slug": "dinamica-seguridad-privada-consultores",
+      "telefonos": [],
+      "vigencia": "2026-12-04",
+      "personaFisica": false
+    },
+    {
+      "expediente": "6955-26",
+      "razonSocial": "El Guardian Agencia Especializada en Seguridad Privada, S.A.P.I. de C.V.",
+      "razonOficial": "EL GUARDIAN AGENCIA ESPECIALIZADA EN SEGURIDAD PRIVADA, S.A.P.I. DE C.V.",
+      "slug": "el-guardian-agencia-especializada-en-seguridad-privada",
+      "telefonos": [],
+      "vigencia": "2027-06-24",
+      "personaFisica": false
+    },
+    {
+      "expediente": "6830-25",
+      "razonSocial": "Enrique Gaspar Fragoso",
+      "razonOficial": "ENRIQUE GASPAR FRAGOSO",
+      "slug": "enrique-gaspar-fragoso",
+      "telefonos": [],
+      "vigencia": "2026-12-03",
+      "personaFisica": true
+    },
+    {
+      "expediente": "6882-26",
+      "razonSocial": "Executive Logistics And Services Mexico, S. de R.L. de C.V.",
+      "razonOficial": "EXECUTIVE LOGISTICS AND SERVICES MEXICO, S. DE R.L. DE C.V.",
+      "slug": "executive-logistics-and-services-mexico",
+      "telefonos": [
+        "5551626842"
+      ],
+      "vigencia": "2027-02-17",
+      "personaFisica": false
+    },
+    {
+      "expediente": "6782-25",
+      "razonSocial": "Frame Protect, S.A. de C.V.",
+      "razonOficial": "FRAME PROTECT, S.A. DE C.V.",
+      "slug": "frame-protect",
+      "telefonos": [
+        "5594897993"
+      ],
+      "vigencia": "2026-10-08",
+      "personaFisica": false
+    },
+    {
+      "expediente": "6016-23",
+      "razonSocial": "Fuo Servicios, S.A. de C.V.",
+      "razonOficial": "FUO SERVICIOS, S.A. DE C.V.",
+      "slug": "fuo-servicios",
+      "telefonos": [],
+      "vigencia": "2027-02-23",
+      "personaFisica": false
+    },
+    {
+      "expediente": "5346-21",
+      "razonSocial": "Grecops, S.A. de C.V.",
+      "razonOficial": "GRECOPS, S.A. DE C.V.",
+      "slug": "grecops",
+      "telefonos": [
+        "5568215341"
+      ],
+      "vigencia": "2027-02-13",
+      "personaFisica": false
+    },
+    {
+      "expediente": "4651-18",
+      "razonSocial": "Grupo Aguila Bicefala de Transportes, S.A. de C.V.",
+      "razonOficial": "GRUPO AGUILA BICEFALA DE TRANSPORTES, S.A. DE C.V.",
+      "slug": "grupo-aguila-bicefala-de-transportes",
+      "telefonos": [
+        "5553967517",
+        "5553696477"
+      ],
+      "vigencia": "2027-05-17",
+      "personaFisica": false
+    },
+    {
+      "expediente": "5137-19",
+      "razonSocial": "Grupo Brima-Proseg, S.A. de C.V.",
+      "razonOficial": "GRUPO BRIMA-PROSEG, S.A. DE C.V.",
+      "slug": "grupo-brima-proseg",
+      "telefonos": [
+        "5570901258"
+      ],
+      "vigencia": "2026-11-19",
+      "personaFisica": false
+    },
+    {
+      "expediente": "3971-15",
+      "razonSocial": "Grupo Control Seguridad Privada Integral, S.A. de C.V.",
+      "razonOficial": "GRUPO CONTROL SEGURIDAD PRIVADA INTEGRAL, S.A. DE C.V.",
+      "slug": "grupo-control-seguridad-privada-integral",
+      "telefonos": [
+        "5524514800",
+        "5546100371"
+      ],
+      "vigencia": "2026-11-22",
+      "personaFisica": false
+    },
+    {
+      "expediente": "5157-19",
+      "razonSocial": "Grupo de Seguridad Privada Pryse de Mexico, S.A. de C.V.",
+      "razonOficial": "GRUPO DE SEGURIDAD PRIVADA PRYSE DE MEXICO, S.A. DE C.V.",
+      "slug": "grupo-de-seguridad-privada-pryse-de-mexico",
+      "telefonos": [
+        "5568215341",
+        "5549815630"
+      ],
+      "vigencia": "2026-12-15",
+      "personaFisica": false
+    },
+    {
+      "expediente": "6452-24",
+      "razonSocial": "Grupo Dilme SP, S.A. de C.V.",
+      "razonOficial": "GRUPO DILME SP, S.A. DE C.V.",
+      "slug": "grupo-dilme-sp",
+      "telefonos": [
+        "5522897559"
+      ],
+      "vigencia": "2026-09-25",
+      "personaFisica": false
+    },
+    {
+      "expediente": "6863-26",
+      "razonSocial": "Grupo Invalo, S.A. de C.V.",
+      "razonOficial": "GRUPO INVALO, S.A. DE C.V.",
+      "slug": "grupo-invalo",
+      "telefonos": [
+        "5552553175"
+      ],
+      "vigencia": "2027-01-21",
+      "personaFisica": false
+    },
+    {
+      "expediente": "5835-22",
+      "razonSocial": "Grupo Maya Proteccion Personal Privada y Empresarial, S.A. de C.V.",
+      "razonOficial": "GRUPO MAYA PROTECCION PERSONAL PRIVADA Y EMPRESARIAL, S.A. DE C.V.",
+      "slug": "grupo-maya-proteccion-personal-privada-y-empresarial",
+      "telefonos": [
+        "5519640247"
+      ],
+      "vigencia": "2027-05-17",
+      "personaFisica": false
+    },
+    {
+      "expediente": "5790-22",
+      "razonSocial": "Grupo Saubermex Meier, S. de R.L. de C.V.",
+      "razonOficial": "GRUPO SAUBERMEX MEIER, S. DE R.L. DE C.V.",
+      "slug": "grupo-saubermex-meier",
+      "telefonos": [
+        "5521625193",
+        "5555521774"
+      ],
+      "vigencia": "2027-03-29",
+      "personaFisica": false
+    },
+    {
+      "expediente": "3264-11",
+      "razonSocial": "GSI Proteccion Personal Privada, S.A. de C.V.",
+      "razonOficial": "GSI PROTECCION PERSONAL PRIVADA, S.A. DE C.V.",
+      "slug": "gsi-proteccion-personal-privada",
+      "telefonos": [
+        "5552080393",
+        "5552080583"
+      ],
+      "vigencia": "2026-11-07",
+      "personaFisica": false
+    },
+    {
+      "expediente": "5683-21",
+      "razonSocial": "HG Asesoria y Servicio Personalizado de Seguridad Privada, S.A. de C.V.",
+      "razonOficial": "HG ASESORIA Y SERVICIO PERSONALIZADO DE SEGURIDAD PRIVADA, S.A. DE C.V.",
+      "slug": "hg-asesoria-y-servicio-personalizado-de-seguridad-privada",
+      "telefonos": [
+        "5559131686"
+      ],
+      "vigencia": "2026-12-21",
+      "personaFisica": false
+    },
+    {
+      "expediente": "3786-14",
+      "razonSocial": "Hidalgo Vigueras Consultores, S.A. de C.V.",
+      "razonOficial": "HIDALGO VIGUERAS CONSULTORES, S.A. DE C.V.",
+      "slug": "hidalgo-vigueras-consultores",
+      "telefonos": [
+        "5555521639"
+      ],
+      "vigencia": "2026-11-01",
+      "personaFisica": false
+    },
+    {
+      "expediente": "6949-26",
+      "razonSocial": "HT Sicherheit, S.A. de C.V.",
+      "razonOficial": "HT SICHERHEIT, S.A. DE C.V.",
+      "slug": "ht-sicherheit",
+      "telefonos": [
+        "7291120294",
+        "7222384421"
+      ],
+      "vigencia": "2027-06-17",
+      "personaFisica": false
+    },
+    {
+      "expediente": "6261-24",
+      "razonSocial": "Hunter Horse, S.A. de C.V.",
+      "razonOficial": "HUNTER HORSE, S.A. DE C.V.",
+      "slug": "hunter-horse",
+      "telefonos": [
+        "5572610399",
+        "5572617585"
+      ],
+      "vigencia": "2027-01-06",
+      "personaFisica": false
+    },
+    {
+      "expediente": "6399-24",
+      "razonSocial": "Impulsora Plus Ultra, S.A. de C.V.",
+      "razonOficial": "IMPULSORA PLUS ULTRA, S.A. DE C.V.",
+      "slug": "impulsora-plus-ultra",
+      "telefonos": [
+        "5535370505"
+      ],
+      "vigencia": "2027-07-12",
+      "personaFisica": false
+    },
+    {
+      "expediente": "6274-24",
+      "razonSocial": "Integrity Protection Services, S.A. de C.V.",
+      "razonOficial": "INTEGRITY PROTECTION SERVICES, S.A. DE C.V.",
+      "slug": "integrity-protection-services",
+      "telefonos": [
+        "5526238423"
+      ],
+      "vigencia": "2027-02-02",
+      "personaFisica": false
+    },
+    {
+      "expediente": "6524-24",
+      "razonSocial": "Inter-Con Servicios de Seguridad Privada, S.A. de C.V.",
+      "razonOficial": "INTER-CON SERVICIOS DE SEGURIDAD PRIVADA, S.A. DE C.V.",
+      "slug": "inter-con-servicios-de-seguridad-privada",
+      "telefonos": [],
+      "vigencia": "2026-12-13",
+      "personaFisica": false
+    },
+    {
+      "expediente": "6912-26",
+      "razonSocial": "International Private Security Z&O, S. de R.L. de C.V.",
+      "razonOficial": "INTERNATIONAL PRIVATE SECURITY Z&O, S. DE R.L. DE C.V.",
+      "slug": "international-private-security-z-y-o",
+      "telefonos": [],
+      "vigencia": "2027-04-08",
+      "personaFisica": false
+    },
+    {
+      "expediente": "5494-21",
+      "razonSocial": "IPS Latam, S.A.P.I. de C.V.",
+      "razonOficial": "IPS LATAM, S.A.P.I. DE C.V.",
+      "slug": "ips-latam",
+      "telefonos": [
+        "5555253242",
+        "5531456924"
+      ],
+      "vigencia": "2026-08-20",
+      "personaFisica": false
+    },
+    {
+      "expediente": "4330-17",
+      "razonSocial": "Jedisam Consultores, S.C.",
+      "razonOficial": "JEDISAM CONSULTORES, S.C.",
+      "slug": "jedisam-consultores",
+      "telefonos": [
+        "5572588556",
+        "5555526042"
+      ],
+      "vigencia": "2026-11-25",
+      "personaFisica": false
+    },
+    {
+      "expediente": "6526-24",
+      "razonSocial": "JIMVM Corporativo, S.A. de C.V.",
+      "razonOficial": "JIMVM CORPORATIVO, S.A. DE C.V.",
+      "slug": "jimvm-corporativo",
+      "telefonos": [
+        "5556748795"
+      ],
+      "vigencia": "2026-12-14",
+      "personaFisica": false
+    },
+    {
+      "expediente": "6801-25",
+      "razonSocial": "Juan Olivera Perez",
+      "razonOficial": "JUAN OLIVERA PEREZ",
+      "slug": "juan-olivera-perez",
+      "telefonos": [],
+      "vigencia": "2026-11-05",
+      "personaFisica": true
+    },
+    {
+      "expediente": "4501-17",
+      "razonSocial": "Kauil Group, S.A. de C.V.",
+      "razonOficial": "KAUIL GROUP, S.A. DE C.V.",
+      "slug": "kauil-group",
+      "telefonos": [
+        "5528630100",
+        "5562019917"
+      ],
+      "vigencia": "2027-02-01",
+      "personaFisica": false
+    },
+    {
+      "expediente": "6562-25",
+      "razonSocial": "Kuaktus Seguridad Privada, S.A. de C.V.",
+      "razonOficial": "KUAKTUS SEGURIDAD PRIVADA, S.A. DE C.V.",
+      "slug": "kuaktus-seguridad-privada",
+      "telefonos": [
+        "5579316513"
+      ],
+      "vigencia": "2027-03-06",
+      "personaFisica": false
+    },
+    {
+      "expediente": "6931-26",
+      "razonSocial": "Lafontaine 332, S.C.",
+      "razonOficial": "LAFONTAINE 332, S.C.",
+      "slug": "lafontaine-332",
+      "telefonos": [],
+      "vigencia": "2027-05-14",
+      "personaFisica": false
+    },
+    {
+      "expediente": "4231-16",
+      "razonSocial": "Losmor Seguridad Privada, S.A. de C.V.",
+      "razonOficial": "LOSMOR SEGURIDAD PRIVADA, S.A. DE C.V.",
+      "slug": "losmor-seguridad-privada",
+      "telefonos": [
+        "5557591600",
+        "5556620348"
+      ],
+      "vigencia": "2027-02-27",
+      "personaFisica": false
+    },
+    {
+      "expediente": "6743-25",
+      "razonSocial": "Marco Antonio Camacho Gonzalez",
+      "razonOficial": "MARCO ANTONIO CAMACHO GONZALEZ",
+      "slug": "marco-antonio-camacho-gonzalez",
+      "telefonos": [],
+      "vigencia": "2026-09-02",
+      "personaFisica": true
+    },
+    {
+      "expediente": "6781-25",
+      "razonSocial": "Maxi Servicios de Mexico, S.A. de C.V.",
+      "razonOficial": "MAXI SERVICIOS DE MEXICO, S.A. DE C.V.",
+      "slug": "maxi-servicios-de-mexico",
+      "telefonos": [],
+      "vigencia": "2026-10-08",
+      "personaFisica": false
+    },
+    {
+      "expediente": "6448-24",
+      "razonSocial": "MF Segurite Privee, S.A. de C.V.",
+      "razonOficial": "MF SEGURITE PRIVEE, S.A. DE C.V.",
+      "slug": "mf-segurite-privee",
+      "telefonos": [
+        "5511466240",
+        "5537222363"
+      ],
+      "vigencia": "2026-09-20",
+      "personaFisica": false
+    },
+    {
+      "expediente": "5252-20",
+      "razonSocial": "Miguel Angel Antonio Romano Niño",
+      "razonOficial": "MIGUEL ANGEL ANTONIO ROMANO NIÑO",
+      "slug": "miguel-angel-antonio-romano-nino",
+      "telefonos": [
+        "5567180774"
+      ],
+      "vigencia": "2026-11-13",
+      "personaFisica": true
+    },
+    {
+      "expediente": "6876-26",
+      "razonSocial": "Multisistemas Uribe, S.A. de C.V.",
+      "razonOficial": "MULTISISTEMAS URIBE, S.A. DE C.V.",
+      "slug": "multisistemas-uribe",
+      "telefonos": [
+        "5559567284"
+      ],
+      "vigencia": "2027-02-04",
+      "personaFisica": false
+    },
+    {
+      "expediente": "6663-25",
+      "razonSocial": "Noctus, S.A. de C.V.",
+      "razonOficial": "NOCTUS, S.A. DE C.V.",
+      "slug": "noctus",
+      "telefonos": [
+        "5517855699",
+        "5591110326"
+      ],
+      "vigencia": "2027-06-18",
+      "personaFisica": false
+    },
+    {
+      "expediente": "6750-25",
+      "razonSocial": "Noe Uribe Romero",
+      "razonOficial": "NOE URIBE ROMERO",
+      "slug": "noe-uribe-romero",
+      "telefonos": [
+        "5559810676"
+      ],
+      "vigencia": "2026-09-04",
+      "personaFisica": true
+    },
+    {
+      "expediente": "6359-24",
+      "razonSocial": "NSU Proteccion, S.A. de C.V.",
+      "razonOficial": "NSU PROTECCION, S.A. DE C.V.",
+      "slug": "nsu-proteccion",
+      "telefonos": [],
+      "vigencia": "2027-05-25",
+      "personaFisica": false
+    },
+    {
+      "expediente": "6154-23",
+      "razonSocial": "Nummase, S.A. de C.V.",
+      "razonOficial": "NUMMASE, S.A. DE C.V.",
+      "slug": "nummase",
+      "telefonos": [
+        "5510374150"
+      ],
+      "vigencia": "2026-09-22",
+      "personaFisica": false
+    },
+    {
+      "expediente": "6879-26",
+      "razonSocial": "OA Seguridad Privada, S.A. de C.V.",
+      "razonOficial": "OA SEGURIDAD PRIVADA, S.A. DE C.V.",
+      "slug": "oa-seguridad-privada",
+      "telefonos": [
+        "5552927818"
+      ],
+      "vigencia": "2027-02-10",
+      "personaFisica": false
+    },
+    {
+      "expediente": "6277-24",
+      "razonSocial": "Pablo Ernesto Garcia de la Rosa",
+      "razonOficial": "PABLO ERNESTO GARCIA DE LA ROSA",
+      "slug": "pablo-ernesto-garcia-de-la-rosa",
+      "telefonos": [],
+      "vigencia": "2027-02-08",
+      "personaFisica": true
+    },
+    {
+      "expediente": "6473-24",
+      "razonSocial": "PISA Soluciones Integrales en Servicios Administrativos, S.A. de C.V.",
+      "razonOficial": "PISA SOLUCIONES INTEGRALES EN SERVICIOS ADMINISTRATIVOS, S.A. DE C.V.",
+      "slug": "pisa-soluciones-integrales-en-servicios-administrativos",
+      "telefonos": [
+        "5592973558"
+      ],
+      "vigencia": "2026-10-24",
+      "personaFisica": false
+    },
+    {
+      "expediente": "5690-22",
+      "razonSocial": "Prestadora de Servicios Durango, S.A. de C.V.",
+      "razonOficial": "PRESTADORA DE SERVICIOS DURANGO, S.A. DE C.V.",
+      "slug": "prestadora-de-servicios-durango",
+      "telefonos": [
+        "5615875486",
+        "5576604421"
+      ],
+      "vigencia": "2027-01-14",
+      "personaFisica": false
+    },
+    {
+      "expediente": "6626-25",
+      "razonSocial": "PYE en Seguridad Privada, S.A. de C.V.",
+      "razonOficial": "PYE EN SEGURIDAD PRIVADA, S.A. DE C.V.",
+      "slug": "pye-en-seguridad-privada",
+      "telefonos": [
+        "5524847941",
+        "5555260427"
+      ],
+      "vigencia": "2027-05-14",
+      "personaFisica": false
+    },
+    {
+      "expediente": "5005-19",
+      "razonSocial": "Ramsa Motors, S.A. de C.V.",
+      "razonOficial": "RAMSA MOTORS, S.A. DE C.V.",
+      "slug": "ramsa-motors",
+      "telefonos": [
+        "5556767166",
+        "5515095555"
+      ],
+      "vigencia": "2027-06-07",
+      "personaFisica": false
+    },
+    {
+      "expediente": "6229-23",
+      "razonSocial": "RCU Sistemas, S.A. de C.V.",
+      "razonOficial": "RCU SISTEMAS, S.A. DE C.V.",
+      "slug": "rcu-sistemas",
+      "telefonos": [
+        "5555384800",
+        "5555309511"
+      ],
+      "vigencia": "2026-12-06",
+      "personaFisica": false
+    },
+    {
+      "expediente": "6736-25",
+      "razonSocial": "RMS Seguridad Privada, S.A. de C.V.",
+      "razonOficial": "RMS SEGURIDAD PRIVADA, S.A. DE C.V.",
+      "slug": "rms-seguridad-privada",
+      "telefonos": [
+        "5559020001"
+      ],
+      "vigencia": "2027-08-22",
+      "personaFisica": false
+    },
+    {
+      "expediente": "5987-22",
+      "razonSocial": "Safe Environments Seguridad Privada, S.A. de C.V.",
+      "razonOficial": "SAFE ENVIRONMENTS SEGURIDAD PRIVADA, S.A. DE C.V.",
+      "slug": "safe-environments-seguridad-privada",
+      "telefonos": [
+        "5552039088",
+        "5533189337"
+      ],
+      "vigencia": "2026-12-17",
+      "personaFisica": false
+    },
+    {
+      "expediente": "2743-07",
+      "razonSocial": "Schatten Seguridad Privada, S.A. de C.V.",
+      "razonOficial": "SCHATTEN SEGURIDAD PRIVADA, S.A. DE C.V.",
+      "slug": "schatten-seguridad-privada",
+      "telefonos": [
+        "5525919102",
+        "5552716394"
+      ],
+      "vigencia": "2026-12-10",
+      "personaFisica": false
+    },
+    {
+      "expediente": "6936-26",
+      "razonSocial": "Sedegral Seguridad Privada, Defensa en General, S.A. de C.V.",
+      "razonOficial": "SEDEGRAL SEGURIDAD PRIVADA, DEFENSA EN GENERAL, S.A. DE C.V.",
+      "slug": "sedegral-seguridad-privada-defensa-en-general",
+      "telefonos": [
+        "9931904264"
+      ],
+      "vigencia": "2027-05-14",
+      "personaFisica": false
+    },
+    {
+      "expediente": "6236-23",
+      "razonSocial": "Seguridad Privada al Servicio del Deporte, S.A. de C.V.",
+      "razonOficial": "SEGURIDAD PRIVADA AL SERVICIO DEL DEPORTE, S.A. DE C.V.",
+      "slug": "seguridad-privada-al-servicio-del-deporte",
+      "telefonos": [],
+      "vigencia": "2026-12-08",
+      "personaFisica": false
+    },
+    {
+      "expediente": "4223-16",
+      "razonSocial": "Seguridad Privada Bearr, S.C.",
+      "razonOficial": "SEGURIDAD PRIVADA BEARR, S.C.",
+      "slug": "seguridad-privada-bearr",
+      "telefonos": [
+        "5557096041"
+      ],
+      "vigencia": "2026-12-18",
+      "personaFisica": false
+    },
+    {
+      "expediente": "3680-13",
+      "razonSocial": "Seguridad Privada de Proteccion y Estudios Logisticos SPPEL, S.A. de C.V.",
+      "razonOficial": "SEGURIDAD PRIVADA DE PROTECCION Y ESTUDIOS LOGISTICOS SPPEL, S.A. DE C.V.",
+      "slug": "seguridad-privada-de-proteccion-y-estudios-logisticos-sppel",
+      "telefonos": [
+        "5562358482",
+        "5562357015"
+      ],
+      "vigencia": "2026-11-30",
+      "personaFisica": false
+    },
+    {
+      "expediente": "6118-23",
+      "razonSocial": "Seguridad Privada Ejecutiva Carlitos, S.A. de C.V.",
+      "razonOficial": "SEGURIDAD PRIVADA EJECUTIVA CARLITOS, S.A. DE C.V.",
+      "slug": "seguridad-privada-ejecutiva-carlitos",
+      "telefonos": [
+        "5528451845"
+      ],
+      "vigencia": "2026-08-12",
+      "personaFisica": false
+    },
+    {
+      "expediente": "4552-17",
+      "razonSocial": "Seguridad Privada Grupo Dragon Lee-Sf, S.A. de C.V.",
+      "razonOficial": "SEGURIDAD PRIVADA GRUPO DRAGON LEE-SF, S.A. DE C.V.",
+      "slug": "seguridad-privada-grupo-dragon-lee-sf",
+      "telefonos": [
+        "5522373180",
+        "5555359853"
+      ],
+      "vigencia": "2027-03-07",
+      "personaFisica": false
+    },
+    {
+      "expediente": "6880-26",
+      "razonSocial": "Seguridad Privada Integral BZR, S.A. de C.V.",
+      "razonOficial": "SEGURIDAD PRIVADA INTEGRAL BZR, S.A. DE C.V.",
+      "slug": "seguridad-privada-integral-bzr",
+      "telefonos": [
+        "5576537015"
+      ],
+      "vigencia": "2027-02-10",
+      "personaFisica": false
+    },
+    {
+      "expediente": "5146-19",
+      "razonSocial": "Seguridad Privada Integral de Autoservicio, S.A. de C.V.",
+      "razonOficial": "SEGURIDAD PRIVADA INTEGRAL DE AUTOSERVICIO, S.A. DE C.V.",
+      "slug": "seguridad-privada-integral-de-autoservicio",
+      "telefonos": [
+        "5522358474",
+        "5522358812"
+      ],
+      "vigencia": "2026-11-19",
+      "personaFisica": false
+    },
+    {
+      "expediente": "6423-24",
+      "razonSocial": "Seguridad Privada Integral Manavil, S.A. de C.V.",
+      "razonOficial": "SEGURIDAD PRIVADA INTEGRAL MANAVIL, S.A. DE C.V.",
+      "slug": "seguridad-privada-integral-manavil",
+      "telefonos": [],
+      "vigencia": "2026-08-15",
+      "personaFisica": false
+    },
+    {
+      "expediente": "6302-24",
+      "razonSocial": "Seguridad Privada Osoteam, S.A. de C.V.",
+      "razonOficial": "SEGURIDAD PRIVADA OSOTEAM, S.A. DE C.V.",
+      "slug": "seguridad-privada-osoteam",
+      "telefonos": [
+        "5559103978",
+        "5559106978"
+      ],
+      "vigencia": "2027-03-09",
+      "personaFisica": false
+    },
+    {
+      "expediente": "4740-18",
+      "razonSocial": "Seguridad Privada Patrimonial y Personal, S.A. de C.V.",
+      "razonOficial": "SEGURIDAD PRIVADA PATRIMONIAL Y PERSONAL, S.A. DE C.V.",
+      "slug": "seguridad-privada-patrimonial-y-personal",
+      "telefonos": [
+        "5553410729"
+      ],
+      "vigencia": "2026-10-04",
+      "personaFisica": false
+    },
+    {
+      "expediente": "6950-26",
+      "razonSocial": "Seguridad Privada Profesional Duna, S.A. de C.V.",
+      "razonOficial": "SEGURIDAD PRIVADA PROFESIONAL DUNA, S.A. DE C.V.",
+      "slug": "seguridad-privada-profesional-duna",
+      "telefonos": [],
+      "vigencia": "2027-06-17",
+      "personaFisica": false
+    },
+    {
+      "expediente": "6976-26",
+      "razonSocial": "Seguridad Privada Zamrey, S.A. de C.V.",
+      "razonOficial": "SEGURIDAD PRIVADA ZAMREY, S.A. DE C.V.",
+      "slug": "seguridad-privada-zamrey",
+      "telefonos": [],
+      "vigencia": "2027-07-17",
+      "personaFisica": false
+    },
+    {
+      "expediente": "3246-11",
+      "razonSocial": "Seguritec Seguridad Privada, S.A. de C.V.",
+      "razonOficial": "SEGURITEC SEGURIDAD PRIVADA, S.A. DE C.V.",
+      "slug": "seguritec-seguridad-privada",
+      "telefonos": [
+        "5585969445",
+        "5552080393"
+      ],
+      "vigencia": "2027-04-20",
+      "personaFisica": false
+    },
+    {
+      "expediente": "6961-26",
+      "razonSocial": "Sentinella RM, S.A. de C.V.",
+      "razonOficial": "SENTINELLA RM, S.A. DE C.V.",
+      "slug": "sentinella-rm",
+      "telefonos": [
+        "5621026570"
+      ],
+      "vigencia": "2027-06-26",
+      "personaFisica": false
+    },
+    {
+      "expediente": "6944-26",
+      "razonSocial": "Serprosep, S.A. de C.V.",
+      "razonOficial": "SERPROSEP, S.A. DE C.V.",
+      "slug": "serprosep",
+      "telefonos": [
+        "5578284732"
+      ],
+      "vigencia": "2027-06-15",
+      "personaFisica": false
+    },
+    {
+      "expediente": "1850-00",
+      "razonSocial": "Servicios de Proteccion Privada Lobo, S.A. de C.V.",
+      "razonOficial": "SERVICIOS DE PROTECCION PRIVADA LOBO, S.A. DE C.V.",
+      "slug": "servicios-de-proteccion-privada-lobo",
+      "telefonos": [
+        "5552379932",
+        "5521225662"
+      ],
+      "vigencia": "2026-11-18",
+      "personaFisica": false
+    },
+    {
+      "expediente": "4417-17",
+      "razonSocial": "Servicios de Proteccion y Traslado, S.A. de C.V.",
+      "razonOficial": "SERVICIOS DE PROTECCION Y TRASLADO, S.A. DE C.V.",
+      "slug": "servicios-de-proteccion-y-traslado",
+      "telefonos": [
+        "8181920496",
+        "5589915803"
+      ],
+      "vigencia": "2026-08-31",
+      "personaFisica": false
+    },
+    {
+      "expediente": "6328-24",
+      "razonSocial": "Servicios Especiales en Proteccion Montereal, S.A. de C.V.",
+      "razonOficial": "SERVICIOS ESPECIALES EN PROTECCION MONTEREAL, S.A. DE C.V.",
+      "slug": "servicios-especiales-en-proteccion-montereal",
+      "telefonos": [
+        "5567253456"
+      ],
+      "vigencia": "2027-04-19",
+      "personaFisica": false
+    },
+    {
+      "expediente": "5135-19",
+      "razonSocial": "Servicios Especializados de Seguridad Privada e Investigacion Privada Hydra, S.A. de C.V.",
+      "razonOficial": "SERVICIOS ESPECIALIZADOS DE SEGURIDAD PRIVADA E INVESTIGACION PRIVADA HYDRA, S.A. DE C.V.",
+      "slug": "servicios-especializados-de-seguridad-privada-e-investigacion-privada-",
+      "telefonos": [
+        "5567312294"
+      ],
+      "vigencia": "2026-11-24",
+      "personaFisica": false
+    },
+    {
+      "expediente": "6386-24",
+      "razonSocial": "Servicios Integrales de Gestion de Riesgos, Seguridad Privada y Proteccion Civil, S.A. de C.V.",
+      "razonOficial": "SERVICIOS INTEGRALES DE GESTION DE RIESGOS, SEGURIDAD PRIVADA Y PROTECCION CIVIL, S.A. DE C.V.",
+      "slug": "servicios-integrales-de-gestion-de-riesgos-seguridad-privada-y-protecc",
+      "telefonos": [],
+      "vigencia": "2027-06-28",
+      "personaFisica": false
+    },
+    {
+      "expediente": "6503-24",
+      "razonSocial": "Servicios Tacticos Orden, S.A. de C.V.",
+      "razonOficial": "SERVICIOS TACTICOS ORDEN, S.A. DE C.V.",
+      "slug": "servicios-tacticos-orden",
+      "telefonos": [
+        "5588905556"
+      ],
+      "vigencia": "2026-11-27",
+      "personaFisica": false
+    },
+    {
+      "expediente": "5913-22",
+      "razonSocial": "Servicios Terrestres de Seguridad Privada, S.A. de C.V.",
+      "razonOficial": "SERVICIOS TERRESTRES DE SEGURIDAD PRIVADA, S.A. DE C.V.",
+      "slug": "servicios-terrestres-de-seguridad-privada",
+      "telefonos": [
+        "5533185871",
+        "7222481961"
+      ],
+      "vigencia": "2026-09-10",
+      "personaFisica": false
+    },
+    {
+      "expediente": "0635-95",
+      "razonSocial": "Servima, S.A. de C.V.",
+      "razonOficial": "SERVIMA, S.A. DE C.V.",
+      "slug": "servima",
+      "telefonos": [
+        "5555191012",
+        "5555192874"
+      ],
+      "vigencia": "2026-10-28",
+      "personaFisica": false
+    },
+    {
+      "expediente": "6839-25",
+      "razonSocial": "Sistemas de Aseguramiento y Reaccion Inmediata SARI Seguridad Privada, S.A. de C.V.",
+      "razonOficial": "SISTEMAS DE ASEGURAMIENTO Y REACCION INMEDIATA SARI SEGURIDAD PRIVADA, S.A. DE C.V.",
+      "slug": "sistemas-de-aseguramiento-y-reaccion-inmediata-sari-seguridad-privada",
+      "telefonos": [
+        "5518825986"
+      ],
+      "vigencia": "2026-12-11",
+      "personaFisica": false
+    },
+    {
+      "expediente": "3838-14",
+      "razonSocial": "Soluciones Integrales Angel Custodio, S.A. de C.V.",
+      "razonOficial": "SOLUCIONES INTEGRALES ANGEL CUSTODIO, S.A. DE C.V.",
+      "slug": "soluciones-integrales-angel-custodio",
+      "telefonos": [
+        "5551238004",
+        "5552073955"
+      ],
+      "vigencia": "2026-12-14",
+      "personaFisica": false
+    },
+    {
+      "expediente": "6514-24",
+      "razonSocial": "Soluciones Integrales de Seguridad Privada Lichter, S.A. de C.V.",
+      "razonOficial": "SOLUCIONES INTEGRALES DE SEGURIDAD PRIVADA LICHTER, S.A. DE C.V.",
+      "slug": "soluciones-integrales-de-seguridad-privada-lichter",
+      "telefonos": [
+        "5594290396"
+      ],
+      "vigencia": "2026-12-06",
+      "personaFisica": false
+    },
+    {
+      "expediente": "5731-22",
+      "razonSocial": "Televisa Corporacion, S.A. de C.V.",
+      "razonOficial": "TELEVISA CORPORACION, S.A. DE C.V.",
+      "slug": "televisa-corporacion",
+      "telefonos": [
+        "5552612000"
+      ],
+      "vigencia": "2027-02-08",
+      "personaFisica": false
+    },
+    {
+      "expediente": "6076-23",
+      "razonSocial": "Tezontle Ptsdk02, S.A.",
+      "razonOficial": "TEZONTLE PTSDK02, S.A.",
+      "slug": "tezontle-ptsdk02-s-a",
+      "telefonos": [],
+      "vigencia": "2027-06-02",
+      "personaFisica": false
+    },
+    {
+      "expediente": "3020-09",
+      "razonSocial": "Trust Security Private Group, S.A. de C.V.",
+      "razonOficial": "TRUST SECURITY PRIVATE GROUP, S.A. DE C.V.",
+      "slug": "trust-security-private-group",
+      "telefonos": [
+        "5521671231",
+        "5555164205"
+      ],
+      "vigencia": "2026-09-20",
+      "personaFisica": false
+    },
+    {
+      "expediente": "5925-22",
+      "razonSocial": "Tuberia y Valvulas del Norte, S.A. de C.V.",
+      "razonOficial": "TUBERIA Y VALVULAS DEL NORTE, S.A. DE C.V.",
+      "slug": "tuberia-y-valvulas-del-norte",
+      "telefonos": [
+        "5550390730",
+        "5591985872"
+      ],
+      "vigencia": "2026-09-18",
+      "personaFisica": false
+    },
+    {
+      "expediente": "6687-25",
+      "razonSocial": "Vadum, S.A. de C.V.",
+      "razonOficial": "VADUM, S.A. DE C.V.",
+      "slug": "vadum",
+      "telefonos": [
+        "5537310527"
+      ],
+      "vigencia": "2027-07-09",
+      "personaFisica": false
+    },
+    {
+      "expediente": "1918-01",
+      "razonSocial": "Wave Comunications de Mexico, S.A. de C.V.",
+      "razonOficial": "WAVE COMUNICATIONS DE MEXICO, S.A. DE C.V.",
+      "slug": "wave-comunications-de-mexico",
+      "telefonos": [
+        "5557032757",
+        "5555350124"
+      ],
+      "vigencia": "2027-03-13",
+      "personaFisica": false
+    },
+    {
+      "expediente": "6941-26",
+      "razonSocial": "We Protect SC Functions, S.A. de C.V.",
+      "razonOficial": "WE PROTECT SC FUNCTIONS, S.A. DE C.V.",
+      "slug": "we-protect-sc-functions",
+      "telefonos": [
+        "5531793804"
+      ],
+      "vigencia": "2027-06-10",
+      "personaFisica": false
+    },
+    {
+      "expediente": "4796-18",
+      "razonSocial": "Zascita de Mexico, S.A. de C.V.",
+      "razonOficial": "ZASCITA DE MEXICO, S.A. DE C.V.",
+      "slug": "zascita-de-mexico",
+      "telefonos": [
+        "5555202703",
+        "5575733904"
+      ],
+      "vigencia": "2026-11-07",
+      "personaFisica": false
+    }
+  ]
+}

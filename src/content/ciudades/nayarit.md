@@ -4,7 +4,7 @@ abreviatura: "NAY"
 capital: "Tepic"
 region: "Occidente"
 estado: "Nayarit"
-descripcion: "Empresas de seguridad privada en Nayarit. Autorización ante Dirección General de Normatividad, vigencia de 1 año, revalidable."
+descripcion: "Empresas de seguridad privada en Nayarit. Autorización ante la Dirección General de Normatividad, vigencia de 1 año, revalidable."
 orden: 18
 normativa:
   ley: "Reglamento de los Servicios de Seguridad Privada para el Estado de Nayarit"
@@ -24,9 +24,9 @@ Consultar un proveedor de seguridad privada en **Nayarit** exige revisar el marc
 
 ## Quién autoriza aquí
 
-Nayarit no cuenta con una ley específica de seguridad privada. La materia se regula mediante **Reglamento de los Servicios de Seguridad Privada para el Estado de Nayarit**, en conjunto con la legislación estatal de seguridad pública.
+Nayarit no cuenta con una ley específica de seguridad privada. La materia se regula mediante el **Reglamento de los Servicios de Seguridad Privada para el Estado de Nayarit**, en conjunto con la legislación estatal de seguridad pública.
 
-La instancia que tramita y otorga la autorización es **Dirección General de Normatividad**, adscrita a Secretaría de Seguridad y Protección Ciudadana.
+La instancia que tramita y otorga la autorización es la **Dirección General de Normatividad**, adscrita a la Secretaría de Seguridad y Protección Ciudadana.
 
 ### Datos clave
 

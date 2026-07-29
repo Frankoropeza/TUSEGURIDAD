@@ -5,7 +5,7 @@ abreviatura: "MEX"
 capital: "Toluca de Lerdo"
 region: "Centro"
 estado: "Estado de México"
-descripcion: "Empresas de seguridad privada en Estado de México. Autorización ante Secretaría de Seguridad, vigencia de 2 años, revalidable."
+descripcion: "Empresas de seguridad privada en Estado de México. Autorización ante la Secretaría de Seguridad, vigencia de 2 años, revalidable."
 orden: 2
 normativa:
   ley: "Ley de Seguridad Privada del Estado de México"
@@ -27,7 +27,7 @@ Consultar un proveedor de seguridad privada en **Estado de México** exige revis
 
 La norma aplicable es la **Ley de Seguridad Privada del Estado de México**.
 
-La instancia que tramita y otorga la autorización es **Secretaría de Seguridad**, adscrita a Gobierno del Estado de México.
+La instancia que tramita y otorga la autorización es la **Secretaría de Seguridad**, adscrita al Gobierno del Estado de México.
 
 ### Datos clave
 

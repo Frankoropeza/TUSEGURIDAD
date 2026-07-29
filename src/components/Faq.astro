@@ -1,0 +1,37 @@
+---
+interface Props {
+  preguntas: { q: string; a: string }[];
+  indice?: string;
+  titulo?: string;
+}
+const { preguntas, indice, titulo = 'Dudas frecuentes' } = Astro.props;
+const nn = (n: number): string => String(n).padStart(2, '0');
+---
+
+{preguntas.length > 0 && (
+  <section class="wrap pt-16 sm:pt-20">
+    <div class="flex flex-wrap items-baseline justify-between gap-4">
+      <p class="label">{indice ? `[ ${indice} — Preguntas frecuentes ]` : '[ Preguntas frecuentes ]'}</p>
+      <p class="label muted tabular-nums">{nn(preguntas.length)}</p>
+    </div>
+
+    <h2 class="display-md mt-4">{titulo}</h2>
+
+    {/* <details> nativo: se despliega sin JavaScript y el texto sigue en el
+        HTML, así que Google lo indexa igual y el JSON-LD FAQPage no miente. */}
+    <div class="mt-6 border-b border-ink/20">
+      {preguntas.map((f, i) => (
+        <details class="faq">
+          <summary>
+            <span class="label muted tabular-nums shrink-0">{nn(i + 1)}</span>
+            <span class="flex-1 text-[15px] font-semibold leading-snug sm:text-base">{f.q}</span>
+            <span class="faq-signo label shrink-0" aria-hidden="true"></span>
+          </summary>
+          <div class="faq-cuerpo">
+            <p class="max-w-3xl text-[14px] leading-[1.55] text-ink/75">{f.a}</p>
+          </div>
+        </details>
+      ))}
+    </div>
+  </section>
+)}
