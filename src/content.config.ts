@@ -24,7 +24,25 @@ const empresas = defineCollection({
     email: z.email().or(z.literal('')).optional(),
     sitio: z.url().or(z.literal('')).optional(),
     direccion: z.string().optional(),
-    servicios: z.array(z.string()).default([]),
+    /**
+     * Servicios declarados. Acepta dos formas:
+     *  - string suelto (fichas del padrón, sin detalle)
+     *  - { nombre, descripcion?, servicio? } para las fichas con detalle,
+     *    donde `servicio` es el slug de una página del directorio.
+     * Se normaliza con `serviciosDe()` (src/lib/servicios.ts).
+     */
+    servicios: z
+      .array(
+        z.union([
+          z.string(),
+          z.object({
+            nombre: z.string(),
+            descripcion: z.string().optional(),
+            servicio: z.string().optional(),
+          }),
+        ])
+      )
+      .default([]),
     horario: z.string().optional(),
     verificado: z.boolean().default(false),
     destacado: z.boolean().default(false),
