@@ -211,6 +211,23 @@ const serviciosEmpresa = defineCollection({
     paraQuien: z.array(z.object({ titulo: z.string(), texto: z.string() })).default([]),
     /** pasos del alta del servicio, en orden */
     proceso: z.array(z.object({ titulo: z.string(), texto: z.string() })).default([]),
+    /**
+     * Errores frecuentes al contratar. Se pintan en un bloque invertido
+     * (`.on-ink`): es lo que más convierte y lo que ningún competidor puede
+     * copiar con adjetivos.
+     */
+    errores: z.array(z.object({ titulo: z.string(), texto: z.string() })).default([]),
+    /**
+     * Vocabulario del servicio. Imán de búsquedas de cola larga y ayuda real
+     * al comprador que no conoce los términos del gremio.
+     */
+    glosario: z.array(z.object({ termino: z.string(), definicion: z.string() })).default([]),
+    /**
+     * Encabezados H2 por apartado, para poder cargarlos de palabra clave sin
+     * tocar la plantilla. Claves: incluye, modalidades, paraQuien, proceso,
+     * errores, glosario. Si falta una, se usa el titular por defecto.
+     */
+    titulos: z.record(z.string(), z.string()).default({}),
     /** documentos y registros que el cliente recibe */
     entregables: z.array(z.string()).default([]),
     /** fotos: "grupo" o "grupo:N" (N = variante del grupo, base 1) */
