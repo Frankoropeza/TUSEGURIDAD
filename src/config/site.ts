@@ -34,10 +34,12 @@ export const SITE = {
    * privacidad y los términos dejen de ser borrador.
    */
   legal: {
-    razonSocial: '',
-    domicilio: '',
-    correoDatos: '',
-    completo: false,
+    // Datos de la entidad operadora, tomados del aviso de privacidad
+    // publicado en seguridad-privada.com.mx (misma titularidad).
+    razonSocial: 'Virelta Seguridad Privada, S.A. de C.V.',
+    domicilio: 'Basiliso Romo Anguiano No. 22, int. 3, Col. Industrial, C.P. 07800, Ciudad de México',
+    correoDatos: 'contacto@tuseguridad.mx',
+    completo: true,
   },
 
   social: {

@@ -94,6 +94,21 @@ const proceso = [
     <p class="label">[ 03 — Solicitud ]</p>
     <h2 class="display-lg mt-8">Enviar<br />solicitud</h2>
 
+    {/* Confirmación tras el POST: el webhook redirige aquí con ?enviado=1.
+        Único script del sitio; solo alterna un hidden. */}
+    <div id="confirmacion-envio" hidden class="on-ink mt-10 p-8">
+      <p class="label text-signal">Solicitud recibida</p>
+      <p class="mt-4 max-w-3xl text-base leading-snug">
+        Recibimos tu solicitud de alta. La revisamos y te contactamos al correo que indicaste
+        antes de publicar la ficha.
+      </p>
+    </div>
+    <script is:inline>
+      if (new URLSearchParams(location.search).get('enviado') === '1') {
+        document.getElementById('confirmacion-envio').hidden = false;
+      }
+    </script>
+
     <form
       class="mt-12 grid grid-cols-12 gap-x-6 gap-y-8"
       method={SITE.formEndpoint ? 'POST' : undefined}

@@ -1,0 +1,63 @@
+{
+  "name": "TUSEGURIDAD — Alta de empresas (formulario /registrar)",
+  "nodes": [
+    {
+      "parameters": {
+        "httpMethod": "POST",
+        "path": "tuseguridad-registro",
+        "responseMode": "responseNode",
+        "options": {}
+      },
+      "id": "a1b2c3d4-0001-4000-8000-000000000001",
+      "name": "Webhook registro",
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 2,
+      "position": [0, 0],
+      "webhookId": "tuseguridad-registro"
+    },
+    {
+      "parameters": {
+        "jsCode": "const b = $input.first().json.body ?? $input.first().json;\nconst campo = (k) => (b[k] ?? '').toString().trim();\nreturn [{ json: {\n  empresa: campo('empresa'),\n  contacto: campo('contacto'),\n  email: campo('email'),\n  telefono: campo('telefono'),\n  rubro: campo('rubro'),\n  ciudad: campo('ciudad'),\n  mensaje: campo('mensaje'),\n  recibido: new Date().toISOString(),\n}}];"
+      },
+      "id": "a1b2c3d4-0002-4000-8000-000000000002",
+      "name": "Normalizar campos",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [220, 0]
+    },
+    {
+      "parameters": {
+        "fromEmail": "n8n@tuseguridad.mx",
+        "toEmail": "contacto@tuseguridad.mx",
+        "subject": "=Alta en el directorio: {{ $json.empresa }} ({{ $json.rubro }} · {{ $json.ciudad }})",
+        "emailFormat": "text",
+        "text": "=Solicitud de alta — TUSEGURIDAD\n\nEmpresa: {{ $json.empresa }}\nContacto: {{ $json.contacto }}\nCorreo: {{ $json.email }}\nTeléfono: {{ $json.telefono }}\nRubro: {{ $json.rubro }}\nEstado: {{ $json.ciudad }}\n\nServicios / número de autorización:\n{{ $json.mensaje }}\n\nRecibido: {{ $json.recibido }}",
+        "options": {}
+      },
+      "id": "a1b2c3d4-0003-4000-8000-000000000003",
+      "name": "Avisar por correo",
+      "type": "n8n-nodes-base.emailSend",
+      "typeVersion": 2.1,
+      "position": [440, 0]
+    },
+    {
+      "parameters": {
+        "respondWith": "redirect",
+        "redirectURL": "https://tuseguridad.mx/registrar?enviado=1",
+        "options": { "responseCode": 302 }
+      },
+      "id": "a1b2c3d4-0004-4000-8000-000000000004",
+      "name": "Redirigir al sitio",
+      "type": "n8n-nodes-base.respondToWebhook",
+      "typeVersion": 1.1,
+      "position": [660, 0]
+    }
+  ],
+  "connections": {
+    "Webhook registro": { "main": [[{ "node": "Normalizar campos", "type": "main", "index": 0 }]] },
+    "Normalizar campos": { "main": [[{ "node": "Avisar por correo", "type": "main", "index": 0 }]] },
+    "Avisar por correo": { "main": [[{ "node": "Redirigir al sitio", "type": "main", "index": 0 }]] }
+  },
+  "settings": { "executionOrder": "v1" },
+  "pinData": {}
+}
