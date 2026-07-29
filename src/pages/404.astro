@@ -1,0 +1,47 @@
+---
+import BaseLayout from '@layouts/BaseLayout.astro';
+import Relacionados from '@components/Relacionados.astro';
+import { cargarDatos, bloqueRubros, bloqueCiudades, bloqueGuias } from '@lib/enlaces';
+
+/**
+ * Cloudflare Pages sirve `dist/404.html` con estatus 404 real. Sin este
+ * archivo, cualquier ruta inexistente devolvía la portada con 200: un soft
+ * 404 que hace que el buscador indexe contenido duplicado en vez de descartar
+ * la URL.
+ */
+const d = await cargarDatos();
+---
+
+<BaseLayout
+  title="Página no encontrada"
+  description="La dirección que buscas no existe o dejó de publicarse."
+  path="/404"
+  noindex
+>
+  <section class="wrap pt-10 sm:pt-14">
+    <p class="label">[ Error 404 ]</p>
+    <h1 class="display-xl mt-6">Esta página<br />no existe</h1>
+
+    <div class="rule mt-10 grid grid-cols-12 gap-x-6 gap-y-8 pt-8">
+      <p class="lede col-span-12 max-w-3xl lg:col-span-7">
+        La dirección que abriste no corresponde a ninguna página publicada. Puede que el enlace
+        esté mal escrito, o que la ficha que buscabas se haya retirado del directorio.
+      </p>
+      <div class="col-span-12 lg:col-span-4 lg:col-start-9">
+        <div class="flex flex-wrap gap-3">
+          <a href="/" class="cta-solid">Ir al inicio</a>
+          <a href="/categorias" class="cta">Ver rubros</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <Relacionados
+    indice="01"
+    bloques={[
+      bloqueRubros(d, { titulo: 'Rubros' }),
+      bloqueCiudades(d, { titulo: 'Plazas' }),
+      bloqueGuias(d, { limite: 4, titulo: 'Guías' }),
+    ]}
+  />
+</BaseLayout>
