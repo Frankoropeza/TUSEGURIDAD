@@ -39,6 +39,8 @@ const empresas = defineCollection({
             nombre: z.string(),
             descripcion: z.string().optional(),
             servicio: z.string().optional(),
+            /** slug de un grupo del catálogo de fotografía (src/lib/imagenes.ts) */
+            foto: z.string().optional(),
           }),
         ])
       )

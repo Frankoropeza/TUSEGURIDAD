@@ -28,27 +28,38 @@ servicios:
   - nombre: Guardias intramuros
     descripcion: Personal de vigilancia en sitio por turnos, con consigna escrita por punto y bitácora de novedades.
     servicio: guardias-de-seguridad
-  - nombre: Seguridad para condominios y residenciales
-    descripcion: "Esquema para condominios verticales y horizontales: filtro en acceso, rondines internos y trato con la administración."
+    foto: guardia-seguridad-privada-polanco-cdmx
+  - nombre: Seguridad para condominios
+    descripcion: "Condominios verticales y horizontales, residenciales y fraccionamientos: filtro en acceso, rondines internos y trato con la administración."
     servicio: seguridad-para-condominios
-  - nombre: Control de accesos peatonal y vehicular
-    descripcion: Registro digital de visitantes, proveedores y vehículos, con validación ante el residente u ocupante antes del ingreso.
-  - nombre: Patrullaje vehicular con rastreo GPS
-    descripcion: Rondines externos en unidad, con seguimiento GPS y reporte de recorridos por horario.
+    foto: patrullaje-condominio-vertical
+  - nombre: Control de accesos
+    descripcion: Registro digital de visitantes, proveedores y vehículos —peatonal y vehicular—, con validación ante el residente antes del ingreso.
+    foto: control-de-acceso-seguridad-privada
+  - nombre: Patrullaje con rastreo GPS
+    descripcion: Rondines externos en unidad vehicular, con seguimiento GPS y reporte de recorridos por horario.
+    foto: patrullaje-fraccionamiento
   - nombre: Vigilancia remota por CCTV
     descripcion: Supervisión de cámaras desde central, verificación de eventos y aviso al contacto designado.
+    foto: monitoreo-cctv-centro-de-control
   - nombre: Monitoreo de alarmas
     descripcion: Recepción de señales las 24 horas, con protocolo de verificación y aviso ante cada activación.
+    foto: operadora-monitoreo-cctv
   - nombre: Protección ejecutiva
     descripcion: Escolta para directivos y familias, con planeación de rutas y acompañamiento en traslados.
-  - nombre: Custodia de valores y mercancías
-    descripcion: Acompañamiento de traslados de valores o carga, con protocolo de entrega-recepción.
+    foto: patrullaje-estacionamiento-subterraneo
+  - nombre: Custodia de valores
+    descripcion: Acompañamiento de traslados de valores y mercancías, con protocolo de entrega-recepción.
+    foto: inspeccion-perimetral-almacen
   - nombre: Prevención de pérdidas
     descripcion: "Control de mermas y faltantes en piso de venta y almacén: revisión de accesos, salidas y maniobras."
-  - nombre: Consultoría y análisis de riesgos
-    descripcion: Diagnóstico del inmueble, identificación de puntos vulnerables y propuesta de consigna y dispositivo.
-  - nombre: Seguridad para obra, eventos corporativos y hospitales
-    descripcion: Cobertura temporal o permanente con control de entradas y salidas de personal, material y equipo.
+    foto: vigilancia-planta-industrial
+  - nombre: Análisis de riesgos
+    descripcion: "Consultoría y diagnóstico del inmueble: puntos vulnerables y propuesta de consigna y dispositivo de seguridad."
+    foto: briefing-personal-de-seguridad
+  - nombre: Obra, eventos y hospitales
+    descripcion: Cobertura temporal o permanente para frentes de obra, eventos corporativos y unidades médicas, con control de entradas y salidas.
+    foto: inspeccion-perimetral-instalaciones
 horario: Lunes a domingo, 24 horas
 verificado: true
 destacado: true

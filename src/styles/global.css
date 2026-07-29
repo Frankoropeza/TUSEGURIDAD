@@ -283,39 +283,6 @@
   /* Sin movimiento: la lámina no escala ni transiciona. La única respuesta al
      cursor es la inversión de color de la tarjeta, que es instantánea. */
 
-  /* ---------- rejilla de servicios de la ficha de empresa ---------- */
-  /* Las hairlines entre tarjetas son el propio fondo asomando por el gap de
-     1px: nada de bordes dobles ni de colapso entre celdas. */
-  .rejilla-serv {
-    @apply grid gap-px border border-ink/20 bg-ink/20 sm:grid-cols-2 lg:grid-cols-3;
-  }
-
-  .tarjeta-serv {
-    @apply flex h-full flex-col bg-paper px-5 py-6 sm:px-6;
-  }
-
-  a.tarjeta-serv:hover {
-    @apply bg-ink text-paper;
-  }
-
-  a.tarjeta-serv:hover .muted {
-    @apply text-paper/55;
-  }
-
-  a.tarjeta-serv:hover .tarjeta-flecha {
-    @apply text-signal;
-  }
-
-  a.tarjeta-serv:hover .border-ink\/15 {
-    @apply border-paper/25;
-  }
-
-  /* Dos líneas reservadas para el nombre: iguala la altura del bloque de
-     título entre tarjetas de la misma fila. */
-  .tarjeta-serv h3 {
-    min-height: calc(2 * 1em);
-  }
-
   /* ---------- acordeón de preguntas ---------- */
   .faq {
     @apply border-t border-ink/20;

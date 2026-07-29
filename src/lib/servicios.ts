@@ -13,6 +13,8 @@ export interface ServicioDeclarado {
   descripcion?: string;
   /** slug de una página de servicio del directorio, si existe */
   servicio?: string;
+  /** slug de un grupo del catálogo de fotografía */
+  foto?: string;
 }
 
 export function serviciosDe(empresa: CollectionEntry<'empresas'>): ServicioDeclarado[] {
