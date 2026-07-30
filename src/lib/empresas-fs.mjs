@@ -41,3 +41,19 @@ export function rutasCanonicasEmpresas() {
 /** ¿La URL es una ficha de empresa (4 segmentos bajo /categorias)? */
 export const esFichaEmpresa = (ruta) =>
   /^\/categorias\/[^/]+\/[^/]+\/[^/]+$/.test(ruta.replace(/\/$/, ''));
+
+/**
+ * Ruta de la ficha de la que cuelga una URL de empresa, sea la ficha misma
+ * (4 segmentos) o una de sus páginas de servicio VIP (5 segmentos).
+ *
+ * Sin esto el filtro del sitemap solo veía la ficha: las páginas de servicio
+ * de las plazas no canónicas se listaban aunque se sirven con `noindex`, que
+ * es justo la contradicción que el filtro existe para evitar.
+ *
+ * @returns {string|null} la ruta base sin barra final, o null si no aplica
+ */
+export const rutaFichaDe = (ruta) => {
+  const limpia = ruta.replace(/\/$/, '');
+  const m = limpia.match(/^(\/categorias\/[^/]+\/[^/]+\/[^/]+)(?:\/[^/]+)?$/);
+  return m ? m[1] : null;
+};

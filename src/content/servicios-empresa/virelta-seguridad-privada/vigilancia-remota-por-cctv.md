@@ -3,6 +3,7 @@ empresa: virelta-seguridad-privada
 slug: vigilancia-remota-por-cctv
 nombre: Vigilancia remota por CCTV
 titulo: Monitoreo remoto por CCTV en CDMX y Estado de México
+tituloSeo: Monitoreo remoto por CCTV en CDMX y Edomex
 descripcion: >-
   Monitoreo remoto de cámaras CCTV en CDMX y Estado de México: verificación
   en vivo, protocolo de escalamiento y respaldo de grabación las 24 horas.
@@ -253,6 +254,8 @@ faq:
       Juárez, Álvaro Obregón, Coyoacán y Tlalpan en la CDMX, y en Naucalpan,
       Huixquilucan, Tlalnepantla, Atizapán y Cuautitlán Izcalli en el Estado
       de México.
+  - q: ¿Cuántas cámaras puede atender un operador a la vez?
+    a: Depende de cuántas estén configuradas para generar eventos y no solo para grabar. Un operador frente a decenas de pantallas en vivo deja de ver, y lo que sostiene el servicio es la detección por evento y un protocolo claro de qué hacer con cada uno, no el número de monitores.
 ---
 
 ## Una cámara que nadie ve no es vigilancia, es una grabación

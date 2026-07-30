@@ -3,6 +3,7 @@ empresa: virelta-seguridad-privada
 slug: custodia-de-valores
 nombre: Custodia de valores
 titulo: Custodia de valores en CDMX y Estado de México
+tituloSeo: Custodia de valores en CDMX y Edomex
 descripcion: >-
   Custodia de valores y traslado de mercancía en CDMX y Edomex: cadena de
   custodia sin quiebres, precinto de seguridad y acta de entrega-recepción

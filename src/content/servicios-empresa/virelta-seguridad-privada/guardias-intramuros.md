@@ -3,9 +3,18 @@ empresa: virelta-seguridad-privada
 slug: guardias-intramuros
 nombre: Guardias intramuros
 titulo: Guardias intramuros en CDMX y Estado de México
+tituloSeo: Guardias intramuros en CDMX y Edomex
 descripcion: Personal de vigilancia en sitio por turnos en CDMX y Estado de México, con consigna escrita por punto, bitácora de novedades y supervisión de relevos.
 servicio: guardias-de-seguridad
 orden: 1
+titulos:
+  incluye: Qué sostiene el servicio de guardia intramuros
+  modalidades: Formas de contratar el servicio de guardias
+  paraQuien: Dónde rinde más un guardia dentro del inmueble
+  proceso: Del recorrido del inmueble al primer turno
+  errores: Errores que dejan al guardia decidiendo solo
+  glosario: Términos que vas a escuchar en la propuesta
+  faq: Dudas sobre guardias intramuros
 intro: >-
   El guardia intramuros es personal de seguridad privada asignado a un inmueble y
   cubierto por turnos, que trabaja dentro de la propiedad y no desde una unidad
@@ -48,6 +57,11 @@ incluye:
     texto: >-
       Qué hace el guardia ante cada tipo de evento y a quién avisa primero,
       acordado con el cliente antes de arrancar el servicio.
+  - titulo: Rondín interno por el inmueble
+    texto: >-
+      Recorrido programado por áreas comunes, azoteas, estacionamientos y
+      accesos secundarios durante el turno, con registro de la hora de paso.
+      Un guardia que nunca deja su posición solo cubre un punto del inmueble.
 modalidades:
   - titulo: Turno diurno
     texto: >-
@@ -111,6 +125,67 @@ proceso:
     texto: >-
       Visitas de supervisión y revisión de bitácora para ajustar la consigna
       conforme aparece el comportamiento real del inmueble.
+errores:
+  - titulo: Contratar por número de guardias y no por consigna
+    texto: >-
+      Dos elementos sin consigna escrita cubren menos que uno con instrucciones
+      claras por punto. El número dimensiona el costo; la consigna es lo que
+      define qué se hace con ese costo.
+  - titulo: Dejar el relevo sin entrega cara a cara
+    texto: >-
+      Cuando el guardia saliente se va antes de que llegue el entrante, el
+      pendiente del turno se pierde. La novedad que nadie transmitió es la que
+      reaparece como incidente dos semanas después.
+  - titulo: No fijar el tiempo máximo de suplencia
+    texto: >-
+      Todo proveedor dice que cubre ausencias. Sin un plazo por escrito, una
+      falta se convierte en horas de punto descubierto que nadie registra ni
+      descuenta de la factura.
+  - titulo: Que la bitácora la resguarde solo el proveedor
+    texto: >-
+      Si el registro de novedades vive únicamente del lado de quien presta el
+      servicio, no sirve para reclamar. Acuerda desde el contrato que una copia
+      queda en el inmueble y con qué periodicidad se entrega.
+  - titulo: Pedirle al guardia decisiones que no le tocan
+    texto: >-
+      Sin protocolo de escalamiento, el elemento improvisa frente a un evento
+      que lo rebasa y después se le reclama el criterio. Define de antemano qué
+      resuelve él y a quién llama en cada tipo de evento.
+  - titulo: Revisar el permiso pero no la modalidad
+    texto: >-
+      Una autorización vigente no ampara cualquier servicio. La vigilancia de
+      un inmueble y la protección a una persona son modalidades distintas y
+      ambas tienen que aparecer listadas si vas a contratar las dos.
+glosario:
+  - termino: Consigna
+    definicion: >-
+      Instrucción escrita de un punto de servicio: qué se revisa, con qué
+      frecuencia, qué se autoriza y a quién se reporta. Es el documento que
+      convierte al guardia en un procedimiento auditable.
+  - termino: Bitácora de novedades
+    definicion: >-
+      Registro cronológico de lo ocurrido en el turno —accesos, incidencias,
+      entregas, anomalías— con hora. Es la prueba de que el servicio se prestó
+      y la base de cualquier reclamación.
+  - termino: Posición o punto de servicio
+    definicion: >-
+      Lugar físico que se cubre, no la persona que lo cubre. Una posición de 24
+      horas la sostienen varios elementos rotando; por eso la propuesta debe
+      desglosar posiciones y turnos por separado.
+  - termino: Relevo
+    definicion: >-
+      Entrega de turno entre el guardia saliente y el entrante, en el punto y
+      cara a cara, donde se transmiten pendientes y novedades abiertas.
+  - termino: Suplencia
+    definicion: >-
+      Elemento que cubre la ausencia del guardia asignado. Lo que hay que pactar
+      no es que exista, sino en cuánto tiempo llega y si recibe la consigna del
+      punto.
+  - termino: Supervisión de campo
+    definicion: >-
+      Visita del supervisor al punto para verificar presentación, cumplimiento
+      de consigna y estado de la bitácora. Es el mecanismo que detecta la
+      desviación antes de que se vuelva costumbre.
 entregables:
   - Consigna escrita por cada punto de servicio
   - Bitácora de novedades por turno
@@ -142,6 +217,14 @@ faq:
     a: Sí. El servicio se dimensiona por turnos, así que un inmueble con personal propio de día puede contratar únicamente la cobertura nocturna. Conviene que la consigna del turno nocturno especifique qué debe quedar cerrado y verificado al inicio y al final.
   - q: ¿En qué zonas presta el servicio?
     a: La empresa declara cobertura en alcaldías de la Ciudad de México —Miguel Hidalgo, Cuauhtémoc, Benito Juárez, Álvaro Obregón, Coyoacán y Tlalpan— y en municipios conurbados del Estado de México como Naucalpan, Huixquilucan, Tlalnepantla, Atizapán y Cuautitlán Izcalli.
+  - q: ¿Qué debe decir la consigna de mi inmueble?
+    a: Qué revisa el guardia en cada recorrido, con qué frecuencia, qué accesos autoriza y bajo qué criterio, qué registra en bitácora y a quién escala cada tipo de evento. Pide ver un modelo de consigna antes de firmar; si el proveedor no puede mostrarte uno, todavía no dimensionó tu servicio.
+  - q: ¿Cada cuánto debe pasar el supervisor por el punto?
+    a: No hay una frecuencia establecida por norma, así que se pacta. Lo que conviene es que quede por escrito cada cuánto se visita el punto y que la visita deje constancia en la bitácora, para que la supervisión sea verificable y no solo una promesa comercial.
+  - q: ¿Puedo pedir que roten al guardia asignado?
+    a: Sí, y también puedes pedir lo contrario. La permanencia da conocimiento del inmueble y de sus rutinas; la rotación reduce el riesgo de que el elemento entre en confianza con quienes debe filtrar. Lo importante es que el cambio traiga traspaso de consigna, no un elemento nuevo sin instrucciones.
+  - q: ¿Qué diferencia hay entre guardias intramuros y personal propio de vigilancia?
+    a: Contratar personal propio traslada al inmueble la responsabilidad laboral, la capacitación, las suplencias y la supervisión. Con un proveedor de seguridad privada esas obligaciones son suyas y deben estar respaldadas por el permiso, el alta ante IMSS e INFONAVIT y la póliza de responsabilidad civil.
 ---
 
 ## Qué resuelve un guardia intramuros
@@ -154,6 +237,21 @@ reaccionar después.
 
 De ahí que lo importante al contratar no sea cuántos guardias te ofrecen, sino
 **qué queda documentado**: qué revisa cada punto, cada cuánto, y dónde se anota.
+
+## La pregunta que ordena todo: ¿qué dice la consigna de este punto?
+
+Un guardia sin consigna escrita no está prestando un servicio, está tomando
+decisiones. Y cuando algo sale mal, el reclamo cae sobre su criterio en vez de
+sobre un procedimiento que alguien diseñó, aprobó y puede corregir.
+
+Esa es la línea que separa a un proveedor de otro, y no se ve en el precio: si
+puedes pedir la consigna de cada posición y leer ahí qué se revisa, con qué
+frecuencia, qué se autoriza y a quién se escala, tienes un servicio auditable.
+Si la respuesta es «el guardia ya sabe qué hacer», lo que compraste fue
+presencia, no seguridad.
+
+Todo lo demás —cuántos elementos, qué turnos, cuánto cuesta— se dimensiona
+después de esa pregunta, nunca antes.
 
 ## Cómo evaluar una propuesta
 

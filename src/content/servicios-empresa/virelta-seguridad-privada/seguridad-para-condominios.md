@@ -3,9 +3,18 @@ empresa: virelta-seguridad-privada
 slug: seguridad-para-condominios
 nombre: Seguridad para condominios
 titulo: Seguridad para condominios en CDMX y Estado de México
+tituloSeo: Seguridad para condominios en CDMX y Edomex
 descripcion: "Vigilancia para condominios y fraccionamientos en CDMX y Edomex: filtro en acceso, rondines por áreas comunes y trato con la administración."
 servicio: seguridad-para-condominios
 orden: 2
+titulos:
+  incluye: Qué hace la caseta en un condominio
+  modalidades: Formas de contratar la vigilancia del condominio
+  paraQuien: Qué tipo de condominio necesita cada esquema
+  proceso: Del recorrido con la administración al primer turno
+  errores: Errores que enfrentan a la caseta con los residentes
+  glosario: Términos que vas a escuchar en la propuesta
+  faq: Dudas sobre seguridad para condominios
 intro: >-
   Servicio armado sobre la vida diaria del condominio, no sobre un plano. El guardia
   filtra el acceso, controla visitas, proveedores y paquetería, recorre áreas comunes,
@@ -47,6 +56,10 @@ incluye:
     texto: >-
       Rotación del personal y visitas de supervisión al punto. La familiaridad
       excesiva con residentes es lo primero que erosiona un filtro de acceso.
+  - titulo: Control de estacionamiento de visitas
+    texto: >-
+      Asignación y registro de cajones de visita conforme al reglamento, que es
+      el motivo de fricción más frecuente entre residentes después del ruido.
 modalidades:
   - titulo: Caseta 24/7
     texto: >-
@@ -110,6 +123,68 @@ proceso:
     texto: >-
       Visitas de supervisión y revisión de bitácora para ajustar la consigna conforme
       aparece el comportamiento real del desarrollo.
+errores:
+  - titulo: Consigna que contradice el reglamento
+    texto: >-
+      Cuando lo que el guardia tiene por escrito no coincide con lo que la
+      asamblea aprobó, cada aplicación se vuelve discutible. La consigna se
+      redacta desde el reglamento vigente, no desde la costumbre de la caseta.
+  - titulo: Instrucciones verbales de residentes en la caseta
+    texto: >-
+      Si cualquier condómino puede cambiar el filtro con una indicación de
+      palabra, el control desaparece en una semana. Las excepciones se
+      autorizan por el canal que definió la asamblea y quedan por escrito.
+  - titulo: No definir qué se hace con la paquetería
+    texto: >-
+      Sin una regla clara sobre qué se recibe, dónde se resguarda y por cuánto
+      tiempo, el guardia termina respondiendo por bienes que nunca aceptó
+      custodiar. Es el reclamo más común contra una caseta.
+  - titulo: Rotar personal sin traspaso de consigna
+    texto: >-
+      La rotación es sana, pero un elemento nuevo sin la consigna del punto ni
+      el reglamento en la mano repite el criterio que le funcionó en otro
+      condominio. El traspaso se documenta o no ocurrió.
+  - titulo: Elegir por cuota sin ver la carga del punto
+    texto: >-
+      La cotización más baja suele serlo porque asume un acceso tranquilo. Si
+      tu caseta atiende visitas, proveedores, paquetería y estacionamiento a la
+      vez, el ahorro se paga con filas en la entrada y filtro que no se aplica.
+  - titulo: No dejar por escrito quién autoriza a un proveedor
+    texto: >-
+      Un proveedor sin condómino que lo respalde deja al guardia decidiendo
+      solo. Define de antemano si autoriza la administración, la mesa directiva
+      o el residente que lo contrató, y cómo se registra esa autorización.
+glosario:
+  - termino: Reglamento interno
+    definicion: >-
+      Documento aprobado en asamblea que fija qué se permite dentro del
+      condominio. El guardia no lo interpreta ni lo negocia: lo aplica. Casi
+      todo conflicto entre caseta y residentes nace de un reglamento ambiguo.
+  - termino: Mesa directiva
+    definicion: >-
+      Órgano de representación de los condóminos que, junto con la
+      administración, define el alcance del servicio y resuelve las excepciones
+      que el guardia no puede autorizar por sí mismo.
+  - termino: Caseta de acceso
+    definicion: >-
+      Posición fija en la entrada donde se concentra el filtro de visitantes,
+      proveedores, paquetería y vehículos. Es el punto que define la carga real
+      de trabajo del dispositivo.
+  - termino: Bitácora de acceso
+    definicion: >-
+      Registro de quién entró, a qué unidad iba, quién lo autorizó y a qué hora
+      salió. Es lo que permite reconstruir un incidente sin depender de la
+      memoria del guardia en turno.
+  - termino: Área común
+    definicion: >-
+      Espacio de uso compartido —lobby, azotea, estacionamiento, amenidades—
+      que entra en el rondín interno. Conviene que la consigna liste cuáles se
+      recorren y con qué frecuencia.
+  - termino: Rotación de personal
+    definicion: >-
+      Cambio periódico del elemento asignado al punto. Reduce el riesgo de que
+      la confianza con los residentes debilite el filtro, siempre que venga
+      acompañada del traspaso de la consigna.
 entregables:
   - Consigna escrita del acceso y de cada rondín
   - Bitácora de novedades por turno
@@ -141,6 +216,14 @@ faq:
     a: La de seguridad privada en los bienes, por tratarse de la vigilancia de un inmueble. Confirma en el documento del permiso que esa modalidad aparezca listada y que la vigencia esté al corriente antes de firmar.
   - q: ¿Aplica igual a privadas horizontales y fraccionamientos?
     a: Sí. Cambia el dispositivo, no el servicio. Una torre vertical se resuelve con lobby y control de elevadores; una privada horizontal o un fraccionamiento necesitan caseta vehicular y rondín perimetral, porque el riesgo está en el perímetro y en las vialidades internas.
+  - q: ¿Puede el guardia sancionar a un condómino que incumple el reglamento?
+    a: No. El guardia registra el hecho en la bitácora y lo reporta a la administración o a la mesa directiva, que son quienes tienen facultad para sancionar conforme al reglamento. Pedirle que sancione lo pone en un conflicto que no le corresponde y que suele terminar con el elemento removido.
+  - q: ¿Qué se hace cuando dos residentes dan instrucciones opuestas?
+    a: Prevalece lo que dice el reglamento y la consigna escrita. Por eso conviene que la propuesta defina desde el arranque un solo canal de autorización —administración o mesa directiva— y que las excepciones se pidan por ese canal y queden registradas, no de palabra en la caseta.
+  - q: ¿Conviene poner cámaras además de la caseta?
+    a: Se complementan. La caseta filtra en el momento y la cámara documenta lo que pasó, pero una cámara que nadie observa solo graba. Si vas a invertir en video, define antes quién lo revisa y bajo qué protocolo se escala un evento.
+  - q: ¿Qué debe entregar el proveedor cada mes a la administración?
+    a: Reporte de novedades del periodo, relación del personal asignado y sus relevos, constancia de las visitas de supervisión y el respaldo de la bitácora de acceso. Que esa entrega tenga fecha fija en el contrato evita que el reporte aparezca solo cuando hay un incidente.
 ---
 
 ## Por qué falla la seguridad en un condominio

@@ -3,6 +3,7 @@ empresa: virelta-seguridad-privada
 slug: prevencion-de-perdidas
 nombre: Prevención de pérdidas
 titulo: Prevención de pérdidas en CDMX y Estado de México
+tituloSeo: Prevención de pérdidas en CDMX y Edomex
 descripcion: >-
   Prevención de pérdidas en CDMX y Edomex: control de mermas, doble
   verificación en recepción y auditoría de maniobras de carga y descarga.

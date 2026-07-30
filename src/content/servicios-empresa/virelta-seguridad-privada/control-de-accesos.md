@@ -3,6 +3,7 @@ empresa: virelta-seguridad-privada
 slug: control-de-accesos
 nombre: Control de accesos
 titulo: Control de accesos peatonal y vehicular en CDMX
+tituloSeo: Control de accesos peatonal y vehicular CDMX
 descripcion: Control de accesos peatonal y vehicular con registro digital de visitantes y proveedores en CDMX y Estado de México. Validación antes de cada ingreso.
 orden: 3
 titulos:
@@ -11,6 +12,7 @@ titulos:
   paraQuien: Dónde se instala un punto de control
   proceso: Del levantamiento al primer turno
   errores: Errores que se pagan meses después
+  faq: Dudas sobre control de accesos peatonal y vehicular
   glosario: Términos que vas a escuchar en la propuesta
 intro: >-
   Punto de control peatonal y vehicular con registro digital de visitantes,
@@ -212,6 +214,10 @@ faq:
     a: La de seguridad privada en los bienes, por tratarse de la vigilancia de un inmueble o instalación. Confirma en el documento del permiso que esa modalidad aparezca listada y que la vigencia esté al corriente antes de firmar.
   - q: ¿Funciona igual en un almacén que en un condominio?
     a: El procedimiento es el mismo; cambia qué se verifica. En un condominio el filtro gira alrededor de la visita y la paquetería; en un almacén, alrededor del transportista, el documento que ampara la maniobra y lo que sale cargado. La consigna se escribe para el sitio, no en general.
+  - q: ¿Quién decide qué visitante entra y cuál no?
+    a: El criterio no lo pone el guardia, lo pone la lista de autorización que el cliente define y actualiza. El elemento verifica contra esa lista y escala lo que no esté previsto. Si la propuesta no explica de dónde sale la autorización, el control de accesos todavía no está diseñado.
+  - q: ¿Sirve de algo el control de accesos si el perímetro está abierto?
+    a: Poco. Un punto de control filtra lo que pasa por él; si hay accesos secundarios, azoteas o bardas por donde se entra sin registro, el filtro solo documenta a quien decidió ser documentado. Conviene cerrar el perímetro o sumar rondín antes de invertir en más equipo en la entrada.
 ---
 
 ## Un acceso no se controla con equipo, se controla con procedimiento

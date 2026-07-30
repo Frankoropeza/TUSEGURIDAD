@@ -3,6 +3,7 @@ empresa: virelta-seguridad-privada
 slug: proteccion-ejecutiva
 nombre: Protección ejecutiva
 titulo: Protección ejecutiva y escolta en CDMX y Estado de México
+tituloSeo: Protección ejecutiva y escolta CDMX y Edomex
 descripcion: >-
   Protección ejecutiva y escolta personal en CDMX y Estado de México:
   avanzada del destino, rutas alternas y dispositivo según perfil de riesgo.

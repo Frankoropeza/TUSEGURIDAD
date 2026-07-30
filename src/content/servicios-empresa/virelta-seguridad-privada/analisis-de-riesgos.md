@@ -3,6 +3,7 @@ empresa: virelta-seguridad-privada
 slug: analisis-de-riesgos
 nombre: Análisis de riesgos
 titulo: Análisis de riesgos en CDMX y Estado de México
+tituloSeo: Análisis de riesgos en CDMX y Edomex
 descripcion: >-
   Análisis de riesgos de seguridad en CDMX y Edomex: recorrido de
   reconocimiento, puntos vulnerables y propuesta de dispositivo antes de

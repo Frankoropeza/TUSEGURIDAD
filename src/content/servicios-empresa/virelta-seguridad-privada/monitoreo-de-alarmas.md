@@ -3,6 +3,7 @@ empresa: virelta-seguridad-privada
 slug: monitoreo-de-alarmas
 nombre: Monitoreo de alarmas
 titulo: Monitoreo de alarmas 24 horas en CDMX y Estado de México
+tituloSeo: Monitoreo de alarmas 24 horas en CDMX y Edomex
 descripcion: >-
   Monitoreo y verificación de alarmas 24 horas en CDMX y Estado de México:
   clasificación de señal, protocolo de escalamiento y clave de coacción.
@@ -269,6 +270,8 @@ faq:
       para escucharla, no avisa a nadie. La alarma monitoreada envía la
       señal a una central que la recibe, la verifica y actúa aunque no
       haya nadie en el lugar.
+  - q: ¿Qué debo revisar en el reporte mensual de la central?
+    a: Cuántas señales se recibieron, cómo se clasificaron por tipo, cuántas se verificaron antes de escalar y cuántas resultaron falsas. Si el número de falsas no baja mes con mes, el problema está en la instalación o en la zonificación del panel, no en la central.
 ---
 
 ## Una alarma que nadie verifica entrena a la gente a ignorarla

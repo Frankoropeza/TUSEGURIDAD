@@ -197,6 +197,17 @@ const serviciosEmpresa = defineCollection({
     nombre: z.string(),
     /** H1 de la página; puede ser más largo y con plaza para SEO */
     titulo: z.string(),
+    /**
+     * `<title>` de la pestaña y del resultado de búsqueda, sin el sufijo del
+     * sitio. Opcional: si falta se usa `titulo`.
+     *
+     * Existe porque el H1 y el `<title>` tienen presupuestos distintos. El H1
+     * puede extenderse todo lo que ayude al lector; el `<title>` compite por
+     * ~60 caracteres antes de que Google lo trunque, y el sufijo
+     * «| TuSeguridad» ya se lleva 14. Con `titulo` haciendo los dos trabajos,
+     * las páginas largas perdían la cola en el SERP.
+     */
+    tituloSeo: z.string().optional(),
     /** meta description y lede de la cabecera */
     descripcion: z.string(),
     /** párrafo de apertura del apartado 01 */

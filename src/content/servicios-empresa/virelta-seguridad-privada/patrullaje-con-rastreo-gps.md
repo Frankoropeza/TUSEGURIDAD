@@ -3,6 +3,7 @@ empresa: virelta-seguridad-privada
 slug: patrullaje-con-rastreo-gps
 nombre: Patrullaje con rastreo GPS
 titulo: Patrullaje con rastreo GPS en CDMX y Estado de México
+tituloSeo: Patrullaje con rastreo GPS en CDMX y Edomex
 descripcion: >-
   Rondines externos en unidad vehicular con rastreo GPS, puntos de control
   marcados y reporte de recorridos por turno en CDMX y Estado de México.
@@ -248,6 +249,10 @@ faq:
       Álvaro Obregón, Coyoacán y Tlalpan en la CDMX, y en Naucalpan,
       Huixquilucan, Tlalnepantla, Atizapán y Cuautitlán Izcalli en el Estado de
       México.
+  - q: ¿Qué debe entregar el proveedor para comprobar los recorridos?
+    a: El reporte de puntos de control marcados con su hora, la bitácora de novedades del turno y el respaldo del rastreo. Los tres juntos, porque el rastreo prueba que la unidad estuvo, los puntos de control prueban que alguien bajó a revisar y la bitácora dice qué encontró.
+  - q: ¿Conviene que los recorridos sean a la misma hora todos los días?
+    a: No. Un rondín con horario fijo se aprende desde afuera en una semana y deja ventanas predecibles entre pasadas. Pide que la propuesta indique cuántos cruces por turno con horario variable, en vez de una hora exacta de paso.
 ---
 
 ## El GPS prueba que la unidad pasó, no que alguien revisó

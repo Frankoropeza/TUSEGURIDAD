@@ -3,6 +3,7 @@ empresa: virelta-seguridad-privada
 slug: obra-eventos-y-hospitales
 nombre: Obra, eventos y hospitales
 titulo: Seguridad para obra, eventos y hospitales en CDMX y Edomex
+tituloSeo: Seguridad para obra, eventos y hospitales
 descripcion: >-
   Seguridad para obra, eventos y hospitales en CDMX y Edomex: consigna
   específica por tipo de sitio, control de accesos, material y aforo.
