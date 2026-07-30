@@ -2,193 +2,165 @@
 empresa: virelta-seguridad-privada
 slug: custodia-de-valores
 nombre: Custodia de valores
-titulo: Custodia de valores en CDMX y Estado de México
-tituloSeo: Custodia de valores en CDMX y Edomex
+titulo: Custodia de valores y traslado de nómina en CDMX y Estado de México
+tituloSeo: Custodia de valores y nómina en CDMX y Edomex
 descripcion: >-
-  Custodia de valores y traslado de mercancía en CDMX y Edomex: cadena de
-  custodia sin quiebres, precinto de seguridad y acta de entrega-recepción
-  firmada.
+  Traslado de valores y mercancía con acta de entrega-recepción firmada en los
+  dos extremos, precinto numerado y rutas variables. CDMX y Edomex.
 orden: 8
 titulos:
-  incluye: Qué pasa en cada tramo del traslado
-  modalidades: Formas de contratar la custodia de valores
-  paraQuien: Quién necesita custodia de valores
-  proceso: Del levantamiento a la primera ruta
-  errores: Errores que rompen la cadena de custodia
-  glosario: Términos que vas a escuchar en la propuesta
-  faq: Dudas sobre custodia de valores
+  incluye: Qué pasa en cada tramo, de la caja fuerte a la ventanilla
+  modalidades: Cuatro esquemas de traslado
+  proceso: Cómo damos de alta una ruta
+  errores: Lo que rompe una cadena de custodia
+  glosario: El vocabulario del acta
+  faq: Preguntas frecuentes sobre traslado de valores
 intro: >-
-  Acompañamiento de traslados de valores y mercancía entre origen y destino,
-  con protocolo de entrega-recepción firmado en cada tramo del recorrido.
-  Virelta declara operar bajo cadena de custodia sin quiebres: ningún punto
-  del trayecto queda sin una firma que respalde quién tuvo el valor en su
-  poder y en qué momento. Aplica a corte de caja, traslado de nómina,
-  movimientos de almacén a sucursal y entrega de mercancía de alto valor.
+  Acompañamos traslados de valores y de mercancía entre origen y destino, con
+  un acta de entrega-recepción firmada en los dos extremos. Corte de caja,
+  traslado de nómina, movimiento de almacén a sucursal, entrega de mercancía
+  de alto valor. La regla con la que operamos es simple: ningún tramo del
+  recorrido se queda sin una firma que diga quién tenía el valor en su poder y
+  a qué hora. Virelta declara prestar el servicio en CDMX y Estado de México.
 stats:
   - k: Cobertura
     v: CDMX · Edomex
   - k: Atención
     v: 24 h
 incluye:
-  - titulo: Levantamiento del recorrido
+  - titulo: Levantamiento del recorrido y de los montos
     texto: >-
-      Se revisa origen, destino, puntos intermedios si los hay, y los
-      horarios habituales del traslado, antes de proponer ruta y
-      dispositivo.
-  - titulo: Conteo y sellado en origen
+      Origen, destino, puntos intermedios, horarios de siempre y monto
+      aproximado. Sin ese dato no se dimensiona nada en serio.
+  - titulo: Conteo y sellado en origen, con dos personas
     texto: >-
-      El valor se cuenta y se sella con un precinto de seguridad numerado
-      antes de salir, para que cualquier apertura en tránsito quede
-      evidenciada.
-  - titulo: Ruta y horario variables
+      El valor se cuenta, se embolsa y se cierra con precinto numerado.
+      Siempre delante de dos personas: una cuenta, la otra verifica y anota el
+      folio. Que una sola persona haga las dos cosas es cómodo y es
+      exactamente el punto por donde se cae el protocolo cuando algo falta.
+  - titulo: Ruta y horario que se mueven
     texto: >-
-      El traslado no sigue siempre el mismo camino a la misma hora. Se
-      define variación periódica para no convertir el recorrido en un
-      patrón predecible.
-  - titulo: Traslado con vehículo no distintivo
+      El recorrido no repite camino ni hora. Si el corte sale de Del Valle
+      rumbo a una sucursal en Coyoacán centro, unas veces se toma Insurgentes
+      y otras se sale por Periférico, y la hora de salida se corre. Un
+      traslado que sale a las 6:15 de la tarde todos los días es una cita
+      pública.
+  - titulo: Unidad sin nada escrito encima
     texto: >-
-      La unidad no lleva logotipos ni señalamientos que anuncien el tipo de
-      carga que transporta. La discreción reduce la exposición del
-      traslado.
-  - titulo: Verificación de sello en destino
+      Sin logotipos, sin la palabra valores, sin nada que anuncie qué va
+      adentro.
+  - titulo: Verificación del precinto y acta firmada en destino
     texto: >-
-      Antes de firmar la recepción, se comprueba que el precinto llegó
-      intacto y coincide con el folio registrado en el origen.
-  - titulo: Acta de entrega-recepción firmada
+      Antes de firmar la recepción se compara el folio del precinto con el que
+      se registró en el origen y se revisa que llegó íntegro. Si coincide, se
+      firma. Si no, no se firma y se levanta la novedad ahí mismo.
+  - titulo: Bitácora del traslado
     texto: >-
-      Documento firmado en origen y destino, con folio, hora y monto, que
-      respalda quién entregó y quién recibió el valor en cada tramo.
-  - titulo: Bitácora de cada traslado
-    texto: >-
-      Se registra la ruta usada, el horario real y cualquier novedad del
-      recorrido, para ajustar el dispositivo con datos reales.
+      Ruta usada, hora real de salida y de llegada, novedades del camino. Es
+      lo que después permite ajustar horarios con datos y no de oído.
 modalidades:
   - titulo: Traslado puntual
     texto: >-
-      Un solo movimiento de valores, como un corte de caja o una entrega
-      específica, sin dispositivo permanente.
+      Un solo movimiento. El corte de un fin de semana largo, una entrega
+      específica, el depósito acumulado del puente de noviembre.
   - titulo: Ruta programada
     texto: >-
-      Recorrido recurrente entre puntos fijos —por ejemplo, diario o
-      semanal— con ruta y horario que se varían dentro de esa recurrencia.
+      Recorrido recurrente entre puntos fijos, diario o semanal, con variación
+      de camino y de hora dentro de esa recurrencia. Es el esquema de los
+      negocios con dos o tres sucursales en Nuevo Polanco y Ampliación
+      Granada que concentran depósito en una sola.
   - titulo: Custodia de nómina
     texto: >-
-      Dispositivo específico para el traslado y entrega de efectivo de
-      nómina, con su propio protocolo de conteo y sellado.
+      Traslado y entrega de efectivo de nómina, con su propio protocolo de
+      conteo, sellado y descarga. Aplica sobre todo a obra y a plantas con
+      personal que cobra en efectivo.
   - titulo: Refuerzo por volumen
     texto: >-
-      Apoyo adicional para movimientos de mayor valor a lo habitual, como
-      temporada alta o levantamiento de inventario.
-paraQuien:
-  - titulo: Comercios con corte de caja diario
-    texto: >-
-      Negocios que necesitan trasladar efectivo de forma recurrente entre
-      el punto de venta y el banco o la oficina central.
-  - titulo: Empresas con traslado periódico de nómina
-    texto: >-
-      Compañías que entregan efectivo de nómina en sitio y necesitan un
-      dispositivo con protocolo propio para ese movimiento.
-  - titulo: Almacenes que mueven mercancía de alto valor
-    texto: >-
-      Traslados de almacén a sucursal donde el valor de la carga justifica
-      un acompañamiento con protocolo de entrega-recepción.
-  - titulo: Negocios con movimientos frecuentes entre sucursales
-    texto: >-
-      Operaciones con más de un punto de venta que trasladan valores o
-      mercancía entre ellos de forma regular.
-  - titulo: Empresas en temporada de mayor movimiento de valores
-    texto: >-
-      Periodos como fin de año o campañas específicas, donde el volumen
-      trasladado supera lo habitual y justifica refuerzo.
-  - titulo: Negocios con un incidente previo en traslado de valores
-    texto: >-
-      Casos donde ya existe un antecedente documentado y se busca un
-      dispositivo con protocolo formal, no un arreglo informal.
+      Apoyo adicional cuando el monto se sale de lo habitual: cierre de año,
+      inventario, liquidación de temporada.
 proceso:
-  - titulo: Levantamiento del recorrido y montos
+  - titulo: Levantamiento del recorrido, la frecuencia y el monto
     texto: >-
-      Se revisan origen, destino, frecuencia y montos aproximados del
-      traslado, para dimensionar el dispositivo con datos reales.
-  - titulo: Propuesta con dispositivo y ruta
+      Se camina la ruta real antes de proponer una. Dónde se puede estacionar,
+      cuántos metros hay de la puerta al vehículo, quién ve esa maniobra desde
+      la calle.
+  - titulo: Propuesta con dispositivo, unidad y ruta
     texto: >-
-      La propuesta especifica número de elementos, vehículo y ruta
-      propuestos, para que el cliente decida con esa información completa.
-  - titulo: Alta del protocolo de sellado
+      Número de elementos, tipo de vehículo, ruta principal y alternas, y el
+      motivo de cada decisión por escrito.
+  - titulo: Alta del protocolo de sellado y del formato del acta
     texto: >-
-      Se define por escrito quién sella, quién verifica y qué formato
-      lleva el acta de entrega-recepción de cada traslado.
-  - titulo: Primer traslado supervisado
+      Quién sella, quién verifica, qué campos lleva el acta y qué se hace si
+      el conteo no cuadra. Se acuerda con el responsable de caja de tu lado,
+      no solo con quien firma el contrato.
+  - titulo: Primer traslado supervisado y ajuste
     texto: >-
-      El primer movimiento se realiza con revisión reforzada del
-      protocolo, para confirmar que cada paso se ejecuta como quedó
-      definido.
-  - titulo: Ajuste de ruta y horario
-    texto: >-
-      Con los primeros traslados se corrigen rutas poco prácticas y se
-      amplía la variación de horarios si conviene.
+      El primer movimiento va con supervisión encima para confirmar que cada
+      paso se ejecuta como quedó escrito. De ahí salen los ajustes de hora y
+      de ruta que en papel no se ven.
 errores:
-  - titulo: Tramo del trayecto sin firma
+  - titulo: Un tramo sin firma
     texto: >-
-      El punto donde nadie puede decir con certeza quién tuvo el valor en
-      su poder es exactamente el punto que se explota. Cada tramo
-      necesita su propia firma.
-  - titulo: Vehículo que anuncia lo que transporta
+      El punto donde nadie puede decir con certeza quién tenía el valor es el
+      punto que se explota. No hay excepción a esto.
+  - titulo: Vehículo que anuncia lo que lleva
     texto: >-
-      Una unidad con logotipos o leyendas visibles sobre el tipo de carga
-      reduce, no aumenta, la seguridad del traslado.
-  - titulo: Misma ruta y hora todos los días
+      Una unidad rotulada con la palabra valores le está diciendo a toda la
+      avenida qué transporta. La rotulación disuade menos de lo que atrae.
+  - titulo: Misma ruta, misma hora, todos los días
     texto: >-
-      Un recorrido fijo, sin variación, convierte el traslado en un
-      patrón predecible que no requiere vigilancia cercana para
-      anticiparse.
-  - titulo: Sin doble verificación en el conteo
+      Un recorrido fijo se aprende desde una banqueta en tres semanas. No hace
+      falta seguir a nadie.
+  - titulo: Que una sola persona cuente y selle
     texto: >-
-      Que una sola persona cuente y selle el valor deja todo el
-      protocolo dependiendo de un único punto de falla.
-  - titulo: Acta de entrega-recepción incompleta
+      Todo el protocolo queda colgado de un solo punto de falla. Y cuando algo
+      no cuadra, la persona que estaba sola tampoco tiene cómo defenderse.
+  - titulo: Acta incompleta
     texto: >-
-      Un acta sin folio, hora o firma de ambas partes no sirve como
-      respaldo real si algo se tiene que reconstruir después.
-  - titulo: Sin protocolo de contingencia por escrito
+      Sin folio, sin hora o sin la firma de las dos partes, el acta no sirve
+      para reconstruir nada. Es un papel, no un respaldo.
+  - titulo: No tener escrito qué se hace con un sello roto
     texto: >-
-      Si nadie tiene definido qué hacer ante un sello roto o una
-      discrepancia en el conteo, el equipo improvisa justo cuando más
-      importa que no lo haga.
+      Llega el paquete con el precinto marcado. ¿Se abre? ¿Se firma bajo
+      protesta? ¿Quién decide? Si eso no está definido antes, se decide en
+      caliente y casi siempre mal.
+  - titulo: Que media empresa sepa a qué hora sale el dinero
+    texto: >-
+      Viernes de quincena, once de la mañana. La encargada avisa por el grupo
+      de la sucursal que el traslado pasa a la una y media para que tengan
+      listo el corte. En ese grupo hay catorce personas, tres ya no trabajan
+      ahí y nadie los sacó. El dispositivo estuvo impecable. La información
+      salió por la puerta de atrás.
 glosario:
   - termino: Cadena de custodia
     definicion: >-
-      La condición de que en cada tramo del trayecto exista una firma que
-      respalde quién tuvo el valor en su poder. Un tramo sin firma es un
-      quiebre en la cadena.
+      Que en cada tramo del trayecto exista una firma que respalde quién tenía
+      el valor en su poder. Un tramo sin firma es un quiebre, aunque nada haya
+      pasado.
   - termino: Precinto de seguridad
     definicion: >-
-      Sello numerado de un solo uso que se coloca en origen. Si llega
-      roto o con un folio distinto al registrado, evidencia que hubo una
-      apertura en tránsito.
+      Sello numerado de un solo uso que se coloca en el origen. Si llega roto
+      o con un folio distinto al registrado, hubo apertura en el camino.
   - termino: Acta de entrega-recepción
     definicion: >-
-      Documento firmado en origen y destino, con folio, hora y monto, que
-      deja constancia formal de quién entregó y quién recibió el valor.
+      El documento firmado en los dos extremos, con folio, hora y monto. Es lo
+      único que después vale como constancia formal de quién entregó y quién
+      recibió.
   - termino: Doble verificación
     definicion: >-
-      Control por dos personas al contar y sellar el valor, para que
-      ningún tramo del protocolo dependa de una sola persona.
-  - termino: Vehículo no distintivo
+      Dos personas en el conteo y el sellado. Una ejecuta, la otra confirma y
+      anota el folio.
+  - termino: Tramo
     definicion: >-
-      Unidad sin logotipos ni señalamientos que identifiquen el tipo de
-      carga que transporta, usada para no anunciar el contenido del
-      traslado.
-  - termino: Ruta y horario variables
-    definicion: >-
-      Cambio periódico del trayecto y la hora del traslado, para evitar
-      que el recorrido se vuelva un patrón predecible.
+      Cada segmento del recorrido con un responsable distinto: de la caja al
+      vehículo, del vehículo a la ventanilla. Cada uno necesita su propia
+      firma.
 entregables:
-  - Levantamiento del recorrido y montos
-  - Propuesta con dispositivo, vehículo y ruta
+  - Levantamiento del recorrido, la frecuencia y los montos
+  - Propuesta con dispositivo, unidad y rutas alternas
   - Protocolo de sellado y verificación por escrito
-  - Acta de entrega-recepción por cada traslado
-  - Bitácora de traslados y novedades
-  - Datos del jefe de equipo asignado
+  - Acta de entrega-recepción foliada por cada traslado
+  - Bitácora con ruta, horarios reales y novedades
 galeria:
   - inspeccion-perimetral-almacen:1
   - inspeccion-perimetral-almacen:5
@@ -197,115 +169,164 @@ galeria:
   - control-de-acceso-seguridad-privada:7
   - registro-de-visitantes-caseta:9
 faq:
-  - q: ¿Qué diferencia hay entre custodia de valores y un guardia de seguridad?
+  - q: ¿Cuánto cuesta un servicio de custodia de valores?
     a: >-
-      El guardia resguarda un inmueble fijo. La custodia de valores
-      acompaña un traslado entre dos puntos, con protocolo de sellado y
-      acta de entrega-recepción propios de ese movimiento.
-  - q: ¿Qué es un precinto de seguridad y para qué sirve?
-    a: >-
-      Es un sello numerado de un solo uso que se coloca en origen. Si
-      llega roto o con un folio distinto en el destino, evidencia que
-      hubo una apertura en tránsito.
+      Depende del monto, la distancia, la frecuencia y el número de elementos.
+      Un corte diario de un local en Xoco no se cotiza igual que una ruta
+      semanal de Satélite a Metepec centro. Desconfía del precio cerrado por
+      teléfono, antes de que alguien haya visto tu recorrido.
   - q: ¿Qué pasa si el precinto llega roto al destino?
     a: >-
-      Se activa el protocolo de contingencia definido por escrito antes
-      del traslado: se documenta la discrepancia y se avisa de inmediato
-      al contacto designado, antes de firmar la recepción.
-  - q: ¿El vehículo de traslado es blindado?
+      No se firma la recepción. Se documenta la discrepancia en el acta, se
+      avisa de inmediato al contacto designado y se activa el protocolo que
+      quedó por escrito antes del primer traslado. Firmar y preguntar después
+      es lo que deja sin sustento cualquier reclamación posterior.
+  - q: ¿Qué pasa si el conteo no cuadra al llegar?
     a: >-
-      Depende de la modalidad y el monto trasladado. Un vehículo no
-      distintivo, sin señalamientos visibles, es en muchos casos más
-      efectivo que uno blindado con logotipos que anuncian la carga.
-  - q: ¿Cómo se define la ruta de un traslado de valores?
+      Se anota la diferencia en el acta antes de que firme cualquiera de las
+      dos partes, con hora y con el nombre de quien la detectó. Después se
+      sigue el procedimiento acordado. El acta firmada en limpio con una
+      diferencia ya conocida no se puede corregir después.
+  - q: ¿Cuántos elementos lleva un traslado?
     a: >-
-      Se define con variación periódica de trayecto y horario, para que
-      el recorrido no se convierta en un patrón predecible.
-  - q: ¿Qué es el acta de entrega-recepción?
+      Sale del levantamiento. Pesa el monto, pero pesa más la maniobra: cuántos
+      metros hay de la puerta al vehículo y cuánta gente ve ese trayecto. Un
+      traslado corto en una calle expuesta puede necesitar más apoyo que uno
+      largo entre dos estacionamientos cerrados.
+  - q: ¿Cómo sé si mi proveedor está cuidando la cadena de custodia?
     a: >-
-      Un documento firmado en origen y destino, con folio, hora y monto,
-      que respalda formalmente quién entregó y quién recibió el valor.
-  - q: ¿Qué es la doble verificación en el conteo?
+      Pídele el acta de un traslado cualquiera del mes pasado y revísala. Si
+      trae folio de precinto, hora de salida, hora de llegada y firma en los
+      dos extremos, la cadena está viva. Si trae una firma sola al final, no
+      hay cadena, hay un recibo.
+  - q: ¿El vehículo tiene que ser blindado?
     a: >-
-      Es que dos personas participen en contar y sellar el valor, para
-      que el protocolo no dependa de una sola persona en ese momento.
-  - q: ¿Se puede contratar custodia para un solo traslado?
+      Depende del monto y de la ruta. En muchos casos una unidad discreta, sin
+      nada escrito encima, protege más que una blindada y rotulada que va
+      anunciando su contenido por Periférico.
+  - q: ¿Cada cuánto conviene cambiar la ruta y el horario?
     a: >-
-      Sí, es la modalidad de traslado puntual: un solo movimiento, como
-      un corte de caja o una entrega específica, sin dispositivo
-      permanente.
+      Con la frecuencia suficiente para que nadie pueda predecir el siguiente
+      movimiento. En rutas diarias eso significa varias veces por semana, no
+      una vez al mes.
+  - q: ¿El servicio cubre traslado de nómina?
+    a: >-
+      Sí, con la modalidad de custodia de nómina, que trae su propio protocolo
+      de conteo, sellado y entrega en sitio.
+  - q: ¿Se puede contratar para un solo traslado?
+    a: >-
+      Sí, es la modalidad puntual: un corte acumulado, un depósito de cierre
+      de mes, una entrega específica. Sin dispositivo permanente.
+  - q: ¿También se custodia mercancía, no solo efectivo?
+    a: >-
+      Sí. Movimientos de almacén a sucursal con mercancía de alto valor se
+      manejan con el mismo protocolo de sellado y acta, cambiando el conteo
+      por el cotejo de piezas contra la lista de embarque.
+  - q: ¿Quién firma el acta de mi lado?
+    a: >-
+      Quien tú designes por escrito, y conviene que sea alguien con autoridad
+      para detener el traslado si algo no cuadra. Si la persona que firma no
+      puede decir que no, la firma no está sirviendo de control.
+  - q: ¿Qué es un precinto de seguridad?
+    a: >-
+      Un sello numerado de un solo uso que se coloca en el origen y se
+      verifica en el destino. Su único trabajo es evidenciar si hubo apertura
+      en el camino.
+  - q: ¿Se puede coordinar el traslado con el guardia de la sucursal?
+    a: >-
+      Sí, y es lo recomendable. El elemento en sitio despeja la maniobra de
+      carga y descarga, que es el momento más expuesto de todo el recorrido.
   - q: ¿Qué modalidad de permiso debe amparar este servicio?
     a: >-
-      El permiso de la empresa debe cubrir expresamente custodia o
-      traslado de valores. Pide el documento y revisa la modalidad y su
-      vigencia antes de contratar.
+      El permiso de la empresa debe cubrir de forma expresa custodia o
+      traslado de valores. Un permiso de vigilancia intramuros no alcanza.
+      Pide el documento y revisa modalidad y vigencia.
   - q: ¿En qué zonas presta este servicio Virelta?
     a: >-
       La empresa declara cobertura en Miguel Hidalgo, Cuauhtémoc, Benito
-      Juárez, Álvaro Obregón, Coyoacán y Tlalpan en la CDMX, y en
-      Naucalpan, Huixquilucan, Tlalnepantla, Atizapán y Cuautitlán
-      Izcalli en el Estado de México.
-  - q: ¿Qué pasa si hay una discrepancia en el conteo al llegar?
-    a: >-
-      Se documenta en el acta de entrega-recepción antes de que ambas
-      partes firmen, y se sigue el protocolo de contingencia acordado
-      para resolverla.
-  - q: ¿El servicio cubre traslado de nómina?
-    a: >-
-      Sí, mediante la modalidad de custodia de nómina, con su propio
-      protocolo de conteo, sellado y entrega del efectivo.
+      Juárez, Álvaro Obregón, Coyoacán y Tlalpan en la CDMX, y en Naucalpan,
+      Huixquilucan, Tlalnepantla, Atizapán y Cuautitlán Izcalli en el Estado
+      de México. Las rutas más frecuentes conectan Del Valle, Xoco, Nuevo
+      Polanco, Ampliación Granada, Coyoacán centro y la colonia Cuauhtémoc,
+      además de Satélite, Echegaray y Metepec centro.
 ---
 
-## Lo que protege el valor no es el blindaje, es que la cadena de custodia nunca se quiebre
+## El blindaje no es lo que protege el traslado
 
-Buena parte de la publicidad de este servicio vende blindaje: vehículo
-blindado, logotipos visibles, presencia disuasiva. En la práctica, esa
-misma presencia anuncia lo que se está transportando. Un vehículo con
-leyendas sobre seguridad y valores llama la atención exactamente hacia lo
-que se supone debe pasar inadvertido.
+Buena parte de la publicidad del ramo vende fierro: unidad blindada,
+logotipos, presencia. Esa misma presencia va anunciando por la avenida qué
+lleva adentro. Una camioneta rotulada con la palabra valores no pasa
+inadvertida en Insurgentes a las siete de la tarde. Al contrario.
 
-Lo que realmente protege un traslado es que en cada tramo del recorrido
-exista una firma que respalde quién tuvo el valor en su poder: en el
-conteo y sellado de origen, en cualquier punto intermedio y en la
-verificación antes de firmar la recepción en destino. Un solo tramo sin
-firma es el punto que se explota, sin importar cuánto blindaje tenga el
-vehículo.
+Lo que sostiene un traslado es más aburrido y más barato. Que el conteo lo
+hagan dos personas. Que el precinto tenga folio y que ese folio esté anotado.
+Que la unidad no diga nada. Que la hora se mueva. Y que en cada punto del
+recorrido exista una firma con nombre y hora detrás.
 
-## La pregunta que ordena todo: ¿quién firmó este tramo?
+## Qué documento respalda cada tramo
 
-Antes de comparar precios entre proveedores, vale la pena hacer una sola
-pregunta sobre cada punto del recorrido: si algo pasara justo ahí, ¿quién
-firmó que el valor estaba en su poder en ese momento? Si la respuesta es
-clara para cada tramo, la cadena de custodia está completa. Si hay un
-punto donde la respuesta es ambigua, ese es el punto vulnerable, sin
-importar qué tan bueno sea el resto del dispositivo.
+Un traslado no es un movimiento, son tres o cuatro. De la caja al empaque. Del
+empaque al vehículo. Del vehículo a la ventanilla o a la caja del destino.
+Cada uno de esos segmentos tiene un responsable distinto y necesita su propio
+respaldo. El acta de entrega-recepción no se firma una vez al final: se firma
+donde cambia la responsabilidad.
 
-## Qué pedir en la propuesta
+Hay una pregunta que ordena todo el diseño de la ruta y sirve para auditar
+cualquier propuesta. Señala un punto cualquiera del recorrido y pregunta:
+¿quién firmó que el valor estaba en su poder justo ahí? Si para cada punto
+existe un nombre y una hora, la cadena está completa. Si en algún punto la
+respuesta se vuelve difusa, ese es el punto vulnerable, y ningún blindaje lo
+compensa.
 
-Antes de comparar precios, pide que la propuesta especifique:
+## La hora fija es el problema, no la distancia
 
-- **El protocolo de sellado**: quién cuenta, quién sella y con qué tipo de precinto.
-- **La ruta y el horario**, y si se varían de forma periódica.
-- **El formato del acta de entrega-recepción**, con folio, hora y monto.
-- **Si el vehículo es distintivo o no**, y por qué se recomienda esa opción para tu caso.
-- **El protocolo de contingencia** ante un sello roto o una discrepancia en el conteo.
-- **La modalidad que ampara el permiso** —custodia o traslado de valores— y su vigencia.
-- **La carátula de la póliza** de responsabilidad civil.
+Nos pasa seguido con clientes que mueven corte diario. Miércoles, seis y
+cuarto de la tarde. Salida del local, ocho pasos hasta la unidad estacionada
+en doble fila, salida por Insurgentes rumbo a la sucursal. Miércoles
+siguiente, misma cosa. El tercer miércoles, también. Nadie tiene que seguir a
+nadie: con pararse tres semanas en la banqueta de enfrente ya se sabe todo, y
+el punto más expuesto no está en el camino sino en esos ocho pasos de la
+puerta al vehículo.
 
-Un proveedor formal entrega esos puntos sin que insistas. El que solo
-cotiza blindaje y número de elementos está vendiendo presencia, no cadena
-de custodia.
+Por eso el ajuste que más rinde no cuesta dinero. Cambiar la hora. Alternar
+entre Insurgentes y Periférico. Estacionar del otro lado. Y despejar la
+maniobra de carga con alguien en sitio, que es donde el traslado está más
+descubierto. Si la sucursal ya tiene
+[control de accesos](/categorias/seguridad-privada/cdmx/virelta-seguridad-privada/control-de-accesos/)
+operando, esa maniobra se cubre sin sumar personal nuevo.
 
-## Qué revisar antes de firmar
+Dos cosas más que conviene separar bien. Cuando el faltante aparece de forma
+repetida y siempre en el mismo punto, el problema rara vez está en el
+traslado: está adentro, y se atiende con
+[prevención de pérdidas](/categorias/seguridad-privada/cdmx/virelta-seguridad-privada/prevencion-de-perdidas/).
+Y si lo que quieres es saber por dónde va la unidad en tiempo real durante el
+recorrido, eso se resuelve sumando
+[patrullaje con rastreo GPS](/categorias/seguridad-privada/cdmx/virelta-seguridad-privada/patrullaje-con-rastreo-gps/)
+al esquema, no pidiéndole al chofer que reporte por teléfono.
 
-1. Documento del permiso, con la modalidad de custodia o traslado de valores y su vigencia legibles.
-2. Registro REPSE si aplica.
-3. Comprobante de alta del personal ante IMSS e INFONAVIT.
-4. Póliza de responsabilidad civil vigente.
-5. Un formato de acta de entrega-recepción de muestra, para ver qué nivel de detalle entregan.
-6. Nombre y contacto del jefe de equipo asignado al traslado.
+## Qué papel pedir en cada punto del recorrido
 
-> El alcance de este servicio, sus acreditaciones y su cobertura los
-> declara Virelta Seguridad Privada. TuSeguridad no interviene en la
-> contratación: antes de firmar, solicita los documentos y confirma su
-> vigencia y la modalidad que amparan.
+Antes de comparar cotizaciones, revisa que la propuesta te diga qué documento
+respalda cada momento del traslado y quién lo firma. Si un renglón de esta
+tabla se queda vacío en la propuesta que te dieron, ahí está el hueco.
+
+Mándanos por WhatsApp el origen, el destino y a qué hora sale hoy el corte.
+Con esos tres datos te decimos si el problema es la ruta o la maniobra de
+salida, antes de cotizar nada.
+
+| Momento | Documento | Quién firma | Qué se verifica |
+|---|---|---|---|
+| Conteo en origen | Acta de entrega-recepción, sección de origen | Responsable de caja y elemento de custodia | Monto contado por dos personas |
+| Sellado | Registro de folio de precinto | Quien sella y quien verifica | Folio anotado y precinto íntegro |
+| Salida y traslado | Bitácora del traslado | Jefe de equipo | Hora real de salida y ruta utilizada |
+| Llegada a destino | Bitácora del traslado | Jefe de equipo | Hora real de llegada y novedades |
+| Verificación de sello | Acta, sección de destino | Quien recibe | Folio coincide y precinto sin daño |
+| Recepción | Acta de entrega-recepción, cierre | Ambas partes | Monto o piezas contra lo declarado en origen |
+| Discrepancia | Novedad anexa al acta | Ambas partes, antes de cerrar | Diferencia, hora y persona que la detectó |
+| Permiso vigente | Documento del permiso | La empresa lo exhibe | Modalidad de custodia o traslado de valores |
+
+> Los datos de alcance, cobertura y acreditaciones de esta página los sostiene
+> Virelta Seguridad Privada bajo su propia responsabilidad. TuSeguridad no
+> media en la contratación ni valida esa documentación. Pide el permiso con la
+> modalidad de custodia legible, revisa la fecha de vigencia y confirma la
+> póliza antes de mover el primer peso.

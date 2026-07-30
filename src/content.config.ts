@@ -187,7 +187,18 @@ const servicios = defineCollection({
  * propia. El resto del padrón se queda en la tarjeta de su ficha.
  */
 const serviciosEmpresa = defineCollection({
-  loader: glob({ pattern: '**/*.{md,mdx}', base: './src/content/servicios-empresa' }),
+  loader: glob({
+    pattern: '**/*.{md,mdx}',
+    base: './src/content/servicios-empresa',
+    /**
+     * El `generateId` por defecto del glob loader devuelve `data.slug` cuando
+     * existe, así que dos empresas que prestan el mismo servicio —p. ej.
+     * `seguridad-para-condominios`— colisionan y la segunda sobrescribe a la
+     * primera en silencio. Se compone con la carpeta de la empresa para que
+     * `entry.id` sea `<empresa>/<slug>`, que es lo que documenta esta colección.
+     */
+    generateId: ({ entry }) => entry.replace(/\.mdx?$/, ''),
+  }),
   schema: z.object({
     /** slug de la ficha de empresa a la que pertenece */
     empresa: z.string(),

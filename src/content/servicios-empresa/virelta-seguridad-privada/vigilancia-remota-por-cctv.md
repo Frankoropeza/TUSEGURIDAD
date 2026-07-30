@@ -2,192 +2,217 @@
 empresa: virelta-seguridad-privada
 slug: vigilancia-remota-por-cctv
 nombre: Vigilancia remota por CCTV
-titulo: Monitoreo remoto por CCTV en CDMX y Estado de México
-tituloSeo: Monitoreo remoto por CCTV en CDMX y Edomex
+titulo: Vigilancia remota por CCTV desde central en CDMX y Edomex
+tituloSeo: Monitoreo de CCTV con operador, CDMX y Edomex
 descripcion: >-
-  Monitoreo remoto de cámaras CCTV en CDMX y Estado de México: verificación
-  en vivo, protocolo de escalamiento y respaldo de grabación las 24 horas.
+  Central que mira tus cámaras mientras pasa el evento: verificación,
+  escalamiento por protocolo, aviso al contacto designado y respaldo consultable.
 orden: 5
 titulos:
-  incluye: Qué hace la central cuando la cámara ve algo
-  modalidades: Formas de contratar el monitoreo
-  paraQuien: Dónde rinde más el monitoreo remoto
-  proceso: Del levantamiento técnico a la primera guardia
-  errores: Errores que dejan la cámara grabando sola
-  glosario: Términos que vas a escuchar en la propuesta
-  faq: Dudas sobre monitoreo remoto por CCTV
+  incluye: Qué hace el operador cuando la cámara ve algo
+  modalidades: Tres esquemas
+  paraQuien: ¿Quién le saca provecho real al monitoreo?
+  proceso: Del levantamiento a la primera guardia
+  errores: Lo que deja tu cámara grabando sola
+  glosario: Palabras que vas a ver en la propuesta
+  faq: Dudas frecuentes sobre monitoreo remoto
 intro: >-
-  Supervisión de las cámaras del inmueble desde una central de monitoreo, sin
-  depender de que alguien esté frente a la pantalla en sitio. Virelta declara
-  prestarlo con verificación en vivo: cuando una cámara detecta movimiento o
-  se activa una alerta, un operador confirma la imagen, la clasifica y actúa
-  conforme al protocolo acordado. Una cámara que nadie ve mientras pasa el
-  evento no vigila; solo graba lo que ya ocurrió.
+  Grabar y monitorear son dos negocios distintos. Grabar lo hace una caja en un
+  rack. Monitorear lo hace una persona sentada en la central a las tres de la
+  mañana, mirando tu cámara mientras el evento ocurre y decidiendo a quién le
+  marca. Virelta declara operar el servicio con verificación de evento: entra la
+  alerta, el operador confirma en imagen qué la disparó y ejecuta el protocolo
+  que firmaste. El video sin operador sirve para el después. Para el durante hace
+  falta alguien despierto.
 stats:
   - k: Cobertura
     v: CDMX · Edomex
-  - k: Atención
-    v: 24 h
+  - k: Central
+    v: 24/7
+  - k: Permiso declarado
+    v: SSC 0102-15
 incluye:
-  - titulo: Supervisión en vivo desde central
+  - titulo: Verificación antes de mover a nadie
     texto: >-
-      Un operador atiende las cámaras del inmueble en tiempo real, no una
-      grabadora que nadie revisa. Es la diferencia entre vigilancia y
-      almacenamiento de video.
-  - titulo: Verificación del evento antes de reaccionar
+      Entra la alerta y el operador abre la imagen antes de hacer una sola
+      llamada. Sin ese paso, cada gato que cruza el patio se convierte en un
+      telefonazo a las tres de la mañana, y a la tercera noche nadie contesta el
+      teléfono. La verificación es lo que mantiene vivo el protocolo.
+  - titulo: Operador en vivo
     texto: >-
-      Ante una detección de movimiento o una alerta, el operador confirma qué
-      está pasando en la imagen antes de escalar. Sin esa verificación, cada
-      hoja que se mueve dispara una alarma.
-  - titulo: Protocolo de escalamiento por tipo de evento
+      Alguien está viendo. No una grabadora con luz verde en el cuarto de
+      máquinas.
+  - titulo: Escalamiento por tipo de evento
     texto: >-
-      Se define por escrito qué se hace ante cada tipo de hallazgo: aviso al
-      contacto, activación de audio disuasivo, solicitud de patrullaje o
-      llamada a la autoridad, según lo acordado con el cliente.
+      No se responde igual a una puerta abierta a las once de la noche que a dos
+      personas subiendo por la barda del andén. Cada categoría tiene su ruta:
+      qué se activa, a quién se le marca, en qué orden y qué puede decidir el
+      operador sin consultarle a nadie.
+  - titulo: Aviso al contacto designado
+    texto: >-
+      Una lista corta, con nombres y horarios reales de disponibilidad. Ocho
+      teléfonos en una hoja no son un protocolo, son una lotería.
   - titulo: Rondines virtuales programados
     texto: >-
-      La central recorre las cámaras del inmueble en horarios definidos, no
-      solo cuando algo dispara una alerta, para detectar lo que un sensor de
-      movimiento no captura.
-  - titulo: Registro y respaldo de grabaciones
+      La central recorre tus cámaras en horarios definidos sin esperar a que algo
+      dispare una alerta. Sirve para lo que el sensor de movimiento nunca ve: la
+      cortina que quedó a medias, el coche que lleva tres noches en el mismo
+      cajón, la puerta de azotea abierta desde el turno anterior.
+  - titulo: Audio disuasivo donde exista
     texto: >-
-      Cada evento verificado queda documentado con hora, cámara y resolución
-      tomada. El video de respaldo se conserva por el periodo pactado, útil
-      ante un seguro o una denuncia.
-  - titulo: Coordinación con guardia o patrullaje en sitio
+      Si el sistema tiene bocina, el operador habla. Sirve mucho más de lo que
+      parece contra el que va a probar suerte, y sirve cero contra el que ya
+      sabía qué venía a buscar.
+  - titulo: Registro y respaldo consultable
     texto: >-
-      Cuando el inmueble ya tiene guardia intramuros o patrullaje con Virelta,
-      la central avisa directamente al elemento en sitio, sin depender de que
-      el cliente reciba la llamada primero.
-  - titulo: Reporte periódico de novedades
+      Cada evento verificado queda con hora, cámara, clasificación y la acción
+      que se tomó. El video de respaldo se conserva por el periodo pactado, que
+      es lo que después pide el ajustador del seguro o el ministerio público.
+  - titulo: Coordinación con quien está en sitio
     texto: >-
-      Se entrega una relación de eventos atendidos por periodo, con la acción
-      tomada en cada uno, comparable contra lo que realmente pasó en el
-      inmueble.
+      Si el inmueble ya tiene guardia o unidad de patrullaje con nosotros, la
+      central le habla directo al elemento y no espera a que el cliente conteste
+      primero. Ese enlace ahorra los minutos que suelen decidir el desenlace.
+  - titulo: Reporte del periodo con la acción tomada
+    texto: >-
+      Al cierre entregamos qué eventos entraron, cómo se clasificaron, qué se
+      hizo con cada uno y cuáles resultaron falsos. Esa última columna es la que
+      dice si el sistema está bien calibrado o si el operador ya se acostumbró a
+      ignorar la cámara del estacionamiento.
 modalidades:
-  - titulo: Monitoreo de cámaras propias
+  - titulo: Monitoreo de tus cámaras
     texto: >-
-      El cliente ya tiene el sistema de CCTV instalado; Virelta lo conecta a
-      la central y opera la supervisión, la verificación y el escalamiento.
-  - titulo: Instalación y monitoreo llave en mano
+      Ya tienes el CCTV instalado y funcionando. Lo conectamos a la central y
+      operamos supervisión, verificación y escalamiento. Es el arranque más
+      barato y el más frecuente.
+  - titulo: Llave en mano
     texto: >-
-      Virelta levanta el inmueble, propone los puntos de cámara, instala el
-      equipo y lo opera desde el primer día. Una sola responsabilidad, no dos
-      proveedores que se deslindan entre sí.
-  - titulo: Monitoreo por horario
+      Levantamiento, propuesta de puntos, instalación del equipo y operación
+      desde el primer día. Una sola responsabilidad. Cuando el instalador y el
+      monitorista son empresas distintas, la falla siempre es culpa del otro.
+  - titulo: Monitoreo por franja horaria
     texto: >-
-      Cobertura acotada a la franja de mayor exposición —nocturna, fin de
-      semana o fuera de horario laboral— cuando el inmueble ya tiene
-      vigilancia presencial en el resto del día.
-  - titulo: Monitoreo 24/7 con respaldo redundante
-    texto: >-
-      Cobertura permanente con enlace y energía de respaldo en la central,
-      para que una falla de conexión en el inmueble no deje el sistema sin
-      quien lo observe.
+      Solo la ventana de exposición real: noche, fin de semana, días festivos o
+      periodo vacacional. Tiene sentido cuando el inmueble ya tiene vigilancia
+      presencial el resto del tiempo y no quieres pagar dos veces lo mismo.
 paraQuien:
   - titulo: Comercios y sucursales
     texto: >-
-      Puntos de venta con caja, mercancía y accesos que se benefician de
-      verificación en vivo sin sostener un puesto de vigilancia fijo.
-  - titulo: Naves y parques industriales
+      Caja, mercancía y acceso, verificados en vivo sin sostener un puesto de
+      vigilancia fijo por local.
+  - titulo: Oficinas y corporativos fuera de horario
     texto: >-
-      Perímetros extensos con patios de maniobra y andenes, donde las cámaras
-      cubren tramos que un guardia no puede recorrer a pie de forma continua.
+      El edificio se vacía a las ocho de la noche y hasta las siete de la mañana
+      no hay quien note nada. Ese hueco de once horas es exactamente el que cubre
+      la central.
+  - titulo: Naves, patios y andenes
+    texto: >-
+      Perímetros largos donde un guardia a pie no alcanza a estar en dos lugares
+      y las cámaras sí.
   - titulo: Condominios y fraccionamientos
     texto: >-
-      Áreas comunes, estacionamientos y accesos secundarios que quedan fuera
-      del alcance visual de la caseta, cubiertos desde la central.
-  - titulo: Oficinas y corporativos
-    texto: >-
-      Vigilancia fuera de horario laboral, cuando el inmueble queda vacío y
-      un evento tarda horas en detectarse si nadie revisa la grabación.
+      Áreas comunes, sótanos, azoteas y accesos secundarios que quedan fuera de
+      la vista de la caseta. En torres de Roma Norte y Condesa es donde más se
+      nota, porque el lobby está a nivel calle y todo lo demás no.
   - titulo: Obra en construcción
     texto: >-
-      Predios sin ocupación permanente donde el robo de material y equipo
-      ocurre de noche; el monitoreo cubre el tramo sin dejar guardia fija.
-  - titulo: Inmuebles con varias sucursales
+      Predios sin ocupación nocturna donde el robo de cable, herramienta y
+      material se concentra entre el viernes y el domingo.
+  - titulo: Hospitales y clínicas
     texto: >-
-      Un mismo cliente con puntos dispersos, supervisados desde una sola
-      central en vez de contratar vigilancia independiente por ubicación.
+      Estacionamientos, accesos de urgencias y áreas restringidas, con la
+      salvedad de que las zonas de atención al paciente las define la propia
+      unidad y no el proveedor.
+  - titulo: Inmuebles desocupados o en transición
+    texto: >-
+      Casas en venta, locales entre inquilinos, predios en litigio. No justifican
+      guardia y sí justifican que alguien mire.
 proceso:
-  - titulo: Levantamiento técnico
+  - titulo: Levantamiento y mapa de puntos ciegos
     texto: >-
-      Se revisa el inmueble en sitio o por plano: cámaras existentes, puntos
-      ciegos, conectividad disponible y qué zonas justifican cobertura.
-  - titulo: Propuesta con cobertura y puntos ciegos señalados
+      Revisamos el inmueble en sitio o por plano: qué cámaras hay, qué cubren de
+      verdad, qué conectividad existe y, sobre todo, qué queda fuera. Ese mapa de
+      lo que no se ve es la parte del levantamiento que ningún proveedor quiere
+      entregar por escrito y la que más te conviene exigir.
+  - titulo: Alta en central y pruebas reales
     texto: >-
-      La propuesta indica qué cubre cada cámara y qué queda fuera del
-      alcance visual, para que el cliente decida con esa información y no
-      la descubra después de un evento.
-  - titulo: Alta en central y pruebas
+      Se conectan las cámaras, se prueba imagen, latencia y disparo de alertas.
+      Probar significa que alguien camine el perímetro de noche y confirme que la
+      alerta llega, no que el técnico diga que quedó.
+  - titulo: Protocolo de escalamiento firmado
     texto: >-
-      Se conectan las cámaras a la central, se prueba la imagen, la latencia
-      y las alertas antes de considerar el sistema operativo.
-  - titulo: Definición del protocolo de escalamiento
+      Evento por evento, a quién se avisa, en qué orden, con qué tiempo y qué
+      decide el operador sin consultar. Va firmado por el cliente, con nombres y
+      teléfonos, y se actualiza cuando cambia la mesa directiva o el gerente.
+  - titulo: Primeras semanas de depuración
     texto: >-
-      Se acuerda por escrito, evento por evento, a quién se avisa, en qué
-      orden y qué puede decidir el operador sin consultar primero.
-  - titulo: Primeras semanas y ajuste
-    texto: >-
-      Con los primeros reportes se corrigen falsas alarmas frecuentes,
-      ángulos de cámara mal aprovechados y tiempos de respuesta reales.
+      Los primeros reportes traen falsas alarmas: árboles, reflejos, lonas,
+      insectos frente al lente infrarrojo. Se ajustan máscaras, sensibilidad y
+      ángulos hasta que la alerta signifique algo. Un sistema que grita todo el
+      tiempo termina en silencio, porque el que escucha deja de creerle.
 errores:
-  - titulo: Cámaras sin nadie viendo en vivo
+  - titulo: Comprar cámaras y creer que ya estás vigilado
     texto: >-
-      Un sistema que solo graba es evidencia después del hecho, no
-      prevención durante el hecho. Si nadie verifica en tiempo real, el
-      evento se descubre horas o días tarde.
-  - titulo: Puntos ciegos no señalados en la propuesta
+      La cámara es el sensor. La vigilancia es la persona que la mira y decide.
+      Instalar equipo es una compra; monitorear es un servicio con turnos,
+      nómina y protocolo. Confundirlos es el error que más caro sale.
+  - titulo: Aceptar un levantamiento sin puntos ciegos
     texto: >-
-      Si el proveedor no indica qué zonas quedan fuera de cobertura, el
-      cliente asume que todo el inmueble está vigilado y no lo está.
-  - titulo: Protocolo de escalamiento inexistente
+      Si la propuesta solo dice qué cubre cada cámara y no qué queda fuera, estás
+      firmando una cobertura imaginaria. Todo sistema tiene zonas sin ver. El
+      problema no es tenerlas: es no saber cuáles son.
+  - titulo: No pactar la retención
     texto: >-
-      Sin un procedimiento por escrito, cada operador decide distinto ante
-      el mismo tipo de evento y la respuesta deja de ser predecible.
-  - titulo: Retención de grabación no acordada
+      Domingo del puente de noviembre, cinco y veinte de la mañana, bodega por
+      Xoco. Entran por la azotea del predio vecino. El lunes nadie nota nada
+      porque no se llevaron nada visible. El viernes aparece el faltante en
+      inventario y el sistema tenía retención de siete días. Quedaban dieciocho
+      horas de video útil. Pacta el periodo por escrito y pídelo largo.
+  - titulo: Operar sin protocolo escrito
     texto: >-
-      Si el periodo de respaldo no queda pactado, el video de un evento
-      puede sobrescribirse antes de que alguien lo necesite pedir.
-  - titulo: Confundir tener cámaras con estar vigilado
+      Sin procedimiento, cada operador resuelve distinto el mismo evento y la
+      respuesta deja de ser predecible. Y una respuesta impredecible no se puede
+      reclamar ni mejorar.
+  - titulo: No probar el sistema después de instalarlo
     texto: >-
-      Instalar equipo no es contratar el servicio. La cámara es el sensor;
-      la vigilancia es la persona que la observa y decide qué hacer.
-  - titulo: No probar el sistema tras la instalación
-    texto: >-
-      Un enlace, una alerta o una cámara mal configurada solo se detectan
-      con pruebas reales antes del primer evento, no durante uno.
+      Un enlace mal configurado, una alerta que nunca se dio de alta o una cámara
+      apuntando al cielo se descubren con una prueba nocturna de veinte minutos,
+      o se descubren durante el evento. Elige.
 glosario:
   - termino: Central de monitoreo
     definicion: >-
-      El sitio desde donde un operador supervisa las cámaras de varios
-      clientes en tiempo real. Es la parte del servicio que no se ve en la
-      cotización de equipo.
+      El sitio desde donde un operador supervisa cámaras de varios clientes en
+      tiempo real. Es la parte del servicio que no aparece en la cotización de
+      equipo y la única que cuesta todos los meses.
   - termino: Verificación de evento
     definicion: >-
-      Confirmar en la imagen qué causó una alerta antes de escalarla. Sin
-      este paso, el sistema reacciona igual ante un intruso que ante una
-      bolsa arrastrada por el viento.
+      Confirmar en imagen qué causó la alerta antes de escalarla. Sin este paso
+      el sistema reacciona igual ante un intruso que ante una bolsa de basura.
   - termino: Punto ciego
     definicion: >-
-      Zona del inmueble sin cobertura visual de ninguna cámara. Todo sistema
-      tiene alguno; el problema es no saber cuál.
+      Zona sin cobertura visual de ninguna cámara. Todos los sistemas tienen. El
+      que importa es el que nadie te señaló.
   - termino: Rondín virtual
     definicion: >-
-      Recorrido programado de la central por las cámaras del inmueble, sin
-      esperar a que una alerta lo dispare.
+      Recorrido programado de la central por tus cámaras, sin esperar a que algo
+      dispare una alerta.
   - termino: Retención de grabación
     definicion: >-
-      Cuánto tiempo se conserva el video antes de sobrescribirse. Debe
-      quedar explícito en la propuesta, no dado por sentado.
+      Cuántos días se conserva el video antes de sobrescribirse. Debe quedar por
+      escrito en la propuesta, con número de días.
   - termino: Escalamiento
     definicion: >-
-      La secuencia de acciones y contactos que sigue la central ante un
-      evento confirmado, en el orden que el cliente aprobó por escrito.
+      La secuencia de acciones y contactos que sigue la central ante un evento
+      confirmado, en el orden que el cliente aprobó y firmó.
+  - termino: Falsa alarma
+    definicion: >-
+      Evento que dispara el sistema sin que haya nada. Se miden por semana y se
+      depuran. Cuando nadie las mide, el operador aprende a ignorar la cámara que
+      más grita, que suele ser la que da al patio.
 entregables:
   - Levantamiento con puntos de cámara y zonas ciegas señaladas
-  - Protocolo de escalamiento por tipo de evento
-  - Reporte periódico de eventos atendidos
+  - Protocolo de escalamiento por tipo de evento, firmado
+  - Reporte de eventos atendidos con la acción tomada y las falsas alarmas
   - Video de respaldo por el periodo pactado
   - Bitácora de rondines virtuales
   - Datos de la central y del supervisor asignado
@@ -195,118 +220,157 @@ galeria:
   - monitoreo-cctv-centro-de-control:2
   - operadora-monitoreo-cctv:1
   - monitoreo-cctv-centro-de-control:5
-  - operadora-monitoreo-cctv:4
+  - vigilancia-planta-industrial:4
   - monitoreo-cctv-centro-de-control:7
-  - operadora-monitoreo-cctv:6
+  - operadora-monitoreo-cctv:3
 faq:
-  - q: ¿Qué diferencia hay entre tener cámaras y tener monitoreo?
-    a: >-
-      Tener cámaras significa que existe un equipo grabando. Tener monitoreo
-      significa que alguien las observa en tiempo real, verifica lo que ve y
-      actúa mientras el evento ocurre, no después de revisarlo en video.
-  - q: ¿El monitoreo funciona con las cámaras que ya tengo instaladas?
-    a: >-
-      En la mayoría de los casos sí. Virelta declara evaluar el equipo
-      existente en el levantamiento y conectar lo compatible; lo que no lo
-      sea se cotiza aparte o se sustituye según convenga.
   - q: ¿Cuánto tarda el operador en reaccionar ante un evento?
     a: >-
-      Depende del protocolo pactado y no de una cifra genérica. Pide que la
-      propuesta especifique el tiempo de verificación y el de escalamiento
-      por separado, y compáralo entre proveedores con ese mismo criterio.
-  - q: ¿Qué pasa si se detecta a alguien entrando de noche?
+      Depende del protocolo pactado, no de una cifra de folleto. Pide que la
+      propuesta separe dos tiempos: el de verificación, que es lo que tarda el
+      operador en abrir la imagen y clasificar, y el de escalamiento, que es lo
+      que tarda en ejecutar la primera llamada. Compara proveedores con esos dos
+      números y vas a ver diferencias grandes.
+  - q: ¿Cuántas cámaras puede atender un operador a la vez?
     a: >-
-      El operador verifica la imagen y sigue el protocolo acordado: puede
-      activar audio disuasivo, avisar al contacto designado, solicitar
-      patrullaje o contactar a la autoridad, según lo que se haya definido.
+      La pregunta correcta no es cuántas cámaras, es cuántas están configuradas
+      para generar eventos. Un operador frente a un muro de pantallas en vivo
+      deja de ver a los veinte minutos; eso está medido desde hace décadas. Lo
+      que sostiene el servicio es la detección por evento más un protocolo claro
+      de qué hacer con cada uno.
   - q: ¿Cuánto tiempo se conserva la grabación?
     a: >-
-      El periodo de retención se pacta en la propuesta y varía según el
-      proveedor y el plan contratado. Pide que quede explícito por escrito
-      antes de firmar.
-  - q: ¿El monitoreo se puede combinar con guardia o patrullaje?
-    a: >-
-      Sí. Es una combinación frecuente: la cámara detecta y verifica, y el
-      guardia o la unidad de patrullaje son quienes actúan en sitio. El
-      protocolo de escalamiento define cómo se coordinan.
-  - q: ¿Qué son los rondines virtuales?
-    a: >-
-      Recorridos programados que hace la central por las cámaras del
-      inmueble sin esperar una alerta, para revisar zonas que un sensor de
-      movimiento no cubre por sí solo.
+      Lo que se pacte, y hay que pactarlo en días, no en adjetivos. Siete días es
+      poco para faltantes de inventario o para cualquier cosa que se descubra
+      tarde. Treinta suele ser el punto razonable. Confirma también qué pasa al
+      vencer el plazo y quién puede pedir una exportación.
   - q: ¿Qué pasa si se va el internet o la energía del inmueble?
     a: >-
-      Depende del respaldo con el que cuente el sistema instalado. Pregunta
-      específicamente qué ocurre con la conectividad y la energía de las
-      cámaras ante un corte, y qué respaldo tiene la propia central.
-  - q: ¿Puedo ver las cámaras yo también en tiempo real?
+      Es la pregunta que hay que hacer antes de firmar, no después. Averigua qué
+      respaldo tienen las cámaras y el enlace en tu inmueble, cuánto aguanta la
+      grabación local sin conexión, si la central recibe aviso de que el sitio se
+      cayó y qué respaldo de energía y de enlace tiene la propia central.
+  - q: ¿Qué pasa si detectan a alguien entrando de noche?
     a: >-
-      Consúltalo antes de firmar; el acceso remoto para el cliente varía
-      según el proveedor y no siempre está incluido en el plan base.
-  - q: ¿Qué modalidad de permiso debe amparar este servicio?
+      El operador verifica la imagen y sigue lo acordado: activar audio
+      disuasivo, avisar al contacto designado, pedir apoyo de la unidad de
+      patrullaje o marcar a la autoridad. Todo eso se decide antes, en frío, y
+      queda firmado. En el momento nadie tiene tiempo de deliberar.
+  - q: ¿Cómo sé si de verdad hay alguien viendo mi cámara?
     a: >-
-      El permiso de la empresa debe cubrir expresamente monitoreo o
-      vigilancia remota. Pide el documento y revisa la modalidad y su
-      vigencia antes de contratar.
-  - q: ¿En qué zonas presta este servicio Virelta?
+      Pide la bitácora de rondines virtuales y compárala contra un día que
+      conozcas. Camina el perímetro un martes a las once de la noche y espera a
+      ver si te marcan. Y revisa la columna de falsas alarmas del reporte: si es
+      cero mes tras mes, no es que el sistema sea perfecto, es que nadie está
+      clasificando nada. Sobre el acceso remoto para ti, consúltalo antes de
+      firmar, porque no siempre viene incluido en el plan base.
+  - q: ¿Funciona con las cámaras que ya tengo instaladas?
     a: >-
-      La empresa declara cobertura en Miguel Hidalgo, Cuauhtémoc, Benito
-      Juárez, Álvaro Obregón, Coyoacán y Tlalpan en la CDMX, y en Naucalpan,
-      Huixquilucan, Tlalnepantla, Atizapán y Cuautitlán Izcalli en el Estado
-      de México.
-  - q: ¿Cuántas cámaras puede atender un operador a la vez?
-    a: Depende de cuántas estén configuradas para generar eventos y no solo para grabar. Un operador frente a decenas de pantallas en vivo deja de ver, y lo que sostiene el servicio es la detección por evento y un protocolo claro de qué hacer con cada uno, no el número de monitores.
+      En la mayoría de los casos sí. Virelta declara evaluar el equipo existente
+      durante el levantamiento y conectar lo compatible; lo que no lo sea se
+      cotiza aparte. Pide que te digan cuáles sirven y cuáles no antes de firmar
+      el contrato de monitoreo, no después.
+  - q: ¿Se puede combinar con guardia o con patrullaje?
+    a: >-
+      Es la combinación que mejor funciona. La central detecta y verifica; el
+      guardia en sitio o la unidad en ruta son quienes llegan. Lo importante es
+      que el protocolo de escalamiento diga a quién se le habla primero, porque
+      llamar al comité antes que al elemento cuesta minutos que no sobran.
+  - q: ¿Qué modalidad del permiso ampara este servicio?
+    a: >-
+      La de monitoreo o vigilancia remota, según cómo esté redactado el permiso.
+      Pide el documento, confirma que la modalidad aparezca expresamente listada
+      y revisa la vigencia. Un permiso que solo ampara vigilancia con personal en
+      sitio no cubre la operación de una central.
+  - q: ¿En qué zonas presta Virelta este servicio?
+    a: >-
+      La empresa declara cobertura en la CDMX y el Estado de México. Buena parte
+      de las cuentas de monitoreo están en el corredor Roma Norte, Condesa,
+      Escandón, Mixcoac, Narvarte, Portales y Xoco, y del lado del Estado de
+      México en Vista Hermosa y Metepec centro. Como el servicio se opera desde
+      central, la ubicación importa menos que la conectividad del inmueble.
 ---
 
-## Una cámara que nadie ve no es vigilancia, es una grabación
+## Grabar y monitorear son dos negocios distintos
 
-Casi toda la publicidad de CCTV vende resolución, número de cámaras y
-almacenamiento en la nube. Son datos técnicos del equipo, no del servicio. Una
-cámara graba sola; lo que convierte esa grabación en vigilancia es que alguien
-la esté viendo cuando el evento ocurre, no cuando ya pasó.
+La publicidad de CCTV vende resolución, número de cámaras y almacenamiento en la
+nube. Los tres son datos del equipo. Ninguno describe el servicio. Una grabadora
+funciona sola, sin quejarse y sin avisarle a nadie: acumula. Lo que convierte esa
+acumulación en vigilancia es que alguien esté mirando durante el evento, no tres
+días después con el ajustador sentado enfrente.
 
-Por eso el sistema más caro y con más megapíxeles no protege nada si nadie lo
-supervisa en vivo. Y el sistema modesto con un operador que verifica cada
-evento y sigue un protocolo definido sí lo hace. La pregunta que debería
-encabezar cualquier cotización de CCTV no es cuántas cámaras trae el paquete:
-es quién las está viendo y qué hace cuando ve algo.
+De ahí sale la asimetría que confunde a casi todo el mundo cuando compara
+cotizaciones. Instalar cámaras es una compra única, un CAPEX que se amortiza y se
+olvida. Monitorearlas en vivo es un servicio con turnos, nómina, supervisión y
+protocolo, que se paga todos los meses. Cuando dos propuestas se separan mucho en
+precio, casi siempre es porque una incluye a la persona y la otra solo el fierro.
+No es que una sea cara: es que están vendiendo cosas distintas con el mismo
+nombre.
 
-## La pregunta que ordena todo: ¿quién ve la cámara cuando pasa algo?
+Y hay un tercer escenario, el más común de todos: el inmueble que sí tiene
+pantallas en sitio, en la caseta o en la recepción, y que asume que eso es
+monitoreo. No lo es. El guardia que atiende una entrada tiene una fila enfrente,
+un teléfono sonando y una pluma que subir. Mira la pantalla de reojo. Si su
+trabajo real es filtrar quien entra, ese es su trabajo, y hay que resolverlo con
+[guardias intramuros](/categorias/seguridad-privada/cdmx/virelta-seguridad-privada/guardias-intramuros/)
+o con una posición de acceso dedicada, no cargándole encima una función que
+requiere estar sentado sin interrupciones.
 
-Si la respuesta es «la grabación queda guardada por si acaso», el sistema es
-un archivo, no una vigilancia. Si la respuesta es «un operador la está viendo
-en ese momento y sigue un protocolo», es un servicio.
+## La verificación es el servicio; la cámara es el sensor
 
-Esa diferencia también decide el precio. Instalar cámaras es una compra única;
-monitorearlas en vivo es un servicio continuo que requiere personal, turnos y
-un protocolo escrito. Cuando dos cotizaciones separan mucho en precio, casi
-siempre es porque una incluye la supervisión y la otra solo el equipo.
+Todo el valor del monitoreo remoto está concentrado en un paso de once segundos:
+lo que hace el operador entre que entra la alerta y que decide. Ese paso se llama
+verificación de evento y es lo que separa una central que sirve de una que
+genera ruido. Sin verificación, el sistema reacciona igual ante alguien saltando
+la barda que ante una lona suelta con viento, y el cliente que recibe cuatro
+llamadas por noche deja de contestar en menos de una semana. A partir de ese
+momento el servicio existe en la factura y no en la realidad.
 
-## Qué pedir en la propuesta
+La verificación tampoco funciona sola. Necesita el protocolo, que es el documento
+donde el cliente escribió, evento por evento, qué quiere que pase. Una puerta
+abierta a la hora del cierre no es lo mismo que un vehículo estacionado tres
+noches frente al andén, y ninguno de los dos es lo mismo que dos personas
+cruzando el patio a las cuatro de la mañana. Cada categoría lleva su acción, su
+lista de contactos y su tiempo. Ahí es donde el monitoreo se cruza con el
+[monitoreo de alarmas](/categorias/seguridad-privada/cdmx/virelta-seguridad-privada/monitoreo-de-alarmas/):
+el sensor dispara, la cámara confirma, y el mismo protocolo decide si esto
+termina en una llamada al gerente o en una unidad en camino.
 
-Antes de comparar precios, pide que la propuesta especifique:
+Lo último que hay que entender del protocolo es que caduca. Cambia la mesa
+directiva en la asamblea de marzo, se va el gerente de planta, el contacto de
+noche cambia de número. Un protocolo con teléfonos de hace dos años es papel.
+Revísalo cuando cambie cualquiera de esos nombres, y si el proveedor no te lo
+pide él mismo una vez al año, ya sabes cuánta atención le está poniendo a tu
+cuenta.
 
-- **Los puntos ciegos** del levantamiento, no solo lo que sí cubren las cámaras.
-- **El tiempo de verificación y de escalamiento**, por separado y con número.
-- **El protocolo de escalamiento** completo: a quién se avisa, en qué orden y qué puede decidir el operador sin consultar.
-- **El periodo de retención de la grabación** y qué pasa al vencerse.
-- **El respaldo de conectividad y energía** de la central y del inmueble.
-- **La modalidad que ampara el permiso** —monitoreo o vigilancia remota— y su vigencia.
-- **La carátula de la póliza** de responsabilidad civil.
+## Cómo se ve la diferencia en la propuesta
 
-Un proveedor formal entrega esos puntos sin que insistas. El que solo cotiza
-cámaras y almacenamiento está vendiendo equipo, no vigilancia.
+Cuando tengas dos o tres cotizaciones enfrente, no las compares por el total ni
+por el número de cámaras. Compáralas por lo que sigue, que es donde se nota si
+alguien fue al inmueble o si te mandaron una plantilla. Si el inmueble es grande
+o tiene varios usos conviviendo, conviene además pedir un
+[análisis de riesgos](/categorias/seguridad-privada/cdmx/virelta-seguridad-privada/analisis-de-riesgos/)
+antes de decidir cuántas cámaras y dónde: sale más barato mover un punto en el
+plano que reinstalarlo después del primer evento.
 
-## Qué revisar antes de firmar
+Y si prefieres empezar por lo práctico: mándanos por WhatsApp fotos de tu cuarto
+de rack y del plano del inmueble, y te decimos qué de lo que ya tienes sirve
+antes de que hablemos de contrato.
 
-1. Documento del permiso, con la modalidad de monitoreo y su vigencia legibles.
-2. Registro REPSE si aplica.
-3. Comprobante de alta del personal ante IMSS e INFONAVIT.
-4. Póliza de responsabilidad civil vigente.
-5. Un reporte de eventos de muestra, para ver qué nivel de detalle entregan.
-6. Nombre y contacto del supervisor de central asignado.
+| Qué preguntas | Venta de equipo | Monitoreo con operador |
+|---|---|---|
+| Quién mira la imagen a las 3 a. m. | Nadie; queda grabado | Un operador de turno en la central |
+| Cuándo te enteras | Cuando alguien revisa el video | Mientras el evento ocurre |
+| Qué pasa con una alerta | Se registra en el equipo | Se verifica, se clasifica y se escala |
+| Puntos ciegos | No aparecen en la propuesta | Vienen señalados en el levantamiento |
+| Retención de video | «Depende del disco» | Días pactados por escrito |
+| A quién le marcan | A ti, si acaso | A la lista firmada, en el orden pactado |
+| Qué recibes cada mes | Nada | Reporte de eventos, acciones y falsas alarmas |
+| Cómo se cobra | Una sola vez | Mensual, porque hay gente en turno |
 
-> El alcance de este servicio, sus acreditaciones y su cobertura los declara
-> Virelta Seguridad Privada. TuSeguridad no interviene en la contratación:
-> antes de firmar, solicita los documentos y confirma su vigencia y la
-> modalidad que amparan.
+> Esta página describe lo que Virelta Seguridad Privada declara sobre su servicio,
+> sus permisos y su cobertura. TuSeguridad publica esa declaración, no la
+> certifica, y no participa en la relación contractual entre las partes. La
+> retención de video y el tratamiento de las imágenes tienen implicaciones legales
+> que deben revisarse con un abogado: solicita los documentos, verifica vigencias
+> y deja por escrito quién puede consultar y exportar las grabaciones.

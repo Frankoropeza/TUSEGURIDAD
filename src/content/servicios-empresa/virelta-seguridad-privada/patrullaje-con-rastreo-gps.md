@@ -3,193 +3,219 @@ empresa: virelta-seguridad-privada
 slug: patrullaje-con-rastreo-gps
 nombre: Patrullaje con rastreo GPS
 titulo: Patrullaje con rastreo GPS en CDMX y Estado de México
-tituloSeo: Patrullaje con rastreo GPS en CDMX y Edomex
+tituloSeo: Patrullaje con GPS comprobable, CDMX y Edomex
 descripcion: >-
-  Rondines externos en unidad vehicular con rastreo GPS, puntos de control
-  marcados y reporte de recorridos por turno en CDMX y Estado de México.
+  Rondines externos en unidad con ruta pactada, puntos de control marcados y
+  reporte de recorridos por turno que puedes contrastar contra lo contratado.
 orden: 4
 titulos:
-  incluye: Qué pasa en cada recorrido
-  modalidades: Formas de contratar el patrullaje
-  paraQuien: Dónde rinde más un rondín vehicular
-  proceso: Del trazado de ruta al primer recorrido
-  errores: Errores que convierten el rondín en un paseo
-  glosario: Términos que vas a ver en el reporte
-  faq: Dudas sobre patrullaje y rastreo GPS
+  incluye: Qué hacemos en cada cruce
+  modalidades: Cuatro formas de contratarlo
+  paraQuien: ¿A qué inmueble le rinde un rondín en unidad?
+  proceso: De caminar el perímetro al primer reporte
+  errores: El rondín declarado que nunca ocurrió
+  glosario: Vocabulario del reporte
+  faq: Lo que preguntan los comités antes de firmar
 intro: >-
-  Rondines externos en unidad vehicular sobre una ruta trazada con el cliente,
-  con puntos de control definidos y seguimiento GPS de la unidad. Virelta declara
-  prestarlo con registro de paso por punto y reporte de recorridos por turno, de
-  modo que la frecuencia contratada se pueda comparar contra la frecuencia real.
-  El valor del servicio no está en que un vehículo circule, sino en que quede
-  constancia de a qué hora se tocó cada punto y qué se encontró ahí.
+  Recorridos externos en unidad, sobre una ruta que trazamos contigo y no sobre
+  lo que se le ocurra al operador esa noche. Cada punto de control se marca, el
+  rastreo sella hora y coordenada, y al cierre del turno llega la relación de
+  cruces para que la compares contra lo que firmaste. Virelta declara prestar el
+  servicio con seguimiento satelital de la unidad. El valor no está en que un
+  vehículo dé vueltas. Está en que quede constancia de a qué hora se tocó cada
+  punto y qué se encontró ahí.
 stats:
   - k: Cobertura
     v: CDMX · Edomex
+  - k: Seguimiento
+    v: GPS por unidad
   - k: Atención
     v: 24 h
 incluye:
-  - titulo: Ruta y puntos de control definidos
+  - titulo: Ruta trazada contigo
     texto: >-
-      El recorrido no se improvisa. Se traza con el cliente qué perímetro cubre,
-      en qué orden y cuántos puntos de control toca la unidad en cada cruce. Ese
-      trazo es la unidad de medida del servicio.
-  - titulo: Registro de paso por punto
+      Nos sentamos con el administrador y el jefe de mantenimiento a decidir qué
+      perímetro entra, en qué orden se recorre y dónde queda cada punto. Ese
+      trazo es la unidad de medida del contrato. Todo lo que se reclame después
+      se reclama contra ese papel.
+  - titulo: Punto de control marcado
     texto: >-
-      El elemento marca su paso en cada punto de control y el rastreo sella hora
-      y ubicación. Un recorrido sin puntos marcados es un trayecto, no un rondín.
-  - titulo: Verificación fuera de la unidad
+      El elemento marca su paso y el sistema sella hora y ubicación. Un recorrido
+      sin puntos marcados es un trayecto.
+  - titulo: Bajarse de la unidad
     texto: >-
-      En los puntos críticos el elemento desciende y revisa lo que se acordó:
-      accesos de servicio, candados, portones, luminarias, tapias y áreas sin
-      ocupación. Lo que se revisa desde la ventanilla no se revisó.
-  - titulo: Horarios variables dentro de la ventana
+      En los puntos que se acordaron como críticos el elemento desciende, camina
+      el tramo, empuja el portón para confirmar que cerró, revisa candados,
+      luminarias, tapias, cuartos de máquinas y accesos de servicio. Lo que se
+      mira desde la ventanilla con el motor encendido no se revisó, se pasó
+      cerca.
+  - titulo: Horarios sin patrón
     texto: >-
-      Los cruces se distribuyen sin patrón fijo dentro de la ventana contratada.
-      Un rondín que pasa siempre a la misma hora le enseña a cualquiera cuál es
-      el hueco.
+      Los cruces se reparten dentro de la ventana contratada sin repetir la
+      misma hora. Un rondín que pasa a las 2:00, a las 4:00 y a las 6:00 en punto
+      no disuade a nadie: publica el horario en que el inmueble está solo.
   - titulo: Bitácora de novedades por recorrido
     texto: >-
-      Cada cruce deja constancia de lo encontrado, no solo de que se pasó:
-      luminaria fundida, portón sin asegurar, vehículo ajeno, persona en
-      situación irregular.
+      Cada cruce deja constancia de lo encontrado, no solo de que se pasó.
+      Luminaria fundida al fondo del andador, portón sin asegurar, camioneta
+      ajena estacionada tres noches seguidas, gente pernoctando en el frente
+      poniente. Ese cuaderno es lo que después vale ante un seguro o una
+      asamblea.
   - titulo: Escalamiento ante hallazgo
     texto: >-
-      Se define por escrito a quién se avisa, en qué orden y con qué margen de
-      tiempo, y qué queda a cargo de la unidad mientras llega la respuesta.
-  - titulo: Reporte de recorridos por turno
+      A quién se avisa, en qué orden, con qué margen de tiempo y qué hace la
+      unidad mientras llega la respuesta. Acordado antes, no a las tres de la
+      mañana.
+  - titulo: Reporte contrastable contra lo contratado
     texto: >-
-      Al cierre del turno se entrega la relación de cruces con hora y punto,
-      comparable contra la frecuencia contratada. Sin ese contraste no hay forma
-      de saber si el servicio se prestó completo.
+      Al cierre del turno entregamos la relación de cruces con hora y punto, al
+      lado de la frecuencia que dice el contrato. Si pactamos ocho pasadas y
+      salieron seis, se ve en la misma hoja. Un reporte que no permite ese
+      contraste sirve para archivar, no para supervisar.
 modalidades:
   - titulo: Unidad exclusiva
     texto: >-
-      La unidad atiende un solo inmueble durante el turno. Es la modalidad con
-      mayor frecuencia real y la única que permite pactar un número alto de
-      cruces por hora.
+      La unidad se queda con tu inmueble todo el turno. Es la única modalidad
+      donde tiene sentido pactar frecuencias altas, y la más cara por razones
+      obvias.
   - titulo: Ruta compartida
     texto: >-
-      La unidad cubre varios inmuebles cercanos con una frecuencia pactada por
-      cliente. Cuesta menos y es razonable para perímetros chicos, pero exige
-      dejar por escrito cuántos cruces te tocan.
-  - titulo: Rondín nocturno
+      La unidad cubre varios inmuebles cercanos con una frecuencia pactada para
+      cada uno. Cuesta bastante menos y es razonable en perímetros chicos.
+      Exigimos dejar por escrito cuántos cruces te tocan a ti, porque es
+      exactamente el dato que se presta al malentendido.
+  - titulo: Solo nocturno
     texto: >-
-      Solo la franja de mayor exposición, típicamente entre el cierre y el
-      amanecer. Es la modalidad de entrada más frecuente en fraccionamientos.
-  - titulo: Refuerzo por periodo
+      Del cierre al amanecer, que es cuando pasa casi todo. Es la puerta de
+      entrada más frecuente en fraccionamientos y la que recomendamos si el
+      presupuesto no alcanza para más: preferimos cubrir bien la noche que
+      simular veinticuatro horas.
+  - titulo: Refuerzo por temporada
     texto: >-
-      Cobertura acotada a una temporada concreta: obra en curso, vacaciones,
-      inventario, cierre de ejercicio o un inmueble desocupado en transición.
+      Cobertura acotada a un periodo concreto: obra en curso, inventario, el
+      puente de noviembre, la quincena de diciembre en que se vacía media
+      privada, un inmueble desocupado en transición de administración.
 paraQuien:
   - titulo: Fraccionamientos y privadas horizontales
     texto: >-
-      Perímetros largos con muchos frentes y poca ocupación nocturna. Un rondín
-      vehicular cubre en minutos lo que a pie tomaría todo el turno.
+      Perímetros de cientos de metros con muchos frentes y poca gente despierta
+      después de medianoche. Una unidad cubre en once minutos lo que a pie
+      consume el turno completo.
   - titulo: Condominios con estacionamiento extenso
     texto: >-
-      Sótanos, cajones exteriores y áreas comunes alejadas de la caseta, que
-      quedan fuera del alcance del guardia de acceso.
-  - titulo: Naves, parques industriales y patios
+      Sótanos de dos y tres niveles, cajones exteriores, azotea y áreas comunes
+      lejos de la caseta. Es el territorio que el guardia de acceso no puede
+      abandonar para ir a revisar.
+  - titulo: Naves, patios y parques industriales
     texto: >-
-      Bardas largas, andenes y patios de maniobra donde el riesgo está en el
-      perímetro y no en la puerta.
-  - titulo: Predios, obra y unidades desocupadas
+      Bardas largas, andenes, patios de maniobra y lotes de materia prima a
+      cielo abierto. El riesgo está en el perímetro, no en la puerta.
+  - titulo: Obra y predios desocupados
     texto: >-
-      Inmuebles sin ocupación permanente, donde no se justifica un guardia fijo
-      pero sí la constancia de que alguien pasa y revisa.
-  - titulo: Conjuntos de sucursales o locales
+      Frentes de trabajo sin ocupación nocturna, terrenos en espera de licencia,
+      edificios entre la entrega y la primera mudanza. No justifican guardia
+      fijo, sí justifican constancia de que alguien pasó y revisó.
+  - titulo: Cadenas de sucursales
     texto: >-
-      Varios puntos dispersos de un mismo cliente, atendidos por una ruta con
-      frecuencia pactada para cada uno.
-  - titulo: Inmuebles que ya tienen guardia intramuros
-    texto: >-
-      El patrullaje cubre el exterior y el perímetro sin desatender el acceso.
-      Los dos servicios se complementan, no se sustituyen.
+      Varios puntos dispersos del mismo cliente, atendidos con una ruta y una
+      frecuencia pactada para cada dirección.
 proceso:
-  - titulo: Recorrido de reconocimiento
+  - titulo: Caminar el perímetro
     texto: >-
-      Se camina el perímetro con el cliente para identificar accesos de servicio,
-      tramos ciegos, luminarias, tapias bajas y las horas en que el inmueble
-      queda solo.
-  - titulo: Trazado de ruta y puntos de control
+      A pie y de noche, que es cuando se ve. Accesos de servicio olvidados,
+      tramos sin luz, tapias que se saltan con una jardinera de escalón, la hora
+      en que se va el último coche.
+  - titulo: Trazar la ruta y elegir los puntos
     texto: >-
-      Se fija el orden del recorrido y se eligen los puntos que la unidad tiene
-      que marcar. Se escogen por riesgo, no por comodidad de estacionamiento.
-  - titulo: Propuesta con frecuencia y ventana
+      Se fija el orden del recorrido y se eligen los puntos que la unidad debe
+      marcar. Se escogen por riesgo, no por dónde es cómodo estacionarse.
+  - titulo: Cotizar con número de cruces y ventana
     texto: >-
-      La cotización especifica cruces por turno, ventana horaria y modalidad
-      —exclusiva o compartida—. Sin esos tres datos no hay nada que reclamar
-      después.
+      La propuesta dice cuántas pasadas por turno, en qué franja horaria y bajo
+      qué modalidad. Sin esos tres datos no hay nada exigible después.
   - titulo: Alta de unidad y rastreo
     texto: >-
-      Se asigna la unidad, se da de alta el seguimiento GPS y se acuerda cómo y
-      cada cuándo llega el reporte, y a quién.
-  - titulo: Primer turno y ajuste
+      Se asigna la unidad, se da de alta el seguimiento y se define cómo llega el
+      reporte, cada cuándo y a qué correo o grupo.
+  - titulo: Definir el escalamiento
     texto: >-
-      Con los primeros reportes en mano se corrigen puntos mal ubicados, tiempos
-      de permanencia y horarios que quedaron predecibles.
+      Los teléfonos, el orden de llamada y los tiempos. Incluye a quién se le
+      marca a las cuatro de la mañana y a quién se le espera hasta las ocho.
+  - titulo: Primer mes y ajuste
+    texto: >-
+      Con los reportes en la mano corregimos puntos mal ubicados, tiempos de
+      permanencia demasiado cortos y horarios que se volvieron predecibles sin
+      querer. Casi siempre hay algo que mover.
 errores:
   - titulo: Contratar rondines sin número
     texto: >-
-      «Rondines periódicos» no es una obligación exigible. Si la propuesta no
-      dice cuántos cruces por turno y en qué ventana, no existe incumplimiento
-      posible ni descuento que reclamar.
-  - titulo: Tomar el GPS como prueba de revisión
+      «Rondines periódicos» no obliga a nada. Puede ser uno cada media hora o uno
+      cada tres, y las dos cosas caben en la misma frase. Sin cifra no hay
+      incumplimiento que reclamar ni descuento que pedir.
+  - titulo: Creerle al mapa
     texto: >-
-      El rastreo demuestra que la unidad pasó por una coordenada, no que alguien
-      bajó a revisar. Sin puntos de control marcados y bitácora de novedades, el
-      reporte es un mapa bonito y nada más.
-  - titulo: Ruta con horario fijo
+      La traza satelital dice que la unidad estuvo en una coordenada. No dice si
+      alguien bajó. Sin puntos marcados y sin bitácora, ese mapa es una obra de
+      arte y nada más.
+  - titulo: Ruta con horario de reloj
     texto: >-
-      Un recorrido a la misma hora todas las noches deja de ser disuasivo al
-      tercer día: enseña con precisión cuál es la ventana libre.
-  - titulo: No leer el reporte los primeros meses
+      Miércoles, tres de la mañana, privada en Héroes de Padierna. El reporte de
+      esa semana muestra la camioneta cruzando a las 2:58, 2:57 y 2:59. Alguien
+      más también lo notó: al cuarto día se llevaron dos baterías del cuarto de
+      bombas a las 3:10. La regularidad que tranquiliza al comité es la misma que
+      orienta al que está midiendo.
+  - titulo: Puntos elegidos por comodidad
     texto: >-
-      El patrullaje que nadie audita se degrada solo. Los cruces se recortan,
-      los tiempos se acortan y nadie lo nota hasta que ocurre algo.
-  - titulo: Puntos de control mal elegidos
+      Cuando el punto se marca donde hay dónde parar, el recorrido cumple en
+      papel y deja intactos justo los frentes por donde se entra.
+  - titulo: No abrir el reporte los primeros meses
     texto: >-
-      Cuando los puntos se marcan donde es cómodo detenerse, el recorrido cumple
-      en papel y deja sin revisar justo los frentes que importan.
-  - titulo: Compartir la unidad sin saberlo
+      El patrullaje que nadie audita se encoge solo. Primero se recortan los
+      tiempos de permanencia, luego desaparece un cruce, luego dos. Nadie se
+      entera hasta que hay algo que lamentar.
+  - titulo: Compartir la unidad sin enterarte
     texto: >-
-      Si la unidad atiende varios inmuebles y el contrato no lo dice, la
-      frecuencia real es una fracción de la que se imaginó al firmar.
+      Si la unidad atiende cuatro inmuebles y el contrato no lo menciona, tu
+      frecuencia real es una cuarta parte de la que imaginaste al firmar.
 glosario:
   - termino: Punto de control
     definicion: >-
-      Ubicación fija del recorrido donde la unidad tiene que marcar su paso. Es
-      lo que convierte un trayecto en un rondín medible.
+      Ubicación fija donde la unidad tiene que marcar su paso. Es lo que
+      convierte un trayecto en un rondín medible.
   - termino: Frecuencia de cruce
     definicion: >-
-      Cuántas veces pasa la unidad por el inmueble en un turno. Es el número que
-      determina el precio y el que casi nunca aparece por escrito.
+      Cuántas veces pasa la unidad por tu inmueble en un turno. Determina el
+      precio y casi nunca aparece por escrito.
+  - termino: Ventana horaria
+    definicion: >-
+      La franja dentro de la cual se reparten los cruces. Contratar «de 22:00 a
+      06:00» no es lo mismo que contratar «ocho pasadas entre 22:00 y 06:00».
   - termino: Ruta exclusiva y ruta compartida
     definicion: >-
-      En la exclusiva la unidad atiende un solo cliente durante el turno; en la
+      En la exclusiva la unidad atiende un solo cliente durante el turno. En la
       compartida reparte los cruces entre varios inmuebles cercanos.
   - termino: Geocerca
     definicion: >-
-      Perímetro virtual que se dibuja sobre el mapa. El sistema avisa cuando la
-      unidad entra o sale de él, útil para verificar cobertura sin revisar todo
-      el trayecto.
+      Perímetro virtual dibujado sobre el mapa. El sistema avisa cuando la unidad
+      entra o sale de él, lo que permite verificar cobertura sin leer todo el
+      trayecto.
   - termino: Tiempo de permanencia
     definicion: >-
-      Cuánto se detiene la unidad en cada punto. Un rondín con permanencia de
-      segundos es un paso, no una revisión.
+      Cuánto se detiene la unidad en cada punto. Once segundos es un paso.
+      Cuatro minutos es una revisión.
   - termino: Bitácora de novedades
     definicion: >-
-      Registro de lo encontrado en cada recorrido. Es el documento que sirve
-      ante un seguro, una asamblea o una denuncia; el rastreo por sí solo no lo
-      sustituye.
+      Lo encontrado en cada recorrido. Es el documento que sirve ante el seguro,
+      la asamblea o una denuncia. El rastreo por sí solo no lo sustituye.
 entregables:
   - Ruta trazada con sus puntos de control
   - Reporte de recorridos por turno con hora y punto
+  - Contraste de cruces reales contra cruces contratados
   - Bitácora de novedades del periodo
-  - Registro de rastreo GPS de la unidad
+  - Respaldo del rastreo GPS de la unidad
   - Protocolo de escalamiento con contactos y tiempos
-  - Datos de la unidad y del supervisor asignado
+  - Datos de la unidad, placas y elemento asignado
+  - Nombre y teléfono directo del supervisor de ruta
 galeria:
   - patrullaje-fraccionamiento:1
   - patrullaje-condominio-vertical:4
@@ -198,119 +224,163 @@ galeria:
   - patrullaje-fraccionamiento:3
   - vigilancia-planta-industrial:3
 faq:
-  - q: ¿Qué diferencia hay entre patrullaje y guardia intramuros?
-    a: >-
-      El guardia intramuros permanece en un punto del inmueble durante todo el
-      turno; el patrullaje recorre el perímetro en unidad vehicular y solo está
-      presente en cada cruce. Uno da presencia continua en un lugar, el otro da
-      cobertura amplia de forma intermitente.
   - q: ¿Cuántos recorridos por turno conviene contratar?
     a: >-
-      Depende del tamaño del perímetro y de cuánto tiempo estés dispuesto a
-      dejar sin cobertura. Lo importante no es el número en abstracto, sino que
-      quede escrito en la propuesta y se pueda contrastar contra el reporte.
+      Depende del tamaño del perímetro y de cuánto hueco estés dispuesto a
+      aceptar. Con cruces cada dos horas, tu inmueble pasa unos ciento diez
+      minutos sin nadie cerca entre pasada y pasada. Saberlo permite decidir con
+      criterio: subir la frecuencia, meter cámaras o poner guardia en el acceso.
+      Lo que no sirve es un número en abstracto que nadie escribió.
+  - q: ¿Cuánto tiempo se queda la unidad en cada punto?
+    a: >-
+      Lo que se haya pactado como tiempo de permanencia, y conviene pactarlo por
+      punto y no en general. Bajar, caminar veinte metros y revisar un portón no
+      cabe en treinta segundos. Pide que el reporte muestre la permanencia y no
+      solo la hora de paso.
+  - q: ¿Cómo sé si el rondín de anoche de verdad ocurrió?
+    a: >-
+      Con tres cosas juntas y no con una. El respaldo del rastreo prueba que la
+      unidad estuvo, los puntos marcados prueban que alguien bajó, y la bitácora
+      dice qué encontró. Si te entregan solo el mapa, te están entregando un
+      tercio del servicio.
+  - q: ¿Qué pasa si la unidad encuentra algo?
+    a: >-
+      Lo que fije el protocolo de escalamiento: dejar constancia, avisar al
+      contacto designado en el orden pactado y permanecer en sitio o continuar
+      la ruta, según lo convenido. Ese documento se firma antes de arrancar. En
+      caliente nadie improvisa bien.
+  - q: ¿Qué pasa si se descompone la unidad o falla el rastreo?
+    a: >-
+      Debe estar previsto en el contrato: en cuánto tiempo se repone la unidad,
+      cómo se acredita el recorrido mientras el equipo no reporta y si esas horas
+      se bonifican. Es una pregunta incómoda que conviene hacer antes de firmar y
+      no la noche que ocurre.
   - q: ¿El rastreo GPS demuestra que revisaron el inmueble?
     a: >-
-      No. Demuestra que la unidad estuvo en esa coordenada a esa hora. Lo que
-      acredita la revisión es el registro de paso por punto de control y la
-      bitácora de novedades del recorrido.
+      No. Demuestra que un vehículo estuvo en esa coordenada a esa hora. La
+      revisión la acredita el registro de paso por punto de control y lo que
+      quedó anotado en la bitácora.
   - q: ¿Puedo ver el recorrido en tiempo real?
     a: >-
       Consúltalo antes de firmar. El acceso en vivo, el histórico y la forma de
-      entrega del reporte varían por proveedor y por modalidad contratada.
+      entrega del reporte cambian según el proveedor y la modalidad contratada.
   - q: ¿La unidad es exclusiva de mi inmueble?
     a: >-
-      Solo si contrataste unidad exclusiva. En ruta compartida la unidad atiende
-      varios inmuebles cercanos, y ahí lo que se contrata es un número de cruces,
-      no la unidad completa.
-  - q: ¿Qué hace la unidad si encuentra algo?
+      Solo si contrataste unidad exclusiva. En ruta compartida lo que compras es
+      un número de cruces, no el vehículo completo, y el contrato debe decir con
+      cuántos inmuebles lo compartes.
+  - q: ¿En qué se diferencia del guardia intramuros?
     a: >-
-      Lo que fije el protocolo de escalamiento acordado: dejar constancia en
-      bitácora, avisar al contacto designado en el orden pactado y permanecer o
-      continuar la ruta según lo convenido. Ese protocolo se define antes de
-      arrancar, no en el momento.
+      El guardia se queda dentro todo el turno y da presencia continua en un
+      lugar. La unidad recorre y solo está presente en cada cruce. Uno cubre
+      hondo, el otro cubre ancho. En perímetros grandes suelen ir juntos.
   - q: ¿El patrullaje sustituye la caseta de acceso?
     a: >-
-      No. El patrullaje cubre perímetro y exterior; el control de accesos filtra
-      quién entra. En inmuebles con ingreso frecuente se contratan juntos.
-  - q: ¿Se puede combinar con CCTV o monitoreo de alarmas?
+      No. La unidad cubre perímetro y exterior; el control de accesos filtra
+      quién entra. En inmuebles con ingreso frecuente se contratan los dos, y la
+      consigna se escribe para que se coordinen en vez de duplicarse.
+  - q: ¿Se puede combinar con cámaras o con alarmas?
     a: >-
-      Sí, y es la combinación más común. La cámara o la alarma detecta, y la
-      unidad en ruta es la que verifica en sitio; el orden de aviso queda en el
-      mismo protocolo de escalamiento.
-  - q: ¿Qué modalidad de permiso debe amparar este servicio?
+      Sí, y es lo más común. La cámara o el sensor detectan, la unidad en ruta
+      verifica en sitio. Lo que hay que amarrar es el orden de aviso dentro del
+      mismo protocolo de escalamiento, para que la central no llame al comité
+      antes que a la unidad que está a cuatro cuadras.
+  - q: ¿Qué modalidad del permiso ampara este servicio?
     a: >-
-      El permiso de la empresa debe cubrir expresamente la modalidad de
-      vigilancia y protección de bienes con unidad móvil. Pide el documento y
-      revisa la modalidad y su vigencia antes de firmar.
-  - q: ¿En qué zonas presta este servicio Virelta?
+      La de vigilancia y protección de bienes con unidad móvil. Pide el documento
+      del permiso, revisa que esa modalidad aparezca expresamente y confirma la
+      vigencia antes de firmar.
+  - q: ¿En qué zonas presta Virelta este servicio?
     a: >-
-      La empresa declara cobertura en Miguel Hidalgo, Cuauhtémoc, Benito Juárez,
-      Álvaro Obregón, Coyoacán y Tlalpan en la CDMX, y en Naucalpan,
-      Huixquilucan, Tlalnepantla, Atizapán y Cuautitlán Izcalli en el Estado de
-      México.
-  - q: ¿Qué debe entregar el proveedor para comprobar los recorridos?
-    a: El reporte de puntos de control marcados con su hora, la bitácora de novedades del turno y el respaldo del rastreo. Los tres juntos, porque el rastreo prueba que la unidad estuvo, los puntos de control prueban que alguien bajó a revisar y la bitácora dice qué encontró.
-  - q: ¿Conviene que los recorridos sean a la misma hora todos los días?
-    a: No. Un rondín con horario fijo se aprende desde afuera en una semana y deja ventanas predecibles entre pasadas. Pide que la propuesta indique cuántos cruces por turno con horario variable, en vez de una hora exacta de paso.
+      La empresa declara cobertura en la CDMX y el Estado de México. En la zona
+      sur trabaja rutas por Jardines del Pedregal, Héroes de Padierna, Tlalpan
+      centro y Coyoacán centro; en el norponiente del Estado de México, por
+      Bosque Real, Zona Esmeralda, Lomas Verdes y Satélite. Confirma tu dirección
+      antes de pedir la propuesta, porque la ruta compartida depende de qué otros
+      inmuebles queden cerca.
 ---
 
-## El GPS prueba que la unidad pasó, no que alguien revisó
+## El mapa prueba que el coche pasó, no que alguien revisó
 
-Casi toda la publicidad de patrullaje vende lo mismo: la pantalla con el mapa y
-la ruta dibujada. Es lo más fácil de mostrar y lo menos útil de contratar. El
-rastreo satelital resuelve una sola pregunta —dónde estuvo el vehículo y a qué
-hora— y esa pregunta rara vez es la que importa cuando algo pasa.
+Toda la publicidad de patrullaje enseña lo mismo: la pantalla con la línea roja
+sobre el mapa. Es lo más fácil de mostrar y lo menos útil de contratar. El
+rastreo satelital contesta una sola pregunta, dónde estuvo el vehículo y a qué
+hora, y esa rara vez es la pregunta que importa cuando amaneces con un portón
+forzado.
 
-La pregunta que sí importa es qué hizo el elemento en cada parada. Un rondín
-sirve cuando alguien baja de la unidad, camina el tramo ciego, empuja el portón
-para confirmar que cerró, ve la luminaria fundida del fondo y lo anota. Eso no
-lo captura un GPS: lo captura un punto de control con registro de paso y una
-bitácora de novedades que alguien lee al día siguiente.
+La pregunta que importa es qué hizo el elemento en cada parada. Un rondín sirve
+cuando alguien baja, camina el tramo ciego, empuja el portón, ve la luminaria
+fundida del fondo y lo anota. Nada de eso lo captura un GPS. Lo captura un punto
+de control con registro de paso y una bitácora que alguien lee al día siguiente
+con café en la mano.
 
-Por eso la ruta y sus puntos son la parte cara del servicio, y el rastreo es
-apenas el instrumento que sella la hora.
+Por eso la ruta y sus puntos son la parte cara del servicio. El rastreo es el
+instrumento que sella la hora, no el servicio.
 
-## La pregunta que ordena todo: ¿cuántos cruces por turno y a qué hora?
+## Cuántos cruces, en qué ventana y por qué no siempre a la misma hora
 
-Es la pregunta que casi nadie hace y la que decide si el servicio funciona.
-«Rondines periódicos» no significa nada: puede ser uno cada media hora o uno
-cada tres horas, y las dos cosas caben en la misma frase de una cotización.
+Es la conversación que casi ningún comité tiene y la que decide si el servicio
+funciona. «Rondines periódicos» no significa nada. El número sí, porque el número
+define el hueco: si la unidad cruza cada dos horas, hay ciento diez minutos en
+que tu privada está exactamente igual que si no hubieras contratado nada.
 
-Ese número, además, no es solo comercial: define el hueco. Si la unidad cruza
-cada dos horas, el inmueble está sin cobertura ciento y pico de minutos entre
-cruce y cruce. Saberlo permite decidir con criterio —subir la frecuencia,
-combinar con CCTV, poner guardia fijo en el acceso— en vez de pagar por una
-sensación de vigilancia.
+Con ese dato encima de la mesa ya se puede decidir. Subir la frecuencia. Dejarla
+como está y sumar
+[vigilancia remota por CCTV](/categorias/seguridad-privada/cdmx/virelta-seguridad-privada/vigilancia-remota-por-cctv/)
+para que el hueco lo cubra una cámara con operador. O poner
+[control de accesos](/categorias/seguridad-privada/cdmx/virelta-seguridad-privada/control-de-accesos/)
+en la entrada y bajarle a las pasadas. Cualquiera de las tres es defendible ante
+una asamblea. Pagar por una sensación no.
 
-Y una vez fijado el número, hay que fijar también que **no** sea siempre a la
-misma hora. Un rondín predecible es un horario publicado.
+Y una vez fijado el número, hay que fijar que no sea siempre a la misma hora.
+Esto choca con la intuición del comité, que quiere saber a qué hora pasa la
+camioneta. Un rondín predecible es un horario publicado, y el primero que lo
+aprende no es el residente.
 
-## Qué pedir en la propuesta
+## El fraude clásico: el rondín que solo existió en el reporte
 
-Antes de comparar precios, pide que la propuesta especifique:
+Es el vicio más viejo del ramo y sigue funcionando porque casi nadie audita.
+Funciona así: la propuesta promete doce cruces por turno, el primer mes se
+cumplen, el segundo salen diez, para el cuarto van siete y el reporte sigue
+diciendo doce. Nadie lo nota porque nadie abre el archivo, y cuando alguien lo
+abre ya pasó un año.
 
-- **Cruces por turno y ventana horaria**, con número, no con adverbios.
-- **Modalidad**: unidad exclusiva o ruta compartida, y cuántos inmuebles comparte.
-- **Los puntos de control** del recorrido y cuáles obligan a descender de la unidad.
-- **Formato y periodicidad del reporte**, y a quién se entrega.
-- **El protocolo de escalamiento**: a quién se avisa, en qué orden y en cuánto tiempo.
-- **La modalidad que ampara el permiso** —vigilancia con unidad móvil— y su vigencia.
-- **La carátula de la póliza** de responsabilidad civil.
+La versión más burda es firmar la hoja de recorridos desde la oficina. La versión
+elegante es cruzar por la avenida sin entrar al circuito interior, marcar la
+geocerca desde afuera y seguir de largo. Contra la primera sirve exigir puntos de
+control marcados en sitio. Contra la segunda sirve poner puntos adentro, en el
+estacionamiento y en el frente ciego, y revisar el tiempo de permanencia.
 
-Un proveedor formal entrega esos puntos sin que insistas. El que responde con
-«hacemos rondines constantes» está evitando comprometerse con una cifra.
+La defensa real no es tecnológica: es que alguien del comité abra el reporte una
+vez al mes durante los primeros seis meses y compare cruces contratados contra
+cruces marcados. Quince minutos. Es la diferencia entre pagar un servicio y pagar
+una suscripción a un PDF. Si además tienes
+[monitoreo de alarmas](/categorias/seguridad-privada/cdmx/virelta-seguridad-privada/monitoreo-de-alarmas/),
+cruza las horas de los eventos con las horas de los cruces y vas a ver rapidísimo
+si la unidad estaba donde dijo que estaba.
 
-## Qué revisar antes de firmar
+## Qué pedir y qué revisar antes de firmar
 
-1. Documento del permiso, con la modalidad de unidad móvil y su vigencia legibles.
-2. Registro REPSE si aplica.
-3. Comprobante de alta del personal ante IMSS e INFONAVIT.
-4. Póliza de responsabilidad civil vigente.
-5. Un reporte de recorridos de muestra, para ver qué nivel de detalle entregan.
-6. Nombre y contacto del supervisor asignado a la ruta.
+Si quieres, mándanos por WhatsApp el plano o una foto satelital del perímetro y
+te devolvemos una ruta tentativa con puntos de control antes de hablar de dinero.
+Y con cualquier proveedor, incluidos nosotros, revisa esto:
 
-> El alcance de este servicio, sus acreditaciones y su cobertura los declara
-> Virelta Seguridad Privada. TuSeguridad no interviene en la contratación: antes
-> de firmar, solicita los documentos y confirma su vigencia y la modalidad que
-> amparan.
+1. Cruces por turno y ventana horaria, con cifra y no con adverbios.
+2. Modalidad declarada: unidad exclusiva o compartida, y con cuántos inmuebles.
+3. La lista de puntos de control y cuáles obligan a descender de la unidad.
+4. El tiempo de permanencia pactado en los puntos críticos.
+5. Formato y periodicidad del reporte, y a quién llega.
+6. Protocolo de escalamiento con teléfonos, orden de llamada y tiempos.
+7. Documento del permiso, con la modalidad de unidad móvil y su vigencia.
+8. Registro REPSE ante la STPS si el servicio se presta como especializado.
+9. Alta del personal ante IMSS e INFONAVIT.
+10. Carátula vigente de la póliza de responsabilidad civil.
+11. Un reporte de recorridos de muestra, de otro cliente y con datos tapados.
+12. Nombre y teléfono directo del supervisor de la ruta.
+
+> Las cifras, acreditaciones y coberturas de esta página provienen de lo que
+> declara Virelta Seguridad Privada; TuSeguridad las reproduce sin verificarlas.
+> Nada de lo escrito aquí es asesoría legal ni sustituye la revisión del contrato
+> por parte de tu propio abogado. Antes de firmar pide los documentos originales
+> y comprueba que la modalidad amparada corresponda al servicio que vas a
+> contratar.

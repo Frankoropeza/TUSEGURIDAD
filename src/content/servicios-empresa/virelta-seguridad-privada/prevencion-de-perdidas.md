@@ -2,195 +2,206 @@
 empresa: virelta-seguridad-privada
 slug: prevencion-de-perdidas
 nombre: Prevención de pérdidas
-titulo: Prevención de pérdidas en CDMX y Estado de México
-tituloSeo: Prevención de pérdidas en CDMX y Edomex
+titulo: Prevención de pérdidas en tienda y almacén, CDMX y Edomex
+tituloSeo: Prevención de pérdidas CDMX y Edomex
 descripcion: >-
-  Prevención de pérdidas en CDMX y Edomex: control de mermas, doble
-  verificación en recepción y auditoría de maniobras de carga y descarga.
+  Cerramos los puntos por donde se va el producto: accesos y salidas de
+  personal, maniobras de carga y descarga, y acompañamiento en inventarios.
 orden: 9
 titulos:
-  incluye: Qué se revisa para cerrar los puntos de fuga
-  modalidades: Formas de contratar la prevención de pérdidas
-  paraQuien: Quién necesita un programa de prevención de pérdidas
-  proceso: Del diagnóstico de merma al primer conteo cíclico
-  errores: Errores que abren un punto de fuga
-  glosario: Términos que vas a escuchar en la propuesta
-  faq: Dudas sobre prevención de pérdidas
+  incluye: ¿Qué se revisa exactamente?
+  modalidades: Esquemas de contratación
+  paraQuien: Esto es para operaciones con producto en movimiento
+  proceso: Del recorrido del producto al primer conteo
+  errores: Así se abre un punto de fuga
+  glosario: ¿Qué significa lo que dice la propuesta?
+  faq: Preguntas sobre mermas y faltantes
 intro: >-
-  Control de mermas y faltantes en piso de venta y almacén, con revisión de
-  accesos y salidas de personal, doble verificación en la recepción de
-  mercancía y acompañamiento en conteos cíclicos e inventarios. Virelta
-  declara operar bajo la doctrina de que la pérdida casi nunca entra por la
-  puerta principal: se va por la recepción, el manejo interno y las
-  maniobras de carga y descarga. Aplica a tiendas, almacenes, centros de
-  distribución y bodegas con movimiento constante de mercancía.
+  Controlamos mermas y faltantes en piso de venta y almacén. Revisamos
+  accesos y salidas de personal, supervisamos las maniobras de carga y
+  descarga y acompañamos conteos cíclicos e inventarios. La merma casi
+  nunca es un ladrón externo. Es la salida de emergencia que no cierra
+  bien, la maniobra que nadie presenció y el inventario que nadie
+  concilió. Virelta declara permiso SSC 0102-15 ante la Secretaría de
+  Seguridad Ciudadana de la CDMX y registro REPSE ante la STPS.
 stats:
   - k: Cobertura
     v: CDMX · Edomex
+  - k: Permiso declarado
+    v: SSC 0102-15
   - k: Atención
     v: 24 h
 incluye:
-  - titulo: Revisión de accesos y salidas de personal
+  - titulo: Accesos y salidas de personal
     texto: >-
-      Se revisa quién entra y sale por cada punto, y en qué horario, para
-      identificar movimientos que no corresponden a la operación normal
-      del turno.
-  - titulo: Doble verificación en recepción de mercancía
+      Quién entra, quién sale, por dónde y a qué hora. Nos interesan
+      sobre todo las salidas que no son la entrada principal: la puerta
+      de servicio, el andén, la escalera de emergencia que da al
+      callejón.
+  - titulo: Recepción con dos firmas
     texto: >-
-      Dos personas cuentan y validan lo que llega contra el remito antes
-      de firmar la recepción, para que el punto de entrada no quede en
-      manos de una sola persona.
+      Dos personas cuentan contra el remito antes de firmar. Nunca una
+      sola.
   - titulo: Supervisión de maniobras de carga y descarga
     texto: >-
-      Se acompaña la maniobra en el andén o la puerta de carga, donde el
-      volumen de movimiento hace más fácil que algo se pierda sin que
-      nadie lo note.
-  - titulo: Acompañamiento en conteo cíclico
+      Martes, seis cuarenta de la mañana, andén de una bodega en
+      Tlalnepantla. Entra el tráiler, bajan tarimas y por el mismo
+      carril sale una camioneta de devoluciones. Nadie firma la salida
+      porque el encargado está recibiendo. Ese cruce de quince minutos
+      es el punto de fuga más caro de la operación y no aparece en
+      ninguna cámara con ángulo útil. Ahí ponemos a alguien con tabla y
+      consigna escrita.
+  - titulo: Acompañamiento en conteos e inventarios
     texto: >-
-      Conteos parciales y periódicos de categorías específicas del
-      inventario, en vez de esperar al inventario anual completo para
-      detectar una discrepancia.
-  - titulo: Registro de discrepancias por punto de fuga
+      Estamos durante el conteo. No para contar por ti, sino para que
+      nadie mueva tarima mientras se cuenta y para que quede constancia
+      de con quién cerró cada sección.
+  - titulo: Puertas que deberían estar cerradas
     texto: >-
-      Cada faltante se documenta con el punto del proceso donde se
-      detectó, para distinguir un error de conteo de un patrón que se
-      repite en el mismo lugar.
-  - titulo: Revisión de zonas ciegas de cámara
+      Revisión física de salidas de emergencia, patios, azoteas y
+      accesos de proveedor. Una barra antipánico que abre desde afuera
+      no es un pendiente de mantenimiento.
+  - titulo: Registro de discrepancias con punto y hora
     texto: >-
-      Se identifican los tramos del recorrido de mercancía que no cubre
-      el circuito de CCTV existente, y se proponen ajustes de cobertura
-      o de consigna.
-  - titulo: Bitácora de novedades por turno
+      Cada faltante se anota con el tramo del proceso y el momento en
+      que se detectó, para ver si se repite siempre en el mismo lugar.
+  - titulo: Zonas ciegas del circuito
     texto: >-
-      Registro de lo ocurrido en cada turno en los puntos revisados, para
-      dar seguimiento a discrepancias que aparecen en más de un corte.
+      Caminamos el recorrido de la mercancía con el plano de cámaras en
+      la mano y marcamos los tramos que ninguna cubre.
+  - titulo: Bitácora por turno
+    texto: >-
+      Lo del turno queda escrito. Sin eso, la discrepancia de mañana no
+      se puede cruzar con la de hoy.
 modalidades:
   - titulo: Diagnóstico puntual
     texto: >-
-      Levantamiento único de los puntos de fuga del inmueble, sin
-      dispositivo permanente, para dimensionar el problema antes de
-      decidir un programa.
+      Un recorrido, un informe y una propuesta. Sin dispositivo
+      permanente y sin obligación de seguir con nosotros después.
   - titulo: Programa permanente
     texto: >-
-      Acompañamiento continuo en accesos, recepción y conteos cíclicos,
-      con reporte periódico de discrepancias y ajuste del dispositivo.
-  - titulo: Refuerzo en recepción
+      Cobertura continua de accesos, recepción y conteos, con reporte de
+      discrepancias y ajuste de consignas al cierre de cada ciclo.
+  - titulo: Solo recepción y andén
     texto: >-
-      Dispositivo enfocado solo en el punto de recepción de mercancía,
-      para negocios donde ese es el punto de fuga identificado.
+      Cuando el diagnóstico ya señaló el punto, pagar cobertura completa
+      es tirar dinero. Cubrimos recepción y andén, y nada más.
   - titulo: Acompañamiento de inventario
     texto: >-
-      Apoyo puntual durante un inventario físico o un conteo cíclico de
-      mayor volumen, como cierre de temporada o cambio de sucursal.
-paraQuien:
-  - titulo: Tiendas con alto tráfico de piso de venta
+      Apoyo para un inventario físico o un conteo grande: cierre de
+      ejercicio, cambio de local, traspaso entre sucursales.
+  - titulo: Refuerzo de temporada
     texto: >-
-      Comercios donde el volumen de clientes dificulta detectar a simple
-      vista un faltante en el momento en que ocurre.
+      Personal adicional en las semanas de más movimiento, como el Buen
+      Fin o la segunda quincena de diciembre, sin tocar el esquema del
+      resto del año.
+paraQuien:
+  - titulo: Tiendas con mucho piso de venta
+    texto: >-
+      Comercios donde el volumen de gente hace imposible notar un
+      faltante en el momento en que ocurre.
   - titulo: Almacenes y centros de distribución
     texto: >-
-      Instalaciones con movimiento constante de mercancía entre
-      recepción, almacenamiento y despacho.
-  - titulo: Negocios con recepción diaria de mercancía
+      Instalaciones con producto moviéndose todo el día entre recepción,
+      racks y despacho.
+  - titulo: Negocios que reciben proveedor a diario
     texto: >-
-      Puntos de venta o bodegas que reciben proveedores todos los días y
-      necesitan un protocolo de verificación en ese punto.
-  - titulo: Comercios con historial de merma elevada
+      Si entra mercancía todos los días, la recepción es tu punto más
+      expuesto por simple frecuencia.
+  - titulo: Operaciones que ya saben que pierden
     texto: >-
-      Negocios que ya identificaron un problema de faltantes y buscan un
-      diagnóstico formal de dónde se está yendo el producto.
-  - titulo: Bodegas con rotación constante de personal
+      Negocios con un faltante medido y sin explicación, que necesitan
+      ubicar el tramo antes de gastar en más vigilancia.
+  - titulo: Bodegas con rotación alta
     texto: >-
-      Operaciones donde la alta rotación dificulta dar seguimiento
-      informal a quién tuvo acceso a qué zona y cuándo.
-  - titulo: Negocios en expansión a nuevas sucursales
+      Donde el personal cambia seguido, el seguimiento informal de quién
+      tuvo acceso a qué deja de funcionar en semanas.
+  - titulo: Cadenas que van a abrir otro punto
     texto: >-
-      Empresas que necesitan un protocolo homologado de recepción y
-      conteo antes de replicar la operación en otro punto.
+      Conviene homologar el protocolo de recepción y conteo antes de
+      replicarlo, no después.
 proceso:
-  - titulo: Diagnóstico de merma y puntos de fuga
+  - titulo: Caminamos el recorrido del producto
     texto: >-
-      Se revisan accesos, recepción, zonas de almacenamiento y áreas
-      ciegas de cámara, para ubicar en qué parte del proceso se está
-      yendo el producto.
-  - titulo: Propuesta de dispositivo y consignas
+      De la puerta del proveedor a la caja, pasando por racks, andén y
+      áreas de devolución. En los turnos reales, incluido el nocturno,
+      porque el turno de la mañana siempre se ve bien.
+  - titulo: Propuesta de puntos, consignas y modalidad
     texto: >-
-      La propuesta especifica los puntos que se van a cubrir, la
-      consigna de cada uno y la modalidad recomendada según el
-      diagnóstico.
-  - titulo: Alta del protocolo de recepción y conteo
+      Qué punto se cubre, qué verifica el elemento asignado ahí y con
+      qué esquema conviene contratarlo.
+  - titulo: Protocolo escrito y primer conteo supervisado
     texto: >-
-      Se define por escrito quién verifica en recepción, con qué
-      frecuencia corre el conteo cíclico y cómo se documenta una
-      discrepancia.
-  - titulo: Primer conteo cíclico supervisado
+      Queda por escrito quién verifica en recepción y cada cuándo corre
+      el conteo. El primer ciclo lo acompañamos completo.
+  - titulo: Ajuste con los números del primer ciclo
     texto: >-
-      El primer conteo se realiza con revisión reforzada del protocolo,
-      para confirmar que cada paso se ejecuta como quedó definido.
-  - titulo: Ajuste con datos del primer ciclo
-    texto: >-
-      Con los resultados del primer conteo se ajustan consignas y
-      frecuencia en los puntos donde aparecieron discrepancias.
+      Con las discrepancias del primer corte se mueven frecuencias y
+      consignas. Casi siempre sobra cobertura en un punto y falta en
+      otro.
 errores:
-  - titulo: Recepción de mercancía sin doble verificación
+  - titulo: Que reciba y firme una sola persona
     texto: >-
-      Que una sola persona reciba y firme el remito deja el punto de
-      entrada más vulnerable del proceso sin ningún control cruzado.
-  - titulo: Punto ciego de cámara sin cubrir
+      Es el error más común y el más caro. El punto de entrada de toda
+      la mercancía queda sin ningún control cruzado.
+  - titulo: La salida de emergencia que no cierra
     texto: >-
-      Un tramo del recorrido de mercancía fuera del alcance del CCTV es
-      exactamente el punto donde se pierde la trazabilidad.
-  - titulo: Conteo cíclico sin calendario fijo
+      Viernes, nueve y media de la noche, local en Portales. La salida
+      de emergencia del pasillo de bodega tiene la barra floja desde
+      hace meses y da a un callejón. Nadie la usa para salir. Se usa
+      para pasar cosas. Cuando por fin corrió el inventario, el faltante
+      llevaba un trimestre acumulándose.
+  - titulo: Contar cuando se pueda
     texto: >-
-      Contar "cuando se pueda" en vez de seguir un calendario deja pasar
-      semanas antes de detectar un patrón de faltantes.
-  - titulo: Maniobra de carga y descarga sin supervisión
+      Sin calendario fijo, un patrón de faltantes tarda meses en
+      volverse visible.
+  - titulo: Maniobra sin testigo
     texto: >-
-      El volumen y la velocidad de una maniobra sin nadie que la
-      acompañe abren la ventana más fácil para que algo se extravíe.
-  - titulo: Discrepancia sin registro por escrito
+      Volumen, prisa y nadie que acompañe. No hace falta más para que
+      algo se vaya sin dejar rastro.
+  - titulo: El faltante que se comenta y no se escribe
     texto: >-
-      Un faltante que se comenta pero no se documenta con folio y punto
-      del proceso no sirve para identificar si se repite.
-  - titulo: Rotación de personal sin corte de responsabilidad
+      Si no tiene folio, punto del proceso y hora, no se puede cruzar
+      con el siguiente. Es un rumor, no un dato.
+  - titulo: Cambio de turno sin corte de responsabilidad
     texto: >-
-      Cambiar de turno o de encargado sin dejar constancia de en qué
-      quedó el conteo dificulta saber en qué corte apareció el faltante.
+      Si nadie firma en qué quedó el conteo al relevar, después nadie
+      puede decir en qué corte apareció la diferencia.
+  - titulo: Buscar al ladrón antes que al proceso
+    texto: >-
+      Empezar por sospechar del personal descompone el clima de la
+      operación y casi nunca encuentra nada. Empieza por el proceso. Si
+      el proceso está cerrado y el faltante sigue, entonces sí tienes
+      otro problema.
 glosario:
   - termino: Merma
     definicion: >-
-      Diferencia entre lo que el inventario debería tener según registro
-      y lo que hay físicamente. Puede venir de un error de conteo o de
-      un punto de fuga real.
+      La diferencia entre lo que el sistema dice que hay y lo que
+      realmente está en el anaquel. Puede ser error de captura o puede
+      ser producto que ya no está.
   - termino: Punto de fuga
     definicion: >-
-      Parte del proceso —recepción, almacenamiento, maniobra, piso de
-      venta— donde el producto se pierde sin que exista un control que
-      lo detecte.
-  - termino: Doble verificación
-    definicion: >-
-      Control por dos personas al contar y validar mercancía, para que
-      ningún punto de recepción o conteo dependa de una sola persona.
+      El tramo del proceso donde el producto se pierde sin que ningún
+      control lo detecte. Recepción, almacenamiento, maniobra o piso de
+      venta.
   - termino: Conteo cíclico
     definicion: >-
-      Conteo parcial y periódico de una parte del inventario, en vez de
-      esperar al inventario físico anual completo para detectar un
-      faltante.
-  - termino: Zona ciega
-    definicion: >-
-      Tramo de un recorrido de mercancía o de personal que no cubre el
-      circuito de cámaras existente.
+      Contar una parte del inventario cada semana o cada mes, en vez de
+      esperar al conteo anual completo para enterarte.
   - termino: Corte de responsabilidad
     definicion: >-
-      Registro de en qué momento y con quién quedó un conteo o un
-      inventario, al cambiar de turno o de encargado.
+      La firma que deja asentado en qué quedó un conteo al cambiar de
+      turno o de encargado.
+  - termino: Zona ciega
+    definicion: >-
+      Tramo del recorrido de mercancía o de personal que ninguna cámara
+      del circuito alcanza.
 entregables:
-  - Diagnóstico de merma y puntos de fuga
-  - Propuesta de dispositivo y consignas por punto
+  - Diagnóstico de puntos de fuga con fotografías del recorrido
   - Protocolo de recepción y conteo por escrito
-  - Bitácora de discrepancias y novedades
-  - Reporte de cada conteo cíclico
-  - Datos del jefe de equipo asignado
+  - Bitácora de discrepancias con folio, punto del proceso y hora
+  - Reporte de cierre de cada conteo cíclico
+  - Datos del jefe de equipo asignado a la cuenta
 galeria:
   - vigilancia-planta-industrial:1
   - vigilancia-planta-industrial:5
@@ -199,113 +210,146 @@ galeria:
   - control-de-acceso-seguridad-privada:8
   - registro-de-visitantes-caseta:3
 faq:
-  - q: ¿En qué se diferencia de un guardia de seguridad normal?
+  - q: ¿Cuánto tarda el diagnóstico inicial?
     a: >-
-      El guardia resguarda el acceso del inmueble. Prevención de
-      pérdidas además revisa recepción, maniobras de carga y descarga y
-      conteos internos, buscando puntos de fuga específicos.
-  - q: ¿Qué es un punto de fuga?
+      Depende de cuántos puntos haya que caminar. Un local de piso de
+      venta se recorre en una mañana. Una bodega con dos andenes y tres
+      turnos toma varios días, porque hay que ver operando también el
+      turno de la noche y el del sábado.
+  - q: ¿Cuántas personas se necesitan para cubrir recepción y andén?
     a: >-
-      Es la parte del proceso —recepción, almacenamiento, maniobra,
-      piso de venta— donde el producto se pierde sin que exista un
-      control que lo detecte a tiempo.
-  - q: ¿Revisan al personal del negocio?
+      Sale del diagnóstico, no de una tabla. Lo que sí es fijo es que en
+      recepción nunca proponemos a una sola persona. El control cruzado
+      es el servicio entero.
+  - q: ¿Cómo sé si mi merma es robo externo o proceso mal cerrado?
     a: >-
-      El servicio no sustituye las políticas de recursos humanos del
-      cliente. Revisa procesos operativos y accesos en los puntos
-      acordados, no expedientes de personal.
-  - q: ¿Qué es el conteo cíclico?
+      Por cómo se reparte. Si los faltantes aparecen parejo entre
+      producto caro y producto barato, casi siempre es proceso. Si se
+      concentran en artículo chico y caro del piso de venta, ahí sí hay
+      componente de sustracción. El diagnóstico separa las dos cosas
+      antes de que gastes en la equivocada.
+  - q: ¿Qué pasa si el faltante apunta a alguien de la plantilla?
     a: >-
-      Un conteo parcial y periódico de una categoría del inventario, en
-      vez de esperar al inventario físico anual completo para detectar
-      un faltante.
-  - q: ¿Cubren tiendas y almacenes por igual?
+      Documentamos lo observado y lo entregamos al contacto designado.
+      La decisión laboral es del cliente y de su área de recursos
+      humanos. No hacemos investigación de personal ni revisión de
+      pertenencias fuera del procedimiento que la propia empresa tenga
+      acordado con sus trabajadores.
+  - q: ¿Qué pasa si no tenemos un inventario confiable para empezar?
     a: >-
-      Sí, aplica a piso de venta, almacén, centro de distribución y
-      bodega, con consignas específicas según el tipo de punto.
-  - q: ¿Qué pasa si detectan una discrepancia?
+      Se empieza igual. El primer conteo cíclico sirve para fijar una
+      línea base, y a partir de ahí las diferencias ya significan algo.
+      Sin esa base, cualquier número de merma es una opinión.
+  - q: ¿En qué se diferencia de un guardia en la puerta?
     a: >-
-      Se registra por escrito con folio y punto del proceso donde se
-      detectó, se avisa al contacto designado y queda en bitácora para
-      dar seguimiento.
-  - q: ¿Incluye cámaras de vigilancia?
+      El guardia cuida el acceso del inmueble. Este servicio revisa el
+      recorrido del producto, que es otra cosa. Muchas veces conviene
+      tener los dos, con consignas distintas.
+  - q: ¿Qué es un conteo cíclico?
     a: >-
-      Puede coordinarse con la vigilancia remota por CCTV existente en
-      el inmueble. El servicio revisa procesos y zonas ciegas, no
-      reemplaza el circuito.
+      Un conteo parcial y programado de una categoría del inventario,
+      con calendario fijo, en lugar del inventario físico anual.
+  - q: ¿Sirve igual para una tienda que para un centro de distribución?
+    a: >-
+      Sirve para los dos, pero con consignas distintas. En piso de venta
+      pesa más la caja y el probador. En distribución pesa el andén.
+  - q: ¿Incluye cámaras o equipo?
+    a: >-
+      No. Revisamos el circuito que ya tienes y marcamos las zonas
+      ciegas. Si necesitas ampliar cobertura, eso se cotiza aparte o se
+      coordina con el proveedor de tu sistema.
   - q: ¿Cómo se cobra el servicio?
     a: >-
-      Según la modalidad: diagnóstico puntual, programa permanente,
-      refuerzo en recepción o acompañamiento de inventario.
+      Según la modalidad contratada: diagnóstico puntual, programa
+      permanente, cobertura solo de recepción y andén, acompañamiento de
+      inventario o refuerzo de temporada.
   - q: ¿En qué zonas presta este servicio Virelta?
     a: >-
-      La empresa declara cobertura en Miguel Hidalgo, Cuauhtémoc, Benito
-      Juárez, Álvaro Obregón, Coyoacán y Tlalpan en la CDMX, y en
-      Naucalpan, Huixquilucan, Tlalnepantla, Atizapán y Cuautitlán
-      Izcalli en el Estado de México.
-  - q: ¿Cuánto dura el diagnóstico inicial?
-    a: >-
-      Depende del tamaño del inmueble y el número de puntos a revisar;
-      se define en el levantamiento antes de proponer el programa.
-  - q: ¿Qué es la doble verificación en recepción?
-    a: >-
-      Que dos personas cuenten y validen la mercancía recibida contra el
-      remito antes de firmar, para que el punto de entrada no dependa de
-      una sola persona.
-  - q: ¿Trabajan con varias sucursales de un mismo negocio?
-    a: >-
-      Sí, bajo la modalidad de programa permanente, con un protocolo de
-      recepción y conteo homologado que se replica por sucursal.
+      La empresa declara cobertura en CDMX y Estado de México, con
+      operación frecuente en corredores comerciales como Nápoles,
+      Narvarte, Portales, Escandón y Coyoacán centro, y en zona de
+      bodegas hacia Tlalnepantla, Valle Dorado y Cuautitlán Izcalli.
 ---
 
-## La pérdida casi nunca entra por la puerta: se va por la recepción y el manejo interno
+## La merma no entra por la puerta principal
 
-La imagen típica de la prevención de pérdidas es un guardia en la puerta
-vigilando a los clientes. En la práctica, buena parte de la merma no pasa
-por ahí: se va en la recepción de mercancía que nadie verificó a
-conciencia, en una maniobra de carga sin nadie que la acompañe, o en un
-conteo que se pospuso tantas veces que ya nadie recuerda cuándo fue el
-último.
+La imagen que casi todos tienen de la prevención de pérdidas es un guardia
+en la entrada mirando a los clientes. Sirve, pero cubre la parte más
+pequeña del problema. En las tiendas de Nápoles y Narvarte que hemos
+revisado, el faltante rara vez sale caminando por el frente. Sale por la
+puerta de servicio, se queda en el andén o nunca llegó a entrar completo
+porque el remito se firmó sin contar.
 
-Cerrar la puerta principal con un guardia no cierra esos puntos. El
-dispositivo tiene que revisar todo el recorrido del producto: desde que
-entra por recepción hasta que sale por caja, pasando por almacenamiento y
-maniobras internas.
+Cuidar la puerta no cierra esos puntos. Hay que caminar el recorrido
+entero del producto.
 
-## La pregunta que ordena todo: ¿en qué punto se fue el producto?
+## Los tres lugares donde se va
 
-Cuando aparece un faltante, la pregunta útil no es "quién fue" sino "en
-qué punto del proceso pudo perderse". Si el negocio puede señalar con
-precisión el tramo —recepción, almacenamiento, maniobra, piso de venta—,
-el dispositivo está funcionando aunque el faltante haya ocurrido. Si nadie
-puede decir en qué punto se perdió, ese es el verdadero problema, no el
-faltante en sí.
+Recepción, maniobra y salida de servicio. En ese orden de frecuencia,
+según lo que vemos.
 
-## Qué pedir en la propuesta
+La recepción falla por una razón boba: una sola persona cuenta, firma y
+acomoda, todo al mismo tiempo y con el proveedor esperando. La maniobra
+falla porque es rápida y ruidosa, y nadie quiere frenar un andén. La
+salida de servicio falla porque a nadie le toca. No es de mantenimiento,
+no es de operaciones y no es del guardia de la entrada.
 
-Antes de comparar precios, pide que la propuesta especifique:
+## El inventario que nadie concilia
+
+Un almacén en Escandón llevaba catorce meses sin conteo completo. La
+diferencia final existía desde el primer trimestre, pero no había con qué
+compararla, así que se descubrió toda junta y se volvió imposible saber
+en qué mes empezó.
+
+Un conteo cíclico bien calendarizado no evita el faltante. Lo hace
+visible mientras todavía se puede rastrear.
+
+## Qué pedir por escrito antes de cotizar
 
 - **El protocolo de recepción**: quién cuenta, quién verifica y contra qué documento.
-- **El calendario del conteo cíclico**, y qué categorías cubre cada corte.
-- **El formato de la bitácora de discrepancias**, con folio y punto del proceso.
-- **La cobertura de zonas ciegas** respecto al circuito de cámaras existente.
-- **La modalidad de contratación** que mejor se ajusta al punto de fuga identificado.
+- **El calendario del conteo cíclico** y qué categorías toca cada corte.
+- **El formato de bitácora de discrepancias**, con folio, punto del proceso y hora.
+- **El mapa de zonas ciegas** frente al circuito de cámaras que ya existe.
+- **La modalidad** y qué queda fuera de ella.
 - **La carátula de la póliza** de responsabilidad civil.
 
-Un proveedor formal entrega esos puntos sin que insistas. El que solo
-ofrece "más vigilancia" sin especificar en qué punto está vendiendo
-presencia, no un diagnóstico.
+Si además del recorrido del producto quieres saber cómo está el inmueble
+completo, eso ya es otro trabajo: lo cubre el
+[análisis de riesgos](/categorias/seguridad-privada/cdmx/virelta-seguridad-privada/analisis-de-riesgos/),
+y conviene hacerlo antes de decidir cuánta cobertura contratas.
 
-## Qué revisar antes de firmar
+## Papeles que conviene ver
 
-1. Documento del permiso, con la modalidad correspondiente y su vigencia legibles.
-2. Registro REPSE si aplica.
-3. Comprobante de alta del personal ante IMSS e INFONAVIT.
-4. Póliza de responsabilidad civil vigente.
-5. Un formato de bitácora de discrepancias de muestra, para ver qué nivel de detalle entregan.
-6. Nombre y contacto del jefe de equipo asignado al programa.
+- Documento del permiso, con la modalidad y la vigencia legibles.
+- Registro REPSE ante la STPS, si el esquema lo requiere.
+- Alta del personal ante IMSS e INFONAVIT.
+- Póliza de responsabilidad civil vigente.
+- Una bitácora de discrepancias de muestra, para ver hasta qué nivel de
+  detalle llega el proveedor cuando nadie lo está viendo.
+- Nombre y teléfono del jefe de equipo asignado.
 
-> El alcance de este servicio, sus acreditaciones y su cobertura los
-> declara Virelta Seguridad Privada. TuSeguridad no interviene en la
-> contratación: antes de firmar, solicita los documentos y confirma su
-> vigencia y la modalidad que amparan.
+Si ya tienes circuito instalado y lo que te falta son ojos sobre él en
+horario nocturno, revisa también la
+[vigilancia remota por CCTV](/categorias/seguridad-privada/cdmx/virelta-seguridad-privada/vigilancia-remota-por-cctv/);
+y si el cuello de botella es la puerta de proveedores, el
+[control de accesos](/categorias/seguridad-privada/cdmx/virelta-seguridad-privada/control-de-accesos/)
+resuelve el registro sin que tengas que pagar un programa completo.
+
+## Por dónde empezamos
+
+Con una foto del andén, otra de la salida de servicio y el número de
+faltantes del último corte, aunque sea aproximado. Con eso te decimos por
+teléfono si tu problema es de proceso o de vigilancia, y si necesitas un
+programa o solo cerrar dos puertas. Mándalo por WhatsApp al 56 3628 2480.
+No cobramos por esa primera lectura y a veces termina ahí, con dos
+recomendaciones que puedes aplicar tú mismo el lunes.
+
+Si tu corte de inventario cae en enero, el momento de llamar es
+noviembre. Levantar la línea base con la operación de temporada encima no
+sirve de mucho.
+
+> Todo lo anterior lo declara Virelta Seguridad Privada: su alcance, sus
+> registros y las zonas donde opera. TuSeguridad publica la ficha y no
+> participa en la contratación ni verifica esos documentos por ti. Pide
+> el permiso, revisa qué modalidad ampara y confirma que siga vigente
+> antes de que firmes nada.

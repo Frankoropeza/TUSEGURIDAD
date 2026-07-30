@@ -2,273 +2,365 @@
 empresa: virelta-seguridad-privada
 slug: control-de-accesos
 nombre: Control de accesos
-titulo: Control de accesos peatonal y vehicular en CDMX
-tituloSeo: Control de accesos peatonal y vehicular CDMX
-descripcion: Control de accesos peatonal y vehicular con registro digital de visitantes y proveedores en CDMX y Estado de México. Validación antes de cada ingreso.
+titulo: Control de accesos peatonal y vehicular en CDMX y Estado de México
+tituloSeo: "Control de accesos CDMX: peatonal y vehicular"
+descripcion: >-
+  Filtro peatonal y vehicular con registro digital, validación con el ocupante y
+  control de material que entra y sale. Mismo formato en lobby, obra y oficina.
 orden: 3
 titulos:
-  incluye: Qué se revisa en cada ingreso
-  modalidades: Tipos de punto de acceso
-  paraQuien: Dónde se instala un punto de control
-  proceso: Del levantamiento al primer turno
-  errores: Errores que se pagan meses después
-  faq: Dudas sobre control de accesos peatonal y vehicular
-  glosario: Términos que vas a escuchar en la propuesta
+  incluye: Qué pasa en la puerta cada vez que alguien llega
+  paraQuien: ¿Dónde ponemos un punto de control?
+  proceso: Del levantamiento al primer relevo
+  errores: Lo que se paga en la asamblea de marzo
+  glosario: Vocabulario de caseta
+  faq: Preguntas que nos hacen antes de firmar
 intro: >-
-  Punto de control peatonal y vehicular con registro digital de visitantes,
-  proveedores y paquetería. Virelta declara prestarlo con validación previa: cada
-  ingreso se confirma con el residente u ocupante antes de autorizarse y queda
-  asentado con hora de entrada y de salida. El objetivo no es que alguien esté en
-  la puerta, sino que meses después se pueda reconstruir quién estuvo en el
-  inmueble, cuándo, autorizado por quién y a qué hora salió.
+  Un punto de control es un procedimiento. La pluma es un fierro que sube y baja.
+  Montamos el mismo procedimiento en el lobby de una torre en Polanco, en la
+  recepción de un corporativo de Santa Fe y en la puerta de una obra en
+  Ampliación Granada: mismo formato de registro, mismo supervisor, misma consigna
+  escrita. Virelta declara operar el filtro con validación previa. Nadie entra
+  porque el guardia le vio cara de conocido. Entra porque el ocupante lo autorizó
+  y quedó asentado con hora de entrada y hora de salida.
 stats:
   - k: Cobertura
     v: CDMX · Edomex
+  - k: Permiso declarado
+    v: SSC 0102-15
   - k: Atención
     v: 24 h
 incluye:
-  - titulo: Identificación y validación
+  - titulo: Identificación y anuncio
     texto: >-
-      El visitante se identifica y se anuncia; el ingreso se autoriza con el
-      residente u ocupante, no con el criterio del guardia. Si no hay autorización,
-      no hay acceso.
-  - titulo: Registro con entrada y salida
+      El visitante se identifica, se anuncia y espera. Autoriza el ocupante, no el
+      elemento que está en turno.
+  - titulo: Entrada y salida, las dos
     texto: >-
-      Cada ingreso queda asentado con hora de llegada y de salida. Registrar solo
-      la entrada deja el inmueble a media trazabilidad y sirve de poco cuando hay
-      que reconstruir un evento.
+      Cada movimiento lleva hora de llegada y hora de salida. Registrar nada más
+      la entrada produce una lista de nombres, y una lista de nombres no sirve la
+      noche en que hay que saber quién seguía adentro a las once.
+  - titulo: Material y equipo que sale
+    texto: >-
+      En obra, en hospital y en corporativo el problema rara vez es quién entra.
+      Es qué sale. Llevamos folio de salida para herramienta, equipo de cómputo,
+      cable, tambos y todo lo que la administración marque como controlado, con
+      firma de quien autoriza. Un jueves de quincena salieron dos rollos de cable
+      de un frente de obra en Nuevo Polanco, en la cajuela de un coche de
+      aplicación. El formato existía desde el primer día. Nadie lo había firmado
+      nunca, así que nadie notó que ese viaje no estaba autorizado.
   - titulo: Control vehicular
     texto: >-
-      Placas, tipo de vehículo, ocupantes y destino dentro del inmueble. Donde el
-      reglamento lo prevé, se asigna tarjetón o cajón de visita con vigencia
-      definida.
-  - titulo: Proveedores, paquetería y mudanzas
+      Placas, tipo de unidad, ocupantes, destino y tarjetón con vigencia. En
+      sótanos con cajones de visita marcados, el tarjetón es lo que permite saber
+      a las dos de la mañana si ese coche tiene derecho a estar ahí.
+  - titulo: Paquetería y repartidores
     texto: >-
-      Repartidores, contratistas y maniobras entran bajo el criterio que fija la
-      administración, con registro de lo que entra y lo que sale. Es el punto por
-      donde más se filtra un inmueble.
+      Cada inmueble decide si el repartidor sube, deja en caseta o no pasa.
+      Nosotros aplicamos la regla que nos den, igual a las nueve de la mañana que
+      a las once de la noche. Lo que no hacemos es inventarla en el momento.
   - titulo: Consigna escrita del punto
     texto: >-
-      Qué se pide, a quién se consulta, qué se autoriza y qué se niega, por
-      escrito. Es lo que permite que el relevo aplique el mismo criterio que el
-      guardia titular.
-  - titulo: Protocolo ante negativa
+      Qué se pide, quién autoriza, qué se niega, a quién se avisa. Una hoja. El
+      relevo del domingo aplica el mismo criterio que el titular del lunes porque
+      los dos leyeron lo mismo.
+  - titulo: Reporte del periodo, consultable
     texto: >-
-      Qué hace el guardia cuando alguien insiste en entrar sin autorización: a
-      quién avisa, en qué orden y qué asienta. Acordado antes de arrancar, no
-      improvisado en el momento.
-  - titulo: Trazabilidad consultable
-    texto: >-
-      El registro se conserva y se entrega en reporte por periodo, de modo que la
-      administración pueda revisarlo sin depender de la memoria de quien estuvo en
-      turno.
-modalidades:
-  - titulo: Acceso peatonal
-    texto: >-
-      Lobby, caseta o filtro de personas: identificación, anuncio y registro. El
-      flujo se resuelve sin detener la operación del inmueble.
-  - titulo: Acceso vehicular
-    texto: >-
-      Caseta con control de entrada y salida de vehículos, registro de placas y
-      manejo de la barrera conforme al reglamento.
-  - titulo: Acceso mixto
-    texto: >-
-      Un solo punto que atiende peatones y vehículos. Requiere consigna que
-      priorice explícitamente, o el filtro se cae en cuanto hay fila.
-  - titulo: Áreas restringidas
-    texto: >-
-      Control interno de zonas específicas —sótanos, servidores, almacén,
-      quirófano, cuarto de máquinas— con lista de personal autorizado.
+      La administración recibe lo asentado sin tener que pedirle memoria a nadie.
+      Si en marzo alguien pregunta qué pasó el 14 de diciembre, la respuesta está
+      en el archivo y no en el recuerdo de un guardia que ya no trabaja aquí.
 paraQuien:
-  - titulo: Condominios y residenciales
+  - titulo: Torres y condominios verticales
     texto: >-
-      Filtro de visitas, proveedores y paquetería, con validación ante el residente
-      antes de autorizar el ingreso.
+      Lobby con flujo de visita, paquetería y proveedores, y sótano con acceso
+      vehicular propio. Casi siempre son dos filtros, no uno.
+  - titulo: Privadas horizontales y cotos
+    texto: >-
+      Caseta única con la pluma y el peatonal pegados. El orden de atención se
+      decide antes, o lo decide la fila.
   - titulo: Corporativos y oficinas
     texto: >-
-      Recepción y control de visitas por piso o por área, con separación del flujo
-      de empleados y el de externos.
+      Recepción con separación entre el flujo de empleados y el de externos, y
+      control por piso cuando el edificio es de varios inquilinos.
+  - titulo: Obra en curso
+    texto: >-
+      Cuadrillas que rotan cada semana, subcontratistas que nadie dio de alta y
+      material que entra por la mañana y sale por la tarde.
+  - titulo: Hospitales y unidades médicas
+    texto: >-
+      Filtro de acompañantes por horario de visita y control de áreas
+      restringidas, con las reglas que fija la propia unidad y no nosotros.
   - titulo: Naves, almacenes y andenes
     texto: >-
-      Control de transportistas y maniobras: qué unidad entra, con qué documento y
-      qué sale cargado.
+      Qué unidad entra, con qué documento, quién la carga y qué sale amparado.
   - titulo: Plantas industriales
     texto: >-
-      Registro de personal, contratistas y visitantes, con control de accesos
-      restringidos dentro del propio predio.
-  - titulo: Unidades médicas
+      Registro de personal por turno, contratistas con vigencia y zonas de acceso
+      limitado dentro del mismo predio.
+  - titulo: Edificios de uso mixto
     texto: >-
-      Filtro de acompañantes y control por área, respetando los horarios y las
-      restricciones que fija la propia unidad.
-  - titulo: Obra y frentes de trabajo
-    texto: >-
-      Control de cuadrillas y bitácora de material y equipo que entra y sale del
-      frente.
+      Local comercial abajo, vivienda arriba y un solo acceso vehicular. Es el
+      inmueble donde más se discute quién autoriza qué.
 proceso:
-  - titulo: Levantamiento del punto
+  - titulo: Visita al acceso en hora pico
     texto: >-
-      Visita al acceso para ver flujo, horas pico, espacio de espera, iluminación y
-      qué se puede ver desde la caseta. De ahí sale cuántas posiciones hacen falta.
-  - titulo: Reglas de ingreso
+      No a las once de la mañana, cuando no pasa nada. Vamos a la hora en que se
+      forma la fila, que es cuando se ve el espacio de espera real, la
+      iluminación, los ángulos muertos y qué alcanza a ver quien está en la
+      caseta.
+  - titulo: Decidir quién autoriza
     texto: >-
-      Se define con el cliente quién autoriza, qué datos se piden, qué se hace con
-      la paquetería y qué pasa fuera de horario. Sin esta decisión, el servicio
-      queda al criterio de quien esté en turno.
-  - titulo: Consigna y formatos
+      El residente, el jefe de piso, el residente de obra, la administración
+      fuera de horario. Esa decisión es del cliente y hay que tomarla antes de
+      cotizar posiciones.
+  - titulo: Bajar la consigna y el formato
     texto: >-
-      Las reglas bajan a la consigna del punto y a los formatos de registro. Es el
-      documento que se audita después.
-  - titulo: Arranque y aviso
+      Las reglas se escriben, se firman y se cuelgan en el punto. Es el documento
+      que se audita después.
+  - titulo: Alta del personal y aviso a los ocupantes
     texto: >-
-      Alta del personal, prueba del flujo en hora pico y aviso a residentes u
-      ocupantes de qué se les va a pedir. Un filtro que nadie anunció se percibe
-      como obstáculo.
+      Damos de alta a los elementos y avisamos a residentes u ocupantes qué se les
+      va a pedir. Un filtro que nadie anunció se vive como obstáculo la primera
+      semana y como imposición la segunda.
+  - titulo: Primera semana con supervisor encima
+    texto: >-
+      Los primeros siete días el supervisor pasa sin avisar y corrige en sitio.
+      Ahí se ajusta lo que en papel se veía bien.
   - titulo: Auditoría del registro
     texto: >-
       Revisión periódica de lo asentado y ajuste de la consigna. Un registro que
-      nadie lee es un registro que tarde o temprano deja de llenarse.
+      nadie lee es un registro que en seis meses se llena solo con garabatos.
 errores:
-  - titulo: Confundir equipo con control
+  - titulo: Comprar equipo y llamarle control
     texto: >-
-      Pluma, torniquete y cámara no controlan nada por sí solos: registran o
-      estorban. Sin alguien que valide y sin reglas escritas, el equipo solo
-      documenta cómo entró quien no debía.
-  - titulo: Dejar la autorización al guardia
+      Torniquete, lector, cámara y pluma registran o estorban. Ninguno valida.
+      Sin regla escrita y sin alguien que confirme con el ocupante, el equipo se
+      limita a documentar con buena resolución cómo entró quien no debía.
+  - titulo: No decidir quién autoriza
     texto: >-
-      Si nadie definió quién autoriza, el guardia acaba decidiendo. Eso lo expone a
-      él, genera fricción con los ocupantes y vuelve el filtro discrecional e
-      indefendible.
-  - titulo: Registrar solo la entrada
+      Si nadie lo definió, lo define el guardia. Y un filtro discrecional es
+      indefendible ante el ocupante que se queja e inauditable cuando pasa algo.
+      Casi todos los pleitos entre caseta y usuarios nacen exactamente ahí.
+  - titulo: Registrar la entrada y olvidar la salida
     texto: >-
-      Sin hora de salida no hay trazabilidad, solo una lista de nombres. El valor
-      del registro aparece justo cuando hace falta saber quién seguía dentro.
-  - titulo: Ubicar mal el punto
+      Medio registro no es medio servicio. Es ninguno, el día que hace falta.
+  - titulo: Poner el punto donde no cabe la fila
     texto: >-
-      Un acceso sin espacio de espera obliga a decidir entre hacer fila en la calle
-      o abrir sin verificar. En la práctica siempre gana lo segundo.
-  - titulo: No auditar nunca
+      Primera semana de enero, seis y cuarto de la mañana, acceso peatonal de una
+      torre en Del Valle. El lector biométrico no engancha con las manos frías y
+      hay catorce personas formadas antes de las siete. El guardia empieza a
+      abrir a mano para no bloquear la banqueta. Si no dejaste escrito el plan B,
+      el plan B es que el filtro desaparece un mes al año.
+  - titulo: Comparar cotizaciones por el total
     texto: >-
-      El registro se degrada solo si nadie lo revisa. Basta una revisión periódica
-      corta para que se siga llenando con seriedad.
-  - titulo: Comparar propuestas por el total
-    texto: >-
-      Dos cotizaciones con la misma cifra pueden tener posiciones y turnos
-      distintos. Sin el desglose por posición y turno no estás comparando lo mismo.
+      Dos propuestas con la misma cifra pueden traer posiciones y turnos
+      distintos. Pide el desglose por posición y por turno, o no estás comparando
+      lo mismo.
 glosario:
   - termino: Consigna
     definicion: >-
-      Documento que fija, por escrito, qué revisa una posición, con qué frecuencia,
-      qué autoriza y a quién reporta. Sin consigna no hay servicio auditable.
-  - termino: Bitácora
-    definicion: >-
-      Registro por turno de novedades, incidencias y anomalías. Es distinta del
-      registro de accesos, aunque suelan confundirse.
-  - termino: Filtro de acceso
-    definicion: >-
-      El conjunto de identificación, validación y registro que se aplica antes de
-      autorizar un ingreso. El filtro es el procedimiento, no la pluma.
-  - termino: Trazabilidad
-    definicion: >-
-      Poder reconstruir después quién entró, cuándo, quién lo autorizó y a qué hora
-      salió. Requiere registrar entrada y salida.
+      La hoja que fija qué revisa una posición, qué autoriza, qué niega y a quién
+      reporta. Sin consigna no hay servicio auditable, hay buena voluntad.
   - termino: Posición
     definicion: >-
-      Cada punto de servicio que hay que cubrir. Una posición cubierta 24 horas
-      requiere varios elementos rotando, no una sola persona.
+      Cada punto que hay que cubrir. Una posición de 24 horas necesita varios
+      elementos rotando, no una persona con mucha resistencia.
+  - termino: Filtro
+    definicion: >-
+      El conjunto de identificar, validar y registrar antes de autorizar. El
+      filtro es el procedimiento. La pluma es mobiliario.
+  - termino: Trazabilidad
+    definicion: >-
+      Poder reconstruir meses después quién entró, cuándo, quién lo autorizó y a
+      qué hora salió.
   - termino: Tarjetón de visita
     definicion: >-
-      Identificador temporal que se entrega al visitante o al vehículo, con
-      vigencia y devolución al salir. Sirve para cerrar el ciclo del registro.
+      Identificador temporal con vigencia que se entrega al ingreso y se devuelve
+      al salir. Cierra el ciclo del registro.
+  - termino: Pase de salida
+    definicion: >-
+      Folio que ampara la salida de material o equipo, firmado por quien tiene
+      facultad para autorizarla. En obra e industria es el documento que más se
+      falsifica y el que menos se revisa.
+  - termino: Lista de autorizados
+    definicion: >-
+      Padrón vigente de quién puede entrar sin consulta previa. La actualiza el
+      cliente, no nosotros.
+  - termino: Bitácora
+    definicion: >-
+      Registro de novedades del turno. Es otra cosa que el registro de accesos,
+      aunque en la práctica se confundan todo el tiempo.
 entregables:
   - Consigna escrita del punto de acceso
-  - Registro de visitantes y proveedores con hora de entrada y salida
-  - Registro de accesos vehiculares
-  - Control de paquetería y maniobras
+  - Registro de visitantes con hora de entrada y de salida
+  - Registro vehicular con placas y control de tarjetón
+  - Folios de salida de material y equipo
   - Bitácora de novedades por turno
-  - Reporte de accesos por periodo
+  - Reporte de accesos del periodo
 galeria:
   - control-de-acceso-seguridad-privada:1
   - guardia-mujer-acceso-peatonal:1
   - registro-de-visitantes-caseta:4
+  - recepcion-residencial-guardia:2
   - guardia-verificando-acceso:3
-  - registro-de-visitantes-caseta:8
-  - control-de-acceso-seguridad-privada:5
+  - inspeccion-perimetral-almacen:5
 faq:
-  - q: ¿Qué diferencia hay entre control de accesos y una caseta con pluma?
-    a: La pluma es equipo; el control de accesos es un procedimiento. Un inmueble puede tener barrera, torniquete y cámaras y seguir sin control si nadie valida con el ocupante antes de autorizar y nadie registra la salida. El equipo hace más cómodo el procedimiento, pero no lo sustituye.
-  - q: ¿Se puede llevar el registro en papel?
-    a: "Sí, y sigue siendo válido si se llena completo y se conserva. La ventaja del registro digital es que se consulta y se reporta sin descifrar letra, y que es más difícil alterarlo a posteriori. Lo que no debe cambiar entre uno y otro es el dato: quién, cuándo, autorizado por quién y a qué hora salió."
-  - q: ¿El guardia puede pedir identificación oficial y quedársela?
-    a: Pedir una identificación para registrar los datos es una práctica común; retenerla mientras dura la visita no es recomendable y suele generar conflicto. Lo habitual es anotar los datos y devolverla en el momento, entregando a cambio un tarjetón de visita. Conviene que esa política quede definida por escrito por la administración y revisada por quien lleve el tema legal del inmueble.
-  - q: ¿Qué implicaciones tiene el registro en materia de datos personales?
-    a: "Un registro de visitantes recaba datos personales, así que conviene tratarlo como tal: recabar solo lo necesario, informar la finalidad, definir cuánto tiempo se conserva y quién puede consultarlo. Esto no es asesoría legal; lo prudente es que el condominio o la empresa lo revise con su asesor y lo deje asentado en su política interna."
+  - q: ¿Cuántos guardias necesito si tengo un acceso peatonal y uno vehicular?
+    a: >-
+      Depende de si operan al mismo tiempo, cuántas horas y con qué flujo.
+      Contiguos y con un reglamento que priorice, a veces salen con una sola
+      posición. Separados, o con hora pico de verdad, no. Pide que la propuesta
+      diga posiciones y turnos por separado y saca tú la cuenta de las horas.
+  - q: ¿Cuánto tarda el arranque desde que se firma?
+    a: >-
+      El levantamiento y la consigna son cosa de días. Lo que suele detener el
+      arranque es la decisión del cliente sobre quién autoriza y qué se hace con
+      la paquetería; mientras eso no se resuelva, dar de alta personal no sirve
+      de nada. Pregunta el plazo de implementación y déjalo por escrito en el
+      contrato.
   - q: ¿Qué pasa si un visitante se niega a registrarse?
-    a: "Sin autorización del ocupante y sin registro, no procede el ingreso, y así debe estar redactado en la consigna. El punto crítico es qué hace el guardia si la persona insiste: a quién avisa, en qué orden y qué asienta. Acordar ese protocolo antes de arrancar evita que se resuelva improvisando."
-  - q: ¿Cómo se controla la paquetería y la mensajería?
-    a: La empresa registra al repartidor y la entrega, pero el criterio —si se recibe en caseta, si se anuncia, si se prohíbe— lo fija la administración y debe estar en la consigna. Conviene definirlo antes de arrancar y comunicarlo a los ocupantes, porque es la fuente más común de fricción con la caseta.
-  - q: ¿Cuánto tiempo se conserva el registro?
-    a: Lo define el cliente en su política interna, y debe quedar en el contrato junto con quién puede solicitar una consulta. Un plazo demasiado corto deja al inmueble sin evidencia justo cuando la necesita; uno indefinido acumula datos personales sin razón.
-  - q: ¿Se necesita un guardia por cada acceso?
-    a: Depende de cuántos accesos operen en simultáneo, cuántas horas y qué flujo tienen. Un acceso peatonal y uno vehicular contiguos pueden resolverse con una posición si el reglamento prioriza; separados o con hora pica fuerte, no. Pide que la propuesta indique posiciones y turnos por separado, no un total.
-  - q: ¿Qué modalidad de permiso debe amparar este servicio?
-    a: La de seguridad privada en los bienes, por tratarse de la vigilancia de un inmueble o instalación. Confirma en el documento del permiso que esa modalidad aparezca listada y que la vigencia esté al corriente antes de firmar.
-  - q: ¿Funciona igual en un almacén que en un condominio?
-    a: El procedimiento es el mismo; cambia qué se verifica. En un condominio el filtro gira alrededor de la visita y la paquetería; en un almacén, alrededor del transportista, el documento que ampara la maniobra y lo que sale cargado. La consigna se escribe para el sitio, no en general.
+    a: >-
+      Sin autorización del ocupante y sin registro no procede el ingreso, y así
+      tiene que estar redactado en la consigna. Lo que hay que definir antes es
+      qué hace el elemento si la persona insiste: a quién llama, en qué orden y
+      qué asienta. Ese protocolo se acuerda en frío, no con alguien gritando en
+      la puerta.
+  - q: ¿Cómo sé si el registro se está llenando de verdad?
+    a: >-
+      Pide el reporte del periodo y compáralo contra algo que sepas de memoria.
+      Una mudanza, una fiesta, el día de la asamblea. Si el registro no refleja
+      ese día, no está reflejando ninguno. Esa revisión toma quince minutos al
+      mes y es la que sostiene el servicio.
+  - q: ¿Qué pasa si el biométrico o el lector dejan de funcionar?
+    a: >-
+      Tiene que haber plan B por escrito: registro manual, quién avisa a soporte
+      y en cuánto tiempo se espera la reposición. Las fallas de lector se
+      concentran en enero por el frío y en temporada de lluvias por la humedad, y
+      siempre aparecen a la hora de mayor flujo.
+  - q: ¿El guardia se puede quedar con mi identificación mientras dura la visita?
+    a: >-
+      Anotar los datos y devolverla en el momento, entregando un tarjetón a
+      cambio, es la práctica que menos conflicto genera. Retener el documento no
+      es recomendable. Esa política la define por escrito la administración, y
+      conviene que la revise quien lleve el tema legal del inmueble.
+  - q: ¿Qué implicaciones tiene el registro en materia de datos personales?
+    a: >-
+      Un registro de visitantes recaba datos personales. Lo prudente es pedir
+      solo lo necesario, informar la finalidad, fijar cuánto tiempo se conserva y
+      quién puede consultarlo. Esto no es asesoría legal; que lo revise el asesor
+      del condominio o de la empresa y que quede asentado en la política interna
+      del inmueble.
+  - q: ¿Sirve el mismo formato en una obra que en un lobby residencial?
+    a: >-
+      El procedimiento es el mismo; cambia qué se verifica. En una torre en
+      Anzures el filtro gira alrededor de la visita y la paquetería. En un frente
+      de obra gira alrededor de la cuadrilla, el subcontratista y el material que
+      sale. La consigna se escribe para el sitio, nunca en general.
   - q: ¿Quién decide qué visitante entra y cuál no?
-    a: El criterio no lo pone el guardia, lo pone la lista de autorización que el cliente define y actualiza. El elemento verifica contra esa lista y escala lo que no esté previsto. Si la propuesta no explica de dónde sale la autorización, el control de accesos todavía no está diseñado.
+    a: >-
+      La lista de autorizados y la regla que fija el cliente. El elemento
+      verifica contra eso y escala lo que no esté previsto. Si una propuesta no
+      explica de dónde sale la autorización, el control de accesos todavía no
+      está diseñado, nada más cotizado.
   - q: ¿Sirve de algo el control de accesos si el perímetro está abierto?
-    a: Poco. Un punto de control filtra lo que pasa por él; si hay accesos secundarios, azoteas o bardas por donde se entra sin registro, el filtro solo documenta a quien decidió ser documentado. Conviene cerrar el perímetro o sumar rondín antes de invertir en más equipo en la entrada.
+    a: >-
+      Poco. Un punto filtra lo que pasa por él. Si hay accesos de servicio,
+      azoteas colindantes o barda baja, el filtro documenta nada más a quien
+      decidió dejarse documentar. Antes de invertir en más equipo en la entrada
+      conviene cerrar el perímetro o sumar rondín.
+  - q: ¿Qué modalidad del permiso ampara este servicio?
+    a: >-
+      La de seguridad privada en los bienes, por tratarse de la vigilancia de un
+      inmueble o instalación. Confirma en el documento del permiso que esa
+      modalidad aparezca listada y que la vigencia esté al corriente antes de
+      firmar.
+  - q: ¿En qué zonas presta Virelta este servicio?
+    a: >-
+      La empresa declara operación en la CDMX y el Estado de México, con
+      presencia habitual en Polanco, Anzures, Juárez, Nápoles, Del Valle y Santa
+      Fe, y del otro lado del Periférico en Tecamachalco e Interlomas. Confirma
+      la cobertura de tu dirección exacta antes de pedir cotización.
 ---
 
-## Un acceso no se controla con equipo, se controla con procedimiento
+## La pluma no controla nada
 
-La conversación sobre control de accesos casi siempre empieza por el equipo:
-pluma, torniquete, cámara, lector. Es la parte visible y la que se cotiza fácil.
-Pero un inmueble con todo eso instalado puede seguir sin control real si nadie
-**valida con el ocupante** antes de autorizar y nadie **registra la salida**.
+Casi toda la conversación sobre control de accesos empieza por el fierro: pluma,
+torniquete, lector, cámara. Es lo visible y lo que se cotiza rápido. Un inmueble
+puede tener las cuatro cosas instaladas y seguir sin control, porque ninguna de
+ellas valida con el ocupante ni registra la salida. Eso lo hace una persona
+siguiendo una regla escrita.
 
-El equipo hace más cómodo el procedimiento. No lo sustituye. Lo que convierte una
-caseta en un control de accesos es que exista una regla escrita, que alguien la
-aplique igual en todos los turnos y que lo asentado se pueda consultar después.
+El equipo hace cómodo el procedimiento. No lo sustituye. Lo que convierte una
+caseta en un control de accesos es que exista la regla, que se aplique igual en
+los tres turnos y que lo asentado se pueda consultar en marzo por algo que pasó
+en diciembre.
 
-## La pregunta que ordena todo: ¿quién autoriza?
+## Quién autoriza, la decisión que casi nadie toma
 
-Antes de hablar de horarios o de personal, hay una decisión que el cliente tiene
-que tomar y poner por escrito: **quién autoriza un ingreso**. El residente. El
-jefe de piso. El responsable de almacén. La administración fuera de horario.
+Antes de hablar de horarios, de posiciones o de precio hay una sola pregunta que
+el cliente tiene que contestar por escrito: quién autoriza un ingreso. El
+residente. El jefe de piso. El residente de obra. La administración fuera de
+horario. Son tres líneas y de ahí cuelga todo lo demás.
 
-Si esa decisión no se toma, la toma el guardia —y entonces el filtro se vuelve
-discrecional, imposible de defender ante un ocupante molesto e imposible de
-auditar después. La mayoría de los conflictos entre caseta y usuarios nacen
-exactamente ahí.
+Si nadie la contesta, la contesta el elemento en turno. Y un filtro discrecional
+es indefendible frente al ocupante que se queja e inauditable cuando de verdad
+pasa algo. Cuando en una asamblea alguien reclama que el guardia no dejó pasar a
+su cuñado, el problema nunca fue el guardia. Fue que nadie escribió la regla.
 
-## Qué pedir en la propuesta
+## El mismo formato en el lobby, en la recepción y en la obra
 
-- **Posiciones y turnos por separado**, nunca un total. Es la única forma de
-  comparar dos cotizaciones.
-- **La consigna preliminar del punto**: qué datos se piden, quién autoriza, qué
-  pasa con la paquetería y qué se hace fuera de horario.
-- **El formato de registro** que se va a usar, y si es digital o en papel.
-- **El plazo de conservación** del registro y quién puede consultarlo.
-- **El esquema de suplencias** y su tiempo de respuesta, por escrito.
-- **La modalidad que ampara el permiso** y su vigencia.
+Virelta atiende residencial, corporativo, hospital, industria y obra. Eso no
+significa que el filtro sea genérico. Significa que el formato de registro, el
+esquema de supervisión y la forma de reportar son los mismos, y lo que cambia es
+la consigna del sitio. Para un administrador que lleva el condominio y además la
+obra de la torre nueva, se traduce en una cuenta, un supervisor y dos consignas
+distintas.
 
-Un proveedor que ya trabajó puntos de acceso entrega esos seis puntos sin que
-insistas. Si la propuesta es solo un precio y un número de elementos, todavía no
-dimensionó el servicio.
+Cuando ese mismo inmueble ya tiene
+[guardias intramuros](/categorias/seguridad-privada/cdmx/virelta-seguridad-privada/guardias-intramuros/),
+el punto de acceso deja de ser un servicio aparte y pasa a ser el primer eslabón
+de la misma consigna: el que filtra en la puerta y el que recorre adentro leen
+el mismo documento y le reportan a la misma persona.
 
-## Qué revisar antes de firmar
+## Lo que sale importa más de lo que entra
 
-1. Documento del permiso de seguridad privada, con modalidad y vigencia legibles.
-2. Registro REPSE si el servicio se presta como servicio especializado.
-3. Comprobante de alta del personal ante IMSS e INFONAVIT.
-4. Póliza de responsabilidad civil vigente.
-5. Modelo de consigna y de formato de registro para tu inmueble.
-6. Política de conservación y consulta del registro, por escrito.
-7. Nombre y contacto del supervisor asignado a la cuenta.
+En residencial el filtro se diseña alrededor de la visita. En obra, en hospital y
+en nave industrial el problema está del otro lado: herramienta, cable, equipo de
+cómputo, medicamento, tarima. Ahí el documento que importa no es el registro de
+visitantes sino el pase de salida, con folio, con firma de quien tiene facultad
+para autorizarlo y con alguien que lo coteje contra lo que va en la cajuela.
 
-> El alcance de este servicio, sus acreditaciones y su cobertura los declara
-> Virelta Seguridad Privada. La información sobre identificaciones y datos
-> personales es orientativa y no constituye asesoría legal. Antes de firmar,
-> solicita los documentos, confirma su vigencia y la modalidad que amparan, y
-> revisa tu política de registro con tu propio asesor.
+Es el punto donde el control de accesos se toca con la
+[prevención de pérdidas](/categorias/seguridad-privada/cdmx/virelta-seguridad-privada/prevencion-de-perdidas/)
+y donde conviene decidir de una vez si el acceso solo registra o también revisa.
+Y si el predio tiene bardas largas, frentes ciegos o un lote de material a cielo
+abierto, el filtro de la puerta se queda corto sin
+[patrullaje con rastreo GPS](/categorias/seguridad-privada/cdmx/virelta-seguridad-privada/patrullaje-con-rastreo-gps/)
+que cubra el perímetro entre cruce y cruce.
+
+## Preguntas para hacerle a quien te cotice
+
+Llévalas impresas a la reunión. Quien ya operó puntos de acceso las contesta sin
+consultarle nada a nadie.
+
+- ¿Cuántas posiciones y cuántos turnos, desglosados y no en un total?
+- ¿Quién autoriza un ingreso según tu propuesta, y qué se hace fuera de horario?
+- ¿Me enseñas la consigna preliminar de mi punto, no un modelo genérico?
+- ¿El registro es digital o en papel, y quién puede consultarlo después?
+- ¿Cuánto tiempo se conserva y qué pasa cuando vence ese plazo?
+- ¿Cómo cubres una falta, en cuánto tiempo y quién me avisa?
+- ¿Qué modalidad ampara tu permiso y hasta cuándo tiene vigencia?
+- ¿Cómo se documenta la salida de material y quién firma el pase?
+
+Si te contestan seis de las ocho sin titubear, ya sabes con quién estás hablando.
+Si te contestan con el precio, también.
+
+Y si prefieres saltarte la reunión, mándanos por WhatsApp una foto del acceso a
+la hora pico y el reglamento vigente. Con eso te decimos cuántas posiciones hacen
+falta antes de que nadie hable de dinero.
+
+> Alcance, permisos y cobertura son información que declara Virelta Seguridad
+> Privada. TuSeguridad no la audita ni participa en la contratación. Lo relativo
+> a identificaciones, conservación de registros y datos personales es orientación
+> general y no sustituye la opinión de un abogado: pide los documentos, revisa
+> vigencias y consulta tu política interna con tu propio asesor.

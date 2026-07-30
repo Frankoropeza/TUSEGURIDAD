@@ -2,27 +2,28 @@
 empresa: virelta-seguridad-privada
 slug: proteccion-ejecutiva
 nombre: Protección ejecutiva
-titulo: Protección ejecutiva y escolta en CDMX y Estado de México
+titulo: Protección ejecutiva y escolta para directivos en CDMX y Estado de México
 tituloSeo: Protección ejecutiva y escolta CDMX y Edomex
 descripcion: >-
-  Protección ejecutiva y escolta personal en CDMX y Estado de México:
-  avanzada del destino, rutas alternas y dispositivo según perfil de riesgo.
+  Escolta para directivos y sus familias, con avanzada del destino, rutas
+  alternas y un dispositivo dimensionado por perfil de riesgo. CDMX y Edomex.
 orden: 7
 titulos:
-  incluye: Qué hace el equipo antes de cada traslado
-  modalidades: Formas de contratar la protección ejecutiva
-  paraQuien: Quién necesita un dispositivo de protección ejecutiva
-  proceso: Del levantamiento de riesgo al primer traslado
-  errores: Errores que exponen al principal
-  glosario: Términos que vas a escuchar en la propuesta
-  faq: Dudas sobre protección ejecutiva
+  incluye: Lo que ocurre antes de que el principal se suba al coche
+  modalidades: Dispositivo puntual o permanente
+  paraQuien: ¿A quién le corresponde este servicio?
+  proceso: Del levantamiento de perfil al primer traslado
+  errores: Los errores que dejan expuesto al principal
+  glosario: Vocabulario de la propuesta
+  faq: Lo que preguntan los directivos y las familias
 intro: >-
-  Acompañamiento personal para directivos, empresarios y sus familias, con
-  planeación de ruta y avanzada del punto de destino antes de cada traslado.
-  Virelta declara dimensionar el dispositivo según el perfil de riesgo real
-  del principal, no según un paquete fijo. El error más común del sector no
-  es tener pocos elementos: es tener una rutina tan predecible que los
-  elementos ya no alcanzan a compensarla.
+  Acompañamiento para directivos, empresarios y sus familias. Trabajamos con
+  planeación de ruta y con avanzada del punto de destino antes de cada
+  traslado, y dimensionamos el dispositivo según el perfil de riesgo real del
+  principal. No según un paquete de dos o de cuatro elementos. Virelta declara
+  operar el servicio en CDMX y Estado de México, tanto en modalidad puntual
+  para un evento o un viaje como en dispositivo permanente. El trabajo es
+  discreto por diseño: si se nota mucho, casi siempre está mal armado.
 stats:
   - k: Cobertura
     v: CDMX · Edomex
@@ -31,169 +32,168 @@ stats:
 incluye:
   - titulo: Levantamiento del perfil de riesgo
     texto: >-
-      Se evalúa la exposición real del principal: figura pública o no,
-      patrimonio visible, ubicación de residencia y oficina, y antecedentes
-      de amenaza si los hay. El dispositivo se dimensiona a partir de esto,
-      no de un paquete estándar.
+      Revisamos la exposición real: si el cargo es público o no, qué tan
+      visible es el patrimonio, dónde están los puntos fijos y si existe algún
+      antecedente concreto. De ahí sale el número de elementos. No al revés.
   - titulo: Avanzada del punto de destino
     texto: >-
-      Antes de que el principal llegue, un elemento recorre el destino:
-      accesos, salidas alternas, ubicación del servicio médico más cercano y
-      puntos de riesgo del lugar. Llegar sin avanzada es llegar a reaccionar.
-  - titulo: Planeación de ruta con alternas
+      Un elemento llega antes que el principal y recorre el lugar. Accesos,
+      salidas alternas, dónde queda el servicio médico más cercano, por dónde
+      se sale si el estacionamiento se satura. Es un trabajo aburrido y es el
+      que sostiene todo lo demás. Una comida de trabajo en Polanco a las dos
+      de la tarde tiene un problema previsible: el valet acumula quince coches
+      en la banqueta y la salida rápida deja de existir. Eso se sabe a las
+      doce y media, no a las cuatro.
+  - titulo: Ruta planeada con al menos una alterna
     texto: >-
-      Ningún traslado depende de una sola ruta ni de un solo horario fijo.
-      Se define al menos una alterna, para que el trayecto del principal no
-      sea el mismo todos los días a la misma hora.
-  - titulo: Acompañamiento en el traslado
+      Ningún traslado depende de un solo camino ni de una sola hora. Reforma
+      un día, la lateral al día siguiente, y la salida corrida veinte minutos.
+  - titulo: Coordinación con el chofer, la asistente y la casa
     texto: >-
-      Escolta a pie, vehicular o ambas, según el dispositivo acordado, en
-      coordinación por radio con el elemento de avanzada en el destino.
-  - titulo: Protocolo de contingencia
+      Aquí se rompen la mayoría de los dispositivos. La agenda la arma otra
+      persona, el chofer particular lleva ocho años con su propia rutina y en
+      la casa nadie sabe que hay un protocolo. Nos sentamos con los tres antes
+      de operar. Un equipo que no habla con quien organiza el día del
+      principal se rompe por el lado que nadie estaba mirando.
+  - titulo: Bitácora de traslados y contingencia por escrito
     texto: >-
-      Queda definido por escrito qué hace el equipo si algo se desvía del
-      plan: punto de reunión, ruta de salida y a quién se avisa primero,
-      antes de que ocurra, no durante.
-  - titulo: Coordinación con el entorno del principal
-    texto: >-
-      Agenda, asistente y chofer particular si lo hay quedan alineados al
-      protocolo. Un dispositivo que no coordina con quien organiza el día a
-      día del principal se rompe por el lado que nadie vigiló.
-  - titulo: Bitácora de cada movimiento
-    texto: >-
-      Se registra horario, ruta usada y novedades de cada traslado, para
-      ajustar el dispositivo con datos reales y no solo con percepción.
+      Horario, ruta usada y novedades de cada movimiento. Y un documento corto
+      que dice qué hace el equipo si algo se sale del plan: punto de reunión,
+      ruta de salida y a quién se avisa primero.
 modalidades:
-  - titulo: Protección puntual
+  - titulo: Dispositivo puntual
     texto: >-
-      Un traslado, un evento o un viaje específico, sin dispositivo
-      permanente. Frecuente para presentaciones públicas o visitas a plazas
-      que el principal no conoce.
-  - titulo: Protección permanente
+      Un traslado, un evento, un viaje. Sirve para una asamblea de accionistas
+      o para la llegada al Aeropuerto de alguien que no conoce la ciudad.
+  - titulo: Dispositivo permanente
     texto: >-
-      Dispositivo fijo con equipo asignado y turnos, para un perfil de
-      riesgo sostenido en el tiempo, no acotado a un solo momento.
-  - titulo: Protección de bajo perfil
+      Equipo asignado con turnos y relevos, para un perfil de riesgo que se
+      sostiene en el tiempo y no se acaba cuando termina el evento.
+  - titulo: Bajo perfil
     texto: >-
-      El elemento se mezcla con el entorno del principal, sin uniforme ni
-      vehículo marcado. Se usa cuando la discreción importa más que la
-      disuasión visible, sin que eso reduzca la capacidad del dispositivo.
+      Sin uniforme ni vehículo marcado. El elemento se mezcla con el entorno.
+      Es lo que piden casi todas las familias, y con razón: en Lomas de
+      Chapultepec o en Tecamachalco, una camioneta con torreta anuncia la casa
+      entera al pasar.
   - titulo: Protección familiar
     texto: >-
-      Extiende el dispositivo a la familia del principal: traslados
-      escolares, actividades regulares y puntos fijos que también necesitan
-      avanzada y ruta planeada.
+      Extiende el dispositivo a la familia. Traslados escolares, clases,
+      actividades de fin de semana. Son los movimientos más repetitivos que
+      existen y por eso los que más necesitan variación de horario.
 paraQuien:
-  - titulo: Directivos y accionistas con exposición pública
+  - titulo: Directivos con exposición por el cargo
     texto: >-
-      Perfiles reconocibles por su cargo o su presencia en medios, donde la
-      exposición no depende de su voluntad sino de su posición.
-  - titulo: Familias con perfil de riesgo identificado
+      Perfiles reconocibles por su puesto o por su presencia en medios, donde
+      la exposición no la eligieron ellos.
+  - titulo: Familias con un perfil identificado
     texto: >-
-      Patrimonio visible o incidentes previos documentados que justifican
-      extender el dispositivo más allá del titular.
-  - titulo: Ejecutivos en viaje a plazas desconocidas
+      Patrimonio visible o un antecedente concreto que justifica extender el
+      dispositivo más allá del titular. Sin antecedente ni exposición, casi
+      siempre te vamos a decir que no lo necesitas todavía.
+  - titulo: Ejecutivos que llegan a una plaza que no conocen
     texto: >-
-      Quien no conoce una ciudad no conoce sus rutas seguras ni sus puntos
-      de riesgo; la avanzada cubre exactamente esa falta de referencia.
-  - titulo: Empresarios en conflicto legal o laboral activo
+      Quien no conoce una ciudad no sabe qué calle se cierra a las siete ni
+      por dónde se sale de un estacionamiento subterráneo. La avanzada cubre
+      exactamente esa falta de referencia.
+  - titulo: Empresarios con un proceso legal o laboral abierto
     texto: >-
-      Procesos que generan exposición identificable a terceros, distinta de
-      la exposición pública ordinaria de un directivo.
-  - titulo: Figuras públicas en eventos con aforo abierto
+      Situaciones que generan exposición hacia terceros identificados, que es
+      distinta de la exposición pública ordinaria de un directivo.
+  - titulo: Figuras públicas en actos con aforo abierto
     texto: >-
-      Presentaciones, asambleas o actos con público no controlado, donde el
-      dispositivo trabaja junto con la organización del evento.
-  - titulo: Personal con amenazas o incidentes documentados
+      Presentaciones, asambleas, inauguraciones. El dispositivo trabaja junto
+      con la organización del evento, no aparte de ella.
+  - titulo: Personas con un incidente ya documentado
     texto: >-
-      Casos donde ya existe un antecedente concreto y el dispositivo
-      responde a un riesgo identificado, no a una posibilidad general.
+      Cuando existe un hecho concreto de por medio, el dispositivo responde a
+      un riesgo con nombre y no a una preocupación general.
 proceso:
-  - titulo: Levantamiento del perfil de riesgo
+  - titulo: Entrevista y levantamiento del perfil
     texto: >-
-      Se revisa la exposición real del principal, sus puntos fijos
-      (residencia, oficina) y los traslados que hace con más frecuencia.
+      Una conversación con el principal, no un formulario. Puntos fijos,
+      traslados frecuentes, con quién viaja, qué parte de la agenda es pública
+      y qué parte no debería serlo.
   - titulo: Propuesta con dispositivo y rutas
     texto: >-
-      La propuesta especifica cuántos elementos, en qué modalidad y con qué
-      rutas propuestas, para que el principal decida con esa información y
-      no la descubra después de un incidente.
+      Cuántos elementos, en qué modalidad y con qué rutas propuestas. Con el
+      motivo de cada decisión escrito al lado, para que se pueda discutir
+      antes y no reclamar después.
   - titulo: Avanzada de los puntos fijos
     texto: >-
-      Antes de operar, el equipo recorre residencia, oficina y las rutas
-      frecuentes del principal, no solo el primer destino contratado.
-  - titulo: Alta del equipo y protocolo de contingencia
+      El equipo recorre casa, oficina y las rutas de todos los días antes de
+      empezar a operar. No solo el primer destino contratado.
+  - titulo: Presentación del equipo y acuerdo de contingencia
     texto: >-
-      Se define por escrito qué hace el equipo ante cada tipo de
-      contingencia y se acuerda directamente con el principal, no solo con
-      quien contrata el servicio.
-  - titulo: Primeras semanas y ajuste
+      El principal conoce a quien lo va a acompañar y se acuerda con él, en
+      persona, qué hace el equipo en cada supuesto. No solo con quien firma el
+      contrato.
+  - titulo: Primeras dos semanas y ajuste
     texto: >-
-      Con los primeros traslados se corrigen rutas que resultaron poco
-      prácticas y horarios que conviene variar más de lo previsto.
+      Salen a la luz rutas que en papel se veían bien y en la calle no, y
+      horarios que conviene mover más de lo previsto.
 errores:
-  - titulo: Rutina fija sin variación
+  - titulo: Rutina fija, sin variación
     texto: >-
-      Mismo horario, misma ruta, todos los días. Es el error que más
-      expone: convierte al principal en un blanco predecible sin que nadie
-      tenga que vigilarlo de cerca para saber dónde va a estar.
-  - titulo: Dispositivo dimensionado por presupuesto, no por riesgo
+      Misma salida, misma hora, mismo camino. Es lo que más expone y no cuesta
+      dinero corregirlo.
+  - titulo: Dimensionar por presupuesto en vez de por riesgo
     texto: >-
-      Un perfil de riesgo alto cubierto con un solo elemento no es un
-      ahorro, es una promesa vacía que se descubre en el peor momento.
-  - titulo: Sin avanzada del destino
+      Un perfil que requiere tres elementos cubierto con uno no es un ahorro.
+      Es un dispositivo que no puede hacer lo que promete, y eso se descubre
+      en el peor momento posible. Si el presupuesto no alcanza, preferimos
+      cubrir bien los traslados críticos y decirlo, antes que estirar el
+      servicio hasta que deje de ser servicio.
+  - titulo: Operar sin avanzada
     texto: >-
-      Llegar a un lugar sin haberlo recorrido antes deja al equipo
-      reaccionando ante lo que encuentra, en vez de haberlo anticipado.
-  - titulo: Protocolo de contingencia inexistente
+      Llegar al mismo tiempo que el principal es llegar a reaccionar a lo que
+      haya. Sin margen, sin salida identificada, sin nada.
+  - titulo: Sin protocolo de contingencia escrito
     texto: >-
-      Si nadie tiene claro qué hacer cuando algo se desvía del plan, el
-      dispositivo improvisa justo cuando más importa que no lo haga.
+      Si nadie tiene claro qué hacer cuando algo se sale del plan, el equipo
+      improvisa justo cuando más caro cuesta improvisar.
   - titulo: Confundir discreción con ausencia
     texto: >-
-      Quitarle visibilidad al dispositivo no es lo mismo que quitarle
-      capacidad. Un elemento de bajo perfil sigue operando el mismo
-      protocolo, solo que sin uniforme.
-  - titulo: Sin coordinación con el entorno del principal
+      Bajarle visibilidad al dispositivo no es bajarle capacidad. El elemento
+      de bajo perfil sigue el mismo protocolo, nada más que sin uniforme.
+  - titulo: Dejar fuera al chofer y a la asistente
     texto: >-
-      Un chofer particular o un asistente que desconoce el protocolo puede
-      romperlo sin darse cuenta, simplemente por no saber que existe.
+      Un chofer que no conoce el protocolo lo rompe sin querer. Una asistente
+      que publica la agenda en un grupo de WhatsApp con veinte personas
+      también.
+  - titulo: Contratar por la foto y no por el expediente
+    texto: >-
+      Físico imponente, traje oscuro, actitud. Nada de eso dice si el elemento
+      trae antecedentes verificados ni si sabe hacer una avanzada. Virelta
+      declara aplicar verificación de antecedentes y exámenes psicométricos en
+      su contratación. Pide ver cómo se documenta.
 glosario:
   - termino: Avanzada
     definicion: >-
-      Recorrido que hace un elemento en el punto de destino antes de que
-      llegue el principal, para identificar accesos, salidas alternas y
-      riesgos del lugar con tiempo de reaccionar.
+      El recorrido que hace un elemento en el destino antes de que llegue el
+      principal, para ubicar accesos, salidas y lo que esté fuera de lugar,
+      con tiempo suficiente para cambiar el plan.
   - termino: Perfil de riesgo
     definicion: >-
-      La exposición real del principal —cargo, patrimonio visible,
-      antecedentes— que determina el tamaño y la modalidad del dispositivo.
-      No es lo mismo que la percepción de riesgo.
-  - termino: Ruta alterna
-    definicion: >-
-      Trayecto distinto al habitual para el mismo destino, definido con
-      anticipación para no repetir siempre el mismo camino y horario.
-  - termino: Bajo perfil
-    definicion: >-
-      Modalidad de protección sin uniforme ni vehículo marcado, donde el
-      elemento se mezcla con el entorno del principal sin reducir su
-      capacidad de respuesta.
-  - termino: Protocolo de contingencia
-    definicion: >-
-      Procedimiento por escrito que define qué hace el equipo si algo se
-      desvía del plan: punto de reunión, ruta de salida y a quién avisar.
+      La exposición real de una persona: cargo, visibilidad, patrimonio,
+      antecedentes. Determina el tamaño del dispositivo. No es lo mismo que la
+      percepción de riesgo, que suele ser mayor o menor que la real.
   - termino: Patrón de vida
     definicion: >-
-      La rutina identificable de horarios y trayectos de una persona. Entre
-      más predecible es ese patrón, más fácil resulta anticipar dónde va a
-      estar; variarlo es una de las medidas más simples y efectivas.
+      La rutina identificable de horarios y trayectos. Entre más predecible,
+      más fácil resulta saber dónde va a estar alguien sin necesidad de
+      seguirlo.
+  - termino: Bajo perfil
+    definicion: >-
+      Modalidad sin uniforme ni vehículo marcado, donde el elemento se mezcla
+      con el entorno del principal y conserva el mismo protocolo.
 entregables:
-  - Levantamiento de perfil de riesgo
-  - Propuesta con dispositivo y rutas
-  - Protocolo de contingencia por escrito
-  - Bitácora de traslados y novedades
-  - Datos de contactos de emergencia definidos con el principal
-  - Datos del jefe de equipo asignado
+  - Levantamiento del perfil de riesgo
+  - Propuesta con dispositivo, modalidad y rutas propuestas
+  - Protocolo de contingencia por escrito, acordado con el principal
+  - Ficha de avanzada de los puntos fijos
+  - Bitácora de traslados con horario, ruta y novedades
+  - Directorio de contactos de emergencia definido con la familia
+  - Datos del jefe de equipo y de su relevo
 galeria:
   - guardia-seguridad-privada-polanco-cdmx:1
   - briefing-personal-de-seguridad:3
@@ -202,121 +202,163 @@ galeria:
   - guardia-seguridad-privada-polanco-cdmx:4
   - patrullaje-estacionamiento-subterraneo:6
 faq:
-  - q: ¿Qué diferencia hay entre un guardia y un elemento de protección ejecutiva?
-    a: >-
-      El guardia resguarda un inmueble fijo. El elemento de protección
-      ejecutiva se mueve con el principal: planea rutas, hace avanzada del
-      destino y responde a un perfil de riesgo específico, no a un punto.
-  - q: ¿Qué es la avanzada y por qué se hace antes de cada traslado?
-    a: >-
-      Es el recorrido que hace un elemento en el destino antes de que
-      llegue el principal, para ubicar accesos, salidas alternas y riesgos
-      del lugar. Llegar sin avanzada deja al equipo reaccionando en vivo.
-  - q: ¿El dispositivo puede ser discreto, sin uniforme ni vehículo marcado?
-    a: >-
-      Sí, es la modalidad de bajo perfil. El elemento se mezcla con el
-      entorno del principal; la falta de uniforme no reduce el protocolo
-      que sigue, solo su visibilidad.
   - q: ¿Cuántos elementos necesito para mi perfil de riesgo?
     a: >-
-      Depende del levantamiento inicial, no de una tabla fija. Pide que la
-      propuesta explique por qué recomienda ese número y esa modalidad
-      para tu caso específico.
-  - q: ¿La protección ejecutiva incluye a la familia del principal?
+      Sale del levantamiento, no de una tabla. Un directivo con agenda pública
+      y dos puntos fijos no requiere lo mismo que una familia con traslados
+      escolares en tres horarios distintos. Pide que la propuesta explique por
+      qué recomienda ese número, con el motivo escrito.
+  - q: ¿Cuánto cuesta un servicio de protección ejecutiva?
     a: >-
-      Puede extenderse mediante la modalidad de protección familiar, que
-      cubre traslados escolares y actividades regulares con su propia
-      avanzada y ruta planeada.
-  - q: ¿Qué pasa si cambio de planes a último momento?
+      Depende de la modalidad, del número de elementos, de si hay vehículo y
+      de la duración. No confíes en un precio dado por teléfono antes del
+      levantamiento: quien cotiza sin haber visto tu operación está cotizando
+      un paquete, y el paquete no sabe cómo es tu día.
+  - q: ¿Qué pasa si cambio de planes a última hora?
     a: >-
-      El equipo trabaja con al menos una ruta alterna definida de
-      antemano, precisamente para absorber cambios sin depender de una
-      planeación rígida de un solo camino.
+      Para eso existe la alterna. El equipo trabaja con al menos una ruta y un
+      destino secundario definidos de antemano, precisamente para que un
+      cambio de agenda no obligue a improvisar.
+  - q: ¿Cómo sé si de verdad necesito protección ejecutiva?
+    a: >-
+      Hay tres señales concretas: un antecedente documentado, una exposición
+      pública que no controlas, o un proceso abierto con terceros
+      identificados. Si ninguna aplica, probablemente lo que necesitas es
+      revisar el acceso de tu casa o de tu oficina, no un escolta.
+  - q: ¿Qué pasa si el elemento no se lleva bien con el chofer de la casa?
+    a: >-
+      Se resuelve antes de que ocurra. Por eso sentamos al chofer, a la
+      asistente y al jefe de equipo en la misma mesa durante el alta. Si la
+      relación no funciona, se cambia al elemento. Es más barato cambiarlo que
+      operar con un equipo que no se habla.
+  - q: ¿Cuántas rutas se planean para un traslado?
+    a: >-
+      La habitual y cuando menos una alterna. En corredores saturados como
+      Reforma, Periférico o la salida a Interlomas, normalmente dos alternas,
+      porque una sola se cae con cualquier manifestación o cierre.
+  - q: ¿Qué es la avanzada y por qué se hace antes de cada traslado?
+    a: >-
+      Es el recorrido previo del destino. Ubica accesos, salidas alternas y
+      lo que esté fuera de lugar. Llegar sin avanzada deja al equipo
+      reaccionando en vivo a un lugar que no conoce.
+  - q: ¿El dispositivo puede ser discreto, sin uniforme ni vehículo marcado?
+    a: >-
+      Sí, es la modalidad de bajo perfil, y es la que más se contrata para
+      familias. La falta de uniforme no cambia el protocolo, solo su
+      visibilidad.
+  - q: ¿La protección ejecutiva incluye a la familia?
+    a: >-
+      Puede extenderse con la modalidad familiar, que cubre traslados
+      escolares y actividades regulares, cada uno con su avanzada y su ruta.
   - q: ¿El elemento de protección puede portar arma?
     a: >-
       Depende de la modalidad contratada, del perfil de riesgo y de la
-      normativa vigente para el personal armado. Confírmalo directamente en
-      la propuesta antes de contratar.
+      normativa vigente aplicable al personal armado. Confírmalo por escrito
+      en la propuesta y revisa que el permiso lo ampare. No lo des por hecho.
+  - q: ¿Se puede contratar para un solo evento o un solo viaje?
+    a: >-
+      Sí, esa es la modalidad puntual. Una presentación, una asamblea, un
+      traslado al Aeropuerto o una visita a una plaza que el principal no
+      conoce.
   - q: ¿Qué modalidad de permiso debe amparar este servicio?
     a: >-
-      El permiso de la empresa debe cubrir expresamente protección personal
-      o custodia. Pide el documento y revisa la modalidad y su vigencia
-      antes de contratar.
+      El permiso de la empresa debe cubrir de forma expresa protección
+      personal o custodia. Pide el documento, revisa la modalidad y la
+      vigencia, y quédate con una copia.
   - q: ¿En qué zonas presta este servicio Virelta?
     a: >-
       La empresa declara cobertura en Miguel Hidalgo, Cuauhtémoc, Benito
       Juárez, Álvaro Obregón, Coyoacán y Tlalpan en la CDMX, y en Naucalpan,
       Huixquilucan, Tlalnepantla, Atizapán y Cuautitlán Izcalli en el Estado
-      de México.
-  - q: ¿Cómo se define la ruta de un traslado?
-    a: >-
-      Se define con al menos una alterna al trayecto habitual, para que el
-      principal no recorra siempre el mismo camino a la misma hora.
-  - q: ¿Qué es un patrón de vida y por qué conviene evitarlo?
-    a: >-
-      Es la rutina identificable de horarios y trayectos de una persona.
-      Entre más predecible sea, más fácil resulta anticipar dónde va a
-      estar; variarlo es de las medidas más simples y efectivas que existen.
-  - q: ¿Se puede contratar protección ejecutiva para un solo evento o viaje?
-    a: >-
-      Sí, es la modalidad de protección puntual: un traslado, una
-      presentación o un viaje específico, sin necesidad de un dispositivo
-      permanente.
+      de México. La mayor parte de los dispositivos opera sobre el eje Polanco,
+      Lomas de Chapultepec, Bosques de las Lomas, Anzures y Santa Fe, y del
+      lado de Edomex sobre Interlomas, La Herradura, Tecamachalco y Bosque
+      Real.
 ---
 
-## Un patrón de vida predecible es el mayor riesgo, no la falta de escoltas
+## Lo que este servicio no es
 
-Casi toda la publicidad de protección ejecutiva vende número de elementos:
-«equipo de 2», «equipo de 4», como si el riesgo se resolviera con cantidad.
-En la práctica, un principal con cuatro elementos y una rutina fija —misma
-salida, misma hora, misma ruta, todos los días— sigue siendo predecible. Y lo
-predecible es exactamente lo que un dispositivo de protección existe para
-evitar.
+Conviene bajar la expectativa antes de cotizar. La protección ejecutiva no se
+parece a lo que sale en las películas. No hay persecuciones, no hay gente
+hablándole al puño de la camisa, y el objetivo de un buen dispositivo es que
+el día del principal transcurra sin que pase absolutamente nada.
 
-El patrón de vida no lo rompe el número de escoltas: lo rompe variar la ruta,
-el horario y, cuando aplica, bajar el perfil del dispositivo. Un elemento que
-hace avanzada, plantea una alterna y coordina con el entorno del principal
-reduce más la exposición que tres elementos siguiendo la misma rutina de
-siempre. La pregunta que debería encabezar cualquier cotización de
-protección ejecutiva no es cuántos elementos trae el paquete: es qué tan
-predecible sigue siendo el día del principal después de contratarlo.
+La mayor parte del trabajo es previo y administrativo: leer una agenda,
+recorrer un estacionamiento, medir cuánto tarda de verdad ir de Santa Fe a
+Reforma un jueves a las seis de la tarde, y acordar con la asistente que la
+ubicación de una comida no se manda por mensaje a un grupo de veinte
+personas. Nada de eso se ve. Todo eso es el servicio.
 
-## La pregunta que ordena todo: ¿el elemento ya conoce el destino antes de llegar?
+Tampoco es un producto de estatus. Un dispositivo mal armado sobre alguien
+que no lo necesita agrega visibilidad sin agregar seguridad, que es
+exactamente el resultado contrario al buscado.
 
-Si la respuesta es que el equipo llega al mismo tiempo que el principal, el
-dispositivo está reaccionando, no anticipando. Si la respuesta es que un
-elemento ya recorrió el destino, ubicó accesos y salidas, y confirmó que no
-hay nada fuera de lugar, el dispositivo está haciendo lo que debe.
+## El patrón de vida pesa más que el número de elementos
 
-Esa diferencia rara vez se nota mientras nada pasa. Se nota exactamente en
-el momento en que algo sí pasa, y para entonces ya no hay tiempo de armar
-una avanzada que debió hacerse antes.
+Casi toda la publicidad del ramo vende cantidad: equipo de dos, equipo de
+cuatro. En la práctica, un principal con cuatro elementos y una rutina fija
+sigue siendo previsible. Sale a la misma hora, toma el mismo camino, llega al
+mismo lugar. Cualquiera que quisiera saber dónde va a estar el martes ya lo
+sabe, sin acercarse.
 
-## Qué pedir en la propuesta
+Lo que rompe ese patrón no cuesta más dinero. Varía la hora de salida.
+Alterna entre Reforma y la lateral. Cambia el orden de las visitas. Un solo
+elemento que hace avanzada, plantea una alterna y coordina con la casa reduce
+más exposición que tres siguiendo la rutina de siempre. La pregunta que
+debería encabezar una cotización no es cuántos elementos trae, sino qué tan
+previsible sigue siendo la semana del principal después de contratarla.
 
-Antes de comparar precios, pide que la propuesta especifique:
+Ese diagnóstico se hace antes de decidir nada, y es lo que resuelve un
+[análisis de riesgos](/categorias/seguridad-privada/cdmx/virelta-seguridad-privada/analisis-de-riesgos/)
+del perfil y de los puntos fijos. Con ese documento en la mano, la propuesta
+de dispositivo se discute con datos.
 
-- **El levantamiento del perfil de riesgo** que justifica el número de elementos propuestos, no una cifra genérica.
-- **El protocolo de avanzada**: qué se revisa en el destino y con cuánta anticipación.
-- **Las rutas alternas** definidas para los traslados frecuentes del principal.
-- **El protocolo de contingencia** completo: punto de reunión, ruta de salida y a quién se avisa primero.
-- **Si el dispositivo puede operar en bajo perfil**, cuando la discreción importa más que la disuasión visible.
-- **La modalidad que ampara el permiso** —protección personal o custodia— y su vigencia.
-- **La carátula de la póliza** de responsabilidad civil.
+## ¿El equipo conoce el destino antes de que llegues?
 
-Un proveedor formal entrega esos puntos sin que insistas. El que solo cotiza
-número de elementos está vendiendo presencia, no protección.
+Si el equipo llega al mismo tiempo que el principal, está reaccionando. Si un
+elemento ya recorrió el lugar, ubicó por dónde se entra y por dónde se sale y
+confirmó que nada está fuera de sitio, está anticipando. Toda la diferencia
+del servicio cabe en esa distinción.
 
-## Qué revisar antes de firmar
+Martes, siete y veinte de la noche. Cena de trabajo en un restaurante de
+Bosques de las Lomas. El elemento de avanzada llega a las seis y media y
+encuentra dos cosas: el acceso vehicular está en obra y el desvío obliga a
+dar vuelta completa a la manzana, y el salón privado reservado tiene una sola
+puerta que da al patio de servicio. Con eso se cambia la hora de llegada
+veinte minutos y se estaciona del otro lado. El principal nunca se entera. Ese
+es el trabajo bien hecho: invisible.
 
-1. Documento del permiso, con la modalidad de protección personal o custodia y su vigencia legibles.
-2. Registro REPSE si aplica.
-3. Comprobante de alta del personal ante IMSS e INFONAVIT.
-4. Póliza de responsabilidad civil vigente.
-5. Un protocolo de contingencia de muestra, para ver qué nivel de detalle entregan.
-6. Nombre y contacto del jefe de equipo asignado al dispositivo.
+Cuando el compromiso es un acto con público abierto, el dispositivo deja de
+ser solo del principal y tiene que coordinarse con quien organiza el aforo, la
+acreditación y los accesos. Ahí el servicio se conecta con la operación de
+[obra, eventos y hospitales](/categorias/seguridad-privada/cdmx/virelta-seguridad-privada/obra-eventos-y-hospitales/),
+porque una cosa es proteger a una persona y otra es controlar quién entra a
+un salón con cuatrocientas sillas.
 
-> El alcance de este servicio, sus acreditaciones y su cobertura los declara
-> Virelta Seguridad Privada. TuSeguridad no interviene en la contratación:
-> antes de firmar, solicita los documentos y confirma su vigencia y la
-> modalidad que amparan.
+Un apunte que aplica a empresas familiares: si el principal es también quien
+mueve efectivo de la operación, el riesgo real muchas veces no está en su
+traslado personal sino en el de la nómina, y eso se atiende con
+[custodia de valores](/categorias/seguridad-privada/cdmx/virelta-seguridad-privada/custodia-de-valores/),
+no con un escolta más.
+
+## Antes de firmar, revisa esto en este orden
+
+Si quieres, mándanos por WhatsApp la semana tipo del principal, sin nombres:
+horarios de salida, destinos que se repiten y quién arma la agenda. Con eso te
+decimos si el caso pide dispositivo permanente o si con protección puntual en
+tres o cuatro movimientos al mes queda cubierto. A veces la respuesta honesta
+es que todavía no lo necesitas.
+
+1. El documento del permiso, con la modalidad de protección personal o custodia y la vigencia legibles. No la carta que dice que lo tienen: el permiso.
+2. El registro REPSE ante la STPS, si el esquema de contratación lo requiere.
+3. El alta del personal ante IMSS e INFONAVIT, con comprobante del mes en curso.
+4. La carátula de la póliza de responsabilidad civil, con la suma asegurada a la vista.
+5. Cómo documentan la verificación de antecedentes y los exámenes psicométricos del personal que van a asignar.
+6. Un protocolo de contingencia de muestra, aunque sea de otro cliente y anonimizado, para ver el nivel de detalle que realmente entregan.
+7. El nombre del jefe de equipo, el de su relevo y a quién le hablas tú si el jefe de equipo no contesta.
+
+> Todo lo que esta página describe (alcance, modalidades, cobertura y
+> acreditaciones) proviene de lo que declara Virelta Seguridad Privada.
+> TuSeguridad publica la ficha y no forma parte del contrato ni comprueba esos
+> documentos. La revisión de vigencia y modalidad te toca a ti, antes de la
+> firma.

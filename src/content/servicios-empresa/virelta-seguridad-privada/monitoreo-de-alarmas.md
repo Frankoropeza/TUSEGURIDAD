@@ -2,206 +2,196 @@
 empresa: virelta-seguridad-privada
 slug: monitoreo-de-alarmas
 nombre: Monitoreo de alarmas
-titulo: Monitoreo de alarmas 24 horas en CDMX y Estado de México
-tituloSeo: Monitoreo de alarmas 24 horas en CDMX y Edomex
+titulo: Monitoreo de alarmas con verificación 24 horas en CDMX y Estado de México
+tituloSeo: Monitoreo de alarmas 24 h en CDMX y Edomex
 descripcion: >-
-  Monitoreo y verificación de alarmas 24 horas en CDMX y Estado de México:
-  clasificación de señal, protocolo de escalamiento y clave de coacción.
+  Recibimos la señal, la verificamos por llamada, cámara o visita en sitio y
+  hasta entonces escalamos. Monitoreo de alarmas 24 horas en CDMX y Edomex.
 orden: 6
 titulos:
-  incluye: Qué hace la central al recibir una señal
-  modalidades: Formas de contratar el monitoreo de alarmas
-  paraQuien: Dónde rinde más el monitoreo de alarmas
-  proceso: Del levantamiento de señales a la primera prueba
-  errores: Errores que apagan una alarma antes de que sirva
-  glosario: Términos que vas a escuchar en la propuesta
-  faq: Dudas sobre monitoreo de alarmas
+  incluye: Qué pasa en la central cuando tu panel se activa
+  modalidades: Tres maneras de contratarlo
+  paraQuien: Dónde rinde de verdad este servicio
+  proceso: Del levantamiento del panel a la primera prueba de zonas
+  errores: Lo que apaga una alarma antes de que llegue a servir
+  faq: Preguntas que nos hacen antes de firmar
 intro: >-
-  Recepción y verificación de señales de alarma las 24 horas desde una central
-  de monitoreo. Virelta declara prestarlo con un protocolo de verificación
-  definido —llamada al contacto, imagen de cámara o revisión en sitio— antes
-  de escalar cualquier activación. La central no reacciona a cada pitido: lo
-  clasifica, lo confirma y actúa en consecuencia. Una alarma que se activa sin
-  ese filtro no protege el inmueble; agota a quien tendría que responder.
+  Recepción y verificación de señales las 24 horas desde central. Lo primero
+  que hacemos cuando entra una activación no es avisar. Es confirmar qué la
+  originó: llamada al contacto, imagen de cámara si el inmueble tiene
+  verificación dual, o revisión en sitio. Después escalamos, con el evento ya
+  registrado. Virelta declara operarlo así en CDMX y Estado de México. Una
+  alarma sin ese filtro no cuida el inmueble. Entrena a la gente a ignorarla.
 stats:
   - k: Cobertura
     v: CDMX · Edomex
   - k: Atención
     v: 24 h
-
+  - k: Permiso declarado
+    v: SSC 0102-15
 incluye:
-  - titulo: Recepción de señal 24 horas
+  - titulo: Recepción de señal las 24 horas
     texto: >-
-      La central receptora atiende el panel del inmueble sin interrupción,
-      los 365 días del año, no solo en horario comercial.
+      La central recibe tu panel los 365 días. También el 24 de diciembre y a
+      las cuatro de la mañana de un martes.
   - titulo: Verificación antes de escalar
     texto: >-
-      Ante cada activación, el operador confirma qué la originó —llamada al
-      contacto, imagen de cámara si hay verificación dual, o revisión en
-      sitio— antes de avisar a nadie más. Escalar sin verificar es lo que
-      hace que una alarma deje de tomarse en serio.
-  - titulo: Clasificación de la señal por tipo
+      Ninguna activación sale de la central sin que el operador confirme qué
+      la originó. Llamamos al contacto, miramos la cámara si el inmueble tiene
+      verificación dual, o mandamos a alguien a revisar. Ese paso es el
+      servicio. Sin él, lo que contrataste es una sirena con teléfono.
+  - titulo: Clasificación de la señal
     texto: >-
-      No toda activación es lo mismo. Intrusión, pánico, incendio y coacción
-      siguen rutas de respuesta distintas, y la central las distingue antes
-      de decidir qué hacer.
-  - titulo: Protocolo de escalamiento por tipo de evento
+      Intrusión, pánico, incendio y coacción no se atienden igual. El operador
+      identifica tipo y zona antes de decidir a quién le habla.
+  - titulo: Escalamiento por escrito
     texto: >-
-      Queda definido por escrito a quién se avisa, en qué orden y qué puede
-      resolver el operador sin consultar primero, para cada clasificación
-      de señal.
-  - titulo: Registro de cada activación
+      A quién se avisa, en qué orden y qué puede resolver el operador sin
+      consultar. Queda en papel antes de que el sistema entre en operación. No
+      se acuerda por teléfono a media madrugada.
+  - titulo: Aviso al contacto designado con registro del evento
     texto: >-
-      Toda señal recibida queda documentada con hora, zona, causa y
-      resolución, incluidas las que resultaron falsa alarma.
-  - titulo: Coordinación con guardia o patrullaje en sitio
+      El contacto recibe la llamada con zona, hora y lo que arrojó la
+      verificación. Ese mismo dato queda asentado con folio. Si dentro de seis
+      meses hay que reconstruir lo que pasó esa noche, existe de dónde.
+  - titulo: Clave de coacción
     texto: >-
-      Cuando el inmueble ya contrata guardia intramuros o patrullaje con
-      Virelta, la central los avisa directamente, sin depender de que el
-      cliente reciba la llamada primero.
-  - titulo: Reporte periódico de activaciones
+      Una palabra acordada con el titular para desactivar bajo amenaza. El
+      panel se apaga sin marcar error y la central igual sabe que algo no está
+      bien.
+  - titulo: Registro de todas las activaciones, falsas incluidas
     texto: >-
-      Se entrega un desglose por periodo entre señales reales y falsas
-      alarmas, con la causa de cada una cuando se identifica.
+      Hora, zona, causa y resolución. Las falsas también. Son las que más
+      dicen del estado real de la instalación.
+  - titulo: Coordinación directa con el guardia o el patrullaje
+    texto: >-
+      Si el inmueble ya tiene servicio nuestro en sitio, la central les habla
+      a ellos primero. No esperamos a que el cliente conteste para mover al
+      elemento que está a treinta metros de la zona activada.
+  - titulo: Reporte de periodo con reales y falsas separadas
+    texto: >-
+      Cuántas señales entraron, cuántas se verificaron, cuántas eran algo. Con
+      la causa identificada donde se pudo identificar.
+  - titulo: Depuración de sensibilidad los primeros meses
+    texto: >-
+      Un local en Nápoles nos disparaba la zona 4 casi todas las madrugadas
+      entre semana. Era una lona del vecino moviéndose con el aire del
+      extractor. Se recorrió el sensor medio metro y la zona dejó de sonar.
+      Ese trabajo va incluido: las primeras semanas son de ajuste, no de
+      operación estable.
 modalidades:
-  - titulo: Monitoreo de panel propio
+  - titulo: Monitoreo sobre panel propio
     texto: >-
-      El cliente ya tiene el panel instalado; Virelta lo da de alta en la
-      central y opera la recepción, verificación y escalamiento.
-  - titulo: Instalación y monitoreo llave en mano
+      Ya tienes panel instalado. Lo damos de alta en la central, probamos
+      zonas y operamos la recepción. Es la vía más rápida.
+  - titulo: Instalación y monitoreo con un solo responsable
     texto: >-
-      Virelta levanta el inmueble, propone el panel y las zonas, lo instala
-      y lo opera desde el primer día. Una sola responsabilidad, no dos
-      proveedores que se deslindan entre sí.
-  - titulo: Monitoreo con verificación dual
+      Levantamos el inmueble, proponemos panel y zonificación, instalamos y
+      operamos. La ventaja no es técnica. Es de responsabilidad: cuando el
+      instalador y la central son la misma empresa, ya nadie puede decir que
+      la falla es del otro.
+  - titulo: Verificación dual con cámara
     texto: >-
-      El panel se combina con cámaras en los puntos críticos, para que el
-      operador confirme la señal con imagen antes de escalar, no solo con
-      la palabra del contacto telefónico.
-  - titulo: Monitoreo con clave de coacción
-    texto: >-
-      Incluye una palabra o código de seguridad que el titular usa si debe
-      desactivar el sistema bajo amenaza, para que la central sepa que la
-      situación no es normal aunque el panel se apague correctamente.
+      El panel dispara y la cámara confirma. El operador ve el punto en vez de
+      depender de que alguien conteste el teléfono a las tres de la mañana.
+      Cuesta más. En bodegas y en locales que quedan vacíos de noche se paga
+      solo.
 paraQuien:
-  - titulo: Comercios y sucursales
+  - titulo: Comercios y sucursales con caja
     texto: >-
-      Puntos de venta con caja y mercancía, donde una activación fuera de
-      horario necesita una respuesta verificada y no una sirena que nadie
-      atiende.
-  - titulo: Viviendas y condominios
+      Puntos de venta en Nápoles, Narvarte o Portales, donde una activación de
+      domingo necesita respuesta verificada y no una sirena que los vecinos ya
+      aprendieron a no oír.
+  - titulo: Casas y departamentos que se quedan solos
     texto: >-
-      Casas y departamentos que quedan solos por horas o días, donde el
-      aviso al contacto o a un tercero designado marca la diferencia entre
-      detectar algo a tiempo o al volver.
-  - titulo: Oficinas y corporativos
+      La primera semana de enero media colonia sigue de viaje. Ahí el aviso al
+      contacto designado es la diferencia entre enterarte el martes o
+      enterarte al regresar.
+  - titulo: Oficinas fuera de horario
     texto: >-
-      Inmuebles vacíos fuera de horario laboral, donde una activación sin
-      verificación nocturna puede tardar horas en revisarse.
-  - titulo: Bodegas y naves industriales
+      Despachos y corporativos chicos en Escandón, Mixcoac o Guadalupe Inn,
+      vacíos desde las ocho de la noche hasta las nueve del día siguiente.
+  - titulo: Bodegas y naves
     texto: >-
-      Perímetros con mercancía y equipo, donde el panel cubre tramos que un
-      recorrido físico no puede vigilar de forma continua.
-  - titulo: Negocios con historial de falsas alarmas
+      Perímetro largo, poco personal. El panel cubre tramos que un rondín no
+      alcanza a mirar de forma continua.
+  - titulo: Quien ya no le cree a su alarma
     texto: >-
-      Clientes que ya perdieron confianza en su sistema porque cada
-      activación resultó falsa, y necesitan un protocolo de verificación
-      real antes de escalar, no solo una sirena más sensible.
+      Clientes que llegan con el sistema apagado porque cada activación
+      resultó falsa. No necesitan un sensor más sensible. Necesitan que
+      alguien verifique antes de llamarles.
   - titulo: Obra en construcción
     texto: >-
-      Predios sin ocupación permanente donde el robo de material ocurre de
-      noche; el panel cubre el tramo sin sostener una guardia fija.
+      Predios sin ocupación de noche, donde lo que se va es varilla, cable y
+      herramienta. El panel cubre la etapa sin sostener una guardia fija desde
+      la cimentación.
 proceso:
-  - titulo: Levantamiento de señales y zonas
+  - titulo: Levantamiento del panel y las zonas
     texto: >-
-      Se revisa el panel existente o se propone uno nuevo: cuántas zonas
-      necesita el inmueble, qué tipo de señal debe tener cada una y qué
-      cobertura de comunicación hay disponible.
-  - titulo: Propuesta con protocolo de verificación
+      Cuántas zonas necesita el inmueble, qué tipo de señal lleva cada una y
+      qué le sobra al panel que ya está puesto.
+  - titulo: Prueba de la comunicación disponible
     texto: >-
-      La propuesta especifica cómo se verifica cada tipo de señal antes de
-      escalar, para que el cliente sepa exactamente qué pasa cuando el
-      panel se activa, no solo que "alguien lo va a ver".
-  - titulo: Alta del panel en central y pruebas
+      Antes de proponer nada revisamos por dónde va a viajar la señal y qué
+      pasa si ese canal se cae.
+  - titulo: Propuesta con el protocolo escrito
     texto: >-
-      Se conecta el panel a la central y se prueban las zonas, la
-      comunicación y el tiempo real de llegada de la señal antes de dar el
-      sistema por operativo.
-  - titulo: Definición de contactos y clave de coacción
+      El documento dice cómo se verifica cada tipo de señal y en cuánto
+      tiempo. No dice que "alguien lo va a ver".
+  - titulo: Alta en central y prueba zona por zona
     texto: >-
-      Se registra el orden de contactos a avisar por tipo de evento y se
-      define, si aplica, la clave de coacción del titular.
-  - titulo: Primeras semanas y ajuste de sensibilidad
+      Se dispara cada zona a propósito y se cronometra cuánto tarda en llegar.
+      Una zona que no se probó es una zona que no existe.
+  - titulo: Contactos, orden de llamada y clave de coacción
     texto: >-
-      Con las primeras activaciones se corrige qué zonas disparan falsas
-      alarmas por mala calibración, mascotas o rutinas del inmueble no
-      contempladas al inicio.
+      Se registra a quién se llama primero, a quién si ese no contesta, y se
+      acuerda la palabra de coacción con el titular en persona.
+  - titulo: Simulacro con quien vive o trabaja ahí
+    texto: >-
+      El personal del inmueble activa el sistema una vez, con la central
+      avisada, para que la primera activación real no sea también la primera
+      vez que alguien toca el teclado.
+  - titulo: Revisión a los treinta días
+    texto: >-
+      Se sientan las activaciones del primer mes sobre la mesa y se recalibra
+      lo que disparó sin causa.
 errores:
-  - titulo: Activar el servicio sin protocolo de verificación por escrito
+  - titulo: Contratar sin el protocolo de verificación por escrito
     texto: >-
-      Si no queda definido cómo se confirma cada señal antes de escalar,
-      cada operador improvisa distinto y la respuesta deja de ser
-      predecible.
-  - titulo: No probar la comunicación tras la instalación
+      Si no está definido cómo se confirma cada señal, cada operador improvisa
+      distinto y la respuesta deja de ser predecible.
+  - titulo: No probar la comunicación después de instalar
     texto: >-
-      Un panel que no llegó a probarse con la central puede fallar en
-      silencio: la falla se descubre hasta que una señal real no llega.
-  - titulo: Sensibilidad de zonas mal calibrada
+      Un panel que nunca se probó contra la central puede fallar en silencio.
+      La falla se descubre el día que la señal buena no llega.
+  - titulo: Zonas con la sensibilidad mal puesta
     texto: >-
-      Sensores demasiado sensibles generan activaciones frecuentes sin
-      causa real. El resultado es que el propio cliente empieza a ignorar
-      los avisos, que es exactamente lo que una alarma no debe permitir.
-  - titulo: Sin clave de coacción definida
+      En el gremio se le dice fatiga de alarma. El sistema avisa tantas veces
+      sin motivo que quien debería responder deja de hacerlo con urgencia. No
+      es flojera de la persona. Es lo que pasa siempre que un aviso pierde su
+      valor.
+  - titulo: Contactos que ya no contestan
     texto: >-
-      Sin una palabra de seguridad acordada, el sistema no tiene forma de
-      distinguir una desactivación normal de una hecha bajo amenaza.
-  - titulo: Contactos de escalamiento desactualizados
+      Jueves, dos y media de la madrugada. Zona 2, acceso peatonal. El
+      operador marca al primer contacto y el número está dado de baja desde
+      hace ocho meses. Marca al segundo y resulta ser el administrador
+      anterior. Al tercero no hay tercero. La verificación se atoró ahí, y no
+      fue en la central.
+  - titulo: Operar sin clave de coacción
     texto: >-
-      Un número que ya no contesta o una persona que ya no vive ahí retrasa
-      la verificación justo cuando más importa la rapidez.
+      Sin palabra acordada, el sistema no distingue una desactivación normal
+      de una hecha con alguien parado enfrente.
   - titulo: Confundir tener alarma con estar monitoreado
     texto: >-
-      Un panel que solo hace ruido en el inmueble no avisa a nadie fuera de
-      quien esté cerca para escucharlo. El monitoreo es la central que
-      recibe, verifica y actúa; la sirena por sí sola no lo hace.
-glosario:
-  - termino: Central receptora de alarmas
-    definicion: >-
-      El sitio desde donde un operador recibe, verifica y escala las
-      señales de los paneles de varios clientes. Se abrevia CRA en el
-      sector.
-  - termino: Verificación de señal
-    definicion: >-
-      Confirmar la causa real de una activación —por llamada, imagen o
-      revisión en sitio— antes de escalarla. Es el paso que separa un
-      monitoreo serio de una sirena conectada a un teléfono.
-  - termino: Falsa alarma
-    definicion: >-
-      Activación sin causa real, casi siempre por mala calibración, error
-      de uso o factores del entorno. Es el principal motivo por el que un
-      cliente deja de confiar en su propio sistema.
-  - termino: Clave de coacción
-    definicion: >-
-      Palabra o código que el titular usa para desactivar el sistema
-      cuando lo obligan a hacerlo, de forma que la central detecte que la
-      situación no es normal aunque el panel se apague sin error.
-  - termino: Zona de alarma
-    definicion: >-
-      Cada sensor o grupo de sensores identificado por separado en el
-      panel, para que la central sepa exactamente qué punto del inmueble
-      se activó.
-  - termino: Tiempo de respuesta
-    definicion: >-
-      El periodo entre que la señal llega a la central y se completa la
-      verificación o el escalamiento. Debe pedirse como dato concreto en
-      la propuesta, no como promesa genérica.
+      Una sirena hace ruido para quien esté cerca. El monitoreo es que alguien
+      la reciba, la verifique y actúe aunque el inmueble esté vacío.
 entregables:
   - Levantamiento de zonas y señales del panel
   - Protocolo de verificación y escalamiento por tipo de evento
-  - Reporte periódico de activaciones, real vs. falsa alarma
-  - Registro de cada activación con hora, causa y resolución
-  - Datos de contactos y clave de coacción
-  - Datos de la central y del supervisor asignado
+  - Registro de cada activación con folio, hora, causa y resolución
+  - Reporte de periodo con señales reales y falsas separadas
+  - Orden de contactos y clave de coacción documentados
+  - Datos de la central y del supervisor de turno asignado
 galeria:
   - monitoreo-cctv-centro-de-control:3
   - operadora-monitoreo-cctv:5
@@ -210,121 +200,129 @@ galeria:
   - vigilancia-planta-industrial:4
   - vigilancia-planta-industrial:6
 faq:
-  - q: ¿Qué pasa si la alarma se activa por error?
-    a: >-
-      El operador la clasifica y verifica antes de escalar. Si la causa se
-      confirma como falsa —una mascota, una ventana mal cerrada— queda
-      registrada así y no se avisa a la autoridad ni se moviliza a nadie
-      sin necesidad.
-  - q: ¿Qué es la clave de coacción y para qué sirve?
-    a: >-
-      Es una palabra o código que el titular usa para desactivar el
-      sistema si lo obligan a hacerlo. La central la reconoce y sabe que,
-      aunque el panel se apagó de forma correcta, la situación no es
-      normal.
-  - q: ¿El monitoreo de alarmas se puede combinar con CCTV?
-    a: >-
-      Sí, es una combinación frecuente. El panel dispara la señal y la
-      cámara aporta la imagen que permite verificarla antes de escalar, en
-      vez de depender solo de la llamada al contacto.
-  - q: ¿Qué pasa si no contesto la llamada de verificación?
-    a: >-
-      El protocolo define un siguiente contacto o una acción alterna —
-      revisión en sitio, aviso a otra persona designada— para que la
-      verificación no dependa de una sola persona disponible.
   - q: ¿Cuánto tarda la central en escalar una señal?
     a: >-
-      Depende del protocolo pactado y del tipo de señal, no de una cifra
-      genérica. Pide que la propuesta especifique el tiempo de
-      verificación y el de escalamiento por separado.
-  - q: ¿Qué modalidad de permiso debe amparar este servicio?
+      Depende del tipo de señal y del protocolo que se pacte, no de una cifra
+      de folleto. Pide que la propuesta separe dos números: cuánto tarda la
+      verificación y cuánto el escalamiento. Si te dan uno solo, no te están
+      diciendo cuál de los dos es.
+  - q: ¿Qué pasa si la alarma se activa por error?
     a: >-
-      El permiso de la empresa debe cubrir expresamente monitoreo de
-      alarmas o vigilancia remota. Pide el documento y revisa la
-      modalidad y su vigencia antes de contratar.
+      El operador la clasifica y la verifica. Si la causa se confirma como
+      falsa, sea una mascota, una ventana mal cerrada o un extractor, queda
+      registrada así y no se moviliza a nadie. Igual se contabiliza en el
+      reporte: es la que nos dice qué zona hay que recalibrar.
+  - q: ¿Qué pasa si no contesto la llamada de verificación?
+    a: >-
+      El protocolo define un segundo contacto y una acción alterna, que puede
+      ser revisión en sitio. La verificación no puede depender de que una sola
+      persona traiga el teléfono a la mano.
+  - q: ¿Cuántos contactos puedo dejar registrados para el escalamiento?
+    a: >-
+      Los que quieras, siempre que quede escrito el orden. En la práctica, con
+      tres bien elegidos y actualizados funciona mejor que con ocho de los
+      cuales cuatro ya cambiaron de número.
+  - q: ¿Cómo sé si mi alarma está monitoreada o solo hace ruido?
+    a: >-
+      Prueba fácil: actívala un día a una hora acordada y espera. Si nadie te
+      llama, no hay central detrás. Una sirena local avisa únicamente a quien
+      esté a la distancia de oírla.
+  - q: ¿Qué pasa si se va la luz o se cae el internet del inmueble?
+    a: >-
+      Depende del respaldo del panel instalado. Pregunta dos cosas concretas:
+      si trae batería propia y cuánto dura, y por qué canal viaja la señal. Si
+      todo el sistema depende del módem, ya sabes cuál es el punto de falla.
+  - q: ¿El panel tiene que ser de una marca en particular?
+    a: >-
+      No necesariamente. Virelta declara evaluar el panel existente durante el
+      levantamiento y conectarlo si es compatible con la central. Si no lo es,
+      se cotiza el cambio y se te explica por qué.
+  - q: ¿Qué modalidad de permiso debe amparar el monitoreo de alarmas?
+    a: >-
+      El permiso de la empresa debe cubrir de forma expresa monitoreo de
+      alarmas o vigilancia remota. Pide el documento y revisa modalidad y
+      vigencia antes de firmar, no después.
   - q: ¿En qué zonas presta este servicio Virelta?
     a: >-
       La empresa declara cobertura en Miguel Hidalgo, Cuauhtémoc, Benito
-      Juárez, Álvaro Obregón, Coyoacán y Tlalpan en la CDMX, y en
-      Naucalpan, Huixquilucan, Tlalnepantla, Atizapán y Cuautitlán
-      Izcalli en el Estado de México.
-  - q: ¿El panel tiene que ser de una marca específica?
-    a: >-
-      No necesariamente. Virelta declara evaluar el panel existente en el
-      levantamiento y conectarlo si es compatible con la central; de no
-      serlo, se cotiza la instalación de uno compatible.
-  - q: ¿Qué pasa si se va la luz o el internet del inmueble?
-    a: >-
-      Depende del respaldo con el que cuente el panel instalado. Pregunta
-      específicamente si tiene batería propia y qué canal de comunicación
-      usa —línea, radio o datos móviles— para no depender de un solo
-      punto de falla.
-  - q: ¿Cuántos contactos puedo registrar para el escalamiento?
-    a: >-
-      El número y el orden se definen en la propuesta según cada caso.
-      Lo importante es que quede por escrito a quién se llama primero y
-      qué se hace si esa persona no contesta.
-  - q: ¿Qué diferencia hay entre alarma monitoreada y alarma con sirena local?
-    a: >-
-      La sirena local solo hace ruido en el inmueble; si nadie está cerca
-      para escucharla, no avisa a nadie. La alarma monitoreada envía la
-      señal a una central que la recibe, la verifica y actúa aunque no
-      haya nadie en el lugar.
-  - q: ¿Qué debo revisar en el reporte mensual de la central?
-    a: Cuántas señales se recibieron, cómo se clasificaron por tipo, cuántas se verificaron antes de escalar y cuántas resultaron falsas. Si el número de falsas no baja mes con mes, el problema está en la instalación o en la zonificación del panel, no en la central.
+      Juárez, Álvaro Obregón, Coyoacán y Tlalpan en la CDMX, y en Naucalpan,
+      Huixquilucan, Tlalnepantla, Atizapán y Cuautitlán Izcalli en el Estado
+      de México. Las colonias donde más paneles operamos son Narvarte,
+      Portales, Nápoles, Escandón, Mixcoac, Guadalupe Inn y Tlalpan centro,
+      además de Lomas Verdes y Valle Dorado del lado de Edomex.
 ---
 
-## Una alarma que nadie verifica entrena a la gente a ignorarla
+## La falsa alarma tiene un costo y casi nadie lo cuenta
 
-En el sector se conoce como fatiga de alarma: cuando un sistema activa avisos
-con demasiada frecuencia sin causa real, quien debería responder deja de
-hacerlo con la misma urgencia. No es un defecto de la persona; es el
-resultado previsible de recibir demasiadas falsas alertas sin un filtro que
-las distinga de una señal real.
+Un sistema que avisa doce veces al mes sin motivo no tiene un defecto menor.
+Está educando a su dueño. A la tercera llamada de madrugada por una ventana
+mal cerrada, el contacto empieza a contestar más tarde. A la sexta ya no
+contesta. Cuando por fin entra la señal que sí importaba, la respuesta llega
+con veinte minutos de retraso y nadie sabe explicar por qué.
 
-Por eso la verificación no es un paso burocrático antes de escalar: es lo que
-mantiene útil a la alarma con el paso del tiempo. Un sistema que clasifica,
-confirma y solo entonces avisa mantiene la confianza de quien recibe el
-aviso. Un sistema que dispara la misma alerta ante cualquier causa la
-desgasta hasta que, tarde o temprano, alguien no contesta la llamada
-importante.
+Ese costo no aparece en ninguna cotización. Aparece en la bitácora, y solo si
+alguien la lee. Por eso el reporte que entregamos separa reales de falsas y
+trae la causa de cada una: no es un dato bonito para la carpeta, es la lista
+de trabajo del mes siguiente. Una zona que dispara sola tres veces seguidas
+se recalibra o se mueve de lugar. Si el número de falsas no baja mes con mes,
+el problema está en la instalación o en la zonificación del panel, no en la
+central.
 
-## La pregunta que ordena todo: ¿qué pasa en los primeros 60 segundos?
+Hay un caso que se repite en Narvarte y en Portales, con los locales que
+cierran tarde: el sensor de la cortina quedó puesto a la altura del paso de
+un gato de la calle. Nadie lo pensó al instalar. Se descubre a la cuarta
+madrugada, y solo si alguien está llevando registro.
 
-No cuántas cámaras trae el paquete ni qué tan sensible es el sensor: qué hace
-la central en el primer minuto después de que el panel se activa. Si la
-respuesta es clara —se identifica la zona, se clasifica el tipo de señal, se
-inicia la verificación— el servicio está diseñado. Si la respuesta es vaga,
-probablemente no lo está.
+## ¿Qué pasa en los primeros sesenta segundos?
 
-Esa misma pregunta separa un monitoreo real de una línea telefónica
-conectada a un panel. La diferencia no se nota mientras nada pasa; se nota
-exactamente en el momento en que algo sí pasa.
+Es la única pregunta que vale la pena hacerle a un proveedor de monitoreo, y
+rinde más que comparar tres cotizaciones línea por línea. No cuántos sensores
+trae el paquete ni de qué marca es el panel. Qué hace la central en el primer
+minuto después de que entra la señal.
 
-## Qué pedir en la propuesta
+Si la respuesta es concreta, el servicio está diseñado: se identifica la
+zona, se clasifica el tipo de señal, arranca la verificación por el método
+que corresponda y se avisa al contacto con el evento ya registrado. Si la
+respuesta se va por las ramas, lo que hay del otro lado es probablemente un
+teléfono conectado a un panel.
 
-Antes de comparar precios, pide que la propuesta especifique:
+Antes de comprar equipo conviene resolver algo previo: qué tramos del
+inmueble se cubren mejor con sensor y cuáles con cámara. Eso no lo decide un
+catálogo, lo decide un
+[análisis de riesgos](/categorias/seguridad-privada/cdmx/virelta-seguridad-privada/analisis-de-riesgos/)
+del sitio, hecho antes de cotizar. Y si el inmueble ya tiene cámaras puestas,
+casi siempre sale mejor sumarles
+[vigilancia remota por CCTV](/categorias/seguridad-privada/cdmx/virelta-seguridad-privada/vigilancia-remota-por-cctv/)
+que multiplicar sensores en el perímetro.
 
-- **El protocolo de verificación** por tipo de señal, con el método —llamada, imagen o revisión en sitio— para cada una.
-- **El tiempo de verificación y de escalamiento**, por separado y con número.
-- **La clasificación de zonas** del panel y qué tipo de evento dispara cada una.
-- **La clave de coacción**, si el servicio la incluye, y cómo se define con el titular.
-- **El respaldo de comunicación y energía** del panel ante un corte.
-- **La modalidad que ampara el permiso** —monitoreo de alarmas o vigilancia remota— y su vigencia.
+## Lo que debe traer la propuesta
 
-Un proveedor formal entrega esos puntos sin que insistas. El que solo cotiza
-el panel y la instalación está vendiendo equipo, no monitoreo.
+Antes de comparar números, pide que el documento diga:
 
-## Qué revisar antes de firmar
+- **El método de verificación por tipo de señal.** Llamada, imagen o revisión en sitio, especificado para cada clasificación.
+- **Dos tiempos, no uno.** El de verificación y el de escalamiento, por separado y con número.
+- **La zonificación del panel** y qué evento dispara cada zona.
+- **La clave de coacción**, si se incluye, y cómo se acuerda con el titular.
+- **El respaldo de energía y de comunicación** ante un corte.
+- **La modalidad del permiso** que ampara el servicio, con su vigencia.
+- **Qué pasa si el inmueble ya tiene personal en sitio**, porque ahí la central debe hablarle primero al [guardia intramuros](/categorias/seguridad-privada/cdmx/virelta-seguridad-privada/guardias-intramuros/) y después al cliente.
 
-1. Documento del permiso, con la modalidad de monitoreo y su vigencia legibles.
-2. Registro REPSE si aplica.
-3. Comprobante de alta del personal ante IMSS e INFONAVIT.
-4. Póliza de responsabilidad civil vigente.
-5. Un reporte de activaciones de muestra, para ver qué nivel de detalle entregan.
-6. Nombre y contacto del supervisor de central asignado.
+Un proveedor formal entrega esos puntos sin que se los pidas dos veces. El
+que solo te cotiza panel, sensores e instalación te está vendiendo equipo. El
+equipo es la parte barata. Lo que cuesta sostener es la central y la persona
+despierta frente a ella a las cuatro de la mañana.
 
-> El alcance de este servicio, sus acreditaciones y su cobertura los declara
-> Virelta Seguridad Privada. TuSeguridad no interviene en la contratación:
-> antes de firmar, solicita los documentos y confirma su vigencia y la
-> modalidad que amparan.
+Y una advertencia sobre el papel: el permiso tiene que decir monitoreo de
+alarmas o vigilancia remota. Un permiso de vigilancia intramuros no ampara
+una central receptora, aunque la empresa sea la misma y el logo sea el mismo.
+Revísalo tú, con la hoja en la mano.
+
+Si quieres una lectura rápida antes de cotizar, mándanos por WhatsApp una
+foto del panel que ya tienes y dinos a qué hora queda vacío el inmueble. Con
+eso te decimos si sirve dándolo de alta tal cual o si estarías pagando por
+conectar algo que ya no comunica.
+
+> Virelta Seguridad Privada es quien declara el alcance, la cobertura y las
+> acreditaciones descritas en esta página. TuSeguridad no participa en la
+> contratación ni verifica esos datos por ti: pide el permiso, léele la
+> modalidad y la fecha de vigencia, y guarda copia antes de firmar.

@@ -2,27 +2,28 @@
 empresa: virelta-seguridad-privada
 slug: seguridad-para-condominios
 nombre: Seguridad para condominios
-titulo: Seguridad para condominios en CDMX y Estado de México
-tituloSeo: Seguridad para condominios en CDMX y Edomex
-descripcion: "Vigilancia para condominios y fraccionamientos en CDMX y Edomex: filtro en acceso, rondines por áreas comunes y trato con la administración."
+titulo: "Seguridad para condominios, obra y áreas comunes en CDMX y Estado de México"
+tituloSeo: Vigilancia de condominios en CDMX y Edomex
+descripcion: El mismo equipo cubre tu condominio, la obra de la torre nueva y el evento del salón, con un supervisor y una factura. CDMX y Edomex, las 24 horas.
 servicio: seguridad-para-condominios
 orden: 2
 titulos:
-  incluye: Qué hace la caseta en un condominio
-  modalidades: Formas de contratar la vigilancia del condominio
-  paraQuien: Qué tipo de condominio necesita cada esquema
-  proceso: Del recorrido con la administración al primer turno
-  errores: Errores que enfrentan a la caseta con los residentes
-  glosario: Términos que vas a escuchar en la propuesta
-  faq: Dudas sobre seguridad para condominios
+  incluye: Lo que cubrimos dentro del condominio
+  modalidades: "¿Caseta las 24 horas o solo el turno de noche?"
+  paraQuien: Desarrollos donde este esquema rinde
+  proceso: Del primer recorrido al primer relevo
+  errores: Lo que convierte una caseta en un problema
+  glosario: Vocabulario de caseta
+  faq: Lo que más nos preguntan las administraciones
 intro: >-
-  Servicio armado sobre la vida diaria del condominio, no sobre un plano. El guardia
-  filtra el acceso, controla visitas, proveedores y paquetería, recorre áreas comunes,
-  estacionamientos y azoteas, y trata a diario con la administración o la mesa
-  directiva. Virelta declara prestarlo con consigna escrita por posición y bitácora
-  por turno, de modo que la administración pueda revisar después qué pasó, quién
-  entró y a qué hora. Aplica igual a torres verticales, privadas horizontales y
-  fraccionamientos.
+  Un condominio casi nunca es una sola cosa. Es la torre entregada, el sótano que
+  comparte rampa con la obra de la etapa siguiente, el salón que se renta los
+  sábados y el estacionamiento de visitas donde empiezan la mitad de los pleitos.
+  Nosotros cubrimos todo eso con un mismo supervisor, una consigna que se habla
+  entre puntos y un solo contrato. Virelta declara prestar el servicio con consigna
+  escrita por posición y bitácora por turno, de manera que la administración pueda
+  revisar después quién entró, a qué hora y con permiso de quién. Aplica a torres
+  verticales, privadas horizontales y fraccionamientos.
 stats:
   - k: Cobertura
     v: CDMX · Edomex
@@ -31,167 +32,182 @@ stats:
 incluye:
   - titulo: Filtro en el acceso
     texto: >-
-      Nadie entra sin ser anunciado. El visitante se identifica, se valida con el
-      residente u ocupante y el ingreso queda asentado con hora de entrada y de salida.
-  - titulo: Proveedores y paquetería
+      Se identifica, se valida con la unidad que lo espera, se anota la hora. Y se anota
+      también la de salida, que es la mitad que todo el mundo olvida.
+  - titulo: Repartidores y paquetería
     texto: >-
-      Registro de repartidores, contratistas y mudanzas, con control de qué entra y
-      qué sale. La paquetería se recibe bajo el criterio que fije la administración,
-      no el del guardia en turno.
-  - titulo: Rondines por áreas comunes
+      Registro del repartidor y de la entrega. El criterio de recepción lo pone la
+      administración y nosotros lo copiamos tal cual a la consigna. Si se recibe, dónde
+      se guarda y cuántos días se conserva son tres decisiones distintas y las tres
+      tienen que estar escritas antes del primer turno.
+  - titulo: Rondín por áreas comunes
     texto: >-
-      Recorridos programados por estacionamiento, azoteas, bodegas, cuarto de máquinas
-      y amenidades. Es donde aparecen la puerta que quedó abierta y el acceso que ya
-      no cierra.
-  - titulo: Bitácora y reporte
+      Estacionamientos, azoteas, bodegas, cuarto de máquinas, amenidades. Con hora de
+      paso registrada. Ahí es donde aparecen la puerta de servicio que ya no cierra y la
+      luminaria fundida del nivel menos dos.
+  - titulo: Obra particular y cuadrillas
     texto: >-
-      Registro por turno de accesos, incidencias y anomalías, y un reporte que la
-      administración o la mesa directiva puede leer sin traducción técnica.
-  - titulo: Aplicación del reglamento
+      Acreditación de cuadrillas por unidad, relación de material que entra y bitácora de
+      lo que sale. En un condominio con departamentos en remodelación permanente, esta es
+      la vía por la que salen más bienes que por la barda, y la que nadie cotiza porque
+      no se ve en el plano.
+  - titulo: Cajones de visita
     texto: >-
-      El guardia aplica lo que la asamblea aprobó —horarios, visitas, mascotas,
-      estacionamiento de visita— porque está por escrito en su consigna. No improvisa
-      criterios ni negocia caso por caso.
-  - titulo: Rotación y supervisión
+      Asignación y registro conforme al reglamento. Después del ruido, es el motivo de
+      pleito más frecuente entre vecinos.
+  - titulo: Bitácora y reporte legible
     texto: >-
-      Rotación del personal y visitas de supervisión al punto. La familiaridad
-      excesiva con residentes es lo primero que erosiona un filtro de acceso.
-  - titulo: Control de estacionamiento de visitas
+      Registro por turno de accesos, incidencias y anomalías, más un reporte que la mesa
+      directiva pueda leer en asamblea sin traducirlo.
+  - titulo: Un supervisor para todo lo que tengas
     texto: >-
-      Asignación y registro de cajones de visita conforme al reglamento, que es
-      el motivo de fricción más frecuente entre residentes después del ruido.
+      Si además del condominio cubrimos la obra de la torre tres, la caseta del
+      estacionamiento comercial o el traslado de la cuota recaudada, es el mismo
+      supervisor y la misma cadena de mando. La novedad de la madrugada no se pierde
+      entre dos empresas que no se hablan.
+  - titulo: Relevo y suplencias
+    texto: >-
+      Entrega de turno cara a cara y esquema de reemplazo por escrito, con plazo. Un punto
+      descubierto que nadie registró tampoco se descuenta de la factura.
 modalidades:
   - titulo: Caseta 24/7
     texto: >-
-      Cobertura continua del acceso por turnos relevados, para desarrollos que no
-      pueden quedar sin filtro en ningún momento.
+      Cobertura continua del acceso principal por turnos relevados. Se cotiza por posición
+      y turno, no por guardia.
   - titulo: Turno nocturno
     texto: >-
-      Cobertura fuera de horario de administración, orientada al perímetro, las áreas
-      comunes y la verificación de que todo quedó cerrado.
-  - titulo: Acceso más rondín
+      De la salida de la administración a la mañana siguiente. Perímetro, cierre de
+      amenidades y verificación de que todo quedó asegurado. Es el esquema de entrada de
+      las comunidades con cuota apretada.
+  - titulo: Acceso fijo más rondín
     texto: >-
-      Un elemento fijo en caseta y otro en recorrido, para desarrollos con varias
-      torres, sótanos o perímetro extenso.
-  - titulo: Refuerzo temporal
+      Un elemento en caseta y otro en recorrido, para torres con varios sótanos o
+      privadas con perímetro largo.
+  - titulo: Condominio con obra activa
     texto: >-
-      Personal adicional por temporada vacacional, mudanzas, obra en unidades o
-      eventos en amenidades, sobre el esquema base ya instalado.
+      Cuando la etapa siguiente se construye dentro del mismo predio, el acceso de obra y
+      el acceso residencial se cubren bajo un solo contrato, con consignas distintas pero
+      un mismo canal de reporte. Es la modalidad que más nos piden los desarrolladores que
+      entregan por fases.
+  - titulo: Refuerzo por temporada
+    texto: >-
+      Personal adicional para el puente de noviembre, las vacaciones de diciembre o la
+      semana de mudanzas de fin de mes, montado sobre el esquema que ya está instalado.
+  - titulo: Guardia más cámara verificada
+    texto: >-
+      Menos gente en sitio, sostenida con video que sí observa alguien desde central.
+      Baja la cuota por unidad privativa, pero exige un protocolo de escalamiento pactado
+      por escrito antes de arrancar.
 paraQuien:
   - titulo: Torres verticales
     texto: >-
-      Lobby, control de elevadores y visitas, y recorrido por niveles de
-      estacionamiento y azotea.
-  - titulo: Privadas horizontales
+      Lobby, control de elevadores y niveles de estacionamiento. El punto delicado es la
+      paquetería y el visitante que sube sin anunciarse.
+  - titulo: Privadas horizontales y cotos
     texto: >-
       Caseta vehicular y peatonal, rondín perimetral y control de contratistas por
-      vivienda.
-  - titulo: Fraccionamientos cerrados
+      vivienda. El riesgo está en la barda y en los accesos secundarios.
+  - titulo: Desarrollos que entregan por etapas
     texto: >-
-      Varios accesos, vialidades internas y áreas verdes: el dispositivo se dimensiona
-      por perímetro, no por número de casas.
+      Torres habitadas conviviendo con frente de obra en el mismo predio, compartiendo
+      rampa, acometidas y a veces hasta la caseta. Necesitan dos consignas y un solo
+      supervisor, y es exactamente donde se nota tener un proveedor con cobertura mixta.
   - titulo: Residenciales con amenidades
     texto: >-
-      Control de aforo y horario en alberca, salón de usos múltiples y gimnasio,
-      conforme al reglamento interno.
+      Aforo y horario en la alberca, el gimnasio, la terraza y el salón de fiestas, con
+      registro de quién reservó y a qué hora se cerró cada espacio.
   - titulo: Condominios mixtos
     texto: >-
-      Desarrollos con comercio en planta baja, donde el flujo público y el de
-      residentes tienen que separarse.
-  - titulo: Entrega reciente y obra
-    texto: >-
-      Unidades en proceso de entrega o remodelación, con control de cuadrillas y
-      bitácora de material que entra y sale.
+      Comercio o consultorios en planta baja y vivienda arriba. El flujo público y el de
+      residentes tienen que separarse físicamente, no con buena voluntad.
 proceso:
-  - titulo: Recorrido con la administración
+  - titulo: Recorrido con quien conoce el desarrollo
     texto: >-
-      Visita al desarrollo para ver accesos, perímetro, iluminación, horarios y puntos
-      ciegos, junto con quien conoce la operación diaria.
-  - titulo: Propuesta y cuota
+      Vamos con la administración a ver accesos, perímetro, iluminación, horarios y puntos
+      ciegos. Si hay obra o local comercial dentro del predio, lo levantamos en la misma
+      visita para no cotizarlo aparte.
+  - titulo: Propuesta por posición y turno
     texto: >-
-      Número de posiciones, turnos y ubicación de cada una, con el costo desglosado y
-      su equivalente por unidad privativa.
-  - titulo: Consigna y reglamento
+      Cuántas posiciones, en qué horario, dónde queda cada una y qué cuesta cada línea,
+      con el equivalente por unidad privativa ya calculado para que se pueda votar.
+  - titulo: Consigna copiada del reglamento
     texto: >-
-      Se cierra por escrito qué revisa cada posición y qué reglas aplica, tomando el
-      reglamento interno vigente como base. Sin eso, el guardia decide solo.
-  - titulo: Presentación
+      Redactamos la consigna desde el reglamento interno vigente, no desde la costumbre de
+      la caseta. Si el reglamento está ambiguo en algo, lo señalamos antes de firmar en
+      lugar de descubrirlo en el primer conflicto.
+  - titulo: Alta, presentación y bitácora
     texto: >-
-      Alta del personal, presentación con la administración o la mesa directiva y
-      apertura de bitácora. Los residentes deben saber quién resguarda y bajo qué reglas.
-  - titulo: Supervisión y reporte
+      Presentamos al personal con la administración o la mesa directiva y abrimos bitácora
+      el primer día. Los residentes deben saber quién resguarda y bajo qué reglas.
+  - titulo: Supervisión y ajuste
     texto: >-
-      Visitas de supervisión y revisión de bitácora para ajustar la consigna conforme
-      aparece el comportamiento real del desarrollo.
+      Visitas al punto y revisión de bitácora. La consigna del mes tres nunca es igual a
+      la del día uno, porque para entonces ya sabemos cómo se comporta el desarrollo.
 errores:
-  - titulo: Consigna que contradice el reglamento
+  - titulo: Partir el servicio entre tres proveedores
     texto: >-
-      Cuando lo que el guardia tiene por escrito no coincide con lo que la
-      asamblea aprobó, cada aplicación se vuelve discutible. La consigna se
-      redacta desde el reglamento vigente, no desde la costumbre de la caseta.
-  - titulo: Instrucciones verbales de residentes en la caseta
+      Uno para la caseta, otro para la obra y otro para el estacionamiento comercial.
+      Suena a competencia sana y funciona hasta el primer incidente que cruza dos zonas.
+      Entonces cada empresa entrega su versión, ninguna bitácora empata y la
+      administración termina arbitrando entre proveedores en vez de resolver el hecho.
+  - titulo: Autorizar de palabra en la ventanilla
     texto: >-
-      Si cualquier condómino puede cambiar el filtro con una indicación de
-      palabra, el control desaparece en una semana. Las excepciones se
-      autorizan por el canal que definió la asamblea y quedan por escrito.
-  - titulo: No definir qué se hace con la paquetería
+      Si cualquier condómino puede modificar el filtro con una indicación verbal, en una
+      semana no queda filtro. Las excepciones se piden por el canal que definió la
+      asamblea y quedan escritas.
+  - titulo: Arrancar sin decidir qué se hace con la paquetería
     texto: >-
-      Sin una regla clara sobre qué se recibe, dónde se resguarda y por cuánto
-      tiempo, el guardia termina respondiendo por bienes que nunca aceptó
-      custodiar. Es el reclamo más común contra una caseta.
-  - titulo: Rotar personal sin traspaso de consigna
+      Sábado, once de la mañana. Llega una camioneta de mudanza sin aviso. El guardia no
+      tiene regla escrita para eso, llama a la administradora y no contesta porque es
+      sábado. Cuarenta minutos después la camioneta sigue bloqueando el acceso vehicular.
+      Al final pasa. Nadie revisó qué salió.
+  - titulo: Preguntar cuánto cuesta para ochenta departamentos
     texto: >-
-      La rotación es sana, pero un elemento nuevo sin la consigna del punto ni
-      el reglamento en la mano repite el criterio que le funcionó en otro
-      condominio. El traspaso se documenta o no ocurrió.
-  - titulo: Elegir por cuota sin ver la carga del punto
+      Esa pregunta no tiene respuesta. El costo sale de accesos, turnos y metros de
+      perímetro. Una privada de cuarenta casas con tres entradas suele salir más cara que
+      una torre de ciento veinte con un solo lobby.
+  - titulo: Rotar personal sin traspasar la consigna
     texto: >-
-      La cotización más baja suele serlo porque asume un acceso tranquilo. Si
-      tu caseta atiende visitas, proveedores, paquetería y estacionamiento a la
-      vez, el ahorro se paga con filas en la entrada y filtro que no se aplica.
-  - titulo: No dejar por escrito quién autoriza a un proveedor
+      La rotación es sana. Un elemento nuevo sin la consigna del punto ni el reglamento en
+      la mano no lo es: repite el criterio que le funcionó en el condominio anterior.
+  - titulo: No pedir el REPSE al proveedor
     texto: >-
-      Un proveedor sin condómino que lo respalde deja al guardia decidiendo
-      solo. Define de antemano si autoriza la administración, la mesa directiva
-      o el residente que lo contrató, y cómo se registra esa autorización.
+      Aplica sobre todo cuando quien contrata es una administradora constituida como
+      empresa o una desarrolladora. Sin el registro del proveedor en el padrón de la STPS,
+      la factura del servicio se vuelve un problema fiscal que aparece meses después,
+      cuando ya nadie se acuerda de quién revisó los papeles.
 glosario:
-  - termino: Reglamento interno
+  - termino: Posición
     definicion: >-
-      Documento aprobado en asamblea que fija qué se permite dentro del
-      condominio. El guardia no lo interpreta ni lo negocia: lo aplica. Casi
-      todo conflicto entre caseta y residentes nace de un reglamento ambiguo.
-  - termino: Mesa directiva
+      El lugar que se cubre, no la persona que lo cubre. Una posición de 24 horas la
+      sostienen varios elementos rotando, por eso la propuesta se lee por posición y turno.
+  - termino: Consigna
     definicion: >-
-      Órgano de representación de los condóminos que, junto con la
-      administración, define el alcance del servicio y resuelve las excepciones
-      que el guardia no puede autorizar por sí mismo.
-  - termino: Caseta de acceso
+      La instrucción escrita del punto. Qué se revisa, cada cuánto, qué se autoriza y a
+      quién se le habla. Es lo que convierte a un guardia en un procedimiento y no en un
+      criterio.
+  - termino: Unidad privativa
     definicion: >-
-      Posición fija en la entrada donde se concentra el filtro de visitantes,
-      proveedores, paquetería y vehículos. Es el punto que define la carga real
-      de trabajo del dispositivo.
+      Cada departamento o casa con propietario. Es la base sobre la que se prorratea el
+      costo del servicio, aunque no sea la base sobre la que se calcula.
+  - termino: Obra particular
+    definicion: >-
+      Remodelación dentro de una unidad, con cuadrilla externa entrando a diario. Necesita
+      acreditación, horario y bitácora de material, o se vuelve un acceso libre disfrazado
+      de mantenimiento.
+  - termino: Prorrateo
+    definicion: >-
+      El reparto de la cuota entre unidades, según el criterio que ya use el condominio
+      para las demás cuotas. Se decide después de dimensionar el servicio, nunca antes.
   - termino: Bitácora de acceso
     definicion: >-
-      Registro de quién entró, a qué unidad iba, quién lo autorizó y a qué hora
-      salió. Es lo que permite reconstruir un incidente sin depender de la
-      memoria del guardia en turno.
-  - termino: Área común
-    definicion: >-
-      Espacio de uso compartido —lobby, azotea, estacionamiento, amenidades—
-      que entra en el rondín interno. Conviene que la consigna liste cuáles se
-      recorren y con qué frecuencia.
-  - termino: Rotación de personal
-    definicion: >-
-      Cambio periódico del elemento asignado al punto. Reduce el riesgo de que
-      la confianza con los residentes debilite el filtro, siempre que venga
-      acompañada del traspaso de la consigna.
+      Quién entró, a qué unidad iba, quién lo autorizó y a qué hora salió. Es lo que
+      permite reconstruir un incidente sin depender de la memoria del guardia en turno.
 entregables:
-  - Consigna escrita del acceso y de cada rondín
-  - Bitácora de novedades por turno
-  - Registro de visitantes, proveedores y paquetería
-  - Reporte para la administración o la mesa directiva
-  - Relación del personal asignado y su rotación
-  - Contrato con alcance, horarios y esquema de suplencias
+  - Consigna escrita de cada posición y del rondín, firmada por las dos partes
+  - Bitácora de acceso y de novedades por turno, con copia disponible en el inmueble
+  - Reporte para la administración o la mesa directiva, con fecha fija de entrega
+  - Contrato a nombre del condominio, con horarios, suplencias y supervisor asignado
 galeria:
   - patrullaje-condominio-vertical:1
   - recepcion-residencial-guardia:1
@@ -200,73 +216,117 @@ galeria:
   - guardia-mujer-acceso-peatonal:3
   - patrullaje-estacionamiento-subterraneo:3
 faq:
-  - q: ¿El guardia puede negar el acceso a un visitante?
-    a: Puede negarlo cuando el residente no autoriza el ingreso o cuando el reglamento interno lo impide, y así debe estar redactado en su consigna. Lo que no debe hacer es decidir por criterio propio. Si la asamblea no ha definido las reglas de acceso por escrito, el guardia queda expuesto y el servicio se vuelve discrecional.
-  - q: ¿Quién contrata, la administración o los condóminos?
-    a: Normalmente la asamblea aprueba el servicio y la administración firma en representación del condominio. Pide que el contrato esté a nombre del condominio y no de una persona, y que quede asentado en acta. Eso evita que el servicio dependa de quién administre en ese momento.
-  - q: ¿Cómo se calcula la cuota por unidad?
-    a: El costo se dimensiona por posiciones y turnos, no por número de viviendas; después se prorratea entre las unidades según el criterio que use el condominio para las cuotas. Pide siempre la propuesta desglosada por posición y turno, no solo la cifra final, porque es la única forma de comparar dos proveedores.
-  - q: ¿Qué pasa con la paquetería y las entregas?
-    a: "La empresa registra al repartidor y la entrega, pero el criterio de recepción —si se recibe en caseta, si se anuncia, si se prohíbe— lo fija la administración y debe estar en la consigna. Conviene definirlo antes de arrancar: la paquetería es la fuente más común de fricción entre guardia y residentes."
-  - q: ¿El guardia puede apoyar en tareas de mantenimiento?
-    a: No conviene. Cada tarea ajena al filtro es tiempo con la caseta sola y una consigna que deja de cumplirse. Si el desarrollo necesita apoyo operativo, esa es otra posición o un servicio distinto; mezclarlos desvirtúa el servicio y complica reclamar cuando algo falla.
-  - q: ¿Cada cuánto debe rotar el personal?
-    a: No hay una regla única, pero un guardia que lleva mucho tiempo en el mismo acceso termina saludando en vez de filtrando. Acuerda con el proveedor un esquema de rotación y supervisión, y pide que quede en el contrato junto con el compromiso de que el relevo recibe la misma consigna.
-  - q: ¿Qué modalidad de permiso debe amparar este servicio?
-    a: La de seguridad privada en los bienes, por tratarse de la vigilancia de un inmueble. Confirma en el documento del permiso que esa modalidad aparezca listada y que la vigencia esté al corriente antes de firmar.
-  - q: ¿Aplica igual a privadas horizontales y fraccionamientos?
-    a: Sí. Cambia el dispositivo, no el servicio. Una torre vertical se resuelve con lobby y control de elevadores; una privada horizontal o un fraccionamiento necesitan caseta vehicular y rondín perimetral, porque el riesgo está en el perímetro y en las vialidades internas.
-  - q: ¿Puede el guardia sancionar a un condómino que incumple el reglamento?
-    a: No. El guardia registra el hecho en la bitácora y lo reporta a la administración o a la mesa directiva, que son quienes tienen facultad para sancionar conforme al reglamento. Pedirle que sancione lo pone en un conflicto que no le corresponde y que suele terminar con el elemento removido.
-  - q: ¿Qué se hace cuando dos residentes dan instrucciones opuestas?
-    a: Prevalece lo que dice el reglamento y la consigna escrita. Por eso conviene que la propuesta defina desde el arranque un solo canal de autorización —administración o mesa directiva— y que las excepciones se pidan por ese canal y queden registradas, no de palabra en la caseta.
-  - q: ¿Conviene poner cámaras además de la caseta?
-    a: Se complementan. La caseta filtra en el momento y la cámara documenta lo que pasó, pero una cámara que nadie observa solo graba. Si vas a invertir en video, define antes quién lo revisa y bajo qué protocolo se escala un evento.
-  - q: ¿Qué debe entregar el proveedor cada mes a la administración?
-    a: Reporte de novedades del periodo, relación del personal asignado y sus relevos, constancia de las visitas de supervisión y el respaldo de la bitácora de acceso. Que esa entrega tenga fecha fija en el contrato evita que el reporte aparezca solo cuando hay un incidente.
+  - q: ¿Cuánto cuesta poner seguridad en un condominio de ochenta departamentos?
+    a: >-
+      El número de departamentos no determina el costo. Lo determinan cuántos accesos hay
+      que atender, cuántas horas al día, cuánto perímetro se recorre y cuántos sótanos o
+      azoteas entran al rondín. Pide siempre la propuesta desglosada por posición y turno,
+      con el equivalente por unidad privativa calculado aparte. Una cifra global sin
+      desglose no se puede comparar contra otra, y es la forma más común de que dos
+      cotizaciones parezcan equivalentes cuando no lo son.
+  - q: ¿Cuántos guardias necesita una privada de cuarenta casas?
+    a: >-
+      Depende de si tiene uno o tres accesos, de si alguno se puede cerrar de noche y de
+      cuántos metros de barda hay que recorrer. Una privada en Bosque Real con perímetro
+      largo y dos entradas necesita más dispositivo que una torre de ciento veinte
+      unidades en Nuevo Polanco con un solo lobby. Sin recorrido previo, cualquier número
+      es inventado.
+  - q: ¿Qué pasa si el guardia falta un domingo?
+    a: >-
+      Entra suplencia. Lo que hay que dejar por escrito no es que exista, sino en cuántas
+      horas llega el reemplazo, si recibe la consigna del punto y qué se descuenta si el
+      punto quedó descubierto. Sin ese plazo en el contrato, la falta se vuelve un hueco
+      que nadie registra y que se factura completo.
+  - q: ¿Cómo sé si mi desarrollo necesita uno o dos accesos cubiertos?
+    a: >-
+      Cuenta cuántas entradas quedan operando después de las diez de la noche y cuántas de
+      ellas dan a vía pública. Si son dos o más y ninguna se puede clausurar, el filtro de
+      una sola caseta es aparente. Otra señal: si el guardia tiene que abandonar la
+      ventanilla para abrir la pluma vehicular, ya son dos funciones en una posición y
+      alguna de las dos se hace mal.
+  - q: ¿Cómo sé si la propuesta que me dieron está copiada de otro condominio?
+    a: >-
+      Si nadie caminó tu desarrollo antes de mandarla, lo está. Búscale detalles que solo
+      se ven en sitio: el número de sótanos, la azotea a la que se sube por escalera
+      marina, la puerta de servicio que da a la calle de atrás. Si la propuesta no menciona
+      nada tuyo, describe a otro cliente.
+  - q: ¿Pueden cubrir la obra de la etapa siguiente con el mismo contrato?
+    a: >-
+      Sí, y es la razón por la que suelen buscarnos los desarrolladores que entregan por
+      fases. El acceso residencial y el frente de obra llevan consignas distintas, porque
+      no se controla igual a un visitante que a una cuadrilla con material, pero el
+      supervisor, el canal de reporte y la factura son los mismos. Ese alcance lo puedes
+      revisar en la página de [obra, eventos y hospitales](/categorias/seguridad-privada/cdmx/virelta-seguridad-privada/obra-eventos-y-hospitales/).
+  - q: ¿Quién firma el contrato, la administración o la asamblea?
+    a: >-
+      Vota la asamblea; firma quien la representa, casi siempre la administración. Lo que
+      importa es a nombre de quién queda el contrato: si sale a título personal, el servicio
+      se va el día que cambia el administrador y con él se va el histórico de bitácoras.
+      Que el acuerdo quede asentado en acta y el contrato a nombre del condominio.
+  - q: ¿El guardia puede negarle el acceso a un visitante?
+    a: >-
+      Puede cuando el residente no autoriza o cuando el reglamento lo impide, y así debe
+      estar redactado en su consigna. Lo que no debe hacer es decidirlo por criterio
+      propio. Si la asamblea no fijó reglas de acceso por escrito, el elemento queda
+      expuesto y el servicio se vuelve discrecional.
+  - q: ¿El guardia puede sancionar a un condómino que incumple el reglamento?
+    a: >-
+      No, y conviene que quede claro desde la primera junta. Lo que hace es anotarlo con
+      hora y pasarlo a quien sí tiene facultad de sancionar. Ponerlo a cobrar multas o a
+      llamar la atención de un condómino lo mete en un pleito que no le toca, y esos
+      pleitos suelen acabar con el elemento removido a petición de un vecino molesto.
+  - q: ¿Sirve poner cámaras en lugar del guardia?
+    a: >-
+      No se sustituyen, se reparten el trabajo. La caseta filtra en el momento, la cámara
+      documenta lo que ya pasó. Un esquema mixto baja la cuota, pero solo si alguien
+      observa el video y hay protocolo escrito de escalamiento. Esa parte la cubre el
+      servicio de [control de accesos](/categorias/seguridad-privada/cdmx/virelta-seguridad-privada/control-de-accesos/)
+      combinado con monitoreo desde central.
+  - q: ¿Con qué modalidad tiene que estar amparada la caseta?
+    a: >-
+      Vigilar un inmueble entra en la modalidad de seguridad privada en los bienes. Pide el
+      documento, busca esa línea en el listado de modalidades autorizadas y checa que la
+      vigencia cubra el periodo del contrato. Si el condominio contrata además escolta para
+      alguien de la mesa directiva, eso ya es otra modalidad y va amparada aparte.
 ---
 
-## Por qué falla la seguridad en un condominio
+## Lo que se pierde en un condominio salió por la puerta
 
-Los incidentes en un desarrollo residencial rara vez entran por la fuerza:
-**entran autorizados**. Un visitante que nadie validó con el residente. Un
-proveedor que pasó «porque siempre viene». Una mudanza que salió sin que nadie
-revisara qué se llevaba. Una llave de la azotea que nadie sabe quién tiene.
+Casi nunca hay barda saltada. Hay un visitante que nadie validó con el residente. Un proveedor que pasó porque siempre viene. Una mudanza de fin de mes que salió cargada sin que nadie mirara qué iba en las cajas. Una llave de azotea que rueda desde hace cuatro administraciones y nadie sabe cuántas copias existen.
 
-El servicio existe para que cada ingreso tenga un responsable y una hora, y para
-que eso quede escrito. No para poner a alguien de uniforme en la puerta.
+Todo eso ocurre con permiso. Por eso el servicio no consiste en poner a alguien de uniforme en la entrada, sino en que cada ingreso tenga nombre, hora y responsable, y que eso quede escrito el mismo día.
 
-## El guardia no decide: aplica el reglamento
+## Un desarrollo casi nunca es una sola cuenta
 
-La mayoría de los conflictos entre caseta y residentes nacen del mismo punto: el
-guardia improvisa un criterio porque nadie le dio uno. ¿Se recibe paquetería? ¿A
-qué hora se cierra el acceso peatonal? ¿El visitante que llega sin anunciar
-espera fuera o pasa?
+Aquí es donde nos separamos de los proveedores que solo hacen residencial. Un condominio en Interlomas con torre entregada y etapa dos en obra comparte rampa, acometidas y a veces caseta. Un residencial en Del Valle con consultorios en planta baja tiene dos públicos que no deberían cruzarse. Una privada en Lomas Verdes que renta el salón los sábados recibe cincuenta personas que no viven ahí.
 
-Lo que la asamblea aprobó tiene que bajar por escrito a la consigna del punto.
-Un proveedor formal lo pide antes de arrancar; si no lo pide, el servicio va a
-depender del carácter de quien esté en turno.
+Cuando eso lo cubren tres empresas distintas, cada una entrega su propia versión de la noche. Las bitácoras no empatan, los horarios están corridos y la administración termina arbitrando entre proveedores en lugar de resolver el hecho.
 
-## Qué pedir en la propuesta
+Nosotros lo tomamos junto. El acceso residencial y el frente de obra llevan consignas distintas, porque no se controla igual a un visitante que a una cuadrilla con material, pero el supervisor es el mismo y el reporte llega en un solo documento. Si además necesitas recorrido externo sobre el perímetro y las vialidades internas, el [patrullaje con rastreo GPS](/categorias/seguridad-privada/cdmx/virelta-seguridad-privada/patrullaje-con-rastreo-gps/) se monta sobre el mismo contrato y se audita contra el trazo que se pactó.
 
-- **Posiciones y turnos por separado**, no un total. Una caseta cubierta 24 horas
-  necesita varios elementos rotando.
-- **La consigna preliminar de cada posición**, incluido el rondín: qué se
-  revisa, cada cuánto y a quién se reporta.
-- **El esquema de suplencias** y su tiempo de respuesta, por escrito.
-- **El formato de reporte** que recibirá la administración.
-- **La modalidad que ampara el permiso** y su vigencia.
+## El guardia no interpreta el reglamento, lo ejecuta
 
-## Qué revisar antes de firmar
+La mayoría de los pleitos entre caseta y residentes nacen del mismo hueco: nadie le dio un criterio al elemento y lo tuvo que inventar. ¿Se recibe paquetería? ¿A qué hora se cierra el acceso peatonal en Jardines del Pedregal, donde media calle es visita de fin de semana? ¿El visitante que llega sin anunciar espera fuera o pasa?
 
-1. Documento del permiso de seguridad privada, con modalidad y vigencia legibles.
-2. Registro REPSE si el servicio se presta como servicio especializado.
-3. Comprobante de alta del personal ante IMSS e INFONAVIT.
-4. Póliza de responsabilidad civil vigente.
-5. Contrato a nombre del condominio, no de una persona, y acuerdo en acta.
-6. Nombre y contacto del supervisor asignado a la cuenta.
+Lo que la asamblea aprobó tiene que bajar por escrito a la consigna del punto, palabra por palabra. Nosotros la redactamos desde el reglamento vigente y no desde la costumbre de la caseta, y cuando el reglamento está ambiguo en algo lo decimos antes de firmar. Es incómodo en la junta y ahorra seis meses de discusiones.
 
-> El alcance de este servicio, sus acreditaciones y su cobertura los declara
-> Virelta Seguridad Privada. TuSeguridad no interviene en la contratación: antes
-> de firmar, solicita los documentos y confirma su vigencia y la modalidad que
-> amparan.
+Un [guardia intramuros](/categorias/seguridad-privada/cdmx/virelta-seguridad-privada/guardias-intramuros/) con consigna es un procedimiento que se puede revisar y corregir. Sin ella, lo que compraste fue presencia.
+
+Enero, seis y diez de la mañana, torre en Granada. El lector de huella deja de leer con las manos frías y hay ocho personas formadas en el acceso peatonal esperando que el guardia abra a mano. Si el plan B no está escrito, el plan B es que el filtro deja de existir un mes al año.
+
+## Qué comparar cuando tengas dos propuestas enfrente
+
+Antes de mirar el total, revisa estas seis líneas. La columna de la derecha es lo que hemos visto contestar cuando la propuesta se armó desde un escritorio.
+
+| Lo que pides | Respuesta que sirve | Señal de que no hubo recorrido |
+| --- | --- | --- |
+| Desglose del servicio | Posiciones y turnos por separado, con costo por línea | Una cifra mensual global |
+| Consigna preliminar | Un borrador por posición, con frecuencia de rondín | «El guardia ya sabe qué hacer» |
+| Suplencias | Plazo en horas y qué se descuenta si el punto queda solo | «Siempre cubrimos» |
+| Permiso | Documento con modalidad y vigencia legibles | Número dictado por teléfono |
+| REPSE | Constancia vigente ante la STPS | «Eso no aplica para condominios» |
+| Supervisión | Frecuencia por escrito y constancia en bitácora | Visitas «cuando se requiera» |
+
+Si quieres ahorrarte la primera vuelta, manda por WhatsApp una foto de cada acceso, el reglamento vigente y el horario en que cierra la administración. Con eso se puede decir cuántas posiciones salen antes de sentarse a cotizar, y si hay obra o local comercial dentro del predio conviene mencionarlo desde ese mensaje.
+
+> Este servicio lo presta Virelta Seguridad Privada y es ella quien declara su alcance, su cobertura y sus acreditaciones. TuSeguridad publica la ficha, no la audita ni cobra por la contratación. Antes de que la asamblea vote, pide el permiso, el REPSE y la póliza sobre la mesa, y revisa que la vigencia cubra el periodo del contrato.
