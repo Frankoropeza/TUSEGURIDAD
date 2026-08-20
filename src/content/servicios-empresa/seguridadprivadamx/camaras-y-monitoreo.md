@@ -340,7 +340,7 @@ faq:
   - q: "¿Se integra con el control de accesos y con el patrullaje?"
     a: >-
       Sí, y es cuando mejor funciona. La cámara confirma lo que el
-      [control de accesos](/categorias/seguridad-privada/cdmx/seguridadprivadamx/control-de-accesos/)
+      control de accesos
       registró en la entrada, y la unidad de patrullaje es quien va a verificar
       en sitio lo que la central alcanzó a ver.
 ---

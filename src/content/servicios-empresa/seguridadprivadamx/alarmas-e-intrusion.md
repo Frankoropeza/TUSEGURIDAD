@@ -271,12 +271,12 @@ faq:
       Depende de la marca y del grabador, y se revisa en el levantamiento. Vale
       la pena intentarlo: la verificación por imagen es lo que más reduce
       movilizaciones inútiles, y es el puente natural con el
-      [monitoreo de cámaras desde central](/categorias/seguridad-privada/cdmx/seguridadprivadamx/camaras-y-monitoreo/).
+      monitoreo de cámaras desde central.
   - q: ¿El botón de pánico de la app llega a la misma central?
     a: >-
       Sí, con la unidad identificada. El tratamiento de esa señal está descrito
       en el protocolo de
-      [respuesta a emergencias](/categorias/seguridad-privada/cdmx/seguridadprivadamx/respuesta-a-emergencias/),
+      respuesta a emergencias,
       que se define antes de que exista el primer evento.
   - q: ¿Cada cuánto hay que dar mantenimiento?
     a: >-

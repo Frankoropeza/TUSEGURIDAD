@@ -1,15 +1,22 @@
 /**
- * Catálogo de fotografía del rubro de seguridad privada.
+ * Catálogo de fotografía del directorio, por rubro.
  *
- * Los archivos viven en /public/img/seguridad-privada/ en AVIF, en dos anchos
+ * Los archivos viven en /public/img/<categoria>/ en AVIF, en dos anchos
  * (1280 y 640). El nombre de archivo es la palabra clave, y aquí se le asocia
  * el texto alternativo real de cada grupo.
  *
  * Convención: <slug>-<NN>-<ancho>.avif
+ *
+ * Cada grupo declara su `categoria` (el id del rubro al que pertenece). Al
+ * sumar un rubro nuevo con fotografía propia, se agregan sus grupos aquí con
+ * esa categoria: no hace falta tocar nada más, `tieneFotos()` y `fotoPara()`
+ * ya filtran por ella.
  */
 
 export interface GrupoFotos {
   slug: string;
+  /** id del rubro (categoria) al que pertenece este grupo */
+  categoria: string;
   titulo: string;
   /** texto alternativo base; se numera por variante */
   alt: string;
@@ -17,109 +24,164 @@ export interface GrupoFotos {
 }
 
 export const RATIO = { w: 1280, h: 714 } as const;
-const BASE = '/img/seguridad-privada';
 
 export const FOTOS: GrupoFotos[] = [
+  // ── seguridad-privada ────────────────────────────────────────────
   {
     slug: 'control-de-acceso-seguridad-privada',
+    categoria: 'seguridad-privada',
     titulo: 'Control de acceso',
     alt: 'Oficial de seguridad privada operando el control de acceso de un inmueble',
     total: 12,
   },
   {
     slug: 'guardia-verificando-acceso',
+    categoria: 'seguridad-privada',
     titulo: 'Verificación de acceso',
     alt: 'Guardia de seguridad verificando la identificación de una persona en el acceso',
     total: 12,
   },
   {
     slug: 'registro-de-visitantes-caseta',
+    categoria: 'seguridad-privada',
     titulo: 'Registro de visitantes',
     alt: 'Guardia registrando visitantes en la caseta de acceso de un desarrollo',
     total: 12,
   },
   {
     slug: 'patrullaje-condominio-vertical',
+    categoria: 'seguridad-privada',
     titulo: 'Patrullaje en condominio',
     alt: 'Guardias de seguridad privada patrullando un condominio vertical',
     total: 8,
   },
   {
     slug: 'patrullaje-estacionamiento-subterraneo',
+    categoria: 'seguridad-privada',
     titulo: 'Patrullaje en estacionamiento',
     alt: 'Oficial de seguridad patrullando un estacionamiento subterráneo',
     total: 8,
   },
   {
     slug: 'inspeccion-perimetral-almacen',
+    categoria: 'seguridad-privada',
     titulo: 'Inspección perimetral',
     alt: 'Guardia inspeccionando el perímetro de un almacén',
     total: 8,
   },
   {
     slug: 'recepcion-residencial-guardia',
+    categoria: 'seguridad-privada',
     titulo: 'Recepción residencial',
     alt: 'Personal de seguridad atendiendo a una residente en el acceso del desarrollo',
     total: 8,
   },
   {
     slug: 'monitoreo-cctv-centro-de-control',
+    categoria: 'seguridad-privada',
     titulo: 'Monitoreo CCTV',
     alt: 'Operador de seguridad monitoreando cámaras CCTV desde el centro de control',
     total: 7,
   },
   {
     slug: 'vigilancia-planta-industrial',
+    categoria: 'seguridad-privada',
     titulo: 'Vigilancia industrial',
     alt: 'Oficial de seguridad resguardando una planta industrial',
     total: 7,
   },
   {
     slug: 'operadora-monitoreo-cctv',
+    categoria: 'seguridad-privada',
     titulo: 'Centro de monitoreo',
     alt: 'Operadora de seguridad supervisando el circuito cerrado de televisión',
     total: 4,
   },
   {
     slug: 'guardia-mujer-acceso-peatonal',
+    categoria: 'seguridad-privada',
     titulo: 'Acceso peatonal',
     alt: 'Guardia de seguridad privada en el acceso peatonal de un inmueble',
     total: 4,
   },
   {
     slug: 'patrullaje-fraccionamiento',
+    categoria: 'seguridad-privada',
     titulo: 'Patrullaje en fraccionamiento',
     alt: 'Guardias de seguridad privada patrullando un fraccionamiento residencial',
     total: 4,
   },
   {
     slug: 'briefing-personal-de-seguridad',
+    categoria: 'seguridad-privada',
     titulo: 'Briefing de turno',
     alt: 'Personal de seguridad privada en briefing previo al inicio de turno',
     total: 4,
   },
   {
     slug: 'guardia-seguridad-privada-polanco-cdmx',
+    categoria: 'seguridad-privada',
     titulo: 'Seguridad en Polanco',
     alt: 'Oficial de seguridad privada resguardando un inmueble en Polanco, Ciudad de México',
     total: 4,
   },
   {
     slug: 'inspeccion-perimetral-instalaciones',
+    categoria: 'seguridad-privada',
     titulo: 'Inspección de instalaciones',
     alt: 'Guardia de seguridad inspeccionando el perímetro de unas instalaciones',
     total: 3,
+  },
+
+  // ── seguridad-contra-incendios ───────────────────────────────────
+  {
+    slug: 'extintor-portatil-catalogo',
+    categoria: 'seguridad-contra-incendios',
+    titulo: 'Extintores portátiles',
+    alt: 'Extintor portátil contra incendios certificado, listo para venta o mantenimiento',
+    total: 12,
+  },
+  {
+    slug: 'manguera-contra-incendio-catalogo',
+    categoria: 'seguridad-contra-incendios',
+    titulo: 'Mangueras contra incendio',
+    alt: 'Manguera contra incendios de uso industrial en carrete',
+    total: 8,
+  },
+  {
+    slug: 'senalizacion-emergencia-catalogo',
+    categoria: 'seguridad-contra-incendios',
+    titulo: 'Señalización de emergencia',
+    alt: 'Señalización fotoluminiscente de emergencia para rutas de evacuación',
+    total: 10,
+  },
+  {
+    slug: 'monitor-industrial-exm2-catalogo',
+    categoria: 'seguridad-contra-incendios',
+    titulo: 'Monitores industriales',
+    alt: 'Monitor contra incendios de uso industrial para instalación fija',
+    total: 10,
+  },
+  {
+    slug: 'equipo-bombero-nfpa-catalogo',
+    categoria: 'seguridad-contra-incendios',
+    titulo: 'Equipo para bomberos',
+    alt: 'Equipo de protección personal para bomberos certificado NFPA 1970',
+    total: 10,
+  },
+  {
+    slug: 'instalaciones-lga-empresa',
+    categoria: 'seguridad-contra-incendios',
+    titulo: 'Instalaciones del proveedor',
+    alt: 'Instalaciones de un proveedor de equipo contra incendios en Querétaro',
+    total: 2,
   },
 ];
 
 export const TOTAL_FOTOS = FOTOS.reduce((n, g) => n + g.total, 0);
 
-/** Qué rubros tienen fotografía propia. Al sumar otro rubro, se extiende aquí. */
-export const RUBROS_CON_FOTOS: Record<string, string[]> = {
-  'seguridad-privada': FOTOS.map((g) => g.slug),
-};
-
-export const tieneFotos = (rubro: string): boolean => rubro in RUBROS_CON_FOTOS;
+export const tieneFotos = (rubro: string): boolean =>
+  FOTOS.some((g) => g.categoria === rubro);
 
 const nn = (n: number): string => String(n).padStart(2, '0');
 
@@ -136,7 +198,7 @@ export function foto(slug: string, indice = 1): Foto {
   const grupo = FOTOS.find((g) => g.slug === slug);
   if (!grupo) throw new Error(`Grupo de fotos desconocido: ${slug}`);
   const i = ((indice - 1) % grupo.total) + 1;
-  const base = `${BASE}/${grupo.slug}-${nn(i)}`;
+  const base = `/img/${grupo.categoria}/${grupo.slug}-${nn(i)}`;
   return {
     src: `${base}-1280.avif`,
     srcset: `${base}-640.avif 640w, ${base}-1280.avif 1280w`,
@@ -161,10 +223,17 @@ export function todasLasFotos(): { grupo: GrupoFotos; fotos: Foto[] }[] {
 /**
  * Selección determinista para ilustrar una página sin repetir:
  * misma semilla → misma foto, así el build es reproducible.
+ *
+ * Filtra por `categoria` para no mezclar fotografía de un rubro en una
+ * página de otro rubro: llama primero a `tieneFotos(categoria)`.
  */
-export function fotoPara(semilla: string, offset = 0): Foto {
+export function fotoPara(semilla: string, categoria: string, offset = 0): Foto {
+  const grupos = FOTOS.filter((g) => g.categoria === categoria);
+  if (grupos.length === 0) {
+    throw new Error(`Sin fotografía para la categoría: ${categoria}`);
+  }
   let h = 0;
   for (let i = 0; i < semilla.length; i++) h = (h * 31 + semilla.charCodeAt(i)) >>> 0;
-  const grupo = FOTOS[(h + offset) % FOTOS.length]!;
+  const grupo = grupos[(h + offset) % grupos.length]!;
   return foto(grupo.slug, ((h >>> 8) % grupo.total) + 1);
 }

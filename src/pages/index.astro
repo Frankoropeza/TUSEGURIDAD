@@ -160,7 +160,7 @@ const criterios = [
             descripcion={cat.data.descripcion}
             pie={cat.data.destacada ? `${nn(n)} ${n === 1 ? 'empresa' : 'empresas'}` : 'Sin padrón'}
             distintivos={cat.data.destacada && n > 0 ? [{ texto: 'Con padrón', tono: 'signal' }] : []}
-            foto={tieneFotos(cat.id) ? fotoPara(`rubro:${cat.id}`) : null}
+            foto={tieneFotos(cat.id) ? fotoPara(`rubro:${cat.id}`, cat.id) : null}
             laminaTexto={cat.data.nombre.slice(0, 2)}
             inactivo={!cat.data.destacada}
           />
@@ -296,7 +296,7 @@ const criterios = [
               meta={s.data.rubro ? nombreCategoria.get(s.data.rubro) : undefined}
               descripcion={s.data.descripcion}
               pie={`${nn(s.data.faq.length)} preguntas`}
-              foto={s.data.rubro && tieneFotos(s.data.rubro) ? fotoPara(`servicio:${s.id}`) : null}
+              foto={s.data.rubro && tieneFotos(s.data.rubro) ? fotoPara(`servicio:${s.id}`, s.data.rubro) : null}
               laminaTexto={s.data.titulo.slice(0, 2)}
             />
           ))}
@@ -319,7 +319,7 @@ const criterios = [
               meta={fecha(g.data.fecha)}
               descripcion={g.data.descripcion}
               pie={g.data.rubros.length > 0 ? nombreCategoria.get(g.data.rubros[0]!) ?? '' : g.data.autor}
-              foto={g.data.rubros.length > 0 && tieneFotos(g.data.rubros[0]!) ? fotoPara(`guia:${g.id}`) : null}
+              foto={g.data.rubros.length > 0 && tieneFotos(g.data.rubros[0]!) ? fotoPara(`guia:${g.id}`, g.data.rubros[0]!) : null}
               laminaTexto={String(g.data.fecha.getFullYear())}
             />
           ))}

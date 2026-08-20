@@ -125,7 +125,7 @@ const grupos = new Set(FOTOS.map((g) => g.slug));
 const fotoDe = (nombre: string, declarada: string | undefined, i: number) => {
   if (!hayFotos) return null;
   if (declarada && grupos.has(declarada)) return tomarFoto(declarada, i + 1);
-  return fotoPara(`servicio:${rubro}:${nombre}`);
+  return fotoPara(`servicio:${rubro}:${nombre}`, rubro);
 };
 const fotoDeclarada = new Map(declarados.map((s) => [slugServicio(s.nombre), s.foto] as const));
 const descripcionDe = new Map(

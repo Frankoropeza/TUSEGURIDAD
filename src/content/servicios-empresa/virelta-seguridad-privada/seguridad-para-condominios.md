@@ -256,7 +256,7 @@ faq:
       fases. El acceso residencial y el frente de obra llevan consignas distintas, porque
       no se controla igual a un visitante que a una cuadrilla con material, pero el
       supervisor, el canal de reporte y la factura son los mismos. Ese alcance lo puedes
-      revisar en la página de [obra, eventos y hospitales](/categorias/seguridad-privada/cdmx/virelta-seguridad-privada/obra-eventos-y-hospitales/).
+      revisar en la página de obra, eventos y hospitales.
   - q: ¿Quién firma el contrato, la administración o la asamblea?
     a: >-
       Vota la asamblea; firma quien la representa, casi siempre la administración. Lo que
@@ -280,7 +280,7 @@ faq:
       No se sustituyen, se reparten el trabajo. La caseta filtra en el momento, la cámara
       documenta lo que ya pasó. Un esquema mixto baja la cuota, pero solo si alguien
       observa el video y hay protocolo escrito de escalamiento. Esa parte la cubre el
-      servicio de [control de accesos](/categorias/seguridad-privada/cdmx/virelta-seguridad-privada/control-de-accesos/)
+      servicio de control de accesos
       combinado con monitoreo desde central.
   - q: ¿Con qué modalidad tiene que estar amparada la caseta?
     a: >-

@@ -286,7 +286,7 @@ faq:
       cámara graba lo que ya pasó. Para que sustituyan parte del personal hacen falta dos
       cosas escritas: quién verifica el video en el momento y a quién se le avisa. Eso es lo
       que resuelve el
-      [monitoreo CCTV](/categorias/seguridad-privada/cdmx/gupri-seguridad-privada/monitoreo-cctv/)
+      monitoreo CCTV
       con operador y protocolo. Sin eso, el coto no cambió vigilancia por tecnología, la
       cambió por evidencia posterior.
   - q: ¿Quién firma el contrato en una calle privada sin régimen de condominio?

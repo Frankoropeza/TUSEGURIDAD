@@ -43,7 +43,7 @@ const fecha = (x: Date): string =>
             meta={fecha(g.data.fecha)}
             descripcion={g.data.descripcion}
             pie={g.data.rubros.length > 0 ? catPorId.get(g.data.rubros[0]!) ?? '' : g.data.autor}
-            foto={g.data.rubros.length > 0 && tieneFotos(g.data.rubros[0]!) ? fotoPara(`guia:${g.id}`) : null}
+            foto={g.data.rubros.length > 0 && tieneFotos(g.data.rubros[0]!) ? fotoPara(`guia:${g.id}`, g.data.rubros[0]!) : null}
             laminaTexto={String(g.data.fecha.getFullYear())}
           />
         ))}

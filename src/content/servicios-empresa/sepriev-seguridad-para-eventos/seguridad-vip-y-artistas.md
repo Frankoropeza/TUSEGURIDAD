@@ -284,7 +284,7 @@ faq:
       traslado y la llegada los cubren dos proveedores distintos, el punto de
       entrega es donde se pierde la continuidad. Esa parte se arma junto con
       la
-      [protección ejecutiva](/categorias/seguridad-privada/cdmx/sepriev-seguridad-para-eventos/proteccion-ejecutiva/).
+      protección ejecutiva.
   - q: ¿Qué pasa si el show se retrasa dos horas?
     a: >-
       Se corre el dispositivo, pero el costo cambia si la extensión rebasa la

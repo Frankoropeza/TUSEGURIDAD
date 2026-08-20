@@ -234,7 +234,7 @@ faq:
       proveedor nuevo y no llama a nadie cuando algo se sale de la regla. Un acceso desatendido
       funciona hasta la primera excepción, y las excepciones son diarias. Ese cálculo se hace
       junto con el de la
-      [vigilancia por turnos](/categorias/seguridad-privada/cdmx/seguridadprivadamx/vigilancia-24-7/).
+      vigilancia por turnos.
   - q: ¿La app funciona si el residente no tiene internet en ese momento?
     a: >-
       La notificación necesita datos. Si no llega o no se contesta en el tiempo definido, aplica
@@ -273,7 +273,7 @@ faq:
       placas. Lo que homologamos es el reporte: mismas columnas, mismo corte, mismo criterio de
       clasificación. Así comparas los tres accesos sin aprenderte tres sistemas, y ese material
       alimenta directo tus
-      [reportes de asamblea](/categorias/seguridad-privada/cdmx/seguridadprivadamx/reportes-y-analytics/).
+      reportes de asamblea.
   - q: ¿En qué zonas instalan y operan este servicio?
     a: >-
       La empresa declara cobertura en las 16 alcaldías de la Ciudad de México, con trabajo

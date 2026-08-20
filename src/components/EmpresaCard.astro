@@ -43,7 +43,7 @@ const hayFotos = !rubroSlug || tieneFotos(rubroSlug);
 const imagen = hayFotos
   ? fotoSlug
     ? tomarFoto(fotoSlug, parseInt(indice, 10) || 1)
-    : fotoPara(semilla)
+    : fotoPara(semilla, rubroSlug ?? 'seguridad-privada')
   : null;
 
 // Una ficha de maqueta jamás muestra "Verificada": la marca de verificación

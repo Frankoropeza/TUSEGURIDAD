@@ -71,7 +71,7 @@ const d = await cargarDatos();
                 : 'Sin padrón'
             }
             distintivos={cat.data.destacada && n > 0 ? [{ texto: 'Con padrón', tono: 'signal' }] : []}
-            foto={tieneFotos(cat.id) ? fotoPara(`rubro:${cat.id}`) : null}
+            foto={tieneFotos(cat.id) ? fotoPara(`rubro:${cat.id}`, cat.id) : null}
             laminaTexto={cat.data.nombre.slice(0, 2)}
             inactivo={!cat.data.destacada}
           />

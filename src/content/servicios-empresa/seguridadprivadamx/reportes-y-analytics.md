@@ -297,7 +297,7 @@ faq:
       ¿Esto reemplaza la auditoría del inmueble?
     a: >-
       No. El informe mide la operación que ya tienes; la
-      [consultoría y auditoría](/categorias/seguridad-privada/cdmx/seguridadprivadamx/consultoria-y-auditoria/)
+      consultoría y auditoría
       revisa si el dispositivo está bien diseñado. Uno te dice qué pasó, el otro
       por qué el inmueble permite que pase. Si vas a pedir los dos, el orden es
       auditar primero.

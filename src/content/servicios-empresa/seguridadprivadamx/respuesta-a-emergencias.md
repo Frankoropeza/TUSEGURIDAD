@@ -307,7 +307,7 @@ faq:
     a: >-
       Es lo que hace útil la verificación. La alarma o el botón levantan el
       evento, las
-      [cámaras y el monitoreo](/categorias/seguridad-privada/cdmx/seguridadprivadamx/camaras-y-monitoreo/)
+      cámaras y el monitoreo
       confirman qué está pasando y el protocolo decide la ruta. Sin ese cruce, la
       central escala a ciegas y se gastan avisos en falsos disparos.
 ---

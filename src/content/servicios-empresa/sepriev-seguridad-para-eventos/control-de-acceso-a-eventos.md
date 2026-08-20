@@ -321,7 +321,7 @@ faq:
       Mezclarlos con el público es el error más común en explanadas y en recintos
       feriales, donde el acceso de servicio queda del mismo lado que el de
       asistentes. Ese acceso también se trabaja durante el
-      [montaje y desmontaje](/categorias/seguridad-privada/cdmx/sepriev-seguridad-para-eventos/montaje-y-desmontaje/),
+      montaje y desmontaje,
       cuando el recinto está más abierto que nunca.
   - q: ¿Qué pasa si alguien llega con un boleto duplicado?
     a: >-

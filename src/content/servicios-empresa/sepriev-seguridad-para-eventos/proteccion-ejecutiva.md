@@ -294,7 +294,7 @@ faq:
       evento administra el aforo y los accesos, y nosotros el perímetro cercano
       del protegido. Cuando el mismo proveedor lleva las dos cosas, esa junta
       ya viene resuelta y el
-      [control de acceso a eventos](/categorias/seguridad-privada/cdmx/sepriev-seguridad-para-eventos/control-de-acceso-a-eventos/)
+      control de acceso a eventos
       trabaja con la misma consigna.
   - q: ¿En qué ciudades prestan protección ejecutiva para eventos?
     a: >-

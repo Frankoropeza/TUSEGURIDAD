@@ -62,7 +62,7 @@ incluye:
       solamente que se pasó. Luminaria fundida sobre la vialidad tres, portón de
       servicio sin asegurar, vehículo ajeno estacionado cuatro noches seguidas
       frente a la casa doce. Ese registro alimenta el tablero de
-      [reportes y analytics](/categorias/seguridad-privada/cdmx/seguridadprivadamx/reportes-y-analytics/)
+      reportes y analytics
       y es lo que después se proyecta en asamblea.
 modalidades:
   - titulo: Unidad dedicada al desarrollo
@@ -146,7 +146,7 @@ errores:
     texto: >-
       Si el problema es que entra quien quiera por la caseta, la unidad va a
       documentar el problema, no a resolverlo. Eso se arregla en el
-      [control de accesos](/categorias/seguridad-privada/cdmx/seguridadprivadamx/control-de-accesos/)
+      control de accesos
       y conviene ordenarlo antes de sumar pases.
   - titulo: Dejar que cada inmueble de tu cartera reporte distinto
     texto: >-

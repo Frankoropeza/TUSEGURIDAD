@@ -80,7 +80,7 @@ const pie = (nombre: string): string => {
 const imagen = (s: ServicioDeclarado, i: number) => {
   if (!hayFotos) return null;
   if (s.foto && grupos.has(s.foto)) return tomarFoto(s.foto, i + 1);
-  return fotoPara(`servicio:${rubro}:${s.nombre}`);
+  return fotoPara(`servicio:${rubro}:${s.nombre}`, rubro);
 };
 ---
 

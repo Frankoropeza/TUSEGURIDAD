@@ -68,7 +68,7 @@ const regiones = ORDEN_REGION.map((region) => ({
 const conPadron = datos.ciudades.filter((c) => (conteoEstado.get(c.id) ?? 0) > 0).length;
 
 // portada fotográfica (solo los rubros que tienen catálogo propio)
-const portada = tieneFotos(categoria.id) ? fotoPara(`portada:${categoria.id}`) : null;
+const portada = tieneFotos(categoria.id) ? fotoPara(`portada:${categoria.id}`, categoria.id) : null;
 
 // zonas declaradas por las empresas de este rubro (dato real, no inventado)
 const zonas = [...new Set(empresas.flatMap((e) => zonasDe(e)))].sort();
@@ -383,7 +383,7 @@ const totalPadron = padrones.reduce((n, x) => n + x.padron.total, 0);
             descripcion={c.data.descripcion}
             pie={c.data.destacada ? `${nn(n)} ${n === 1 ? 'empresa' : 'empresas'}` : 'Sin padrón'}
             distintivos={c.data.destacada && n > 0 ? [{ texto: 'Con padrón', tono: 'signal' }] : []}
-            foto={tieneFotos(c.id) ? fotoPara(`rubro:${c.id}`) : null}
+            foto={tieneFotos(c.id) ? fotoPara(`rubro:${c.id}`, c.id) : null}
             laminaTexto={c.data.nombre.slice(0, 2)}
             inactivo={!c.data.destacada}
           />

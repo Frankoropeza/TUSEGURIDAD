@@ -68,7 +68,7 @@ const nn = (n: number): string => String(n).padStart(2, '0');
 const anio = new Date().getFullYear();
 
 // una foto distinta por plaza, elegida de forma determinista (build reproducible)
-const foto = tieneFotos(categoria.id) ? fotoPara(`${categoria.id}:${ciudad.id}`) : null;
+const foto = tieneFotos(categoria.id) ? fotoPara(`${categoria.id}:${ciudad.id}`, categoria.id) : null;
 
 // El marco normativo estatal (leyes de seguridad privada) solo aplica a los
 // rubros que declaran marcoLocal; en el resto sería atribuir una autoridad
