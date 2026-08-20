@@ -50,14 +50,14 @@ const rubroPrincipal = g.rubros[0];
   }}
   breadcrumbs={[
     { name: 'Inicio', href: '/' },
-    { name: 'Guías', href: '/guias' },
+    { name: 'Guías', href: '/guias/' },
     { name: g.titulo, href: path },
   ]}
 >
   <Cabecera
     ruta={[
       { nombre: 'Inicio', href: '/' },
-      { nombre: 'Guías', href: '/guias' },
+      { nombre: 'Guías', href: '/guias/' },
       { nombre: g.titulo },
     ]}
     indice="Guía"
@@ -99,7 +99,7 @@ const rubroPrincipal = g.rubros[0];
             <ul class="mt-4 border-b border-ink/20">
               {g.rubros.map((r) => (
                 <li class="rule">
-                  <a href={`/categorias/${r}`} class="flex items-baseline justify-between gap-3 py-3">
+                  <a href={`/categorias/${r}/`} class="flex items-baseline justify-between gap-3 py-3">
                     <span class="text-sm leading-snug underline-hover">{catPorId.get(r) ?? r}</span>
                     <span class="label muted">→</span>
                   </a>
@@ -118,7 +118,7 @@ const rubroPrincipal = g.rubros[0];
 
         <div class="rule mt-10 pt-6">
           <p class="text-sm leading-snug">¿Buscas proveedor? Consulta el padrón del directorio.</p>
-          <a href="/empresas" class="cta-solid mt-6">Ver padrón →</a>
+          <a href="/empresas/" class="cta-solid mt-6">Ver padrón →</a>
         </div>
       </aside>
     </div>

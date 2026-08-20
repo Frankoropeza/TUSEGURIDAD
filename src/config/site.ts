@@ -35,6 +35,16 @@ export const SITE = {
   formEndpoint: '',
 
   /**
+   * Analítica del sitio. Mientras ga4Id esté vacío, no se carga ningún
+   * script de tracking: cero analítica fantasma apuntando a una cuenta que
+   * no existe. Al crear la propiedad GA4, poner aquí el Measurement ID
+   * (G-XXXXXXX) y el snippet se activa solo, en todas las páginas.
+   */
+  analytics: {
+    ga4Id: '',
+  },
+
+  /**
    * Datos legales del titular del sitio. Requeridos para que el aviso de
    * privacidad y los términos dejen de ser borrador.
    */
@@ -62,18 +72,18 @@ export const SITE = {
 
   nav: [
     { label: 'Inicio', href: '/' },
-    { label: 'Categorías', href: '/categorias' },
-    { label: 'Empresas', href: '/empresas' },
-    { label: 'Ciudades', href: '/ciudades' },
-    { label: 'Servicios', href: '/servicios' },
-    { label: 'Guías', href: '/guias' },
+    { label: 'Categorías', href: '/categorias/' },
+    { label: 'Empresas', href: '/empresas/' },
+    { label: 'Ciudades', href: '/ciudades/' },
+    { label: 'Servicios', href: '/servicios/' },
+    { label: 'Guías', href: '/guias/' },
   ],
 
   navFooter: [
-    { label: 'Registrar empresa', href: '/registrar' },
-    { label: 'Contacto', href: '/contacto' },
-    { label: 'Aviso de privacidad', href: '/aviso-de-privacidad' },
-    { label: 'Términos', href: '/terminos' },
+    { label: 'Registrar empresa', href: '/registrar/' },
+    { label: 'Contacto', href: '/contacto/' },
+    { label: 'Aviso de privacidad', href: '/aviso-de-privacidad/' },
+    { label: 'Términos', href: '/terminos/' },
   ],
 } as const;
 

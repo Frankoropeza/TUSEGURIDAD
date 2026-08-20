@@ -25,6 +25,8 @@ interface Props {
   rubroNombre?: string;
   whatsapp?: string;
   telefono?: string;
+  /** correo, último recurso de contacto cuando no hay tel ni WhatsApp */
+  email?: string;
   /** nombre de la plaza, para el mensaje de contacto */
   plaza?: string;
   /** enlaces a páginas de servicio del directorio */
@@ -44,6 +46,7 @@ const {
   rubroNombre,
   whatsapp,
   telefono,
+  email,
   plaza,
   paginas = [],
   fichas = new Map<string, string>(),
@@ -66,6 +69,7 @@ const enlace = (nombre: string): string | undefined => {
   if (propia) return propia;
   if (whatsapp) return waServicio(whatsapp, nombre, plaza);
   if (telefono) return `tel:+52${telefono.replace(/\D/g, '')}`;
+  if (email) return `mailto:${email}?subject=${encodeURIComponent(nombre)}`;
   return undefined;
 };
 
@@ -73,6 +77,7 @@ const pie = (nombre: string): string => {
   if (fichas.has(slugServicio(nombre))) return 'Ver el servicio';
   if (whatsapp) return 'Cotizar por WhatsApp';
   if (telefono) return 'Llamar';
+  if (email) return 'Escribir por correo';
   return 'Sin contacto directo';
 };
 

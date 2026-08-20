@@ -90,6 +90,11 @@ const proximos = padron
   ? padron.empresas.filter((e) => porVencer(e.vigencia, padron.fechaCorte)).length
   : 0;
 
+// Sin una sola ficha VIP ni padrón oficial no hay contenido único que
+// ofrecer a un buscador: se sirve con noindex (la página sigue existiendo,
+// para no cortar el flujo de "registra tu empresa aquí").
+const vacia = empresas.length === 0 && !padron;
+
 const faq = faqPlaza({
   rubro: rubroMin,
   plaza: c.nombre,
@@ -145,6 +150,7 @@ const stats = [
   description={descripcion}
   path={path}
   pageType="category"
+  noindex={vacia}
   faq={faq}
   itemList={itemList}
   itemListName={padron
@@ -152,16 +158,16 @@ const stats = [
     : undefined}
   breadcrumbs={[
     { name: 'Inicio', href: '/' },
-    { name: 'Categorías', href: '/categorias' },
-    { name: r.nombre, href: `/categorias/${categoria.id}` },
+    { name: 'Categorías', href: '/categorias/' },
+    { name: r.nombre, href: `/categorias/${categoria.id}/` },
     { name: c.nombre, href: path },
   ]}
 >
   <Cabecera
     ruta={[
       { nombre: 'Inicio', href: '/' },
-      { nombre: 'Categorías', href: '/categorias' },
-      { nombre: r.nombre, href: `/categorias/${categoria.id}` },
+      { nombre: 'Categorías', href: '/categorias/' },
+      { nombre: r.nombre, href: `/categorias/${categoria.id}/` },
       { nombre: corto },
     ]}
     indice={`Rubro × plaza`}
@@ -187,7 +193,7 @@ const stats = [
   <section class="wrap pt-16 sm:pt-20">
     <div class="flex flex-wrap items-baseline justify-between gap-4">
       <p class="label">[ {ix('directorio')} — En el directorio ]</p>
-      <a href={`/categorias/${categoria.id}`} class="label underline-hover">
+      <a href={`/categorias/${categoria.id}/`} class="label underline-hover">
         Ver el rubro completo →
       </a>
     </div>
@@ -218,8 +224,8 @@ const stats = [
           {padron && ' El padrón oficial de la autoridad sí está publicado más abajo.'}
         </p>
         <div class="mt-8 flex flex-wrap gap-3">
-          <a href={`/categorias/${categoria.id}`} class="cta">Ver el rubro</a>
-          <a href="/registrar" class="cta-solid">Registrar mi empresa →</a>
+          <a href={`/categorias/${categoria.id}/`} class="cta">Ver el rubro</a>
+          <a href="/registrar/" class="cta-solid">Registrar mi empresa →</a>
         </div>
       </div>
     )}
@@ -360,8 +366,8 @@ const stats = [
       </div>
 
       <div class="mt-10 flex flex-wrap gap-3">
-        <a href="/registrar" class="cta-solid">¿Es tu empresa? Reclama tu ficha →</a>
-        <a href={`/ciudades/${ciudad.id}`} class="cta">Ver la plaza completa</a>
+        <a href="/registrar/" class="cta-solid">¿Es tu empresa? Reclama tu ficha →</a>
+        <a href={`/ciudades/${ciudad.id}/`} class="cta">Ver la plaza completa</a>
       </div>
     </section>
   )}
@@ -410,7 +416,7 @@ const stats = [
               atiende también fuera de {corto}, esa operación cruza entidades federativas y entra
               en el supuesto de la autorización federal, que es un documento adicional.
             </p>
-            <a href={`/ciudades/${ciudad.id}`} class="label underline-hover mt-6 inline-block text-signal">
+            <a href={`/ciudades/${ciudad.id}/`} class="label underline-hover mt-6 inline-block text-signal">
               Ver la plaza completa →
             </a>
           </div>

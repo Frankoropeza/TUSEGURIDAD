@@ -19,6 +19,7 @@ import {
   bloqueServicios,
   bloqueGuias,
   bloqueEmpresas,
+  hrefEmpresa,
   hrefEmpresaEn,
 } from '@lib/enlaces';
 import { plazasConPadron, padronDe, fechaCorta } from '@lib/padron';
@@ -99,7 +100,7 @@ const totalPadron = padrones.reduce((n, x) => n + x.padron.total, 0);
   faq={d.faq}
   breadcrumbs={[
     { name: 'Inicio', href: '/' },
-    { name: 'Categorías', href: '/categorias' },
+    { name: 'Categorías', href: '/categorias/' },
     { name: d.nombre, href: path },
   ]}
 >
@@ -108,7 +109,7 @@ const totalPadron = padrones.reduce((n, x) => n + x.padron.total, 0);
     <nav class="label flex flex-wrap items-center gap-2" aria-label="Ruta">
       <a href="/" class="underline-hover">Inicio</a>
       <span class="text-ink/30">/</span>
-      <a href="/categorias" class="underline-hover">Categorías</a>
+      <a href="/categorias/" class="underline-hover">Categorías</a>
       <span class="text-ink/30">/</span>
       <span class="text-signal">{d.nombre}</span>
     </nav>
@@ -163,7 +164,7 @@ const totalPadron = padrones.reduce((n, x) => n + x.padron.total, 0);
         {padrones.map((x) => (
           <li>
             <a
-              href={`/categorias/${categoria.id}/${x.plaza.id}`}
+              href={`/categorias/${categoria.id}/${x.plaza.id}/`}
               class="idx-row grid grid-cols-12 items-baseline gap-x-4 gap-y-1 py-5"
             >
               <span class="numeral col-span-12 text-3xl tabular-nums sm:col-span-2">
@@ -207,7 +208,9 @@ const totalPadron = padrones.reduce((n, x) => n + x.padron.total, 0);
         categorias={datos.categorias}
         ciudades={datos.ciudades}
         rubroFijo={categoria.id}
-        href={(e) => hrefEmpresaEn(e, categoria.id, e.data.ciudad)}
+        href={(e) =>
+          categoria.data.destacada ? hrefEmpresaEn(e, categoria.id, e.data.ciudad) : hrefEmpresa(e)
+        }
       />
     ) : (
       <div class="rule mt-12 py-14">
@@ -216,7 +219,7 @@ const totalPadron = padrones.reduce((n, x) => n + x.padron.total, 0);
           Estamos verificando las primeras empresas de este rubro. Publicamos una ficha solo
           cuando podemos confirmar registro y datos de contacto.
         </p>
-        <a href="/registrar" class="cta-solid mt-8">Registrar mi empresa →</a>
+        <a href="/registrar/" class="cta-solid mt-8">Registrar mi empresa →</a>
       </div>
     )}
   </section>
@@ -249,7 +252,7 @@ const totalPadron = padrones.reduce((n, x) => n + x.padron.total, 0);
               const n = conteoEstado.get(c.id) ?? 0;
               return (
                 <a
-                  href={`/categorias/${categoria.id}/${c.id}`}
+                  href={`/categorias/${categoria.id}/${c.id}/`}
                   class:list={[
                     'group flex flex-col justify-between border-b border-r border-ink/15 p-4 hover:bg-ink hover:text-paper',
                     n > 0 && 'bg-bone/60',
@@ -292,7 +295,7 @@ const totalPadron = padrones.reduce((n, x) => n + x.padron.total, 0);
           const Tag = m.rubro ? 'a' : 'div';
           return (
             <Tag
-              href={m.rubro ? `/categorias/${m.rubro}` : undefined}
+              href={m.rubro ? `/categorias/${m.rubro}/` : undefined}
               class:list={[
                 'grid grid-cols-12 items-baseline gap-x-4 gap-y-2 py-7',
                 m.rubro ? 'idx-row' : 'border-t border-ink/20',
@@ -376,7 +379,7 @@ const totalPadron = padrones.reduce((n, x) => n + x.padron.total, 0);
         const n = conteoRubro.get(c.id) ?? 0;
         return (
           <Tarjeta
-            href={`/categorias/${c.id}`}
+            href={`/categorias/${c.id}/`}
             indice={nn(i + 1)}
             titulo={c.data.nombre}
             meta={c.data.destacada ? 'Rubro activo' : 'En preparación'}
@@ -414,7 +417,7 @@ const totalPadron = padrones.reduce((n, x) => n + x.padron.total, 0);
           Publica tu ficha en el rubro de {d.nombre.toLowerCase()} de {SITE.name}. Revisamos
           autorización, modalidad y datos de contacto antes de publicar.
         </p>
-        <a href="/registrar" class="cta-solid mt-8">Solicitar alta →</a>
+        <a href="/registrar/" class="cta-solid mt-8">Solicitar alta →</a>
       </div>
     </div>
   </section>

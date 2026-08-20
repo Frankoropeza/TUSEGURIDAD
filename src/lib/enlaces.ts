@@ -46,6 +46,9 @@ export async function cargarDatos(): Promise<Datos> {
 
   return {
     empresas: empresas.sort((a, b) => {
+      // Clientes VIP (destacado) siempre antes que fichas gratuitas: es la
+      // señal que separa el padrón curado del autoservicio de /registrar.
+      if (a.data.destacado !== b.data.destacado) return a.data.destacado ? -1 : 1;
       if (a.data.verificado !== b.data.verificado) return a.data.verificado ? -1 : 1;
       return b.data.orden - a.data.orden;
     }),
@@ -84,11 +87,11 @@ export const zonasDe = (e: Empresa, ciudad?: string): string[] =>
  * pero solo esta variante es indexable; las demás llevan rel=canonical aquí.
  */
 export const hrefEmpresa = (e: Empresa): string =>
-  `/categorias/${e.data.categoria}/${e.data.ciudad}/${e.id}`;
+  `/categorias/${e.data.categoria}/${e.data.ciudad}/${e.id}/`;
 
 /** URL de la ficha dentro de un cruce concreto (para navegación coherente). */
 export const hrefEmpresaEn = (e: Empresa, rubro: string, ciudad: string): string =>
-  `/categorias/${rubro}/${ciudad}/${e.id}`;
+  `/categorias/${rubro}/${ciudad}/${e.id}/`;
 
 /** Empresas que pertenecen a un rubro. */
 export const empresasDeRubro = (d: Datos, rubro: string) =>
@@ -133,12 +136,12 @@ export function bloqueRubros(
   const conteo = conteoPorRubro(d);
   return {
     titulo: opts.titulo ?? 'Rubros del directorio',
-    verTodo: { titulo: 'Ver todos los rubros', href: '/categorias' },
+    verTodo: { titulo: 'Ver todos los rubros', href: '/categorias/' },
     enlaces: d.categorias
       .filter((c) => c.id !== opts.excluir)
       .map((c) => ({
         titulo: c.data.nombre,
-        href: `/categorias/${c.id}`,
+        href: `/categorias/${c.id}/`,
         meta: c.data.destacada ? plural(conteo.get(c.id) ?? 0, 'empresa', 'empresas') : 'En preparación',
       })),
   };
@@ -155,7 +158,7 @@ export function bloqueCiudades(
 
   return {
     titulo: opts.titulo ?? 'Estados',
-    verTodo: { titulo: 'Ver los 32 estados', href: '/ciudades' },
+    verTodo: { titulo: 'Ver los 32 estados', href: '/ciudades/' },
     enlaces: d.ciudades
       .filter((c) => c.id !== opts.excluir && (!permitidas || permitidas.has(c.id)))
       // con 32 entidades no caben todas: primero las que sí tienen padrón
@@ -163,7 +166,7 @@ export function bloqueCiudades(
       .slice(0, opts.limite ?? 8)
       .map((c) => ({
         titulo: c.data.nombre,
-        href: `/ciudades/${c.id}`,
+        href: `/ciudades/${c.id}/`,
         meta: plural(conteo.get(c.id) ?? 0, 'empresa', 'empresas'),
       })),
   };
@@ -175,11 +178,11 @@ export function bloqueServicios(
 ): BloqueEnlaces {
   return {
     titulo: opts.titulo ?? 'Servicios',
-    verTodo: { titulo: 'Ver todos los servicios', href: '/servicios' },
+    verTodo: { titulo: 'Ver todos los servicios', href: '/servicios/' },
     enlaces: d.servicios
       .filter((s) => s.id !== opts.excluir)
       .filter((s) => !opts.soloRubro || s.data.rubro === opts.soloRubro)
-      .map((s) => ({ titulo: s.data.titulo, href: `/servicios/${s.id}` })),
+      .map((s) => ({ titulo: s.data.titulo, href: `/servicios/${s.id}/` })),
   };
 }
 
@@ -192,12 +195,12 @@ export function bloqueGuias(
 
   return {
     titulo: opts.titulo ?? 'Guías',
-    verTodo: { titulo: 'Ver todas las guías', href: '/guias' },
+    verTodo: { titulo: 'Ver todas las guías', href: '/guias/' },
     enlaces: d.guias
       .filter((g) => g.id !== opts.excluir)
       .filter((g) => !opts.soloRubro || g.data.rubros.includes(opts.soloRubro))
       .slice(0, opts.limite ?? 6)
-      .map((g) => ({ titulo: g.data.titulo, href: `/guias/${g.id}`, meta: fecha(g.data.fecha) })),
+      .map((g) => ({ titulo: g.data.titulo, href: `/guias/${g.id}/`, meta: fecha(g.data.fecha) })),
   };
 }
 
@@ -209,7 +212,7 @@ export function bloqueEmpresas(
 
   return {
     titulo: opts.titulo ?? 'Empresas',
-    verTodo: { titulo: 'Ver padrón completo', href: '/empresas' },
+    verTodo: { titulo: 'Ver padrón completo', href: '/empresas/' },
     enlaces: d.empresas
       .filter((e) => e.id !== opts.excluir)
       .filter((e) => !opts.rubro || rubrosDe(e).includes(opts.rubro))
@@ -254,13 +257,13 @@ export function bloqueCruces(
     if (!rubro) return { titulo: opts.titulo ?? 'Por plaza', enlaces: [] };
     return {
       titulo: opts.titulo ?? 'Este rubro por estado',
-      verTodo: { titulo: 'Ver los 32 estados', href: `/categorias/${rubro.id}#estados` },
+      verTodo: { titulo: 'Ver los 32 estados', href: `/categorias/${rubro.id}/#estados` },
       enlaces: porPadron
         .filter((c) => c.id !== opts.excluirCiudad)
         .slice(0, lim)
         .map((c) => ({
         titulo: `${rubro.data.nombre} en ${c.data.nombreCorto ?? c.data.nombre}`,
-        href: `/categorias/${rubro.id}/${c.id}`,
+        href: `/categorias/${rubro.id}/${c.id}/`,
         meta: String(empresasDeRubroEnCiudad(d, rubro.id, c.id).length).padStart(2, '0'),
       })),
     };
@@ -276,7 +279,7 @@ export function bloqueCruces(
         .filter((r) => r.id !== opts.excluirRubro)
         .map((r) => ({
           titulo: `${r.data.nombre} en ${ciudad.data.nombreCorto ?? ciudad.data.nombre}`,
-          href: `/categorias/${r.id}/${ciudad.id}`,
+          href: `/categorias/${r.id}/${ciudad.id}/`,
           meta: String(empresasDeRubroEnCiudad(d, r.id, ciudad.id).length).padStart(2, '0'),
         })),
     };
@@ -289,7 +292,7 @@ export function bloqueCruces(
       .flatMap((r) =>
         porPadron.map((c) => ({
           titulo: `${r.data.nombre} en ${c.data.nombreCorto ?? c.data.nombre}`,
-          href: `/categorias/${r.id}/${c.id}`,
+          href: `/categorias/${r.id}/${c.id}/`,
           n: empresasDeRubroEnCiudad(d, r.id, c.id).length,
         }))
       )

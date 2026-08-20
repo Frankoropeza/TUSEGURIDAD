@@ -5,7 +5,7 @@ import { tieneFotos, fotoPara } from '@lib/imagenes';
 import RejillaEmpresas from '@components/RejillaEmpresas.astro';
 import { getCollection } from 'astro:content';
 import { SITE } from '@config/site';
-import { hrefEmpresa } from '@lib/enlaces';
+import { cargarDatos, hrefEmpresa } from '@lib/enlaces';
 
 const todasCategorias = (await getCollection('categorias')).sort(
   (a, b) => a.data.orden - b.data.orden
@@ -13,9 +13,9 @@ const todasCategorias = (await getCollection('categorias')).sort(
 const categoriasActivas = todasCategorias.filter((c) => c.data.destacada);
 const categoriasProximas = todasCategorias.filter((c) => !c.data.destacada);
 
-const empresas = (await getCollection('empresas')).sort(
-  (a, b) => b.data.orden - a.data.orden
-);
+// Mismo criterio de orden que el resto del sitio (cargarDatos): VIP primero,
+// luego verificadas, luego orden manual — no un sort duplicado y a la deriva.
+const { empresas } = await cargarDatos();
 const ciudades = (await getCollection('ciudades')).sort(
   (a, b) => a.data.orden - b.data.orden
 );
@@ -39,7 +39,7 @@ const plazas = ciudades
     empresas: empresas.filter((e) => [e.data.ciudad, ...e.data.ciudades].includes(c.id)).length,
     cruces: categoriasActivas.map((r) => ({
       nombre: r.data.nombre,
-      href: `/categorias/${r.id}/${c.id}`,
+      href: `/categorias/${r.id}/${c.id}/`,
       total: empresas.filter(
         (e) =>
           [e.data.categoria, ...e.data.categorias].includes(r.id) &&
@@ -118,7 +118,7 @@ const criterios = [
         </p>
         <div class="mt-9 flex flex-wrap gap-3">
           <a href="#categorias" class="cta-solid">Consultar el directorio →</a>
-          <a href="/registrar" class="cta">Registrar empresa</a>
+          <a href="/registrar/" class="cta">Registrar empresa</a>
         </div>
       </div>
 
@@ -153,7 +153,7 @@ const criterios = [
         const n = conteo.get(cat.id) ?? 0;
         return (
           <Tarjeta
-            href={`/categorias/${cat.id}`}
+            href={`/categorias/${cat.id}/`}
             indice={nn(i + 1)}
             titulo={cat.data.nombre}
             meta={cat.data.destacada ? 'Rubro activo' : 'En preparación'}
@@ -174,7 +174,7 @@ const criterios = [
     <section class="wrap pt-24 sm:pt-32" aria-labelledby="plazas-title">
       <div class="flex flex-wrap items-baseline justify-between gap-4">
         <p class="label">[ 03 — Estados con padrón ]</p>
-        <a href="/ciudades" class="label underline-hover">Ver las 32 entidades →</a>
+        <a href="/ciudades/" class="label underline-hover">Ver las 32 entidades →</a>
       </div>
 
       <h2 id="plazas-title" class="display-lg mt-8 max-w-5xl">¿Dónde lo<br />necesitas?</h2>
@@ -188,7 +188,7 @@ const criterios = [
         {plazas.map((p, i) => (
           <div>
             <div class="rule flex items-baseline justify-between gap-4 pt-6">
-              <a href={`/ciudades/${p.id}`} class="flex items-baseline gap-4">
+              <a href={`/ciudades/${p.id}/`} class="flex items-baseline gap-4">
                 <span class="label muted">{nn(i + 1)}</span>
                 <span class="display-md underline-hover">{p.data.nombre}</span>
               </a>
@@ -263,7 +263,7 @@ const criterios = [
     <section class="wrap pt-24 sm:pt-32">
       <div class="flex flex-wrap items-baseline justify-between gap-4">
         <p class="label">[ 06 — Padrón ]</p>
-        <a href="/empresas" class="label underline-hover">Ver padrón completo →</a>
+        <a href="/empresas/" class="label underline-hover">Ver padrón completo →</a>
       </div>
 
       <h2 class="display-lg mt-8">Empresas<br />en el directorio</h2>
@@ -285,12 +285,12 @@ const criterios = [
       <div class="col-span-12 lg:col-span-6">
         <div class="flex items-baseline justify-between gap-4">
           <p class="label">[ 07 — Servicios ]</p>
-          <a href="/servicios" class="label underline-hover">Todos →</a>
+          <a href="/servicios/" class="label underline-hover">Todos →</a>
         </div>
         <div class="mt-10 grid grid-cols-1 items-stretch gap-5 sm:grid-cols-2">
           {servicios.slice(0, 4).map((s, i) => (
             <Tarjeta
-              href={`/servicios/${s.id}`}
+              href={`/servicios/${s.id}/`}
               indice={nn(i + 1)}
               titulo={s.data.titulo}
               meta={s.data.rubro ? nombreCategoria.get(s.data.rubro) : undefined}
@@ -308,12 +308,12 @@ const criterios = [
       <div class="col-span-12 lg:col-span-6">
         <div class="flex items-baseline justify-between gap-4">
           <p class="label">[ 08 — Documentación ]</p>
-          <a href="/guias" class="label underline-hover">Todas →</a>
+          <a href="/guias/" class="label underline-hover">Todas →</a>
         </div>
         <div class="mt-10 grid grid-cols-1 items-stretch gap-5 sm:grid-cols-2">
           {guias.map((g, i) => (
             <Tarjeta
-              href={`/guias/${g.id}`}
+              href={`/guias/${g.id}/`}
               indice={nn(i + 1)}
               titulo={g.data.titulo}
               meta={fecha(g.data.fecha)}
@@ -344,8 +344,8 @@ const criterios = [
             El alta se revisa antes de publicarse: verificamos registro y datos.
           </p>
           <div class="mt-8 flex flex-wrap gap-3">
-            <a href="/registrar" class="cta-solid">Solicitar alta →</a>
-            <a href="/contacto" class="cta">Contacto</a>
+            <a href="/registrar/" class="cta-solid">Solicitar alta →</a>
+            <a href="/contacto/" class="cta">Contacto</a>
           </div>
         </div>
       </div>

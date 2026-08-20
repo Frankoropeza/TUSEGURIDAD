@@ -2,7 +2,7 @@
 empresa: lga-contra-incendios
 slug: recarga-de-extintores
 nombre: Recarga de extintores
-servicio: recarga-extintores
+servicio: recarga-y-mantenimiento-de-extintores
 titulo: Recarga de extintores bajo NOM-154-SCFI-2005 en Querétaro
 tituloSeo: Recarga de extintores certificada en Querétaro
 descripcion: >-

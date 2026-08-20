@@ -20,7 +20,7 @@ const fecha = (x: Date): string =>
   pageType="itemlist"
   breadcrumbs={[
     { name: 'Inicio', href: '/' },
-    { name: 'Guías', href: '/guias' },
+    { name: 'Guías', href: '/guias/' },
   ]}
 >
   <Cabecera
@@ -37,7 +37,7 @@ const fecha = (x: Date): string =>
       <div class="grid grid-cols-1 items-stretch gap-5 sm:grid-cols-2 xl:grid-cols-3">
         {d.guias.map((g, i) => (
           <Tarjeta
-            href={`/guias/${g.id}`}
+            href={`/guias/${g.id}/`}
             indice={nn(i + 1)}
             titulo={g.data.titulo}
             meta={fecha(g.data.fecha)}

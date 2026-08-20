@@ -24,8 +24,8 @@ intro: >-
 stats:
   - k: Operando desde
     v: 2000 · 25+ años
-  - k: Renovación de contratos
-    v: 94 % declarado
+  - k: Control de ronda
+    v: Lectura NFC/QR con hora sellada
   - k: Cobertura
     v: CDMX · Edomex · 24/7
 incluye:

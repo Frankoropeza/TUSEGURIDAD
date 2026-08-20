@@ -29,7 +29,7 @@ const d = await cargarDatos();
   pageType="itemlist"
   breadcrumbs={[
     { name: 'Inicio', href: '/' },
-    { name: 'Categorías', href: '/categorias' },
+    { name: 'Categorías', href: '/categorias/' },
   ]}
 >
   <section class="wrap pt-10 sm:pt-14">
@@ -60,7 +60,7 @@ const d = await cargarDatos();
         const n = conteo.get(cat.id) ?? 0;
         return (
           <Tarjeta
-            href={`/categorias/${cat.id}`}
+            href={`/categorias/${cat.id}/`}
             indice={nn(i + 1)}
             titulo={cat.data.nombre}
             meta={cat.data.destacada ? 'Rubro activo' : 'En preparación'}

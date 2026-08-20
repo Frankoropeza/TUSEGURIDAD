@@ -89,17 +89,27 @@ const nn = (n: number): string => String(n).padStart(2, '0');
    regla: manda la combinación categoria + ciudad del frontmatter. */
 const fichaPath = hrefEmpresaEn(empresa, rubro, plaza);
 const fichaCanonica = hrefEmpresa(empresa);
-const path = `${fichaPath}/${p.slug}`;
-const canonicalPath = `${fichaCanonica}/${p.slug}`;
+const path = `${fichaPath}${p.slug}/`;
+const canonicalPath = `${fichaCanonica}${p.slug}/`;
 const esCanonica = path === canonicalPath;
 
-/* Contacto: el WhatsApp con el mensaje ya escrito para este servicio. */
+/* Contacto: el WhatsApp con el mensaje ya escrito para este servicio; si la
+   ficha no declara teléfono ni WhatsApp pero sí correo, cae a mailto en vez
+   de dejar la tarjeta sin ningún destino de contacto. */
 const enlaceContacto = e.whatsapp
   ? waServicio(e.whatsapp, p.nombre, plazaCorta)
   : e.telefono
     ? `tel:+52${e.telefono.replace(/\D/g, '')}`
-    : undefined;
-const textoContacto = e.whatsapp ? 'Cotizar por WhatsApp' : e.telefono ? 'Llamar ahora' : '';
+    : e.email
+      ? `mailto:${e.email}?subject=${encodeURIComponent(`${p.nombre} — ${e.nombre}`)}`
+      : undefined;
+const textoContacto = e.whatsapp
+  ? 'Cotizar por WhatsApp'
+  : e.telefono
+    ? 'Llamar ahora'
+    : e.email
+      ? 'Escribir por correo'
+      : '';
 
 /* Galería. La primera abre la página, las dos siguientes la acompañan y el
    resto baja a la banda de tres, antes de las preguntas. */
@@ -229,9 +239,9 @@ const jsonld: Record<string, unknown> = {
   jsonld={jsonld}
   breadcrumbs={[
     { name: 'Inicio', href: '/' },
-    { name: 'Categorías', href: '/categorias' },
-    { name: nombreRubro, href: `/categorias/${rubro}` },
-    { name: nombrePlaza, href: `/categorias/${rubro}/${plaza}` },
+    { name: 'Categorías', href: '/categorias/' },
+    { name: nombreRubro, href: `/categorias/${rubro}/` },
+    { name: nombrePlaza, href: `/categorias/${rubro}/${plaza}/` },
     { name: e.nombre, href: fichaPath },
     { name: p.nombre, href: path },
   ]}
@@ -239,9 +249,9 @@ const jsonld: Record<string, unknown> = {
   <Cabecera
     ruta={[
       { nombre: 'Inicio', href: '/' },
-      { nombre: 'Categorías', href: '/categorias' },
-      { nombre: nombreRubro, href: `/categorias/${rubro}` },
-      { nombre: plazaCorta, href: `/categorias/${rubro}/${plaza}` },
+      { nombre: 'Categorías', href: '/categorias/' },
+      { nombre: nombreRubro, href: `/categorias/${rubro}/` },
+      { nombre: plazaCorta, href: `/categorias/${rubro}/${plaza}/` },
       { nombre: e.nombre, href: fichaPath },
       { nombre: p.nombre },
     ]}
@@ -500,7 +510,7 @@ const jsonld: Record<string, unknown> = {
         {p.servicio && (
           <div class="rule mt-10 pt-6">
             <p class="label muted">[ En el directorio ]</p>
-            <a href={`/servicios/${p.servicio}`} class="mt-3 block">
+            <a href={`/servicios/${p.servicio}/`} class="mt-3 block">
               <span class="text-base leading-snug underline-hover">
                 Qué debe cumplir cualquier proveedor de este servicio
               </span>
@@ -590,7 +600,7 @@ const jsonld: Record<string, unknown> = {
       <div class="mt-8 grid grid-cols-1 items-stretch gap-5 sm:grid-cols-2 xl:grid-cols-3">
         {hermanas.map((h, i) => (
           <Tarjeta
-            href={`${fichaPath}/${h.data.slug}`}
+            href={`${fichaPath}${h.data.slug}/`}
             indice={nn(i + 1)}
             titulo={h.data.nombre}
             meta={`${nombreRubro} / ${plazaCorta}`}

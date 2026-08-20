@@ -25,8 +25,8 @@ intro: >-
 stats:
   - k: Solo residencial
     v: Desde el año 2000
-  - k: Renovación declarada
-    v: 94 % de contratos
+  - k: Reporte al comité
+    v: Mensual, formato fijo
   - k: Cotización
     v: Sin costo, menos de 48 h
 incluye:
@@ -267,9 +267,9 @@ faq:
     a: >-
       Que su cuenta no compite por personal ni por supervisión contra un corporativo que
       factura diez veces más. SEPRICO declara operar solo en residencial desde el año
-      2000, con más de 120 comunidades atendidas y 94 % de renovación de contratos. Son
-      cifras declaradas por la empresa, no verificadas, pero el porcentaje de renovación
-      es el indicador que conviene exigirle a cualquier proveedor que cotice.
+      2000, con más de 120 comunidades atendidas. Es una cifra declarada por la empresa,
+      no verificada por TuSeguridad, pero el número de comunidades activas hoy es el
+      dato que conviene pedirle a cualquier proveedor que cotice.
   - q: ¿Quién firma el contrato, la administración o los condóminos?
     a: >-
       La asamblea aprueba y la administración firma en representación del condominio.

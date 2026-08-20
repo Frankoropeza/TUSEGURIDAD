@@ -118,7 +118,7 @@ const paginasServicio = [
     servicios
       .map((s) => s.servicio)
       .filter((slug): slug is string => Boolean(slug) && servicioPorId.has(slug!))
-      .map((slug) => [slug, { href: `/servicios/${slug}`, titulo: servicioPorId.get(slug)! }])
+      .map((slug) => [slug, { href: `/servicios/${slug}/`, titulo: servicioPorId.get(slug)! }])
   ).values(),
 ];
 
@@ -131,7 +131,7 @@ const propias = await getCollection('serviciosEmpresa');
 const fichasServicio = new Map(
   propias
     .filter((x) => x.data.empresa === empresa.id)
-    .map((x) => [x.data.slug, `${path}/${x.data.slug}`] as const)
+    .map((x) => [x.data.slug, `${path}${x.data.slug}/`] as const)
 );
 
 /* Numeración de apartados: se calcula sobre los que realmente se renderizan,
@@ -190,18 +190,18 @@ const jsonld: Record<string, unknown> = {
   jsonld={jsonld}
   breadcrumbs={[
     { name: 'Inicio', href: '/' },
-    { name: 'Categorías', href: '/categorias' },
-    { name: nombreRubro, href: `/categorias/${rubro}` },
-    { name: nombrePlaza, href: `/categorias/${rubro}/${plaza}` },
+    { name: 'Categorías', href: '/categorias/' },
+    { name: nombreRubro, href: `/categorias/${rubro}/` },
+    { name: nombrePlaza, href: `/categorias/${rubro}/${plaza}/` },
     { name: e.nombre, href: path },
   ]}
 >
   <Cabecera
     ruta={[
       { nombre: 'Inicio', href: '/' },
-      { nombre: 'Categorías', href: '/categorias' },
-      { nombre: nombreRubro, href: `/categorias/${rubro}` },
-      { nombre: ciudadCorta.get(plaza) ?? nombrePlaza, href: `/categorias/${rubro}/${plaza}` },
+      { nombre: 'Categorías', href: '/categorias/' },
+      { nombre: nombreRubro, href: `/categorias/${rubro}/` },
+      { nombre: ciudadCorta.get(plaza) ?? nombrePlaza, href: `/categorias/${rubro}/${plaza}/` },
       { nombre: e.nombre },
     ]}
     indice="Ficha de empresa"
@@ -219,6 +219,7 @@ const jsonld: Record<string, unknown> = {
       rubroNombre={nombreRubro}
       whatsapp={e.whatsapp}
       telefono={e.telefono}
+      email={e.email}
       plaza={ciudadCorta.get(plaza) ?? nombrePlaza}
       paginas={paginasServicio}
       fichas={fichasServicio}
@@ -235,6 +236,7 @@ const jsonld: Record<string, unknown> = {
       plaza={ciudadCorta.get(plaza) ?? nombrePlaza}
       whatsapp={e.whatsapp}
       telefono={e.telefono}
+      email={e.email}
       fichas={fichasServicio}
     />
   )}
@@ -259,7 +261,7 @@ const jsonld: Record<string, unknown> = {
             <div class="mt-6 border-b border-ink/20">
               {zonasPorPlaza.map((x) => (
                 <div class="rule grid grid-cols-12 items-baseline gap-4 py-4">
-                  <a href={`/ciudades/${x.plaza}`} class="col-span-12 sm:col-span-4">
+                  <a href={`/ciudades/${x.plaza}/`} class="col-span-12 sm:col-span-4">
                     <span class="label text-signal underline-hover">{x.nombre} →</span>
                   </a>
                   <p class="col-span-12 text-base leading-snug sm:col-span-8">
@@ -302,7 +304,7 @@ const jsonld: Record<string, unknown> = {
         <ul class="mt-4 border-b border-ink/20">
           {rubros.map((r) => (
             <li class="rule">
-              <a href={`/categorias/${r}`} class="flex items-baseline justify-between gap-3 py-3">
+              <a href={`/categorias/${r}/`} class="flex items-baseline justify-between gap-3 py-3">
                 <span class="text-sm leading-snug underline-hover">{catPorId.get(r) ?? r}</span>
                 <span class="label muted">→</span>
               </a>
@@ -314,7 +316,7 @@ const jsonld: Record<string, unknown> = {
         <ul class="mt-4 border-b border-ink/20">
           {plazas.map((p) => (
             <li class="rule">
-              <a href={`/ciudades/${p}`} class="flex items-baseline justify-between gap-3 py-3">
+              <a href={`/ciudades/${p}/`} class="flex items-baseline justify-between gap-3 py-3">
                 <span class="text-sm leading-snug underline-hover">{ciudadPorId.get(p) ?? p}</span>
                 <span class="label muted">→</span>
               </a>
@@ -328,7 +330,7 @@ const jsonld: Record<string, unknown> = {
           {rubros.filter((r) => rubrosActivos.has(r)).flatMap((r) =>
             plazas.map((p) => (
               <li class="rule">
-                <a href={`/categorias/${r}/${p}`} class="flex items-baseline justify-between gap-3 py-3">
+                <a href={`/categorias/${r}/${p}/`} class="flex items-baseline justify-between gap-3 py-3">
                   <span class="text-sm leading-snug underline-hover">
                     {catPorId.get(r)} en {ciudadPorId.get(p)}
                   </span>
@@ -343,7 +345,7 @@ const jsonld: Record<string, unknown> = {
           <p class="muted text-sm leading-snug">
             Los datos los declara la empresa. Si detectas información incorrecta, avísanos.
           </p>
-          <a href="/contacto" class="label underline-hover mt-4 inline-block">Reportar un dato →</a>
+          <a href="/contacto/" class="label underline-hover mt-4 inline-block">Reportar un dato →</a>
         </div>
       </aside>
     </div>

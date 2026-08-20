@@ -57,3 +57,78 @@ export const rutaFichaDe = (ruta) => {
   const m = limpia.match(/^(\/categorias\/[^/]+\/[^/]+\/[^/]+)(?:\/[^/]+)?$/);
   return m ? m[1] : null;
 };
+
+/**
+ * Rubro×plaza sin ninguna ficha VIP ni padrón oficial: la página se genera
+ * igual (permite registrar la primera empresa de esa plaza), pero sin una
+ * sola entidad real que mostrar no aporta nada a un buscador y compite por
+ * crawl budget con las páginas que sí tienen contenido. Se listan aquí para
+ * que el sitemap las excluya, en espejo del `noindex` que la página misma
+ * se pone en tiempo de render (ver `empresas.length === 0 && !padron` en
+ * `[id]/[ciudad].astro`).
+ */
+export function rutasCrucesVacios() {
+  const DIR_CATEGORIAS = new URL('../content/categorias/', import.meta.url).pathname;
+  const DIR_CIUDADES = new URL('../content/ciudades/', import.meta.url).pathname;
+  const DIR_EMPRESAS = new URL('../content/empresas/', import.meta.url).pathname;
+  const DIR_PADRON = new URL('../data/padron/', import.meta.url).pathname;
+
+  const leerFm = (dir, archivo) => {
+    const texto = readFileSync(join(dir, archivo), 'utf-8');
+    return texto.split('---')[1] ?? '';
+  };
+  const campoLista = (fm, clave) => {
+    // ["a", "b"] o [] en una sola línea del frontmatter
+    const m = fm.match(new RegExp(`^${clave}:\\s*\\[(.*)\\]\\s*$`, 'm'));
+    if (!m) return [];
+    return m[1]
+      .split(',')
+      .map((x) => x.trim().replace(/^["']|["']$/g, ''))
+      .filter(Boolean);
+  };
+
+  let archivosCategorias = [];
+  let archivosCiudades = [];
+  let archivosEmpresas = [];
+  let archivosPadron = [];
+  try {
+    archivosCategorias = readdirSync(DIR_CATEGORIAS).filter((f) => f.endsWith('.md'));
+    archivosCiudades = readdirSync(DIR_CIUDADES).filter((f) => f.endsWith('.md'));
+    archivosEmpresas = readdirSync(DIR_EMPRESAS).filter((f) => f.endsWith('.md') || f.endsWith('.mdx'));
+    archivosPadron = readdirSync(DIR_PADRON).filter((f) => f.endsWith('.json'));
+  } catch {
+    return new Set();
+  }
+
+  const rubrosActivos = archivosCategorias
+    .filter((f) => campo(leerFm(DIR_CATEGORIAS, f), 'destacada') === 'true')
+    .map((f) => f.replace(/\.md$/, ''));
+  const todasCiudades = archivosCiudades.map((f) => f.replace(/\.md$/, ''));
+
+  const poblados = new Set();
+  for (const archivo of archivosEmpresas) {
+    const fm = leerFm(DIR_EMPRESAS, archivo);
+    if (campo(fm, 'demo') === 'true') continue;
+    const rubros = [campo(fm, 'categoria'), ...campoLista(fm, 'categorias')].filter(Boolean);
+    const ciudad = campo(fm, 'ciudad');
+    const ciudades = [ciudad, ...campoLista(fm, 'ciudades')].filter(Boolean);
+    for (const r of rubros) for (const c of ciudades) poblados.add(`${r}::${c}`);
+  }
+
+  const conPadron = new Set();
+  for (const archivo of archivosPadron) {
+    const datos = JSON.parse(readFileSync(join(DIR_PADRON, archivo), 'utf-8'));
+    if (datos.rubro && datos.plaza) conPadron.add(`${datos.rubro}::${datos.plaza}`);
+  }
+
+  const vacios = new Set();
+  for (const r of rubrosActivos) {
+    for (const c of todasCiudades) {
+      const clave = `${r}::${c}`;
+      if (!poblados.has(clave) && !conPadron.has(clave)) {
+        vacios.add(`/categorias/${r}/${c}`);
+      }
+    }
+  }
+  return vacios;
+}
