@@ -278,6 +278,64 @@ export const FOTOS: GrupoFotos[] = [
     alt: 'Gabinete contra incendios o hidrante de uso industrial y urbano',
     total: 12,
   },
+
+  // ── seguridad-contra-incendios (MESECI) ─────────────────────────────
+  {
+    slug: 'extintor-meseci-catalogo',
+    categoria: 'seguridad-contra-incendios',
+    titulo: 'Extintores certificados MESECI',
+    alt: 'Extintor certificado MESECI: polvo químico seco, CO2, agua, espuma AFFF o agente limpio',
+    total: 15,
+  },
+  {
+    slug: 'bombero-epp-meseci-catalogo',
+    categoria: 'seguridad-contra-incendios',
+    titulo: 'Equipo y EPP para bomberos',
+    alt: 'Traje, casco, botas, guantes o equipo de respiración autónoma para bomberos y brigadas',
+    total: 15,
+  },
+  {
+    slug: 'gabinete-meseci-catalogo',
+    categoria: 'seguridad-contra-incendios',
+    titulo: 'Gabinetes contra incendios MESECI',
+    alt: 'Gabinete metálico o de acero inoxidable para extintor, manguera o equipo de bombero',
+    total: 11,
+  },
+  {
+    slug: 'componente-meseci-catalogo',
+    categoria: 'seguridad-contra-incendios',
+    titulo: 'Componentes y accesorios contra incendios',
+    alt: 'Boquilla, chiflón, adaptador o tapón de bronce para sistemas contra incendios',
+    total: 8,
+  },
+  {
+    slug: 'hidrante-meseci-catalogo',
+    categoria: 'seguridad-contra-incendios',
+    titulo: 'Hidrantes contra incendios MESECI',
+    alt: 'Hidrante de banqueta, monitor o llave para hidrante contra incendios',
+    total: 5,
+  },
+  {
+    slug: 'manguera-meseci-catalogo',
+    categoria: 'seguridad-contra-incendios',
+    titulo: 'Mangueras contra incendios MESECI',
+    alt: 'Manguera contra incendios de una o dos capas, carrete tipo europeo o rollo de uso rudo',
+    total: 6,
+  },
+  {
+    slug: 'senalizacion-meseci-catalogo',
+    categoria: 'seguridad-contra-incendios',
+    titulo: 'Señalización y equipo de Protección Civil',
+    alt: 'Señalización fotoluminiscente, poste delimitador o equipo complementario de Protección Civil',
+    total: 10,
+  },
+  {
+    slug: 'seguridad-industrial-meseci-catalogo',
+    categoria: 'seguridad-contra-incendios',
+    titulo: 'Equipo de seguridad industrial MESECI',
+    alt: 'Casco, guantes, lentes de protección o lava-ojos portátil de seguridad industrial',
+    total: 6,
+  },
 ];
 
 export const TOTAL_FOTOS = FOTOS.reduce((n, g) => n + g.total, 0);
