@@ -234,6 +234,50 @@ export const FOTOS: GrupoFotos[] = [
     alt: 'Técnico realizando un servicio de protección contra incendios (mantenimiento, prueba hidrostática, recarga, instalación o capacitación)',
     total: 6,
   },
+
+  // ── seguridad-contra-incendios (GAMA DE MÉXICO) ────────────────────
+  {
+    slug: 'monitor-elkhart-gamademexico-catalogo',
+    categoria: 'seguridad-contra-incendios',
+    titulo: 'Monitores contra incendios Elkhart Brass',
+    alt: 'Monitor contra incendios Elkhart Brass, fijo o portátil, de uso industrial',
+    total: 15,
+  },
+  {
+    slug: 'boquilla-elkhart-gamademexico-catalogo',
+    categoria: 'seguridad-contra-incendios',
+    titulo: 'Boquillas contra incendios Elkhart Brass',
+    alt: 'Boquilla contra incendios certificada Elkhart Brass de la línea XD',
+    total: 15,
+  },
+  {
+    slug: 'valvula-contra-incendios-gamademexico-catalogo',
+    categoria: 'seguridad-contra-incendios',
+    titulo: 'Válvulas contra incendios',
+    alt: 'Válvula contra incendios industrial (check, compuerta OS&Y, globo o mariposa) certificada UL/FM',
+    total: 15,
+  },
+  {
+    slug: 'manguera-industrial-gamademexico-catalogo',
+    categoria: 'seguridad-contra-incendios',
+    titulo: 'Mangueras contra incendios industriales',
+    alt: 'Manguera contra incendios de uso industrial, forestal o de succión',
+    total: 15,
+  },
+  {
+    slug: 'conexion-herraje-gamademexico-catalogo',
+    categoria: 'seguridad-contra-incendios',
+    titulo: 'Conexiones y herrajes contra incendios',
+    alt: 'Conexión, adaptador, chiflón o toma siamesa de bronce o aluminio para sistemas contra incendios',
+    total: 15,
+  },
+  {
+    slug: 'gabinete-hidrante-gamademexico-catalogo',
+    categoria: 'seguridad-contra-incendios',
+    titulo: 'Gabinetes e hidrantes',
+    alt: 'Gabinete contra incendios o hidrante de uso industrial y urbano',
+    total: 12,
+  },
 ];
 
 export const TOTAL_FOTOS = FOTOS.reduce((n, g) => n + g.total, 0);
