@@ -336,6 +336,50 @@ export const FOTOS: GrupoFotos[] = [
     alt: 'Casco, guantes, lentes de protección o lava-ojos portátil de seguridad industrial',
     total: 6,
   },
+
+  // ── seguridad-contra-incendios (BOMBERO.MX) ─────────────────────────
+  {
+    slug: 'traje-bombero-mx-catalogo',
+    categoria: 'seguridad-contra-incendios',
+    titulo: 'Trajes estructurales y forestales para bombero',
+    alt: 'Traje de bombero estructural NFPA 1971, forestal NFPA 1977, HAZMAT o de aproximación',
+    total: 15,
+  },
+  {
+    slug: 'casco-bombero-mx-catalogo',
+    categoria: 'seguridad-contra-incendios',
+    titulo: 'Cascos para bombero',
+    alt: 'Casco de bombero estructural NFPA 1971, forestal, ARFF aeroportuario o de brigada industrial',
+    total: 15,
+  },
+  {
+    slug: 'guante-bombero-mx-catalogo',
+    categoria: 'seguridad-contra-incendios',
+    titulo: 'Guantes para bombero',
+    alt: 'Guante de bombero estructural, forestal, HAZMAT o de rescate técnico certificado NFPA',
+    total: 15,
+  },
+  {
+    slug: 'bota-bombero-mx-catalogo',
+    categoria: 'seguridad-contra-incendios',
+    titulo: 'Botas para bombero',
+    alt: 'Bota de bombero estructural, de caucho para HAZMAT o forestal certificada NFPA 1971',
+    total: 15,
+  },
+  {
+    slug: 'capucha-bombero-mx-catalogo',
+    categoria: 'seguridad-contra-incendios',
+    titulo: 'Capuchas de protección para bombero',
+    alt: 'Capucha de protección térmica Nomex, PBI Gold o particulada para bombero',
+    total: 15,
+  },
+  {
+    slug: 'gafas-bombero-mx-catalogo',
+    categoria: 'seguridad-contra-incendios',
+    titulo: 'Gafas y protección ocular para bombero',
+    alt: 'Gafas o goggle de protección ocular para bombero, compatible con casco estructural o forestal',
+    total: 15,
+  },
 ];
 
 export const TOTAL_FOTOS = FOTOS.reduce((n, g) => n + g.total, 0);
