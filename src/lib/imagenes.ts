@@ -176,6 +176,64 @@ export const FOTOS: GrupoFotos[] = [
     alt: 'Instalaciones de un proveedor de equipo contra incendios en Querétaro',
     total: 2,
   },
+
+  // ── seguridad-contra-incendios (Proyecto Red) ─────────────────────
+  {
+    slug: 'extintor-quimico-proyectored-catalogo',
+    categoria: 'seguridad-contra-incendios',
+    titulo: 'Extintores por tipo de agente extintor',
+    alt: 'Extintor contra incendios clasificado por tipo de agente extintor (ABC, CO2, agua, espuma AFFF, agente limpio, automático)',
+    total: 12,
+  },
+  {
+    slug: 'gabinete-manguera-proyectored-catalogo',
+    categoria: 'seguridad-contra-incendios',
+    titulo: 'Gabinetes y mangueras contra incendio',
+    alt: 'Gabinete contra incendios con manguera, válvulas y accesorios de conexión',
+    total: 12,
+  },
+  {
+    slug: 'sistema-proyectored-catalogo',
+    categoria: 'seguridad-contra-incendios',
+    titulo: 'Sistemas de detección y alarma',
+    alt: 'Sistema de detección, alarma y control contra incendios instalado en una instalación',
+    total: 7,
+  },
+  {
+    slug: 'senalamiento-proyectored-catalogo',
+    categoria: 'seguridad-contra-incendios',
+    titulo: 'Señalización de emergencia',
+    alt: 'Señalización fotoluminiscente de emergencia instalada en rutas de evacuación',
+    total: 8,
+  },
+  {
+    slug: 'equipo-bombero-proyectored-catalogo',
+    categoria: 'seguridad-contra-incendios',
+    titulo: 'Equipo estructural para bomberos',
+    alt: 'Traje y equipo de protección personal para bomberos certificado NFPA 1971',
+    total: 8,
+  },
+  {
+    slug: 'equipo-seguridad-proyectored-catalogo',
+    categoria: 'seguridad-contra-incendios',
+    titulo: 'Equipo de seguridad y primeros auxilios',
+    alt: 'Equipo de protección personal y botiquín de primeros auxilios para instalaciones industriales',
+    total: 11,
+  },
+  {
+    slug: 'escenario-proyectored-instalacion',
+    categoria: 'seguridad-contra-incendios',
+    titulo: 'Escenarios de riesgo',
+    alt: 'Instalación industrial, cocina, oficina o centro de datos donde se requiere protección contra incendios',
+    total: 4,
+  },
+  {
+    slug: 'servicio-proyectored-hero',
+    categoria: 'seguridad-contra-incendios',
+    titulo: 'Servicios de protección contra incendios',
+    alt: 'Técnico realizando un servicio de protección contra incendios (mantenimiento, prueba hidrostática, recarga, instalación o capacitación)',
+    total: 6,
+  },
 ];
 
 export const TOTAL_FOTOS = FOTOS.reduce((n, g) => n + g.total, 0);
