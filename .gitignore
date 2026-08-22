@@ -35,3 +35,7 @@ _to_delete_audit/
 .overwrite_test*
 .wrangler/
 *.tgz
+
+# Python (scripts de QA)
+__pycache__/
+*.pyc
