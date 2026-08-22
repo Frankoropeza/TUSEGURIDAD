@@ -19,23 +19,24 @@ fuentes:
   - titulo: "Reglamento de Seguridad Privada para el Estado de Baja California"
     url: "https://www.seguridadbc.gob.mx/Planeacion/padron/REGLAMENTO%20DE%20SEGURIDAD%20PRIVADA%20PARA%20EL%20ESTADO%20DE%20BAJA%20CALIFORNIA.pdf"
 ---
+Baja California regula la seguridad privada por vía reglamentaria, con un catálogo amplio de nueve modalidades y una regla de revalidación que conviene tener presente.
 
-Consultar un proveedor de seguridad privada en **Baja California** exige revisar el marco local: la autorización se otorga por entidad y por modalidad, y las reglas cambian de un estado a otro.
+## Sesenta días antes del vencimiento
 
-## Quién autoriza aquí
+La revalidación debe gestionarse dentro de los sesenta días previos a que expire la autorización. Es una ventana explícita, y por eso resulta útil para quien contrata.
 
-Baja California no cuenta con una ley específica de seguridad privada. La materia se regula mediante el **Reglamento de Seguridad Privada para el Estado de Baja California**, en conjunto con la legislación estatal de seguridad pública.
+Si el permiso que te muestran está a menos de dos meses de vencer, la pregunta correcta es si la revalidación ya se inició y con qué acuse. Si está a más, todavía no hay trámite que exigir. Esa lectura del calendario evita tanto la alarma innecesaria como la confianza mal puesta.
 
-La instancia que tramita y otorga la autorización es la **Dirección de Servicios Especiales en Protección y Seguridad Privada**, adscrita a la Secretaría de Seguridad Ciudadana del Estado.
+## Una plaza fronteriza
 
-### Datos clave
+La actividad económica local combina industria maquiladora, movimiento transfronterizo de mercancía y un sector de comercio y servicios de perfil muy distinto según la ciudad. No es una plaza homogénea.
 
-- **Vigencia de la autorización:** 1 año; revalidación 60 días antes del vencimiento.
-- **Modalidades reconocidas:** 9 (Art. 4). La autorización ampara solo las modalidades que declara, así que debe coincidir con el servicio que vas a contratar.
-- **Registro estatal:** Registro de Prestadores de Servicios de Seguridad Privada en el Estado.
+Cuando pidas referencias a un proveedor, pídelas de la misma ciudad y del mismo tipo de inmueble. Operar en un parque industrial y operar en un desarrollo turístico o en un comercio de zona centro son problemas diferentes, y el proveedor que resuelve bien uno no necesariamente resuelve el otro.
 
-> No existe ley específica: la materia se regula dentro de la Ley de Seguridad Pública del Estado y se desarrolla en este reglamento. De las 9 fracciones, 8 son modalidades nombradas y una es cláusula abierta.
+## Nueve modalidades
 
-## Si tu proveedor opera en más de un estado
+Con un catálogo amplio, la autorización describe con precisión lo que la empresa puede hacer, y esa precisión hay que aprovecharla: confirma que la modalidad amparada coincida con el servicio, sobre todo si incluye traslado de valores o protección a personas además de la vigilancia del inmueble.
 
-La autorización estatal solo ampara el territorio de Baja California. Cuando una empresa presta servicios en dos o más entidades federativas aplica además la Ley Federal de Seguridad Privada, cuya autorización es un documento distinto con vigencia de un año. Pide el que corresponda al lugar donde vas a recibir el servicio.
+## Si el servicio se extiende a otra entidad
+
+El documento local ampara el territorio de Baja California. Un servicio prestado también en otro estado cae en el supuesto de la Ley Federal de Seguridad Privada y requiere el documento federal, que es adicional y no sustituye al local. Cómo revisar ambos está en la [guía de verificación](/guias/como-verificar-permiso-empresa-seguridad/).

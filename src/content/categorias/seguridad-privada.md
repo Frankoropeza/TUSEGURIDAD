@@ -65,21 +65,38 @@ fuentes:
   - titulo: Requisitos para obtener permiso en la Ciudad de México (SSC CDMX)
     url: https://www.ssc.cdmx.gob.mx/storage/app/media/Documentos/Seguridad%20Privada/requisitos-para-obtener-permiso-para-la-prestacion-de-servicios-de-seguridad-privada.pdf
 ---
-
 ## Qué es la seguridad privada
 
 Se le llama seguridad privada al servicio que una empresa autorizada presta a un particular para proteger personas, bienes o información. No es un servicio libre: en México está regulado, la autorización se otorga por modalidad y tiene vigencia limitada.
 
 La distinción práctica más importante es territorial. Cuando el servicio se presta en **dos o más entidades federativas**, aplica la Ley Federal de Seguridad Privada y la empresa requiere autorización federal, tramitada ante la dependencia federal de seguridad a través de la Dirección General de Registro y Supervisión a Empresas y Servicios de Seguridad Privada. Cuando el servicio ocurre dentro de **una sola entidad**, se rige por la ley local y le corresponde el permiso de esa entidad.
 
+Esa distinción tiene un efecto cotidiano en la zona metropolitana del valle de México: un proveedor que cubre la capital y municipios conurbados ya cruza jurisdicciones, aunque para el cliente todo sea la misma ciudad.
+
 ## Por qué importa la modalidad
 
 La autorización no es un permiso genérico. Se otorga por modalidad, y cada una delimita lo que la empresa puede hacer legalmente. Una empresa habilitada para vigilancia de inmuebles no queda por ello habilitada para custodiar valores en carretera ni para dar protección personal.
 
-Esto tiene una consecuencia directa al contratar: no basta con que la empresa "tenga permiso". Hay que confirmar que su autorización cubra exactamente el servicio que vas a contratar.
+Esto tiene una consecuencia directa al contratar: no basta con que la empresa tenga permiso. Hay que confirmar que su autorización cubra exactamente el servicio que vas a contratar, y en el territorio donde lo vas a recibir.
 
 ## Qué puedes exigir antes de firmar
 
-El proveedor serio no se incomoda con estas preguntas. Pide el documento de autorización con su vigencia, confirma la modalidad, revisa que exista contrato por escrito con turnos y suplencias definidos, y verifica la póliza de responsabilidad civil. Si vas a requerir personal armado, eso implica registros y licencias adicionales en materia de armas de fuego que deben quedar acreditados por separado.
+El proveedor serio no se incomoda con estas preguntas. Pide el documento de autorización con su vigencia, confirma la modalidad, revisa que exista contrato por escrito con turnos y suplencias definidos, y verifica la póliza de responsabilidad civil.
+
+Hay dos documentos que se olvidan y pesan. El registro **REPSE** ante la Secretaría del Trabajo, porque la vigilancia se presta como servicio especializado y ese registro es lo que te permite deducir la factura y lo que te separa de una responsabilidad solidaria en materia laboral. Y las altas del personal ante IMSS e INFONAVIT, que el día de un accidente se discuten en tu inmueble.
+
+Si vas a requerir personal armado, eso implica registros y licencias adicionales en materia de armas de fuego que deben acreditarse por separado: la autorización de seguridad privada no los incluye.
+
+## Qué se contrata realmente
+
+En la práctica, el rubro se compra en tres capas que se montan una sobre otra.
+
+La **presencia física** es la base: un elemento asignado a una posición, con consigna escrita y bitácora. Encima se monta el **control de accesos**, que es esa misma consigna con registro sistemático. Y por encima la **vigilancia electrónica**, que es la misma consigna observada desde una central.
+
+El orden importa porque las capas superiores dependen de la primera. Cuando el elemento en sitio no tiene consigna clara, ni el lector ni la cámara resuelven nada: hay registro de todo y criterio para nada.
+
+## Por dónde empezar
+
+Si vas a contratar vigilancia de inmueble, la página de [guardias de seguridad](/servicios/guardias-de-seguridad/) detalla qué sostiene el servicio, y la de [seguridad para condominios](/servicios/seguridad-para-condominios/) cubre el caso en que quien contrata es una administración. Para ordenar todo el proceso de selección, la [guía para elegir una empresa de seguridad](/guias/como-elegir-empresa-seguridad/); y para revisar el permiso con el documento en la mano, la [guía de verificación](/guias/como-verificar-permiso-empresa-seguridad/).
 
 > Un precio muy por debajo del mercado casi siempre se explica por algo: personal sin capacitación documentada, sin prestaciones, o una empresa operando sin autorización vigente. El ahorro se convierte en responsabilidad solidaria cuando algo sale mal.

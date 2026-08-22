@@ -1,11 +1,12 @@
 ---
 nombre: CCTV y videovigilancia
 descripcion: Instalación de cámaras de seguridad, videovigilancia IP, DVR/NVR y monitoreo remoto para hogar, comercio e industria.
-tituloSeo: Empresas de CCTV y videovigilancia en México
+tituloSeo: Empresas de CCTV y videovigilancia
 intro: >-
   Las cámaras disuaden y documentan, pero un sistema mal diseñado solo graba lo que no sirve.
-  Este rubro está en preparación: aquí explicamos qué revisar de un instalador de CCTV
-  mientras integramos su padrón.
+  Lo que decide si un CCTV es útil no es la marca de la cámara: es dónde apunta, con qué luz,
+  cuántos días conserva el video y quién puede sacarlo. Aquí está el criterio para evaluar
+  a un instalador antes de firmar.
 icono: "📹"
 destacada: false
 orden: 3
@@ -51,15 +52,36 @@ fuentes:
   - titulo: Ley Federal de Seguridad Privada (Cámara de Diputados)
     url: https://www.diputados.gob.mx/LeyesBiblio/pdf/LFSP.pdf
 ---
+## Qué reúne este rubro
 
-## Qué es este rubro
+La categoría de **CCTV y videovigilancia** agrupa a instaladores e integradores de sistemas de cámaras: circuito cerrado, cámaras IP, grabadores DVR y NVR, videoanalítica y monitoreo remoto.
 
-La categoría de **CCTV y videovigilancia** reúne a instaladores e integradores de sistemas de cámaras: circuito cerrado, cámaras IP, grabadores DVR/NVR, videoanalítica y monitoreo remoto.
+Es la solución más solicitada para disuadir robos y conservar evidencia, y también la que más se instala mal. La diferencia entre un sistema útil y uno decorativo se define en el diseño, no en la compra del equipo.
 
-Es la solución más solicitada para disuadir robos y contar con evidencia — y también la que más se instala mal. La diferencia entre un sistema útil y uno decorativo no está en la marca de la cámara sino en el diseño: dónde apunta, con qué luz, cuánto graba y quién puede ver el video.
+## Las tres preguntas que definen el proyecto
 
-## El ángulo que casi nadie considera: los datos
+**¿Qué necesitas ver, exactamente?** No es lo mismo saber que alguien pasó que poder identificar quién fue. Reconocer un rostro o leer una placa exige resolución suficiente a la distancia real de esa cámara, y esa distancia la impone el predio. Un proveedor que no la mide está eligiendo equipo a ciegas.
 
-El video donde se identifica a personas son datos personales. Quien instala cámaras en un negocio asume obligaciones de la normativa de protección de datos — avisos visibles, resguardo del video, control de quién accede. Un integrador serio lo resuelve como parte del proyecto, no como sorpresa posterior.
+**¿Con qué luz?** La mayoría de los incidentes que se quieren documentar ocurren de noche o a contraluz en un acceso. Pide ver grabación nocturna de una instalación comparable antes de decidir. Es la prueba que más cotizaciones descarta.
 
-> Estamos integrando el padrón de este rubro. Si operas una empresa de CCTV, puedes solicitar tu alta desde ahora.
+**¿Cuántos días de retención?** Es la especificación que más reclamos genera y la que casi nadie pacta. Un robo detectado tres semanas después no existe si el disco lleva diez días sobrescribiendo. Define el número en el contrato y verifica que la capacidad instalada lo cumpla con todas las cámaras grabando, no en el papel del fabricante.
+
+## El sistema es también un tratamiento de datos
+
+El video donde se identifica a personas constituye datos personales, y quien lo capta es responsable de su tratamiento conforme a la Ley Federal de Protección de Datos Personales en Posesión de los Particulares.
+
+En la práctica eso significa tres obligaciones concretas: avisos de videovigilancia visibles en los accesos, control de quién puede ver y extraer video, y resguardo de las grabaciones que se conserven. Un integrador serio lo plantea como parte del proyecto. Uno que nunca lo menciona te está dejando el problema completo.
+
+Conviene decidir desde el arranque quién tiene acceso al sistema, con qué credenciales y con qué registro de consultas. El video es evidencia y es dato personal a la vez, así que su fuga es un problema doble.
+
+## Lo que se descubre tarde
+
+Casi siempre lo mismo: la cámara que se llenó de polvo y nadie limpió, el disco que falló hace meses sin avisar, la actualización que dejó la app fuera de servicio y el cable que se cortó en una remodelación. Nada de eso se anuncia.
+
+Por eso el mantenimiento no es un extra comercial. Pide que venga desglosado, con periodicidad y responsable, y que incluya verificación de que la grabación efectivamente está ocurriendo. Un sistema que nadie revisa se descubre averiado el día que se necesita el video.
+
+## Antes de firmar
+
+Pide visita técnica previa, plano de ubicación de cámaras con el campo de visión de cada una, la retención comprometida por escrito, las credenciales de administrador en tu poder y el programa de mantenimiento con responsable. Y guarda los datos del equipo instalado: si algún día cambias de proveedor, esa documentación es lo que evita empezar de cero.
+
+> Estamos integrando el padrón de este rubro. Si operas una empresa de CCTV y videovigilancia, puedes solicitar tu alta desde ahora y aparecer ante quien está buscando estos servicios en tu plaza.

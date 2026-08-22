@@ -19,23 +19,26 @@ fuentes:
   - titulo: "Ley de Servicios de Seguridad Privada para el Estado de San Luis Potosí"
     url: "https://congresosanluis.gob.mx/sites/default/files/unpload/legislacion/leyes/2025/01/Ley_de_Servicios_de_Seguridad_Privada_para_el_Estado_04_Diciembre_2024.pdf"
 ---
+San Luis Potosí tiene el esquema de vigencia más distintivo entre las plazas de este directorio: la autorización se otorga por cinco años, pero con refrendo anual obligatorio.
 
-Consultar un proveedor de seguridad privada en **San Luis Potosí** exige revisar el marco local: la autorización se otorga por entidad y por modalidad, y las reglas cambian de un estado a otro.
+## Cinco años no significan cinco años sin revisar
 
-## Quién autoriza aquí
+Es la confusión que conviene evitar. Que el documento declare una vigencia de cinco años no exime del refrendo anual, y un permiso sin sus refrendos al día no está en regla por más que la fecha de expiración esté lejos.
 
-La norma aplicable es la **Ley de Servicios de Seguridad Privada para el Estado de San Luis Potosí**.
+Al revisar el documento, mira las dos cosas: la vigencia del otorgamiento y la constancia del refrendo del año en curso. Un proveedor que solo muestra lo primero está mostrando la mitad.
 
-La instancia que tramita y otorga la autorización es la **Unidad de Servicios de Seguridad Privada**, adscrita a la Secretaría de Seguridad y Protección Ciudadana.
+Es también el caso donde más fácil resulta que un contrato de servicio se renueve varias veces sin que nadie vuelva a mirar el expediente, precisamente porque la fecha grande del documento tranquiliza. Anota el refrendo en tu calendario, no el vencimiento.
 
-### Datos clave
+## Logística y manufactura
 
-- **Vigencia de la autorización:** 5 años, con refrendo anual obligatorio.
-- **Modalidades reconocidas:** 6 (Art. 9). La autorización ampara solo las modalidades que declara, así que debe coincidir con el servicio que vas a contratar.
-- **Registro estatal:** Registro Estatal de Empresas, Personal y Equipo de Seguridad Privada.
+La posición del estado en el mapa carretero del país ha desarrollado una actividad importante de logística, almacenamiento y manufactura, y eso perfila a buena parte de los proveedores locales.
 
-> Tiene la vigencia más larga del país: la licencia de funcionamiento dura cinco años, pero exige refrendo cada año. Última reforma en diciembre de 2024.
+Si tu inmueble es una nave, un centro de distribución o un patio de maniobras, pregunta específicamente por control de acceso vehicular, registro de transportistas y manejo de la documentación de embarque. Si es un inmueble comercial o residencial, confirma que la consigna se escriba para ese uso.
 
-## Si tu proveedor opera en más de un estado
+## Seis modalidades
 
-La autorización estatal solo ampara el territorio de San Luis Potosí. Cuando una empresa presta servicios en dos o más entidades federativas aplica además la Ley Federal de Seguridad Privada, cuya autorización es un documento distinto con vigencia de un año. Pide el que corresponda al lugar donde vas a recibir el servicio.
+La autorización ampara únicamente lo que declara. Verifica la coincidencia con el servicio contratado antes de firmar.
+
+## Si el servicio sale del estado
+
+La autorización local ampara San Luis Potosí. Un servicio prestado también en otra entidad requiere además el documento federal. Cómo revisar ambos, campo por campo, está en la [guía de verificación](/guias/como-verificar-permiso-empresa-seguridad/).

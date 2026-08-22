@@ -20,23 +20,26 @@ fuentes:
   - titulo: "Ley de Seguridad Privada del Estado de México"
     url: "https://ccc.edomex.gob.mx/sites/ccc.edomex.gob.mx/files/files/Marco%20Juridico/Leyes/leyvig078.pdf"
 ---
+El Estado de México es la contraparte de la operación metropolitana: buena parte de los servicios que aquí se prestan empiezan o terminan del otro lado del límite con la capital.
 
-Consultar un proveedor de seguridad privada en **Estado de México** exige revisar el marco local: la autorización se otorga por entidad y por modalidad, y las reglas cambian de un estado a otro.
+## Una vigencia más larga cambia el hábito de revisión
 
-## Quién autoriza aquí
+La autorización estatal se otorga aquí con una vigencia de dos años, más larga que la de la mayoría de las entidades, donde el trámite es anual.
 
-La norma aplicable es la **Ley de Seguridad Privada del Estado de México**.
+Eso tiene una consecuencia práctica que conviene anticipar: como el vencimiento no coincide con el calendario anual, es fácil que un contrato de servicio se renueve varias veces sin que nadie vuelva a mirar el permiso. Anota la fecha de vencimiento en el mismo lugar donde guardas el contrato y revísala al renovar, no cuando toque.
 
-La instancia que tramita y otorga la autorización es la **Secretaría de Seguridad**, adscrita al Gobierno del Estado de México.
+## Si el servicio también toca la capital
 
-### Datos clave
+Es el caso más frecuente en la zona conurbada. Un proveedor que atiende municipios del valle y colonias de la Ciudad de México presta servicio en dos entidades federativas, y ese supuesto activa la Ley Federal de Seguridad Privada además del permiso estatal.
 
-- **Vigencia de la autorización:** 2 años, revalidable.
-- **Modalidades reconocidas:** 6 (Art. 7). La autorización ampara solo las modalidades que declara, así que debe coincidir con el servicio que vas a contratar.
-- **Registro estatal:** Registro Estatal de Empresas de Seguridad Privada.
+La pregunta útil no es «¿tienen permiso?» sino «¿qué documento ampara el servicio en cada uno de mis puntos?». Un proveedor serio contesta sin rodeos y manda los dos.
 
-> Junto con San Luis Potosí, es de las pocas entidades cuya autorización dura más de un año. Forma con la Ciudad de México la zona metropolitana más grande del país.
+## El caso de la obra
 
-## Si tu proveedor opera en más de un estado
+En los municipios con mayor actividad de construcción, la vigilancia de obra tiene un perfil propio: entrada y salida de materiales, control documental de cuadrillas que cambian cada semana, y horarios que no se parecen a los de un inmueble en operación.
 
-La autorización estatal solo ampara el territorio de Estado de México. Cuando una empresa presta servicios en dos o más entidades federativas aplica además la Ley Federal de Seguridad Privada, cuya autorización es un documento distinto con vigencia de un año. Pide el que corresponda al lugar donde vas a recibir el servicio.
+Si es tu caso, pide que la consigna de esa posición esté redactada para obra y no adaptada de un condominio. Son operaciones distintas y la diferencia se nota en el inventario.
+
+## Antes de firmar
+
+Permiso estatal vigente con la modalidad correcta, autorización federal si el servicio cruza a la capital, registro REPSE de la empresa, altas del personal y póliza de responsabilidad civil. El orden de lectura del permiso está en la [guía de verificación](/guias/como-verificar-permiso-empresa-seguridad/).

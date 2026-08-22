@@ -19,23 +19,28 @@ fuentes:
   - titulo: "Ley número 196, de Seguridad Privada para el Estado de Sonora"
     url: "https://www.stjsonora.gob.mx/reformas/Reformas271117-6.PDF"
 ---
+Sonora regula la materia mediante ley estatal específica, con un catálogo amplio de nueve modalidades y autorización de vigencia anual revalidable.
 
-Consultar un proveedor de seguridad privada en **Sonora** exige revisar el marco local: la autorización se otorga por entidad y por modalidad, y las reglas cambian de un estado a otro.
+## Nueve modalidades: lee el documento, no el nombre comercial
 
-## Quién autoriza aquí
+Un catálogo desagregado permite que la autorización describa con precisión lo que la empresa puede hacer. Esa precisión es útil, siempre que se lea.
 
-La norma aplicable es la **Ley número 196, de Seguridad Privada para el Estado de Sonora**.
+Lo que suele ocurrir es que el proveedor se presenta con un nombre comercial que sugiere un abanico de servicios más amplio que el que su permiso ampara. No es necesariamente mala fe; es marketing. Pero la que responde el día del incidente es la modalidad amparada, no el nombre del sitio web.
 
-La instancia que tramita y otorga la autorización es la **Dirección de Control y Registro de Empresas de Seguridad Privada**, adscrita a la Secretaría de Seguridad Pública del Estado.
+Lleva la descripción concreta del servicio y pide que te señalen sobre el documento bajo qué modalidad queda comprendido.
 
-### Datos clave
+## Distancias largas y operación dispersa
 
-- **Vigencia de la autorización:** 1 año, revalidable.
-- **Modalidades reconocidas:** 9 (Art. 6). La autorización ampara solo las modalidades que declara, así que debe coincidir con el servicio que vas a contratar.
-- **Registro estatal:** Registro Estatal de Empresas, Personal y Equipo de Seguridad Privada.
+Sonora es un estado extenso, con centros de actividad separados por trayectos considerables y un componente relevante de minería, agroindustria y actividad fronteriza.
 
-> La ley de 2017 desplazó al Libro Tercero de la ley de seguridad pública, que aún conserva un catálogo distinto de modalidades.
+Al contratar, eso vuelve especialmente importantes dos cláusulas. La supervisión: desde dónde sale el supervisor de tu cuenta y con qué frecuencia pisa físicamente tu inmueble. Y la suplencia: cuántas horas tarda un reemplazo cuando el elemento asignado falta, porque en plazas dispersas ese plazo es la diferencia entre un turno cubierto y un punto vacío.
 
-## Si tu proveedor opera en más de un estado
+Ambas se piden por escrito y con número, no como declaración de intenciones.
 
-La autorización estatal solo ampara el territorio de Sonora. Cuando una empresa presta servicios en dos o más entidades federativas aplica además la Ley Federal de Seguridad Privada, cuya autorización es un documento distinto con vigencia de un año. Pide el que corresponda al lugar donde vas a recibir el servicio.
+## Revalidación anual
+
+Pide el documento del periodo en curso. Si está próximo a vencer, pregunta por el acuse del trámite de revalidación.
+
+## Si el servicio cruza a otra entidad
+
+La autorización estatal ampara el territorio de Sonora. Prestar servicio en dos o más entidades activa además el supuesto de la Ley Federal de Seguridad Privada, con documento propio. Cómo leer ambos está en la [guía de verificación](/guias/como-verificar-permiso-empresa-seguridad/).

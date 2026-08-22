@@ -18,22 +18,26 @@ fuentes:
   - titulo: "Reglamento de los Servicios Privados de Seguridad del Estado de Jalisco"
     url: "https://congresoweb.congresojal.gob.mx/bibliotecavirtual/legislacion/Reglamentos/Documentos_PDF-Reglamentos/Reglamento%20de%20los%20Servicios%20Privados%20de%20Seguridad%20del%20Estado%20de%20Jalisco.pdf"
 ---
+Jalisco regula la materia por vía reglamentaria y agrupa los servicios privados de seguridad en tres modalidades, un catálogo más compacto que el de la mayoría de las entidades.
 
-Consultar un proveedor de seguridad privada en **Jalisco** exige revisar el marco local: la autorización se otorga por entidad y por modalidad, y las reglas cambian de un estado a otro.
+## Un catálogo corto exige leer el alcance, no solo el nombre
 
-## Quién autoriza aquí
+Cuando las modalidades son pocas, cada una abarca más. Eso simplifica el trámite del proveedor y traslada el trabajo a quien contrata: el nombre de la modalidad dice menos sobre lo que realmente ampara.
 
-Jalisco no cuenta con una ley específica de seguridad privada. La materia se regula mediante el **Reglamento de los Servicios Privados de Seguridad del Estado de Jalisco**, en conjunto con la legislación estatal de seguridad pública.
+La forma de resolverlo es describir tu servicio por escrito antes de pedir cotizaciones y pedir que el proveedor señale, sobre su propio documento, bajo qué modalidad queda comprendido. Si duda, esa duda es información.
 
-La instancia que tramita y otorga la autorización es la **Dirección de Servicios Privados de Seguridad**, adscrita al Consejo Estatal de Seguridad Pública.
+## El refrendo se solicita en enero
 
-### Datos clave
+Es la particularidad operativa más importante de esta plaza. El refrendo anual se gestiona durante el mes de enero, lo que concentra todo el padrón en la misma ventana de trámite.
 
-- **Vigencia de la autorización:** Refrendo anual; se solicita durante enero.
-- **Modalidades reconocidas:** 3 (Art. 4). La autorización ampara solo las modalidades que declara, así que debe coincidir con el servicio que vas a contratar.
+Para quien contrata, eso se traduce en una regla simple: si estás firmando entre febrero y marzo, pregunta expresamente si el refrendo del año en curso ya se resolvió y pide el documento actualizado. Es el momento del año en que un permiso puede verse vigente en apariencia y estar pendiente de resolver.
 
-> Caso singular: la autorización la otorga el pleno del Consejo Estatal de Seguridad Pública por mayoría de dos terceras partes, no una dirección administrativa. Solo reconoce tres modalidades, el catálogo más reducido junto con Tlaxcala.
+## Guadalajara y su zona metropolitana
 
-## Si tu proveedor opera en más de un estado
+La demanda local se concentra en el área metropolitana, con una mezcla de corporativo, comercio, residencial en coto y un volumen relevante de eventos.
 
-La autorización estatal solo ampara el territorio de Jalisco. Cuando una empresa presta servicios en dos o más entidades federativas aplica además la Ley Federal de Seguridad Privada, cuya autorización es un documento distinto con vigencia de un año. Pide el que corresponda al lugar donde vas a recibir el servicio.
+Si lo que vas a contratar es seguridad para un evento, verifica que la modalidad ampare esa figura y que el proveedor haya operado antes en recintos de tamaño comparable. Es un servicio con curva de aprendizaje propia: los aforos, los accesos y los tiempos no se improvisan.
+
+## Si el servicio sale del estado
+
+La autorización local ampara Jalisco. Prestar en dos o más entidades activa además el supuesto federal, con documento aparte. Cómo revisar ambos está en la [guía de verificación](/guias/como-verificar-permiso-empresa-seguridad/).

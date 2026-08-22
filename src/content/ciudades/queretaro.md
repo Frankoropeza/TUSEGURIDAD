@@ -17,22 +17,26 @@ fuentes:
   - titulo: "Reglamento para la Prestación de Servicios de Seguridad Privada en Querétaro"
     url: "https://www.fiscaliageneralqro.gob.mx/Transparencia-A66/Leyes/Estatales/E069-ReglamentoPrestacionServiciosSegPrivadaEQro.pdf"
 ---
+Querétaro regula la seguridad privada por vía reglamentaria y no mediante una ley estatal específica de la materia. Para quien contrata, el efecto práctico es el mismo: hay una autorización, es verificable y tiene fecha de vencimiento.
 
-Consultar un proveedor de seguridad privada en **Querétaro** exige revisar el marco local: la autorización se otorga por entidad y por modalidad, y las reglas cambian de un estado a otro.
+## Qué implica que sea un reglamento
 
-## Quién autoriza aquí
+Nada que reste exigibilidad. El documento que debes pedir sigue siendo la autorización vigente, y sigue siendo válido preguntar quién la emitió, qué ampara y hasta cuándo.
 
-Querétaro no cuenta con una ley específica de seguridad privada. La materia se regula mediante el **Reglamento para la Prestación de Servicios de Seguridad Privada en el Estado de Querétaro**, en conjunto con la legislación estatal de seguridad pública.
+Lo que sí conviene saber es que la referencia normativa que citará el proveedor no será una ley de seguridad privada, así que no te desconciertes si el documento remite a un reglamento estatal. Lo que importa es que el papel exista, esté a nombre de quien te va a facturar y esté vigente.
 
-La instancia que tramita y otorga la autorización es la **Dirección de Servicios al Público y Seguridad Privada**, adscrita a la Secretaría de Seguridad Ciudadana del Estado.
+## El refrendo es anual
 
-### Datos clave
+La autorización se refrenda cada año. Es una vigencia corta, y eso juega a favor de quien contrata: un permiso reciente es más fácil de contrastar que uno emitido hace varios años.
 
-- **Vigencia de la autorización:** 1 año, refrendable anualmente.
-- **Registro estatal:** Registro Estatal de Empresas de Seguridad Privada.
+Aprovéchalo. Pide el documento con la fecha del último refrendo, no la del otorgamiento original.
 
-> Ninguno de los ordenamientos aplicables enumera modalidades como tales: el reglamento solo menciona cuatro tipos de servicio sin catalogarlos.
+## Un mercado industrial
 
-## Si tu proveedor opera en más de un estado
+La demanda local está fuertemente marcada por parques industriales, corredores logísticos y centros de distribución, lo que perfila proveedores acostumbrados a operar con controles documentales, accesos vehiculares y registro de maniobras.
 
-La autorización estatal solo ampara el territorio de Querétaro. Cuando una empresa presta servicios en dos o más entidades federativas aplica además la Ley Federal de Seguridad Privada, cuya autorización es un documento distinto con vigencia de un año. Pide el que corresponda al lugar donde vas a recibir el servicio.
+Si tu inmueble es de ese tipo, pregunta específicamente por control de acceso vehicular y por el registro de entradas y salidas de mercancía: es donde se concentran las diferencias entre proveedores en esta plaza. Si es un inmueble residencial u oficina, verifica que la consigna se redacte para ese uso y no se herede de un cliente industrial.
+
+## Y si el servicio sale del estado
+
+La autorización local ampara el territorio de Querétaro. Un servicio que se extienda a otra entidad cae además en el supuesto federal, con su propio documento. Cómo leer ambos está en la [guía de verificación](/guias/como-verificar-permiso-empresa-seguridad/).

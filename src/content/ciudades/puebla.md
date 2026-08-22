@@ -19,23 +19,28 @@ fuentes:
   - titulo: "Ley de Seguridad Privada del Estado Libre y Soberano de Puebla"
     url: "https://ojp.puebla.gob.mx/legislacion-del-estado/item/176-ley-de-seguridad-privada-del-estado-libre-y-soberano-de-puebla"
 ---
+Puebla tiene uno de los catálogos de modalidades más desagregados del país: nueve figuras distintas, cada una delimitando lo que la empresa puede hacer legalmente.
 
-Consultar un proveedor de seguridad privada en **Puebla** exige revisar el marco local: la autorización se otorga por entidad y por modalidad, y las reglas cambian de un estado a otro.
+## Más modalidades significa más precisión, y más margen de error
 
-## Quién autoriza aquí
+Un catálogo amplio es una ventaja para quien contrata, porque el permiso describe con detalle el servicio autorizado. También es la razón por la que aquí es especialmente importante leer esa parte del documento.
 
-La norma aplicable es la **Ley de Seguridad Privada del Estado Libre y Soberano de Puebla**.
+Una empresa puede tener autorización vigente y aun así no estar habilitada para lo que le vas a pedir. En una entidad con catálogo corto, una sola figura suele abarcar servicios vecinos; aquí, con el catálogo desagregado en nueve, la coincidencia exacta entre lo que necesitas y lo que ampara el permiso hay que confirmarla y no suponerla.
 
-La instancia que tramita y otorga la autorización es la **Dirección General de Seguridad Privada**, adscrita a la Secretaría de Seguridad Pública del Estado.
+Lleva a la conversación la descripción concreta del servicio: qué se cuida, en qué inmueble, con qué horario y si hay traslado de algo o protección a alguien en particular. Con esa descripción enfrente, la modalidad correcta se identifica sola.
 
-### Datos clave
+## La revalidación es anual
 
-- **Vigencia de la autorización:** 1 año, revalidable por periodos de 1 año.
-- **Modalidades reconocidas:** 9 (Art. 15). La autorización ampara solo las modalidades que declara, así que debe coincidir con el servicio que vas a contratar.
-- **Registro estatal:** Registro Estatal de Seguridad Privada.
+La autorización se otorga por un año y se revalida por periodos iguales. Pide el documento del periodo en curso, no el del año pasado con la promesa de que la renovación está en trámite.
 
-> Texto compilado con reformas hasta diciembre de 2025, de los marcos estatales más actualizados.
+Si el proveedor dice estar en proceso de revalidación, pide el acuse. Un trámite iniciado deja constancia; una intención, no.
 
-## Si tu proveedor opera en más de un estado
+## Antes de firmar
 
-La autorización estatal solo ampara el territorio de Puebla. Cuando una empresa presta servicios en dos o más entidades federativas aplica además la Ley Federal de Seguridad Privada, cuya autorización es un documento distinto con vigencia de un año. Pide el que corresponda al lugar donde vas a recibir el servicio.
+- Permiso vigente, con la modalidad que corresponde exactamente al servicio.
+- Titular del permiso igual a la razón social que factura.
+- Autorización federal si el servicio se presta también en otra entidad.
+- Registro REPSE de la empresa ante la Secretaría del Trabajo.
+- Póliza de responsabilidad civil vigente, con carátula a la vista.
+
+El orden completo de revisión está en la [guía para verificar el permiso](/guias/como-verificar-permiso-empresa-seguridad/).

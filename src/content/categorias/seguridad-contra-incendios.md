@@ -1,7 +1,7 @@
 ---
 nombre: Seguridad contra incendios
 descripcion: "Empresas de protección contra incendios: extintores, detección y alarma, hidrantes, rociadores, señalización y capacitación de brigadas."
-tituloSeo: Empresas de protección contra incendios en México
+tituloSeo: Empresas de protección contra incendios
 intro: >-
   La protección contra incendios no es opcional: los centros de trabajo en México están
   obligados a prevenir y controlar el riesgo de incendio conforme a normas oficiales.
@@ -62,23 +62,40 @@ fuentes:
   - titulo: Ley General de Protección Civil (Cámara de Diputados)
     url: https://www.diputados.gob.mx/LeyesBiblio/pdf/LGPC.pdf
 ---
-
 ## Qué cubre este rubro
 
-La **seguridad contra incendios** agrupa a las empresas que previenen, detectan y controlan incendios en inmuebles: venta y recarga de extintores, sistemas de detección y alarma, redes de hidrantes y rociadores, señalización de rutas de evacuación y capacitación de brigadas.
+La **seguridad contra incendios** agrupa a las empresas que previenen, detectan y controlan incendios en inmuebles: venta y recarga de extintores, sistemas de detección y alarma, redes de hidrantes y rociadores, señalización de rutas de evacuación, equipo de protección para brigadas y capacitación.
 
 A diferencia de la seguridad privada, este ramo no se rige por las leyes estatales de seguridad privada sino por **normas oficiales mexicanas** y por la normatividad de protección civil. La referencia central para cualquier centro de trabajo es la **NOM-002-STPS-2010**, que obliga a clasificar el grado de riesgo de incendio del inmueble y a dimensionar a partir de él los equipos, el plan de emergencias, las brigadas y los simulacros.
 
+Que no haya un permiso estatal como el de seguridad privada cambia la forma de evaluar proveedores. Aquí no existe un documento único que separe al formal del informal, así que la verificación se hace servicio por servicio, con la evidencia que a cada uno le corresponde.
+
 ## La obligación no es del proveedor: es tuya
 
-La norma laboral hace responsable al patrón de las condiciones de prevención y protección contra incendios de su centro de trabajo. El proveedor es el medio para cumplirla: quien clasifica el riesgo, instala y mantiene los equipos, capacita a la brigada y documenta todo el expediente.
+La norma laboral hace responsable al patrón de las condiciones de prevención y protección contra incendios de su centro de trabajo. El proveedor es el medio para cumplirla: quien clasifica el riesgo, instala y mantiene los equipos, capacita a la brigada y documenta el expediente.
 
-Esa es la vara para elegirlo. Un proveedor que cotiza sin visitar el inmueble, que no pregunta por el giro ni por los materiales que manejas, o que no entrega constancias y bitácoras, te deja el equipo pero no el cumplimiento.
+Esa es la vara para elegirlo. Un proveedor que cotiza sin visitar el inmueble, que no pregunta por el giro ni por los materiales que manejas, o que no entrega constancias y bitácoras, te deja el equipo pero no el cumplimiento. Y el día de una inspección, el equipo sin expediente cuenta poco.
+
+## Tres familias de servicio que se compran distinto
+
+Conviene no tratarlas como un paquete, aunque el mismo proveedor las ofrezca todas.
+
+**Extinción portátil.** Extintores: su selección por clase de fuego, su ubicación, el mantenimiento anual y la recarga. La recarga tiene norma propia, la **NOM-154-SCFI-2005**, y es donde se concentra el servicio simulado del ramo.
+
+**Sistemas fijos.** Detección y alarma, hidrantes, rociadores. Son proyectos de ingeniería: se diseñan sobre el inmueble, se entregan con plano y memoria, y viven o mueren según su programa de mantenimiento.
+
+**Operación y personal.** Capacitación de brigadas, simulacros, señalización y equipo de protección. Es la parte que convierte los equipos en una respuesta real, y la que más se pospone.
+
+Cada familia deja evidencia distinta. Pide la que corresponde a cada una por separado, incluso si firmas todo con la misma empresa el mismo día.
 
 ## El detalle que casi nadie revisa: la recarga
 
-El mantenimiento y la recarga de extintores es un servicio normado por la **NOM-154-SCFI-2005**. El equipo debe regresar etiquetado, con los datos del prestador y la fecha del servicio, y el prestador debe dejarte equipos de reposición mientras los tuyos están en taller.
+El mantenimiento y la recarga de extintores debe regresar el equipo etiquetado, con los datos del prestador y la fecha del servicio, y el prestador debe dejarte equipos de reposición mientras los tuyos están en taller.
 
-Es también donde más fraude hay en el ramo: recargas que solo cambian la etiqueta, polvo vencido o equipos despresurizados. Pesar el extintor, revisar el manómetro y exigir el rastro documental del servicio detecta la mayoría de estos casos.
+Es también donde más fraude hay en el ramo: recargas que solo cambian la etiqueta, agente vencido o equipos despresurizados. Pesar el extintor contra su carga nominal, revisar que el manómetro quede en zona operable y exigir el rastro documental del servicio detecta la mayoría de estos casos, y son tres comprobaciones que puedes hacer tú.
+
+## Por dónde empezar
+
+Si no tienes clasificado el riesgo de tu inmueble, ese es el primer entregable que conviene pedir, antes que cualquier cotización de equipo: la [guía de extintores para tu negocio](/guias/extintores-para-tu-negocio/) explica cómo se determina y qué se desprende de ahí. Si ya lo tienes y lo que sigue es contratar servicio, las páginas de [recarga y mantenimiento de extintores](/servicios/recarga-y-mantenimiento-de-extintores/) y de [detección y alarma contra incendios](/servicios/deteccion-y-alarma-contra-incendios/) detallan qué exigirle a cada proveedor.
 
 > Un extintor vencido o mal recargado es peor que no tener extintor: da la confianza de que hay con qué responder, exactamente hasta el momento en que se necesita.

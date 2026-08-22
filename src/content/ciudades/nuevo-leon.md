@@ -19,23 +19,26 @@ fuentes:
   - titulo: "Ley de Seguridad Privada para el Estado de Nuevo León"
     url: "https://www.hcnl.gob.mx/trabajo_legislativo/leyes/pdf/LEY%20DE%20SEGURIDAD%20PRIVADA%20PARA%20EL%20ESTADO%20DE%20NUEVO%20LEON.pdf"
 ---
+Nuevo León concentra en el área metropolitana de Monterrey una de las demandas corporativas e industriales más intensas del país, y su catálogo de ocho modalidades refleja esa variedad.
 
-Consultar un proveedor de seguridad privada en **Nuevo León** exige revisar el marco local: la autorización se otorga por entidad y por modalidad, y las reglas cambian de un estado a otro.
+## El perfil industrial marca el estándar
 
-## Quién autoriza aquí
+Buena parte de los proveedores locales opera para planta, parque industrial y centro de distribución. Eso tiende a elevar el estándar documental de la plaza: control de acceso vehicular, registro de maniobras, bitácoras y protocolos escritos son prácticas habituales, no diferenciadores.
 
-La norma aplicable es la **Ley de Seguridad Privada para el Estado de Nuevo León**.
+Conviene aprovecharlo. Si tu inmueble es industrial, pide desde la cotización que el proveedor describa cómo maneja el acceso de transportistas y el registro de entrada y salida de mercancía. Quien opera así lo contesta de inmediato.
 
-La instancia que tramita y otorga la autorización es la **Dirección de Control y Supervisión a Empresas y Servicios de Seguridad Privada**, adscrita a la Secretaría de Seguridad del Estado.
+Y si tu inmueble no es industrial, cuida el efecto contrario: que la consigna no llegue heredada de un cliente de planta. Un corporativo o un residencial necesitan otra cosa.
 
-### Datos clave
+## La modalidad, con ocho opciones
 
-- **Vigencia de la autorización:** 1 año, revalidable.
-- **Modalidades reconocidas:** 8 (Art. 17). La autorización ampara solo las modalidades que declara, así que debe coincidir con el servicio que vas a contratar.
-- **Registro estatal:** Registro Estatal de Empresas, Personal y Equipo de Seguridad Privada.
+La autorización se otorga por modalidad y solo ampara lo que declara. Con un catálogo de ocho figuras, la coincidencia entre el servicio contratado y la modalidad amparada hay que verificarla campo por campo.
 
-> Incorporó en 2023 una modalidad específica de seguridad privada en eventos masivos, poco frecuente en otras entidades.
+Es especialmente relevante cuando el servicio combina vigilancia de inmueble con traslado o con protección a personas: son figuras distintas y necesitan estar amparadas por separado.
 
-## Si tu proveedor opera en más de un estado
+## Revalidación anual
 
-La autorización estatal solo ampara el territorio de Nuevo León. Cuando una empresa presta servicios en dos o más entidades federativas aplica además la Ley Federal de Seguridad Privada, cuya autorización es un documento distinto con vigencia de un año. Pide el que corresponda al lugar donde vas a recibir el servicio.
+El permiso se otorga por un año y se revalida. Pide el correspondiente al periodo en curso y anota su vencimiento junto al contrato.
+
+## Antes de firmar
+
+Permiso vigente con la modalidad correcta, autorización federal si el servicio cruza a otra entidad, registro REPSE, altas del personal ante IMSS e INFONAVIT y póliza de responsabilidad civil. El detalle de cada documento está en la [guía para elegir una empresa de seguridad](/guias/como-elegir-empresa-seguridad/).

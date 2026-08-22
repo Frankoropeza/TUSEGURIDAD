@@ -165,7 +165,24 @@ const ciudades = defineCollection({
 const servicios = defineCollection({
   loader: glob({ pattern: '**/*.{md,mdx}', base: './src/content/servicios' }),
   schema: z.object({
+    /**
+     * Etiqueta corta del servicio. Es la llave de enlace: se usa en tarjetas,
+     * migas y bloques de relacionados, así que tiene que caber en una línea.
+     */
     titulo: z.string(),
+    /**
+     * H1 de la página. Puede extenderse más que `titulo` para plantear el
+     * ángulo editorial del artículo; si falta se usa `titulo`.
+     */
+    h1: z.string().optional(),
+    /**
+     * `<title>` de la pestaña y del resultado de búsqueda, sin el sufijo del
+     * sitio. Mismo motivo que en `serviciosEmpresa`: el H1 y el `<title>`
+     * tienen presupuestos distintos — el sufijo «| TuSeguridad» ya consume 14
+     * de los ~60 caracteres que Google muestra antes de truncar. Si falta se
+     * usa `titulo`.
+     */
+    tituloSeo: z.string().optional(),
     descripcion: z.string(),
     icono: z.string().optional(),
     destacado: z.boolean().default(false),
@@ -265,6 +282,14 @@ const guias = defineCollection({
   loader: glob({ pattern: '**/*.{md,mdx}', base: './src/content/guias' }),
   schema: z.object({
     titulo: z.string(),
+    /**
+     * `<title>` de la pestaña y del resultado de búsqueda, sin el sufijo del
+     * sitio. Mismo presupuesto que en las demás colecciones: el titular de la
+     * guía puede extenderse cuanto ayude al lector, pero el `<title>` compite
+     * por ~60 caracteres y «| TuSeguridad» ya consume 14. Si falta se usa
+     * `titulo`.
+     */
+    tituloSeo: z.string().optional(),
     descripcion: z.string(),
     fecha: z.coerce.date(),
     actualizado: z.coerce.date().optional(),

@@ -3,9 +3,9 @@ nombre: Control de acceso
 descripcion: Sistemas biométricos, tarjetas, torniquetes, barreras vehiculares y gestión de visitantes para controlar entradas y salidas.
 tituloSeo: Empresas de control de acceso en México
 intro: >-
-  Controlar quién entra es la medida de seguridad con mejor relación costo-resultado en
-  corporativos, fraccionamientos e industria. Este rubro está en preparación: aquí explicamos
-  qué revisar de un integrador de control de acceso mientras integramos su padrón.
+  Controlar quién entra es la medida con mejor relación entre costo y resultado en corporativos,
+  fraccionamientos e industria. También es la que más rápido se rompe cuando el sistema encodifica
+  una política que nadie escribió. Aquí está el criterio para evaluar a un integrador.
 icono: "🔐"
 destacada: false
 orden: 5
@@ -49,15 +49,42 @@ fuentes:
   - titulo: Ley Federal de Protección de Datos Personales en Posesión de los Particulares (Cámara de Diputados)
     url: https://www.diputados.gob.mx/LeyesBiblio/pdf/LFPDPPP.pdf
 ---
+## Qué reúne este rubro
 
-## Qué es este rubro
+La categoría de **control de acceso** agrupa a integradores de sistemas que administran entradas y salidas: lectores de tarjeta, biométricos, torniquetes, barreras vehiculares, cerraduras electrónicas y plataformas de gestión de visitantes.
 
-El **control de acceso** administra quién entra y sale de un inmueble: lectores biométricos, credenciales, torniquetes, barreras vehiculares y software de gestión de visitantes con bitácora consultable.
+Lo que instalan es hardware. Lo que en realidad implementan es una política, y ahí está el trabajo difícil.
 
-Es la medida con mejor relación costo-resultado en corporativos, fraccionamientos, escuelas e industria: la mayoría de los incidentes patrimoniales empiezan por un acceso que nadie controló. El sistema convierte la puerta en un registro — quién, por dónde, cuándo.
+## Primero la política, después el equipo
 
-## Donde falla el proyecto típico
+Un sistema de control de acceso obliga a contestar preguntas que la mayoría de las organizaciones tenía sin resolver: quién puede entrar a qué área, en qué horario, quién autoriza una excepción, qué pasa con un visitante recurrente, cómo se da de baja a alguien que dejó la empresa el viernes.
 
-Los sistemas de acceso no fallan por el lector: fallan por la operación. Credenciales de ex empleados sin dar de baja, puertas configuradas sin criterio ante corte de energía, bitácoras que solo el proveedor sabe extraer, y datos biométricos guardados sin las medidas que la normativa de datos personales exige para datos sensibles. Todo eso se define en el contrato, antes de instalar el primer lector.
+Si esas respuestas no existen antes de la instalación, el sistema las inventa por omisión. Y lo que suele ocurrir después es predecible: se otorgan permisos amplios «mientras se define», nadie los revisa, y a los seis meses medio directorio tiene acceso a todo.
 
-> Estamos integrando el padrón de este rubro. Si operas una empresa de control de acceso, puedes solicitar tu alta desde ahora.
+Un integrador serio empieza por levantar esa matriz de perfiles contigo. Uno que empieza por el catálogo de lectores está resolviendo la parte fácil.
+
+## La baja importa más que el alta
+
+Dar de alta a alguien es urgente y por eso siempre ocurre. Darlo de baja no le urge a nadie, y por eso se acumula.
+
+Pregunta al proveedor cómo se ejecuta una baja, quién puede hacerla, en cuánto tiempo surte efecto y si el sistema puede entregar un reporte de credenciales activas para revisarlo periódicamente. Esa revisión, hecha cada tanto, es lo que separa un control de acceso real de un registro histórico de buenas intenciones.
+
+## El biométrico es un dato personal, y de los delicados
+
+Cuando el sistema usa huella, rostro o cualquier otro rasgo, está tratando datos personales sujetos a la Ley Federal de Protección de Datos Personales en Posesión de los Particulares, con obligaciones que el responsable del inmueble no puede delegar del todo.
+
+Antes de elegir biométrico conviene contestar tres cosas: si la finalidad justifica usar ese tipo de dato en lugar de una credencial, cómo se informa a las personas y se recaba su consentimiento cuando corresponde, y dónde queda almacenada la plantilla biométrica y bajo qué protección.
+
+Hay una cuarta pregunta que casi nadie hace a tiempo: qué ocurre con esos datos si un día cambias de proveedor o de plataforma. Si la respuesta es que se quedan en un sistema al que perderás acceso, ese es un problema que conviene resolver en el contrato y no después.
+
+## Cuando conviven guardia y sistema
+
+En residenciales y corporativos, la configuración más común combina registro electrónico con personal en sitio. Funciona bien cuando cada uno hace lo suyo: el sistema documenta y el guardia resuelve lo que el sistema no puede.
+
+Funciona mal cuando el guardia termina supliendo a mano las fallas del sistema, porque entonces el registro deja de reflejar la realidad. Si vas por ese esquema, define en la consigna qué se hace exactamente cuando el lector no lee.
+
+## Antes de firmar
+
+Pide la matriz de perfiles y horarios documentada, el procedimiento de alta y baja con tiempos, las credenciales de administrador en tu poder, la exportación de tus propios registros en un formato abierto, el aviso de privacidad si hay biométricos y el programa de mantenimiento. Los torniquetes y las barreras son piezas mecánicas: se desgastan y hay que atenderlas.
+
+> Estamos integrando el padrón de este rubro. Si operas una empresa de control de acceso, puedes solicitar tu alta desde ahora y aparecer ante quien está buscando estos servicios en tu plaza.

@@ -3,9 +3,9 @@ nombre: Blindaje
 descripcion: Blindaje automotriz, arquitectónico y de puntos vulnerables con niveles de protección certificados.
 tituloSeo: Empresas de blindaje en México
 intro: >-
-  El blindaje se compra por nivel de protección, no por marca. Este rubro está en preparación:
-  aquí explicamos qué revisar de un blindador — automotriz o arquitectónico — mientras
-  integramos su padrón.
+  El blindaje se compra por nivel de protección, y ese nivel debería salir de una evaluación de
+  riesgo, no de un catálogo ni de una recomendación de pasillo. Aquí está el criterio para evaluar
+  a un blindador, automotriz o arquitectónico, antes de comprometer una obra difícil de deshacer.
 icono: "🚗"
 destacada: false
 orden: 6
@@ -45,15 +45,40 @@ fuentes:
   - titulo: Ley Federal de Seguridad Privada (Cámara de Diputados)
     url: https://www.diputados.gob.mx/LeyesBiblio/pdf/LFSP.pdf
 ---
+## Qué reúne este rubro
 
-## Qué es este rubro
+La categoría de **blindaje** agrupa a talleres y empresas que refuerzan vehículos, inmuebles y puntos vulnerables frente a impactos: blindaje automotriz, blindaje arquitectónico de muros y ventanas, puertas y cajas fuertes, y protección de puntos específicos como cajas, recepciones o casetas.
 
-El **blindaje** protege vehículos e inmuebles frente a agresiones mediante materiales balísticos especificados por nivel de protección: blindaje automotriz, arquitectónico y de puntos vulnerables como ventanillas y casetas.
+Son especialidades distintas con proveedores distintos. Un buen blindador automotriz no es automáticamente la opción correcta para una fachada, y al revés.
 
-Es una compra técnica que se decide con dos documentos: el análisis de la amenaza que enfrentas y el certificado balístico de los materiales. Todo lo demás — marca, acabados, plazos — viene después.
+## El nivel es la decisión, y no se elige por catálogo
 
-## La regla del rubro: papel antes que lámina
+Todo el proyecto se define en una sola variable: contra qué amenaza tiene que resistir. Los niveles de protección se expresan en escalas técnicas que describen qué calibre y qué energía de impacto detiene el material, y subir un nivel no es una mejora gradual: cambia el peso, el costo, el grosor y, en vehículos, el comportamiento completo del auto.
 
-Nivel certificado por laboratorio, garantía por escrito contra delaminación, especificación de refuerzos por el peso agregado, y trazabilidad si la unidad es usada. El blindador serio entrega ese expediente sin que se lo pelees; el resto vende lámina.
+Por eso la conversación seria empieza en la evaluación de riesgo y no en el nivel. Qué rutas se recorren, en qué horarios, qué tan expuesto está el inmueble, qué ha ocurrido antes en la zona. Un proveedor que recomienda un nivel sin haber preguntado nada de eso está vendiendo material.
 
-> Estamos integrando el padrón de este rubro. Si operas una empresa de blindaje, puedes solicitar tu alta desde ahora.
+Sobreblindar también tiene consecuencias. En un vehículo, el peso adicional afecta suspensión, frenos y consumo, y obliga a un plan de mantenimiento distinto. Conviene que ese costo posterior aparezca en la conversación antes de la compra, no después.
+
+## Pide evidencia del material, no del taller
+
+La afirmación que importa es qué detiene el material instalado, y esa afirmación debería estar respaldada por documentación de ensayo del propio material, no por la reputación de quien lo coloca.
+
+Pregunta qué materiales se van a usar, de qué origen, con qué evidencia de desempeño, y pide que esa información quede anotada en el contrato. Pregunta también qué garantía cubre el trabajo, por cuánto tiempo y qué la invalida.
+
+En blindaje automotriz conviene además preguntar qué se hace con los cristales, los pilares, las bisagras reforzadas y el tratamiento de las zonas de unión, porque el nivel de un vehículo lo determina su punto más débil y esos puntos suelen ser las uniones.
+
+## Lo que se hereda después de la instalación
+
+Un blindaje es una intervención difícil de revertir y que va a acompañar al bien durante años. Vale la pena resolver desde el principio quién le da mantenimiento, qué pasa si un cristal se daña, si hay refacciones disponibles y qué documentación queda en tu poder.
+
+Si algún día vendes el vehículo o el inmueble, esa documentación es lo que permite acreditar qué se hizo. Sin ella, el trabajo vale lo que el comprador quiera creer.
+
+## Dónde entra la seguridad privada regulada
+
+El blindaje en sí es un servicio de manufactura e instalación. Cuando el esquema incluye además protección a personas, custodia o traslado de valores, esos servicios sí caen en el terreno regulado por la Ley Federal de Seguridad Privada y exigen autorización por modalidad. Si tu proveedor ofrece el paquete completo, verifica cada parte con su propia documentación.
+
+## Antes de firmar
+
+Pide la evaluación de riesgo que sustenta el nivel recomendado, la especificación de materiales por escrito, la evidencia de desempeño del material, el alcance detallado de las zonas intervenidas, la garantía con sus exclusiones, el plan de mantenimiento y la documentación final del trabajo ejecutado.
+
+> Estamos integrando el padrón de este rubro. Si operas una empresa de blindaje automotriz o arquitectónico, puedes solicitar tu alta desde ahora y aparecer ante quien está buscando estos servicios en tu plaza.

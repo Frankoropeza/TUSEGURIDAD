@@ -3,9 +3,9 @@ nombre: Alarmas y monitoreo
 descripcion: Sistemas de alarma contra intrusión, sensores, sirenas y centrales de monitoreo 24/7 con respuesta a eventos.
 tituloSeo: Empresas de alarmas y monitoreo en México
 intro: >-
-  Una alarma vale lo que vale su respuesta. El equipo detecta; lo que contratas en realidad
-  es la central que verifica el evento, lo escala y te avisa. Este rubro está en preparación:
-  aquí explicamos qué revisar de un proveedor de alarmas y monitoreo mientras integramos su padrón.
+  Una alarma vale lo que vale su respuesta. El equipo detecta, pero lo que en realidad estás
+  contratando es la central que verifica el evento, decide si escala y avisa a alguien que puede
+  hacer algo. Aquí está el criterio para evaluar esa parte, que es la que casi nunca se cotiza.
 icono: "🚨"
 destacada: false
 orden: 4
@@ -45,15 +45,38 @@ fuentes:
   - titulo: Ley Federal de Seguridad Privada (Cámara de Diputados)
     url: https://www.diputados.gob.mx/LeyesBiblio/pdf/LFSP.pdf
 ---
+## Qué reúne este rubro
 
-## Qué es este rubro
+La categoría de **alarmas y monitoreo** agrupa a quienes instalan sistemas de detección de intrusión y a quienes operan las centrales que reciben esas señales: paneles, sensores de apertura y movimiento, sirenas, botones de pánico y el servicio de monitoreo que da sentido a todo lo anterior.
 
-Los sistemas de **alarma y monitoreo** protegen inmuebles mediante sensores de movimiento, contactos de puertas y ventanas, sirenas y un panel conectado a una central que verifica y escala los eventos las 24 horas.
+Son dos negocios distintos que suelen venderse juntos. Conviene evaluarlos por separado, porque un equipo excelente conectado a una central que no contesta no protege nada.
 
-Aunque se venda como producto, es un servicio regulado: la ley federal reconoce la instalación de alarmas y la administración de sus señales como una modalidad de la seguridad privada. Eso permite exigirle al proveedor lo mismo que a cualquier empresa del ramo — autorización, modalidad amparada y contrato claro.
+## Lo que compras es el procedimiento, no el panel
 
-## Lo que de verdad estás contratando
+Cuando un sensor se dispara, empieza una secuencia. La pregunta que decide la calidad del servicio es qué pasa en cada paso de esa secuencia, y merece respuestas concretas antes de firmar:
 
-El equipo es la parte visible; la respuesta es el servicio. Antes de firmar conviene tener por escrito el protocolo de escalamiento, saber si la central de monitoreo es propia o subcontratada, y confirmar cómo se prueban periódicamente los sensores. Un sistema que genera falsas alarmas termina generando respuestas ignoradas — el mantenimiento no es opcional.
+- **¿Quién verifica el evento y cómo?** Llamada al inmueble, verificación por video, contacto con una lista de personas autorizadas. Sin verificación, cada evento es una moneda al aire.
+- **¿En cuánto tiempo?** Pide el compromiso en minutos, por escrito.
+- **¿A quién se escala y en qué orden?** Una lista de contactos con su prioridad, que puedas actualizar tú cuando cambie el personal.
+- **¿Qué queda registrado?** Un histórico de eventos consultable es lo que permite discutir un caso concreto en vez de percepciones.
+- **¿Qué pasa si la línea se cae?** Un sistema que depende de una sola vía de comunicación se queda mudo justo cuando alguien la corta.
 
-> Estamos integrando el padrón de este rubro. Si operas una empresa de alarmas y monitoreo, puedes solicitar tu alta desde ahora.
+## Las falsas alarmas son el verdadero enemigo
+
+No por la molestia, sino por lo que provocan. Un sistema que se dispara sin motivo cada semana termina desconectado, ignorado o con zonas anuladas «temporalmente» durante meses.
+
+Casi siempre nacen de sensores mal elegidos o mal ubicados: un detector de movimiento apuntando a una ventana con reflejos, un contacto en una puerta que se mueve con el viento, una mascota en un área con sensor volumétrico. Es un problema de diseño, no de mala suerte, y por eso conviene revisar con el proveedor qué ocurre en cada área antes de colocar nada.
+
+Pregunta también qué hace la central cuando un mismo punto genera falsas alarmas repetidas. Un operador serio lo detecta y propone corregir el sensor. Uno que solo registra el evento va a seguir cobrando el monitoreo de un sistema que ya nadie atiende.
+
+## Dónde entra la seguridad privada regulada
+
+La instalación de un sistema de alarma es un servicio técnico. Cuando un tercero opera la vigilancia electrónica de tus instalaciones como servicio, esa operación se acerca al terreno regulado por la Ley Federal de Seguridad Privada, y con más razón si el esquema contempla el envío de personal a verificar el evento en sitio.
+
+Pregunta cómo opera la empresa, qué ampara su documentación y quién acude físicamente si hay que acudir. Si la respuesta es que se coordina con un tercero, pide saber con quién y con qué acreditación.
+
+## Antes de firmar
+
+Pide el diseño por área con la razón de cada sensor, el protocolo de verificación y escalamiento por escrito, los tiempos comprometidos, la vía de comunicación de respaldo, el acceso al histórico de eventos y el programa de mantenimiento con pruebas periódicas. Un sistema de intrusión que nadie prueba envejece igual que cualquier otro.
+
+> Estamos integrando el padrón de este rubro. Si operas una empresa de alarmas o una central de monitoreo, puedes solicitar tu alta desde ahora y aparecer ante quien está buscando estos servicios en tu plaza.
