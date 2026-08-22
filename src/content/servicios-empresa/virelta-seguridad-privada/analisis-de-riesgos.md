@@ -3,7 +3,7 @@ empresa: virelta-seguridad-privada
 slug: analisis-de-riesgos
 nombre: Análisis de riesgos
 titulo: Análisis de riesgos de seguridad en CDMX y Estado de México
-tituloSeo: Análisis de riesgos CDMX y Edomex
+tituloSeo: Análisis de riesgos de seguridad, CDMX
 descripcion: >-
   El diagnóstico que va antes de contratar guardias: recorrido del inmueble,
   puntos vulnerables y una propuesta de dispositivo que puedes comparar.

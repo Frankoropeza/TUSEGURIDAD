@@ -9,7 +9,7 @@ servicio: guardias-de-seguridad
 orden: 2
 titulos:
   incluye: Nueve cosas que respaldan al elemento de tu caseta
-  modalidades: Tres formas de cubrir el punto
+  modalidades: Cuatro formas de cubrir el punto
   paraQuien: Cada posición pide un perfil distinto
   proceso: ¿Cómo llega un guardia hasta tu comunidad?
   errores: Lo que le sale caro al condominio
@@ -102,6 +102,13 @@ modalidades:
       gente, y a cambio pide controles más estrictos para que la confianza no se coma el
       filtro. Es la modalidad que más piden los residentes y la que más disciplina exige
       del proveedor.
+  - titulo: Posición de apoyo en horas pico
+    texto: >-
+      Un elemento de turno parcial en las dos franjas que saturan el acceso, la salida de la mañana
+      y la llegada de paquetería y visitas al caer la tarde. Existe para que la posición fija no
+      abandone la pluma cada vez que hay que anunciar un paquete. Se cotiza por franja y con
+      horario escrito en la consigna, porque un apoyo sin horario definido termina cubriendo
+      pendientes de mantenimiento y no el acceso.
 paraQuien:
   - titulo: Pluma de acceso vehicular
     texto: >-

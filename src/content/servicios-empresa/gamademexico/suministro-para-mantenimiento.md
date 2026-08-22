@@ -107,6 +107,25 @@ errores:
     texto: Cambia la urgencia del envío. Un pedido correctivo con sistema fuera de servicio se coordina distinto a uno programado por calendario.
   - titulo: Comprar la refacción por precio sin revisar la compatibilidad
     texto: La pieza más barata que no cierra con el sistema instalado termina costando más en tiempo de reinstalación que la diferencia de precio original.
+glosario:
+  - termino: Válvula OS&Y
+    definicion: >-
+      Válvula de compuerta con vástago exterior y yugo. Desde fuera se ve si
+      está abierta o cerrada sin desarmar nada, y ese vástago expuesto es
+      justo la parte que se revisa por corrosión.
+  - termino: Válvula check
+    definicion: >-
+      Deja pasar el agua en un solo sentido y cierra sola si el flujo se
+      invierte. Es una de las piezas que más se piden como repuesto en
+      sistemas con años de operación.
+  - termino: Toma siamesa
+    definicion: >-
+      Conexión de dos entradas, normalmente en fachada, por donde se inyecta
+      agua a presión al sistema del inmueble desde una unidad externa.
+  - termino: Chiflón
+    definicion: >-
+      Nombre de gremio para la boquilla que se enrosca al extremo de la
+      manguera y define la forma del chorro, sólido o en niebla.
 entregables:
   - Refacción identificada y verificada contra el sistema instalado
   - Hoja técnica del componente enviado

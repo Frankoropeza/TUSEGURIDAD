@@ -3,7 +3,7 @@ empresa: virelta-seguridad-privada
 slug: prevencion-de-perdidas
 nombre: Prevención de pérdidas
 titulo: Prevención de pérdidas en tienda y almacén, CDMX y Edomex
-tituloSeo: Prevención de pérdidas CDMX y Edomex
+tituloSeo: Prevención de pérdidas en piso de venta
 descripcion: >-
   Cerramos los puntos por donde se va el producto: accesos y salidas de
   personal, maniobras de carga y descarga, y acompañamiento en inventarios.

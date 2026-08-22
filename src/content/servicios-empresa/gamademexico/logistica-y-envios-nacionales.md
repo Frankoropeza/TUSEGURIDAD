@@ -3,7 +3,7 @@ empresa: gamademexico
 slug: logistica-y-envios-nacionales
 nombre: Logística y envíos nacionales
 titulo: Logística y envíos nacionales de equipo contra incendio
-tituloSeo: Envíos de equipo contra incendio a obra
+tituloSeo: Envío de equipo contra incendio a obra, MX
 descripcion: >-
   Empaque reforzado para monitores y válvulas, entregas escalonadas por etapa
   de obra y cobertura de 24 a 48 horas en CDMX y Querétaro para todo tu pedido.

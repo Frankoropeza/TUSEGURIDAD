@@ -3,7 +3,7 @@ empresa: gamademexico
 slug: atencion-a-empresas-y-proyectos
 nombre: Atención a empresas y proyectos
 titulo: Suministro contra incendio para empresas, constructoras y licitaciones
-tituloSeo: Suministro contra incendio a empresas
+tituloSeo: Suministro contra incendio a empresas, CDMX
 descripcion: Cotización formal en menos de 24 horas hábiles para constructoras, ingenierías e instaladores certificados, con entregas escalonadas y factura CFDI 4.0.
 orden: 3
 titulos:

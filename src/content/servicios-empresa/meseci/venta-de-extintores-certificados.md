@@ -3,7 +3,7 @@ empresa: meseci
 slug: venta-de-extintores-certificados
 nombre: Venta de extintores certificados
 titulo: Venta de extintores certificados por tipo de fuego y capacidad
-tituloSeo: Extintores certificados PQS, CO2 y AFFF | MESECI
+tituloSeo: Extintores certificados PQS, CO2 y AFFF
 descripcion: >-
   Extintores de PQS, CO2, agua a presión, espuma AFFF, agente limpio y
   agente húmedo tipo K, elegidos por tipo de fuego y por giro de negocio.

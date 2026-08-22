@@ -69,6 +69,23 @@ incluye:
       desmontaje. El administrador del recinto señala una marca en el piso del
       andén y pregunta quién la hizo. Si nadie firmó cómo se recibió el lugar el
       lunes, esa marca la paga el organizador.
+modalidades:
+  - titulo: Ciclo completo, de la primera cuadrilla a la última caja
+    texto: >-
+      Montaje, horas muertas y desmontaje bajo una sola cobertura, con el mismo
+      inventario de ingreso y los mismos folios de salida de principio a fin. Es
+      lo que permite que el reporte de faltantes tenga contra qué compararse.
+  - titulo: Turnos sueltos por jornada
+    texto: >-
+      Se cubren nada más los bloques donde de verdad se mueve material: el día
+      que entra el equipo pesado, la madrugada del desmontaje. Se cotiza por
+      turno y por posición, y conviene levantar inventario al inicio aunque no
+      se cubra el calendario completo.
+  - titulo: Custodia nocturna entre jornadas
+    texto: >-
+      Solo las horas en que no hay trabajo y sí hay equipo dentro, con posición
+      fija en accesos y rondín de horario variable por las áreas de resguardo.
+      Es el bloque que se contrata cuando el recinto no se vacía entre días.
 paraQuien:
   - titulo: Productoras y casas de eventos
     texto: >-

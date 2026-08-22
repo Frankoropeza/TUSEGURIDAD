@@ -62,6 +62,13 @@ incluye:
       Cuántas posiciones, en qué punto, en qué horario, con qué apoyo tecnológico y
       qué riesgo cubre cada una. Con el costo desglosado y su equivalente por unidad
       privativa, que es la cifra con la que se vota.
+  - titulo: El reglamento vigente contra lo que se aplica en el punto
+    texto: >-
+      Leemos el reglamento que aprobó la asamblea y después miramos qué se hace de verdad en la
+      caseta. Horario de visitas, entrada de proveedores, uso de amenidades, mudanzas y obra
+      particular. Donde las dos versiones no coinciden hay un hueco, y ese hueco no se cierra con
+      una posición más. Se cierra con una regla que la asamblea actualice y que baje por escrito a
+      la consigna.
 modalidades:
   - titulo: Diagnóstico inicial antes de contratar
     texto: >-

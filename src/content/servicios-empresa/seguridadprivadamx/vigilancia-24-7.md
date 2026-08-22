@@ -3,7 +3,7 @@ empresa: seguridadprivadamx
 slug: vigilancia-24-7
 nombre: Vigilancia 24/7
 titulo: Vigilancia 24/7 para condominios y residenciales en CDMX y Estado de México
-tituloSeo: Vigilancia 24/7 en CDMX y Edomex
+tituloSeo: Vigilancia 24/7 por turnos, CDMX y Edomex
 descripcion: >-
   Guardias por turnos en tus condominios de CDMX y Edomex, con la misma consigna
   escrita, la misma bitácora y un supervisor zonal que sí llega de madrugada.

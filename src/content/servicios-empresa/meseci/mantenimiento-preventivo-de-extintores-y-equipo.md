@@ -3,7 +3,7 @@ empresa: meseci
 slug: mantenimiento-preventivo-de-extintores-y-equipo
 nombre: Mantenimiento preventivo de extintores y equipo
 titulo: Mantenimiento preventivo de extintores y equipo contra incendio
-tituloSeo: Mantenimiento preventivo de extintores en CDMX y Edomex
+tituloSeo: Mantenimiento de extintores, CDMX y Edomex
 descripcion: Revisión periódica de presión, sello y estado físico de extintores según la NOM-154, con registro documental listo para Protección Civil.
 orden: 5
 titulos:

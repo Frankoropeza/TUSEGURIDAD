@@ -3,7 +3,7 @@ empresa: seguridadprivadamx
 slug: control-de-accesos
 nombre: Control de accesos
 titulo: Control de accesos con registro digital, biométrico y lectura de placas en CDMX y Edomex
-tituloSeo: Control de accesos en condominios CDMX
+tituloSeo: Control de accesos con padrón vivo, CDMX
 descripcion: >-
   Registro digital con foto, biométrico para residentes, lectura de placas y
   autorización desde la app, con plan B escrito para el día que el equipo no lee.
@@ -193,6 +193,27 @@ errores:
       Un control caro en el acceso formal y una reja de servicio con candado abierto conviven en
       más inmuebles de los que uno creería. El filtro registra a quien decidió dejarse
       registrar.
+glosario:
+  - termino: Padrón
+    definicion: >-
+      La lista de quién y qué está autorizado hoy. Residentes, vehículos,
+      personal doméstico y proveedores recurrentes, cada uno con su vigencia. Es
+      el documento que decide si el equipo abre bien o abre mal.
+  - termino: Cruce
+    definicion: >-
+      Cada entrada o cada salida asentada con hora, imagen y quién autorizó. Es
+      la unidad mínima del registro. Un sistema que solo cuenta llegadas no te
+      permite saber quién seguía adentro.
+  - termino: Tasa de lectura
+    definicion: >-
+      Qué proporción de intentos resuelve el equipo al primer intento. Baja con
+      el polvo de una obra dentro del predio, con el frío y con el sol de frente
+      al atardecer. Cuando ella baja, lo que sube es la fila en la banqueta.
+  - termino: Respaldo asistido
+    definicion: >-
+      El procedimiento manual que se aplica cuando un método no lee. Con formato
+      impreso en el punto y el elemento entrenado, es una excepción registrada.
+      Sin eso, es una puerta que se abrió y que nadie anotó.
 entregables:
   - Consigna escrita del punto de acceso, con el plan B de cada método
   - Padrón vigente de residentes, vehículos y proveedores autorizados

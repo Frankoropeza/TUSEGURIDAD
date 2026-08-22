@@ -3,7 +3,7 @@ empresa: gamademexico
 slug: orientacion-para-instalacion
 nombre: Orientación técnica para instalación
 titulo: Orientación técnica para instalación de componentes contra incendio
-tituloSeo: Orientación técnica para instalación
+tituloSeo: Orientación técnica para instalación, CDMX
 descripcion: >-
   Te decimos qué puede montar tu propio personal y cuándo hace falta un
   instalador especializado. GAMA no manda cuadrilla ni cobra horas de
@@ -72,6 +72,27 @@ modalidades:
       documentación, no la mano de obra.
   - titulo: Orientación de seguimiento tras la entrega
     texto: Si después de instalado algo no calza o no sella como debería, se revisa si el origen es el componente o la instalación, antes de mandar una pieza nueva.
+paraQuien:
+  - titulo: Encargado de mantenimiento que va a montar la pieza con personal propio
+    texto: >-
+      Un gabinete que se fija a muro o una manguera con acople Storz los
+      resuelve su propio equipo, siempre que tenga la hoja técnica y el dato
+      de rosca antes de empezar.
+  - titulo: Residente de obra que ya contrató a su instalador
+    texto: >-
+      Necesita que el componente llegue documentado y compatible, para que el
+      instalador no descubra en sitio que la brida no calza con la tubería
+      que ya está montada.
+  - titulo: Constructora que debe separar suministro y mano de obra en el anexo técnico
+    texto: >-
+      La licitación pide decir quién instala. Lo aclaramos por escrito antes
+      de cerrar la partida, para que la responsabilidad del montaje quede
+      asignada a quien sí la ejecuta.
+  - titulo: Comprador con obra fuera del Valle de México y Querétaro
+    texto: >-
+      La orientación se da igual por teléfono o WhatsApp. Lo que cambia con
+      la distancia es el plazo de envío del componente, no el acompañamiento
+      técnico.
 proceso:
   - titulo: Nos compartes la memoria de cálculo o el dato del sistema
     texto: Diámetro de tubería, presión de trabajo y gasto requerido, si ya los tienes definidos.

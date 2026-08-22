@@ -3,7 +3,7 @@ empresa: lga-contra-incendios
 slug: asesoria-tecnica-y-diagnostico-de-riesgo
 nombre: Asesoría técnica y diagnóstico de riesgo
 titulo: Asesoría técnica y diagnóstico de riesgo de incendio en Querétaro
-tituloSeo: Asesoría técnica contra incendios Qro
+tituloSeo: Asesoría y diagnóstico de riesgo, Querétaro
 descripcion: >-
   Visita técnica al inmueble para clasificar el riesgo de incendio por área y
   definir equipo, cantidad y ubicación antes de cualquier cotización.

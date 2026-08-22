@@ -3,7 +3,7 @@ empresa: sepriev-seguridad-para-eventos
 slug: eventos-corporativos
 nombre: Eventos corporativos
 titulo: Seguridad para eventos corporativos en CDMX, Monterrey, Guadalajara y Cancún
-tituloSeo: "Seguridad para eventos corporativos"
+tituloSeo: Seguridad para eventos corporativos, CDMX
 descripcion: >-
   Cobertura discreta para convenciones, lanzamientos y juntas de consejo, con filtro
   por acreditación, mapa de zonas y el mismo formato en cada sede.
@@ -173,6 +173,27 @@ errores:
       gafete, tres criterios de acceso y tres reportes que no se pueden comparar.
       El área de eventos termina siendo la única que sabe cómo va todo, y ese
       conocimiento no queda escrito en ningún lado.
+glosario:
+  - termino: Padrón de acreditados
+    definicion: >-
+      La lista previa contra la cual se verifica en la puerta, con nombre, empresa
+      y categoría de acceso. Sin padrón no hay filtro: hay una recepción que
+      saluda.
+  - termino: Mapa de zonas
+    definicion: >-
+      El plano del piso con tres marcas: área abierta a todo asistente, área que
+      pide gafete de categoría y área a la que nadie entra sin acompañamiento. Es
+      la decisión que toma el cliente antes de mandar a imprimir credenciales.
+  - termino: Gafete de categoría
+    definicion: >-
+      Credencial que además de identificar dice a qué zonas entra quien la trae,
+      casi siempre por color. Un gafete que solo trae el nombre identifica, pero
+      no controla zona.
+  - termino: Puesto de transmisión
+    definicion: >-
+      El punto desde donde se controla la señal de un evento híbrido, con la
+      consola y el enlace. Se trata como zona restringida propia, porque ahí se
+      decide lo que están viendo los que no están en la sala.
 entregables:
   - Mapa de zonas con niveles de acceso y categorías de gafete
   - Consigna escrita por sede, con el programa hora por hora

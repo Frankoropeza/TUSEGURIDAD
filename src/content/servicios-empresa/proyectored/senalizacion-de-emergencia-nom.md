@@ -3,7 +3,7 @@ empresa: proyectored
 slug: senalizacion-de-emergencia-nom
 nombre: Señalización de emergencia NOM
 titulo: Señalización de emergencia NOM-003 en CDMX y Estado de México
-tituloSeo: Señalización de emergencia NOM en CDMX
+tituloSeo: Señalización de emergencia NOM, CDMX y Edomex
 descripcion: >-
   Señalamiento fotoluminiscente NOM-003 y PVC estándar, con precio de
   referencia desde 35 pesos por pieza. Cotización final confirmada

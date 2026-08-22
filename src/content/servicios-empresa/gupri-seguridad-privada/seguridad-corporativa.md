@@ -3,7 +3,7 @@ empresa: gupri-seguridad-privada
 slug: seguridad-corporativa
 nombre: Seguridad corporativa
 titulo: Seguridad corporativa para oficinas, torres y parques empresariales
-tituloSeo: Seguridad corporativa para oficinas
+tituloSeo: Seguridad corporativa para oficinas y torres
 descripcion: >-
   Recepción con criterio, flujo separado de empleados y externos, control por
   piso en edificios de varios inquilinos y un registro de accesos consultable.

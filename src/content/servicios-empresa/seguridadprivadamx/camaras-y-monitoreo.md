@@ -3,7 +3,7 @@ empresa: seguridadprivadamx
 slug: camaras-y-monitoreo
 nombre: Cámaras y monitoreo
 titulo: Cámaras y monitoreo para condominios en CDMX y Edomex
-tituloSeo: Cámaras con monitoreo en central, CDMX
+tituloSeo: Cámaras y monitoreo en central 24/7, CDMX
 descripcion: >-
   Tus cámaras ya graban. Lo que falta es que alguien las mire, que el video viva
   en la nube y que el respaldo del día del incidente se pueda exportar.

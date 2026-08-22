@@ -3,7 +3,7 @@ empresa: gamademexico
 slug: asesoria-tecnica-sin-costo
 nombre: Asesoría técnica sin costo
 titulo: Asesoría técnica sin costo para especificar componentes contra incendio
-tituloSeo: Asesoría técnica gratuita | GAMA México
+tituloSeo: Asesoría técnica sin costo para tu proyecto
 descripcion: >-
   Evaluamos clase de riesgo, gasto y presión antes de vender nada. Asesoría
   sin costo, sin obligación de compra, respuesta en menos de 24 horas

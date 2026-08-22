@@ -3,7 +3,7 @@ empresa: seprico-seguridad-privada-condominios
 slug: control-biometrico-y-credencializacion
 nombre: Control biométrico y credencialización
 titulo: Control biométrico y credencialización de residentes en CDMX y Estado de México
-tituloSeo: Control biométrico en condominios CDMX
+tituloSeo: Control biométrico y credenciales, condominios
 descripcion: "Huella, rostro, RFID o tag vehicular en condominios de CDMX y Edomex, con el padrón, las vigencias y la base de residentes bajo control del comité."
 orden: 6
 titulos:
@@ -89,6 +89,35 @@ modalidades:
       constancia del vehículo aunque el tag falle, venga prestado o llegue en otro
       auto. Juntos son lo que quita la fila del acceso vehicular en privadas de Santa
       Fe y Bosque Real sin renunciar al registro.
+paraQuien:
+  - titulo: Comunidades que van a retirar la llave o el control remoto
+    texto: >-
+      Nadie sabe cuántos controles de la pluma circulan hoy ni en manos de
+      quién, porque llevan años copiándose entre vecinos y entre inquilinos. La
+      migración a credencial sirve justamente para volver a saberlo. La decisión
+      difícil no es técnica, es la fecha en que se corta el método viejo, y esa
+      se vota en asamblea y se asienta en acta.
+  - titulo: Desarrollos con personal doméstico y servicios recurrentes
+    texto: >-
+      Trabajadores del hogar, enfermeras, entrenadores, paseadores de perros y el
+      maestro que da clase los martes. De ahí sale buena parte de las
+      credenciales de cualquier padrón y también la mayor parte de las que nadie
+      dio de baja. Lo que se contrata aquí no es el lector, es la regla de
+      vigencia y la evidencia con que se renueva.
+  - titulo: Conjuntos de varias torres con áreas comunes compartidas
+    texto: >-
+      Un solo padrón, varias administraciones y una asamblea general que decide
+      sobre la alberca y el estacionamiento de visitas. Hay que dejar por escrito
+      quién autoriza el alta de un residente de la torre B en un lector que
+      sostiene el régimen completo. Si no, el primer conflicto se resuelve en la
+      caseta a las nueve de la noche y con el guardia de intermediario.
+  - titulo: Condominios sin caseta las 24 horas
+    texto: >-
+      Cuando el turno de guardia termina a las diez, el lector deja de ser un
+      apoyo y pasa a ser el filtro completo. Eso cambia lo que hay que exigirle.
+      Batería de respaldo, apertura registrada aunque no haya nadie mirando y un
+      procedimiento de excepción que no dependa de que alguien conteste el
+      teléfono a media madrugada.
 proceso:
   - titulo: Primero las reglas, luego la cotización
     texto: >-

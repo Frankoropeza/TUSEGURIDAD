@@ -3,7 +3,7 @@ empresa: gamademexico
 slug: garantia-y-respaldo-tecnico
 nombre: Garantía y respaldo técnico
 titulo: Garantía de fabricante y respaldo técnico en español para tu componente
-tituloSeo: Garantía y respaldo técnico | GAMA
+tituloSeo: Garantía y respaldo técnico de equipo, CDMX
 descripcion: >-
   Certificado UL o FM, hoja técnica y manual en español, con soporte
   postventa por componente. La garantía es del fabricante, declarada antes
@@ -77,6 +77,32 @@ paraQuien:
     texto: Al tomar un inmueble o una planta con componentes ya instalados, sin saber si tienen garantía vigente ni con quién reclamarla.
   - titulo: Ingeniero que valida especificación antes de aprobar la compra
     texto: Revisa la hoja técnica contra el proyecto antes de autorizar el pedido, no después de que la pieza llega a obra.
+proceso:
+  - titulo: Confirmación de la especificación antes de facturar
+    texto: >-
+      Se coteja el modelo cotizado contra la hoja técnica del fabricante,
+      para que lo que después queda documentado sea exactamente el
+      componente que se va a instalar.
+  - titulo: Verificación de la pieza y registro de número de serie
+    texto: >-
+      Antes de despachar, el componente se compara físicamente con la ficha
+      que se cotizó y se anota su número de serie o lote en el registro de
+      la venta.
+  - titulo: Entrega del componente con su expediente documental
+    texto: >-
+      Certificado UL o FM, hoja técnica y manual de instalación y operación
+      en español, con la factura CFDI 4.0 que fija la fecha de compra desde
+      la que corre la garantía del fabricante.
+  - titulo: Soporte postventa desde el día de la entrega
+    texto: >-
+      Dudas de par de apriete, compatibilidad de rosca o lectura de un dato
+      de la ficha se resuelven por teléfono, WhatsApp o correo, sin abrir
+      ningún caso de garantía.
+  - titulo: Reporte del defecto y seguimiento ante el fabricante
+    texto: >-
+      Si aparece una falla de origen dentro del periodo de garantía, con
+      fotos y número de serie se arma el reclamo y GAMA de México lo
+      presenta y le da seguimiento hasta que el fabricante responde.
 errores:
   - titulo: Confundir el certificado del producto con una certificación de GAMA
     texto: >-

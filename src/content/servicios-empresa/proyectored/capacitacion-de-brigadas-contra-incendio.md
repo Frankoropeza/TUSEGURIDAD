@@ -3,7 +3,7 @@ empresa: proyectored
 slug: capacitacion-de-brigadas-contra-incendio
 nombre: Capacitación de brigadas contra incendio
 titulo: Capacitación de brigadas contra incendio con constancia DC-3 en CDMX y Edomex
-tituloSeo: Capacitación de brigadas con DC-3
+tituloSeo: Capacitación de brigadas con DC-3, CDMX
 descripcion: >-
   Curso con fuego real controlado y constancia DC-3 ante la STPS, en tu
   inmueble en CDMX o el Edomex. Grupos de 8 a 15 personas, extintor real
@@ -65,6 +65,27 @@ modalidades:
     texto: Grupos chicos, para no esperar a la siguiente fecha del calendario general cuando entra personal que aún no tiene DC-3.
   - titulo: Reforzamiento para brigadas ya formadas
     texto: Repaso más corto para quien ya tomó el curso básico antes, cuando ha pasado más de un año desde la última sesión.
+paraQuien:
+  - titulo: Centros de trabajo que todavía no tienen el DC-3 de su personal
+    texto: >-
+      El expediente de capacitación existe, pero adentro no hay una sola
+      constancia con folio individual. Es el punto de partida más común y
+      lo primero que se revisa cuando llega protección civil.
+  - titulo: Empresas que están armando su programa interno de protección civil
+    texto: >-
+      No buscan constancias sueltas, buscan roles asignados. Quién corta la
+      energía, quién guía la evacuación, quién toma el extintor primero. Ahí
+      el curso básico se queda corto y entra el programa completo.
+  - titulo: Inmuebles con personal repartido en varios turnos
+    texto: >-
+      Una nave que opera de noche y una oficina que solo trabaja de día no
+      caben en la misma sesión. Se programan fechas por turno para que la
+      brigada no exista únicamente en el horario matutino.
+  - titulo: Empresas con rotación alta que ya capacitaron una vez
+    texto: >-
+      La brigada del expediente se formó hace dos años y desde entonces
+      cambió la mitad del personal. El documento sigue archivado; el grupo
+      que describe, ya no está completo.
 proceso:
   - titulo: Contacto y definición de grupo
     texto: Número de participantes, sede y si es curso básico o programa completo de brigada.

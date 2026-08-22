@@ -3,7 +3,7 @@ empresa: gupri-seguridad-privada
 slug: vigilancia-24-horas
 nombre: Vigilancia 24 horas
 titulo: Vigilancia 24 horas con rol de turnos, relevo y suplencia por escrito
-tituloSeo: Vigilancia 24 horas con relevo real
+tituloSeo: Vigilancia 24 horas con relevo real y bitácora
 descripcion: >-
   Cubrir el día entero no es poner a alguien más. Es el rol, el relevo
   documentado y quién llega cuando falta uno el domingo de puente a las cinco
@@ -202,6 +202,27 @@ errores:
       Si el supervisor trabaja de nueve a seis, las otras quince horas del día
       no tienen a quién escalar. En una cobertura continua, eso es la mayor
       parte del contrato.
+glosario:
+  - termino: Posición
+    definicion: >-
+      Un punto que tiene que estar ocupado durante determinadas horas, no una persona.
+      Tres posiciones cubiertas todo el día no son tres contrataciones, y confundir las
+      dos cosas es de donde salen las propuestas cuyo rol no cierra.
+  - termino: Factor de cobertura
+    definicion: >-
+      Las personas de más que consume una posición continua una vez que se suman
+      descansos semanales, vacaciones e incapacidades. Es el número que una cotización
+      barata prefiere no poner por escrito, porque es el que la encarece.
+  - termino: Relevo
+    definicion: >-
+      El cambio de turno con traspaso de llaves, radio y pendientes, firmado por quien
+      sale y por quien entra. Cuando ocurre de palabra en el estacionamiento, después
+      nadie puede decir en qué turno apareció el faltante.
+  - termino: Banca de la plaza
+    definicion: >-
+      Los elementos disponibles que el proveedor tiene en esa ciudad para cubrir una
+      falta. No es lo mismo que la plantilla asignada a tu sitio, y es lo que decide si
+      el domingo de puente llega un relevo o dobla el que ya iba de salida.
 entregables:
   - Rol de turnos mensual con nombre por posición y por día
   - Consigna diferenciada por turno y para fin de semana

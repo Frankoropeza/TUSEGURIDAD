@@ -3,7 +3,7 @@ empresa: seprico-seguridad-privada-condominios
 slug: control-de-acceso-vehicular-y-peatonal
 nombre: Control de acceso vehicular y peatonal
 titulo: Control de acceso vehicular y peatonal en condominios de CDMX y Estado de México
-tituloSeo: Control de acceso en condominios CDMX
+tituloSeo: Control de acceso vehicular y peatonal, CDMX
 descripcion: "Filtro de acceso peatonal y vehicular para condominios en CDMX y Edomex: validamos con el residente antes de abrir, registro digital y lectura de placas."
 orden: 3
 titulos:
@@ -64,6 +64,13 @@ incluye:
       el sistema se define dónde se guarda, cuánto tiempo se conserva, quién puede
       consultarlo y qué aviso de privacidad se publica en el punto de control.
       También qué pasa con esa base el día que el contrato termine.
+  - titulo: Apertura para emergencia y para autoridad
+    texto: >-
+      Una ambulancia, los bomberos, la cuadrilla de gas o una patrulla no esperan a que el
+      interfón conteste. La consigna define quién abre, por qué carril entra, cómo se libera la
+      pluma cuando no hay energía y a quién de la administración se le avisa en ese mismo momento.
+      El ingreso se asienta después, con hora y motivo. Es una excepción al filtro y por eso se
+      redacta antes de necesitarla, aprobada por la mesa directiva junto con el reglamento.
 modalidades:
   - titulo: Caseta atendida las 24 horas
     texto: >-

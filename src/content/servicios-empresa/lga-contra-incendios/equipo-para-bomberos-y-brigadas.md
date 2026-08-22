@@ -60,6 +60,19 @@ incluye:
     texto: >-
       Declaramos distribución de la marca para esta línea. Sin número de contrato de
       distribución publicado.
+modalidades:
+  - titulo: Equipamiento de brigada completa
+    texto: >-
+      Levantamiento de tallas de todos los integrantes y entrega del conjunto certificado por
+      persona, con la prueba de ajuste hecha antes de dar el equipo por recibido.
+  - titulo: Reposición por pieza o por integrante
+    texto: >-
+      Cuando entra alguien nuevo a la brigada o una pieza llega al final de su vida útil, se
+      repone verificando que certifique junto con el resto del conjunto que ya está en uso.
+  - titulo: Programa de inspección y mantenimiento del equipo entregado
+    texto: >-
+      Calendario propio para el traje y para el equipo de respiración autónoma, con revisión de
+      costuras, capas y sellos por un lado, y de cilindro, regulador y válvula por el otro.
 paraQuien:
   - titulo: Brigada industrial de una planta con riesgo de proceso
     texto: >-

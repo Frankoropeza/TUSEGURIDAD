@@ -105,6 +105,30 @@ modalidades:
       amenidades, o el acceso se vuelve una recepción de hotel que nadie contrató. Si la
       asamblea todavía no decide qué permite, conviene que lo decida antes de que
       arranque el servicio.
+paraQuien:
+  - titulo: Administraciones que acaban de recibir el condominio
+    texto: >-
+      La desarrolladora se retiró, la mesa directiva tomó el control y en el paquete
+      venía un contrato de vigilancia escrito para cuidar obra. Antes de renovarlo por
+      inercia hay que leerlo completo, empezando por a nombre de quién está.
+  - titulo: Mesas directivas que van a contratar por primera vez
+    texto: >-
+      Nunca han pedido una propuesta de seguridad y tienen que llevar la decisión a
+      asamblea. Lo que necesitan no es una cifra por teléfono, es el desglose por
+      posición y por turno, que es lo único que se puede poner al lado de otra
+      cotización sin traducir nada.
+  - titulo: Torres que hoy atiende un proveedor de perfil industrial
+    texto: >-
+      El servicio funciona en lo administrativo y falla en el lobby, porque la
+      consigna se copió de un anexo de planta y el elemento llegó capacitado para
+      revisar contratistas. No siempre hay que cambiar de proveedor. Casi siempre hay
+      que cambiar la consigna y la preparación del personal.
+  - titulo: Administradores profesionales con varios desarrollos en la misma plaza
+    texto: >-
+      Llevan tres o cuatro condominios y hoy comparan reportes que no se parecen entre
+      sí, porque cada proveedor clasifica las novedades a su manera y corta el periodo
+      cuando puede. Con el mismo catálogo de incidentes y el corte en fecha fija, la
+      comparación deja de hacerse a mano.
 proceso:
   - titulo: Levantamiento del inmueble, de noche y en fin de semana
     texto: >-

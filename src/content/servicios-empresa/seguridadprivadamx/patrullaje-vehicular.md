@@ -92,6 +92,33 @@ modalidades:
       Ventanas acotadas con motivo escrito: la etapa nueva en obra, la semana de
       Navidad y Año Nuevo en que se vacía medio coto, el mes de las mudanzas
       cuando entrega el desarrollador.
+paraQuien:
+  - titulo: Cotos y fraccionamientos con vialidad interna larga
+    texto: >-
+      Dos, tres o seis calles adentro de la pluma. Una posición fija cubre el
+      acceso y poco más, y el fondo del circuito queda a varios minutos a pie de
+      la caseta. Aquí el servicio se dimensiona por metros de vialidad y por
+      cuántos frentes quedan fuera de la vista desde el acceso.
+  - titulo: Etapas todavía en entrega
+    texto: >-
+      Media sección habitada y media con casas vacías que guardan acabados,
+      cableado y muebles de baño sin instalar. El desarrollador ya se
+      desentendió de la vigilancia y la mesa directiva apenas se está formando.
+      Son los meses en que más rinde un pase nocturno y en los que casi nadie lo
+      tiene contratado.
+  - titulo: Administraciones con varios inmuebles a tiro
+    texto: >-
+      Tres desarrollos en Lomas Verdes, Valle Dorado y Echegaray se pueden
+      montar sobre una misma ruta zonal, con pases pactados para cada uno y la
+      misma bitácora. Es el caso en que el patrullaje deja de ser un gasto suelto
+      por cuenta y empieza a ser comparable entre las tres.
+  - titulo: Verticales cuyo problema está afuera
+    texto: >-
+      Torres donde el lobby ya está resuelto y lo que queda suelto es lo de
+      afuera. Cajones de visita sobre la calle, acceso de servicio a media
+      lateral, rampa que baja al sótano sin nadie encima después de las diez. La
+      unidad cubre el exterior que la caseta no alcanza a mirar sin abandonar el
+      filtro.
 proceso:
   - titulo: Recorrer el circuito de noche
     texto: >-

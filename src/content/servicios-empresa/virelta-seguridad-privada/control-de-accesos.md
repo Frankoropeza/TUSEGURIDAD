@@ -69,6 +69,29 @@ incluye:
       La administración recibe lo asentado sin tener que pedirle memoria a nadie.
       Si en marzo alguien pregunta qué pasó el 14 de diciembre, la respuesta está
       en el archivo y no en el recuerdo de un guardia que ya no trabaja aquí.
+modalidades:
+  - titulo: Posición de 24 horas
+    texto: >-
+      El punto no cierra. Se cubre con varios elementos rotando por turnos y con
+      la misma consigna en los tres, de modo que el criterio del domingo a las
+      cuatro de la mañana sea el mismo que el del lunes a mediodía.
+  - titulo: Cobertura por franja horaria
+    texto: >-
+      Solo la noche, solo el fin de semana, solo el horario de oficina. Sirve
+      cuando el riesgo del inmueble se concentra en unas horas y el resto del día
+      hay alguien más en la puerta. Hay que dejar escrito qué pasa con el acceso
+      en las horas sin cobertura, porque esa es la pregunta que llega después.
+  - titulo: Peatonal y vehicular en una sola posición
+    texto: >-
+      Cuando la pluma y el acceso de personas están pegados y el flujo lo
+      permite, un elemento atiende los dos con un orden de atención definido por
+      escrito. Si están separados, o si la hora pico de los dos se encima, son
+      dos posiciones y no hay forma de estirar una.
+  - titulo: Refuerzo temporal con vigencia por fechas
+    texto: >-
+      Obra dentro del predio, remodelación de áreas comunes, mudanzas de fin de
+      mes, temporada alta de un local. Se suma una posición con fecha de inicio y
+      de cierre, y los pases que se emiten para ese periodo caducan con ella.
 paraQuien:
   - titulo: Torres y condominios verticales
     texto: >-

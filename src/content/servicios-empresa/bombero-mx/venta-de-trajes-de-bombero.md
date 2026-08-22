@@ -3,7 +3,7 @@ empresa: bombero-mx
 slug: venta-de-trajes-de-bombero
 nombre: Venta de trajes de bombero
 titulo: Venta de trajes de bombero estructurales, forestales y HAZMAT en CDMX
-tituloSeo: "Venta de trajes de bombero en CDMX | BOMBERO.MX"
+tituloSeo: Trajes de bombero estructural y forestal, CDMX
 descripcion: "Trajes de bombero estructurales NFPA 1971, forestales NFPA 1977, HAZMAT y de aproximación, con sistema de tres capas y bandas reflectantes. Cotiza sin compromiso."
 orden: 1
 titulos:

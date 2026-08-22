@@ -3,7 +3,7 @@ empresa: proyectored
 slug: asesoria-tecnica-y-dictamen-de-proteccion-civil
 nombre: Asesoría técnica y dictamen de protección civil
 titulo: Asesoría técnica y dictamen de protección civil en CDMX y Edomex
-tituloSeo: Asesoría y dictamen de protección civil
+tituloSeo: Asesoría y dictamen de protección civil, CDMX
 descripcion: >-
   Visita sin costo para clasificar el riesgo bajo NOM-002-STPS y
   NOM-003-SEGOB, con dictamen por escrito en 3 a 5 días hábiles. Cobertura

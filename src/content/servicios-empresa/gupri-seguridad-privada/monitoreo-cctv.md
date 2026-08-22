@@ -3,7 +3,7 @@ empresa: gupri-seguridad-privada
 slug: monitoreo-cctv
 nombre: Monitoreo CCTV
 titulo: Monitoreo CCTV con operador en turno y el mismo criterio en cada plaza
-tituloSeo: Monitoreo CCTV con operador en turno
+tituloSeo: Monitoreo CCTV con operador en turno real
 descripcion: >-
   No se contratan cámaras, se contrata a alguien mirándolas. Operador con turno,
   verificación antes de escalar y un solo criterio para todos tus sitios.

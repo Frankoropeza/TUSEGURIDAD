@@ -80,6 +80,32 @@ paraQuien:
     texto: Necesitan extintor a bordo por norma en cada unidad, y lo compran junto en un solo pedido en vez de uno por uno.
   - titulo: Talleres y bodegas que arman su primer botiquín contra incendio
     texto: Parten de cero. No saben cuántos extintores necesitan ni de qué clase, y eso se resuelve antes de cotizar, no después.
+proceso:
+  - titulo: Descripción del inmueble por WhatsApp o en mostrador
+    texto: >-
+      Tipo de espacio, metros aproximados y qué se maneja adentro. Con eso
+      basta para empezar. No hace falta llegar con una lista de productos ya
+      armada, porque justo eso es lo que se resuelve aquí.
+  - titulo: Revisión de la clase de fuego y del riesgo real
+    texto: >-
+      Se define qué agente corresponde antes de hablar de modelo o de
+      capacidad. Una cocina, una bodega de solventes y un cuarto de
+      servidores no llevan el mismo extintor aunque el cilindro sea igual.
+  - titulo: Armado de la lista y cotización por escrito
+    texto: >-
+      Cantidad por clase de equipo, más gabinetes y señalamiento según los
+      metros cuadrados del inmueble, con el rango de referencia publicado ya
+      confirmado para el modelo y la existencia del momento.
+  - titulo: Entrega con flota propia o recolección en mostrador
+    texto: >-
+      Mismo día en buena parte de CDMX y en la zona conurbada del Edomex.
+      Fuera de esa zona el envío sale del almacén de Tlalnepantla y el
+      tiempo se dice al cotizar, no cuando el pedido ya está pagado.
+  - titulo: Entrega de factura, garantía y ficha técnica
+    texto: >-
+      Factura con folio, garantía del fabricante por escrito y la ficha con
+      agente, capacidad y clase de fuego de cada equipo, más la fecha
+      sugerida para el primer mantenimiento.
 errores:
   - titulo: Comprar por precio sin revisar la clase de fuego del inmueble
     texto: Un extintor barato que no corresponde al riesgo real no sirve el día que hace falta, sin importar qué tan bien se vea colgado en la pared.

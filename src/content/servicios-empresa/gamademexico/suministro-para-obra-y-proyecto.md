@@ -3,7 +3,7 @@ empresa: gamademexico
 slug: suministro-para-obra-y-proyecto
 nombre: Suministro para obra y proyecto
 titulo: Suministro para obra y proyecto de sistemas contra incendio
-tituloSeo: Suministro para obra y proyecto
+tituloSeo: Suministro contra incendio para obra, CDMX
 descripcion: >-
   Coordinamos la entrega de válvulas, gabinetes y mangueras por etapa de
   obra, con la documentación técnica que necesitan compras y el

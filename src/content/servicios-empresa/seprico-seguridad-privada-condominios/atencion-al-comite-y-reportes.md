@@ -71,6 +71,13 @@ incluye:
       que el equipo lo sobrescriba, registro de accesos completo del periodo y declaración
       firmada de quien atendió. Eso es lo que un ajustador puede leer y lo que una carpeta de
       investigación puede usar. Una captura del chat de vecinos no lo es.
+  - titulo: Quejas de condóminos con folio y fecha de cierre
+    texto: >-
+      La queja entra por la administración, no por la ventanilla ni por el grupo de vecinos. Cada
+      una se registra con folio, responsable y fecha comprometida de respuesta, y vuelve a aparecer
+      en el reporte del mes siguiente mientras siga abierta. Así la mesa directiva sabe cuántas
+      hubo, de qué tipo y cuáles se cerraron, en lugar de recordar únicamente la última que se
+      discutió en el chat del edificio.
 modalidades:
   - titulo: Reporte mensual con fecha de entrega
     texto: >-

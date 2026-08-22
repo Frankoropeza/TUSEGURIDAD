@@ -3,7 +3,7 @@ empresa: seguridadprivadamx
 slug: alarmas-e-intrusion
 nombre: Alarmas e intrusión
 titulo: Alarmas e intrusión para condominios en CDMX y Estado de México
-tituloSeo: Alarmas e intrusión CDMX y Edomex
+tituloSeo: Alarmas e intrusión con monitoreo, CDMX
 descripcion: >-
   Sensores de perímetro, azotea y accesos, botón de pánico y enlace a central
   con verificación antes de escalar. La falsa alarma es el enemigo del sistema.

@@ -124,6 +124,27 @@ errores:
       meses.
   - titulo: No verificar que las visitas realmente ocurrieron
     texto: Una póliza sin bitácora firmada es una promesa, no un mantenimiento. Pide ver el folio de cada visita, no solo la factura anual.
+glosario:
+  - termino: Manómetro
+    definicion: >-
+      La carátula con aguja que indica si el cilindro conserva presión. En
+      zona verde el extintor descarga; en zona roja no, aunque por fuera se
+      vea idéntico al que está colgado a un lado.
+  - termino: Collar de garantía
+    definicion: >-
+      La etiqueta que se coloca en el cuello del extintor con la fecha del
+      último servicio. Si esa fecha ya venció, el equipo cuenta como sin
+      mantenimiento aunque siga en su gabinete y con el sello puesto.
+  - termino: Ciclo hidrostático
+    definicion: >-
+      El periodo de cinco años tras el cual el cilindro no solo se recarga,
+      se somete a prueba de presión. Se cuenta desde la fecha grabada en el
+      cilindro, no desde el día en que se compró el equipo.
+  - termino: Bitácora de mantenimiento
+    definicion: >-
+      El registro donde queda cada visita con su fecha, su folio y sus
+      hallazgos. Es lo que distingue una póliza cumplida de una póliza
+      solamente facturada.
 entregables:
   - Bitácora de mantenimiento con folio de cada visita
   - Calendario de las 4 visitas anuales

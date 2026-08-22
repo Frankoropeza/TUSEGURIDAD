@@ -3,7 +3,7 @@ empresa: meseci
 slug: capacitacion-de-brigadas-y-simulacros
 nombre: Capacitación de brigadas y simulacros
 titulo: Capacitación de brigadas y simulacros de evacuación en CDMX y Edomex
-tituloSeo: Capacitación de brigadas y simulacros CDMX y Edomex
+tituloSeo: Capacitación de brigadas y simulacros, CDMX
 descripcion: >-
   Formación de brigadistas y simulacros de evacuación, con enfoque en uso
   correcto del extintor y protocolo de emergencia para tu inmueble.

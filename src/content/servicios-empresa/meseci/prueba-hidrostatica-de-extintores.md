@@ -3,7 +3,7 @@ empresa: meseci
 slug: prueba-hidrostatica-de-extintores
 nombre: Prueba hidrostática de extintores
 titulo: Prueba hidrostática de extintores en CDMX y Estado de México
-tituloSeo: Prueba hidrostática de extintores CDMX y Edomex
+tituloSeo: Prueba hidrostática con reposición de equipo
 descripcion: >-
   Prueba de presión del cilindro que marca la NOM-154 en su ciclo de vida
   útil, con dictamen de resultado por escrito y recarga en la misma visita.

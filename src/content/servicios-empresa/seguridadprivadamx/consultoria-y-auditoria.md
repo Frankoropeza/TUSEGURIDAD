@@ -3,7 +3,7 @@ empresa: seguridadprivadamx
 slug: consultoria-y-auditoria
 nombre: Consultoría y auditoría
 titulo: Consultoría y auditoría de seguridad para condominios en CDMX y Edomex
-tituloSeo: Auditoría de seguridad CDMX y Edomex
+tituloSeo: Consultoría y auditoría de seguridad, CDMX
 descripcion: >-
   Auditoría de seguridad para condominios: recorrido diurno y nocturno, revisión
   de los papeles del proveedor en turno y hallazgos ordenados por prioridad.
@@ -65,6 +65,29 @@ incluye:
       Cada hallazgo lleva urgencia, responsable y si se resuelve con
       procedimiento, con equipo o con personal. Un hallazgo sin responsable
       asignado se queda en el informe para siempre.
+modalidades:
+  - titulo: Auditoría de un solo desarrollo
+    texto: >-
+      El formato completo sobre un inmueble. Dos visitas como mínimo, revisión
+      documental del proveedor en turno, lectura del contrato vigente y entrega
+      en sesión. Es lo que se pide cuando hubo un incidente, cuando entró una
+      administración nueva o cuando el contrato vence en tres meses y todavía se
+      puede negociar algo.
+  - titulo: Auditoría de cartera con el mismo instrumento
+    texto: >-
+      Varios desarrollos del mismo administrador, agendados por bloques y
+      revisados con la misma escala de gravedad y el mismo formato de informe.
+      Es lo que permite poner un edificio de Nápoles y un coto de Cuautitlán
+      Izcalli uno al lado del otro sin traducir nada. El encuadre se hace una
+      sola vez y las visitas se cotizan por inmueble.
+  - titulo: Revisión documental sin recorrido
+    texto: >-
+      Solo el expediente. Permiso, vigencia, modalidad amparada, registro
+      patronal y póliza del proveedor que hoy te cubre, revisados punto por
+      punto y devueltos por escrito. Se resuelve sin pisar el inmueble y sirve
+      cuando la mesa directiva quiere saber en qué terreno está parada antes de
+      autorizar cualquier otra cosa. No sustituye el recorrido y conviene
+      decirlo antes que después. Mide los papeles, no el dispositivo.
 paraQuien:
   - titulo: Administraciones con cartera dispersa
     texto: >-

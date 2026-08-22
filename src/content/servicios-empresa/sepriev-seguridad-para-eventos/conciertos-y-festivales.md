@@ -3,7 +3,7 @@ empresa: sepriev-seguridad-para-eventos
 slug: conciertos-y-festivales
 nombre: Conciertos y festivales
 titulo: Seguridad para conciertos y festivales en CDMX, Guadalajara y Monterrey
-tituloSeo: Seguridad para conciertos y festivales
+tituloSeo: Seguridad para conciertos y festivales, CDMX
 descripcion: >-
   Dispositivo por fases: filas y filtros al abrir puertas, foso y aforo por
   sección durante el show, y plan de salida para cuando todos deciden irse.

@@ -3,7 +3,7 @@ empresa: lga-contra-incendios
 slug: monitores-industriales-contra-incendios
 nombre: Monitores industriales contra incendios
 titulo: "Monitores industriales contra incendios: caudal para patio de tanques y zona de proceso"
-tituloSeo: Monitores contra incendios industriales
+tituloSeo: Monitores industriales contra incendio, Qro
 descripcion: "Monitores fijos y portátiles EXM2 para riesgo de planta en Querétaro: el caudal que una manguera de brigada no sostiene, con estudio de presión propio."
 orden: 7
 titulos:
@@ -162,6 +162,23 @@ errores:
     texto: >-
       Un anillo de monitores con un ángulo sin cubrir es un anillo a medias. El cálculo de
       posiciones tiene que cerrar el círculo completo alrededor del riesgo, no aproximarlo.
+glosario:
+  - termino: Batería de anillo
+    definicion: >-
+      Conjunto de monitores repartidos alrededor de un mismo riesgo, cada uno desde un ángulo
+      distinto, para que el riesgo siga cubierto si un punto de conexión queda inutilizado.
+  - termino: Proporcionador de espuma
+    definicion: >-
+      El dispositivo que mezcla el agente espumante con el agua en la proporción correcta. Sin
+      él, el monitor lanza agua sola, que en riesgo de hidrocarburos dispersa el combustible.
+  - termino: Alcance efectivo
+    definicion: >-
+      La distancia a la que el chorro todavía sirve para atacar el fuego. Depende de la presión
+      disponible, del diámetro de boquilla, del ángulo de descarga y del viento del sitio.
+  - termino: Empuje de retroceso
+    definicion: >-
+      La fuerza con la que el chorro empuja el monitor hacia atrás al abrir la válvula. Es la
+      razón por la que el equipo se ancla y el brazo se fija antes de operar a plena presión.
 entregables:
   - Memoria técnica de presión y caudal disponibles en el punto de conexión
   - Cálculo de alcance y número de posiciones necesarias para cubrir el riesgo

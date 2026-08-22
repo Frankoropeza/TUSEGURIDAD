@@ -3,7 +3,7 @@ empresa: bombero-mx
 slug: asesoria-tecnica-y-seleccion-de-epp
 nombre: Asesoría técnica y selección de EPP
 titulo: Asesoría técnica y selección de EPP para bombero en CDMX
-tituloSeo: Asesoría técnica en EPP para bombero
+tituloSeo: Asesoría técnica en EPP para bombero, CDMX
 descripcion: Orientación sin costo sobre qué combinación de traje, casco, guantes, botas, capucha y protección ocular corresponde según el riesgo, antes de cotizar.
 orden: 6
 titulos:

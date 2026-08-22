@@ -3,7 +3,7 @@ empresa: sepriev-seguridad-para-eventos
 slug: eventos-masivos
 nombre: Eventos masivos
 titulo: Seguridad para eventos masivos en CDMX, Zapopan, Monterrey y Cancún
-tituloSeo: Seguridad para eventos masivos
+tituloSeo: Seguridad para eventos masivos y aforo alto
 descripcion: >-
   Recinto sectorizado, jefe por sector y mando único: malla de radios, aforo
   acumulado y plan de contingencia con Protección Civil antes del evento.

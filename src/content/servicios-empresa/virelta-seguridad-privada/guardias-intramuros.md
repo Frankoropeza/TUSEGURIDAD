@@ -3,7 +3,7 @@ empresa: virelta-seguridad-privada
 slug: guardias-intramuros
 nombre: Guardias intramuros
 titulo: Guardias intramuros en CDMX y Estado de México, con consigna escrita por posición
-tituloSeo: Guardias intramuros en CDMX y Edomex
+tituloSeo: Guardias intramuros por turno, CDMX y Edomex
 descripcion: Un elemento por turno con consigna escrita, relevo cara a cara y suplencia con plazo. Personal filtrado y dado de alta. CDMX y Edomex, las 24 horas.
 servicio: guardias-de-seguridad
 orden: 1

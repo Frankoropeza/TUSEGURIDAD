@@ -3,7 +3,7 @@ empresa: seprico-seguridad-privada-condominios
 slug: rondines-y-patrullaje-interno
 nombre: Rondines y patrullaje interno
 titulo: Rondines y patrullaje interno para condominios en CDMX y Estado de México
-tituloSeo: Rondines en condominios CDMX y Edomex
+tituloSeo: Rondines con registro en condominios, CDMX
 descripcion: "Rondines con punto de control NFC en condominios de CDMX y Edomex: horario aleatorio, azoteas y sótanos cubiertos y evidencia de cada recorrido."
 orden: 7
 titulos:
@@ -196,6 +196,27 @@ errores:
       Abarata la cuota y deja el acceso sin filtro, que es por donde entra la mayoría
       de los incidentes en residencial. Son servicios que se suman, no que se
       intercambian. Si hay que elegir, casi siempre pesa más sostener el acceso.
+glosario:
+  - termino: Sello de hora
+    definicion: >-
+      La marca de tiempo que el sistema pone cuando el elemento lee un punto de
+      control, y que él no puede editar después. Es lo que vuelve el recorrido
+      una evidencia y no una declaración del turno.
+  - termino: Ventana de arranque
+    definicion: >-
+      La franja dentro de la cual tiene que salir cada recorrido, en lugar de una
+      hora exacta. Permite exigir el rondín con número sin que el horario se
+      vuelva predecible para quien esté mirando desde afuera.
+  - termino: Descubierto de acceso
+    definicion: >-
+      Los minutos en que la caseta se queda sin elemento porque salió a recorrer.
+      Es el costo real del rondín cuando hay una sola posición, y tiene que
+      aparecer en el contrato con una cifra y no con un adjetivo.
+  - termino: Consigna de recorrido
+    definicion: >-
+      El documento que dice qué se revisa en cada punto, qué cuenta como hallazgo
+      y a quién se le avisa de inmediato. Sin ella, cada elemento decide por su
+      cuenta a las cuatro de la mañana.
 entregables:
   - Consigna escrita del rondín, con ruta y número de rondas por turno
   - Mapa de puntos de control firmado por la administración y anexo al contrato

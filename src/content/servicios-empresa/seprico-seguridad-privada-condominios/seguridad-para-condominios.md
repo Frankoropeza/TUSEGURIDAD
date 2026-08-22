@@ -66,6 +66,13 @@ incluye:
       perimetral, sobre equipo de marcas que la empresa declara operar como Hikvision,
       Dahua, ZKTeco, Motorola, Bosch y Honeywell. El equipo no sustituye la consigna:
       se cuelga de ella, con protocolo de verificación y escalamiento por escrito.
+  - titulo: Llaves y accesos maestros bajo inventario
+    texto: >-
+      Azotea, cuarto de máquinas, cisterna, bodegas y tableros. Las llaves de áreas comunes se
+      inventarían al arranque, se resguardan en el punto y se prestan con registro de quién la
+      pidió, para qué y a qué hora la devolvió. El plomero, el jardinero y el técnico del elevador
+      entran así, no con la copia que alguien les dejó hace tres años. Cuando cambia la
+      administración, el inventario se firma de nuevo y lo que falte se repone antes del relevo.
 modalidades:
   - titulo: Caseta cubierta las 24 horas
     texto: >-

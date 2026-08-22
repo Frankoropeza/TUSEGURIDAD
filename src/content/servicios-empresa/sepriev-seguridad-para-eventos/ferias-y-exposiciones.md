@@ -3,7 +3,7 @@ empresa: sepriev-seguridad-para-eventos
 slug: ferias-y-exposiciones
 nombre: Ferias y exposiciones
 titulo: Seguridad para ferias y exposiciones en recinto ferial y centro de convenciones
-tituloSeo: Seguridad para ferias y expos CDMX
+tituloSeo: Seguridad para ferias y exposiciones, CDMX
 descripcion: >-
   Cubrimos las tres etapas de la expo: montaje, piso y desmontaje, con
   credencial por perfil, folio de salida de mercancía y acta de entrega del

@@ -3,7 +3,7 @@ empresa: sepriev-seguridad-para-eventos
 slug: seguridad-vip-y-artistas
 nombre: Seguridad VIP y artistas
 titulo: Seguridad VIP y artistas para eventos en CDMX, Guadalajara y Monterrey
-tituloSeo: Seguridad VIP y artistas en eventos
+tituloSeo: Seguridad para artistas, VIP y backstage
 descripcion: >-
   Camerinos, pasillo de artistas y ruta de escenario a salida operados aparte
   del resto del evento, con lista de accesos cerrada antes de abrir puertas.

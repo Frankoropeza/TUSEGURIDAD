@@ -3,7 +3,7 @@ empresa: meseci
 slug: recarga-de-extintores
 nombre: Recarga de extintores
 titulo: Recarga de extintores certificada en CDMX y Estado de México
-tituloSeo: Recarga de extintores en CDMX y Estado de México
+tituloSeo: Recarga de extintores con reposición, CDMX
 descripcion: Recarga certificada de extintores PQS, CO2, agua y espuma tras su uso o vencimiento, con verificación de válvula y manguera.
 orden: 6
 titulos:

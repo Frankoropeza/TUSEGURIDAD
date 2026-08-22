@@ -74,6 +74,13 @@ incluye:
       Eventos verificados, escalamientos, respaldos entregados y fallas de equipo,
       redactado sin traducción técnica. Si la mesa directiva necesita que alguien
       se lo explique, el reporte no sirve.
+  - titulo: Consulta en vivo con cuentas a nombre de quien las usa
+    texto: >-
+      Ver las cámaras desde el teléfono no es un permiso general del condominio. Se abren cuentas
+      nominales para la administración y para los miembros de la mesa que designe la asamblea, con
+      las cámaras que cada perfil puede abrir y registro de quién entró y a qué hora. Cuando cambia
+      la mesa directiva, las cuentas anteriores se dan de baja ese mismo día. Sin esa baja, quien
+      dejó el cargo hace dos años sigue mirando el lobby.
 modalidades:
   - titulo: Central remota las 24 horas
     texto: >-

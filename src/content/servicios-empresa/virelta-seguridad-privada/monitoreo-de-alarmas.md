@@ -185,6 +185,32 @@ errores:
     texto: >-
       Una sirena hace ruido para quien esté cerca. El monitoreo es que alguien
       la reciba, la verifique y actúe aunque el inmueble esté vacío.
+glosario:
+  - termino: Central receptora
+    definicion: >-
+      El lugar donde llegan las señales de los paneles y donde hay un operador
+      despierto para atenderlas. Es lo que separa un sistema monitoreado de una
+      sirena que nada más avisa a quien pase por la banqueta.
+  - termino: Zonificación
+    definicion: >-
+      El reparto del inmueble en zonas, cada una con su sensor y su tipo de
+      señal, para que la activación diga dónde ocurrió y no solo que ocurrió.
+      De ahí depende que la verificación empiece por el punto correcto.
+  - termino: Verificación dual
+    definicion: >-
+      Confirmar la activación por dos vías, casi siempre panel más cámara,
+      antes de escalar. Es lo que evita movilizar a alguien de madrugada por
+      un sensor mal calibrado.
+  - termino: Escalamiento
+    definicion: >-
+      El orden en que se avisa una vez verificada la señal: a quién primero, a
+      quién si ese no contesta y qué puede resolver el operador sin consultar.
+      Va por escrito antes de que el sistema entre en operación.
+  - termino: Señal de prueba
+    definicion: >-
+      El reporte periódico que el panel manda a la central para avisar que
+      sigue comunicando. Si deja de llegar, el sistema está caído aunque desde
+      el inmueble todo se vea normal.
 entregables:
   - Levantamiento de zonas y señales del panel
   - Protocolo de verificación y escalamiento por tipo de evento

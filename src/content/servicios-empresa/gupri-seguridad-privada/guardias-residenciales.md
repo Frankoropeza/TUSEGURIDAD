@@ -78,6 +78,26 @@ incluye:
       faltas de personal con la forma en que se cubrieron, con corte en fecha fija. El
       mismo formato que usamos en los demás sitios del país, para que dos periodos se
       puedan poner uno junto al otro.
+modalidades:
+  - titulo: Caseta continua más rondín, dos posiciones por turno
+    texto: >-
+      El dispositivo completo del horizontal. Una posición no se despega de la
+      ventanilla y la otra cumple el recorrido, con el medio elegido según la
+      distancia real de la ruta y el clima de la plaza. Es lo que hay que contratar
+      cuando el perímetro es largo o cuando hay colindancia abierta.
+  - titulo: Turno nocturno cubierto y acceso automatizado durante el día
+    texto: >-
+      Para el coto chico, donde una caseta de veinticuatro horas cuesta lo mismo que
+      en un desarrollo de cien casas y el costo por vivienda se dispara. Se cubre la
+      franja de mayor riesgo con elemento y el resto del día se resuelve con padrón
+      mantenido, altas y bajas con responsable. Sin ese padrón, no es una modalidad,
+      es una reja.
+  - titulo: Posición adicional para el acceso de obra mientras hay etapas entregándose
+    texto: >-
+      Mientras conviven familias y cuadrillas bajo la misma reja, la entrada de
+      material se cubre con su propio registro y su propio horario, con consigna
+      distinta a la del acceso de residentes y con un solo canal de reporte a las
+      mesas directivas. Se da de baja cuando cierra la última etapa.
 paraQuien:
   - titulo: Coto cerrado de una sola calle
     texto: >-

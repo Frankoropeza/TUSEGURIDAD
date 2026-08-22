@@ -78,6 +78,31 @@ modalidades:
     texto: >-
       Apoyo adicional cuando el monto se sale de lo habitual: cierre de año,
       inventario, liquidación de temporada.
+paraQuien:
+  - titulo: Comercios con corte diario
+    texto: >-
+      Un local que junta la venta del día y la deposita a media tarde. El
+      tramo corto que va de la puerta al vehículo es donde ocurre casi todo.
+  - titulo: Cadenas que concentran el depósito
+    texto: >-
+      Varias sucursales que juntan el efectivo en una sola antes de ir al
+      banco. El recorrido lleva puntos intermedios, y cada uno necesita su
+      propia firma o deja de haber cadena.
+  - titulo: Obra y plantas con nómina en efectivo
+    texto: >-
+      Personal que cobra en sitio, el mismo día de cada quincena y a una hora
+      que conoce todo el frente de trabajo. Es el traslado más predecible que
+      existe, y por eso es al que más hay que moverle hora y camino.
+  - titulo: Almacenes y distribuidores
+    texto: >-
+      Mercancía de alto valor que se mueve de bodega a sucursal o a cliente.
+      Cambia lo que va adentro, no el protocolo: se cuenta, se sella y se
+      firma en los dos extremos igual que con efectivo.
+  - titulo: Empresas donde hoy lo lleva un empleado
+    texto: >-
+      La encargada que va al banco con el corte en la bolsa porque siempre se
+      ha hecho así. Ahí lo que falta no es una unidad blindada; es que alguien
+      más sepa por dónde va el dinero y quién lo tenía en cada tramo.
 proceso:
   - titulo: Levantamiento del recorrido, la frecuencia y el monto
     texto: >-

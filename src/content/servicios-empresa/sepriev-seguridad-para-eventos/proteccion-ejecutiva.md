@@ -3,7 +3,7 @@ empresa: sepriev-seguridad-para-eventos
 slug: proteccion-ejecutiva
 nombre: Protección ejecutiva
 titulo: Protección ejecutiva para eventos en CDMX, Monterrey y Guadalajara
-tituloSeo: Protección ejecutiva para eventos
+tituloSeo: Protección ejecutiva para eventos y giras
 descripcion: >-
   Escolta contratada por la duración del evento, con avanzada del recinto,
   llegada y salida por puntos distintos y hora de cierre escrita en la

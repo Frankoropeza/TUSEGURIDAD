@@ -3,7 +3,7 @@ empresa: sepriev-seguridad-para-eventos
 slug: eventos-deportivos
 nombre: Eventos deportivos
 titulo: Seguridad para eventos deportivos en estadio, recinto cerrado y vía pública
-tituloSeo: Seguridad eventos deportivos
+tituloSeo: Seguridad para eventos deportivos y torneos
 descripcion: >-
   Filtro por tribuna, separación de aficiones, cobertura del área de
   competencia y protocolo escrito para invasión de cancha y para el minuto
@@ -102,6 +102,27 @@ modalidades:
       distancia entre público y competencia, y una sola ruta de evacuación
       por sección. La cobertura del perímetro de duela vale más que el número
       total de elementos.
+paraQuien:
+  - titulo: Clubes que juegan de local
+    texto: >-
+      Calendario fijo, mismo inmueble y un rival distinto cada jornada. El
+      plan de tribunas se levanta una vez y el dispositivo se rearma partido
+      por partido, según quién visita y qué se juega esa fecha.
+  - titulo: Operadores del inmueble deportivo
+    texto: >-
+      Quien administra el estadio, la arena techada o el gimnasio y responde
+      ante la autoridad por lo que pasa adentro, aunque el evento sea de un
+      tercero que rentó la sede ese fin de semana.
+  - titulo: Ligas, federaciones y organizadores de torneo
+    texto: >-
+      Varias jornadas seguidas, delegaciones que se quedan en la sede y zonas
+      de atletas y de equipo que en un partido suelto no existen. Aquí se
+      contrata la semana completa, no una fecha.
+  - titulo: Promotoras de función y de carreras
+    texto: >-
+      Evento único, sin estructura de seguridad propia y en una sede que se
+      va a usar una sola vez. Todo el trabajo está en el recorrido previo,
+      porque no hay una segunda fecha para corregir lo que salió mal.
 proceso:
   - titulo: Recorrido del inmueble con el plano de tribunas
     texto: >-

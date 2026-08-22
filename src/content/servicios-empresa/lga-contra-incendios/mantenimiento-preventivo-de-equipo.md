@@ -180,6 +180,23 @@ errores:
     texto: >-
       Extintores, señalización y sistemas fijos no vencen al mismo tiempo.
       Tratarlos igual deja algo sin revisar por meses.
+glosario:
+  - termino: Prueba hidrostática
+    definicion: >-
+      Prueba de presión al cilindro del extintor cada cinco años. Mide si el cuerpo del equipo
+      aguanta, no si tiene agente adentro, y por eso no es lo mismo que una recarga.
+  - termino: Inspección visual mensual
+    definicion: >-
+      Recorrido corto por cada equipo, sin desarmarlo: presión, sello y acceso libre al
+      gabinete. Detecta lo corregible sin esperar al mantenimiento anual completo.
+  - termino: Señalización fotoluminiscente
+    definicion: >-
+      La que sigue visible cuando se corta la luz del área. Se comprueba apagando el alumbrado,
+      no mirándola con todo encendido.
+  - termino: Bitácora de servicio
+    definicion: >-
+      El registro firmado de fecha, acción y responsable de cada visita. Es el documento que un
+      inspector de Protección Civil o de la STPS pide antes que cualquier otro.
 entregables:
   - Calendario anual de mantenimiento por tipo de equipo
   - Bitácora de servicio con fecha, acción y responsable

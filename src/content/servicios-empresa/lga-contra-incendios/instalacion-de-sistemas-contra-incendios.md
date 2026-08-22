@@ -84,6 +84,23 @@ modalidades:
       central.
   - titulo: Instalación en obra nueva o retrofit en inmueble ya operando
     texto: En obra nueva se instala contra el plano arquitectónico desde cero. En retrofit se instala sobre un inmueble que sigue funcionando, por zonas y turnos, sin cerrar la operación completa.
+paraQuien:
+  - titulo: Obra nueva que instala antes de recibir operación
+    texto: >-
+      La red se traza contra el plano arquitectónico y todavía no hay turnos que coordinar. Es
+      el escenario en el que el sistema y el inmueble crecen juntos.
+  - titulo: Inmueble en operación que necesita retrofit
+    texto: >-
+      Una planta que trabaja turnos completos no se detiene para instalar. La red entra por
+      zonas, con los cortes de agua o de corriente acordados contra el calendario de producción.
+  - titulo: Bodega de racks altos o almacenamiento denso
+    texto: >-
+      La altura de estiba cambia la densidad de rociadores y la temperatura de activación que
+      corresponde. No se cubre con la misma red que una oficina del mismo predio.
+  - titulo: Inmueble que cambió de giro después de instalado su sistema
+    texto: >-
+      Si donde se almacenaba producto terminado ahora se procesa material inflamable, la
+      memoria de cálculo se revisa antes de asumir que lo instalado sigue siendo suficiente.
 proceso:
   - titulo: Visita y levantamiento de riesgo
     texto: >-

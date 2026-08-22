@@ -8,7 +8,7 @@ descripcion: "Dispositivo dimensionado por perímetro y accesos, no por número 
 orden: 10
 titulos:
   incluye: Qué cubre el dispositivo en una privada horizontal
-  modalidades: Cinco esquemas, según dónde esté tu riesgo
+  modalidades: Seis esquemas, según dónde esté tu riesgo
   paraQuien: ¿Qué tipo de coto es el tuyo?
   proceso: Del recorrido de la barda al primer turno en la caseta
   errores: Lo que sale caro en horizontal
@@ -102,6 +102,14 @@ modalidades:
       Personal adicional en vacaciones de diciembre, durante las etapas de entrega o cuando se
       abre un acceso que el resto del año permanece cerrado. Se monta sobre el esquema base sin
       renegociar el contrato completo.
+  - titulo: Transición del contrato de la desarrolladora al comité
+    texto: >-
+      En un desarrollo que todavía entrega casas, quien contrata es la desarrolladora y quien va a
+      reclamar el servicio es una mesa directiva que aún no existe. El esquema se arma pensando en
+      ese relevo. Consigna redactada sobre el reglamento que apruebe la primera asamblea, padrón y
+      llaves a nombre del condominio desde el arranque, y entrega documentada de bitácoras, tags y
+      accesos maestros el día que el régimen queda constituido. Sin esa previsión, el comité
+      entrante estrena fraccionamiento sin un solo registro del año anterior.
 paraQuien:
   - titulo: Privadas de diez a veinte casas con un solo acceso
     texto: >-

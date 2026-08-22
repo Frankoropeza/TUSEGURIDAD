@@ -3,7 +3,7 @@ empresa: bombero-mx
 slug: venta-de-cascos-para-bombero
 nombre: Venta de cascos para bombero
 titulo: Venta de cascos para bombero estructurales, forestales y ARFF en CDMX
-tituloSeo: "Venta de cascos para bombero en CDMX | BOMBERO.MX"
+tituloSeo: Venta de cascos de bombero NFPA en CDMX
 descripcion: "Cascos de bombero estructurales NFPA 1971, forestales, ARFF aeroportuario y de brigada industrial, en material termoplástico o compuesto. Cotiza sin compromiso."
 orden: 2
 titulos:

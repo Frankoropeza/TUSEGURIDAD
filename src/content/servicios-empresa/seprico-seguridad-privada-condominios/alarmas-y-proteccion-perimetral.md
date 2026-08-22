@@ -3,7 +3,7 @@ empresa: seprico-seguridad-privada-condominios
 slug: alarmas-y-proteccion-perimetral
 nombre: Alarmas y protección perimetral
 titulo: Alarmas y protección perimetral para condominios en CDMX y Estado de México
-tituloSeo: Alarmas y protección perimetral CDMX
+tituloSeo: Alarmas y protección perimetral, condominios
 descripcion: "Protección perimetral para condominios en CDMX y Edomex: barreras infrarrojas, cerco eléctrico con dictamen y verificación por video antes de escalar."
 orden: 5
 titulos:
@@ -71,6 +71,30 @@ incluye:
       por celular o radio para cuando se va la luz o cae el enlace. Un perímetro
       que solo funciona con corriente y fibra no es un perímetro. Es un adorno con
       horario.
+modalidades:
+  - titulo: Equipo del condominio y monitoreo por separado
+    texto: >-
+      La comunidad adquiere sensores, panel y energizador, y contrata aparte la
+      recepción de señal en central. Es la que más margen de maniobra deja,
+      porque el día que la asamblea decida cambiar de empresa el perímetro se
+      queda instalado. Pide que la factura salga a nombre del condominio y que
+      las claves del panel queden en poder de la administración desde el primer
+      día, no en la libreta del técnico.
+  - titulo: Equipo en comodato dentro de la mensualidad
+    texto: >-
+      El proveedor instala y conserva la propiedad del equipo, y la comunidad
+      cubre una sola mensualidad por equipo y monitoreo. Alivia el arranque y
+      obliga a leer dos cláusulas con calma, la del plazo forzoso y la que dice
+      qué se desmonta si el contrato no se renueva. Esas dos se llevan a la
+      asamblea antes de votar, no después.
+  - titulo: Monitoreo del perímetro que ya está instalado
+    texto: >-
+      Muchos desarrollos heredan barreras y cerco de una empresa anterior, casi
+      siempre con dos o tres zonas muertas que nadie reportó. Se levanta el
+      inventario, se prueba zona por zona, se documenta qué sirve y qué no, y se
+      conecta a central lo que quedó vivo. Lo que no se pueda dejar operando se
+      dice por escrito, en lugar de cobrar el monitoreo de una zona que no
+      reporta nada.
 paraQuien:
   - titulo: Torres con azotea accesible
     texto: >-
