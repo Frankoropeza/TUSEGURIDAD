@@ -4,7 +4,7 @@ slug: venta-de-guantes-para-bombero
 nombre: Venta de guantes para bombero
 titulo: Venta de guantes para bombero en CDMX con envío a toda la República
 tituloSeo: Guantes para bombero NFPA, envío nacional
-descripcion: "Guantes estructurales, forestales, HAZMAT y de rescate técnico NFPA 1951 para bomberos y brigadas, en cuero, Nomex o Kevlar según el uso, con asesoría antes de cotizar."
+descripcion: "Guantes estructurales, forestales, HAZMAT y de rescate técnico NFPA 1951 para bomberos y brigadas, en cuero, Nomex o Kevlar según el uso. Pide asesoría."
 orden: 3
 titulos:
   incluye: Qué guantes para bombero vendemos

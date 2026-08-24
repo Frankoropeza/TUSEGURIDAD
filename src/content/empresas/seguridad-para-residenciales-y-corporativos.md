@@ -149,12 +149,12 @@ La Secretaría de Seguridad Ciudadana de la Ciudad de México publica un listado
 
 Ese listado es un padrón de escoltas. Una compañía enfocada en cuidar edificios puede tener su permiso en perfecto orden bajo otra modalidad y no figurar nunca ahí. La ausencia no es negativa: es un dato que no aplica al servicio del que trata esta ficha.
 
-Y aunque el perfil mencione protección personal entre lo que declara, tampoco de eso se sigue nada. Los padrones se publican por modalidad y con cortes periódicos, de modo que una sola consulta en una sola fecha no permite concluir en ningún sentido.
+Hay un matiz que sí conviene señalar. Entre lo que la empresa declara aparece la protección personal, que es exactamente la modalidad que este padrón recoge, y en el corte del 29 de julio de 2026 no la localizamos ahí. De una sola consulta en una sola fecha no se sigue una conclusión: los padrones se publican con retraso y una alta o una renovación tardan en reflejarse. Lo que sí se sigue es cuál es la pregunta que hay que hacerle: si presta protección a personas, con qué permiso y desde cuándo.
 
 ### Lo que sí se puede comprobar antes de firmar
 
 1. **El permiso de seguridad privada**, en copia legible, con las modalidades que ampara y la fecha en que vence.
-2. **El registro REPSE**, con la actividad de vigilancia incluida, cuando el servicio se contrate como especializado. La administración de un condominio también responde solidariamente por las obligaciones laborales del personal que estuvo en el inmueble.
+2. **El registro REPSE**, con la actividad de vigilancia incluida, cuando el servicio se contrate como especializado. Vale la pena saber por qué le importa a un condominio: si la prestadora deja de cumplir con sus trabajadores, el condominio contratante puede quedar como responsable solidario frente a ellos. La defensa es documental, con constancia del registro, comprobantes de nómina y acuses de cuotas del periodo, y conviene que la administración la integre mes con mes y la entregue en el cambio de mesa directiva.
 3. **Las altas ante el IMSS** de los elementos asignados a tus posiciones, no la afirmación general de que toda la plantilla está dada de alta.
 4. **La póliza de responsabilidad civil**, con suma asegurada, vigencia y exclusiones a la vista.
 

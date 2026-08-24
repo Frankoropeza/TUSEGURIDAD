@@ -78,14 +78,14 @@ Tlalnepantla pega con la Ciudad de México. Una ruta de supervisión que arranca
 <tr><td>Un solo punto en Tlalnepantla</td><td>Una</td><td>Autorización estatal vigente, con la modalidad escrita en el documento.</td></tr>
 <tr><td>Planta en Tlalnepantla y oficina en la capital</td><td>Dos</td><td>La autorización estatal más la federal, porque el servicio alcanza dos entidades federativas.</td></tr>
 <tr><td>Varios puntos en municipios del valle</td><td>Una, con varios domicilios</td><td>La misma autorización estatal y el ámbito territorial que trae escrito.</td></tr>
-<tr><td>Personal puesto a tu disposición</td><td>Depende del esquema contratado</td><td>Registro REPSE vigente, además del permiso de seguridad privada.</td></tr>
+<tr><td>Servicio contratado como especializado</td><td>Depende de tu objeto social y de tu actividad preponderante</td><td>Registro REPSE vigente con la actividad de vigilancia amparada, además del permiso de seguridad privada.</td></tr>
 </tbody>
 </table>
 </div>
 
 ### La autorización estatal dura dos años, no uno
 
-En casi todas las entidades el trámite se revalida cada año. En el [Estado de México](/ciudades/estado-de-mexico/) la autorización que expide la Secretaría de Seguridad se otorga por dos años, revalidables, y queda inscrita en el Registro Estatal de Empresas de Seguridad Privada.
+En el [Estado de México](/ciudades/estado-de-mexico/) la autorización que expide la Secretaría de Seguridad se otorga por dos años, revalidables, y queda inscrita en el Registro Estatal de Empresas de Seguridad Privada. El contrato de servicio, en cambio, se renueva cada doce meses.
 
 El efecto secundario es el que nadie prevé. Como el vencimiento no cae junto al cierre de ejercicio ni junto al aniversario del contrato, se sale del radar: un servicio puede renovarse tres veces seguidas sin que nadie vuelva a abrir el permiso. Apunta la fecha el día que firmes, en el mismo expediente donde guardas la póliza.
 

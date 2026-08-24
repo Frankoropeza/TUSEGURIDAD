@@ -154,7 +154,7 @@ En el Estado de México la autorización de seguridad privada la expide la Secre
 
 ### El desfase que hace que nadie revise
 
-En casi todas las entidades el trámite de seguridad privada es anual y coincide con el ciclo del contrato. Aquí no. Con dos años de vigencia, el vencimiento cae en un mes cualquiera y el contrato puede renovarse dos veces sin que nadie vuelva a abrir el documento. La ficha de plaza del [Estado de México](/ciudades/estado-de-mexico/) reúne la ley, la autoridad y el registro aplicables.
+La vigencia de dos años no corre pegada al calendario del contrato: el permiso vence en un mes cualquiera y el servicio se renueva cada doce meses, así que las dos fechas no coinciden nunca. El contrato puede renovarse dos veces sin que nadie vuelva a abrir el documento. La ficha de plaza del [Estado de México](/ciudades/estado-de-mexico/) reúne la ley, la autoridad y el registro aplicables.
 
 Un apunte más: si el estudio abarca puntos en Tlalnepantla y también en la capital, son dos entidades federativas y ese supuesto suma la Ley Federal de Seguridad Privada al permiso estatal. Conviene resolverlo en el análisis, no cuando el dispositivo ya está instalado.
 

@@ -32,7 +32,7 @@ En ese perfil la empresa **declara** venta, instalación y mantenimiento de circ
 
 ##### Muestra corta y huecos de la fuente
 
-El perfil reporta **5.0 de calificación con 23 reseñas** en la fecha de corte. Veintitrés opiniones son pocas: un promedio perfecto sobre esa base se mueve entero con dos reseñas nuevas, así que conviene leerlas y no resumirlas en el número.
+El perfil reporta **5.0 de calificación con 23 reseñas** en la fecha de corte. Veintitrés opiniones son pocas: un promedio perfecto sobre esa base baja alrededor de tres décimas con dos reseñas malas, así que conviene leerlas y no resumirlas en el número.
 
 La fuente tampoco dice marcas, tamaño de proyectos, si existe central de monitoreo propia, tiempos de respuesta ni tarifas. Nada de eso se completa aquí, y todo se puede preguntar en el horario publicado, de lunes a viernes de 8:00 a 19:00 y sábado de 9:00 a 15:00.
 
@@ -53,7 +53,7 @@ Una lista larga de sistemas no significa que todos te sirvan. Cada línea atiend
 <tr><td>Alerta sísmica</td><td>Ganar segundos para evacuar.</td><td>Dónde se escucha, quién dirige la salida y con qué ruta.</td></tr>
 <tr><td>Sistema EAS</td><td>Evitar que mercancía salga del piso de venta sin pagar.</td><td>Qué hace el personal cuando suena, porque el arco no detiene a nadie.</td></tr>
 <tr><td>Control de acceso</td><td>Definir quién entra, a dónde y en qué horario.</td><td>Quién da de alta y de baja usuarios, y qué pasa cuando alguien renuncia.</td></tr>
-<tr><td>Detección de incendio</td><td>Avisar temprano de humo o calor.</td><td>Qué mantenimiento exige y quién lo certifica cada año.</td></tr>
+<tr><td>Detección de incendio</td><td>Avisar temprano de humo o calor.</td><td>Qué mantenimiento exige, con qué periodicidad y quién firma el reporte de cada revisión.</td></tr>
 <tr><td>Cerca electrificada</td><td>Retrasar el acceso por el perímetro.</td><td>Señalización obligatoria y compatibilidad con el reglamento del lugar.</td></tr>
 <tr><td>Interfón y videoportero</td><td>Filtrar visitas antes de abrir la puerta.</td><td>Quién contesta cuando no hay nadie en recepción.</td></tr>
 </tbody>

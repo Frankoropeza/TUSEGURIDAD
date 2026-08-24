@@ -132,7 +132,7 @@ Aparecer en un directorio no acredita nada, y en la custodia de carga el error s
 5. **Formato de hoja de ruta en blanco**, para leerlo antes de firmar el contrato y no el día del primer embarque.
 6. **Protocolo de comunicación**: intervalo máximo sin reporte, a quién se avisa al vencerlo y qué se hace enseguida.
 7. **Esquema de relevo** en trayectos largos: en qué punto ocurre, con qué entrega de por medio y quién firma.
-8. **Autorización del servicio armado**, si lo van a prestar. Depende de un trámite distinto del permiso estatal y se pregunta por separado.
+8. **Licencia oficial colectiva vigente ante la SEDENA**, si el servicio se va a prestar armado, junto con la modalidad del permiso de seguridad privada que ampare el uso de armas. El arma pertenece a la empresa y nadie porta a título personal: son dos documentos distintos del permiso de vigilancia y se piden por separado.
 
 ## El Águila Real y el padrón de protección a personas
 

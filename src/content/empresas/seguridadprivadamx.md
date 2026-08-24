@@ -1,6 +1,6 @@
 ---
 nombre: SeguridadPrivadaMX
-descripcion: "Vigilancia, accesos, CCTV, patrullaje y alarmas para condominios y residenciales, con la misma operación en las 16 alcaldías de CDMX y el norponiente del Estado de México."
+descripcion: "Vigilancia, accesos, CCTV, patrullaje y alarmas para condominios y residenciales en las 16 alcaldías de CDMX y el norponiente del Estado de México."
 categoria: seguridad-privada
 categorias: []
 ciudad: cdmx

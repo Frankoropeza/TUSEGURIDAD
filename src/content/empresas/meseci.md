@@ -1,6 +1,6 @@
 ---
 nombre: MESECI
-descripcion: "Venta y servicio de equipo contra incendios en CDMX y Edomex desde 2008: extintores, EPP para bomberos, sistemas fijos, mantenimiento, recarga y capacitación de brigadas."
+descripcion: "Venta y servicio de equipo contra incendios en CDMX y Edomex desde 2008: extintores, EPP para bomberos, sistemas fijos, recarga y capacitación."
 categoria: seguridad-contra-incendios
 categorias: []
 ciudad: cdmx

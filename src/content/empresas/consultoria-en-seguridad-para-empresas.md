@@ -204,7 +204,7 @@ La Secretaría de Seguridad Ciudadana de la Ciudad de México publica el listado
 
 #### Fíjate en la fecha
 
-Esa vigencia vence dentro de pocos meses. Si la contratación se firma cerca del plazo, pide el acuse de renovación y no solo el documento actual: un permiso que caduca a mitad del contrato deja el servicio sin cobertura administrativa.
+Esa vigencia termina el 7 de noviembre de 2026. Compárala contra la fecha en que vayas a firmar, no contra el año en curso. Si la contratación se firma cerca del plazo, pide el acuse de renovación y no solo el documento actual: un permiso que caduca a mitad del contrato deja el servicio sin cobertura administrativa.
 
 #### Y el límite de siempre
 
@@ -212,4 +212,4 @@ Este padrón cubre **escoltas**. Si lo que vas a contratar es un diagnóstico y 
 
 ###### Procedencia de los datos
 
-> Domicilio, teléfono, horario y calificación provienen de una fuente pública consultada en la fecha de corte indicada, y pueden haber cambiado después. TuSeguridad elaboró esta ficha por iniciativa propia, sin vínculo con Corporativo Zascita de México, y no recibe ingreso alguno si decides contactarla.
+> Domicilio, teléfono, horario y calificación provienen de una fuente pública consultada en la fecha de corte indicada, y pueden haber cambiado después. TuSeguridad los reproduce sin verificarlos por su cuenta, elaboró esta ficha por iniciativa propia, sin vínculo con Corporativo Zascita de México, y no recibe ingreso alguno si decides contactarla.

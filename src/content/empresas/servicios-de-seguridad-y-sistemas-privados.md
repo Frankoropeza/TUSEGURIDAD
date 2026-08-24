@@ -150,4 +150,4 @@ Un proveedor instalado en Cuautitlán Izcalli que atiende también puntos en la 
 
 ###### Procedencia de los datos
 
-> Los datos de contacto, el horario, las categorías y la calificación salen de una fuente pública consultada en la fecha de corte indicada, y pudieron cambiar después. Esta ficha la elaboró TuSeguridad por decisión editorial propia, sin acuerdo con GS3 Seguridad Privada ni comisión de por medio.
+> Los datos de contacto, el horario, las categorías y la calificación salen de una fuente pública consultada en la fecha de corte indicada, y pudieron cambiar después. TuSeguridad reproduce esos datos sin verificarlos por su cuenta. Esta ficha la elaboró TuSeguridad por decisión editorial propia, sin acuerdo con GS3 Seguridad Privada ni comisión de por medio.

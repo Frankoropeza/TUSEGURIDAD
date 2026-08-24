@@ -48,7 +48,7 @@ Son dos trámites separados, ante dos autoridades distintas, con reglas propias.
 <tr><th>Qué se compara</th><th>Autorización estatal</th><th>Autorización federal</th></tr>
 </thead>
 <tbody>
-<tr><td>Quién la expide</td><td>La Secretaría de Seguridad del Gobierno del Estado de México.</td><td>La autoridad federal en materia de seguridad privada.</td></tr>
+<tr><td>Quién la expide</td><td>La Secretaría de Seguridad del Gobierno del Estado de México.</td><td>La Dirección General de Seguridad Privada de la Secretaría de Seguridad y Protección Ciudadana.</td></tr>
 <tr><td>Qué ampara</td><td>Prestar el servicio dentro del territorio del estado.</td><td>Prestar el servicio en dos o más entidades federativas.</td></tr>
 <tr><td>Marco aplicable</td><td>Ley de Seguridad Privada del Estado de México.</td><td>Ley Federal de Seguridad Privada.</td></tr>
 <tr><td>Vigencia</td><td>Dos años, revalidable.</td><td>La que indique el propio documento.</td></tr>
@@ -116,7 +116,7 @@ Un permiso de seguridad privada se revisa en dos minutos si sabes qué buscar. E
 
 ### La vigencia de dos años se pasa de largo con facilidad
 
-En casi todo el país el trámite se revalida cada año, y esa cadencia coincide con el cierre de ejercicio. Aquí no. Al durar dos años, el vencimiento cae en un mes cualquiera y nadie lo tiene en el calendario. No es raro que un contrato se renueve tres veces seguidas sobre un documento que dejó de estar vigente en el segundo año.
+Al durar dos años, el vencimiento se despega del calendario del contrato: cae en un mes cualquiera, mientras el servicio se renueva cada doce meses, y nadie lo tiene apuntado. No es raro que un contrato se renueve tres veces seguidas sobre un documento que dejó de estar vigente en el segundo año.
 
 La rutina que evita el problema no requiere sistema. Anota el vencimiento en la misma carpeta del contrato y vuelve a mirarlo cada vez que renuevas el servicio, no cuando alguien se acuerde.
 

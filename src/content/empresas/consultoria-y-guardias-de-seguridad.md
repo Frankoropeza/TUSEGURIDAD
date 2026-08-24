@@ -137,8 +137,7 @@ Mientras la conversación sea un diagnóstico, lo que importa es el convenio de 
 </thead>
 <tbody>
 <tr><td>Ley aplicable</td><td>Ley de Seguridad Privada del Estado de México</td></tr>
-<tr><td>Autoridad</td><td>Secretaría de Seguridad</td></tr>
-<tr><td>Dependencia</td><td>Gobierno del Estado de México</td></tr>
+<tr><td>Autoridad</td><td>Secretaría de Seguridad del Gobierno del Estado de México</td></tr>
 <tr><td>Vigencia de la autorización</td><td>Dos años, revalidable</td></tr>
 <tr><td>Modalidades</td><td>Seis, en el artículo 7</td></tr>
 <tr><td>Registro</td><td>Registro Estatal de Empresas de Seguridad Privada</td></tr>
@@ -148,13 +147,13 @@ Mientras la conversación sea un diagnóstico, lo que importa es el convenio de 
 
 ### Dos años, no uno
 
-La autorización estatal se otorga por dos años. En la mayoría de las entidades el trámite es anual, así que la costumbre de revisar el permiso «cuando toque la renovación del contrato» aquí no cuadra: el vencimiento cae en un mes cualquiera, sin avisar. Un servicio contratado en enero puede renovarse dos veces antes de que alguien vuelva a abrir el documento.
+La autorización estatal se otorga por dos años, y esa vigencia no está atada al calendario del contrato: el permiso vence en un mes cualquiera, mientras que el servicio se renueva cada doce meses. Por eso la costumbre de revisarlo «cuando toque la renovación» aquí no cuadra. Un servicio contratado en enero puede renovarse dos veces antes de que alguien vuelva a abrir el documento.
 
 Guarda la fecha de vencimiento junto al contrato, no en la carpeta del proveedor. Es el único lugar donde alguien la va a volver a ver.
 
 ### Si el dispositivo también toca la capital
 
-Cuautitlán Izcalli está a una hora de las oficinas del centro cuando el tráfico ayuda. Muchas empresas del corredor Cuautitlán-Izcalli tienen planta aquí y administración allá, y ese caso son dos entidades federativas: se suma la Ley Federal de Seguridad Privada al permiso estatal. La ficha de plaza del [Estado de México](/ciudades/estado-de-mexico/) resume qué autoridad expide cada documento.
+Cuautitlán Izcalli está a una hora de las oficinas del centro cuando el tráfico ayuda. Muchas empresas del corredor de Cuautitlán Izcalli tienen planta aquí y administración allá, y ese caso son dos entidades federativas: se suma la Ley Federal de Seguridad Privada al permiso estatal. La ficha de plaza del [Estado de México](/ciudades/estado-de-mexico/) resume qué autoridad expide cada documento.
 
 La modalidad pesa igual que la vigencia. Un permiso correcto para vigilancia de bienes no ampara por sí solo otros servicios, y conviene leerlo completo: titular exacto, modalidad autorizada, ámbito territorial y fecha de fin. Cuatro renglones.
 

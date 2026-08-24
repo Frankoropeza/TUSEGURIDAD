@@ -2,7 +2,7 @@
 titulo: Guardias de seguridad
 h1: Guardias de seguridad, y cómo distinguir un servicio de un uniforme
 tituloSeo: "Guardias de seguridad: qué exigir al contratar"
-descripcion: "Qué separa a un proveedor de vigilancia formal de uno que solo pone uniformes: autorización por modalidad, consigna escrita, suplencias con plazo y alta del personal."
+descripcion: "Qué separa a un proveedor de vigilancia formal de uno que solo pone uniformes: autorización por modalidad, consigna escrita y alta del personal."
 icono: "👮"
 destacado: true
 orden: 1

@@ -4,7 +4,7 @@ abreviatura: "GRO"
 capital: "Chilpancingo"
 region: "Sur"
 estado: "Guerrero"
-descripcion: "Empresas de seguridad privada en Guerrero. Autorización ante la Dirección General de Registro y Supervisión a Empresas y Servicios de Seguridad Privada, vigencia de 1 año."
+descripcion: "Empresas de seguridad privada en Guerrero: la autorización estatal tiene vigencia de 1 año. Qué documento pedir y qué revisar antes de contratar."
 orden: 13
 normativa:
   ley: "Ley Número 850 de Seguridad Privada del Estado de Guerrero"

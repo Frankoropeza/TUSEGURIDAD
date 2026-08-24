@@ -38,7 +38,7 @@ No dice nada sobre la cobertura contratada en un punto, que puede ser de doce o 
 
 </div>
 
-Sobre las reseñas, el mismo cuidado: **5.0 con 25 opiniones** en la fecha de corte es una muestra corta. Un promedio perfecto sobre veinticinco votos se mueve entero con dos o tres reseñas nuevas, así que sirve para leerlas una por una, no para concluir.
+Sobre las reseñas, el mismo cuidado: **5.0 con 25 opiniones** en la fecha de corte es una muestra corta. Un promedio perfecto sobre veinticinco votos pierde cerca de medio punto con dos o tres reseñas malas, así que sirve para leerlas una por una, no para concluir.
 
 ## ¿Cuánto personal de seguridad por turnos exige de verdad una posición de 24 horas?
 
@@ -51,12 +51,37 @@ Empecemos por la cuenta, porque de ahí sale todo lo demás. Una posición cubie
 </thead>
 <tbody>
 <tr><td>Horas por cubrir en el año</td><td>24 horas por 365 días</td><td>8,760 horas</td></tr>
-<tr><td>Jornada máxima de un elemento</td><td>Límite legal semanal, por 52 semanas</td><td>2,496 horas en el papel</td></tr>
+<tr><td>Jornada máxima de un elemento</td><td>El tope semanal vigente en la Ley Federal del Trabajo, por 52 semanas</td><td>Menos de la tercera parte de las horas por cubrir</td></tr>
 <tr><td>Descanso semanal obligatorio</td><td>Un día por cada seis trabajados</td><td>52 días al año que alguien más cubre</td></tr>
 <tr><td>Vacaciones, festivos e incapacidades</td><td>Periodo anual, días de descanso obligatorio y ausencias</td><td>Varias semanas por persona</td></tr>
 <tr><td>Elementos que pide la aritmética</td><td>Horas por cubrir entre horas realmente disponibles</td><td>Más de cuatro, nunca tres</td></tr>
 </tbody>
 </table>
+</div>
+
+<div class="nota">
+
+##### El tope semanal va a bajar, y eso mueve la cuenta
+
+La reforma que reduce la jornada a 40 horas se publicó en el Diario Oficial el 1 de mayo de 2026. El resto de 2026 es etapa de preparación, así que hoy la cuenta se hace todavía sobre 48 horas. A partir de enero el escalón baja cada año.
+
+<div class="tabla-scroll">
+<table>
+<thead>
+<tr><th>Año</th><th>Tope semanal</th><th>Efecto sobre la posición 24/7</th></tr>
+</thead>
+<tbody>
+<tr><td>2026</td><td>48 horas</td><td>la cuenta que ves arriba</td></tr>
+<tr><td>2027</td><td>46 horas</td><td>sube el número de elementos</td></tr>
+<tr><td>2028</td><td>44 horas</td><td>vuelve a subir</td></tr>
+<tr><td>2029</td><td>42 horas</td><td>vuelve a subir</td></tr>
+<tr><td>2030</td><td>40 horas</td><td>el escalón final</td></tr>
+</tbody>
+</table>
+</div>
+
+Pídele al proveedor que su cotización diga sobre qué tope está calculada. Una plantilla dimensionada con 48 horas se queda corta en enero de 2027, y la diferencia la vas a pagar tú en forma de posiciones descubiertas o de un ajuste a media vigencia.
+
 </div>
 
 ### Por qué una cotización de tres elementos no cierra
@@ -106,7 +131,7 @@ Nezahualcóyotl colinda con la Ciudad de México y comparte frontera cotidiana c
 <li>Valle de Chalco</li>
 <li>Texcoco</li>
 <li>Ixtapaluca</li>
-<li>Cuautitlán Izcalli</li>
+<li>Chicoloapan</li>
 </ul>
 
 ## Qué incluye y qué no incluye una tarifa por elemento

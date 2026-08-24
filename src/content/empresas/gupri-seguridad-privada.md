@@ -1,6 +1,6 @@
 ---
 nombre: GUPRI Seguridad Privada
-descripcion: "Un solo proveedor de guardias para plantas, CEDIS, corporativos y sucursales repartidos por el país: trece plazas declaradas, un contrato y un mismo formato de reporte."
+descripcion: "Guardias para plantas, CEDIS, corporativos y sucursales repartidos por el país: trece plazas declaradas, un contrato y un mismo formato de reporte."
 categoria: seguridad-privada
 categorias: []
 ciudad: cdmx

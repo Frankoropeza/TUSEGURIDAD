@@ -4,7 +4,7 @@ abreviatura: "SIN"
 capital: "Culiacán Rosales"
 region: "Norte"
 estado: "Sinaloa"
-descripcion: "Empresas de seguridad privada en Sinaloa. Autorización ante la Dirección de Coordinación del Registro Estatal de Empresas y Organismos de Servicios de Seguridad Privada, vigencia de 1 año."
+descripcion: "Empresas de seguridad privada en Sinaloa: la autorización estatal tiene vigencia de 1 año. Qué documento pedir y qué revisar antes de contratar."
 orden: 25
 normativa:
   autoridad: "Dirección de Coordinación del Registro Estatal de Empresas y Organismos de Servicios de Seguridad Privada"

@@ -125,7 +125,7 @@ Nezahualcóyotl colinda con Iztapalapa y con Venustiano Carranza. Si tienes un l
 
 Dos detalles que casi nadie revisa. El primero, que esa autorización se otorga por dos años revalidables, así que su vencimiento no coincide con la renovación del contrato y termina fuera del radar. El segundo, que la ley estatal reconoce seis modalidades en el artículo 7: la que ampara vigilancia de un inmueble no ampara automáticamente el monitoreo de cámaras ni el traslado de valores. Lee cuál dice tu permiso.
 
-Si además el esquema contratado es de personal puesto a tu disposición, pide el registro REPSE vigente. Son cuatro papeles y una llamada. Menos de lo que cuesta un mes de servicio mal contratado.
+Si el servicio se contrata como servicio especializado, esto es, uno ajeno a tu objeto social y a tu actividad preponderante, pide el registro REPSE vigente con la actividad de vigilancia amparada. La renta de personal, en cambio, está prohibida por la Ley Federal del Trabajo y ningún registro la vuelve contratable. Son cuatro papeles y una llamada. Menos de lo que cuesta un mes de servicio mal contratado.
 
 ###### Procedencia de los datos
 

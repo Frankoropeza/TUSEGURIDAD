@@ -30,7 +30,7 @@ En ese mismo perfil la empresa declara **más de 25 años en el giro** y prestar
 
 <div class="nota">
 
-##### La muestra más grande de este directorio
+##### La muestra más grande de esta plaza
 
 El perfil reporta **499 reseñas con una calificación de 3.5** en la fecha de corte, y atención de lunes a viernes de 9:00 a 18:00. Casi quinientas opiniones es el volumen más alto entre las empresas listadas en esta plaza.
 
@@ -50,7 +50,7 @@ Naucalpan está pegado a la Ciudad de México. Un supervisor que arranca ronda a
 <tbody>
 <tr><td>Autorización estatal</td><td>La prestación del servicio dentro del Estado de México, en una modalidad concreta.</td><td>Siempre, antes de firmar.</td></tr>
 <tr><td>Autorización federal</td><td>El servicio cuando alcanza dos o más entidades federativas.</td><td>Cuando alguno de tus puntos está en la capital o en otro estado.</td></tr>
-<tr><td>Registro REPSE</td><td>A la empresa como prestadora de servicios especializados de personal.</td><td>Si el esquema contratado es de personal puesto a tu disposición.</td></tr>
+<tr><td>Registro REPSE</td><td>A la empresa como prestadora de servicios especializados.</td><td>Cuando el servicio contratado no forma parte de tu objeto social ni de tu actividad económica preponderante.</td></tr>
 <tr><td>Póliza de responsabilidad civil</td><td>El daño que el servicio pueda causar a terceros o a tus bienes.</td><td>Con carátula y vigencia legibles, no con una carta.</td></tr>
 </tbody>
 </table>
@@ -58,7 +58,7 @@ Naucalpan está pegado a la Ciudad de México. Un supervisor que arranca ronda a
 
 ### La autorización dura dos años, y ese detalle se olvida
 
-En la mayoría de las entidades el trámite de seguridad privada se renueva cada año. Aquí la autorización estatal se otorga con vigencia de dos años, revalidable. Suena a ventaja administrativa y lo es, pero tiene un efecto secundario incómodo: como el vencimiento no cae junto al cierre de ejercicio, un contrato puede renovarse dos o tres veces sin que nadie vuelva a abrir el permiso.
+La vigencia estatal no está atada al calendario del contrato: un permiso que dura dos años vence en un mes cualquiera, mientras que el servicio se renueva cada doce meses. Las dos fechas no coinciden nunca, y por eso el permiso se sale del radar: un contrato puede renovarse dos o tres veces sin que nadie vuelva a abrirlo.
 
 La rutina que funciona es simple. Anota la fecha de vencimiento en la misma carpeta donde guardas el contrato y revísala al renovar el servicio, no cuando alguien se acuerde.
 
@@ -128,11 +128,9 @@ Un 3.5 asusta al lado de un 5.0. Conviene mirar el otro número antes de decidir
 </table>
 </div>
 
-### Por qué las empresas de guardias acumulan reseñas de aspirantes
+### Quién escribe las reseñas de una empresa de guardias
 
-En este giro hay un sesgo conocido. Las empresas que contratan personal en volumen reciben opiniones de gente que fue a solicitar empleo, no de clientes que compraron el servicio. Esas reseñas hablan del proceso de reclutamiento, de la espera en recepción o del sueldo ofrecido, y arrastran el promedio hacia abajo sin decir nada del dispositivo instalado en una planta.
-
-Antes de sacar conclusiones, abre las reseñas y separa quién escribe. Si la mayoría de las críticas vienen de aspirantes y las de clientes describen otra cosa, el 3.5 no significa lo que parecía.
+Vale la pena abrirlas antes de concluir. En este giro conviven dos tipos de opinión: la de clientes que contrataron un dispositivo y la de gente que fue a solicitar empleo. No sabemos en qué proporción están aquí, y la fuente no lo distingue. Léelas y sepáralas tú: si las críticas hablan del proceso de contratación y las de clientes describen otra cosa, el 3.5 significa algo distinto de lo que parecía.
 
 <div class="nota nota-fuerte">
 
@@ -150,8 +148,7 @@ El marco aplicable en el Estado de México se resume en pocos datos, y todos se 
 
 <ul class="cols-2">
 <li>Ley de Seguridad Privada del Estado de México</li>
-<li>Autoridad: Secretaría de Seguridad</li>
-<li>Gobierno del Estado de México</li>
+<li>Secretaría de Seguridad del Gobierno del Estado de México</li>
 <li>Vigencia de dos años, revalidable</li>
 <li>Seis modalidades, en el artículo 7</li>
 <li>Registro Estatal de Empresas de Seguridad Privada</li>
@@ -165,4 +162,4 @@ Lee el permiso completo, no la primera página. Ahí están el nombre exacto del
 
 ###### Procedencia de los datos
 
-> Dirección, teléfono, horario, categorías y calificación se tomaron de una fuente pública consultada en la fecha de corte señalada arriba, y pueden haber cambiado desde entonces. TuSeguridad publica esta ficha por cuenta propia, sin relación comercial con Control Seguridad Privada Integral, y no percibe nada si decides llamarle.
+> Dirección, teléfono, horario, categorías y calificación se tomaron de una fuente pública consultada en la fecha de corte señalada arriba, y pueden haber cambiado desde entonces. TuSeguridad reproduce esos datos sin verificarlos por su cuenta. Publica esta ficha por decisión editorial, sin relación comercial con Control Seguridad Privada Integral, y no percibe nada si decides llamarle.

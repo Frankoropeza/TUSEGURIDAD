@@ -67,7 +67,7 @@ El traslado de mercancía empieza días antes de que el tractocamión encienda. 
 
 Se elige por incidencia conocida, por calidad del acotamiento, por disponibilidad de paradas vigiladas y por qué tan lejos queda la caseta más próxima si algo pasa. En corredores complicados un rodeo de una hora sale más barato que el tramo directo.
 
-Los puntos de descanso son el eslabón débil de casi todo el operativo, porque la mayoría de los eventos ocurren con la unidad detenida y no rodando. Por eso se autorizan paradas específicas, con estacionamiento cerrado y vigilancia, y se prohíbe detenerse fuera de esa lista salvo emergencia mecánica o médica.
+Los puntos de descanso son el eslabón débil de casi todo el operativo. La unidad detenida, con el operador afuera y la caja al alcance, es un blanco distinto del de la unidad rodando, y es en esos minutos donde el protocolo tiene que ser más estricto. Por eso se autorizan paradas específicas, con estacionamiento cerrado y vigilancia, y se prohíbe detenerse fuera de esa lista salvo emergencia mecánica o médica.
 
 ### Coordinación con el operador del transporte
 

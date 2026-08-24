@@ -4,7 +4,7 @@ slug: equipamiento-y-epp-para-bomberos
 nombre: Equipamiento y EPP para bomberos
 titulo: Equipo y EPP para bomberos y brigadas en CDMX y Edomex
 tituloSeo: "Equipo y EPP para bomberos en CDMX y Edomex"
-descripcion: "Trajes estructurales SKÖLD HERO, cascos Cairns MSA, botas, guantes con forro Kevlar y equipo de respiración autónoma para bomberos y brigadas, con asesoría de talla sin costo."
+descripcion: "Trajes estructurales SKÖLD HERO, cascos Cairns MSA, botas, guantes con forro Kevlar y equipo de respiración autónoma para bomberos y brigadas."
 orden: 3
 titulos:
   incluye: Qué incluye el equipo completo para un bombero

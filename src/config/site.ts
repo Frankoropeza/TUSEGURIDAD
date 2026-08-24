@@ -8,9 +8,15 @@ export const SITE = {
   legalName: 'TuSeguridad México',
   domain: 'tuseguridad.mx',
   url: 'https://tuseguridad.mx',
-  tagline: 'El directorio de empresas y servicios de seguridad en México',
+  /**
+   * También es la segunda mitad del `<title>` de la portada
+   * (`TuSeguridad — <tagline>`), así que tiene que caber en 60 caracteres
+   * contando el nombre del sitio y el guion: 46 como máximo.
+   */
+  tagline: 'Directorio de empresas de seguridad en México',
+  /** meta description por defecto — tope de 160 caracteres */
   description:
-    'Directorio de empresas de seguridad en México: seguridad privada, videovigilancia (CCTV), alarmas y monitoreo, control de acceso, blindaje y ciberseguridad. Encuentra proveedores verificados por ciudad y categoría.',
+    'Directorio de empresas de seguridad en México: seguridad privada, CCTV y videovigilancia, alarmas, control de acceso, blindaje y ciberseguridad, por plaza.',
   lang: 'es-MX',
   locale: 'es_MX',
   country: 'MX',

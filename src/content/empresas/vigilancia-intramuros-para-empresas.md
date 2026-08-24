@@ -174,4 +174,4 @@ Es un trámite de días, no de semanas, y es la única comprobación que aplica 
 
 ###### Procedencia de los datos
 
-> Domicilio, teléfono, horario y calificación se tomaron de una fuente pública en la fecha de corte indicada y pueden haber cambiado. TuSeguridad publicó esta ficha por cuenta propia, no representa a ELIM Seguridad Privada y no recibe pago alguno si decides llamarla.
+> Domicilio, teléfono, horario y calificación se tomaron de una fuente pública en la fecha de corte indicada y pueden haber cambiado. TuSeguridad reproduce esos datos sin verificarlos por su cuenta. Publicó esta ficha por cuenta propia, no representa a ELIM Seguridad Privada y no recibe pago alguno si decides llamarla.

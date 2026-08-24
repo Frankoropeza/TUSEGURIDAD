@@ -40,7 +40,7 @@ Ahí no hay antigüedad, ni cobertura por alcaldía, ni tamaño de plantilla, ni
 
 El perfil reporta **5.0 de calificación con 26 reseñas** en la fecha de corte, y horario de oficina de lunes a viernes de 8:00 a 18:00.
 
-Ese 5.0 conviene leerlo con la cabeza fría. Veintiséis opiniones son pocas: bastan tres o cuatro clientes contentos para sostener un promedio perfecto, y basta una sola experiencia mala para moverlo medio punto de golpe. Es una señal favorable, no una comprobación. Ninguna calificación dice con qué permiso opera una empresa ni cómo tiene dados de alta a sus elementos.
+Ese 5.0 conviene leerlo con la cabeza fría. Veintiséis opiniones son pocas: bastan tres o cuatro clientes contentos para sostener un promedio perfecto, y una sola experiencia mala ya lo baja alrededor de quince centésimas. Tres o cuatro lo mueven medio punto. Es una señal favorable, no una comprobación. Ninguna calificación dice con qué permiso opera una empresa ni cómo tiene dados de alta a sus elementos.
 
 </div>
 

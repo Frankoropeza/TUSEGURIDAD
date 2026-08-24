@@ -145,4 +145,4 @@ Como la autorización dura dos años y no uno, el vencimiento se despega del cal
 
 ###### Procedencia de los datos
 
-> Dirección, teléfono, horarios, categoría y calificación provienen de una fuente pública consultada en la fecha de corte que aparece arriba, y pueden haber cambiado desde entonces. Esta ficha la publica TuSeguridad por iniciativa propia, sin acuerdo comercial con CONSEG Seguridad Privada, y no genera ingreso alguno si decides contactarla.
+> Dirección, teléfono, horarios, categoría y calificación provienen de una fuente pública consultada en la fecha de corte que aparece arriba, y pueden haber cambiado desde entonces. TuSeguridad reproduce esos datos sin verificarlos por su cuenta. Esta ficha la publica TuSeguridad por iniciativa propia, sin acuerdo comercial con CONSEG Seguridad Privada, y no genera ingreso alguno si decides contactarla.

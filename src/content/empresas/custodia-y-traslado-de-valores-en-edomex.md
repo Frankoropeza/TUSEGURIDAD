@@ -24,7 +24,7 @@ resenas:
   total: 269
 ---
 
-<p class="lede">Sepsa Custodias figura en Tlalnepantla de Baz, colonia La Loma, dentro del rubro de <strong>custodia y traslado de valores en el Estado de México</strong>. El registro público la clasifica en una sola categoría, servicio de seguridad, y marca atención de lunes a viernes de 8:00 a 18:30.</p>
+<p class="lede">Sepsa Custodias figura en Tlalnepantla de Baz, colonia La Loma, dentro del rubro de <strong>custodia y traslado de valores en el Estado de México</strong>. El tema de esta página sale de la razón social y de la categoría publicada, no de una descripción de la empresa. Un nombre comercial no es una declaración de alcance y aquí no se trata como tal. El registro público la clasifica en una sola categoría, servicio de seguridad, y marca atención de lunes a viernes de 8:00 a 18:30.</p>
 
 Hay algo que conviene decir de entrada: **el conjunto de datos consultado no incluye descripción propia de la empresa**. Otras fichas de este directorio reproducen lo que la compañía escribió sobre sí misma; aquí no hay tal texto. No se declaran años de operación, ni flota, ni rutas, ni tipo de cliente. Esta página no lo suple con suposiciones.
 
@@ -129,8 +129,8 @@ Este es el punto que define a esta plaza y el que más se pasa por alto. Una rec
 </thead>
 <tbody>
 <tr><td>Origen y recorrido dentro del Estado de México</td><td>Autorización estatal, con vigencia de dos años y en la modalidad correcta</td><td>Secretaría de Seguridad del Gobierno del Estado de México</td></tr>
-<tr><td>Servicio que alcanza dos o más entidades</td><td>Autorización federal de seguridad privada</td><td>Autoridad federal competente en la materia</td></tr>
-<tr><td>La empresa como prestadora de personal especializado</td><td>Registro REPSE vigente</td><td>Autoridad laboral federal</td></tr>
+<tr><td>Servicio que alcanza dos o más entidades</td><td>Autorización federal de seguridad privada</td><td>Dirección General de Seguridad Privada de la Secretaría de Seguridad y Protección Ciudadana</td></tr>
+<tr><td>La empresa como prestadora de servicios especializados</td><td>Registro REPSE vigente</td><td>Secretaría del Trabajo y Previsión Social</td></tr>
 </tbody>
 </table>
 </div>

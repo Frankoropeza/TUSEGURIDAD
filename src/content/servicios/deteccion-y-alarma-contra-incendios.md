@@ -2,7 +2,7 @@
 titulo: Detección y alarma contra incendios
 h1: Detección y alarma contra incendios, o cómo se compran los minutos que faltan
 tituloSeo: Detección y alarma contra incendios en México
-descripcion: Cómo se dimensiona un sistema de detección a partir del grado de riesgo del inmueble, qué documentos deja un integrador serio y por qué un sistema sin pruebas no cuenta.
+descripcion: "Cómo se dimensiona un sistema de detección según el riesgo del inmueble, qué documentos deja un integrador serio y por qué un sistema sin pruebas no cuenta."
 icono: "🔥"
 destacado: true
 orden: 3

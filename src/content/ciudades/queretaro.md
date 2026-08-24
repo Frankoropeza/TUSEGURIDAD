@@ -4,7 +4,7 @@ abreviatura: "QRO"
 capital: "Santiago de Querétaro"
 region: "Bajío"
 estado: "Querétaro"
-descripcion: "Empresas de seguridad privada en Querétaro. Autorización ante la Dirección de Servicios al Público y Seguridad Privada, vigencia de 1 año, refrendable anualmente."
+descripcion: "Empresas de seguridad privada en Querétaro: la autorización estatal dura 1 año y se refrenda cada año. Qué exigir antes de contratar a un proveedor."
 orden: 22
 normativa:
   ley: "Reglamento para la Prestación de Servicios de Seguridad Privada en el Estado de Querétaro"

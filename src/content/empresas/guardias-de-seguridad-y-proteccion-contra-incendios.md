@@ -93,7 +93,7 @@ Un guardia puede integrar una brigada, y con frecuencia lo hace: es quien está 
 
 ### La consecuencia práctica
 
-Contratar vigilancia no traslada al proveedor ninguna de las obligaciones de las primeras cinco filas. Siguen siendo del ocupante. Lo que el proveedor puede aportar es personal capacitado que se integre a la brigada, y eso se escribe en el contrato con nombre y alcance.
+Contratar vigilancia no traslada al proveedor ninguna de las obligaciones de las primeras cinco filas: cuatro son del ocupante del inmueble y la quinta, del patrón. Ninguna cambia de titular por firmar un contrato de guardias. Lo que el proveedor puede aportar es personal capacitado que se integre a la brigada, y eso se escribe en el contrato con nombre y alcance.
 
 ## Las tres respuestas honestas cuando un proveedor ofrece las dos materias
 

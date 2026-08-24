@@ -142,13 +142,13 @@ La Secretaría de Seguridad Ciudadana publica el listado de empresas registradas
 </table>
 </div>
 
-### La vigencia publicada ya quedó atrás
+### Qué hacer con la fecha de vigencia publicada
 
 <div class="nota nota-fuerte">
 
 ##### Pide el acuse de renovación, no solo el permiso
 
-La fecha que la autoridad publica para este registro es el 20 de agosto de 2026, anterior al día en que estás leyendo esta ficha. El dato se reproduce tal como aparece en el archivo público, sin ajustarlo.
+La fecha que la autoridad publica para este registro es el 20 de agosto de 2026. El corte del padrón es del 29 de julio de 2026, anterior a esa fecha, así que el archivo no alcanza a reflejar una renovación posterior. El dato se reproduce tal como aparece en el archivo público, sin ajustarlo.
 
 Que la vigencia esté vencida ahí no significa que la empresa haya dejado de estar registrada: los padrones se actualizan con retraso y una renovación en trámite tarda en reflejarse. Tampoco significa lo contrario. Lo que corresponde es **pedir el documento actualizado y el acuse de renovación**, y confirmar la fecha con la autoridad antes de firmar.
 

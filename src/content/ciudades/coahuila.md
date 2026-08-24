@@ -4,7 +4,7 @@ abreviatura: "COAH"
 capital: "Saltillo"
 region: "Norte"
 estado: "Coahuila"
-descripcion: "Empresas de seguridad privada en Coahuila. Autorización ante la Dirección General de Registro y Control de los Servicios de Seguridad Privada, vigencia de 1 año, prorrogable por periodos iguales."
+descripcion: "Empresas de seguridad privada en Coahuila: la autorización estatal dura 1 año y es prorrogable por periodos iguales. Qué exigir antes de contratar."
 orden: 9
 normativa:
   ley: "Ley del Sistema de Seguridad Pública del Estado, Título Sexto"

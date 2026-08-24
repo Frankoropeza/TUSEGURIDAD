@@ -1,6 +1,6 @@
 ---
 nombre: SEPRIEV Seguridad para Eventos
-descripcion: "Seguridad privada que se contrata por evento y no por mes: aforo, filtros de acceso, control de multitudes y custodia de montaje, en CDMX, Guadalajara, Monterrey, Puebla y Cancún."
+descripcion: "Seguridad privada que se contrata por evento y no por mes: aforo, filtros de acceso y control de multitudes, en CDMX, Guadalajara, Monterrey, Puebla y Cancún."
 categoria: seguridad-privada
 categorias: []
 ciudad: cdmx

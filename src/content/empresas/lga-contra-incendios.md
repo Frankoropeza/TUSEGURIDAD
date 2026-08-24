@@ -1,6 +1,6 @@
 ---
 nombre: LGA Contra Incendios
-descripcion: "Proveedor de equipos y servicios contra incendios en Querétaro: extintores, monitores industriales, mangueras y equipo para bomberos, con recarga, mantenimiento, instalación y capacitación bajo un mismo proveedor."
+descripcion: "Equipos contra incendios en Querétaro: extintores, monitores industriales, mangueras y equipo para bomberos, con recarga, mantenimiento y capacitación."
 categoria: seguridad-contra-incendios
 categorias: []
 ciudad: queretaro

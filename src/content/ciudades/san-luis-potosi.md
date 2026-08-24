@@ -4,7 +4,7 @@ abreviatura: "SLP"
 capital: "San Luis Potosí"
 region: "Bajío"
 estado: "San Luis Potosí"
-descripcion: "Empresas de seguridad privada en San Luis Potosí. Autorización ante la Unidad de Servicios de Seguridad Privada, vigencia de 5 años, con refrendo anual obligatorio."
+descripcion: "Empresas de seguridad privada en San Luis Potosí: la autorización estatal dura 5 años, con refrendo anual obligatorio. Qué exigir antes de contratar."
 orden: 24
 normativa:
   ley: "Ley de Servicios de Seguridad Privada para el Estado de San Luis Potosí"

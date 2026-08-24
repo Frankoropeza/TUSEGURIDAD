@@ -4,7 +4,7 @@ slug: venta-de-botas-para-bombero
 nombre: Venta de botas para bombero
 titulo: Venta de botas para bombero en CDMX con envío a toda la República
 tituloSeo: Botas para bombero estructural y forestal
-descripcion: "Botas estructurales, de caucho para HAZMAT y forestales, con suela antiderrapante certificada, clasificadas por norma NFPA según el terreno y el riesgo de cada tarea."
+descripcion: "Botas estructurales, de caucho para HAZMAT y forestales, con suela antiderrapante certificada y clasificadas por norma NFPA según el riesgo de cada tarea."
 orden: 4
 titulos:
   incluye: Tipos de botas para bombero

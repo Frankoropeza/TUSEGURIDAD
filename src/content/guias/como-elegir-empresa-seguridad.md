@@ -1,6 +1,6 @@
 ---
 titulo: Cómo elegir una empresa de seguridad en México
-descripcion: "El proceso completo para contratar seguridad privada sin decidir por precio: definir el alcance, pedir cotizaciones comparables, leer el permiso y blindar el contrato."
+descripcion: "El proceso para contratar seguridad privada sin decidir por precio: definir el alcance, pedir cotizaciones comparables, leer el permiso y blindar el contrato."
 fecha: 2026-07-28
 actualizado: 2026-08-22
 autor: Equipo TuSeguridad

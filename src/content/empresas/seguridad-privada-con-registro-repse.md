@@ -60,12 +60,14 @@ Casi todo el mundo lo lee como un trámite del proveedor. No lo es. Tres de sus 
 <tr><th>Frente</th><th>Con registro vigente y actividad correcta</th><th>Sin registro, o con actividad que no corresponde</th></tr>
 </thead>
 <tbody>
-<tr><td>Impuesto sobre la renta</td><td>El pago del servicio es deducible</td><td>El gasto completo se cae en la declaración</td></tr>
-<tr><td>IVA</td><td>El impuesto trasladado es acreditable</td><td>No se acredita, y se corrige hacia atrás en una revisión</td></tr>
-<tr><td>Obligaciones laborales</td><td>El contratante responde solidariamente, pero con expediente que lo respalda</td><td>Responde igual, sin papeles con los cuales defenderse</td></tr>
+<tr><td>Impuesto sobre la renta</td><td>El pago es deducible si además reúnes el expediente que la ley exige</td><td>El gasto completo se cae en la declaración</td></tr>
+<tr><td>IVA</td><td>El impuesto trasladado es acreditable bajo esa misma condición documental</td><td>No se acredita, y se corrige hacia atrás en una revisión</td></tr>
+<tr><td>Obligaciones laborales</td><td>Solo respondes solidariamente si la prestadora incumple con sus trabajadores, y el expediente es tu defensa</td><td>Respondes igual bajo el mismo supuesto, pero sin papeles con los cuales defenderte</td></tr>
 </tbody>
 </table>
 </div>
+
+Las dos primeras filas dependen de una condición que la tabla no cabe: el registro vigente no basta por sí solo. La ley pide también que conserves copia del registro, los comprobantes fiscales de nómina, el acuse del ISR retenido y los pagos de cuotas del periodo facturado. Sin ese paquete, el efecto fiscal es el de la columna derecha aunque el proveedor esté inscrito.
 
 #### La deducibilidad no es una multa: es peor
 

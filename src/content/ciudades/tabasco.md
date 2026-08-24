@@ -4,7 +4,7 @@ abreviatura: "TAB"
 capital: "Villahermosa"
 region: "Sureste"
 estado: "Tabasco"
-descripcion: "Empresas de seguridad privada en Tabasco. Autorización ante la Dirección de la Policía Auxiliar y la Bancaria, Industrial y Comercial, vigencia de 1 año, revalidable."
+descripcion: "Empresas de seguridad privada en Tabasco: la autorización estatal dura 1 año y es revalidable. Qué documento pedir antes de contratar a un proveedor."
 orden: 27
 normativa:
   ley: "Reglamento que Regula la Prestación de Servicios de Seguridad Privada en el Estado de Tabasco"

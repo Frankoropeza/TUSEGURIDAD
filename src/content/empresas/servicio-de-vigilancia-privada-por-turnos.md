@@ -55,11 +55,11 @@ Un rol de turnos es una cuenta antes que una organización. La cuenta empieza po
 </thead>
 <tbody>
 <tr><td>Horas por cubrir</td><td>168 a la semana</td><td>24 horas por 7 días, para una sola posición continua</td></tr>
-<tr><td>Jornada máxima diurna</td><td>48 horas a la semana</td><td>Límite legal de la jornada semanal</td></tr>
+<tr><td>Jornada máxima</td><td>8 horas al día en turno diurno</td><td>Artículo 61 de la Ley Federal del Trabajo; el tope semanal se deriva de ahí y de los días de descanso</td></tr>
 <tr><td>Descanso obligatorio</td><td>1 día por cada 6 trabajados</td><td>Derecho del trabajador, no una concesión del proveedor</td></tr>
-<tr><td>Piso teórico</td><td>3.5 elementos</td><td>168 entre 48, suponiendo que nadie se enferma ni toma vacaciones</td></tr>
-<tr><td>Factor de cobertura</td><td>15 por ciento o más</td><td>Ausentismo, vacaciones, incapacidades y rotación reales del sector</td></tr>
-<tr><td>Plantilla realista</td><td>Entre 4 y 4.5 elementos</td><td>El piso teórico más el factor de cobertura</td></tr>
+<tr><td>Piso teórico</td><td>Alrededor de 3.5 elementos</td><td>Las 168 horas semanales entre el tope semanal vigente, suponiendo que nadie se enferma ni toma vacaciones</td></tr>
+<tr><td>Factor de cobertura</td><td>El porcentaje que el proveedor declare y sepa justificar</td><td>Ausentismo, vacaciones, incapacidades y rotación de esa cuenta en particular</td></tr>
+<tr><td>Plantilla realista</td><td>El piso teórico más ese factor: siempre más de cuatro, nunca tres</td><td>Pídele al proveedor su cálculo por escrito, no una cifra redonda</td></tr>
 </tbody>
 </table>
 </div>
@@ -70,7 +70,7 @@ Es el porcentaje de gente adicional que hay que tener contratada para que la pos
 
 ### Y para una posición que no es de 24 horas
 
-Un solo turno diurno de lunes a viernes ronda 1.3 o 1.4 elementos, porque las vacaciones y las faltas siguen existiendo aunque no haya noche ni fin de semana. Quien cotiza exactamente uno está cotizando los días en que todo sale bien.
+Un solo turno diurno de lunes a viernes tampoco se sostiene con exactamente un elemento, porque las vacaciones y las faltas siguen existiendo aunque no haya noche ni fin de semana. Quien cotiza uno está cotizando los días en que todo sale bien.
 
 <ul class="cols-2">
 <li>Elementos base por posición</li>
@@ -80,6 +80,21 @@ Un solo turno diurno de lunes a viernes ronda 1.3 o 1.4 elementos, porque las va
 <li>Cobertura de comidas dentro del turno</li>
 <li>Quién autoriza un movimiento en domingo</li>
 </ul>
+
+<div class="nota">
+
+##### El tope semanal va a bajar, y con él sube la plantilla
+
+La reforma que reduce la jornada a 40 horas se publicó en el Diario Oficial el 1 de mayo
+de 2026. El resto de 2026 es etapa de preparación, así que la cuenta de arriba se hace
+todavía sobre 48 horas. Desde enero el escalón baja cada año: 46 en 2027, 44 en 2028,
+42 en 2029 y 40 en 2030.
+
+Cada escalón sube el número de elementos que necesita una posición cubierta las 24 horas.
+Pide que la cotización diga sobre qué tope está calculada: una plantilla dimensionada con
+48 horas se queda corta en enero de 2027, y ese ajuste lo vas a pagar a media vigencia.
+
+</div>
 
 ## ¿Qué esquema de turnos conviene y cuánto cuesta cada uno?
 
@@ -107,7 +122,7 @@ Pon dos propuestas de la misma posición de 24 horas al lado y compáralas por p
 <div class="tabla-scroll">
 <table>
 <thead>
-<tr><th>Punto de comparación</th><th>Propuesta con 3 elementos</th><th>Propuesta con 4.3 elementos</th></tr>
+<tr><th>Punto de comparación</th><th>Propuesta con 3 elementos</th><th>Propuesta con la plantilla completa calculada</th></tr>
 </thead>
 <tbody>
 <tr><td>Precio mensual</td><td>Visiblemente menor</td><td>Más alto, con el desglose a la vista</td></tr>

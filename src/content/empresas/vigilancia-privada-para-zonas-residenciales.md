@@ -117,12 +117,11 @@ Escribe quién autoriza cada tipo de ingreso antes de contratar. Es la parte del
 
 ## Qué documento ampara la vigilancia residencial en Naucalpan
 
-Naucalpan es Estado de México, aunque desde Lomas Verdes la capital quede a un semáforo. La ley que rige el servicio en tu calle es la estatal, y conviene revisarla con calma porque su vigencia no se parece a la del resto del país.
+Naucalpan es Estado de México, aunque desde Lomas Verdes la capital quede a un semáforo. La ley que rige el servicio en tu calle es la estatal, y conviene revisarla con calma porque su vigencia no se acomoda al calendario de ningún contrato.
 
 <ul class="cols-2">
 <li>Ley de Seguridad Privada del Estado de México</li>
-<li>Autoridad: Secretaría de Seguridad</li>
-<li>Gobierno del Estado de México</li>
+<li>Secretaría de Seguridad del Gobierno del Estado de México</li>
 <li>Autorización vigente por dos años</li>
 <li>Seis modalidades en el artículo 7</li>
 <li>Registro Estatal de Empresas de Seguridad Privada</li>

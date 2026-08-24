@@ -2,7 +2,7 @@
 titulo: Seguridad para condominios y residenciales
 h1: Seguridad para condominios, cuando quien contrata es un comité y no una persona
 tituloSeo: Seguridad para condominios y fraccionamientos
-descripcion: "Cómo se contrata vigilancia cuando la decisión es colectiva: reglamento contra consigna, quién autoriza el acceso a un proveedor, y qué sobrevive al cambio de administración."
+descripcion: "Cómo se contrata vigilancia cuando la decisión es colectiva: reglamento contra consigna, quién autoriza el acceso y qué sobrevive al cambio de administración."
 icono: "🏢"
 destacado: true
 orden: 4

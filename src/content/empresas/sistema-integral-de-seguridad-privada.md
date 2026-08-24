@@ -137,8 +137,7 @@ Cuautitlán Izcalli vive del corredor industrial y logístico que corre hacia Tu
 </thead>
 <tbody>
 <tr><td>Ley aplicable</td><td>Ley de Seguridad Privada del Estado de México</td></tr>
-<tr><td>Autoridad</td><td>Secretaría de Seguridad</td></tr>
-<tr><td>Dependencia</td><td>Gobierno del Estado de México</td></tr>
+<tr><td>Autoridad</td><td>Secretaría de Seguridad del Gobierno del Estado de México</td></tr>
 <tr><td>Vigencia de la autorización</td><td>Dos años, revalidable</td></tr>
 <tr><td>Modalidades</td><td>Seis, listadas en el artículo 7</td></tr>
 <tr><td>Registro</td><td>Registro Estatal de Empresas de Seguridad Privada</td></tr>
@@ -154,7 +153,7 @@ La ficha de plaza del [Estado de México](/ciudades/estado-de-mexico/) resume qu
 
 ### Dos años se pasan sin que nadie lo note
 
-La autorización estatal dura dos años. En casi todo el país el trámite es anual, así que la costumbre de revisarlo al cierre de ejercicio no aplica aquí, y un contrato puede renovarse tres veces sin que el permiso se vuelva a abrir. Anota la fecha de vencimiento junto al contrato.
+La autorización estatal dura dos años y su vencimiento cae en un mes cualquiera, sin relación con el contrato, que se renueva cada doce meses. Como las dos fechas no coinciden, un contrato puede renovarse tres veces sin que el permiso se vuelva a abrir. Anota la fecha de vencimiento junto al contrato.
 
 Si alguno de tus puntos está del otro lado del límite, en la Ciudad de México, ya son dos entidades federativas y entra también la Ley Federal de Seguridad Privada.
 

@@ -4,7 +4,7 @@ slug: mantenimiento-y-certificacion-de-equipo-scba
 nombre: Mantenimiento y certificación de equipo SCBA
 titulo: Mantenimiento y certificación de equipo SCBA para bomberos en CDMX
 tituloSeo: "Mantenimiento y certificación de SCBA en CDMX"
-descripcion: "Inspección, prueba de presión y recarga de cilindros de equipo SCBA para bomberos y brigadas en CDMX, con bitácora de mantenimiento y constancia de revisión por equipo."
+descripcion: "Inspección, prueba de presión y recarga de cilindros SCBA para bomberos y brigadas en CDMX, con bitácora de mantenimiento y constancia por equipo."
 orden: 7
 intro: >-
   Un equipo de respiración autónoma que no se revisa a tiempo no avisa

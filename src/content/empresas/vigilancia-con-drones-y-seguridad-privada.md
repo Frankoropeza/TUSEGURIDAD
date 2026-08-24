@@ -117,7 +117,7 @@ El cumplimiento corre por dos carriles y hay que atender los dos, porque ninguno
 </thead>
 <tbody>
 <tr><td>Servicio de seguridad</td><td>Permiso vigente en la modalidad que ampare lo contratado</td><td>Copia legible, con modalidad y fecha de vencimiento</td></tr>
-<tr><td>Aeronave</td><td>Registro ante la AFAC a nombre de un titular identificable</td><td>Constancia de registro, y quién responde si el equipo es de un tercero</td></tr>
+<tr><td>Aeronave</td><td>Registro ante la AFAC cuando el equipo cae en la categoría de peso que lo exige</td><td>Constancia de registro o la razón por la que no aplica, y quién responde si el equipo es de un tercero</td></tr>
 <tr><td>Piloto</td><td>Acreditación conforme a la categoría de peso del equipo</td><td>La de quien se presenta cada turno, no la del dueño de la empresa</td></tr>
 <tr><td>Operación</td><td>Altura máxima, vuelo dentro de la línea visual y distancia a aeródromos</td><td>Plan de vuelo dibujado sobre el plano del predio</td></tr>
 <tr><td>Imágenes</td><td>Tratamiento conforme a la legislación de datos personales</td><td>Protocolo de resguardo, plazo de conservación y borrado</td></tr>

@@ -4,7 +4,7 @@ abreviatura: "CAM"
 capital: "San Francisco de Campeche"
 region: "Sureste"
 estado: "Campeche"
-descripcion: "Empresas de seguridad privada en Campeche. Autorización ante la Unidad de Registro Estatal de Empresas, Personal y Equipo de Seguridad Privada, vigencia de 1 año, revalidable hasta por 3 años más."
+descripcion: "Empresas de seguridad privada en Campeche: la autorización estatal dura 1 año y se revalida hasta por 3 años más. Qué exigir antes de contratar."
 orden: 6
 normativa:
   ley: "Reglamento para la Prestación de Servicios de Seguridad Privada en el Estado de Campeche"

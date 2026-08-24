@@ -4,7 +4,7 @@ slug: capacitacion-nfpa-para-brigadas
 nombre: Capacitación NFPA para brigadas
 titulo: Capacitación NFPA para brigadas de bomberos en CDMX
 tituloSeo: "Capacitación NFPA para brigadas en CDMX"
-descripcion: "Capacitación en uso correcto de EPP, protocolos de emergencia y manejo de equipo SCBA para brigadas y cuerpos de bomberos, con práctica guiada y constancia de participación."
+descripcion: "Capacitación en uso de EPP, protocolos de emergencia y manejo de equipo SCBA para brigadas y cuerpos de bomberos, con práctica guiada y constancia."
 orden: 8
 intro: >-
   Un equipo de protección completo no vuelve a un brigadista competente

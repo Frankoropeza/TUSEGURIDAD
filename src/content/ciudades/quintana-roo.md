@@ -4,7 +4,7 @@ abreviatura: "QROO"
 capital: "Chetumal"
 region: "Sureste"
 estado: "Quintana Roo"
-descripcion: "Empresas de seguridad privada en Quintana Roo. Autorización ante la Dirección de Registro y Supervisión de Empresas y Servicios Privados de Seguridad, vigencia de 1 año improrrogable."
+descripcion: "Empresas de seguridad privada en Quintana Roo: la autorización estatal dura 1 año y es improrrogable. Qué exigir antes de contratar a un proveedor."
 orden: 23
 normativa:
   ley: "Ley de Seguridad Ciudadana del Estado de Quintana Roo"

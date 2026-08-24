@@ -4,7 +4,7 @@ abreviatura: "NL"
 capital: "Monterrey"
 region: "Norte"
 estado: "Nuevo León"
-descripcion: "Empresas de seguridad privada en Nuevo León. Autorización ante la Dirección de Control y Supervisión a Empresas y Servicios de Seguridad Privada, vigencia de 1 año, revalidable."
+descripcion: "Empresas de seguridad privada en Nuevo León: la autorización estatal dura 1 año y es revalidable. Qué documento pedir antes de contratar a un proveedor."
 orden: 19
 normativa:
   ley: "Ley de Seguridad Privada para el Estado de Nuevo León"

@@ -1,6 +1,6 @@
 ---
 nombre: Proyecto Red
-descripcion: "Proveedor de equipo y servicios contra incendios en CDMX y Estado de México: extintores, gabinetes, mangueras, señalización y sistemas fijos, con recarga, mantenimiento, prueba hidrostática, instalación y capacitación bajo un mismo proveedor, y precio de referencia publicado por producto."
+descripcion: "Equipo contra incendios en CDMX y Estado de México: extintores, gabinetes, mangueras y sistemas fijos, con recarga, mantenimiento e instalación."
 categoria: seguridad-contra-incendios
 categorias: []
 ciudad: cdmx

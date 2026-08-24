@@ -143,8 +143,7 @@ El respaldo legal para contratos que menciona el perfil es una declaración de l
 
 <ul class="cols-2">
 <li>Ley de Seguridad Privada del Estado de México</li>
-<li>Autoridad: Secretaría de Seguridad</li>
-<li>Gobierno del Estado de México</li>
+<li>Secretaría de Seguridad del Gobierno del Estado de México</li>
 <li>Autorización vigente por dos años</li>
 <li>Seis modalidades, artículo 7</li>
 <li>Registro Estatal de Empresas de Seguridad Privada</li>
@@ -152,7 +151,7 @@ El respaldo legal para contratos que menciona el perfil es una declaración de l
 
 ### Dos años de vigencia contra un contrato anual
 
-En casi todas las entidades el trámite se renueva cada año. En el [Estado de México](/ciudades/estado-de-mexico/) la autorización dura dos y se revalida, así que el vencimiento nunca cae junto a la renovación del contrato. Anota la fecha en la misma carpeta del expediente y revísala cada vez que firmes, no cuando alguien se acuerde.
+En el [Estado de México](/ciudades/estado-de-mexico/) la autorización dura dos años y se revalida, mientras que el contrato se renueva cada doce meses. El vencimiento cae en un mes cualquiera y no coincide nunca con la firma, así que se sale del radar. Anota la fecha en la misma carpeta del expediente y revísala cada vez que firmes, no cuando alguien se acuerde.
 
 Y si el almacén está en Metepec pero el centro de distribución queda en la capital, el servicio abarca dos entidades federativas y entra además la Ley Federal de Seguridad Privada. La pregunta útil no es si hay permiso, sino qué documento cubre cada uno de tus domicilios.
 

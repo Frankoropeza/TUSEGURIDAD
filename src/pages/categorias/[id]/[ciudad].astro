@@ -119,10 +119,26 @@ const ix = (k: string): string => nn(secciones.indexOf(k) + 1);
 
 const titulo = `Empresas de ${rubroMin} en ${corto}`;
 
+/**
+ * `<title>` del cruce. Tiene un presupuesto distinto al del H1: Google trunca
+ * cerca de los 60 caracteres y el sufijo « | TuSeguridad» ya consume 14, así
+ * que con rubros largos («seguridad contra incendios», 26) el H1 completo más
+ * el año no cabe. Se prueban las formas de más a menos completa y se usa la
+ * primera que entra en el presupuesto; el H1 (`titulo`) no cambia nunca.
+ */
+const TITULO_SEO_MAX = 46; // 60 − los 14 caracteres de « | TuSeguridad»
+const tituloSeo =
+  [
+    `${titulo} ${anio}`,
+    titulo,
+    `${r.nombre} en ${corto}`,
+    `${r.nombre} en ${c.abreviatura ?? corto}`,
+  ].find((t) => t.length <= TITULO_SEO_MAX) ?? `${r.nombre} en ${c.abreviatura ?? corto}`;
+
 const descripcion = padron
-  ? `${padron.total} empresas con permiso vigente de ${padron.modalidad.toLowerCase()} en ${c.nombre}, ` +
-    `con número de expediente y fecha de vencimiento según el registro de la autoridad. ` +
-    `Corte del ${fechaLarga(padron.fechaCorte)}.`
+  ? `${padron.total} empresas de ${rubroMin} con permiso vigente de ` +
+    `${padron.modalidad.toLowerCase()} en ${c.nombre}: expediente y vigencia. ` +
+    `Corte del ${fechaCorta(padron.fechaCorte)}.`
   : r.marcoLocal
     ? `Empresas de ${rubroMin} que operan en ${c.nombre}: cobertura declarada, zonas atendidas y qué autoridad las autoriza en esta plaza.`
     : `Empresas de ${rubroMin} que operan en ${c.nombre}: cobertura declarada, zonas atendidas y contacto directo con cada proveedor.`;
@@ -146,7 +162,7 @@ const stats = [
 ---
 
 <BaseLayout
-  title={`${titulo} ${anio}`}
+  title={tituloSeo}
   description={descripcion}
   path={path}
   pageType="category"

@@ -34,6 +34,8 @@ padron:
 
 Esa frase es todo lo que la empresa dice de sí misma en la fuente. No publica ahí cobertura, años de operación ni registros, y esta ficha no se los supone.
 
+Conviene una precisión: «servicios especializados» es aquí una descripción comercial suya, no una constancia de inscripción en el REPSE. Ese registro es otra cosa y se comprueba con folio, en el portal de la Secretaría del Trabajo.
+
 <div class="nota">
 
 ##### La muestra y su límite
@@ -149,7 +151,7 @@ Antes de firmar, pregunta quién cubre una falta a las 22:00 de un domingo, en c
 ### Cinco puntos que se revisan sobre papel
 
 1. **Permiso de seguridad privada** completo, no la carátula, con la modalidad de bienes y la fecha de término legible.
-2. **REPSE, IMSS e INFONAVIT** del personal asignado a tus posiciones, con revisión trimestral pactada dentro del contrato.
+2. **REPSE, IMSS e INFONAVIT** del personal asignado a tus posiciones, con los acuses cuatrimestrales de ICSOE y SISUB, y la entrega pactada dentro del contrato.
 3. **Póliza de responsabilidad civil** con suma asegurada, vigencia y exclusiones a la vista.
 4. **Consigna firmada de cada posición**, entregada antes del primer turno y no semanas después.
 5. **Esquema de suplencias y frecuencia de supervisión**, con tiempo de respuesta comprometido y firma del supervisor en la bitácora.

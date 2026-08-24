@@ -69,7 +69,9 @@ El campo legítimo es más ancho de lo que se cree y muy distinto de la versión
 
 La Ciudad de México autoriza para operar dentro de la capital. Cuando el trabajo cruza dos o más entidades, el permiso relevante es el federal. Un caso que empieza en Anzures y termina revisando un domicilio en otro estado cambia de ámbito a media investigación, y esa pregunta se resuelve antes de firmar, no después.
 
-### Lo que puede consultarse sin pedirle permiso a nadie
+### Lo que se consulta en fuentes públicas, sin consentimiento del investigado
+
+Público no siempre significa gratuito ni inmediato: varios de estos registros piden solicitud formal y pago de derechos, y algunos exigen acreditar interés.
 
 <ul class="cols-2">
 <li>Registro Público de la Propiedad</li>
@@ -113,7 +115,7 @@ Por eso una propuesta bien hecha incluye aviso de privacidad, criterio de minimi
 
 ##### Una prueba mal obtenida no es una prueba débil
 
-Es una prueba que se excluye del proceso, y con ella se cae lo que se haya derivado de ella. En un juicio laboral, un audio grabado por quien no participó en la conversación no se admite. En una carpeta de investigación, un dato sacado de una base sin origen legítimo contamina el resto del expediente.
+Es una prueba que se excluye del proceso, y con ella se cae lo que se haya derivado de ella. En un juicio laboral, un audio grabado por quien no participó en la conversación se ataca como prueba obtenida en violación del secreto de las comunicaciones, y lo habitual es que el tribunal lo excluya junto con lo que se haya construido sobre él. En una carpeta de investigación, un dato sacado de una base sin origen legítimo contamina el resto del expediente.
 
 Quien pagó por ese trabajo se queda con un documento impresentable y, en el peor escenario, señalado como quien lo ordenó.
 

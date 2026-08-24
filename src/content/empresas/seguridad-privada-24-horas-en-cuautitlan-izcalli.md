@@ -57,7 +57,7 @@ Un anuncio de **seguridad privada 24 horas en Cuautitlán Izcalli** puede referi
 
 ### La diferencia se nota a las tres de la mañana
 
-Suena el sensor de una cortina en una bodega del corredor Cuautitlán-Izcalli. Con oficina abierta, alguien toma la llamada y promete avisar. Con central de monitoreo, un operador ya está viendo la cámara y llamando a la lista de contactos en el orden acordado. Con posición cubierta, hay un elemento a veinte metros de la cortina que ya reportó por radio lo que pasó.
+Suena el sensor de una cortina en una bodega del corredor de Cuautitlán Izcalli. Con oficina abierta, alguien toma la llamada y promete avisar. Con central de monitoreo, un operador ya está viendo la cámara y llamando a la lista de contactos en el orden acordado. Con posición cubierta, hay un elemento a veinte metros de la cortina que ya reportó por radio lo que pasó.
 
 Las tres respuestas son legítimas y las tres se anuncian igual. La única que pone a alguien en tu domicilio a esa hora es la tercera, y es también la más cara, porque implica turnos, relevos y suplencias.
 

@@ -1,6 +1,6 @@
 ---
 nombre: GAMA DE MÉXICO
-descripcion: "Distribuidor de componentes profesionales contra incendio en CDMX y Querétaro: monitores, boquillas, válvulas, mangueras, conexiones, gabinetes e hidrantes, distribuidor autorizado de Elkhart Brass desde 2010, con asesoría técnica, cotización corporativa en menos de 24 horas y cobertura de envío a toda la República."
+descripcion: "Componentes contra incendio en CDMX y Querétaro: monitores, boquillas, válvulas, mangueras, gabinetes e hidrantes. Distribuidor Elkhart Brass desde 2010."
 categoria: seguridad-contra-incendios
 categorias: []
 ciudad: cdmx

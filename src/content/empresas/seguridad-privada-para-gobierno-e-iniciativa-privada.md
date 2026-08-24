@@ -58,7 +58,7 @@ Cuando el cliente es una dependencia pública, el servicio no se negocia. Se adj
 <tbody>
 <tr><td>Licitación pública</td><td>Convocatoria abierta: participa cualquiera que cumpla los requisitos</td><td>Propuesta técnica y económica en tiempo, con toda la documentación legal vigente</td></tr>
 <tr><td>Invitación restringida</td><td>La dependencia convoca a un grupo acotado de proveedores</td><td>Estar antes en el padrón y tener antecedentes de cumplimiento</td></tr>
-<tr><td>Adjudicación directa</td><td>Cuando el monto queda bajo el umbral que fija la normativa aplicable</td><td>El mismo expediente documental, aunque el proceso sea más corto</td></tr>
+<tr><td>Adjudicación directa</td><td>Cuando el monto queda bajo el umbral que fija la normativa aplicable, o cuando se actualiza alguno de los supuestos de excepción que esa misma normativa prevé</td><td>El mismo expediente documental, aunque el proceso sea más corto</td></tr>
 </tbody>
 </table>
 </div>
@@ -73,7 +73,7 @@ Ninguno de esos papeles acredita que el servicio sea bueno. Acreditan que la emp
 
 La convocatoria define número de elementos, turnos, perfil del personal, uniforme, equipo, forma de acreditar la asistencia y penas convencionales por posición no cubierta. Todo eso queda asentado antes de que alguien firme.
 
-Un proveedor que licita con frecuencia llega al cliente privado con esa disciplina puesta: rol de servicios firmado, bitácora por turno, expediente por elemento y facturación amarrada a entregables verificables. Su expediente suele estar en orden porque en ese mercado un papel vencido lo deja fuera del concurso el mismo día.
+Un proveedor que licita con frecuencia llega al cliente privado con esa disciplina puesta: rol de servicios firmado, bitácora por turno, expediente por elemento y facturación amarrada a entregables verificables. Su expediente suele estar en orden porque en ese mercado un papel vencido lo deja fuera del concurso el mismo día. Eso describe al perfil de proveedor que licita habitualmente. La fuente no dice con qué frecuencia lo hace esta empresa, en qué procedimientos participó ni con qué resultado, así que no es una descripción suya: es la pregunta que conviene hacerle.
 
 ## Qué puede copiar un comprador privado de una convocatoria pública
 
@@ -145,9 +145,9 @@ La Secretaría de Seguridad Ciudadana de la Ciudad de México publica el listado
 </table>
 </div>
 
-### La vigencia vence en cuestión de semanas
+### La vigencia publicada termina el 25 de septiembre de 2026
 
-Esa es la parte que hay que leer con calendario en mano. Frente a la fecha de corte de esta ficha, el registro publicado termina en poco más de un mes. Un permiso que caduca a las tres semanas de arrancar el servicio deja el dispositivo sin cobertura administrativa justo cuando ya está en tu inmueble.
+Esa es la parte que hay que leer con calendario en mano. Frente a la fecha de corte de esta ficha, el 24 de agosto de 2026, faltaba poco más de un mes. Compárala contra el día en que leas esto. Un permiso que caduca a las tres semanas de arrancar el servicio deja el dispositivo sin cobertura administrativa justo cuando ya está en tu inmueble.
 
 Antes de firmar, pide el acuse de renovación y no solo el documento actual. Si la renovación está en trámite, que te muestren el número de ingreso y la fecha en que lo presentaron.
 

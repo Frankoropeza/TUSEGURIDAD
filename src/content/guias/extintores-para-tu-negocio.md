@@ -1,6 +1,6 @@
 ---
 titulo: Extintores para tu negocio, qué exige la norma
-descripcion: "Cómo se clasifica el riesgo de incendio de un centro de trabajo conforme a la NOM-002-STPS-2010, qué agente corresponde a cada clase de fuego y qué revisa una inspección."
+descripcion: "Cómo clasificar el riesgo de incendio de un centro de trabajo según la NOM-002-STPS-2010, qué agente aplica a cada clase de fuego y qué revisa la inspección."
 fecha: 2026-07-29
 actualizado: 2026-08-22
 autor: Equipo TuSeguridad

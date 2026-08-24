@@ -153,4 +153,4 @@ Solicita la autorización de la empresa, identifica en el documento cada modalid
 
 ###### Procedencia de los datos
 
-> Dirección, teléfono, horario y calificación se recogieron de una fuente pública en la fecha de corte que aparece en esta ficha y pueden haber cambiado desde entonces. Las prácticas de andén, patio y control documental corresponden al oficio en general. TuSeguridad publica este directorio con fines informativos, no representa a la empresa y no obtiene beneficio económico de que la contactes.
+> Dirección, teléfono, horario y calificación se recogieron de una fuente pública en la fecha de corte que aparece en esta ficha y pueden haber cambiado desde entonces. TuSeguridad reproduce esos datos sin verificarlos por su cuenta. Las prácticas de andén, patio y control documental corresponden al oficio en general. TuSeguridad publica este directorio con fines informativos, no representa a la empresa y no obtiene beneficio económico de que la contactes.

@@ -89,7 +89,7 @@ Si la propuesta llega como un monto mensual cerrado, no es comparable contra otr
 
 ## ¿Cuánto tarda desde la primera llamada hasta el primer turno cubierto?
 
-Entre dos y cuatro semanas cuando todo va bien. Quien promete arrancar mañana está tomando gente de otro servicio o dando de alta al personal después del primer turno, y ambas cosas se pagan más adelante.
+Como orden de magnitud, y sin que sea un estándar publicado: entre dos y cuatro semanas cuando todo va bien. Quien promete arrancar mañana está tomando gente de otro servicio o dando de alta al personal después del primer turno, y ambas cosas se pagan más adelante.
 
 <div class="tabla-scroll">
 <table>
