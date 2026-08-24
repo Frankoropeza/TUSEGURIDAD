@@ -167,6 +167,11 @@ const secciones = [
 ].filter(Boolean) as string[];
 const idx = (k: string): string => nn(secciones.indexOf(k) + 1);
 
+/* Ficha de directorio: no trae servicios con detalle, así que la columna de
+   contacto se agota mucho antes que el cuerpo. En ese caso el markdown se
+   saca de la columna estrecha y se pinta a todo el ancho del contenedor. */
+const anchoCompleto = conDetalle.length === 0;
+
 // JSON-LD LocalBusiness — sin aggregateRating ni reseñas fabricadas
 const jsonld: Record<string, unknown> = {
   ...(e.telefono ? { telephone: e.telefono } : {}),
@@ -302,9 +307,11 @@ const jsonld: Record<string, unknown> = {
           </>
         )}
 
-        <div class="prose-content mt-14">
-          <Content />
-        </div>
+        {!anchoCompleto && (
+          <div class="prose-content mt-14">
+            <Content />
+          </div>
+        )}
       </div>
 
       <!-- columna de contacto -->
@@ -377,6 +384,17 @@ const jsonld: Record<string, unknown> = {
           <a href="/contacto/" class="label underline-hover mt-4 inline-block">Reportar un dato →</a>
         </div>
       </aside>
+
+      <!-- Cuerpo a todo el ancho.
+           En una ficha de directorio el aside se agota en los primeros 500px y
+           el resto del artículo se quedaba en una columna de 7 con media
+           pantalla vacía al lado. Cuando no hay nada que acompañe al texto, el
+           texto ocupa el contenedor completo. -->
+      {anchoCompleto && (
+        <div class="prose-content prose-ancho col-span-12 mt-14">
+          <Content />
+        </div>
+      )}
     </div>
   </section>
 

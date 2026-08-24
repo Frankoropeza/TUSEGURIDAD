@@ -399,6 +399,12 @@
     @apply prose-flujo max-w-[68ch];
   }
 
+  /* El cuerpo cuando no lleva nada al lado: ocupa el contenedor completo.
+     La medida se suelta del tope de lectura de 68ch a propósito. */
+  .prose-ancho {
+    @apply max-w-none;
+  }
+
   .prose-content h2 {
     @apply display-md mt-12 mb-4;
   }
