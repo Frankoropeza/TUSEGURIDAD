@@ -99,6 +99,29 @@ const ficha = [
   { k: 'Plazas', v: plazas.map((p) => ciudadPorId.get(p) ?? p).join(' · ') },
   e.direccion && { k: 'Dirección', v: e.direccion },
   e.horario && { k: 'Horario', v: e.horario },
+  /* Valoración del perfil público, siempre atribuida y fechada. No se emite
+     como aggregateRating: no es una reseña de este sitio. */
+  e.resenas && {
+    k: 'Calificación pública',
+    v: `${e.resenas.calificacion.toFixed(1)} de 5 · ${e.resenas.total} ${
+      e.resenas.total === 1 ? 'reseña' : 'reseñas'
+    }${e.fuenteDatos ? ` en ${e.fuenteDatos.nombre}` : ''}`,
+  },
+  /* Cruce con el padrón. La redacción del caso negativo importa tanto como la
+     del positivo: no aparecer en un padrón por modalidad no acredita nada en
+     contra de la empresa. */
+  e.padron &&
+    (e.padron.localizada
+      ? {
+          k: 'Padrón oficial',
+          v: `Localizada en el padrón de ${e.padron.modalidad.toLowerCase()}${
+            e.padron.expediente ? `, expediente ${e.padron.expediente}` : ''
+          }${e.padron.vigencia ? `, vigencia declarada al ${e.padron.vigencia}` : ''}`,
+        }
+      : {
+          k: 'Padrón oficial',
+          v: `No localizada en el padrón de ${e.padron.modalidad.toLowerCase()} publicado por la autoridad. Ese padrón cubre una sola modalidad, así que la ausencia no implica falta de permiso en otra.`,
+        }),
 ].filter(Boolean) as { k: string; v: string }[];
 
 // zonas agrupadas por plaza — así se ve dónde cubre exactamente en cada una
@@ -181,7 +204,7 @@ const jsonld: Record<string, unknown> = {
 ---
 
 <BaseLayout
-  title={e.nombre}
+  title={e.tituloSeo ?? e.nombre}
   description={e.descripcion}
   path={path}
   canonicalPath={canonicalPath}
@@ -245,7 +268,13 @@ const jsonld: Record<string, unknown> = {
   <section class="wrap pt-16 sm:pt-20">
     <div class="grid grid-cols-12 gap-x-12 gap-y-12">
       <div class="col-span-12 lg:col-span-7">
-        <p class="label">[ {idx('datos')} — Datos declarados ]</p>
+        <p class="label">[ {idx('datos')} — {e.fuenteDatos ? 'Datos publicados' : 'Datos declarados'} ]</p>
+        {e.fuenteDatos && (
+          <p class="muted mt-4 text-sm leading-snug">
+            Reproducidos de {e.fuenteDatos.nombre}, consultado el {e.fuenteDatos.fechaCorte}.
+            TuSeguridad no los verifica ni interviene en la contratación.
+          </p>
+        )}
         <dl class="mt-6 border-b border-ink/20">
           {ficha.map((f) => (
             <div class="rule grid grid-cols-12 items-baseline gap-4 py-4">

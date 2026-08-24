@@ -69,6 +69,58 @@ const empresas = defineCollection({
     foto: z.string().optional(),
 
     /**
+     * Título SEO propio de la ficha. Existe porque en las fichas de directorio
+     * la URL es una palabra clave del rubro y el H1 es la razón social: el
+     * `<title>` tiene que poder cargar la palabra clave sin falsear el H1.
+     */
+    tituloSeo: z.string().optional(),
+
+    /**
+     * Origen de los datos cuando la ficha no la aporta la propia empresa, sino
+     * que se reproduce de una fuente pública. Su presencia es lo que distingue
+     * una ficha de directorio de una ficha de cliente.
+     */
+    fuenteDatos: z
+      .object({
+        nombre: z.string(),
+        /** fecha en que se consultó la fuente, ISO */
+        fechaCorte: z.string(),
+      })
+      .optional(),
+
+    /**
+     * Valoración publicada en el perfil público del negocio. Se muestra
+     * atribuida a su fuente y con fecha de corte, y NO se emite como
+     * `aggregateRating` en el JSON-LD: marcar valoraciones de terceros sobre
+     * un negocio ajeno va contra las guías de datos estructurados.
+     */
+    resenas: z
+      .object({
+        calificacion: z.number().min(0).max(5),
+        total: z.number().int().min(0),
+      })
+      .optional(),
+
+    /**
+     * Cruce con un padrón oficial de la autoridad. `localizada: false` no
+     * significa que la empresa opere sin permiso: los padrones se publican por
+     * modalidad, y una empresa de vigilancia de bienes no tiene por qué
+     * aparecer en el de protección a personas. La ficha tiene que decirlo.
+     */
+    padron: z
+      .object({
+        localizada: z.boolean(),
+        expediente: z.string().optional(),
+        /** fin de vigencia del permiso, ISO */
+        vigencia: z.string().optional(),
+        modalidad: z.string(),
+        autoridad: z.string(),
+        fuenteUrl: z.url(),
+        fechaCorte: z.string(),
+      })
+      .optional(),
+
+    /**
      * Ficha de maqueta, no una empresa real. Se marca en pantalla, se sirve
      * con noindex y queda fuera del sitemap. Existe solo para poder evaluar
      * el diseño con varias tarjetas antes de tener padrón.
