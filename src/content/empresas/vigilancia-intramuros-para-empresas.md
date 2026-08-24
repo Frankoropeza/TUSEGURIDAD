@@ -30,41 +30,148 @@ padron:
   fechaCorte: "2026-07-29"
 ---
 
-**ELIM Seguridad Privada** tiene oficina en Campeche 102, colonia Roma Sur, alcaldía Cuauhtémoc. En su perfil público aparece listada bajo las categorías de *servicio de seguridad* y *servicio de guardias de seguridad*, y es una de las fichas con más reseñas del rubro en la Ciudad de México.
+<p class="lede">ELIM Seguridad Privada opera desde Campeche 102, colonia Roma Sur, alcaldía Cuauhtémoc, en la Ciudad de México, y en su perfil público declara haber desarrollado la cultura de la <strong>vigilancia intramuros</strong>. Ese mismo perfil la clasifica en dos categorías: servicio de seguridad y servicio de guardias de seguridad.</p>
 
-En la descripción que la propia empresa publica en ese perfil declara ser una institución de seguridad privada con amplia trayectoria, haber desarrollado la cultura de la **vigilancia intramuros** y contar con infraestructura en su sistema logístico operativo.
+En la descripción que la propia empresa publica se presenta como una institución de seguridad privada con amplia trayectoria y con infraestructura en su sistema logístico operativo. Es un texto suyo y así se reproduce, sin ampliarlo ni interpretarlo.
 
-Esta ficha reproduce información pública. No la redactó la empresa para TuSeguridad, no hay relación comercial y no verificamos ninguno de los datos.
+<div class="nota">
 
-## Qué es la vigilancia intramuros y cuándo se contrata
+##### Hasta dónde alcanza a decir la fuente
 
-Intramuros quiere decir que el elemento se queda dentro del inmueble. No patrulla la calle ni persigue nada afuera: cubre una posición concreta —lobby, caseta, andén, piso de oficinas— con una consigna escrita para ese punto.
+El perfil reporta **916 reseñas con una calificación de 4.6** en la fecha de corte. Es el volumen más alto de este directorio y, aun así, mide percepción de clientes: no acredita permiso, alta patronal ni cobertura de póliza.
 
-Es el esquema que compra una empresa cuando lo que necesita es control de quién entra y quién sale, no una reacción armada. Un almacén con maniobras de carga, un corporativo con recepción, una escuela con horario de entrada y salida: todos ésos son problemas de filtro y de bitácora.
+Del horario publicado sabemos que la oficina atiende de lunes a viernes de 7:00 a 18:00 y el sábado hasta las 15:00. Ese es el horario administrativo. La operación en campo se pacta por contrato y no aparece en ninguna fuente pública.
 
-Lo que cambia el precio no es el número de guardias, es el número de **posiciones** y de **turnos**. Una posición cubierta las 24 horas necesita varios elementos rotando, más el relevo de descansos y las suplencias por falta. Cuando una cotización te da un total sin desglosar eso, no la puedes comparar contra ninguna otra: estás comparando cifras que se armaron con supuestos distintos.
+</div>
 
-La segunda variable es la carga real del punto. Un acceso donde entran ocho personas al día y otro donde se cruzan proveedores, paquetería, visitas y vehículos son el mismo puesto en el papel y dos trabajos completamente distintos en la práctica. El proveedor serio pide recorrer el inmueble antes de cotizar. El que manda el precio por correo el mismo día está adivinando.
+## Vigilancia intramuros: qué hace el elemento que se queda dentro
 
-Lo tercero, y es lo que casi nadie revisa, es qué pasa cuando el elemento falta. Un servicio intramuros vive o muere en la suplencia: si no está por escrito quién cubre, en cuánto tiempo llega y con qué consigna, el hueco lo va a tapar alguien que nunca ha pisado tu inmueble. Ahí es donde se pierde el filtro, no en el día a día.
+Intramuros significa que el guardia no sale. Cubre un punto fijo del inmueble con una consigna escrita para ese punto, y su trabajo es filtrar, registrar, observar y escalar. No patrulla la calle. No persigue.
 
-Y una advertencia de oficio: el guardia intramuros no es personal de mantenimiento ni recepcionista. Cada tarea ajena al filtro es tiempo con la posición sola. Si el inmueble necesita apoyo operativo, esa es otra posición o es otro servicio; mezclarlos abarata la factura y encarece el incidente.
+<div class="tabla-scroll">
+<table>
+<thead>
+<tr><th>Posición</th><th>Qué controla</th><th>Qué deja asentado</th></tr>
+</thead>
+<tbody>
+<tr><td>Caseta vehicular</td><td>Entrada y salida de unidades, placas, motivo y autorización</td><td>Folio, hora de entrada, hora de salida y quién autorizó</td></tr>
+<tr><td>Lobby o recepción</td><td>Visitas, paquetería y proveedores contra cita previa</td><td>Identificación cotejada, destino interno y gafete entregado</td></tr>
+<tr><td>Andén de carga</td><td>Maniobras, sellos de remolque y coincidencia con la remisión</td><td>Número de sello, piezas declaradas e incidencias</td></tr>
+<tr><td>Piso de oficinas</td><td>Rondines por punto de control y cierre de áreas</td><td>Hora de cada punto y novedades del turno</td></tr>
+</tbody>
+</table>
+</div>
 
-## Cómo verificar a esta empresa antes de contratarla
+### La consigna es lo que vuelve exigible el servicio
 
-Aparecer en un directorio no acredita nada. Antes de firmar con ésta o con cualquier otra, pide y confirma:
+Una consigna dice a quién se deja pasar, qué se anota, qué se revisa, a quién se llama y en cuántos minutos cuando algo se sale de lo normal. Si no está firmada antes del arranque, no hay nada pactado que reclamar después.
 
-1. **El permiso de seguridad privada**, con la modalidad y la vigencia legibles. La vigilancia de un inmueble entra en la modalidad de seguridad privada en los bienes.
-2. **El registro REPSE** ante la Secretaría del Trabajo, si el servicio se presta como servicio especializado. Sin él, el gasto no es deducible y te expones a responsabilidad solidaria.
-3. **El alta del personal ante IMSS e INFONAVIT.** Pide constancias, no la promesa.
-4. **La póliza de responsabilidad civil vigente**, con suma asegurada y fecha.
-5. **La consigna escrita de cada posición** que te van a cubrir, antes de arrancar.
-6. **El esquema de suplencias**: qué pasa cuando un elemento falta y en cuánto tiempo llega el relevo.
+Conviene que cada posición tenga la suya. Las consignas genéricas, idénticas para el andén y para la recepción, terminan describiendo un inmueble que no es el tuyo.
 
-## Sobre el padrón de la autoridad
+### Lo que la bitácora debe poder demostrar tres meses después
 
-La Secretaría de Seguridad Ciudadana de la Ciudad de México publica el padrón de empresas registradas **para la modalidad de protección a personas**. Esta empresa no aparece en ese listado en la fecha de corte consultada.
+<ul class="cols-2">
+<li>Hora exacta de cada acceso</li>
+<li>Identificación cotejada del visitante</li>
+<li>Placas y número económico de la unidad</li>
+<li>Sello de remolque al llegar y al salir</li>
+<li>Rondines con punto de control y hora</li>
+<li>Novedades y a quién se reportaron</li>
+<li>Relevo de turno con firma de ambos</li>
+<li>Fallas de equipo y de iluminación</li>
+</ul>
 
-Eso no dice nada en su contra: el padrón es por modalidad, y una empresa dedicada a la vigilancia de bienes no tiene por qué figurar en el de escoltas. Lo que sí conviene es pedirle directamente el documento de su permiso y confirmar cuál es la modalidad que ampara.
+## ¿Cómo se calcula el costo de una posición de vigilancia?
 
-> Los datos de contacto, el horario y la calificación de esta ficha se tomaron de fuentes públicas en la fecha de corte indicada y pueden haber cambiado. TuSeguridad no representa a esta empresa, no percibe comisión por contactarla y no participa en la contratación.
+La unidad de costo no es el guardia. Es la posición, y su precio depende de cuántas horas hay que cubrirla y de cuántos elementos hacen falta para sostener esa cobertura sin huecos.
+
+<div class="tabla-scroll">
+<table>
+<thead>
+<tr><th>Cobertura contratada</th><th>Qué hay detrás</th><th>Qué preguntar en la cotización</th></tr>
+</thead>
+<tbody>
+<tr><td>8 horas, lunes a viernes</td><td>Un elemento, más su relevo por vacaciones o incapacidad</td><td>Quién cubre los días de ausencia y con qué consigna</td></tr>
+<tr><td>12 horas, siete días</td><td>Rotación de turnos y descanso semanal obligatorio</td><td>Cuántos elementos sostienen esa posición durante el mes</td></tr>
+<tr><td>24 horas, siete días</td><td>Turnos completos más el factor de reemplazo</td><td>Costo por posición y por turno, desglosado</td></tr>
+</tbody>
+</table>
+</div>
+
+Una cotización que entrega un monto global sin ese desglose no se puede comparar contra otra: cada proveedor la armó con supuestos distintos y el total redondo los esconde.
+
+### La carga real del punto no aparece en el plano
+
+Dos accesos idénticos en el papel pueden ser dos trabajos distintos. Uno recibe ocho personas al día. El otro, a las 6:40 de la mañana, tiene al camión del proveedor esperando mientras llega la paquetería y salen tres visitas.
+
+El proveedor que pide recorrer el inmueble antes de cotizar está midiendo eso. El que manda el precio por correo la misma tarde está adivinando.
+
+### Suplencias: el día que el elemento no llega
+
+Aquí se decide si el servicio existe. Si no está por escrito quién cubre, en cuánto tiempo llega y con qué consigna, el hueco lo tapa alguien que nunca ha pisado tu inmueble, y el filtro se pierde justo ese día.
+
+Pide el compromiso en minutos, no en adjetivos, y una pena convencional por posición descubierta.
+
+<div class="nota nota-fuerte">
+
+##### El guardia intramuros no es recepcionista ni personal de mantenimiento
+
+Cada tarea ajena al filtro deja la posición sola: contestar el conmutador, recibir paquetería de todo el edificio, abrir el estacionamiento del director, cambiar un foco.
+
+Si el inmueble necesita ese apoyo, es **otra posición u otro servicio**. Mezclarlos abarata la factura de este mes y encarece el incidente del mes que viene.
+
+</div>
+
+## Qué pedirle a una empresa de vigilancia antes de firmar
+
+Aparecer en un directorio no acredita nada. La lista aplica a ELIM Seguridad Privada igual que a cualquier competidor de la alcaldía Cuauhtémoc.
+
+### Lo que ampara la operación
+
+1. **Permiso de seguridad privada** con folio, modalidad y vigencia legibles. La vigilancia de un inmueble corresponde a la modalidad de seguridad privada en los bienes.
+2. **Registro REPSE** ante la Secretaría del Trabajo cuando el servicio se preste como especializado, con los acuses cuatrimestrales de ICSOE y SISUB.
+3. **Carátula de la póliza de responsabilidad civil**: suma asegurada, deducible, vigencia y lista de exclusiones.
+
+### Lo que sostiene el turno de mañana
+
+4. **Altas nominativas ante IMSS e INFONAVIT** del personal asignado a tus posiciones, no la afirmación general de que todos están dados de alta.
+5. **Consigna escrita por posición**, firmada antes del arranque, y el formato de bitácora que se usará en campo.
+6. **Esquema de suplencias con tiempo de respuesta** comprometido en minutos.
+7. **Nombre del supervisor y frecuencia de sus visitas**, con la forma de comprobar que ocurrieron.
+
+<div class="nota">
+
+##### Una prueba corta antes de la firma
+
+Pide la consigna de una sola posición. Si tarda días en llegar, o llega genérica, ya sabes cómo se va a documentar el servicio el día que haya un incidente.
+
+</div>
+
+## ELIM Seguridad Privada y el padrón de escoltas de la SSC
+
+La Secretaría de Seguridad Ciudadana capitalina publica un listado de empresas registradas en una sola modalidad: protección a personas. ELIM Seguridad Privada no aparece ahí en la fecha de corte consultada.
+
+### Por qué esa ausencia no dice nada en contra
+
+El registro se otorga por modalidad. Una empresa dedicada a la vigilancia de bienes no tiene por qué estar inscrita en el listado de escoltas, y buscarla ahí es buscarla en el archivo equivocado. Ese padrón no permite concluir nada, ni a favor ni en contra, sobre un servicio intramuros.
+
+### La verificación que sí corresponde
+
+<div class="tabla-scroll">
+<table>
+<thead>
+<tr><th>Pregunta</th><th>Dónde se responde</th></tr>
+</thead>
+<tbody>
+<tr><td>¿Está registrada en la modalidad de escoltas?</td><td>El padrón que publica la SSC de la Ciudad de México</td></tr>
+<tr><td>¿Puede vigilar mi inmueble?</td><td>El permiso en la modalidad de bienes, que la empresa entrega en copia</td></tr>
+<tr><td>¿Hasta cuándo está vigente?</td><td>La fecha impresa en ese permiso, contrastada con la autoridad emisora</td></tr>
+</tbody>
+</table>
+</div>
+
+Es un trámite de días, no de semanas, y es la única comprobación que aplica al servicio que vas a contratar.
+
+###### Procedencia de los datos
+
+> Domicilio, teléfono, horario y calificación se tomaron de una fuente pública en la fecha de corte indicada y pueden haber cambiado. TuSeguridad publicó esta ficha por cuenta propia, no representa a ELIM Seguridad Privada y no recibe pago alguno si decides llamarla.

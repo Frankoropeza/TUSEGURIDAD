@@ -30,42 +30,132 @@ padron:
   fechaCorte: "2026-07-29"
 ---
 
-**Seguridad Privada Xoogan** tiene domicilio en Calle Agujas 684, colonia El Vergel, alcaldía Iztapalapa. Su perfil público la lista bajo dos categorías, *servicio de guardias de seguridad* y *servicio de seguridad*, con calificación de 3.8 sobre 11 reseñas al corte.
+<p class="lede">Seguridad Privada Xoogan tiene domicilio en Calle Agujas 684, colonia El Vergel, alcaldía Iztapalapa, en la Ciudad de México, y su perfil público la lista bajo dos categorías: servicio de guardias de seguridad y servicio de seguridad. Lo que declara de sí misma cabe en una línea: ofrecer soluciones para prevenir y reducir el riesgo de exposición de bienes, personas o posesiones. Esa declaración es el punto de partida para hablar de <strong>prevención de riesgos y seguridad privada</strong> como lo que es, una disciplina con método.</p>
 
-Lo que la empresa declara de sí misma en ese perfil cabe en una línea: ofrecer soluciones para **prevenir y reducir el riesgo de exposición** de bienes, personas o posesiones. No añadimos nada a esa frase ni le suponemos servicios que no estén en ella.
+No le suponemos servicios que no estén en esa frase. Todo lo demás en esta página es material de consulta escrito con datos públicos.
 
-El resto del texto es nuestro y se escribió con datos públicos. No hubo entrevista, ni pago, ni revisión previa por parte de la empresa.
+<div class="nota">
 
-## Prevención de riesgos aplicada a un inmueble
+##### Lo que la fuente alcanza a decir
 
-Prevenir no es poner más gente. Es averiguar dónde y cuándo puede pasar algo, y mover el dispositivo a ese punto antes del incidente. Ese trabajo previo se llama diagnóstico y se hace caminando el inmueble, no leyendo el plano en una oficina.
+El perfil reporta **11 reseñas con una calificación de 3.8** al corte, y horario de oficina de lunes a viernes de 8:00 a 18:00, con sábado hasta las 14:00. Once opiniones son una muestra muy corta: describen once experiencias, no un nivel de servicio.
 
-Lo primero es el perímetro. Dónde termina la propiedad, qué la separa de la calle y qué tan fácil resulta cruzar esa separación. Una barda de dos metros con un contenedor de basura recargado enfrente mide un metro. Los puntos de cruce que se usan casi nunca son los evidentes: la reja lateral que da al baldío, el muro medianero que comparte azotea con el vecino, la ventana del baño de planta baja.
+No hay información pública sobre tarifas, plantilla, antigüedad ni tipos de inmueble atendidos. Nada de eso se inventa aquí.
 
-Después vienen los accesos secundarios. Todo inmueble tiene una entrada principal vigilada y dos o tres que nadie cuenta: el andén de carga, la puerta de servicio, la rampa del estacionamiento, la salida de emergencia que alguien dejó trabada con una cuña. Esas puertas fallan por costumbre, no por ataque. La rampa que se abre para que salga un coche y se queda arriba medio minuto es un acceso abierto medio minuto, y quien observa el inmueble ya lo tiene medido.
+</div>
 
-La iluminación es la medida más barata y la peor aprovechada. No se trata de más lámparas sino de dónde caen las sombras: una luminaria potente apuntada de frente deslumbra a la cámara y deja en negro lo que queda detrás. Los puntos que importan suelen ser las esquinas del estacionamiento, la franja entre coches y el tramo de banqueta donde el usuario saca las llaves. Vale la pena recorrer el inmueble de noche siguiendo la ruta que hace un empleado al salir: casi siempre aparece un tramo oscuro que de día nadie ve.
+## Prevención de riesgos: identificar, evaluar, tratar y monitorear
 
-Luego está el reloj. El riesgo no se reparte parejo a lo largo del día: se concentra en las transiciones. El cambio de turno, cuando el saliente ya se fue mentalmente y el entrante no conoce el pendiente. La hora de salida del personal, con el estacionamiento lleno de gente distraída. El corte de caja y el traslado de valores, si los hay. Un dispositivo que trata todas las horas igual está mal repartido. Los hábitos cuentan como horario: un rondín que sale siempre al minuto exacto se puede esperar sentado.
+Prevenir no es poner más gente. Es un ciclo de cuatro pasos que se repite, y cada paso tiene un entregable que se puede pedir por escrito. Cuando alguien vende prevención sin ninguno de esos cuatro documentos, está vendiendo horas de guardia con otro nombre.
 
-Con esas lecturas se arma el dispositivo: cuántas posiciones, en qué horarios se refuerzan, qué rondines y con qué variación, y una consigna que diga qué mirar en cada punto. Sin diagnóstico previo lo que se entrega es la plantilla del inmueble anterior con otro membrete: un guardia en la entrada, doce horas y nada sobre la reja lateral. Eso sirve para facturar, no para prevenir. Cuando pidas una propuesta, pide primero el recorrido: quien cotiza sin haber pisado el lugar te vende un número, no un dispositivo.
+<div class="tabla-scroll">
+<table>
+<thead>
+<tr><th>Paso</th><th>En qué consiste</th><th>Qué queda por escrito</th></tr>
+</thead>
+<tbody>
+<tr><td>Identificar</td><td>Recorrer el inmueble y listar accesos, perímetro, horarios reales y puntos ciegos</td><td>Inventario de puntos vulnerables, con fotografía y ubicación</td></tr>
+<tr><td>Evaluar</td><td>Asignar a cada escenario una probabilidad y un impacto, y ordenarlos</td><td>Matriz priorizada, no una lista genérica de amenazas</td></tr>
+<tr><td>Tratar</td><td>Decidir qué se evita, qué se reduce, qué se transfiere y qué se acepta</td><td>Plan con responsable y fecha por medida</td></tr>
+<tr><td>Monitorear</td><td>Verificar que las medidas siguen operando y que el riesgo no se movió</td><td>Indicadores con corte mensual y revisión del plan</td></tr>
+</tbody>
+</table>
+</div>
 
-## Cómo se revisa a un proveedor de vigilancia
+### Identificar se hace caminando, no leyendo el plano
 
-Ordenado de lo que se pide primero a lo que se firma al final:
+Dónde termina la propiedad, qué la separa de la calle y qué tan fácil resulta cruzar esa separación. Una barda de dos metros con un contenedor de basura recargado enfrente mide un metro. Los puntos de cruce que se usan casi nunca son los evidentes: la reja lateral que da al baldío, el muro medianero que comparte azotea con el vecino, la ventana de planta baja que nadie mira.
 
-1. **El recorrido y el diagnóstico por escrito**, antes de la cotización. Si no lo hacen, su propuesta no es comparable con ninguna otra.
-2. **El permiso de seguridad privada**, en copia legible, con las modalidades que ampara y su fecha de vencimiento.
-3. **El registro REPSE**, con la actividad de vigilancia amparada, cuando el servicio se contrate como servicio especializado.
+Después vienen los accesos secundarios. Todo inmueble tiene una entrada principal vigilada y dos o tres que nadie cuenta: el andén de carga, la puerta de servicio, la rampa del estacionamiento, la salida de emergencia trabada con una cuña. Esas puertas fallan por costumbre, no por ataque.
+
+### Evaluar es ordenar, y ordenar obliga a decidir
+
+Sin evaluación, el plan queda en «hay que mejorar la seguridad», que no se ejecuta porque no se puede empezar por ningún lado. Con evaluación, cada escenario lleva probabilidad, impacto y prioridad, y aparece la conversación incómoda: qué se atiende este trimestre y qué se acepta conscientemente hasta el siguiente.
+
+Un plan sin fecha ni responsable por medida no es un plan. Es una lista de buenos deseos con membrete.
+
+## Reducir la probabilidad no es lo mismo que reducir el impacto
+
+Son dos palancas distintas y se confunden todo el tiempo. Una trabaja para que el evento no ocurra. La otra, para que si ocurre cueste menos. Un dispositivo bien armado usa las dos, porque la primera nunca llega a cero.
+
+<div class="tabla-scroll">
+<table>
+<thead>
+<tr><th>Bajar la probabilidad</th><th>Bajar el impacto</th></tr>
+</thead>
+<tbody>
+<tr><td>Iluminar el tramo oscuro del estacionamiento y podar lo que tapa la visual</td><td>Guardar el efectivo en un dispositivo de depósito con retardo de apertura</td></tr>
+<tr><td>Cerrar el acceso de servicio con control y registro de quién lo usa</td><td>Respaldar la grabación fuera del inmueble, para que el equipo robado no se lleve la evidencia</td></tr>
+<tr><td>Variar el horario de los rondines para que no se puedan esperar sentados</td><td>Tener contratada la póliza correcta y saber qué excluye antes del siniestro</td></tr>
+<tr><td>Cancelar credenciales el mismo día de la baja del empleado</td><td>Contar con un protocolo de escalamiento con teléfonos que alguien contesta de madrugada</td></tr>
+</tbody>
+</table>
+</div>
+
+### Medidas que no cuestan una posición más
+
+La parte más rentable del trabajo suele no llevar personal. Se paga una vez y baja el riesgo todos los días.
+
+<ul class="cols-2">
+<li>Luminaria en esquinas del estacionamiento</li>
+<li>Poda de la vegetación que tapa la visual</li>
+<li>Cerradura y registro en la puerta de servicio</li>
+<li>Cierre automático de la rampa vehicular</li>
+<li>Baja de credenciales el día de la salida</li>
+<li>Procedimiento escrito para recibir proveedores</li>
+<li>Respaldo de video fuera del inmueble</li>
+<li>Señalización de las áreas restringidas</li>
+</ul>
+
+#### El reloj también es una medida
+
+El riesgo no se reparte parejo a lo largo del día: se concentra en las transiciones. El cambio de turno, cuando el saliente ya se fue mentalmente y el entrante no conoce el pendiente. La salida del personal a las 18:00, con el estacionamiento lleno de gente distraída buscando llaves. Mover una posición dos horas cuesta lo mismo que dejarla donde estaba y rinde mucho más.
+
+## ¿Cómo se sabe si el dispositivo está funcionando?
+
+Que no haya pasado nada no prueba nada. Puede significar que la prevención funciona o que aún no tocaba. Por eso se miden procesos y no solo resultados.
+
+<div class="tabla-scroll">
+<table>
+<thead>
+<tr><th>Indicador</th><th>Cómo se mide</th><th>Qué señala si se degrada</th></tr>
+</thead>
+<tbody>
+<tr><td>Rondines completados</td><td>Puntos de control marcados contra puntos programados, por turno</td><td>Posiciones que se quedan solas o rondines que no se hacen</td></tr>
+<tr><td>Registro de accesos</td><td>Porcentaje de visitas con identificación cotejada y destino anotado</td><td>El filtro se está relajando en las horas pico</td></tr>
+<tr><td>Tiempo de relevo</td><td>Minutos entre el aviso de falta y la llegada del suplente</td><td>El proveedor no tiene gente en reserva</td></tr>
+<tr><td>Incidentes menores</td><td>Novedades reportadas por mes, aunque no hayan escalado</td><td>Si bajan a cero de golpe, casi siempre se dejó de reportar</td></tr>
+</tbody>
+</table>
+</div>
+
+<div class="nota nota-fuerte">
+
+##### Un diagnóstico caduca
+
+Cambia la operación, cambia el turno, cambia la calle. Un estudio de hace tres años describe un inmueble que ya no existe, y seguir operando con él da una falsa sensación de cobertura.
+
+Revísalo cuando cambie el horario del personal, cuando se abra un acceso nuevo o después de cualquier incidente, por menor que parezca.
+
+</div>
+
+### Lo que conviene pedir antes de contratar
+
+1. **El recorrido y el diagnóstico por escrito**, antes de la cotización. Quien cotiza sin haber pisado el lugar te vende un número, no un dispositivo.
+2. **El permiso de seguridad privada** en copia legible, con las modalidades que ampara y su fecha de término.
+3. **El registro REPSE**, con la actividad de vigilancia amparada, cuando el servicio se contrate como especializado.
 4. **Altas ante el IMSS y el Infonavit** del personal asignado, con constancias del periodo en curso.
-5. **La póliza de responsabilidad civil**, revisando suma asegurada y exclusiones, que es la parte que nadie lee y la que aplica cuando algo pasa.
-6. **La consigna por punto**, con rondines, horarios y qué se reporta.
-7. **El plan de suplencias y el escalamiento**: a quién se llama de madrugada y en cuánto tiempo hay respuesta comprometida.
+5. **La consigna por punto**, con rondines, horarios y qué se reporta, firmada antes del primer turno.
+6. **El plan de suplencias y el escalamiento**: a quién se llama de madrugada y en cuántos minutos hay respuesta comprometida.
 
-## Sobre el padrón de la autoridad
+## Seguridad Privada Xoogan en el padrón de la SSC
 
-Al corte del 29 de julio de 2026, esta empresa no está en el padrón de empresas registradas de la Secretaría de Seguridad Ciudadana de la Ciudad de México.
+Al corte del 29 de julio de 2026, esta empresa no figura en el padrón de empresas registradas que publica la Secretaría de Seguridad Ciudadana de la Ciudad de México.
 
-Ese padrón publica una modalidad concreta, la de protección a personas. No es un registro general de empresas de seguridad privada ni una lista de compañías autorizadas para todo. Una empresa dedicada a la vigilancia de inmuebles queda fuera de ese listado por cómo está construido el listado, no por su situación. Para saber cómo está su permiso hay una sola vía útil: pedirle el documento, leer las modalidades que ampara y confirmar la vigencia ante la autoridad que lo expidió.
+Ese padrón publica una modalidad concreta, la de protección a personas. No es un registro general de empresas de seguridad privada ni una lista de compañías autorizadas para todo lo demás. Una empresa dedicada a la vigilancia de inmuebles queda fuera de ese listado por cómo está construido el listado, no por su situación.
 
-> Todo lo que aparece en la cabecera de esta ficha se tomó de un perfil público el 24 de agosto de 2026 y puede haber cambiado desde entonces. TuSeguridad no representa a Seguridad Privada Xoogan, no cobra por esta publicación y no interviene si decides contactarla.
+Para saber cómo está su permiso hay una sola vía útil: pedirle el documento, leer qué modalidades ampara y confirmar la vigencia ante la autoridad que lo expidió. Es la misma comprobación que aplicarías a cualquier proveedor de Iztapalapa o de donde sea.
+
+###### Procedencia de los datos
+
+> Todo lo que aparece en la cabecera de esta ficha se tomó de un perfil público el 24 de agosto de 2026 y puede haber cambiado desde entonces; la consulta al padrón corresponde al corte del 29 de julio de 2026. TuSeguridad no representa a Seguridad Privada Xoogan, no cobra por esta publicación y no interviene si decides contactarla.

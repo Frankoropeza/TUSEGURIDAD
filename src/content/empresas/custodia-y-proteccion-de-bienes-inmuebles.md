@@ -30,60 +30,127 @@ padron:
   fechaCorte: "2026-07-29"
 ---
 
-**Seguridad GC** aparece con oficina en Liverpool 96, colonia Juárez, alcaldía Cuauhtémoc. Su perfil público la clasifica bajo tres categorías: *servicio de guardias de seguridad*, *servicio de seguridad* y *proveedor de sistemas de seguridad*.
+<p class="lede">Seguridad GC declara servicios de <strong>custodia y protección de bienes inmuebles</strong> desde Liverpool 96, colonia Juárez, alcaldía Cuauhtémoc, en la Ciudad de México. Su perfil público la clasifica en tres categorías: servicio de guardias de seguridad, servicio de seguridad y proveedor de sistemas de seguridad.</p>
 
-En la descripción que la propia empresa publica en ese perfil declara veinticinco años de experiencia y servicios de protección de bienes inmuebles con guardias de seguridad, además de custodia. Eso es lo que la empresa dice de sí misma; queda aquí como declaración suya, sin ampliarla ni confirmarla.
+En la descripción que ella misma publica en ese perfil declara veinticinco años de experiencia y protección de bienes inmuebles con guardias de seguridad, además de custodia. Queda aquí como declaración suya, sin ampliarla ni confirmarla.
 
-El perfil registra 128 reseñas con una calificación de 4.0 en la fecha de corte, y un horario de atención de lunes a viernes de 9:00 a 18:00 con medio día el sábado. La antigüedad y la calificación son señales débiles: ninguna de las dos sustituye la revisión del permiso, la póliza y el esquema laboral.
+<div class="nota">
 
-Fuera de esa declaración, esta ficha no le atribuye cobertura, tarifas, certificaciones ni tipos de instalación atendidos. Si un dato no está en su perfil público, no está aquí.
+##### Dos señales débiles y lo que no está en la fuente
 
-La ficha reproduce información de acceso público. No la redactó la empresa, no media ninguna relación comercial con TuSeguridad y no verificamos los datos que se reproducen.
+El perfil registra **128 reseñas con una calificación de 4.0** en la fecha de corte, y un horario de lunes a viernes de 9:00 a 18:00 con medio día el sábado.
 
-## Qué responsabilidad asume quien custodia un inmueble
+La antigüedad declarada y la calificación son señales débiles: ninguna sustituye la revisión del permiso, la póliza y el esquema laboral. Fuera de esa declaración, esta ficha no le atribuye cobertura, tarifas, certificaciones ni tipos de instalación atendidos.
 
-Hay una distancia grande entre resguardar un bien y responder por él, y casi todos los conflictos nacen ahí. Resguardar es ejecutar una consigna con diligencia: estar en la posición, registrar, inspeccionar, alertar y escalar en el tiempo pactado. Responder es indemnizar cuando el bien se pierde o se daña.
+</div>
 
-Un contrato de vigilancia, por defecto, obliga a lo primero. Es una obligación de medios: el proveedor se compromete a poner el dispositivo y a operarlo bien, no a garantizar que no ocurra nada. Nadie vende ese resultado y ninguna póliza lo respalda. Una propuesta que promete que «no va a pasar nada» promete algo que no va a sostener.
+## Resguardar un inmueble no es lo mismo que responder por él
 
-Custodiar tampoco convierte al proveedor en depositario de lo que hay dentro del inmueble. El servicio de guardias no es un depósito mercantil del contenido. Para que la empresa responda patrimonialmente por bienes determinados hace falta una cláusula expresa que los identifique y una cobertura contratada específicamente para eso.
+Casi todos los conflictos de un contrato de custodia nacen en esa distancia. Resguardar es ejecutar una consigna con diligencia. Responder es indemnizar cuando el bien se pierde o se daña. Son dos obligaciones distintas y solo una viene incluida por omisión.
 
-De ahí que la póliza de responsabilidad civil se lea por lo que excluye, no por lo que promete. Una RC de operaciones cubre los daños que el personal del proveedor cause a terceros, hasta la suma asegurada y descontando el deducible. Es una cobertura de negligencia y exige acreditarla.
+<div class="tabla-scroll">
+<table>
+<thead>
+<tr><th>Obligación de medios (lo que se contrata)</th><th>Obligación de resultado (lo que no se contrata)</th></tr>
+</thead>
+<tbody>
+<tr><td>Poner el dispositivo pactado y operarlo bien: estar en la posición, registrar, inspeccionar, alertar y escalar en el tiempo acordado.</td><td>Garantizar que no ocurra ningún incidente dentro del inmueble.</td></tr>
+<tr><td>Se comprueba con bitácora, rondines verificables y consignas firmadas.</td><td>Nadie la sostiene en el tiempo y ninguna póliza de responsabilidad civil la respalda.</td></tr>
+<tr><td>Su incumplimiento se sanciona con las penas convencionales que se hayan pactado.</td><td>Prometida de palabra, no genera derecho a reclamar el valor del bien.</td></tr>
+</tbody>
+</table>
+</div>
 
-La exclusión que sorprende a casi todos los clientes es la de bienes bajo cuidado, custodia y control del asegurado. Dicho en corto: los bienes que le entregaste a resguardar suelen quedar fuera de su RC, salvo que exista un endoso expreso que los incluya. Pregunta por ese endoso antes de firmar, no después del inventario faltante.
+### Custodiar no convierte al proveedor en depositario
 
-También se excluyen con frecuencia el dolo, la infidelidad del propio personal, el lucro cesante y los daños consecuenciales. La infidelidad se cubre por otra vía: fianza o cobertura de deshonestidad de empleados. Si el riesgo que te preocupa es el robo hormiga desde adentro, esa es la póliza que hay que pedir.
+Un servicio de guardias no es un depósito mercantil del contenido del inmueble. Para que la empresa responda patrimonialmente por bienes determinados hace falta una cláusula expresa que los identifique y una cobertura contratada para eso. Sin esas dos piezas, la custodia obliga a vigilar, no a pagar.
 
-Quien responde en primera línea por el contenido del inmueble sigue siendo su propietario, a través de su seguro patrimonial. La RC del proveedor entra después y solo si hubo falla imputable. Ordenar esa secuencia por escrito evita el reclamo cruzado.
+### Quién responde primero por el contenido
 
-Para que la diligencia pueda probarse, el contrato tiene que fijar un estándar medible: consigna por posición, rondines con puntos de control verificables, bitácora con hora, y tiempos de escalamiento. Sin ese estándar escrito nadie puede demostrar que se cumplió, y tampoco que se incumplió.
+Sigue siendo el propietario, a través de su seguro patrimonial. La responsabilidad civil del proveedor entra después, y solo si hubo falla imputable. Dejar esa secuencia escrita en el contrato evita el reclamo cruzado que paraliza cualquier reposición.
 
-El remedio realista ante una falla de servicio no es la indemnización total, es la pena convencional. Deja pactado cuánto se descuenta por posición descubierta, por rondín no ejecutado o por bitácora no entregada. Es la cláusula que cambia el comportamiento de un proveedor.
+## ¿Qué cubre y qué excluye la póliza de responsabilidad civil?
 
-## Revisión previa cuando lo que se contrata es un inmueble
+Se lee por sus exclusiones, no por su portada. Una responsabilidad civil de operaciones cubre los daños que el personal del proveedor cause a terceros, hasta la suma asegurada y descontando el deducible. Es una cobertura de negligencia y hay que acreditarla.
 
-La lista de abajo no sirve para calificar a esta empresa en particular. Sirve para que llegues a la mesa con las preguntas correctas, sea con ella o con cualquier competidor:
+<div class="tabla-scroll">
+<table>
+<thead>
+<tr><th>Suele cubrir</th><th>Suele quedar fuera salvo endoso</th></tr>
+</thead>
+<tbody>
+<tr><td>Daños a terceros causados por el personal en el desempeño del servicio, dentro de la suma asegurada.</td><td>Bienes bajo cuidado, custodia y control del asegurado, que son justamente los que dejaste a su resguardo.</td></tr>
+<tr><td>Daños materiales derivados de una falla operativa acreditada.</td><td>Dolo, infidelidad del propio personal, lucro cesante y daños consecuenciales.</td></tr>
+</tbody>
+</table>
+</div>
+
+##### ¿Cuál es la exclusión que sorprende a casi todos?
+
+La de bienes bajo cuidado, custodia y control. Dicho en corto: lo que entregaste a resguardo suele quedar fuera de la responsabilidad civil del proveedor, salvo que exista un endoso expreso que lo incluya. Pregunta por ese endoso antes de firmar, no después de un inventario faltante.
+
+### La infidelidad del personal va por otra vía
+
+Si el riesgo que te preocupa es el robo hormiga desde adentro, la responsabilidad civil no es la póliza que lo resuelve. Se cubre con fianza de fidelidad o con cobertura de deshonestidad de empleados, y hay que pedirla por su nombre, con monto y procedimiento de reclamación.
+
+<ul class="cols-2">
+<li>Suma asegurada y deducible</li>
+<li>Vigencia y forma de pago</li>
+<li>Endoso de bienes bajo custodia</li>
+<li>Cobertura de deshonestidad</li>
+<li>Ámbito territorial</li>
+<li>Plazo para declarar el siniestro</li>
+</ul>
+
+## Cómo se vuelve medible la custodia de bienes inmuebles
+
+La diligencia solo se puede probar si antes se fijó un estándar. Sin estándar escrito nadie puede demostrar que se cumplió, y tampoco que se incumplió.
+
+<div class="tabla-scroll">
+<table>
+<thead>
+<tr><th>Estándar</th><th>Cómo se comprueba</th><th>Qué se pacta si falla</th></tr>
+</thead>
+<tbody>
+<tr><td>Posición cubierta en el horario contratado</td><td>Bitácora de relevo firmada por el elemento entrante y el saliente</td><td>Descuento por hora o por turno descubierto</td></tr>
+<tr><td>Rondines ejecutados</td><td>Lectura de puntos de control con hora, no la palabra del supervisor</td><td>Descuento por recorrido no ejecutado</td></tr>
+<tr><td>Escalamiento de incidentes</td><td>Reporte con hora del hecho, hora del aviso y a quién se avisó</td><td>Pena por aviso fuera del tiempo pactado</td></tr>
+<tr><td>Entrega de bitácora</td><td>Acuse mensual de quien la recibe de tu lado</td><td>Retención parcial de la facturación del periodo</td></tr>
+</tbody>
+</table>
+</div>
+
+### Penas convencionales, no adjetivos
+
+El remedio realista ante una falla de servicio no es la indemnización total del bien: es el descuento pactado. Escrito con cifras, es la cláusula que cambia el comportamiento de un proveedor. Escrito con adjetivos, no cambia nada.
+
+### Los siete documentos de la revisión previa
 
 1. **Permiso de seguridad privada en la modalidad de bienes**, con folio y vigencia legibles. Si además van a custodiar traslados, esa es otra modalidad y debe constar aparte.
-2. **Carátula completa de la responsabilidad civil**, y la pregunta directa: ¿existe endoso de bienes bajo cuidado, custodia y control? Si la respuesta es no, tus bienes no están cubiertos por esa póliza.
-3. **Fianza de fidelidad o cobertura de deshonestidad** del personal asignado, con el monto y el procedimiento de reclamación.
-4. **Registro REPSE vigente** y los acuses cuatrimestrales de ICSOE y SISUB, cuando el servicio se preste como especializado.
-5. **Altas nominativas ante IMSS e INFONAVIT** del personal que va a cubrir tus posiciones, más el desglose del costo laboral dentro de la tarifa.
-6. **Consigna escrita por posición y plan de rondines** con puntos de control verificables, formato de bitácora y quién la recibe.
-7. **Cláusula de escalamiento y penas convencionales** por posición descubierta o rondín no ejecutado, con montos, no con adjetivos.
+2. **Carátula completa de la responsabilidad civil**, con la pregunta directa sobre el endoso de bienes bajo cuidado, custodia y control.
+3. **Fianza de fidelidad** o cobertura de deshonestidad del personal asignado, con monto y procedimiento de reclamación.
 
-Cruza siempre el punto 5 contra la tarifa. Cuando el precio por hora no alcanza para cubrir prestaciones completas, el faltante no desaparece: reaparece como rotación alta, como personal sin capacitar y, en el peor escenario, como responsabilidad solidaria a tu cargo.
+#### Y los que sostienen el turno todos los días
 
-Conserva todo con acuse y fecha. Un expediente armado al inicio del contrato vale mucho más que una carpeta reunida a las prisas el día en que hay que reclamar algo.
+4. **Registro REPSE vigente** con los acuses cuatrimestrales de ICSOE y SISUB, cuando el servicio se preste como especializado.
+5. **Altas nominativas ante IMSS e INFONAVIT** del personal asignado, más el costo laboral desglosado dentro de la tarifa.
+6. **Consigna por posición y plan de rondines** con puntos de control verificables y formato de bitácora.
+7. **Cláusula de escalamiento y penas convencionales** por posición descubierta o rondín no ejecutado.
 
-## Por qué esta empresa no está en el padrón de escoltas
+Cruza siempre el punto 5 contra la tarifa. Cuando el precio por hora no alcanza para prestaciones completas, el faltante no desaparece: reaparece como rotación alta, como personal sin capacitar y, en el peor escenario, como responsabilidad solidaria a tu cargo.
 
-El padrón que publica la Secretaría de Seguridad Ciudadana capitalina tiene un alcance acotado: reúne a las empresas registradas para prestar protección a personas. Seguridad GC no aparece en él en la fecha de corte que revisamos.
+## Seguridad GC frente al padrón de protección a personas
 
-Conviene decirlo con todas sus letras, porque se presta a malentendidos: esa ausencia no implica irregularidad alguna. El registro se otorga por modalidad y una empresa que trabaja en la protección de inmuebles no tiene por qué estar inscrita en el listado de escoltas. Buscarla ahí es buscarla en el archivo equivocado.
+El padrón que publica la Secretaría de Seguridad Ciudadana capitalina reúne a las empresas registradas para prestar protección a personas. Seguridad GC no aparece en él en la fecha de corte que revisamos.
 
-La modalidad que le correspondería a un servicio de custodia de bienes inmuebles es otra, y su autorización se documenta con un permiso distinto que no se publica en ese mismo archivo. Por eso el listado no permite concluir nada, ni a favor ni en contra, sobre este tipo de servicio.
+### Esa ausencia no implica irregularidad
 
-Lo que sí puedes hacer es pedirle a la empresa copia de su permiso, revisar qué modalidad ampara y hasta cuándo, y verificar ese folio con la autoridad emisora. Es un trámite corto y es la única comprobación que realmente aplica al servicio que vas a contratar.
+Conviene decirlo con todas sus letras, porque se presta a malentendidos. El registro se otorga por modalidad, y una empresa que trabaja en la protección de inmuebles no tiene por qué estar inscrita en el listado de escoltas. Buscarla ahí es buscarla en el archivo equivocado, y el resultado no permite concluir nada, ni a favor ni en contra, sobre este tipo de servicio.
 
-> Los datos de contacto, el horario y la valoración que aparecen arriba se recogieron de una fuente pública en la fecha de corte señalada y pueden haber variado. TuSeguridad no forma parte de Seguridad GC, no obtiene beneficio si la contratas y no interviene en la relación entre las partes.
+### El documento que sí aplica
+
+La modalidad que corresponde a la custodia de bienes inmuebles es otra y se acredita con un permiso distinto, que no se publica en ese mismo archivo. Pídele a la empresa copia de ese permiso, revisa qué ampara y hasta cuándo, y verifica el folio con la autoridad emisora. Es un trámite corto y es la única comprobación que aplica de verdad al servicio que vas a contratar.
+
+###### Procedencia de los datos
+
+> Contacto, horario y valoración se recogieron de una fuente pública en la fecha de corte señalada y pueden haber variado. Los veinticinco años de experiencia son una declaración de la propia empresa, reproducida sin comprobar. TuSeguridad no forma parte de Seguridad GC, no obtiene beneficio si la contratas y no interviene entre las partes.

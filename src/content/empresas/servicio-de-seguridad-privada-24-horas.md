@@ -29,59 +29,116 @@ padron:
   fechaCorte: "2026-07-29"
 ---
 
-**ASI Seguridad Privada** se ubica en Eje 4 Norte, Calle Poniente 128 número 113, colonia Lindavista Vallejo III Sección, alcaldía Gustavo A. Madero. En su perfil público aparece bajo una única categoría, la de *servicio de seguridad*, con una calificación de 4.1 sobre 5 y 23 reseñas en la fecha de corte.
+<p class="lede">ASI Seguridad Privada figura en este directorio de <strong>servicio de seguridad privada 24 horas</strong> con domicilio en Eje 4 Norte, Calle Poniente 128 número 113, colonia Lindavista Vallejo III Sección, alcaldía Gustavo A. Madero, Ciudad de México. Su perfil público le asigna una sola categoría, la más genérica del rubro: servicio de seguridad.</p>
 
-Ese perfil no incluye texto descriptivo ni horario de atención publicado, de modo que esta ficha no le atribuye ninguna declaración propia: no sabemos qué dice la empresa de sí misma porque en la fuente consultada no dice nada. Tampoco conocemos el horario de su oficina, y no lo suponemos.
+Ese perfil no incluye texto donde la empresa describa lo que hace, y tampoco publica horario de atención. Por eso esta ficha no le atribuye ninguna declaración propia ni le supone una jornada de oficina. El nombre de esta página describe un servicio del rubro, no una promesa de esta empresa.
 
-Lo anterior importa para leer bien esta página. La dirección de la URL nombra un servicio del rubro, no una promesa de esta empresa. La ficha reproduce datos públicos, no la escribió ASI Seguridad Privada y no hay relación comercial detrás de ella.
+<div class="nota">
 
-## Qué significa de verdad una cobertura de 24 horas
+##### Un dato ausente que resulta útil
 
-Cubrir un punto las veinticuatro horas no es una característica del contrato, es una operación de personal. La aritmética es sencilla y casi nadie la hace: una posición abierta todos los días del año no la sostienen tres elementos, porque los tres descansan, se enferman, toman vacaciones y renuncian.
+El perfil reporta **23 reseñas con una calificación de 4.1** en la fecha de corte. La casilla de horario está vacía.
 
-Los esquemas usuales son dos. Tres turnos de ocho horas, que reparte mejor la fatiga y multiplica los relevos. O dos turnos de doce, más barato en coordinación y más duro para el elemento. Cualquiera de los dos necesita, encima de la plantilla base, personal de suplencia; una empresa que no lo tiene cubre los huecos alargando turnos, y un guardia en su hora dieciséis ya no vigila nada.
+Esa casilla vacía sirve para explicar algo que se confunde todo el tiempo: el horario de la oficina y la cobertura del punto vigilado son dos cosas distintas, y ninguna se deduce de la otra. Aquí no sabemos la primera, y la segunda solo la fija un contrato.
 
-El relevo es el momento crítico de todo el esquema. Bien hecho es un traslape de quince o veinte minutos en el que el saliente entrega novedades, llaves, radios, pendientes del turno y firma la bitácora frente al entrante. Mal hecho es un elemento que se va cuando llega el otro y una posición que arranca sin saber qué pasó en las ocho horas previas.
+</div>
 
-La madrugada es donde se cae el servicio, y se cae en silencio. Entre las dos y las cinco de la mañana no hay tráfico de gente, no hay administrador, no hay quien pregunte nada. Es el horario con más incidencias en inmuebles y también el que menos supervisión recibe, porque supervisar de noche cuesta más y casi ningún cliente lo audita.
+## Qué significa de verdad un servicio de seguridad privada 24 horas
 
-Por eso la pregunta útil no es si el servicio es de 24 horas, sino cómo se comprueba que el turno de las tres de la mañana existió. Y sí se comprueba, con evidencia que nadie puede escribir de memoria al día siguiente.
+La frase se usa para dos cosas que no se parecen. Antes de comparar cotizaciones conviene saber cuál de las dos te están vendiendo, porque el precio de una y de otra no tiene relación.
 
-Los rondines con puntos de control son el mecanismo más común: dispositivos o etiquetas colocadas en lugares específicos del inmueble que el elemento tiene que registrar físicamente al pasar. El reporte sale con hora y secuencia, y un recorrido inventado se nota de inmediato porque los intervalos quedan perfectos o imposibles.
+<div class="tabla-scroll">
+<table>
+<thead>
+<tr><th>Cobertura del punto las 24 horas</th><th>Atención de la empresa las 24 horas</th></tr>
+</thead>
+<tbody>
+<tr><td>Hay un elemento parado en tu inmueble a cualquier hora del día y de la noche.</td><td>Hay alguien que contesta un teléfono a cualquier hora, aunque no haya nadie en tu punto.</td></tr>
+<tr><td>Se paga por posición y turno, y multiplica la plantilla.</td><td>Se paga como centro de contacto o guardia telefónica, y cuesta una fracción.</td></tr>
+<tr><td>Se comprueba con rondines, bitácora y relevos firmados.</td><td>Se comprueba llamando de madrugada antes de firmar.</td></tr>
+<tr><td>Lo que quieres si el riesgo está en el inmueble.</td><td>Lo que necesitas para que alguien reaccione cuando el riesgo aparece.</td></tr>
+</tbody>
+</table>
+</div>
 
-La supervisión nocturna es la segunda pieza. Un supervisor que visita sin avisar, en horario variable, deja constancia firmada de la visita. Si todas las visitas de un mes cayeron entre las nueve y las once de la noche, esa supervisión no está cubriendo la madrugada.
+Lo habitual es que una propuesta ofrezca la primera y la empresa opere con la segunda. No es engaño automático: es una ambigüedad cómoda que se resuelve preguntando.
 
-La tercera es el cruce de fuentes. La bitácora dice una cosa, el sistema de rondines dice otra y las grabaciones dicen una tercera. Cuando las tres coinciden, el turno existió. Cuando la bitácora está impecable y el registro de rondín aparece vacío después de la una de la mañana, ya sabes qué pasó.
+### La aritmética que casi nadie hace
 
-Sobre el precio, lo que lo mueve no es el número de guardias sino el de posiciones y turnos, más el factor de suplencia que la empresa carga encima. Una cotización de cobertura continua que no dice cuántos elementos componen la plantilla completa de esa posición está escondiendo justo la parte cara.
+Una posición abierta todos los días del año no la sostienen tres elementos. Los tres descansan, se enferman, toman vacaciones y algún día renuncian. Encima de la plantilla base hace falta personal de suplencia, y una empresa que no lo tiene cubre los huecos alargando turnos. Un guardia en su hora dieciséis ya no vigila nada.
 
-## Cinco cosas que conviene exigir antes de firmar una cobertura continua
+Los esquemas usuales son dos. Tres turnos de ocho horas, que reparte mejor la fatiga y multiplica los relevos. O dos turnos de doce, más barato de coordinar y más duro para el elemento.
 
-Un directorio no acredita a nadie. Estas cinco se piden por escrito, se leen completas y se guardan.
+### El relevo es el minuto crítico
 
-1. **El permiso de seguridad privada, con la modalidad y la fecha de vencimiento a la vista.**
-   Verifica que ampare vigilancia de bienes si eso es lo que vas a contratar, y que siga vigente el día que firmas.
-2. **La plantilla completa asignada a tu servicio, no solo los guardias por turno.**
-   Cuántos elementos sostienen cada posición contando descansos, vacaciones y suplencias, con nombres y registro.
-3. **Constancias de alta ante el IMSS y el INFONAVIT, y el registro REPSE si el servicio se contrata como especializado.**
-   La cobertura nocturna se paga con recargos que solo existen si el elemento está formalmente contratado.
-4. **El sistema con el que vas a auditar los turnos de madrugada.**
-   Rondines con puntos de control, reportes con hora y bitácora conciliada. Acuerda desde el inicio que tú recibes esos reportes.
-5. **La póliza de responsabilidad civil y el protocolo de escalamiento nocturno.**
-   A quién llama el guardia a las tres de la mañana, en cuánto tiempo responde un supervisor y quién te avisa a ti.
+Bien hecho es un traslape de quince o veinte minutos en el que el saliente entrega novedades, llaves, radios y pendientes, y firma la bitácora frente al entrante. Mal hecho es un elemento que se va cuando llega el otro, y una posición que arranca sin saber qué ocurrió en las ocho horas previas.
 
-Los cinco puntos se resumen en una idea: la cobertura continua se demuestra con papel y con registros, no con una frase en la propuesta. Quien la presta bien no tiene problema en enseñarlos.
+## ¿Quién contesta a las tres de la mañana?
 
-## Qué dice y qué no dice el padrón de escoltas
+Es la pregunta que ordena todo lo demás. Entre las dos y las cinco no hay tráfico de gente, no hay administrador y no hay quien pregunte nada. Es el horario con más incidencias en inmuebles y el que menos supervisión recibe, porque supervisar de noche cuesta más y casi ningún cliente lo audita.
 
-La Secretaría de Seguridad Ciudadana de la Ciudad de México mantiene publicado el listado de empresas registradas en la modalidad de protección a personas. Revisamos el corte del 29 de julio de 2026 y ASI Seguridad Privada no está en él.
+<div class="tabla-scroll">
+<table>
+<thead>
+<tr><th>Minuto</th><th>Quién actúa</th><th>Constancia que debe quedar</th></tr>
+</thead>
+<tbody>
+<tr><td>0</td><td>El elemento detecta el evento y lo reporta por radio o teléfono</td><td>Anotación en bitácora con hora exacta</td></tr>
+<tr><td>Primeros minutos</td><td>Central o guardia telefónica recibe, clasifica y da instrucción</td><td>Registro de la llamada, con número y duración</td></tr>
+<tr><td>Siguiente escalón</td><td>Supervisor de zona confirma y decide si acude</td><td>Acta de visita firmada, con hora de llegada</td></tr>
+<tr><td>En paralelo</td><td>Aviso al contacto designado por el cliente</td><td>Mensaje o llamada al número pactado en el contrato</td></tr>
+<tr><td>Mañana siguiente</td><td>Reporte de incidencia entregado al cliente</td><td>Documento con narrativa, evidencia y hora de cierre</td></tr>
+</tbody>
+</table>
+</div>
 
-Hay que decirlo con todas sus letras para que no se malinterprete: no aparecer ahí no implica ninguna irregularidad. El listado corresponde a una sola modalidad, la de escoltas, y una empresa que presta vigilancia en inmuebles no tiene motivo para figurar en un registro de protección a personas.
+##### ¿Y el fin de semana, con quién se escala?
 
-También conviene recordar que los servicios prestados en más de una entidad se autorizan federalmente, así que ni siquiera una empresa muy grande queda necesariamente reflejada en un padrón local por el solo hecho de operar en la ciudad.
+Con nombres y números distintos, casi siempre. Pide la cadena de sábado y domingo por separado: es habitual que la de lunes a viernes funcione bien y la de fin de semana termine en un buzón de voz. Que ambas queden anexas al contrato, no dictadas por teléfono.
 
-La comprobación que sí sirve es directa. Pide el permiso, lee la modalidad, mira la vigencia y, si algo no cuadra, consúltalo con la autoridad antes de contratar.
+## Cómo se comprueba la cobertura continua antes de firmar
 
-Ese ejercicio toma una tarde y se hace una sola vez al año. Comparado con el costo de descubrir a mitad de un incidente que el servicio nocturno nunca estuvo respaldado por el papel correcto, es la parte barata de la contratación.
+Ninguna de estas pruebas requiere permiso de nadie ni cuesta dinero. Todas se hacen en la semana previa a la firma.
 
-> La información de esta ficha se recopiló de fuentes públicas en las fechas de corte señaladas y puede estar desactualizada al momento en que la leas. TuSeguridad no es parte de ASI Seguridad Privada, no responde por su servicio y no recibe pago alguno por incluirla en el directorio.
+<ul class="cols-2">
+<li>Llamar al conmutador a las 03:00</li>
+<li>Llamar un domingo a las 06:00</li>
+<li>Pedir el nombre de quien contestó</li>
+<li>Preguntar por el supervisor de guardia</li>
+<li>Pedir el reporte de rondín de una noche</li>
+<li>Visitar un punto suyo en la madrugada</li>
+</ul>
+
+<div class="nota nota-fuerte">
+
+##### La prueba que separa la promesa del servicio
+
+Si a las tres de la mañana contesta una grabación, un celular apagado o alguien que promete devolver la llamada por la mañana, ya sabes qué tipo de cobertura estás comprando.
+
+Y si contesta una persona que se identifica, anota el reporte y te da el nombre del supervisor de guardia, **eso es lo que hay que dejar por escrito en el contrato**: número, tiempo de respuesta comprometido y consecuencia si no se cumple.
+
+</div>
+
+### Los tres registros que prueban que el turno existió
+
+Los rondines con puntos de control son el mecanismo más común: etiquetas colocadas en lugares específicos que el elemento registra físicamente al pasar. El reporte sale con hora y secuencia, y un recorrido inventado se nota porque los intervalos quedan perfectos o imposibles.
+
+La supervisión nocturna es la segunda pieza, y solo cuenta si es sin aviso y en horario variable. Si todas las visitas de un mes cayeron entre las nueve y las once de la noche, esa supervisión no está cubriendo la madrugada.
+
+La tercera es el cruce. La bitácora dice una cosa, el sistema de rondines dice otra y las grabaciones dicen una tercera. Cuando las tres coinciden, el turno existió. Cuando la bitácora está impecable y el registro de rondín aparece vacío después de la una, ya sabes qué pasó.
+
+Sobre el precio, lo que lo mueve no es el número de guardias sino el de posiciones y turnos, más el factor de suplencia. Una cotización de cobertura continua que no dice cuántos elementos componen la plantilla completa de esa posición está escondiendo justo la parte cara.
+
+## ASI Seguridad Privada y el listado de escoltas de la SSC
+
+La Secretaría de Seguridad Ciudadana de la Ciudad de México mantiene publicado el listado de empresas registradas en la modalidad de protección a personas. En el corte del 29 de julio de 2026, ASI Seguridad Privada no está en él.
+
+Que una empresa no aparezca ahí es un dato sobre el listado, no sobre la empresa. Ese archivo contiene una sola modalidad. Quien presta vigilancia en inmuebles opera bajo otra figura, con otro trámite, y no tiene por qué figurar en un registro de escoltas: es como revisar el padrón equivocado y sacar conclusiones de él.
+
+Conviene recordar además que los servicios prestados en más de una entidad se autorizan en el ámbito federal, de modo que ni siquiera una empresa grande queda necesariamente reflejada en un padrón local por el solo hecho de operar en la ciudad.
+
+La comprobación que sí sirve es directa y ya la conoces por esta página. Pide el permiso, lee la modalidad, mira la vigencia y, si algo no cuadra, consúltalo con la autoridad antes de contratar. Toma una tarde y se hace una vez al año. Sale más barato que descubrir a mitad de un incidente nocturno que el papel correcto nunca existió.
+
+###### Procedencia de los datos
+
+> Domicilio, teléfono y calificación se recogieron del perfil público de la empresa en la fecha de corte señalada y pueden estar desactualizados cuando leas esto; el horario no se reporta porque la fuente no lo publica. TuSeguridad no forma parte de ASI Seguridad Privada, no responde por su servicio y no cobra por incluirla en este directorio.

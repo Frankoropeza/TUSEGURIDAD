@@ -32,44 +32,147 @@ padron:
   fechaCorte: "2026-07-29"
 ---
 
-**Grupo Maya Protección Personal Privada y Empresarial** opera desde Durango 223, colonia Roma Norte, alcaldía Cuauhtémoc. Su perfil público la lista bajo la categoría de *servicio de guardias de seguridad*, con una calificación de 3.6 sobre 107 reseñas en la fecha de corte.
+<p class="lede">Grupo Maya Protección Personal Privada y Empresarial opera desde Durango 223, colonia Roma Norte, alcaldía Cuauhtémoc, y vende dos cosas distintas bajo un mismo nombre: <strong>protección ejecutiva y seguridad patrimonial</strong> en la Ciudad de México. Su perfil público la clasifica como servicio de guardias de seguridad, con 3.6 sobre 107 reseñas en la fecha de corte.</p>
 
-En la descripción que la propia empresa publica en ese perfil declara ser una empresa mexicana fundada en 2007, tener su corporativo matriz en la colonia Roma y atender a los sectores público y privado en seguridad patrimonial y protección ejecutiva. Eso es lo que la empresa dice de sí misma. Esta ficha lo reproduce como declaración y no lo amplía.
+En la descripción que la propia empresa publica declara ser una empresa mexicana fundada en 2007, tener su corporativo matriz en la colonia Roma y atender a los sectores público y privado. Es lo que dice de sí misma y así se reproduce, sin ampliarlo.
 
-Todo lo anterior proviene de información pública. No hay relación comercial con TuSeguridad, la empresa no participó en la redacción de esta página y los datos no fueron verificados con ella.
+<div class="nota">
 
-## Proteger a una persona y proteger un patrimonio no son el mismo trabajo
+##### Hasta dónde llega la fuente
 
-Son dos oficios que comparten uniforme en la imaginación del público y poca cosa en la práctica. Uno se organiza alrededor de un inmueble; el otro, alrededor de una agenda.
+La fundación en 2007 y la atención a ambos sectores son afirmaciones de la empresa en su propio perfil, no datos verificados por un tercero.
 
-La seguridad patrimonial trabaja sobre un espacio fijo. El objeto protegido no se mueve, de modo que el diseño del servicio consiste en cerrar accesos, ordenar flujos y dejar registro: quién entra, con qué, a qué hora y con autorización de quién. Sus productos son la bitácora, el control de llaves, la inspección perimetral y el cruce con inventarios. Se evalúa por la calidad de ese registro y por los incidentes documentados, no por la ausencia de sobresaltos.
+De su plantilla, sus tarifas y los clientes que atiende no hay información pública, así que esta ficha no los menciona. El horario publicado, de lunes a viernes de 9:00 a 18:00, corresponde a la oficina.
 
-La protección a personas trabaja sobre alguien que se desplaza. El protegido tiene casa, oficina, familia, horarios repetidos, y ahí está la variable central: la previsibilidad. Por eso el trabajo empieza mucho antes de que llegue un vehículo a la puerta.
+</div>
 
-Un esquema serio arranca con un **perfil de riesgo**. Es un análisis breve y concreto que responde tres preguntas: quién tendría motivo e interés en agredir a esta persona, qué la hace identificable desde fuera, y qué rutinas suyas son fáciles de anticipar. De ese análisis sale el nivel del servicio, no de una tarifa de catálogo.
+## Protección ejecutiva y seguridad patrimonial: qué cambia entre una y otra
 
-El **patrón de vida** es el mapa de esas rutinas. Se levanta con la persona y su entorno, hora por hora, durante una o dos semanas: trayectos, horarios fijos, lugares recurrentes, personal doméstico, escuelas. No existe para restringir la vida del protegido, sino para identificar qué partes de ella se repiten y variar solo esas.
+Comparten uniforme en la imaginación del público y poca cosa en la práctica. Una se organiza alrededor de un inmueble que no se mueve. La otra, alrededor de una agenda que cambia todos los días.
 
-La **avanzada** es el trabajo de campo previo a cada movimiento. Alguien va antes al destino y revisa accesos y salidas, tiempos reales de traslado a esa hora, estacionamiento, quién controla el ingreso, dónde queda el hospital más cercano y qué ruta alterna existe si la principal se cierra. Un servicio sin avanzada es un conductor con radio.
+<div class="tabla-scroll">
+<table>
+<thead>
+<tr><th>Criterio</th><th>Seguridad patrimonial</th><th>Protección ejecutiva</th></tr>
+</thead>
+<tbody>
+<tr><td>Objeto protegido</td><td>Un espacio fijo: accesos, perímetro, inventario</td><td>Una persona y su entorno cercano</td></tr>
+<tr><td>Unidad que se contrata</td><td>La posición, con horario y consigna</td><td>El esquema, con análisis, avanzada y equipo</td></tr>
+<tr><td>Lo que se planea</td><td>Flujos, rondines y control de llaves</td><td>Rutinas, trayectos y variación de horarios</td></tr>
+<tr><td>Evidencia del trabajo</td><td>Bitácora, folios de acceso y cruce con inventarios</td><td>Perfil de riesgo, patrón de vida y reportes de avanzada</td></tr>
+<tr><td>Modalidad del permiso</td><td>Seguridad privada en los bienes</td><td>Protección a personas</td></tr>
+</tbody>
+</table>
+</div>
 
-Lo que se contrata, entonces, no es un número de elementos. Es un esquema: quién hace el análisis, quién levanta el patrón de vida, cada cuánto se actualiza, quién realiza las avanzadas y cómo se coordina el equipo con la familia y con la oficina. Cuando una propuesta solo habla de escoltas y de turnos, está cotizando presencia.
+### Del lado del patrimonio: posiciones, consignas y registro
 
-## Revisiones previas a contratar un esquema de protección
+Aquí el diseño consiste en cerrar accesos, ordenar flujos y dejar constancia de quién entra, con qué, a qué hora y con autorización de quién. El servicio se evalúa por la calidad de ese registro, no por la ausencia de sobresaltos.
 
-La protección a personas es la modalidad más regulada del sector y también en la que más se improvisa. Punto por punto, esto es lo que se revisa antes de contratar:
+#### Cómo se dimensiona
 
-1. **La modalidad del permiso.** No basta con que exista un permiso de seguridad privada: tiene que amparar expresamente la protección a personas. Uno de vigilancia de bienes no habilita un servicio de escolta.
-2. **La fecha de término de ese permiso.** Se renueva y caduca. Compárala contra el día en que estás firmando, no contra el año.
-3. **El registro del personal ante la autoridad**, incluida la Clave Única de Identificación Permanente de cada elemento. Pregunta por el expediente de quienes te van a asignar, no por el de la empresa.
-4. **El régimen del armamento si el servicio es armado.** El arma pertenece a la empresa y se ampara en una licencia oficial colectiva; ningún elemento porta a título personal. Si nadie sabe explicar bajo qué licencia opera, el servicio no es armado.
+Se cuentan puntos y horas. Cuatro accesos que operan de 6:00 a 22:00 no son lo mismo que uno solo de 24 horas, y el precio se arma sumando posiciones, no personas. Una posición permanente necesita plantilla de relevo por encima de los turnos base.
+
+### Del lado de la persona: análisis antes que vehículos
+
+La variable central no es el número de elementos. Es la previsibilidad de quien se protege, y por eso el trabajo empieza semanas antes de que un vehículo llegue a la puerta.
+
+#### Perfil de riesgo
+
+Un análisis breve que responde tres preguntas: quién tendría motivo e interés en agredir a esta persona, qué la hace identificable desde fuera y qué rutinas suyas se pueden anticipar. De ahí sale el nivel del servicio, no de una tarifa de catálogo.
+
+#### Patrón de vida
+
+El mapa de esas rutinas, levantado hora por hora durante una o dos semanas: trayectos, horarios fijos, lugares recurrentes, personal doméstico, escuelas. No existe para restringir la vida del protegido, sino para variar solo las partes que se repiten.
+
+#### Avanzada
+
+El trabajo de campo previo a cada movimiento. Alguien va antes al destino y revisa accesos y salidas, tiempo real de traslado a esa hora, estacionamiento, quién controla el ingreso, dónde queda el hospital más cercano y qué ruta alterna existe si la principal se cierra. Un esquema sin avanzada es un conductor con radio.
+
+## Cómo leer una propuesta que junta los dos servicios
+
+El error clásico es aceptar un precio por elemento y aplicarlo a las dos materias. Se dimensionan distinto, así que se cotizan distinto.
+
+<div class="tabla-scroll">
+<table>
+<thead>
+<tr><th>Lo que suele decir la propuesta</th><th>Lo que hay que preguntar</th></tr>
+</thead>
+<tbody>
+<tr><td>«Elementos para inmueble y para ejecutivo»</td><td>Cuántas posiciones fijas, con qué horario y consigna cada una, y cuántos elementos en el esquema personal</td></tr>
+<tr><td>«Servicio 24/7»</td><td>Cuántos elementos sostienen esa cobertura durante el mes, contando descansos y vacaciones</td></tr>
+<tr><td>«Personal capacitado»</td><td>Qué constancia respalda esa capacitación y quién la impartió</td></tr>
+<tr><td>«Cobertura en toda la ciudad»</td><td>Quién hace las avanzadas fuera de la alcaldía Cuauhtémoc y con cuánta anticipación</td></tr>
+</tbody>
+</table>
+</div>
+
+## Qué revisar antes de contratar un esquema de protección
+
+1. **La modalidad del permiso.** Que exista un permiso no basta: tiene que amparar expresamente la protección a personas. Uno de vigilancia de bienes no habilita un servicio de escolta.
+2. **La fecha de término.** Compárala contra el día en que firmas, no contra el año en curso.
+3. **El registro del personal ante la autoridad**, incluida la Clave Única de Identificación Permanente de cada elemento. Pregunta por el expediente de quienes te van a asignar.
+4. **El régimen del armamento si el servicio es armado.** El arma pertenece a la empresa y se ampara en una licencia oficial colectiva; nadie porta a título personal. Si nadie sabe explicar bajo qué licencia opera, el servicio no es armado.
 5. **Alta ante IMSS e INFONAVIT** de cada elemento asignado, con constancia a la vista, y registro REPSE cuando el servicio se contrate como especializado.
 6. **Seguro de responsabilidad civil** con cobertura para daños a terceros y suma asegurada explícita en la carátula.
-7. **Convenio de confidencialidad.** Este servicio conoce domicilios, horarios y familia. Se firma antes del primer día y con vigencia posterior al término del contrato.
+7. **Convenio de confidencialidad.** Este servicio conoce domicilios, horarios y familia. Se firma antes del primer día, con vigencia posterior al término del contrato.
 
-## Esta empresa sí aparece en el padrón de la autoridad
+<ul class="cols-2">
+<li>Quién levanta el perfil de riesgo</li>
+<li>Cada cuánto se actualiza</li>
+<li>Quién hace las avanzadas</li>
+<li>Cómo se coordina con la familia</li>
+<li>Qué se reporta a la oficina</li>
+<li>Quién resguarda el patrón de vida</li>
+</ul>
 
-La Dirección General de Seguridad Privada y Colaboración Interinstitucional de la SSC capitalina publica el listado de empresas registradas para la modalidad de protección a personas. Esta empresa figura en él con el expediente 5835-22 y una vigencia que corre hasta el 17 de mayo de 2027, según el corte del 29 de julio de 2026.
+## Grupo Maya en el padrón de la SSC capitalina
 
-Es el cruce más útil que puede hacerse con datos públicos en esta modalidad, y vale la pena entender su alcance exacto. Confirma que a esa fecha existía un registro a nombre de la empresa para el servicio de escolta. No informa sobre la calidad del servicio, sobre el personal que se asignaría a un contrato concreto ni sobre otras modalidades que la empresa pueda tener o no autorizadas. Pide de todas formas el documento original y compara el número de expediente y la vigencia contra lo que aquí se reproduce.
+La Dirección General de Seguridad Privada y Colaboración Interinstitucional publica el listado de empresas registradas en la modalidad de protección a personas. Esta empresa aparece en él.
 
-> Los datos de esta ficha se tomaron de un perfil público y de un padrón oficial, cada uno con la fecha de corte que se indica, y pueden haber cambiado desde entonces. TuSeguridad no representa a esta empresa, no recibe pago por publicarla y no participa en la contratación de sus servicios.
+<div class="tabla-scroll">
+<table>
+<thead>
+<tr><th>Dato del registro</th><th>Valor publicado</th></tr>
+</thead>
+<tbody>
+<tr><td>Expediente</td><td>5835-22</td></tr>
+<tr><td>Modalidad</td><td>Protección a personas (escolta)</td></tr>
+<tr><td>Vigencia publicada</td><td>17 de mayo de 2027</td></tr>
+<tr><td>Autoridad</td><td>Dirección General de Seguridad Privada y Colaboración Interinstitucional</td></tr>
+<tr><td>Corte del padrón</td><td>29 de julio de 2026</td></tr>
+</tbody>
+</table>
+</div>
+
+### Es el cruce más útil que permiten los datos públicos, y tiene un límite
+
+<div class="tabla-scroll">
+<table>
+<thead>
+<tr><th>Sí acredita</th><th>No acredita</th></tr>
+</thead>
+<tbody>
+<tr><td>Que al corte del padrón existía un registro a nombre de la empresa para prestar protección a personas en la Ciudad de México.</td><td>Calidad del servicio, tarifas, cumplimiento laboral ni el desempeño del elemento que te asignen.</td></tr>
+<tr><td>Que ese registro coincide en modalidad con la mitad ejecutiva de lo que la empresa ofrece.</td><td>La parte patrimonial. La vigilancia de un inmueble corre por otra modalidad y este listado no la recoge.</td></tr>
+</tbody>
+</table>
+</div>
+
+#### La seguridad patrimonial necesita su propio documento
+
+Este es el punto que más se confunde. Un registro correcto en protección a personas no se extiende a los demás servicios: si además vas a contratar guardias para un edificio, pide el permiso que ampare la modalidad de seguridad privada en los bienes. Son dos autorizaciones, aunque las firme la misma empresa.
+
+<div class="nota nota-fuerte">
+
+##### Compara el papel contra el padrón, no uno de los dos
+
+Pide el permiso original y contrasta el número de expediente y la vigencia contra lo que aquí se reproduce.
+
+Si los datos no coinciden, no supongas cuál está mal: **pregúntalo antes de firmar**. Y si el contrato se extiende más allá de mayo de 2027, pide también el acuse de renovación.
+
+</div>
+
+###### Procedencia de los datos
+
+> Los datos de esta ficha salen de un perfil público y de un padrón oficial, cada uno con su propia fecha de corte, y pueden haber cambiado desde entonces. TuSeguridad publica por cuenta propia, no representa a Grupo Maya Protección Personal Privada y Empresarial, no recibe pago por incluirla y no participa en la contratación de sus servicios.

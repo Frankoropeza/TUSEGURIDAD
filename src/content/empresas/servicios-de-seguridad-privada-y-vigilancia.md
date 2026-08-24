@@ -32,58 +32,136 @@ padron:
   fechaCorte: "2026-07-29"
 ---
 
-**Grupo IPS** aparece con domicilio en Calle Lucerna 10, colonia Juárez, alcaldía Cuauhtémoc, dentro del corredor de oficinas que rodea el Paseo de la Reforma. En su perfil público está listada bajo la categoría de *servicio de seguridad*, la más genérica del rubro, y es la única que ese perfil le asigna.
+<p class="lede">Grupo IPS figura en el directorio de <strong>servicios de seguridad privada y vigilancia</strong> de la Ciudad de México con domicilio en Calle Lucerna 10, colonia Juárez, alcaldía Cuauhtémoc, dentro del corredor de oficinas que rodea el Paseo de la Reforma. Su perfil público le asigna una sola categoría, la más genérica del rubro: servicio de seguridad.</p>
 
-El mismo perfil registra 391 reseñas y una calificación de 4.0 en la fecha de corte. Es un volumen alto para el directorio de seguridad privada de la ciudad. Una calificación, sin embargo, no dice nada sobre el permiso con el que opera una empresa, ni sobre su cobertura, ni sobre cómo tiene dados de alta a sus elementos.
+Ese perfil no incluye ningún texto donde la empresa describa lo que hace. Por eso esta ficha no le atribuye vigilancia intramuros, monitoreo, custodia ni ninguna combinación de esas cosas. Lo que la fuente no publica, aquí no se supone.
 
-La empresa no publica en ese perfil ningún texto donde describa lo que hace. Por eso esta ficha no le atribuye servicios: no sabemos si presta vigilancia intramuros, monitoreo, custodia o alguna combinación de esas cosas, y no lo vamos a suponer.
+<div class="nota">
 
-Lo que sí publica es su horario de atención administrativa: lunes a viernes de 9:00 a 18:00, con apertura más tarde los martes, y sábado hasta las 13:00. Ese horario es el de oficina y no describe la operación del servicio en campo.
+##### Lo que hay, y lo que falta, en la fuente
 
-Esta ficha reproduce información pública. No la escribió la empresa, no existe relación comercial con TuSeguridad y ninguno de los datos está verificado por nosotros.
+Hay **391 reseñas con una calificación de 4.0** en la fecha de corte, y un horario de oficina de lunes a viernes de 9:00 a 18:00, con apertura más tarde los martes y sábado hasta las 13:00.
 
-## Qué cubre un contrato de seguridad privada y vigilancia
+Falta el resto: catálogo de servicios, cobertura, tarifas, tamaño de plantilla. Una calificación no dice con qué permiso opera una empresa ni cómo tiene dados de alta a sus elementos.
 
-«Seguridad privada y vigilancia» es una etiqueta comercial, no la descripción de un servicio. Lo que se contrata en realidad es un dispositivo: un número definido de posiciones, cubiertas ciertas horas, con una instrucción escrita para cada una. Todo lo demás gira alrededor de eso.
+</div>
 
-Una posición es un punto físico que alguien tiene que ocupar. La caseta de acceso vehicular, el lobby, el andén de carga, la pantalla del centro de monitoreo. No es una persona: es un lugar y una tarea asociada a ese lugar. Cuando un contrato enumera personas en vez de posiciones, ya empezó mal.
+## Qué cubre en realidad un contrato de seguridad privada y vigilancia
 
-El turno es la segunda variable. Una posición de ocho horas de lunes a viernes es un empleado. La misma posición cubierta las 24 horas los siete días no la sostienen dos personas ni tres: hay que contar el día de descanso semanal, las vacaciones, las incapacidades y las faltas. Ese factor de reemplazo es el que infla o desinfla la cotización y es lo primero que conviene pedir desglosado.
+«Seguridad privada y vigilancia» es una etiqueta comercial. Lo que se firma es otra cosa: un número definido de posiciones, cubiertas ciertas horas, cada una con una instrucción escrita. Todo lo demás cuelga de ahí.
 
-Después vienen los modificadores. Turno nocturno, servicio armado o desarmado, perfil del elemento, supervisión con rondas verificables o solo por llamada, y quién pone el equipo de radio y de registro. Cada uno mueve el costo por hora y debería aparecer en una línea distinta del presupuesto.
+### La propuesta contra el contrato
 
-La consigna es el documento que convierte ese dispositivo en un servicio exigible. Dice qué hace el elemento en su posición: a quién deja pasar, qué anota, qué revisa, a quién llama y en cuánto tiempo cuando algo se sale de lo normal. Sin consigna escrita por posición no hay forma de reclamar un incumplimiento, porque no hay nada pactado que incumplir.
+<div class="tabla-scroll">
+<table>
+<thead>
+<tr><th>Lo que suele decir la propuesta</th><th>Lo que tiene que decir el contrato</th></tr>
+</thead>
+<tbody>
+<tr><td>«Vigilancia 24/7 con personal capacitado»</td><td>Cuántas posiciones, en qué puntos, con qué turnos y cuántos elementos las sostienen al mes</td></tr>
+<tr><td>«Supervisión permanente»</td><td>Nombre del supervisor, frecuencia de visitas y cómo se comprueba cada una</td></tr>
+<tr><td>«Personal con todas las prestaciones»</td><td>Altas nominativas ante IMSS e INFONAVIT y costo laboral desglosado dentro de la tarifa</td></tr>
+<tr><td>«Respuesta inmediata»</td><td>Minutos comprometidos para relevar una falta, y la pena si no se cumplen</td></tr>
+</tbody>
+</table>
+</div>
 
-Lo que un contrato de vigilancia no cubre también conviene tenerlo claro desde el principio. El guardia registra, disuade, observa y escala. No investiga, no detiene fuera de los supuestos que la ley abre a cualquier persona y no responde con su patrimonio por lo que ocurra dentro del inmueble. Para eso están la póliza y las cláusulas de responsabilidad, no el uniforme.
+### Lo que un servicio de vigilancia no cubre
 
-Una propuesta seria se reconoce rápido. Trae el desglose por posición y por turno, el costo laboral por elemento, el plan de suplencias con tiempo de respuesta comprometido, el nombre del supervisor y cada cuándo visita. Una que solo dice «vigilancia 24/7» por un monto redondo no se puede comparar contra ninguna otra, y esa opacidad casi siempre se cobra después.
+El guardia registra, disuade, observa y escala. No investiga, no detiene fuera de los supuestos que la ley abre a cualquier persona y no responde con su patrimonio por lo que ocurra dentro del inmueble. De eso se ocupan la póliza y las cláusulas de responsabilidad, no el uniforme.
 
-Queda un punto incómodo. El precio más bajo del mercado suele salir de recortar el costo laboral, no la utilidad. Si la cuenta no da para pagar prestaciones completas, el ahorro es un pasivo diferido que puede terminar en tu escritorio en forma de responsabilidad solidaria.
+### Los modificadores que mueven el precio por hora
 
-## Qué pedirle por escrito antes de firmar
+<ul class="cols-2">
+<li>Turno nocturno</li>
+<li>Servicio armado o desarmado</li>
+<li>Perfil y antigüedad del elemento</li>
+<li>Rondines verificables o supervisión por llamada</li>
+<li>Radio y equipo de registro, y quién lo pone</li>
+<li>Días festivos y descansos obligatorios</li>
+</ul>
 
-Estar en un directorio no acredita nada, ni aquí ni en ningún otro. Antes de firmar con esta empresa o con cualquier otra, pide en papel y guarda copia fechada:
+Cada uno debería ocupar una línea distinta del presupuesto. Cuando van fundidos en un precio por hora único, no hay manera de saber qué estás pagando de más.
 
-1. **El permiso de seguridad privada con la modalidad correcta.** La vigilancia de un inmueble corresponde a la modalidad de seguridad privada en los bienes. Si el servicio incluye protección a personas o traslado de valores, cada modalidad tiene que estar amparada por separado.
-2. **La vigencia legible de ese permiso**, y el acuse de renovación si está en trámite. Un permiso que vence a la mitad de tu contrato también se vuelve un problema tuyo.
-3. **El registro REPSE** ante la Secretaría del Trabajo cuando el servicio se preste como especializado, junto con los acuses cuatrimestrales de ICSOE y SISUB.
-4. **Constancias de alta ante IMSS e INFONAVIT** de los elementos que van a cubrir tus posiciones, con nombre y número de seguridad social. No sirve la afirmación general de que «todo el personal está dado de alta».
-5. **La carátula de la póliza de responsabilidad civil vigente**: suma asegurada, deducible, fechas y lista de exclusiones.
-6. **La consigna escrita de cada posición**, firmada antes del arranque, y el formato de bitácora que se va a usar en campo.
-7. **El esquema de suplencias y de supervisión**: quién cubre una falta, en cuántos minutos llega el relevo, cada cuándo pasa el supervisor y cómo te consta que pasó.
+## Cómo leer una propuesta que junta varios servicios en una sola cifra
 
-Si un proveedor tarda en entregar cualquiera de estos siete documentos, esa demora ya es información sobre cómo va a responder cuando el problema sea real.
+Es el formato más común de este rubro y el más difícil de comparar. Vigilancia, monitoreo, rondines y algún traslado ocasional caben en un solo monto mensual, y ese monto no se puede contrastar con nada.
 
-Ninguno de estos puntos es un trámite. En una revisión laboral o después de un siniestro, el expediente que sirve es el que armaste antes de que ocurriera algo, no el que pediste corriendo esa misma semana.
+### Cada servicio tiene su propia unidad de medida
 
-## Grupo IPS en el padrón de la SSC
+<div class="tabla-scroll">
+<table>
+<thead>
+<tr><th>Servicio</th><th>Unidad en la que se cotiza</th><th>Qué exigir desglosado</th></tr>
+</thead>
+<tbody>
+<tr><td>Vigilancia de inmueble</td><td>Posición por turno</td><td>Elementos por posición y costo laboral por elemento</td></tr>
+<tr><td>Monitoreo remoto</td><td>Cámara o punto conectado</td><td>Días de grabación conservados y quién los custodia</td></tr>
+<tr><td>Rondines</td><td>Recorrido con puntos de control</td><td>Cuántos por turno y con qué comprobante</td></tr>
+<tr><td>Protección a personas</td><td>Escolta por jornada</td><td>Modalidad amparada en el permiso y perfil del elemento</td></tr>
+<tr><td>Traslado de valores</td><td>Envío o ruta</td><td>Límite de la póliza por evento y por unidad</td></tr>
+</tbody>
+</table>
+</div>
 
-La Secretaría de Seguridad Ciudadana de la Ciudad de México publica el padrón de empresas registradas para la modalidad de protección a personas, la que se conoce como escolta. Grupo IPS sí aparece en ese listado, con el expediente 5494-21.
+##### ¿Y si el proveedor se niega a separar la cifra?
 
-Hay un detalle que importa leer completo. La vigencia que el propio padrón publica para ese registro es el 20 de agosto de 2026, una fecha que ya pasó respecto de la fecha de corte de esta ficha. El dato se reproduce aquí tal como lo publica la autoridad, sin ajustarlo.
+Pídelo como anexo de precios unitarios, no como renegociación del total. Un anexo firmado te permite cotizar después con terceros sobre las mismas bases. Su ausencia suele significar que un servicio está subsidiando a otro.
 
-Que la vigencia publicada esté vencida no significa que la empresa haya dejado de estar registrada. Los padrones se actualizan con retraso y una renovación en trámite tarda en reflejarse en el archivo público. Tampoco significa lo contrario. Lo razonable es pedirle a la empresa el documento actualizado de su permiso y confirmar la fecha directamente con la autoridad antes de contratar.
+### Cinco cortes que hay que hacerle al monto global
 
-Vale recordar además que este padrón cubre una sola modalidad. Si lo que vas a contratar es vigilancia de un inmueble, el registro de escoltas no es el documento que necesitas revisar: pide el que ampare la seguridad privada en los bienes, que es la figura bajo la que se presta ese servicio.
+1. **Separar por servicio**, cada uno con su unidad y su precio unitario.
+2. **Separar por posición y turno** dentro de la vigilancia, con el número de elementos que sostiene cada posición.
+3. **Aislar el costo laboral** por elemento y confirmar que alcanza para prestaciones completas.
 
-> El teléfono, el domicilio, el horario y la calificación de esta ficha provienen de fuentes públicas consultadas en la fecha de corte y pueden estar desactualizados. TuSeguridad no representa a Grupo IPS, no interviene en su contratación y no recibe pago alguno por esta publicación.
+#### Los dos cortes que casi nadie hace
+
+4. **Aislar el equipo**: radios, lectores de rondín, cámaras, y de quién son al terminar el contrato.
+5. **Aislar la supervisión**, que en muchas propuestas viene incluida sin costo y por eso nunca ocurre.
+
+### ¿Por qué la cifra más baja suele salir más cara?
+
+Porque el margen de una empresa de vigilancia es estrecho y el precio se recorta donde más pesa: el costo laboral. Si la cuenta no da para pagar prestaciones completas, ese ahorro es un pasivo diferido que puede aterrizar en tu escritorio en forma de responsabilidad solidaria.
+
+## Grupo IPS en el padrón de la SSC de la Ciudad de México
+
+La Secretaría de Seguridad Ciudadana publica el listado de empresas registradas en la modalidad de protección a personas. Grupo IPS sí aparece en él.
+
+<div class="tabla-scroll">
+<table>
+<thead>
+<tr><th>Dato del registro</th><th>Valor publicado</th></tr>
+</thead>
+<tbody>
+<tr><td>Expediente</td><td>5494-21</td></tr>
+<tr><td>Modalidad</td><td>Protección a personas (escolta)</td></tr>
+<tr><td>Vigencia publicada</td><td>20 de agosto de 2026</td></tr>
+<tr><td>Autoridad</td><td>Dirección General de Seguridad Privada y Colaboración Interinstitucional</td></tr>
+<tr><td>Corte del padrón</td><td>29 de julio de 2026</td></tr>
+</tbody>
+</table>
+</div>
+
+### La vigencia publicada ya quedó atrás
+
+<div class="nota nota-fuerte">
+
+##### Pide el acuse de renovación, no solo el permiso
+
+La fecha que la autoridad publica para este registro es el 20 de agosto de 2026, anterior al día en que estás leyendo esta ficha. El dato se reproduce tal como aparece en el archivo público, sin ajustarlo.
+
+Que la vigencia esté vencida ahí no significa que la empresa haya dejado de estar registrada: los padrones se actualizan con retraso y una renovación en trámite tarda en reflejarse. Tampoco significa lo contrario. Lo que corresponde es **pedir el documento actualizado y el acuse de renovación**, y confirmar la fecha con la autoridad antes de firmar.
+
+</div>
+
+### Qué acredita ese registro y qué no
+
+Acredita que la empresa estaba inscrita ante la autoridad capitalina, en una modalidad concreta y a una fecha concreta. No acredita calidad del servicio, tarifas, cumplimiento laboral ni cobertura de póliza. Son preguntas distintas y se responden con documentos distintos.
+
+### El padrón cubre una sola modalidad: escoltas
+
+Si lo que vas a contratar es vigilancia de un inmueble, este registro no es el documento que te toca revisar. Pide el permiso que ampare la seguridad privada en los bienes, que es la figura bajo la cual se presta ese servicio. Un registro correcto en protección a personas no se extiende de forma automática a las demás modalidades, y contratar suponiendo que sí es el error administrativo más frecuente del rubro.
+
+###### Procedencia de los datos
+
+> Teléfono, domicilio, horario y calificación provienen de fuentes públicas consultadas en la fecha de corte y pueden estar desactualizados. Los datos del padrón se reproducen exactamente como los publica la autoridad. TuSeguridad no representa a Grupo IPS, no interviene en su contratación y no cobra por esta publicación.

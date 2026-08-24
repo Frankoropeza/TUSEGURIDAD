@@ -30,42 +30,122 @@ padron:
   fechaCorte: "2026-07-29"
 ---
 
-**Seguridad y Vigilancia Privada El Águila Real** opera desde Sauces 473, colonia Pasteros, alcaldía Azcapotzalco. En su perfil público aparece listada bajo las categorías de *servicio de guardias de seguridad* y *servicio de seguridad*, con 44 reseñas y una calificación de 3.9 en la fecha de corte.
+<p class="lede">Seguridad y Vigilancia Privada El Águila Real declara <strong>custodia de mercancía y vigilancia</strong> desde Sauces 473, colonia Pasteros, alcaldía Azcapotzalco, en la Ciudad de México. Su perfil público la lista en dos categorías: servicio de guardias de seguridad y servicio de seguridad.</p>
 
-En la descripción que la propia empresa publica en ese perfil declara más de 20 años en el mercado y servicios de seguridad intramuros y custodias. Es lo único que dice de sí misma: no publica ahí modalidades, cobertura ni certificaciones, y esta ficha no le atribuye ninguna.
+En la descripción que ella misma publica en ese perfil declara más de 20 años en el mercado y servicios de seguridad intramuros y custodias. Queda asentado así, como declaración suya, reproducida sin comprobar y sin extenderla.
 
-Lo que sigue es información pública reproducida con fecha de corte. La empresa no participó en la redacción, no hay relación comercial y ninguno de los datos está verificado por TuSeguridad.
+<div class="nota">
 
-## Qué cambia cuando la mercancía se mueve
+##### Hasta dónde llega la fuente
 
-La vigilancia fija cuida un punto que no cambia de lugar. La custodia cuida una carga que sí: el objeto protegido se desplaza, cambia de responsable a mitad del camino y pasa horas en las que nadie del cliente lo está viendo. Por eso se contrata aparte de la vigilancia del inmueble y por eso se documenta distinto.
+El perfil reporta **44 reseñas con una calificación de 3.9** en la fecha de corte, con horario de lunes a viernes de 8:00 a 18:00 y medio día el sábado. Muestra corta, valoración media.
 
-En el origen se firma el inicio del tramo. Antes de que la unidad salga, el custodio y el responsable del embarque revisan juntos lo mismo: número y folio de los sellos, condición de puertas y lona, placas y número económico de la unidad, nombre y licencia del operador, hora de salida y kilometraje. Todo eso queda en una hoja de ruta firmada por los dos. Si la carga sale sin ese registro, después no hay forma de saber en qué momento apareció una diferencia.
+Ahí no aparecen rutas cubiertas, tarifas, tamaño de plantilla ni si las custodias se prestan armadas. Esta ficha no le atribuye nada de eso.
 
-El plan de ruta se pacta antes, no en el camino: por dónde se va, dónde se puede parar, cuánto puede durar cada parada y cada cuánto reporta el custodio. Ese intervalo de reporte es lo que convierte una demora en una alerta. Si el embarque se detiene por una falla mecánica, un bloqueo o una revisión de autoridad, el protocolo tiene que decir qué se hace en cada caso y en qué orden: reportar de inmediato, no abrir la caja, no dejar la unidad sola, esperar instrucción y registrar la hora de inicio y de fin de la detención. Una detención no documentada es un hueco en la cadena de custodia.
+</div>
 
-En el destino se cierra el tramo. Se verifica que los folios de los sellos sean los mismos que salieron, se anota la hora de llegada, el kilometraje final y cualquier incidencia, y firma quien recibe. Ese cierre es lo que le da valor a todo lo anterior cuando hay que reclamar algo.
+## Vigilancia intramuros y custodia de mercancía son dos servicios
 
-El precio no depende del valor de la carga sino de la operación: kilómetros y horas de tránsito, si la ruta es sencilla o redonda, si hay pernocta, cuántos elementos van por unidad y si el servicio es armado. El servicio armado depende de una autorización distinta de la del permiso estatal de seguridad privada, así que conviene preguntar por ella por separado.
+Se contratan al mismo proveedor y se firman el mismo día, pero por dentro no se parecen. Uno cuida un punto que no se mueve. El otro cuida una carga que cambia de lugar, de carril y de responsable a mitad del camino.
 
-Y una distinción que se confunde seguido: el custodio no asegura la mercancía. La responsabilidad civil del prestador cubre daños derivados de su propia operación; el valor de la carga lo cubre un seguro de transporte. Son dos contratos con dos alcances.
+<div class="tabla-scroll">
+<table>
+<thead>
+<tr><th>Dimensión</th><th>Vigilancia intramuros</th><th>Custodia en tránsito</th></tr>
+</thead>
+<tbody>
+<tr><td>Objeto protegido</td><td>Un inmueble con perímetro conocido y accesos contados.</td><td>Un embarque que se desplaza, con horarios que dependen del tráfico.</td></tr>
+<tr><td>Documento que manda</td><td>Consigna de posición y bitácora de turno.</td><td>Hoja de ruta con firmas de origen y de destino.</td></tr>
+<tr><td>Unidad de cobro</td><td>Posición cubierta durante un horario.</td><td>Servicio por ruta: kilómetros, horas, pernocta, elementos por unidad.</td></tr>
+<tr><td>Modalidad del permiso</td><td>Seguridad privada en los bienes.</td><td>Traslado de bienes o valores.</td></tr>
+</tbody>
+</table>
+</div>
 
-## Qué pedir antes de entregarle un embarque
+### La modalidad no se hereda de un servicio al otro
 
-Estar listado en un directorio no acredita nada, y en custodia el error se paga con la carga. Antes de contratar, pide por escrito:
+Un permiso que ampara la vigilancia de inmuebles no cubre el traslado de carga. Si el mismo prestador va a hacer las dos cosas, las dos modalidades tienen que constar, en un documento o en dos. Se pide una sola vez y se revisa la vigencia de cada una por separado, porque no vencen juntas.
 
-1. **El permiso de seguridad privada**, con la modalidad y la vigencia a la vista. El traslado de bienes es una modalidad propia y no queda cubierto por el permiso de vigilancia de un inmueble.
-2. **El registro REPSE** si el servicio se factura como servicio especializado. Sin él el gasto no es deducible y el contratante queda expuesto a responsabilidad solidaria.
-3. **Las constancias de alta ante IMSS e INFONAVIT** de los elementos que van a ir en la ruta, no un listado general de la plantilla.
-4. **La póliza de responsabilidad civil**, con suma asegurada, vigencia y exclusiones. Si además necesitas cubrir el valor de la carga, ése es un seguro de transporte aparte.
-5. **El protocolo de ruta por escrito**: puntos de reporte, intervalo máximo sin comunicación, paradas autorizadas y qué se hace ante una detención.
-6. **El formato de hoja de ruta o bitácora de tramo** que van a usar, con firmas de origen y destino. Pídelo en blanco antes de firmar el contrato.
-7. **El esquema de relevo** en trayectos largos: quién sustituye al custodio, en qué punto y con qué entrega de por medio.
+### La póliza tampoco se extiende sola
 
-## Esta empresa y el padrón de escoltas
+La responsabilidad civil que cubre al personal dentro de tu almacén no cubre por sí misma un incidente en carretera. Pregunta por el ámbito territorial y por la actividad asegurada. Y ten presente la distinción de fondo: el custodio no asegura la mercancía. El valor de la carga lo cubre un seguro de transporte, que es otro contrato con otro asegurado.
 
-La Secretaría de Seguridad Ciudadana capitalina publica el listado de empresas registradas en una sola modalidad, la de protección a personas. En la fecha de corte que consultamos, esta empresa no figura ahí.
+## El embarque: dónde se corta la responsabilidad
 
-Conviene leerlo por lo que es. Ese padrón no es un registro general del sector: cubre escoltas, y una empresa dedicada a la vigilancia de inmuebles y a la custodia de carga puede operar con permiso en otras modalidades sin aparecer en ese listado. La forma de resolver la duda es directa: pedirle su permiso, ver qué modalidades ampara y hasta cuándo.
+Aquí está la ventaja real de que un mismo proveedor resguarde el almacén y acompañe la ruta, y también su riesgo. La ventaja es que quien vio la carga en el andén es quien la va a seguir viendo afuera. El riesgo es que, sin un corte escrito, ninguna de las dos áreas se hace cargo de lo que pasó en el traspaso.
 
-> Teléfono, horario, dirección y calificación provienen del perfil público del negocio en la fecha de corte y pueden estar desactualizados. TuSeguridad no la representa, no cobra por este listado y no interviene en lo que se acuerde con ella.
+<div class="tabla-scroll">
+<table>
+<thead>
+<tr><th>Momento</th><th>Quién responde</th><th>Con qué se prueba</th></tr>
+</thead>
+<tbody>
+<tr><td>Mercancía en almacén</td><td>Vigilancia intramuros</td><td>Bitácora de turno y control de entradas y salidas</td></tr>
+<tr><td>Maniobra de carga en el andén</td><td>Vigilancia, con el custodio ya presente</td><td>Registro de maniobra con hora de inicio y de fin</td></tr>
+<tr><td>Colocación de sellos y salida</td><td>Traspaso formal: firman los dos</td><td>Hoja de ruta con folios de sello, placas, operador, hora y kilometraje</td></tr>
+<tr><td>Tránsito</td><td>Custodia</td><td>Reportes de posición en el intervalo pactado</td></tr>
+<tr><td>Descarga en destino</td><td>Custodia, hasta el acuse de quien recibe</td><td>Cotejo de folios, hora de llegada, kilometraje final e incidencias</td></tr>
+</tbody>
+</table>
+</div>
+
+#### La firma que casi siempre falta
+
+La tercera fila. Cuando ese corte no se firma, una diferencia detectada en destino termina discutiéndose entre dos áreas del mismo prestador, y el cliente se queda sin saber en qué tramo ocurrió. Firmarlo cuesta dos minutos en el andén y resuelve la única pregunta que después importa.
+
+### El plan de ruta se pacta antes de arrancar
+
+Por dónde se va, dónde se puede parar, cuánto puede durar cada parada y cada cuánto reporta el custodio. Ese intervalo es lo que convierte una demora en una alerta: a las 14:20 no llegó el reporte de las 14:15 y alguien ya está marcando.
+
+Ante una detención por falla mecánica, bloqueo o revisión de autoridad, el protocolo escrito dice qué se hace y en qué orden.
+
+<ul class="cols-2">
+<li>Reportar de inmediato</li>
+<li>No abrir la caja</li>
+<li>No dejar la unidad sola</li>
+<li>Esperar instrucción</li>
+<li>Registrar hora de inicio y de fin</li>
+<li>Anotar el punto exacto en la hoja de ruta</li>
+</ul>
+
+<div class="nota nota-fuerte">
+
+##### Una detención sin registro es un hueco
+
+Todo el valor de la cadena de custodia está en que no queden minutos sin explicar. Si el embarque estuvo cuarenta minutos detenido y nadie los anotó, esos cuarenta minutos se convierten en el argumento del otro lado el día que aparezca un faltante.
+
+</div>
+
+## Qué pedirle a quien cubre almacén y ruta
+
+Aparecer en un directorio no acredita nada, y en la custodia de carga el error se paga con el embarque completo. La revisión previa se hace en dos bloques, porque los dos servicios no piden los mismos papeles.
+
+### Lo que aplica a los dos servicios
+
+1. **Permiso de seguridad privada** con las modalidades a la vista: la de bienes inmuebles y la de traslado. Si solo trae una, el otro servicio está operando sin ese respaldo.
+2. **Registro REPSE vigente** cuando el servicio se facture como especializado, con la actividad declarada que corresponda a lo que te van a prestar.
+3. **Altas ante IMSS e INFONAVIT** del personal asignado, tanto el de posición fija como el que sale a ruta. Listado nominativo, no un conteo de plantilla.
+4. **Póliza de responsabilidad civil completa**, con suma asegurada, vigencia, exclusiones y ámbito territorial.
+
+### Lo que solo aplica al tramo en movimiento
+
+5. **Formato de hoja de ruta en blanco**, para leerlo antes de firmar el contrato y no el día del primer embarque.
+6. **Protocolo de comunicación**: intervalo máximo sin reporte, a quién se avisa al vencerlo y qué se hace enseguida.
+7. **Esquema de relevo** en trayectos largos: en qué punto ocurre, con qué entrega de por medio y quién firma.
+8. **Autorización del servicio armado**, si lo van a prestar. Depende de un trámite distinto del permiso estatal y se pregunta por separado.
+
+## El Águila Real y el padrón de protección a personas
+
+La Secretaría de Seguridad Ciudadana de la Ciudad de México publica un listado de empresas registradas en una sola modalidad: protección a personas. Consultamos ese archivo en su fecha de corte y esta empresa no está en él.
+
+### Es el archivo equivocado para este servicio
+
+No hay nada que interpretar en esa ausencia. Un prestador de vigilancia de inmuebles y custodia de carga no ejerce como escolta, y ese listado no pretende inventariar al sector completo. Buscar ahí a una empresa con este perfil y no encontrarla es el resultado esperable, no un dato en su contra.
+
+### La verificación que sí corresponde
+
+Pedirle el permiso y leer qué modalidades ampara y hasta cuándo. Con el número de expediente a la mano, ese dato se confirma con la autoridad emisora en una llamada. Es el único trámite que dice algo útil sobre los dos servicios que aquí importan.
+
+###### Procedencia de los datos
+
+> Dirección, teléfono, horario y calificación salieron de una fuente pública en la fecha de corte indicada y pueden haber cambiado desde entonces. Los más de 20 años en el mercado son declaración de la propia empresa, reproducida sin comprobación. TuSeguridad armó esta ficha por iniciativa propia, no representa a Seguridad y Vigilancia Privada El Águila Real y no obtiene ingreso alguno si decides contactarla.

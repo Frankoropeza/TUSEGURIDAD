@@ -30,42 +30,145 @@ padron:
   fechaCorte: "2026-07-29"
 ---
 
-**Táctica y Tecnología en Seguridad Privada** tiene domicilio en 26 de Enero de 1857 71, colonia Leyes de Reforma 3ra Sección, alcaldía Iztapalapa. Su perfil público la clasifica como *proveedor de sistemas de seguridad*, con 29 reseñas y una calificación de 3.7 en la fecha de corte.
+<p class="lede">Táctica y Tecnología en Seguridad Privada aparece en su perfil público como proveedor de <strong>sistemas de seguridad y videovigilancia</strong>, con domicilio en 26 de Enero de 1857 71, colonia Leyes de Reforma 3ra Sección, alcaldía Iztapalapa, Ciudad de México.</p>
 
-Es la única categoría bajo la que aparece, y el perfil no trae descripción escrita por la empresa. Por eso esta ficha no enumera marcas, equipos ni alcances: no hay una declaración pública de la cual sacarlos.
+Es la única categoría bajo la que se le lista, y el perfil no trae descripción escrita por la empresa. Por eso esta ficha no enumera marcas, equipos ni alcances: no hay declaración pública de la cual sacarlos.
 
-Todo lo anterior es información pública reproducida con su fecha de corte. La empresa no participó en la redacción, no existe relación comercial y TuSeguridad no verificó los datos.
+<div class="nota">
 
-## Instalar videovigilancia que sirva de algo
+##### Lo que trae la fuente
 
-Un sistema de cámaras se juzga por lo que permite hacer después de un incidente. La pregunta correcta no es cuántas hay, sino qué tiene que resolver cada una.
+**29 reseñas con una calificación de 3.7** en la fecha de corte, horario de lunes a sábado de 9:00 a 18:00, domicilio y teléfono. Ese es el inventario completo.
 
-Cada cámara se instala con una tarea: detectar movimiento en un perímetro, reconocer que alguien pasó por ahí, o identificar a una persona con rasgos distinguibles. Son tres tareas y piden encuadres distintos. Una toma panorámica del estacionamiento sirve para saber que hubo alguien; no sirve para decir quién. Por eso los accesos, la caja, el andén de carga y la escalera piden encuadres cerrados a la altura del rostro, y el contraluz de una puerta a la calle arruina más tomas que ningún otro factor.
+Lo que sigue es criterio de compra para un sistema de videovigilancia, aplicable a cualquier proveedor. No describe la oferta de esta empresa, que no está publicada.
 
-La prueba de la cobertura es un recorrido, no un plano. Camina el inmueble tramo por tramo como lo haría alguien que entra a llevarse algo, y revisa en pantalla si hay una cámara que lo tome. Los huecos aparecen solos: la reja que tapó la vegetación, la puerta que al abrirse cubre el objetivo, el pasillo que se llenó de tarima. Conviene repetirlo cada cierto tiempo: los puntos ciegos no nacen con el sistema, se van formando.
+</div>
 
-La retención es el dato que casi nadie pide y el que más falla. Los días que guarda el equipo dependen de cuántas cámaras hay, a qué resolución y a cuántos cuadros por segundo graban, y de si la grabación es continua o por detección. Muchos incidentes se descubren tarde: un faltante de inventario, una queja que llega semanas después. Si el sistema guarda menos días de los que tardas en enterarte, no hay evidencia. Exige la retención comprometida en días, por escrito, y verifícala un mes después buscando el video más viejo que exista en el grabador.
+## ¿Qué debe resolver cada cámara del sistema de videovigilancia?
 
-Grabar no es vigilar. Define quién mira. Si hay monitoreo en vivo, pregunta cuántas cámaras atiende un operador a la vez y qué hace cuando ve algo. Si no lo hay, el sistema es forense y conviene asumirlo: alguien del lado del cliente tiene que revisar por rutina y quedar como responsable de exportar y resguardar el material.
+Un sistema de cámaras se juzga por lo que permite hacer después de un incidente, no por cuántos equipos trae la propuesta. La pregunta correcta es qué tarea tiene asignada cada cámara, porque de eso depende el encuadre y de eso depende que el video sirva.
 
-Y lo que se firma al principio y se lamenta al final: de quién es el equipo y de quién es el video. El contrato tiene que decir si cámaras, grabador y cableado quedan en propiedad del cliente o en comodato; qué se retira al terminar; quién tiene la contraseña de administrador; en qué formato y en cuánto tiempo se entregan las exportaciones; y si el proveedor conserva copia y por cuánto tiempo. Las imágenes de personas son datos personales: hacen falta un aviso de privacidad, un responsable identificado y la regla de no colocar cámaras donde existe expectativa razonable de privacidad.
+<div class="tabla-scroll">
+<table>
+<thead>
+<tr><th>Tarea de la cámara</th><th>Qué permite afirmar después</th><th>Dónde suele aplicar</th></tr>
+</thead>
+<tbody>
+<tr><td>Detectar</td><td>Que hubo movimiento en una zona, con hora.</td><td>Perímetro, patios, estacionamiento.</td></tr>
+<tr><td>Reconocer</td><td>Que la persona pasó por ahí y cómo iba vestida.</td><td>Pasillos, andenes, escaleras.</td></tr>
+<tr><td>Identificar</td><td>Quién es, con rasgos distinguibles en pantalla.</td><td>Accesos, caja, entrega de mercancía.</td></tr>
+</tbody>
+</table>
+</div>
 
-## Antes de aceptar la instalación
+Una toma panorámica del estacionamiento sirve para saber que hubo alguien. No sirve para decir quién. Por eso los accesos y la caja piden encuadres cerrados a la altura del rostro, y el contraluz de una puerta que da a la calle arruina más tomas que ningún otro factor.
 
-Revisar a un proveedor de sistemas no es igual que revisar a uno de guardias, pero comparten la mitad de los papeles:
+### La cobertura se prueba caminando, no en el plano
 
-1. Permiso de seguridad privada que ampare la modalidad de sistemas de seguridad electrónica y monitoreo, con vigencia legible. Si además va a poner personal en sitio, ésa es otra modalidad y hay que verla también.
-2. REPSE cuando el servicio se contrate como especializado o incluya personal dentro de tus instalaciones.
-3. Constancias de IMSS e INFONAVIT de los técnicos que instalan y de cualquier operador de monitoreo asignado a tu cuenta.
-4. Póliza de responsabilidad civil vigente, con suma y exclusiones, que cubra daños durante la instalación.
-5. Protocolo escrito de qué ocurre ante una alarma o un evento: a quién se avisa, en qué orden y en cuánto tiempo. Es el equivalente de la consigna de una posición fija.
-6. Cobertura de la posición de monitoreo si contratas servicio en vivo: cómo se cubren descansos y ausencias para que no queden horas sin operador.
-7. Entregables de cierre: diagrama de instalación, inventario con números de serie, credenciales de administrador a nombre del cliente y garantía con tiempo de respuesta a falla.
+Recorre el inmueble tramo por tramo como lo haría alguien que entra a llevarse algo, con una persona frente a la pantalla. Los huecos aparecen solos.
 
-## Este listado no cubre a los proveedores de sistemas
+<ul class="cols-2">
+<li>Reja que tapó la vegetación</li>
+<li>Puerta que al abrirse cubre el objetivo</li>
+<li>Pasillo bloqueado por tarima</li>
+<li>Luminaria fundida en el patio</li>
+<li>Lente sucio o desenfocado</li>
+<li>Cámara girada por un golpe</li>
+</ul>
+
+Repite ese recorrido cada cierto tiempo. Los puntos ciegos no nacen con el sistema: se van formando.
+
+## Retención de grabaciones y quién revisa el video
+
+La retención es el dato que casi nadie pide y el que más falla. Son los días de grabación que el equipo conserva antes de empezar a escribir encima, y no es un número fijo del aparato: depende de cómo se configuró.
+
+<div class="tabla-scroll">
+<table>
+<thead>
+<tr><th>Factor</th><th>Cómo mueve los días que se conservan</th></tr>
+</thead>
+<tbody>
+<tr><td>Número de cámaras</td><td>Más cámaras sobre el mismo disco, menos días para todas.</td></tr>
+<tr><td>Resolución</td><td>Subirla mejora la identificación y recorta la retención.</td></tr>
+<tr><td>Cuadros por segundo</td><td>Grabar fluido consume más espacio que grabar suficiente.</td></tr>
+<tr><td>Grabación continua o por detección</td><td>Por detección rinde más, y deja fuera lo que el sensor no marcó.</td></tr>
+<tr><td>Capacidad de almacenamiento</td><td>Es la única variable que se puede ampliar sin sacrificar calidad.</td></tr>
+</tbody>
+</table>
+</div>
+
+Muchos incidentes se descubren tarde: un faltante que sale en el inventario del cierre, una queja que llega semanas después. Si el sistema guarda menos días de los que tardas en enterarte, no hay evidencia y el gasto no rindió nada.
+
+#### Verifica la retención un mes después de la instalación
+
+Exígela comprometida en días, por escrito, y compruébala sola: entra al grabador y busca el video más viejo que exista. Si prometieron treinta días y el archivo más antiguo tiene once, la configuración no corresponde a lo que se firmó.
+
+### Grabar no es vigilar
+
+Define quién mira. Si contratas monitoreo en vivo, pregunta cuántas cámaras atiende un operador a la vez, qué hace cuando ve algo y cómo se cubren sus descansos y ausencias para que no queden horas sin nadie frente a la pantalla. El protocolo de respuesta ante un evento es el equivalente de la consigna de una posición fija: a quién se avisa, en qué orden y en cuánto tiempo.
+
+Si no hay monitoreo, el sistema es forense y conviene asumirlo desde el principio. Alguien del lado del cliente tiene que revisar por rutina, exportar lo que haga falta y quedar como responsable de resguardar ese material.
+
+<div class="nota nota-fuerte">
+
+##### Las imágenes de personas son datos personales
+
+Hacen falta un aviso de privacidad visible, un responsable identificado del tratamiento y la regla de no colocar cámaras donde existe expectativa razonable de privacidad. También conviene fijar quién puede exportar video, con qué autorización y a quién se entrega. Un sistema bien instalado y mal administrado se convierte en un problema distinto del que venía a resolver.
+
+</div>
+
+## Qué exigir en la entrega de la instalación
+
+Lo que se firma al principio se lamenta al final. La propiedad del equipo, la contraseña de administrador y la titularidad de las grabaciones se definen antes de que llegue el primer técnico.
+
+<div class="tabla-scroll">
+<table>
+<thead>
+<tr><th>Lo que dice la propuesta</th><th>Lo que tiene que decir el contrato</th></tr>
+</thead>
+<tbody>
+<tr><td>«Equipo incluido en el servicio»</td><td>Si cámaras, grabador y cableado quedan en propiedad del cliente o en comodato, y qué se retira al terminar.</td></tr>
+<tr><td>«Acceso remoto desde tu celular»</td><td>Quién tiene la cuenta de administrador, a nombre de quién queda y cómo se transfiere.</td></tr>
+<tr><td>«Nosotros te entregamos los videos»</td><td>En qué formato, en cuánto tiempo, quién los solicita y si el proveedor conserva copia y por cuánto.</td></tr>
+<tr><td>«Garantía por un año»</td><td>Qué cubre, tiempo de respuesta ante falla y si hay equipo de reemplazo mientras se repara.</td></tr>
+<tr><td>«Mantenimiento incluido»</td><td>Cada cuántos meses, qué se hace en cada visita y con qué reporte firmado se acredita.</td></tr>
+</tbody>
+</table>
+</div>
+
+### Los seis papeles del proveedor
+
+1. **Permiso de seguridad privada** que ampare la modalidad de sistemas de seguridad electrónica y monitoreo, con vigencia legible. Si además va a poner personal en sitio, ésa es otra modalidad y hay que verla también.
+2. **REPSE** cuando el servicio se contrate como especializado o incluya personal dentro de tus instalaciones.
+3. **Constancias de IMSS e INFONAVIT** de los técnicos que instalan y de cualquier operador de monitoreo asignado a tu cuenta.
+
+#### Y los que protegen el inmueble mientras se trabaja
+
+4. **Póliza de responsabilidad civil** vigente, con suma y exclusiones, que cubra daños durante la instalación.
+5. **Protocolo escrito de respuesta a eventos**, con destinatarios, orden de aviso y tiempos.
+6. **Entregables de cierre** completos, revisados con el instalador presente y no por correo días después.
+
+<ul class="cols-2">
+<li>Diagrama de instalación</li>
+<li>Inventario con números de serie</li>
+<li>Ubicación y tarea de cada cámara</li>
+<li>Credenciales de administrador del cliente</li>
+<li>Configuración de retención por escrito</li>
+<li>Garantía con tiempo de respuesta</li>
+</ul>
+
+## Sistemas de seguridad frente al padrón de escoltas
 
 El padrón de empresas registradas que publica la Secretaría de Seguridad Ciudadana de la Ciudad de México corresponde a la modalidad de protección a personas. Esta empresa no aparece ahí en la fecha de corte que consultamos.
 
-Es lo esperable. Un proveedor de sistemas de seguridad electrónica no presta servicio de escolta, y ese registro no pretende ser un catálogo del sector completo. La verificación que sí aplica aquí es pedirle su permiso y leer qué modalidades cubre, junto con los demás documentos de la lista de arriba.
+### Es lo esperable para este giro
 
-> Domicilio, teléfono, horario y calificación provienen del perfil público del negocio en la fecha de corte indicada y pueden haber cambiado. TuSeguridad no representa a esta empresa, no obtiene comisión por el contacto y no interviene en la contratación.
+Un proveedor de sistemas de seguridad electrónica no presta servicio de escolta, y ese registro no pretende ser un catálogo del sector completo. Cruzar un giro contra el listado de otra modalidad no produce un hallazgo: produce una casilla vacía que no dice nada, ni bueno ni malo.
+
+### La comprobación que sí aplica
+
+Pedirle su permiso y leer qué modalidades cubre y hasta cuándo, junto con los demás documentos de la lista anterior. Ese trámite corto es el que corresponde a la instalación y al monitoreo que vas a contratar.
+
+###### Procedencia de los datos
+
+> Domicilio, teléfono, horario y calificación provienen del perfil público del negocio en la fecha de corte indicada y pueden haber cambiado. La categoría de proveedor de sistemas de seguridad es la clasificación de esa fuente, no una verificación técnica. TuSeguridad no representa a Táctica y Tecnología en Seguridad Privada, no obtiene comisión por el contacto y no interviene en la contratación.

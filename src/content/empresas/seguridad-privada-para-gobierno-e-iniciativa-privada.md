@@ -32,40 +32,129 @@ padron:
   fechaCorte: "2026-07-29"
 ---
 
-**DILME Seguridad Privada** tiene domicilio en Calzada de Tlalpan 1634, colonia Ermita, alcaldía Benito Juárez. Su perfil público la lista bajo la categoría de *servicio de guardias de seguridad*, con una calificación de 3.5 sobre 15 reseñas en la fecha de corte.
+<p class="lede">DILME Seguridad Privada despacha desde Calzada de Tlalpan 1634, colonia Ermita, alcaldía Benito Juárez, en la Ciudad de México. En su perfil público declara otorgar servicios de <strong>seguridad privada para gobierno e iniciativa privada</strong>, y ese mismo perfil la clasifica en una sola categoría: servicio de guardias de seguridad.</p>
 
-En la descripción que la propia empresa publica en ese perfil declara otorgar servicios en materia de seguridad tanto en el **sector gubernamental** como en la **iniciativa privada**. Esa frase es todo lo que declara de sí misma; el resto de la cabecera son datos de contacto tomados del mismo perfil.
+Esa frase es todo lo que la empresa dice de sí misma en la fuente consultada. Se reproduce tal cual, sin ampliarla ni interpretarla. El resto de la cabecera son datos de contacto tomados del mismo perfil.
 
-Ni la empresa redactó este texto ni participa en el directorio. No hay contrato, comisión ni intermediación de por medio.
+<div class="nota">
 
-## Qué cambia cuando el cliente es una dependencia pública
+##### Hasta dónde alcanza la fuente
 
-Venderle vigilancia a una dependencia y vendérsela a una empresa son dos operaciones distintas desde antes de la primera junta. En el sector público el servicio se adjudica por un procedimiento: licitación pública, invitación restringida o adjudicación directa cuando el monto queda por debajo del umbral que fija la normativa de contrataciones aplicable a esa dependencia. El precio lo fija una propuesta económica presentada en sobre, no una negociación de pasillo.
+El perfil reporta **15 reseñas con una calificación de 3.5** en la fecha de corte, y horario de oficina de lunes a viernes de 9:00 a 18:00. Quince opiniones son una muestra corta: dos clientes molestos mueven ese promedio más de lo que lo movería un año entero de servicio sin novedades.
 
-Para llegar a esa propuesta la empresa tuvo que estar antes en el padrón de proveedores del gobierno correspondiente. Esa alta es un trámite en sí misma y suele exigir acta constitutiva, poder del representante legal, RFC, opinión de cumplimiento fiscal en sentido positivo, opinión de cumplimiento en materia de seguridad social, comprobante de domicilio y estados financieros. Cuando el servicio es de seguridad privada se suma el permiso de la autoridad competente, con las modalidades que ampara y su vigencia.
+No hay dato público sobre qué dependencias atendió, con qué contratos ni de qué tamaño es su plantilla. Esta ficha no lo supone.
 
-Las bases de la convocatoria hacen el resto del trabajo. Definen número de elementos, turnos, perfil del personal, uniforme, equipo, forma de acreditar la asistencia y penas convencionales por posición no cubierta. Una empresa acostumbrada a operar así llega al cliente privado con esa disciplina puesta: rol de servicios firmado, bitácora, expediente por elemento y facturación que amarra contra entregables verificables.
+</div>
 
-Ahí está la parte útil para un comprador privado. No hace falta emitir una convocatoria para usar sus requisitos como filtro. Pedir la opinión de cumplimiento fiscal, la de seguridad social, el permiso con modalidad legible y un anexo técnico que diga cuántas posiciones y cuántos turnos se cubren es exactamente lo que hace una dependencia, y saca de la mesa a cualquier proveedor que no pueda documentarlo. Un contrato privado también puede incluir penas por posición descubierta. Casi ninguno las incluye.
+## Seguridad privada para gobierno: el contrato empieza antes de la primera junta
 
-Lo que no se traslada es el plazo. El sector público contrata por ejercicio fiscal y arrastra tiempos de pago largos. Una empresa muy expuesta a ese ciclo necesita capital de trabajo para cubrir nómina mientras cobra a plazo, y esa tensión se nota en la rotación del personal. Si el proveedor que estás evaluando vive del sector público, pregúntale cómo financia la nómina, porque el elemento que te van a asignar depende de esa respuesta.
+Cuando el cliente es una dependencia pública, el servicio no se negocia. Se adjudica. Hay un procedimiento previo, una convocatoria con bases y una propuesta económica que se entrega en sobre cerrado. El precio no sale de una plática de pasillo.
 
-## Documentos que conviene pedir antes de firmar
+<div class="tabla-scroll">
+<table>
+<thead>
+<tr><th>Procedimiento</th><th>Cómo entra el proveedor</th><th>Qué tiene que sostener</th></tr>
+</thead>
+<tbody>
+<tr><td>Licitación pública</td><td>Convocatoria abierta: participa cualquiera que cumpla los requisitos</td><td>Propuesta técnica y económica en tiempo, con toda la documentación legal vigente</td></tr>
+<tr><td>Invitación restringida</td><td>La dependencia convoca a un grupo acotado de proveedores</td><td>Estar antes en el padrón y tener antecedentes de cumplimiento</td></tr>
+<tr><td>Adjudicación directa</td><td>Cuando el monto queda bajo el umbral que fija la normativa aplicable</td><td>El mismo expediente documental, aunque el proceso sea más corto</td></tr>
+</tbody>
+</table>
+</div>
 
-Estar en un directorio no acredita nada, ni aquí ni en el padrón de proveedores de una dependencia. Sobre la mesa, antes de la firma:
+### El padrón de proveedores es un trámite en sí mismo
 
-1. **Permiso de seguridad privada**, con folio, modalidades amparadas y fecha de término legible en el propio documento.
-2. **Opinión de cumplimiento fiscal en sentido positivo**, emitida en fecha reciente, no una impresión del año pasado.
-3. **Registro REPSE vigente** cuando el servicio se contrate como servicio especializado, con la actividad de vigilancia incluida.
-4. **Constancias de alta ante el IMSS** de los elementos que van a cubrir tus posiciones, no un dato agregado del corporativo.
-5. **Póliza de responsabilidad civil**, con suma asegurada, vigencia y nombre del asegurado.
-6. **Anexo técnico firmado**: posiciones, horarios, consigna de cada punto y tiempo comprometido de relevo.
-7. **Referencias verificables** de contratos en curso, con nombre y teléfono de contacto, no logotipos en una lámina.
+Antes de presentar una sola propuesta, la empresa tuvo que darse de alta en el padrón de proveedores del ente contratante. Esa alta suele exigir acta constitutiva, poder del representante legal, RFC, opinión de cumplimiento fiscal en sentido positivo, opinión de cumplimiento en materia de seguridad social, comprobante de domicilio y estados financieros. Cuando el servicio es de vigilancia se suma el permiso de la autoridad competente, con las modalidades que ampara y su fecha de término.
 
-## Sobre el padrón de la autoridad
+Ninguno de esos papeles acredita que el servicio sea bueno. Acreditan que la empresa existe, que paga y que puede responder. Es un piso, no un techo.
 
-En el padrón de empresas registradas que publica la Secretaría de Seguridad Ciudadana de la Ciudad de México **sí aparece** esta empresa, con expediente 6452-24 y vigencia hasta el 25 de septiembre de 2026, según el corte del 29 de julio de 2026.
+### Las bases dicen por escrito lo que un contrato privado suele callar
 
-Conviene leer ese dato con precisión. El padrón corresponde a la modalidad de protección a personas, es decir escoltas, y acredita el registro en esa modalidad y en esa fecha, nada más. Si lo que vas a contratar es vigilancia de un inmueble, pide el documento del permiso y revisa qué modalidades ampara. Vale la pena notar además que la vigencia publicada está próxima a terminar respecto de la fecha de corte de esta ficha, así que pídele la constancia actualizada antes de firmar cualquier cosa.
+La convocatoria define número de elementos, turnos, perfil del personal, uniforme, equipo, forma de acreditar la asistencia y penas convencionales por posición no cubierta. Todo eso queda asentado antes de que alguien firme.
 
-> Teléfono, domicilio, horario y calificación provienen de un perfil público consultado el 24 de agosto de 2026 y pueden estar desactualizados al momento de leer esto. TuSeguridad no representa a DILME Seguridad Privada ni interviene en su contratación.
+Un proveedor que licita con frecuencia llega al cliente privado con esa disciplina puesta: rol de servicios firmado, bitácora por turno, expediente por elemento y facturación amarrada a entregables verificables. Su expediente suele estar en orden porque en ese mercado un papel vencido lo deja fuera del concurso el mismo día.
+
+## Qué puede copiar un comprador privado de una convocatoria pública
+
+No hace falta emitir bases para usar sus requisitos como filtro. La lista que sigue es, casi textual, lo que una dependencia revisa antes de adjudicar, y aplica igual a DILME Seguridad Privada que a cualquier competidor de Benito Juárez.
+
+<ul class="cols-2">
+<li>Opinión de cumplimiento fiscal reciente</li>
+<li>Opinión de cumplimiento ante el IMSS</li>
+<li>Permiso con modalidad y vigencia legibles</li>
+<li>Registro REPSE con la actividad amparada</li>
+<li>Anexo técnico por posición y por turno</li>
+<li>Rol de servicios firmado antes del arranque</li>
+<li>Expediente individual de cada elemento</li>
+<li>Referencias de contratos hoy en curso</li>
+</ul>
+
+### La pena convencional es la cláusula que casi nadie pide
+
+En el sector público la posición descubierta tiene precio desde las bases. En el privado, el guardia que no llegó se resuelve con una llamada y una disculpa. Pedir una pena por posición no cubierta, medida en horas y no en adjetivos, cuesta cero y cambia por completo la conversación del día del incidente.
+
+### Dos contratos que se parecen poco
+
+<div class="tabla-scroll">
+<table>
+<thead>
+<tr><th>Punto</th><th>Contrato con una dependencia</th><th>Contrato con una empresa</th></tr>
+</thead>
+<tbody>
+<tr><td>Cómo se fija el precio</td><td>Propuesta económica dentro de un procedimiento reglado</td><td>Negociación directa, muchas veces por teléfono</td></tr>
+<tr><td>Alcance del servicio</td><td>Anexo técnico obligatorio, con posiciones y turnos</td><td>Suele quedar en una cotización de una hoja</td></tr>
+<tr><td>Qué pasa si falla</td><td>Penas convencionales previstas desde las bases</td><td>Casi nunca se pacta nada por escrito</td></tr>
+<tr><td>Plazo de pago</td><td>Atado al ejercicio fiscal, con tiempos largos</td><td>Lo que acuerden las partes</td></tr>
+</tbody>
+</table>
+</div>
+
+### ¿El ciclo de pago del sector público afecta al guardia que te asignan?
+
+Sí, y por una vía muy directa. El elemento que llega el lunes a las 6:50 a tu caseta cobra el día quince sin importar en qué semana le deposite una tesorería a su patrón. Una empresa muy expuesta al ciclo fiscal necesita capital de trabajo para sostener nómina mientras cobra a plazo, y cuando ese capital escasea la primera consecuencia visible es la rotación.
+
+Si el proveedor que estás evaluando vive del sector público, pregúntale con qué financia la nómina en los meses de cobro lento. La respuesta describe al elemento que vas a tener en la puerta dentro de seis meses.
+
+<div class="nota nota-fuerte">
+
+##### Atender a los dos mercados no significa cobrar igual en los dos
+
+Una propuesta armada para una convocatoria trae desglose por posición y por turno porque las bases lo exigían. La misma empresa puede entregarle a un cliente privado un monto global redondo, sin desglose, porque nadie se lo pidió.
+
+Pide el desglose. Es el mismo documento que ya sabe hacer, y sin él ninguna cotización se puede comparar contra otra.
+
+</div>
+
+## DILME Seguridad Privada en el padrón de la SSC
+
+La Secretaría de Seguridad Ciudadana de la Ciudad de México publica el listado de empresas registradas en la modalidad de protección a personas. Esta empresa sí aparece ahí:
+
+<div class="tabla-scroll">
+<table>
+<thead>
+<tr><th>Dato del registro</th><th>Valor publicado</th></tr>
+</thead>
+<tbody>
+<tr><td>Expediente</td><td>6452-24</td></tr>
+<tr><td>Modalidad</td><td>Protección a personas (escolta)</td></tr>
+<tr><td>Vigencia publicada</td><td>25 de septiembre de 2026</td></tr>
+<tr><td>Autoridad</td><td>Dirección General de Seguridad Privada y Colaboración Interinstitucional</td></tr>
+<tr><td>Corte del padrón</td><td>29 de julio de 2026</td></tr>
+</tbody>
+</table>
+</div>
+
+### La vigencia vence en cuestión de semanas
+
+Esa es la parte que hay que leer con calendario en mano. Frente a la fecha de corte de esta ficha, el registro publicado termina en poco más de un mes. Un permiso que caduca a las tres semanas de arrancar el servicio deja el dispositivo sin cobertura administrativa justo cuando ya está en tu inmueble.
+
+Antes de firmar, pide el acuse de renovación y no solo el documento actual. Si la renovación está en trámite, que te muestren el número de ingreso y la fecha en que lo presentaron.
+
+### Un registro por modalidad no se extiende a las demás
+
+El listado cubre escoltas y nada más. Acredita el registro en esa modalidad, en esa fecha, ante esa autoridad. Si lo que vas a contratar es vigilancia de un inmueble o servicio para una dependencia, pide además el permiso que ampare esa modalidad concreta y confirma su vigencia con la autoridad que lo expidió. Es un trámite de días.
+
+###### Procedencia de los datos
+
+> Domicilio, teléfono, horario y calificación se tomaron de una fuente pública en la fecha de corte indicada y pueden haber cambiado desde entonces. Los datos del padrón corresponden al corte del 29 de julio de 2026. TuSeguridad escribió esta ficha por iniciativa propia, no representa a DILME Seguridad Privada, no cobra por aparecer aquí y no interviene si decides contratarla.

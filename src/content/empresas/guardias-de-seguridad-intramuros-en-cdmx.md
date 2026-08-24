@@ -30,59 +30,133 @@ padron:
   fechaCorte: "2026-07-29"
 ---
 
-**Seguridad Privada Macloud** opera desde Watteau 54, colonia Nonoalco, alcaldía Benito Juárez. Su perfil público la lista bajo una sola categoría, la de *servicio de seguridad*, y registra una calificación de 5 sobre 5 con 26 reseñas en la fecha de corte.
+<p class="lede">Seguridad Privada Macloud ofrece <strong>guardias de seguridad intramuros en CDMX</strong> desde Watteau 54, colonia Nonoalco, alcaldía Benito Juárez, Ciudad de México. En su perfil público se describe como un servicio especializado de guardias de seguridad privada intramuros, y esa frase es todo lo que declara de sí misma en la fuente consultada.</p>
 
-En ese mismo perfil la empresa se describe como un servicio especializado de guardias de seguridad privada intramuros. Esa frase es todo lo que declara de sí misma en la fuente que consultamos y no le añadimos nada: ni antigüedad, ni cobertura, ni cartera de clientes.
+Ahí no hay antigüedad, ni cobertura por alcaldía, ni tamaño de plantilla, ni cartera de clientes. Esta ficha no le agrega ninguna de esas cosas.
 
-La ficha es informativa y se armó con datos públicos. Macloud no la redactó, no paga por estar aquí y no existe entre ella y TuSeguridad ninguna relación comercial.
+<div class="nota">
 
-## El guardia importa más que el contrato
+##### Calificación alta sobre una muestra corta
 
-Cuando alguien compara dos propuestas de vigilancia intramuros suele fijarse en la tarifa por turno. El servicio, sin embargo, no lo presta la empresa: lo presta una persona parada ocho o doce horas en un punto. Todo lo que decide si ese punto funciona ocurre antes de que llegue.
+El perfil reporta **5.0 de calificación con 26 reseñas** en la fecha de corte, y horario de oficina de lunes a viernes de 8:00 a 18:00.
 
-Empieza en el reclutamiento. Un guardia bien pagado en un mercado donde casi nadie paga bien es el filtro más barato que existe. Cuando la tarifa se aprieta por debajo de cierto piso, la empresa no absorbe la diferencia: la traslada al salario, y con el salario se va el tipo de candidato que puede aspirar al puesto.
+Ese 5.0 conviene leerlo con la cabeza fría. Veintiséis opiniones son pocas: bastan tres o cuatro clientes contentos para sostener un promedio perfecto, y basta una sola experiencia mala para moverlo medio punto de golpe. Es una señal favorable, no una comprobación. Ninguna calificación dice con qué permiso opera una empresa ni cómo tiene dados de alta a sus elementos.
 
-Sigue con la investigación de antecedentes. El mínimo defendible es identidad verificada contra documento oficial, comprobación del domicilio, referencias laborales llamadas de verdad y no solo transcritas, y la constancia de que el elemento está inscrito en el registro nacional del personal de seguridad privada. Pregunta quién hace ese estudio y si te van a entregar el expediente.
+</div>
 
-La capacitación se vende como un número de horas y se compra mal por esa razón. Lo que hay que preguntar no es cuántas horas, sino sobre qué. Un elemento de acceso necesita saber redactar una bitácora que sirva como evidencia, aplicar un protocolo de negativa sin escalar el conflicto, revisar un vehículo de reparto y reportar un incidente en el minuto uno y no al final del turno.
+## Qué acredita un guardia de seguridad intramuros antes de pararse en tu acceso
 
-Después viene el tema del que nadie habla en la cotización: la rotación. El gremio la tiene altísima. Cada vez que un elemento se va, tu inmueble pierde a alguien que ya conocía a los residentes, a los proveedores y las rutinas raras del edificio, y recibe a alguien que empieza de cero. Una empresa que rota poco te está ahorrando ese costo aunque su tarifa se vea más alta.
+Quien compara dos propuestas de vigilancia intramuros mira la tarifa por turno. El servicio, sin embargo, no lo presta la empresa: lo presta una persona parada ocho o doce horas en un punto. Y casi todo lo que decide si ese punto funciona ocurrió antes de que llegara.
 
-Y en el otro extremo está el problema contrario, el que casi nadie anticipa. Un guardia que lleva tres años en la misma posición deja de filtrar y empieza a saludar. Reconoce las caras, se ahorra el registro porque *ya lo conoce*, deja pasar al proveedor de siempre sin revisar la caja y firma la bitácora al final del turno de memoria.
+<div class="tabla-scroll">
+<table>
+<thead>
+<tr><th>Etapa del filtro</th><th>Qué se revisa de verdad</th><th>Qué queda por escrito</th></tr>
+</thead>
+<tbody>
+<tr><td>Reclutamiento</td><td>Salario ofrecido y perfil que ese salario alcanza a atraer</td><td>Tabulador por puesto y turno dentro de la cotización</td></tr>
+<tr><td>Identidad</td><td>Documento oficial cotejado y domicilio comprobado</td><td>Copia del cotejo y comprobante con fecha</td></tr>
+<tr><td>Antecedentes</td><td>Referencias laborales llamadas, no transcritas del currículo</td><td>Notas de la verificación, con nombre de quien contestó</td></tr>
+<tr><td>Registro</td><td>Inscripción del elemento en el registro del personal de seguridad privada</td><td>Constancia individual por cada guardia asignado</td></tr>
+<tr><td>Alta laboral</td><td>Inscripción ante el IMSS y el INFONAVIT antes del primer turno</td><td>Constancias nominativas con número de seguridad social</td></tr>
+<tr><td>Capacitación</td><td>Sobre qué se capacitó, no cuántas horas duró</td><td>Temario, evaluación y constancia firmada</td></tr>
+</tbody>
+</table>
+</div>
 
-No es mala fe, es familiaridad, y se combate con oficio: rotación programada de posiciones dentro del mismo cliente, supervisión sin aviso, auditorías de bitácora contra las grabaciones y consignas que se releen y se actualizan cada cierto tiempo. Si el supervisor solo aparece a entregar la nómina, ese control no existe.
+### El salario es el primer filtro, y también el más barato
 
-Lo que mueve el precio, al final, es la suma de todo eso: número de posiciones, turnos por posición, si el servicio es armado o no, y qué tan grande es la plantilla de suplencia detrás. Una cotización que no desglosa esas cuatro cosas no se puede comparar con ninguna otra.
+Un guardia bien pagado en un mercado donde casi nadie paga bien selecciona candidatos por sí solo. Cuando la tarifa se aprieta por debajo de cierto piso, la empresa no absorbe la diferencia: la traslada al salario. Con el salario se va el tipo de persona que podía aspirar al puesto, y lo que queda parado en tu acceso es otro perfil.
 
-## Seis comprobaciones antes de aceptar una propuesta
+### ¿Qué debe contener el expediente de cada elemento asignado?
 
-Ninguna de estas seis se resuelve con una llamada. Todas dejan papel, y ese papel es el que te sirve si algo sale mal.
+<ul class="cols-2">
+<li>Identificación oficial cotejada</li>
+<li>Comprobante de domicilio</li>
+<li>Constancia del registro del personal</li>
+<li>Alta ante el IMSS</li>
+<li>Referencias laborales verificadas</li>
+<li>Constancia de capacitación con temario</li>
+</ul>
 
-1. **Permiso de seguridad privada, con modalidad y vigencia legibles.**
-   La vigilancia de un inmueble corresponde a la modalidad de seguridad en los bienes; revisa que sea esa y que la fecha no esté vencida.
-2. **Registro del personal ante la autoridad.**
-   Los elementos deben estar inscritos en el registro del personal de seguridad privada. Pide el listado de quienes van a cubrir tus posiciones.
-3. **Alta ante el IMSS y el INFONAVIT de cada elemento asignado.**
-   Con constancias a la vista. Si el guardia no está dado de alta, el problema laboral acaba siendo tuyo.
-4. **Registro REPSE vigente cuando el servicio se contrate como especializado.**
-   Sin él pierdes la deducción del gasto y quedas expuesto a responsabilidad solidaria.
-5. **Póliza de responsabilidad civil con suma asegurada y vigencia.**
-   Que la carátula diga qué cubre y hasta cuánto, no que el vendedor lo prometa.
-6. **Consigna escrita por posición y esquema de suplencias por escrito.**
-   Qué hace el elemento en cada supuesto, y en cuántos minutos llega el relevo cuando alguien falta.
+Ese expediente existe o no existe. Pregunta quién lo arma, cuánto tarda en entregártelo y si lo actualiza cuando cambia el elemento asignado a tu inmueble.
 
-Un proveedor que reúne los seis documentos en una semana suele ser el mismo que tiene ordenada la operación. El que tarda un mes en juntarlos te está mostrando, sin querer, cómo va a responder cuando le pidas algo con urgencia.
+### La capacitación se compra mal cuando se compra por horas
 
-## Sobre el registro de escoltas de la Ciudad de México
+Cuarenta horas de nada valen menos que ocho horas sobre lo que el elemento va a hacer mañana. La pregunta no es cuántas horas, sino sobre qué temas.
 
-El padrón que publica la Secretaría de Seguridad Ciudadana capitalina corresponde a una sola modalidad: la de protección a personas. Al 29 de julio de 2026, fecha del corte que revisamos, Seguridad Privada Macloud no aparece en él.
+<ul class="cols-2">
+<li>Bitácora que sirva como evidencia</li>
+<li>Protocolo de negativa sin escalar el conflicto</li>
+<li>Revisión de vehículo de reparto</li>
+<li>Reporte de incidente en el minuto uno</li>
+<li>Control de llaves y de accesos</li>
+<li>Primeros auxilios y evacuación</li>
+</ul>
 
-Esa ausencia no es un señalamiento y no debe leerse como uno. Una empresa dedicada a guardias intramuros presta un servicio sobre bienes, no sobre personas, y el registro de escoltas simplemente no es el suyo. Buscar ahí a una empresa de vigilancia es como buscar a un contador en el padrón de arquitectos.
+## ¿Cómo se detecta a un elemento subcontratado o sin alta?
 
-Hay además una razón administrativa que casi nadie considera. Cuando una empresa presta servicio en más de una entidad federativa, su autorización se tramita en el ámbito federal, y esa autorización no se refleja en un padrón publicado por una autoridad local.
+Casi siempre se nota en campo antes que en el papel. Ninguna de estas señales prueba nada por sí sola, pero todas se pueden confirmar en un día.
 
-La verificación que sí aplica es la de la lista anterior: el permiso con su modalidad, la vigencia y el registro del personal. Pídeselos directamente a la empresa antes de firmar.
+<div class="tabla-scroll">
+<table>
+<thead>
+<tr><th>Señal en el punto</th><th>Qué puede explicarla</th><th>Cómo se confirma</th></tr>
+</thead>
+<tbody>
+<tr><td>Uniforme sin logotipo o de un tercero</td><td>Elemento prestado por otra empresa para tapar un hueco</td><td>Pide el listado nominativo del turno y compáralo con el gafete</td></tr>
+<tr><td>Nadie sabe el apellido del guardia nuevo</td><td>Ingreso de último momento, sin expediente todavía</td><td>Solicita su constancia de alta con fecha anterior al primer turno</td></tr>
+<tr><td>Cobro en efectivo o quincena irregular</td><td>Relación laboral no formalizada</td><td>Contrasta la nómina con las constancias del IMSS del mes</td></tr>
+<tr><td>Cambios de elemento cada semana</td><td>Rotación por renuncia, no rotación programada</td><td>Pide el histórico de asignaciones de los últimos tres meses</td></tr>
+<tr><td>El supervisor solo aparece con la nómina</td><td>Supervisión inexistente, facturada como incluida</td><td>Revisa las actas de visita firmadas, con hora y fecha</td></tr>
+</tbody>
+</table>
+</div>
 
-Si el documento que te muestran está vencido o la modalidad no corresponde al servicio que vas a contratar, no es un tecnicismo. Es la señal de que hay que detener la conversación y resolverlo antes de cualquier firma.
+<div class="nota nota-fuerte">
 
-> Los datos de contacto, el horario, la calificación y el cruce con el padrón se tomaron de fuentes públicas en las fechas de corte que aparecen arriba, y pueden haber cambiado desde entonces. TuSeguridad no representa a esta empresa ni percibe comisión alguna por ponerte en contacto con ella.
+##### Por qué te importa a ti y no solo a la empresa
+
+Si el guardia parado en tu inmueble no está dado de alta, el conflicto laboral no se queda del otro lado del contrato. Cuando el servicio se contrata como especializado sin registro **REPSE**, además de perder la deducción del gasto queda abierta la puerta a la responsabilidad solidaria.
+
+Es el único punto de esta ficha que puede costarte dinero sin que haya ocurrido ningún incidente de seguridad.
+
+</div>
+
+## La rotación bien hecha protege el filtro, la mala lo destruye
+
+Rotación se le llama a dos cosas opuestas y por eso la palabra confunde.
+
+<div class="tabla-scroll">
+<table>
+<thead>
+<tr><th>Rotación programada</th><th>Rotación por renuncia</th></tr>
+</thead>
+<tbody>
+<tr><td>La decide el supervisor y se avisa con anticipación.</td><td>La decide el elemento y se descubre el mismo día del turno.</td></tr>
+<tr><td>Mueve al elemento de posición dentro del mismo cliente.</td><td>Lo saca del cliente y trae a alguien que empieza de cero.</td></tr>
+<tr><td>Conserva el conocimiento del inmueble en la plantilla.</td><td>Pierde a quien ya conocía residentes, proveedores y rutinas.</td></tr>
+<tr><td>Rompe la familiaridad que ablanda el filtro.</td><td>Rompe la continuidad del servicio y encarece la suplencia.</td></tr>
+</tbody>
+</table>
+</div>
+
+#### El guardia que lleva tres años saludando
+
+Un elemento con demasiado tiempo en la misma posición deja de filtrar y empieza a saludar. Reconoce las caras, se ahorra el registro porque ya conoce al proveedor, lo deja pasar sin revisar la caja y firma la bitácora de memoria al final del turno. No es mala fe. Es familiaridad, y se combate con oficio: cambio de posición dentro del mismo cliente, supervisión sin aviso en horario variable, auditoría de bitácora contra grabaciones y consignas que se releen cada cierto tiempo.
+
+Lo que mueve el precio es la suma de todo esto: número de posiciones, turnos por posición, servicio armado o desarmado, y qué tan grande es la plantilla de suplencia detrás. Una cotización que no desglosa esas cuatro cosas no se puede comparar con ninguna otra.
+
+## Seguridad Privada Macloud y el registro de escoltas de la SSC
+
+El padrón que publica la Secretaría de Seguridad Ciudadana capitalina corresponde a una sola modalidad: protección a personas. Al 29 de julio de 2026, fecha del corte revisado, Seguridad Privada Macloud no aparece en él.
+
+Esa ausencia no es un señalamiento, y hay que decirlo con todas sus letras. Un servicio de guardias intramuros protege bienes e instalaciones, no personas, y se ampara en una modalidad distinta con su propio trámite. El registro de escoltas sencillamente no es el suyo.
+
+Además, el documento que de verdad corresponde revisar en este caso ya está en esta página: el permiso con la modalidad de seguridad en los bienes, y la constancia de inscripción de cada elemento en el registro del personal de seguridad privada. Ese segundo papel es el equivalente real del padrón cuando lo que contratas es gente parada en un acceso.
+
+Si el documento que te muestran está vencido, o la modalidad no corresponde al servicio, no es un tecnicismo. Es motivo para detener la conversación antes de cualquier firma.
+
+###### Procedencia de los datos
+
+> Contacto, horario, calificación y el cruce con el padrón se tomaron de fuentes públicas en las fechas de corte indicadas arriba y pueden haber cambiado desde entonces. Esta ficha la escribió TuSeguridad por iniciativa propia: Seguridad Privada Macloud no la redactó, no paga por aparecer aquí y no hay comisión de por medio si decides llamarle.

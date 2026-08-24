@@ -30,45 +30,142 @@ padron:
   fechaCorte: "2026-07-29"
 ---
 
-**Seguridad Privada SEPRIM SF** opera desde Cuajimalpa, en la alcaldía Cuajimalpa de Morelos, al poniente de la Ciudad de México. Su perfil público la lista bajo la categoría de *servicio de seguridad*, con calificación de 5.0 sobre 14 reseñas en la fecha de corte.
+<p class="lede">Seguridad Privada SEPRIM SF opera desde Cuajimalpa, alcaldía Cuajimalpa de Morelos, al poniente de la Ciudad de México, y se presenta en su perfil público como <strong>seguridad privada con registro REPSE</strong>: declara ser una empresa mexicana especializada en protección de bienes, con documentación conforme a la normativa de la Secretaría del Trabajo y de la Dirección General de Seguridad Privada. Ese mismo perfil la clasifica bajo servicio de seguridad.</p>
 
-En ese mismo perfil la empresa declara ser una empresa mexicana especializada en **protección de bienes** y afirma contar con documentación conforme a la normativa de la **STPS (REPSE)** y de la Dirección General de Seguridad Privada. Es una declaración suya. Nosotros no la comprobamos, y más abajo está explicado cómo comprobarla por tu cuenta.
+Es una declaración de la empresa y así se reproduce. Nosotros no la comprobamos. Lo que sí trae esta ficha es el procedimiento exacto para comprobarla por cuenta propia, que toma menos tiempo del que la gente supone.
 
-Nada de lo que sigue lo escribió la empresa. La ficha se armó con datos públicos y no existe relación comercial de ningún tipo.
+<div class="nota">
 
-## Qué es el REPSE y por qué decide si puedes deducir el gasto
+##### Qué dice la fuente y qué no
 
-REPSE son las siglas del Registro de Prestadoras de Servicios Especializados u Obras Especializadas, que lleva la Secretaría del Trabajo y Previsión Social. Nació con la reforma en materia de subcontratación publicada en abril de 2021, la misma que prohibió la subcontratación de personal y dejó permitida únicamente la contratación de servicios especializados.
+El perfil reporta **14 reseñas con una calificación de 5.0** en la fecha de corte, más un horario de oficina de lunes a viernes de 9:00 a 17:30. Catorce opiniones perfectas son una muestra corta: dicen que a esos clientes les fue bien, no que el promedio se sostenga con cien contratos encima.
 
-La lógica de esa reforma es corta. Ya no puedes rentar personal: puedes contratar un servicio que no forme parte de tu objeto social ni de tu actividad económica preponderante, y quien te lo presta tiene que estar inscrito en ese registro. La vigilancia encaja en esa definición para casi cualquier comprador, porque una fábrica de galletas o un despacho contable no tienen la seguridad como actividad preponderante.
+Del tamaño de la plantilla, las tarifas, la antigüedad o los sectores que atiende no hay dato público. Esta ficha no los inventa.
 
-Del registro cuelgan tres consecuencias prácticas. La primera es fiscal. Sin constancia vigente del prestador, el pago del servicio no es deducible para el impuesto sobre la renta y el IVA trasladado no es acreditable. No es una multa, es peor: es el gasto completo perdido en la declaración, y se corrige hacia atrás cuando llega una revisión.
+</div>
 
-La segunda es la responsabilidad solidaria del contratante. Si la empresa que te presta el servicio deja de pagar salarios, cuotas de seguridad social o aportaciones de vivienda de los trabajadores que estuvieron en tus instalaciones, tú respondes frente a esos trabajadores por esas obligaciones. Por eso el contratante tiene que conservar, además de la constancia, los comprobantes fiscales de nómina y los acuses de pago de cuotas del periodo facturado. Ese expediente no es burocracia: es la defensa.
+## Seguridad privada con registro REPSE: qué es ese registro
 
-La tercera es de alcance, y es la que más se pasa por alto. El registro no es un sello genérico. La constancia enumera las actividades específicas que la Secretaría amparó. Si contratas vigilancia a una empresa cuyo registro ampara limpieza, el registro existe pero no cubre tu servicio, y el efecto fiscal termina siendo el mismo que si no lo tuviera.
+REPSE son las siglas del Registro de Prestadoras de Servicios Especializados u Obras Especializadas, que lleva la Secretaría del Trabajo y Previsión Social. Nació con la reforma en materia de subcontratación publicada en abril de 2021, la que prohibió rentar personal y dejó permitida solamente la contratación de servicios especializados.
 
-Comprobar que está vigente toma minutos. La Secretaría del Trabajo mantiene un portal público de consulta donde se verifica el estatus del registro a partir del folio o del RFC del prestador. Pide el folio, consúltalo tú, y revisa dos cosas en pantalla: que el estatus esté activo y que la actividad listada corresponda al servicio que vas a contratar. El registro tampoco es perpetuo; se otorga por un periodo determinado y hay que renovarlo antes de que concluya, así que la fecha impresa en una constancia que te enviaron hace meses no dice gran cosa por sí sola. La consulta al portal sí.
+La lógica es corta. Ya no puedes contratar gente prestada: contratas un servicio que no forma parte de tu objeto social ni de tu actividad económica preponderante, y quien te lo presta debe estar inscrito en ese registro. La vigilancia encaja en esa definición para casi cualquier comprador, porque una fábrica de galletas o un despacho contable no tienen la seguridad como actividad principal.
 
-Hay una señal adicional que cuesta poco pedir. Los prestadores de servicios especializados presentan informativas periódicas ante el IMSS y el Infonavit sobre los contratos que tienen vigentes. Un proveedor ordenado puede mostrarte los acuses sin ponerse nervioso; uno que se tarda semanas en encontrarlos te está diciendo algo.
+### Por qué le importa a quien contrata, no solo a quien presta
 
-## Lista de comprobación documental
+Casi todo el mundo lo lee como un trámite del proveedor. No lo es. Tres de sus efectos caen del lado del cliente.
 
-Estos papeles tienen que existir antes del primer turno, no después:
+<div class="tabla-scroll">
+<table>
+<thead>
+<tr><th>Frente</th><th>Con registro vigente y actividad correcta</th><th>Sin registro, o con actividad que no corresponde</th></tr>
+</thead>
+<tbody>
+<tr><td>Impuesto sobre la renta</td><td>El pago del servicio es deducible</td><td>El gasto completo se cae en la declaración</td></tr>
+<tr><td>IVA</td><td>El impuesto trasladado es acreditable</td><td>No se acredita, y se corrige hacia atrás en una revisión</td></tr>
+<tr><td>Obligaciones laborales</td><td>El contratante responde solidariamente, pero con expediente que lo respalda</td><td>Responde igual, sin papeles con los cuales defenderse</td></tr>
+</tbody>
+</table>
+</div>
 
-1. **Constancia de registro REPSE** con folio visible, y la actividad de vigilancia o seguridad expresamente incluida en ella.
-2. **Consulta del folio hecha por ti** en el portal de la Secretaría del Trabajo, no la captura de pantalla que te manden.
-3. **Permiso de seguridad privada** de la autoridad que corresponda a la plaza donde se presta el servicio, con modalidad y vigencia.
-4. **Comprobantes de nómina y acuses de pago de cuotas** del periodo facturado, entregados mes con mes junto con la factura.
-5. **Contrato escrito** que describa el servicio especializado, su objeto y el número aproximado de trabajadores involucrados.
-6. **Póliza de responsabilidad civil** vigente y emitida a nombre de la prestadora, no de una filial.
+#### La deducibilidad no es una multa: es peor
 
-Archívalo por ejercicio fiscal. Ese expediente se pide siempre cuando ya no se puede conseguir.
+Una multa se paga y se acabó. Un gasto no deducible se convierte en base gravable a destiempo, con recargos, y aparece cuando la autoridad revisa un ejercicio que ya creías cerrado.
 
-## Sobre el padrón de la autoridad
+#### La responsabilidad solidaria alcanza a quien recibe el servicio
 
-Esta empresa no figura en el padrón de empresas registradas que publica la Secretaría de Seguridad Ciudadana de la Ciudad de México, según el corte del 29 de julio de 2026.
+Si la prestadora deja de pagar salarios, cuotas de seguridad social o aportaciones de vivienda de los trabajadores que estuvieron en tus instalaciones, tú respondes frente a esos trabajadores por esas obligaciones. Por eso el contratante conserva, además de la constancia, los comprobantes fiscales de nómina y los acuses de pago de cuotas del periodo facturado.
 
-El dato hay que interpretarlo por lo que es. Ese padrón lista una sola modalidad, la de protección a personas, y una empresa dedicada a proteger bienes no tiene por qué aparecer ahí. No estar en el listado no significa operar sin permiso: significa que el permiso, si lo tiene, se verifica por otra vía. Pídele el documento y confirma modalidad y vigencia con la autoridad que lo emitió.
+Ese expediente no es burocracia. Es la única defensa que existe cuando la demanda llega dos años después y la prestadora ya cerró.
 
-> Esta ficha reproduce información publicada por terceros y consultada el 24 de agosto de 2026; los datos pueden cambiar sin aviso. TuSeguridad no tiene acuerdo comercial con Seguridad Privada SEPRIM SF ni obtiene beneficio alguno de que la contactes.
+## Qué ampara la constancia, y qué no
+
+El error más común no es contratar a un proveedor sin registro. Es contratar a uno que sí lo tiene, pero para otra cosa.
+
+<div class="tabla-scroll">
+<table>
+<thead>
+<tr><th>La constancia sí dice</th><th>La constancia no dice</th></tr>
+</thead>
+<tbody>
+<tr><td>Que la Secretaría del Trabajo inscribió a esa persona moral, con un folio y un periodo determinado.</td><td>Que el servicio sea bueno, que el precio sea razonable o que el personal esté capacitado.</td></tr>
+<tr><td>Las actividades específicas que quedaron amparadas, enumeradas una por una.</td><td>Que pueda prestar cualquier servicio: lo que no está listado, no está cubierto.</td></tr>
+<tr><td>Que en la fecha de emisión el registro existía.</td><td>Que hoy siga activo. El registro se otorga por un periodo y se renueva.</td></tr>
+</tbody>
+</table>
+</div>
+
+Si contratas vigilancia a una empresa cuyo registro ampara limpieza, el registro existe pero no cubre tu servicio, y el efecto fiscal termina siendo idéntico al de no tenerlo.
+
+### El expediente que se arma mes con mes
+
+No se junta al final. Llega pegado a cada factura, o no llega nunca.
+
+<ul class="cols-2">
+<li>Constancia de registro con folio visible</li>
+<li>Consulta del folio hecha por ti</li>
+<li>Permiso de seguridad privada vigente</li>
+<li>Contrato que describa el servicio especializado</li>
+<li>Comprobantes fiscales de nómina del periodo</li>
+<li>Acuses de pago de cuotas al IMSS</li>
+<li>Acuses de aportaciones al Infonavit</li>
+<li>Póliza de responsabilidad civil de la prestadora</li>
+</ul>
+
+Archívalo por ejercicio fiscal. Ese paquete siempre se pide cuando ya no se puede conseguir.
+
+## ¿Cómo se verifica un registro REPSE sin salir de la oficina?
+
+La Secretaría del Trabajo mantiene un portal público de consulta donde el estatus se comprueba con el folio o con el RFC de la prestadora. Es gratis y tarda minutos.
+
+### Antes de pedir la cotización
+
+1. **Pide el folio y el RFC por escrito**, en correo, no dictados por teléfono. Un dígito mal anotado convierte la consulta en un callejón sin salida.
+2. **Haz tú la consulta en el portal.** No aceptes la captura de pantalla que te manden: una imagen no tiene fecha verificable.
+3. **Revisa dos cosas en pantalla**, no una. Que el estatus aparezca activo, y que la actividad listada sea vigilancia o seguridad, no un rubro parecido.
+
+### Cuando el servicio ya está en marcha
+
+4. **Repite la consulta al renovar el contrato.** El registro tiene periodo, y una constancia que te enviaron hace ocho meses no dice gran cosa por sí sola.
+5. **Pide los acuses de las informativas** que los prestadores de servicios especializados presentan ante el IMSS y el Infonavit sobre sus contratos vigentes.
+6. **Guarda la nómina y las cuotas del periodo facturado**, mes a mes, junto con el comprobante fiscal correspondiente.
+
+<div class="tabla-scroll">
+<table>
+<thead>
+<tr><th>Lo que ves en la consulta</th><th>Qué hacer con eso</th></tr>
+</thead>
+<tbody>
+<tr><td>Estatus activo y actividad de vigilancia listada</td><td>Guarda el resultado con fecha y sigue adelante</td></tr>
+<tr><td>Estatus activo, pero la actividad listada es otra</td><td>Pregunta si tramitaron la ampliación y pide el acuse</td></tr>
+<tr><td>El folio no arroja resultado</td><td>Verifica el dato antes de concluir nada: suele ser un error de captura</td></tr>
+</tbody>
+</table>
+</div>
+
+Un proveedor ordenado enseña los acuses sin ponerse nervioso. El que tarda tres semanas en encontrarlos ya te dijo cómo va a responder el día que llegue una revisión.
+
+## Seguridad Privada SEPRIM SF y el padrón de escoltas
+
+La Secretaría de Seguridad Ciudadana de la Ciudad de México publica un listado de empresas registradas en una sola modalidad: protección a personas. Esta empresa no aparece ahí en el corte del 29 de julio de 2026.
+
+### Por qué ese dato no aplica en este caso
+
+El registro se otorga por modalidad, y la empresa declara dedicarse a la protección de bienes. Buscarla en el padrón de escoltas es buscarla en el archivo equivocado: no estar en esa lista no significa operar sin permiso, significa que el permiso, si lo tiene, se verifica por otra vía.
+
+### La verificación que sí corresponde
+
+Pídele el documento del permiso de seguridad privada, lee qué modalidades ampara y confirma la vigencia con la autoridad que lo emitió. Junto con la consulta del folio REPSE, esas dos comprobaciones cubren lo que un directorio nunca va a poder acreditar.
+
+<div class="nota nota-fuerte">
+
+##### Dos registros distintos que la gente confunde
+
+El **REPSE** lo lleva la Secretaría del Trabajo y responde una pregunta laboral y fiscal: si el servicio puede contratarse como especializado.
+
+El **permiso de seguridad privada** lo emite la autoridad de seguridad y responde otra: si la empresa puede prestar ese servicio y en qué modalidad. Tener uno no sustituye al otro, y para un servicio de vigilancia hacen falta los dos.
+
+</div>
+
+###### Procedencia de los datos
+
+> La dirección, el teléfono, el horario y la calificación de la cabecera se copiaron de una fuente pública el 24 de agosto de 2026 y pueden haber cambiado sin aviso. La consulta al padrón corresponde al corte del 29 de julio de 2026. TuSeguridad no tiene acuerdo comercial con Seguridad Privada SEPRIM SF, no la recomienda y no obtiene beneficio alguno si decides contactarla.
