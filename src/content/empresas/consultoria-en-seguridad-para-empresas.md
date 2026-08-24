@@ -1,7 +1,7 @@
 ---
 nombre: Corporativo Zascita de México
 tituloSeo: Consultoría en seguridad para empresas CDMX
-descripcion: Empresa de seguridad privada con oficina en San Miguel Chapultepec, Miguel Hidalgo. Declara diagnóstico situacional y diseño de protocolos de seguridad.
+descripcion: Consultoría en seguridad para empresas en CDMX. Ficha de Corporativo Zascita de México, con permiso localizado en el padrón de la SSC y datos públicos.
 categoria: seguridad-privada
 ciudad: cdmx
 zonas:
@@ -15,7 +15,7 @@ servicios: []
 verificado: false
 destacado: false
 orden: 0
-foto: monitoreo-cctv-centro-de-control
+foto: briefing-personal-de-seguridad
 fuenteDatos:
   nombre: el Perfil de Empresa de Google
   fechaCorte: "2026-08-24"
@@ -32,60 +32,184 @@ padron:
   fechaCorte: "2026-07-29"
 ---
 
-**Corporativo Zascita de México** despacha desde un sexto piso en Gobernador Agustín Vicente Eguía 46, colonia San Miguel Chapultepec I Sección, alcaldía Miguel Hidalgo. Su perfil público la lista bajo una sola categoría, la de *servicio de guardias de seguridad*.
+<p class="lede">Corporativo Zascita de México es una empresa de <strong>seguridad privada en la Ciudad de México</strong> que despacha desde un sexto piso en la colonia San Miguel Chapultepec I Sección, alcaldía Miguel Hidalgo. Su perfil público la lista bajo una sola categoría: servicio de guardias de seguridad.</p>
 
-En ese mismo perfil la empresa declara contar con personal para administrar la seguridad integral de la empresa mediante análisis y diagnóstico situacional, y para el diseño y la ejecución de políticas, estrategias y protocolos de seguridad. Es una declaración suya y así se reproduce, sin interpretarla ni extenderla.
+En ese mismo perfil la empresa declara contar con personal para administrar la seguridad integral de la empresa mediante **análisis y diagnóstico situacional**, y para el diseño y la ejecución de políticas, estrategias y protocolos de seguridad. Es una declaración suya y así se reproduce, sin interpretarla ni extenderla.
 
-El perfil reporta 120 reseñas y una calificación de 4.4 en la fecha de corte, con horario de atención de lunes a viernes de 9:00 a 18:00. Es una ficha de pocas reseñas y buena valoración; conviene leerla como lo que es, una señal de reputación, no como una comprobación documental.
+<div class="nota">
 
-No sabemos qué industrias atiende, con qué tarifas trabaja ni qué tamaño tiene su plantilla, porque nada de eso aparece en la fuente. Esta ficha no lo inventa.
+##### Lo que dice la fuente, y hasta dónde llega
 
-El contenido se reproduce de información pública. La empresa no lo redactó, no existe relación comercial con TuSeguridad y ningún dato fue verificado por nosotros.
+El perfil reporta **120 reseñas con una calificación de 4.4** en la fecha de corte, y horario de lunes a viernes de 9:00 a 18:00. Es una muestra corta con buena valoración: léela como señal de reputación, no como comprobación documental.
 
-## Qué entrega una consultoría de seguridad y por qué va antes del personal
+No sabemos qué industrias atiende, con qué tarifas trabaja ni de qué tamaño es su plantilla, porque nada de eso aparece en la fuente. Esta ficha no lo inventa.
 
-Una consultoría de seguridad no es una visita comercial con recorrido. Es un trabajo con tres piezas: levantamiento, matriz de riesgo y entregable documentado. Si falta cualquiera de las tres, lo que recibiste fue una cotización disfrazada.
+</div>
 
-El levantamiento es de campo y toma horas, no minutos. Se recorre el perímetro, se cuentan accesos peatonales y vehiculares, se miden los horarios reales de entrada y salida, se localizan puntos ciegos y se revisa qué cubren de verdad las cámaras. También se entrevista a quien opera, no solo a quien firma: el vigilante nocturno sabe cosas que no están en ningún organigrama.
+## Consultoría en seguridad para empresas: qué se compra realmente
 
-De ahí sale la matriz de riesgo, donde se separa el trabajo serio del relleno. No es una lista genérica de amenazas: son escenarios concretos para ese domicilio, cada uno con probabilidad, impacto y prioridad. Robo hormiga en almacén, intrusión nocturna por azotea, extorsión telefónica a recepción, fuga de información en la zona de proveedores. Cada escenario con responsable y fecha.
+Una **consultoría de seguridad** no es una visita comercial con recorrido. Es un trabajo con tres piezas, y si falta cualquiera de las tres lo que recibiste fue una cotización disfrazada.
 
-El entregable tiene que poder leerse sin el consultor enfrente. Hallazgos con evidencia fotográfica, plano con las posiciones propuestas, número de posiciones y turnos, borrador de consignas, medidas que no requieren personal, cronograma por fases y presupuesto desglosado. Ese documento se convierte después en las bases para pedir cotizaciones.
+<div class="tabla-scroll">
+<table>
+<thead>
+<tr><th>Pieza</th><th>En qué consiste</th><th>Cómo sabes que sí se hizo</th></tr>
+</thead>
+<tbody>
+<tr><td>Levantamiento</td><td>Trabajo de campo en tu domicilio: perímetro, accesos, horarios reales, puntos ciegos, cobertura de cámaras.</td><td>Tomó horas, no minutos, y entrevistaron a quien opera, no solo a quien firma.</td></tr>
+<tr><td>Matriz de riesgo</td><td>Escenarios concretos para ese inmueble, cada uno con probabilidad, impacto y prioridad.</td><td>No es una lista genérica de amenazas: nombra tus procesos y tus horarios.</td></tr>
+<tr><td>Entregable documentado</td><td>Informe con hallazgos, evidencia, plano de posiciones, cronograma y presupuesto desglosado.</td><td>Se entiende leyéndolo solo, sin el consultor explicándolo enfrente.</td></tr>
+</tbody>
+</table>
+</div>
 
-Hay un conflicto de interés que conviene mirar de frente. Un consultor que además vende los guardias tiene incentivo para sobredimensionar el dispositivo. No lo descalifica, pero obliga a dos preguntas: ¿el diagnóstico se cobra aparte? y ¿puedo usar el entregable para cotizar con terceros? Si la segunda respuesta es no, no era un diagnóstico.
+### El levantamiento: de campo, no de escritorio
 
-Dimensionar antes de cotizar personal sale más barato por aritmética. El estudio es un costo único; una posición mal calculada es un costo recurrente cada mes del contrato. Equivocarse por una sola posición de 24 horas cuesta, en un año, bastante más que el estudio.
+Se recorre el perímetro, se cuentan accesos peatonales y vehiculares, se miden los horarios reales de entrada y salida, se localizan puntos ciegos y se revisa qué cubren de verdad las cámaras.
 
-Hay un segundo ahorro, menos obvio. Con la matriz en la mano se ve que varios riesgos no se resuelven con más gente. Un acceso con torniquete y registro digital, una barda con iluminación y detección, un procedimiento de recepción de proveedores: una sola inversión que sustituye posiciones permanentes.
+También se entrevista a quien opera. El vigilante nocturno sabe cosas que no están en ningún organigrama: por dónde entra el proveedor que siempre llega tarde, cuál es la puerta que no cierra desde marzo, a qué hora se queda sola la recepción.
 
-Y el tercero es de negociación. Con las bases escritas, tres proveedores cotizan lo mismo y sus precios se vuelven comparables. Sin bases, cada uno propone un alcance distinto y se elige por precio total, la peor variable de la que puede depender un servicio de seguridad.
+### La matriz de riesgo: donde se separa el trabajo serio del relleno
 
-Dos advertencias. Un diagnóstico no es una certificación y no sustituye la revisión del permiso ni de la póliza del operador. Y caduca: cambia la operación, cambia el turno, cambia el vecindario. Un estudio de hace tres años describe un inmueble que ya no existe.
+No es un catálogo de amenazas copiado de otro estudio. Son escenarios de **tu** domicilio, priorizados:
 
-## Lo que se pide antes de contratar un diagnóstico
+<ul class="cols-2">
+<li>Robo hormiga en almacén</li>
+<li>Intrusión nocturna por azotea</li>
+<li>Extorsión telefónica a recepción</li>
+<li>Fuga de información en zona de proveedores</li>
+<li>Sustracción en maniobras de carga</li>
+<li>Acceso con credencial de un ex empleado</li>
+</ul>
 
-Contratar consultoría tiene una particularidad: le vas a abrir tus vulnerabilidades a un tercero. La revisión previa cambia de acento por eso:
+Cada escenario con responsable y fecha. Sin esas dos columnas es un diagnóstico que nadie va a ejecutar.
 
-1. **Alcance y entregable por escrito antes de pagar el anticipo**: qué documentos se entregan, en cuántos días hábiles, con qué evidencia y en qué formato.
+### El entregable: el documento que después es tuyo
+
+<ul class="cols-2">
+<li>Hallazgos con evidencia fotográfica</li>
+<li>Plano con las posiciones propuestas</li>
+<li>Número de posiciones y turnos</li>
+<li>Borrador de consignas por punto</li>
+<li>Medidas que no requieren personal</li>
+<li>Cronograma por fases</li>
+<li>Presupuesto desglosado</li>
+<li>Bases para pedir cotizaciones a terceros</li>
+</ul>
+
+#### El conflicto de interés que conviene mirar de frente
+
+Un consultor que además vende los guardias tiene incentivo para sobredimensionar el dispositivo. No lo descalifica, pero obliga a dos preguntas:
+
+##### ¿El diagnóstico se cobra aparte?
+Si el estudio va «de regalo» con la propuesta de personal, el estudio existe para justificar la propuesta.
+
+##### ¿Puedo usar el entregable para cotizar con terceros?
+Si la respuesta es no, no era un diagnóstico. Era una presentación de ventas con fotos.
+
+## Por qué el diagnóstico va antes de cotizar personal
+
+Dimensionar antes de contratar **guardias de seguridad** sale más barato, y no por criterio: por aritmética.
+
+<div class="tabla-scroll">
+<table>
+<thead>
+<tr><th>Decisión</th><th>Naturaleza del costo</th><th>Efecto a doce meses</th></tr>
+</thead>
+<tbody>
+<tr><td>Pagar el estudio</td><td>Costo único</td><td>Se paga una vez y queda un documento reutilizable</td></tr>
+<tr><td>Calcular mal una posición</td><td>Costo recurrente</td><td>Se paga cada mes del contrato, doce veces</td></tr>
+</tbody>
+</table>
+</div>
+
+Equivocarse por una sola posición de 24 horas cuesta, en un año, bastante más que el estudio completo.
+
+### Los otros dos ahorros, que casi nadie contabiliza
+
+#### Ahorro por sustitución de posiciones
+
+Con la matriz en la mano se ve que varios riesgos no se resuelven con más gente. Un acceso con torniquete y registro digital, una barda con iluminación y detección, un procedimiento de recepción de proveedores: una inversión única que sustituye posiciones permanentes.
+
+#### Ahorro por poder negociar
+
+Con bases escritas, tres proveedores cotizan lo mismo y sus precios se vuelven comparables. Sin bases, cada uno propone un alcance distinto y terminas eligiendo por precio total, que es la peor variable de la que puede depender un servicio de seguridad.
+
+<div class="nota nota-fuerte">
+
+##### Dos advertencias antes de firmar
+
+Un diagnóstico **no es una certificación** y no sustituye la revisión del permiso ni de la póliza del operador.
+
+Y caduca. Cambia la operación, cambia el turno, cambia el vecindario. Un estudio de hace tres años describe un inmueble que ya no existe.
+
+</div>
+
+## Qué pedir antes de contratar un diagnóstico de seguridad
+
+Contratar consultoría tiene una particularidad que no tiene contratar vigilancia: **le vas a abrir tus vulnerabilidades a un tercero**. Por eso la revisión previa cambia de acento.
+
+### Primero, lo que protege tu información
+
+1. **Alcance y entregable por escrito antes del anticipo.** Qué documentos se entregan, en cuántos días hábiles, con qué evidencia y en qué formato.
 2. **Convenio de confidencialidad firmado antes del levantamiento**, con reglas de custodia y destrucción del material. Un diagnóstico terminado es un mapa de tus puntos débiles.
-3. **Nombre y trayectoria de quien hará el trabajo de campo**, no solo el membrete de la empresa. Pide un índice de un estudio anterior con los datos del cliente borrados.
-4. **Declaración de independencia**: si el mismo proveedor va a cotizar después el personal, que quede asentado, y que el entregable sirva para licitar con terceros.
-5. **Permiso de seguridad privada con modalidad y vigencia**, en el momento en que la conversación pase del estudio a la operación.
-6. **REPSE, altas nominativas ante IMSS e INFONAVIT y carátula de la póliza de responsabilidad civil**, con sus vigencias legibles.
-7. **Desglose del dispositivo propuesto por posición y por turno**, condición sin la cual el entregable no sirve para comparar cotizaciones.
+3. **Nombre y trayectoria de quien hará el trabajo de campo**, no solo el membrete. Pide el índice de un estudio anterior con los datos del cliente borrados.
+4. **Declaración de independencia.** Si el mismo proveedor va a cotizar después el personal, que quede asentado y que el entregable sirva para licitar con terceros.
 
-Fíjate en el orden de esa lista. Los primeros cuatro puntos protegen la información que vas a entregar; los últimos tres protegen el contrato que quizá firmes después. Son dos revisiones distintas aunque las haga la misma empresa.
+### Después, lo que protege el contrato que quizá firmes
 
-Una señal práctica: si el proveedor se resiste a cobrar el diagnóstico por separado, casi siempre es porque el estudio existe para justificar la propuesta de personal. Pagarlo aparte cuesta poco y te deja un documento que es tuyo.
+5. **Permiso de seguridad privada** con modalidad y vigencia legibles, en el momento en que la conversación pase del estudio a la operación.
+6. **REPSE, altas nominativas ante IMSS e INFONAVIT y carátula de la póliza** de responsabilidad civil, con sus vigencias.
+7. **Desglose del dispositivo por posición y por turno**, sin el cual el entregable no sirve para comparar cotizaciones.
+
+<div class="nota">
+
+##### Una señal práctica
+
+Si el proveedor se resiste a cobrar el diagnóstico por separado, casi siempre es porque el estudio existe para justificar la propuesta de personal. Pagarlo aparte cuesta poco y te deja un documento que es tuyo.
+
+</div>
 
 ## Corporativo Zascita de México en el padrón de la SSC
 
-La Secretaría de Seguridad Ciudadana de la Ciudad de México publica el listado de empresas registradas en la modalidad de protección a personas. Corporativo Zascita de México aparece ahí con el expediente 4796-18 y una vigencia publicada al 7 de noviembre de 2026, todavía corriendo en la fecha de corte de esta ficha.
+La Secretaría de Seguridad Ciudadana de la Ciudad de México publica el listado de empresas registradas en la modalidad de **protección a personas**. Corporativo Zascita de México aparece ahí:
 
-Es un dato a favor y hay que tomarlo por lo que vale: acredita un registro vigente ante la autoridad capitalina en una modalidad concreta. No acredita calidad del servicio, ni tarifas, ni cumplimiento laboral, ni nada relacionado con la consultoría.
+<div class="tabla-scroll">
+<table>
+<thead>
+<tr><th>Dato del registro</th><th>Valor publicado</th></tr>
+</thead>
+<tbody>
+<tr><td>Expediente</td><td>4796-18</td></tr>
+<tr><td>Modalidad</td><td>Protección a personas (escolta)</td></tr>
+<tr><td>Vigencia publicada</td><td>7 de noviembre de 2026</td></tr>
+<tr><td>Autoridad</td><td>Dirección General de Seguridad Privada y Colaboración Interinstitucional</td></tr>
+<tr><td>Corte del padrón</td><td>29 de julio de 2026</td></tr>
+</tbody>
+</table>
+</div>
 
-Nota la fecha con cuidado. Esa vigencia vence dentro de pocos meses, así que si la contratación se firma cerca de ese plazo, pide el acuse de renovación y no solo el documento actual. Un permiso que caduca a mitad del contrato deja el servicio sin cobertura administrativa.
+### Qué acredita ese registro, y qué no
 
-Y queda el límite de siempre: este padrón cubre escoltas. Si lo que vas a contratar es un diagnóstico y luego vigilancia de un inmueble, pídele además el permiso que ampare esa modalidad. Un registro correcto en escolta no se extiende automáticamente a los demás servicios.
+<div class="tabla-scroll">
+<table>
+<thead>
+<tr><th>Sí acredita</th><th>No acredita</th></tr>
+</thead>
+<tbody>
+<tr><td>Registro vigente ante la autoridad capitalina, en una modalidad concreta y en una fecha concreta.</td><td>Calidad del servicio, tarifas, cumplimiento laboral ni nada relacionado con la consultoría.</td></tr>
+</tbody>
+</table>
+</div>
+
+#### Fíjate en la fecha
+
+Esa vigencia vence dentro de pocos meses. Si la contratación se firma cerca del plazo, pide el acuse de renovación y no solo el documento actual: un permiso que caduca a mitad del contrato deja el servicio sin cobertura administrativa.
+
+#### Y el límite de siempre
+
+Este padrón cubre **escoltas**. Si lo que vas a contratar es un diagnóstico y después vigilancia de un inmueble, pídele además el permiso que ampare esa modalidad. Un registro correcto en protección a personas no se extiende automáticamente a los demás servicios.
+
+###### Procedencia de los datos
 
 > Domicilio, teléfono, horario y calificación provienen de una fuente pública consultada en la fecha de corte indicada, y pueden haber cambiado después. TuSeguridad elaboró esta ficha por iniciativa propia, sin vínculo con Corporativo Zascita de México, y no recibe ingreso alguno si decides contactarla.
