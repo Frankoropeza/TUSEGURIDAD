@@ -27,7 +27,7 @@ padron:
   modalidad: Protección a personas (escolta)
   autoridad: Dirección General de Seguridad Privada y Colaboración Interinstitucional (SSC CDMX)
   fuenteUrl: https://data.ssc.cdmx.gob.mx/escoltas/empresas_registradas.html
-  fechaCorte: "2026-07-29"
+  fechaCorte: "2026-08-25"
 ---
 
 <p class="lede">TCPS Seguridad Privada se describe como empresa de servicios especializados en <strong>guardias intramuros por turnos</strong>, con domicilio en Aries 34, colonia El Prado, alcaldía Iztapalapa, Ciudad de México. Su perfil público la clasifica bajo una sola categoría: servicio de seguridad.</p>

@@ -27,7 +27,7 @@ padron:
   modalidad: Protección a personas (escolta)
   autoridad: Dirección General de Seguridad Privada y Colaboración Interinstitucional (SSC CDMX)
   fuenteUrl: https://data.ssc.cdmx.gob.mx/escoltas/empresas_registradas.html
-  fechaCorte: "2026-07-29"
+  fechaCorte: "2026-08-25"
 ---
 
 <p class="lede">Seguridad Privada Macloud ofrece <strong>guardias de seguridad intramuros en CDMX</strong> desde Watteau 54, colonia Nonoalco, alcaldía Benito Juárez, Ciudad de México. En su perfil público se describe como un servicio especializado de guardias de seguridad privada intramuros, y esa frase es todo lo que declara de sí misma en la fuente consultada.</p>

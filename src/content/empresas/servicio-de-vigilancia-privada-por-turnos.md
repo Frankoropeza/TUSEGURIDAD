@@ -27,7 +27,7 @@ padron:
   modalidad: Protección a personas (escolta)
   autoridad: Dirección General de Seguridad Privada y Colaboración Interinstitucional (SSC CDMX)
   fuenteUrl: https://data.ssc.cdmx.gob.mx/escoltas/empresas_registradas.html
-  fechaCorte: "2026-07-29"
+  fechaCorte: "2026-08-25"
 ---
 
 <p class="lede">Grupo Corporativo Solcat tiene domicilio en Avena 135, colonia Granjas Esmeralda, alcaldía Iztapalapa, y su perfil público la registra bajo una sola categoría, la de oficinas de empresa, sin descripción escrita por ella misma. Esta ficha aprovecha esa ausencia para explicar la parte del <strong>servicio de vigilancia privada por turnos</strong> que casi nunca aparece en una cotización: la cuenta.</p>

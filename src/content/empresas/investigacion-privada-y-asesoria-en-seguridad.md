@@ -27,7 +27,7 @@ padron:
   modalidad: Protección a personas (escolta)
   autoridad: Dirección General de Seguridad Privada y Colaboración Interinstitucional (SSC CDMX)
   fuenteUrl: https://data.ssc.cdmx.gob.mx/escoltas/empresas_registradas.html
-  fechaCorte: "2026-07-29"
+  fechaCorte: "2026-08-25"
 ---
 
 <p class="lede">Maguen Team atiende desde Calle Herschel 119, colonia Anzures, alcaldía Miguel Hidalgo, y su perfil público la clasifica en cuatro categorías a la vez: servicio de seguridad, asesor, <strong>investigador privado</strong> y servicio de guardias de seguridad. Esas etiquetas ordenan un directorio de la Ciudad de México; no son un catálogo que la empresa nos haya presentado.</p>

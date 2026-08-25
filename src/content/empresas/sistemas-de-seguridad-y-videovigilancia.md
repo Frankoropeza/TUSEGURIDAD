@@ -27,7 +27,7 @@ padron:
   modalidad: Protección a personas (escolta)
   autoridad: Dirección General de Seguridad Privada y Colaboración Interinstitucional (SSC CDMX)
   fuenteUrl: https://data.ssc.cdmx.gob.mx/escoltas/empresas_registradas.html
-  fechaCorte: "2026-07-29"
+  fechaCorte: "2026-08-25"
 ---
 
 <p class="lede">Táctica y Tecnología en Seguridad Privada aparece en su perfil público como proveedor de <strong>sistemas de seguridad y videovigilancia</strong>, con domicilio en 26 de Enero de 1857 71, colonia Leyes de Reforma 3ra Sección, alcaldía Iztapalapa, Ciudad de México.</p>

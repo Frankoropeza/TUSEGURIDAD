@@ -27,9 +27,13 @@ padron:
   expediente: "6452-24"
   vigencia: "2026-09-25"
   modalidad: Protección a personas (escolta)
+  nota: >-
+    El registro está a nombre de Grupo DILME SP, S.A. de C.V.; el cruce se
+    sostiene por razón social y el teléfono que publica la autoridad no es el
+    del perfil de esta ficha.
   autoridad: Dirección General de Seguridad Privada y Colaboración Interinstitucional (SSC CDMX)
   fuenteUrl: https://data.ssc.cdmx.gob.mx/escoltas/empresas_registradas.html
-  fechaCorte: "2026-07-29"
+  fechaCorte: "2026-08-25"
 ---
 
 <p class="lede">DILME Seguridad Privada despacha desde Calzada de Tlalpan 1634, colonia Ermita, alcaldía Benito Juárez, en la Ciudad de México. En su perfil público declara otorgar servicios de <strong>seguridad privada para gobierno e iniciativa privada</strong>, y ese mismo perfil la clasifica en una sola categoría: servicio de guardias de seguridad.</p>

@@ -27,7 +27,7 @@ padron:
   modalidad: Protección a personas (escolta)
   autoridad: Dirección General de Seguridad Privada y Colaboración Interinstitucional (SSC CDMX)
   fuenteUrl: https://data.ssc.cdmx.gob.mx/escoltas/empresas_registradas.html
-  fechaCorte: "2026-07-29"
+  fechaCorte: "2026-08-25"
 ---
 
 <p class="lede">Seguridad Privada Independencia despacha sobre Eje Central Lázaro Cárdenas 957, colonia Independencia, alcaldía Benito Juárez, y su perfil público la lista como servicio de seguridad y servicio de <strong>guardias de seguridad</strong> en la Ciudad de México.</p>

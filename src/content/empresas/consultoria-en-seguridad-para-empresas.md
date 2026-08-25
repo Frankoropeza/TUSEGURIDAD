@@ -29,7 +29,7 @@ padron:
   modalidad: Protección a personas (escolta)
   autoridad: Dirección General de Seguridad Privada y Colaboración Interinstitucional (SSC CDMX)
   fuenteUrl: https://data.ssc.cdmx.gob.mx/escoltas/empresas_registradas.html
-  fechaCorte: "2026-07-29"
+  fechaCorte: "2026-08-25"
 ---
 
 <p class="lede">Corporativo Zascita de México es una empresa de <strong>seguridad privada en la Ciudad de México</strong> que despacha desde un sexto piso en la colonia San Miguel Chapultepec I Sección, alcaldía Miguel Hidalgo. Su perfil público la lista bajo una sola categoría: servicio de guardias de seguridad.</p>

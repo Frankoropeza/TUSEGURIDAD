@@ -27,7 +27,7 @@ padron:
   modalidad: Protección a personas (escolta)
   autoridad: Dirección General de Seguridad Privada y Colaboración Interinstitucional (SSC CDMX)
   fuenteUrl: https://data.ssc.cdmx.gob.mx/escoltas/empresas_registradas.html
-  fechaCorte: "2026-07-29"
+  fechaCorte: "2026-08-25"
 ---
 
 <p class="lede">Seguridad y Vigilancia Privada El Águila Real declara <strong>custodia de mercancía y vigilancia</strong> desde Sauces 473, colonia Pasteros, alcaldía Azcapotzalco, en la Ciudad de México. Su perfil público la lista en dos categorías: servicio de guardias de seguridad y servicio de seguridad.</p>

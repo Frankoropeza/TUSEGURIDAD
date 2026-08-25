@@ -27,7 +27,7 @@ padron:
   modalidad: Protección a personas (escolta)
   autoridad: Dirección General de Seguridad Privada y Colaboración Interinstitucional (SSC CDMX)
   fuenteUrl: https://data.ssc.cdmx.gob.mx/escoltas/empresas_registradas.html
-  fechaCorte: "2026-07-29"
+  fechaCorte: "2026-08-25"
 ---
 
 <p class="lede">Seguridad GC declara servicios de <strong>custodia y protección de bienes inmuebles</strong> desde Liverpool 96, colonia Juárez, alcaldía Cuauhtémoc, en la Ciudad de México. Su perfil público la clasifica en tres categorías: servicio de guardias de seguridad, servicio de seguridad y proveedor de sistemas de seguridad.</p>

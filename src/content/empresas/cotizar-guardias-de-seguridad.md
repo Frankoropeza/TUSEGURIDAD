@@ -27,7 +27,7 @@ padron:
   modalidad: Protección a personas (escolta)
   autoridad: Dirección General de Seguridad Privada y Colaboración Interinstitucional (SSC CDMX)
   fuenteUrl: https://data.ssc.cdmx.gob.mx/escoltas/empresas_registradas.html
-  fechaCorte: "2026-07-29"
+  fechaCorte: "2026-08-25"
 ---
 
 <p class="lede">Seguridad Inteligente MEXSEPRO es una de las empresas a las que se puede pedir una <strong>cotización de guardias de seguridad</strong> en la Ciudad de México. Está en Artemio Alpízar Ruz 341, colonia San Miguel, alcaldía Iztapalapa, y su perfil público la registra bajo una sola categoría: servicio de guardias de seguridad.</p>

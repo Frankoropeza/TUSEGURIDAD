@@ -27,7 +27,7 @@ padron:
   modalidad: Protección a personas (escolta)
   autoridad: Dirección General de Seguridad Privada y Colaboración Interinstitucional (SSC CDMX)
   fuenteUrl: https://data.ssc.cdmx.gob.mx/escoltas/empresas_registradas.html
-  fechaCorte: "2026-07-29"
+  fechaCorte: "2026-08-25"
 ---
 
 <p class="lede">WIDAEL Corporativo Especializado en Seguridad Privada tiene domicilio sobre Avenida Altavista, colonia San Ángel, alcaldía Álvaro Obregón, en la Ciudad de México, y en su perfil público declara <strong>seguridad para residenciales y corporativos</strong>: condominios, oficinas, residenciales, corporativos y protección personal, además de protección de bienes muebles e inmuebles. Ese perfil la clasifica bajo servicio de seguridad.</p>

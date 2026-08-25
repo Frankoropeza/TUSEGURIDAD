@@ -117,6 +117,13 @@ const empresas = defineCollection({
         autoridad: z.string(),
         fuenteUrl: z.url(),
         fechaCorte: z.string(),
+        /**
+         * Matiz del caso concreto, cuando el sí/no genérico se queda corto:
+         * una empresa que aparecía en un corte anterior y ya no, o un cruce
+         * que se sostiene por razón social pero no por teléfono. Se pinta
+         * detrás del texto de la fila.
+         */
+        nota: z.string().optional(),
       })
       .optional(),
 

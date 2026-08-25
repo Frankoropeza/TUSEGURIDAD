@@ -27,7 +27,7 @@ padron:
   modalidad: Protección a personas (escolta)
   autoridad: Dirección General de Seguridad Privada y Colaboración Interinstitucional (SSC CDMX)
   fuenteUrl: https://data.ssc.cdmx.gob.mx/escoltas/empresas_registradas.html
-  fechaCorte: "2026-07-29"
+  fechaCorte: "2026-08-25"
 ---
 
 <p class="lede">Ares Seguridad Privada aparece en este directorio de <strong>vigilancia con drones y seguridad privada</strong> con oficina en Trovador 30, colonia Colina del Sur, alcaldía Álvaro Obregón, Ciudad de México. Su perfil público la lista bajo cuatro categorías: servicio de seguridad, servicio de drones, servicio de guardias de seguridad y servicio de transporte con acompañante.</p>

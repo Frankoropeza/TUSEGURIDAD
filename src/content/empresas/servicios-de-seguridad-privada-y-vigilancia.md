@@ -23,13 +23,15 @@ resenas:
   calificacion: 4.0
   total: 391
 padron:
-  localizada: true
-  expediente: "5494-21"
-  vigencia: "2026-08-20"
+  localizada: false
   modalidad: Protección a personas (escolta)
+  nota: >-
+    En el corte del 29 de julio de 2026 sí aparecía, con expediente 5494-21 y
+    vigencia publicada al 20 de agosto de 2026. Un padrón es una foto de una
+    fecha, no un historial.
   autoridad: Dirección General de Seguridad Privada y Colaboración Interinstitucional (SSC CDMX)
   fuenteUrl: https://data.ssc.cdmx.gob.mx/escoltas/empresas_registradas.html
-  fechaCorte: "2026-07-29"
+  fechaCorte: "2026-08-25"
 ---
 
 <p class="lede">Grupo IPS figura en el directorio de <strong>servicios de seguridad privada y vigilancia</strong> de la Ciudad de México con domicilio en Calle Lucerna 10, colonia Juárez, alcaldía Cuauhtémoc, dentro del corredor de oficinas que rodea el Paseo de la Reforma. Su perfil público le asigna una sola categoría, la más genérica del rubro: servicio de seguridad.</p>
@@ -125,42 +127,49 @@ Porque el margen de una empresa de vigilancia es estrecho y el precio se recorta
 
 ## Grupo IPS en el padrón de la SSC de la Ciudad de México
 
-La Secretaría de Seguridad Ciudadana publica el listado de empresas registradas en la modalidad de protección a personas. Grupo IPS sí aparece en él.
+La Secretaría de Seguridad Ciudadana publica el listado de empresas registradas en la modalidad de protección a personas. Este caso es el más instructivo del directorio, porque cambió entre dos consultas.
 
 <div class="tabla-scroll">
 <table>
 <thead>
-<tr><th>Dato del registro</th><th>Valor publicado</th></tr>
+<tr><th>Corte del padrón</th><th>Qué aparecía</th><th>Vigencia publicada</th></tr>
 </thead>
 <tbody>
-<tr><td>Expediente</td><td>5494-21</td></tr>
-<tr><td>Modalidad</td><td>Protección a personas (escolta)</td></tr>
-<tr><td>Vigencia publicada</td><td>20 de agosto de 2026</td></tr>
-<tr><td>Autoridad</td><td>Dirección General de Seguridad Privada y Colaboración Interinstitucional</td></tr>
-<tr><td>Corte del padrón</td><td>29 de julio de 2026</td></tr>
+<tr><td>29 de julio de 2026</td><td>Expediente 5494-21, a nombre de IPS Latam, S.A.P.I. de C.V.</td><td>20 de agosto de 2026</td></tr>
+<tr><td>25 de agosto de 2026</td><td>El expediente ya no figura en el listado</td><td>—</td></tr>
 </tbody>
 </table>
 </div>
 
-### Qué hacer con la fecha de vigencia publicada
+El cruce con esta ficha se sostiene en el teléfono: el número que la autoridad publicaba para ese expediente es el mismo que aparece en el perfil público de Grupo IPS.
+
+### Qué significa que un expediente deje de aparecer
 
 <div class="nota nota-fuerte">
 
-##### Pide el acuse de renovación, no solo el permiso
+##### No es una sanción, y tampoco es un trámite al corriente
 
-La fecha que la autoridad publica para este registro es el 20 de agosto de 2026. El corte del padrón es del 29 de julio de 2026, anterior a esa fecha, así que el archivo no alcanza a reflejar una renovación posterior. El dato se reproduce tal como aparece en el archivo público, sin ajustarlo.
+Lo único que se puede afirmar es lo que se ve: en julio el expediente estaba y en agosto ya no, con una vigencia que vencía en medio de esas dos fechas.
 
-Que la vigencia esté vencida ahí no significa que la empresa haya dejado de estar registrada: los padrones se actualizan con retraso y una renovación en trámite tarda en reflejarse. Tampoco significa lo contrario. Lo que corresponde es **pedir el documento actualizado y el acuse de renovación**, y confirmar la fecha con la autoridad antes de firmar.
+De ahí no se sigue que la empresa haya perdido su autorización. Los padrones se publican con retraso, una renovación en trámite tarda en reflejarse y un registro puede reingresar bajo otro expediente. Tampoco se sigue lo contrario.
+
+Lo que corresponde es **pedirle a la empresa el documento vigente y el acuse de renovación**, y confirmar la fecha con la autoridad antes de firmar. Es la misma pregunta que habría que hacerle a cualquier proveedor, solo que aquí hay un motivo concreto para hacerla.
 
 </div>
 
-### Qué acredita ese registro y qué no
+### Por qué esta ficha no dice que está registrada
 
-Acredita que la empresa estaba inscrita ante la autoridad capitalina, en una modalidad concreta y a una fecha concreta. No acredita calidad del servicio, tarifas, cumplimiento laboral ni cobertura de póliza. Son preguntas distintas y se responden con documentos distintos.
+Porque el 25 de agosto de 2026 no lo está en ese listado, y la ficha reproduce lo que el registro publica en su corte más reciente, no lo que publicaba antes.
+
+Dejar la afirmación anterior en pie habría sido cómodo para la empresa y falso para quien lee. Publicar solo la ausencia, sin decir que un mes antes sí figuraba, habría sido igual de incompleto en el sentido contrario. Van las dos fechas.
+
+### Qué acredita un registro de este padrón, y qué no
+
+Acredita inscripción ante la autoridad capitalina, en una modalidad concreta y a una fecha concreta. No acredita calidad del servicio, tarifas, cumplimiento laboral ni cobertura de póliza. Son preguntas distintas y se responden con documentos distintos.
 
 ### El padrón cubre una sola modalidad: escoltas
 
-Si lo que vas a contratar es vigilancia de un inmueble, este registro no es el documento que te toca revisar. Pide el permiso que ampare la seguridad privada en los bienes, que es la figura bajo la cual se presta ese servicio. Un registro correcto en protección a personas no se extiende de forma automática a las demás modalidades, y contratar suponiendo que sí es el error administrativo más frecuente del rubro.
+Si lo que vas a contratar es vigilancia de un inmueble, este listado no es el documento que te toca revisar, ni cuando una empresa aparece ni cuando no. Pide el permiso que ampare la seguridad privada en los bienes, que es la figura bajo la cual se presta ese servicio. Un registro correcto en protección a personas no se extiende de forma automática a las demás modalidades.
 
 ###### Procedencia de los datos
 

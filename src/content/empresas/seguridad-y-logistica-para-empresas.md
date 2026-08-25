@@ -27,7 +27,7 @@ padron:
   modalidad: Protección a personas (escolta)
   autoridad: Dirección General de Seguridad Privada y Colaboración Interinstitucional (SSC CDMX)
   fuenteUrl: https://data.ssc.cdmx.gob.mx/escoltas/empresas_registradas.html
-  fechaCorte: "2026-07-29"
+  fechaCorte: "2026-08-25"
 ---
 
 <p class="lede">Protectio Buró de Seguridad Privada y Logística está domiciliada en Uxmal 478, colonia Vértiz Narvarte, alcaldía Benito Juárez, y su perfil público la lista bajo una sola categoría: servicio de guardias de seguridad. Su razón social nombra la logística, y esa palabra abre el tema de esta ficha, la <strong>seguridad para operaciones logísticas</strong> en la Ciudad de México.</p>

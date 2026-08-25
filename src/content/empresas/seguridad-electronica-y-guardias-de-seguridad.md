@@ -27,7 +27,7 @@ padron:
   modalidad: Protección a personas (escolta)
   autoridad: Dirección General de Seguridad Privada y Colaboración Interinstitucional (SSC CDMX)
   fuenteUrl: https://data.ssc.cdmx.gob.mx/escoltas/empresas_registradas.html
-  fechaCorte: "2026-07-29"
+  fechaCorte: "2026-08-25"
 ---
 
 <p class="lede">GSM Seguridad tiene oficina en Lorenzo Boturini 14, piso 1, colonia Obrera, alcaldía Cuauhtémoc, y ofrece las dos mitades del mismo problema: <strong>seguridad electrónica y guardias de seguridad</strong> en la Ciudad de México. Su perfil público la lista como servicio de seguridad, servicio de guardias e instaladores de sistemas, con 4.0 sobre 89 reseñas en la fecha de corte.</p>

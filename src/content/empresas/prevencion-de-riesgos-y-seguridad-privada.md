@@ -27,7 +27,7 @@ padron:
   modalidad: Protección a personas (escolta)
   autoridad: Dirección General de Seguridad Privada y Colaboración Interinstitucional (SSC CDMX)
   fuenteUrl: https://data.ssc.cdmx.gob.mx/escoltas/empresas_registradas.html
-  fechaCorte: "2026-07-29"
+  fechaCorte: "2026-08-25"
 ---
 
 <p class="lede">Seguridad Privada Xoogan tiene domicilio en Calle Agujas 684, colonia El Vergel, alcaldía Iztapalapa, en la Ciudad de México, y su perfil público la lista bajo dos categorías: servicio de guardias de seguridad y servicio de seguridad. Lo que declara de sí misma cabe en una línea: ofrecer soluciones para prevenir y reducir el riesgo de exposición de bienes, personas o posesiones. Esa declaración es el punto de partida para hablar de <strong>prevención de riesgos y seguridad privada</strong> como lo que es, una disciplina con método.</p>

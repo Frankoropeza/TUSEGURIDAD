@@ -28,7 +28,7 @@ padron:
   modalidad: Protección a personas (escolta)
   autoridad: Dirección General de Seguridad Privada y Colaboración Interinstitucional (SSC CDMX)
   fuenteUrl: https://data.ssc.cdmx.gob.mx/escoltas/empresas_registradas.html
-  fechaCorte: "2026-07-29"
+  fechaCorte: "2026-08-25"
 ---
 
 <p class="lede">Seguridad Privada ON Guardias y Estrategias despacha desde Emerson 141C, colonia Chapultepec Morales, dentro de Polanco V Sección, alcaldía Miguel Hidalgo. Para quien evalúa <strong>contratar guardias de seguridad en CDMX</strong>, su perfil público la muestra bajo una sola categoría: servicio de guardias de seguridad.</p>

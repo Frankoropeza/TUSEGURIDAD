@@ -27,7 +27,7 @@ padron:
   modalidad: Protección a personas (escolta)
   autoridad: Dirección General de Seguridad Privada y Colaboración Interinstitucional (SSC CDMX)
   fuenteUrl: https://data.ssc.cdmx.gob.mx/escoltas/empresas_registradas.html
-  fechaCorte: "2026-07-29"
+  fechaCorte: "2026-08-25"
 ---
 
 <p class="lede">Logística Operativa presta servicios de <strong>custodia de mercancía en tránsito</strong> desde Carlos Pereyra 13, colonia Viaducto Piedad, alcaldía Iztacalco, Ciudad de México. Su perfil público la lista bajo cuatro categorías: servicio de logística, servicio de seguridad, servicio de guardias de seguridad y servicios de depósito de garantía.</p>

@@ -27,7 +27,7 @@ padron:
   modalidad: Protección a personas (escolta)
   autoridad: Dirección General de Seguridad Privada y Colaboración Interinstitucional (SSC CDMX)
   fuenteUrl: https://data.ssc.cdmx.gob.mx/escoltas/empresas_registradas.html
-  fechaCorte: "2026-07-29"
+  fechaCorte: "2026-08-25"
 ---
 
 <p class="lede">Seguridad Privada SEPRIM SF opera desde Cuajimalpa, alcaldía Cuajimalpa de Morelos, al poniente de la Ciudad de México, y se presenta en su perfil público como <strong>seguridad privada con registro REPSE</strong>: declara ser una empresa mexicana especializada en protección de bienes, con documentación conforme a la normativa de la Secretaría del Trabajo y de la Dirección General de Seguridad Privada. Ese mismo perfil la clasifica bajo servicio de seguridad.</p>

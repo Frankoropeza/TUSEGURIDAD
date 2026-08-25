@@ -26,7 +26,7 @@ padron:
   modalidad: Protección a personas (escolta)
   autoridad: Dirección General de Seguridad Privada y Colaboración Interinstitucional (SSC CDMX)
   fuenteUrl: https://data.ssc.cdmx.gob.mx/escoltas/empresas_registradas.html
-  fechaCorte: "2026-07-29"
+  fechaCorte: "2026-08-25"
 ---
 
 <p class="lede">ASI Seguridad Privada figura en este directorio de <strong>servicio de seguridad privada 24 horas</strong> con domicilio en Eje 4 Norte, Calle Poniente 128 número 113, colonia Lindavista Vallejo III Sección, alcaldía Gustavo A. Madero, Ciudad de México. Su perfil público le asigna una sola categoría, la más genérica del rubro: servicio de seguridad.</p>

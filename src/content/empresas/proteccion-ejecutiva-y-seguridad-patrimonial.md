@@ -29,7 +29,7 @@ padron:
   modalidad: Protección a personas (escolta)
   autoridad: Dirección General de Seguridad Privada y Colaboración Interinstitucional (SSC CDMX)
   fuenteUrl: https://data.ssc.cdmx.gob.mx/escoltas/empresas_registradas.html
-  fechaCorte: "2026-07-29"
+  fechaCorte: "2026-08-25"
 ---
 
 <p class="lede">Grupo Maya Protección Personal Privada y Empresarial opera desde Durango 223, colonia Roma Norte, alcaldía Cuauhtémoc, y vende dos cosas distintas bajo un mismo nombre: <strong>protección ejecutiva y seguridad patrimonial</strong> en la Ciudad de México. Su perfil público la clasifica como servicio de guardias de seguridad, con 3.6 sobre 107 reseñas en la fecha de corte.</p>

@@ -116,11 +116,15 @@ const ficha = [
           k: 'Padrón oficial',
           v: `Localizada en el padrón de ${e.padron.modalidad.toLowerCase()}${
             e.padron.expediente ? `, expediente ${e.padron.expediente}` : ''
-          }${e.padron.vigencia ? `, vigencia declarada al ${e.padron.vigencia}` : ''}`,
+          }${e.padron.vigencia ? `, vigencia declarada al ${e.padron.vigencia}` : ''}${
+            e.padron.nota ? `. ${e.padron.nota}` : ''
+          }`,
         }
       : {
           k: 'Padrón oficial',
-          v: `No localizada en el padrón de ${e.padron.modalidad.toLowerCase()} publicado por la autoridad. Ese padrón cubre una sola modalidad, así que la ausencia no implica falta de permiso en otra.`,
+          v: e.padron.nota
+            ? `No localizada en el padrón de ${e.padron.modalidad.toLowerCase()} en el corte vigente. ${e.padron.nota}`
+            : `No localizada en el padrón de ${e.padron.modalidad.toLowerCase()} publicado por la autoridad. Ese padrón cubre una sola modalidad, así que la ausencia no implica falta de permiso en otra.`,
         }),
 ].filter(Boolean) as { k: string; v: string }[];
 

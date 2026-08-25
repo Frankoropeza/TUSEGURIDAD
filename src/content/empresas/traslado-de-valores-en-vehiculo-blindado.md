@@ -27,7 +27,7 @@ padron:
   modalidad: Protección a personas (escolta)
   autoridad: Dirección General de Seguridad Privada y Colaboración Interinstitucional (SSC CDMX)
   fuenteUrl: https://data.ssc.cdmx.gob.mx/escoltas/empresas_registradas.html
-  fechaCorte: "2026-07-29"
+  fechaCorte: "2026-08-25"
 ---
 
 <p class="lede">Transportes Blindados Tameme aparece con domicilio en Arenal 41, colonia Esperanza, alcaldía Cuauhtémoc, en la franja de bodegas y talleres al sur del Viaducto, y su razón social apunta al <strong>traslado de valores en vehículo blindado</strong>. Su perfil público, sin embargo, la clasifica en tres categorías genéricas: servicio de seguridad, servicio de guardias de seguridad y servicio de mensajería.</p>

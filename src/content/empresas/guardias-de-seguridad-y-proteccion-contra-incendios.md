@@ -27,7 +27,7 @@ padron:
   modalidad: Protección a personas (escolta)
   autoridad: Dirección General de Seguridad Privada y Colaboración Interinstitucional (SSC CDMX)
   fuenteUrl: https://data.ssc.cdmx.gob.mx/escoltas/empresas_registradas.html
-  fechaCorte: "2026-07-29"
+  fechaCorte: "2026-08-25"
 ---
 
 <p class="lede">GG Seguridad Privada tiene domicilio en Eje 6 Sur Tintoreto 100, colonia Ciudad de los Deportes, alcaldía Benito Juárez. Su perfil público la lista en tres categorías, y una de ellas cambia la conversación: además de <strong>guardias de seguridad y protección contra incendios</strong>, aparece como servicio de seguridad, con 4.0 sobre 99 reseñas en la fecha de corte.</p>
