@@ -380,6 +380,53 @@ export const FOTOS: GrupoFotos[] = [
     alt: 'Gafas o goggle de protección ocular para bombero, compatible con casco estructural o forestal',
     total: 15,
   },
+
+  // ── investigacion-privada ─────────────────────────────────────────
+  // Fotografía ilustrativa del rubro, no documental: representa el tipo de
+  // trabajo (vigilancia, análisis de caso, consulta con el cliente), no una
+  // operación real de una empresa concreta del padrón.
+  {
+    slug: 'investigador-vigilancia-movil',
+    categoria: 'investigacion-privada',
+    titulo: 'Vigilancia móvil',
+    alt: 'Investigador privado documentando un seguimiento desde un vehículo de vigilancia',
+    total: 5,
+  },
+  {
+    slug: 'analisis-de-caso-investigacion',
+    categoria: 'investigacion-privada',
+    titulo: 'Análisis de caso',
+    alt: 'Investigador analizando el expediente de un caso con material documental y equipo de cómputo',
+    total: 5,
+  },
+  {
+    slug: 'evidencia-digital-en-dispositivo',
+    categoria: 'investigacion-privada',
+    titulo: 'Evidencia digital',
+    alt: 'Revisión de actividad digital en un teléfono móvil durante una investigación',
+    total: 4,
+  },
+  {
+    slug: 'consulta-con-el-cliente',
+    categoria: 'investigacion-privada',
+    titulo: 'Consulta con el cliente',
+    alt: 'Reunión de consulta entre el cliente y el investigador responsable del caso',
+    total: 4,
+  },
+  {
+    slug: 'seguimiento-en-campo',
+    categoria: 'investigacion-privada',
+    titulo: 'Seguimiento en campo',
+    alt: 'Documentación de actividad en la vía pública durante un operativo de investigación',
+    total: 6,
+  },
+  {
+    slug: 'mediacion-y-conflicto-de-pareja',
+    categoria: 'investigacion-privada',
+    titulo: 'Mediación y conflicto familiar',
+    alt: 'Conversación difícil de pareja, el escenario que antecede a una separación o mediación',
+    total: 2,
+  },
 ];
 
 export const TOTAL_FOTOS = FOTOS.reduce((n, g) => n + g.total, 0);

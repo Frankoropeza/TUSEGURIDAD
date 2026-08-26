@@ -8,7 +8,7 @@ intro: >-
   a un blindador, automotriz o arquitectónico, antes de comprometer una obra difícil de deshacer.
 icono: "🚗"
 destacada: false
-orden: 6
+orden: 7
 modalidadesEtiqueta: Qué se contrata en este rubro
 
 modalidades:

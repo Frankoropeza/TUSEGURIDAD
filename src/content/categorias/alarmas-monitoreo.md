@@ -8,7 +8,7 @@ intro: >-
   hacer algo. Aquí está el criterio para evaluar esa parte, que es la que casi nunca se cotiza.
 icono: "🚨"
 destacada: false
-orden: 4
+orden: 5
 modalidadesEtiqueta: Qué se contrata en este rubro
 
 modalidades:

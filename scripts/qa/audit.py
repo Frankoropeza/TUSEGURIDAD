@@ -95,11 +95,31 @@ for path in files:
     # con la salvedad de cotizacion final; esta documentado y es deliberado. Se
     # permite el formato de RANGO ("$450 - $900 MXN") y se sigue marcando el
     # precio cerrado suelto, que es el que no queremos inventado.
-    precios = re.findall(r'\$\s?[\d,.]+', body)
-    rangos = re.findall(r'\$\s?[\d,.]+\s*[-a\u2013]\s*\$\s?[\d,.]+', body)
-    sueltos = len(precios) - 2 * len(rangos)
+    #
+    # 2026-08-26 (alta de INFIEL MX): la regla marcaba tambien los precios que
+    # SI cumplen lo que ella pide. Ese cliente publica tarifa fija en su propio
+    # sitio y la ficha la reproduce atribuida y con fecha de corte, que es
+    # justo el caso que la regla queria permitir; marcarlo igual que un precio
+    # inventado vuelve a llenar el reporte de ruido.
+    #
+    # Ahora el chequeo es por parrafo: un precio cerrado solo se marca cuando su
+    # parrafo no dice de donde sale. Un precio sin atribucion sigue siendo
+    # hallazgo, que es lo que importa.
+    ATRIBUCION = re.compile(
+        r"(declarad|publicad|public[oa] |que publica|consultad|segun (su|el) sitio|"
+        r"tarifa[s]? (de|del|publicada)|precio[s]? (publico|publicos|declarado|declarados))",
+        re.IGNORECASE)
+    sueltos = 0
+    for parrafo in re.split(r'\n\s*\n', body):
+        precios = re.findall(r'\$\s?[\d,.]+', parrafo)
+        if not precios:
+            continue
+        rangos = re.findall(r'\$\s?[\d,.]+\s*[-a\u2013]\s*\$\s?[\d,.]+', parrafo)
+        n = len(precios) - 2 * len(rangos)
+        if n > 0 and not ATRIBUCION.search(parrafo):
+            sueltos += n
     if sueltos > 0:
-        errores.append(f"{path}: {sueltos} precio(s) cerrado(s) en el cuerpo: revisar que esten declarados por el cliente")
+        errores.append(f"{path}: {sueltos} precio(s) cerrado(s) sin atribucion en el cuerpo: revisar que esten declarados por el cliente")
 
     links = re.findall(r'\]\(([^)]+)\)', body)
     internos = [l for l in links if l.startswith('/')]

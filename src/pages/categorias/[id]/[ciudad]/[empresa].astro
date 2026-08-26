@@ -178,6 +178,11 @@ const anchoCompleto = conDetalle.length === 0;
 
 // JSON-LD LocalBusiness — sin aggregateRating ni reseñas fabricadas
 const jsonld: Record<string, unknown> = {
+  /* `name` va explícito porque el helper de SEO usa el `<title>` de la página,
+     y en las fichas de directorio ese título es una palabra clave del rubro,
+     no la razón social. El nombre de la entidad en los datos estructurados
+     tiene que ser el de la empresa. */
+  name: e.nombre,
   ...(e.telefono ? { telephone: e.telefono } : {}),
   ...(e.email ? { email: e.email } : {}),
   ...(e.sitio ? { sameAs: [e.sitio] } : {}),

@@ -9,7 +9,7 @@ intro: >-
   a un instalador antes de firmar.
 icono: "📹"
 destacada: false
-orden: 3
+orden: 4
 modalidadesEtiqueta: Qué se contrata en este rubro
 
 modalidades:

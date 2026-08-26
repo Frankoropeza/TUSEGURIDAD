@@ -8,7 +8,7 @@ intro: >-
   de ciberseguridad sin ser especialista, y qué obligaciones te quedan a ti aunque contrates.
 icono: "💻"
 destacada: false
-orden: 7
+orden: 8
 modalidadesEtiqueta: Qué se contrata en este rubro
 
 modalidades:

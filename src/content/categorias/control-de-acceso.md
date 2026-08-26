@@ -8,7 +8,7 @@ intro: >-
   una política que nadie escribió. Aquí está el criterio para evaluar a un integrador.
 icono: "🔐"
 destacada: false
-orden: 5
+orden: 6
 modalidadesEtiqueta: Qué se contrata en este rubro
 
 modalidades:
