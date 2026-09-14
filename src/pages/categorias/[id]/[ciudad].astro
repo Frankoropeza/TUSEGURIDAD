@@ -329,7 +329,7 @@ const stats = [
                 class="border-b border-ink/10 align-baseline"
                 data-fila={`${e.razonSocial} ${e.expediente}`.toLowerCase()}
               >
-                <td class="numeral py-4 pr-4 text-[13px] tabular-nums text-ink/40">{nn(i + 1)}</td>
+                <td class="numeral py-4 pr-4 text-[13px] tabular-nums text-ink/60">{nn(i + 1)}</td>
                 <td class="py-4 pr-4 text-[15px] leading-snug">
                   {e.razonSocial}
                   {e.personaFisica && (
@@ -344,7 +344,7 @@ const stats = [
                       {telefonoLegible(e.telefonos[0])}
                     </a>
                   ) : (
-                    <span class="text-ink/30">—</span>
+                    <span class="text-ink/60">—</span>
                   )}
                 </td>
               </tr>

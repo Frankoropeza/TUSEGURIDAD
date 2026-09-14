@@ -108,9 +108,9 @@ const totalPadron = padrones.reduce((n, x) => n + x.padron.total, 0);
   <section class="wrap pt-10 sm:pt-14">
     <nav class="label flex flex-wrap items-center gap-2" aria-label="Ruta">
       <a href="/" class="underline-hover">Inicio</a>
-      <span class="text-ink/30">/</span>
+      <span class="text-ink/60">/</span>
       <a href="/categorias/" class="underline-hover">Categorías</a>
-      <span class="text-ink/30">/</span>
+      <span class="text-ink/60">/</span>
       <span class="text-signal">{d.nombre}</span>
     </nav>
 
@@ -259,11 +259,11 @@ const totalPadron = padrones.reduce((n, x) => n + x.padron.total, 0);
                   ]}
                 >
                   <span class="flex items-baseline justify-between gap-2">
-                    <span class="label muted group-hover:text-paper/55">{c.data.abreviatura}</span>
+                    <span class="label muted group-hover:text-paper/60">{c.data.abreviatura}</span>
                     {n > 0 && <span class="label text-signal">{nn(n)}</span>}
                   </span>
                   <span class="display-sm mt-6 block">{c.data.nombre}</span>
-                  <span class="label muted group-hover:text-paper/55 mt-2 block">
+                  <span class="label muted group-hover:text-paper/60 mt-2 block">
                     {n > 0 ? `${n} ${n === 1 ? 'empresa' : 'empresas'}` : 'Sin padrón aún'}
                   </span>
                 </a>

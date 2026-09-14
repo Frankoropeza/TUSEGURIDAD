@@ -28,9 +28,21 @@ const signal = color(config, 'signal');
 const onInkSignal = styles.match(/\.on-ink \.text-signal\s*\{\s*color:\s*(#[0-9A-Fa-f]{6})/s)?.[1];
 const failures = [];
 
+const requiredUtilities = [
+  ['texto secundario sobre paper', /\.muted\s*\{\s*@apply text-ink\/60;/s],
+  ['texto secundario sobre ink', /\.on-ink \.muted\s*\{\s*@apply text-paper\/60;/s],
+  ['siglas sobre bone', /\.tarjeta-sigla\s*\{\s*@apply text-ink\/65;/s],
+  ['siglas al invertir tarjeta', /\.tarjeta:hover \.tarjeta-sigla\s*\{\s*@apply text-paper\/60;/s],
+  ['tarjetas inactivas', /\.tarjeta-inactiva h3,\s*\.tarjeta-inactiva \.tarjeta-flecha\s*\{\s*@apply text-ink\/60;/s],
+];
+
 if (contrast(signal, paper) < 4.5) failures.push(`signal sobre paper solo alcanza ${contrast(signal, paper).toFixed(2)}:1.`);
 if (!onInkSignal) failures.push('Falta un color signal específico para fondos ink.');
 else if (contrast(onInkSignal, ink) < 4.5) failures.push(`signal sobre ink solo alcanza ${contrast(onInkSignal, ink).toFixed(2)}:1.`);
+
+for (const [label, pattern] of requiredUtilities) {
+  if (!pattern.test(styles)) failures.push(`Falta contraste AA para ${label}.`);
+}
 
 if (failures.length) {
   console.error(`\nAccessibility color checks failed:\n${failures.map((failure) => `- ${failure}`).join('\n')}`);

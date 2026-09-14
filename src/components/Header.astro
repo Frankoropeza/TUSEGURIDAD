@@ -32,7 +32,7 @@ const items = SITE.nav.filter((i) => i.href !== '/');
           class="label group flex items-baseline gap-1.5"
           aria-current={isActive(item.href) ? 'page' : undefined}
         >
-          <span class:list={[isActive(item.href) ? 'text-signal' : 'text-ink/35']}>
+          <span class:list={[isActive(item.href) ? 'text-signal' : 'text-ink/60']}>
             {String(i + 1).padStart(2, '0')}
           </span>
           <span class="underline-hover">{item.label}</span>
@@ -52,7 +52,7 @@ const items = SITE.nav.filter((i) => i.href !== '/');
         <div class="absolute right-0 z-50 mt-2 w-64 border border-ink bg-paper">
           {SITE.nav.map((item, i) => (
             <a href={item.href} class="label flex items-baseline gap-2 border-b border-ink/15 px-4 py-3.5 hover:bg-ink hover:text-paper">
-              <span class="text-ink/35">{String(i).padStart(2, '0')}</span>
+              <span class="text-ink/60">{String(i).padStart(2, '0')}</span>
               {item.label}
             </a>
           ))}

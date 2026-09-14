@@ -138,7 +138,7 @@
   }
 
   .muted {
-    @apply text-ink/55;
+    @apply text-ink/60;
   }
 
   /* ---------- enlaces y botones ---------- */
@@ -177,7 +177,7 @@
   }
 
   .idx-row:hover .muted {
-    @apply text-paper/55;
+    @apply text-paper/60;
   }
 
   .idx-row:hover .idx-arrow {
@@ -194,7 +194,7 @@
   }
 
   .on-ink .muted {
-    @apply text-paper/55;
+    @apply text-paper/60;
   }
 
   /* El rojo de señal se oscurece para texto sobre papel; en fondo ink usa una
@@ -255,7 +255,7 @@
   }
 
   .tarjeta:hover .muted {
-    @apply text-paper/55;
+    @apply text-paper/60;
   }
 
   .tarjeta:hover .tarjeta-flecha {
@@ -270,13 +270,13 @@
   /* Lámina tipográfica para lo que no tiene fotografía: en vez de inventar una
      imagen, la sigla ocupa el mismo hueco y mantiene la rejilla homogénea. */
   .tarjeta-sigla {
-    @apply text-ink/25;
+    @apply text-ink/65;
     font-size: clamp(2.5rem, 6vw, 4.5rem);
     text-transform: uppercase;
   }
 
   .tarjeta:hover .tarjeta-sigla {
-    @apply text-paper/30;
+    @apply text-paper/60;
   }
 
   /* Rubro en preparación: se muestra, no se enlaza. */
@@ -290,7 +290,7 @@
 
   .tarjeta-inactiva h3,
   .tarjeta-inactiva .tarjeta-flecha {
-    @apply text-ink/40;
+    @apply text-ink/60;
   }
 
   /* Sin movimiento: la lámina no escala ni transiciona. La única respuesta al

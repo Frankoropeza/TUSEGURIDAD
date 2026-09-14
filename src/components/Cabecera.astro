@@ -14,7 +14,7 @@ const { ruta, indice, meta, titulo, lede, stats = [] } = Astro.props;
   <nav class="label flex flex-wrap items-center gap-2" aria-label="Ruta">
     {ruta.map((r, i) => (
       <>
-        {i > 0 && <span class="text-ink/30">/</span>}
+        {i > 0 && <span class="text-ink/60">/</span>}
         {r.href ? (
           <a href={r.href} class="underline-hover">{r.nombre}</a>
         ) : (
