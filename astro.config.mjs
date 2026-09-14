@@ -13,6 +13,9 @@ export default defineConfig({
   trailingSlash: 'ignore',
   build: {
     format: 'directory',
+    // El CSS compartido ocupa 6.9 KiB; para una carga estática se integra en
+    // el HTML y elimina la única solicitud que bloqueaba FCP/LCP en móvil.
+    inlineStylesheets: 'always',
   },
   integrations: [
     mdx(),
