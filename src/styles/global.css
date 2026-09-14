@@ -197,6 +197,12 @@
     @apply text-paper/55;
   }
 
+  /* El rojo de señal se oscurece para texto sobre papel; en fondo ink usa una
+     variante luminosa para conservar el contraste AA en etiquetas pequeñas. */
+  .on-ink .text-signal {
+    color: #ff6a47;
+  }
+
   /* ---------- fotografía ---------- */
   .foto-marco {
     @apply relative overflow-hidden border border-ink/15 bg-bone;

@@ -7,7 +7,7 @@ export default {
         paper: '#F3F1EC',
         bone: '#E7E3DA',
         ink: '#121211',
-        signal: '#E12D0B',
+        signal: '#C72A0A',
       },
       fontFamily: {
         sans: ['Archivo', 'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif'],

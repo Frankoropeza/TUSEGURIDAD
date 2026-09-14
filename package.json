@@ -9,6 +9,8 @@
     "build": "astro build",
     "preview": "astro preview",
     "check": "astro check",
+    "test:critical-rendering": "node scripts/check-critical-rendering.mjs",
+    "test:accessibility-colors": "node scripts/check-accessibility-colors.mjs",
     "astro": "astro"
   },
   "dependencies": {
