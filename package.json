@@ -11,7 +11,8 @@
     "check": "astro check",
     "test:critical-rendering": "node scripts/check-critical-rendering.mjs",
     "test:accessibility-colors": "node scripts/check-accessibility-colors.mjs",
-    "astro": "astro"
+    "astro": "astro",
+    "postbuild": "node scripts/sitemap-check.mjs"
   },
   "dependencies": {
     "@astrojs/mdx": "^6.0.0",
