@@ -90,6 +90,6 @@ Si dos propuestas tienen el mismo total y una no desglosa el cable, casi siempre
 
 En un condominio o una empresa, las cámaras rara vez trabajan solas. Funcionan mejor cuando alguien las mira o cuando quedan ligadas a un protocolo: el guardia que revisa el monitor en su rondín, el [control de acceso](/categorias/control-de-acceso/) que deja registro de quién entró o la [central de alarmas y monitoreo](/categorias/alarmas-monitoreo/) que recibe el evento. Si estás definiendo la vigilancia de un conjunto habitacional, la página de [seguridad para condominios](/servicios/seguridad-para-condominios/) explica cómo se reparte el trabajo entre guardias y tecnología.
 
-Para ver instaladores por estado, entra al rubro de [CCTV y videovigilancia](/categorias/cctv-videovigilancia/).
+Si todavía estás eligiendo equipo, la guía de [tipos de cámaras de seguridad](/guias/tipos-de-camaras-de-seguridad/) ordena las opciones por punto del predio y la de [DVR y NVR](/guias/dvr-y-nvr-que-son/) explica el grabador. Para ver instaladores por estado, entra al rubro de [CCTV y videovigilancia](/categorias/cctv-videovigilancia/).
 
 > TuSeguridad es un directorio y no instala cámaras ni participa en la relación comercial con el instalador. Lo que cada empresa declara en su ficha es declaración suya. Antes de pagar, pide la cotización desglosada, el cálculo de días de grabación y una prueba de noche con el sistema ya instalado.
