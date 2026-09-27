@@ -1,0 +1,6 @@
+# El despliegue de Cloudflare Pages también responde en *.pages.dev.
+# Esa copia no debe indexarse: la canónica vive en https://tuseguridad.mx
+https://tuseguridad.pages.dev/*
+  X-Robots-Tag: noindex
+https://:version.tuseguridad.pages.dev/*
+  X-Robots-Tag: noindex

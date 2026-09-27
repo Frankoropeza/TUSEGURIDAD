@@ -19,17 +19,14 @@ import {
   bloqueGuias,
   bloqueEmpresas,
   hrefEmpresa,
-  hrefEmpresaEn,
 } from '@lib/enlaces';
 
 /**
  * Ficha de empresa anidada bajo rubro y plaza, para que la URL espeje la
  * navegación (Inicio → Rubro → Estado → Empresa).
  *
- * Una empresa que opera en varias plazas o rubros genera varias variantes con
- * el mismo contenido. Solo la combinación principal (categoria + ciudad del
- * frontmatter) es indexable; el resto llevan rel=canonical hacia ella y salen
- * con noindex, de modo que el duplicado no compite consigo mismo.
+ * Cada empresa solo se genera en la combinación principal (categoria + ciudad
+ * del frontmatter), que es su URL canónica.
  */
 export const getStaticPaths = (async () => {
   const [empresas, categorias] = await Promise.all([
@@ -38,18 +35,14 @@ export const getStaticPaths = (async () => {
   ]);
   const activos = new Set(categorias.filter((c) => c.data.destacada).map((c) => c.id));
 
-  return empresas.flatMap((empresa) => {
-    const rubros = [...new Set([empresa.data.categoria, ...empresa.data.categorias])].filter((r) =>
-      activos.has(r)
-    );
-    const plazas = [...new Set([empresa.data.ciudad, ...empresa.data.ciudades])];
-    return rubros.flatMap((rubro) =>
-      plazas.map((plaza) => ({
-        params: { id: rubro, ciudad: plaza, empresa: empresa.id },
-        props: { empresa, rubro, plaza },
-      }))
-    );
-  });
+  return empresas.flatMap((empresa) =>
+    activos.has(empresa.data.categoria)
+      ? [{
+          params: { id: empresa.data.categoria, ciudad: empresa.data.ciudad, empresa: empresa.id },
+          props: { empresa, rubro: empresa.data.categoria, plaza: empresa.data.ciudad },
+        }]
+      : []
+  );
 }) satisfies GetStaticPaths;
 
 const { empresa, rubro, plaza } = Astro.props;
@@ -68,9 +61,7 @@ const plazas = ciudadesDe(empresa);
 const ciudad = ciudadPorId.get(e.ciudad);
 const rubrosActivos = new Set(d.categorias.filter((c) => c.data.destacada).map((c) => c.id));
 
-const path = hrefEmpresaEn(empresa, rubro, plaza);
-const canonicalPath = hrefEmpresa(empresa);
-const esCanonica = path === canonicalPath;
+const path = hrefEmpresa(empresa);
 
 const nombreRubro = catPorId.get(rubro) ?? rubro;
 const nombrePlaza = ciudadPorId.get(plaza) ?? plaza;
@@ -221,8 +212,7 @@ const jsonld: Record<string, unknown> = {
   title={e.tituloSeo ?? e.nombre}
   description={e.descripcion}
   path={path}
-  canonicalPath={canonicalPath}
-  noindex={!esCanonica || e.demo}
+  noindex={e.demo}
   pageType="business"
   jsonld={jsonld}
   breadcrumbs={[

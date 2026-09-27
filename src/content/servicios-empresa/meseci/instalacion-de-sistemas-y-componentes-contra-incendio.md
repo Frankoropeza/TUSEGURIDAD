@@ -3,7 +3,7 @@ empresa: meseci
 slug: instalacion-de-sistemas-y-componentes-contra-incendio
 nombre: Instalación de sistemas y componentes contra incendio
 titulo: Instalación de gabinetes, hidrantes y sistemas contra incendio en CDMX y Edomex
-tituloSeo: Instalación de sistemas contra incendio, CDMX
+tituloSeo: Gabinetes e hidrantes contra incendio, CDMX
 descripcion: "Instalación de gabinetes, hidrantes, mangueras y componentes de bronce para sistemas fijos contra incendio, con montaje por proyecto en CDMX y Edomex."
 orden: 4
 titulos:

@@ -18,7 +18,7 @@ import {
   bloqueCiudades,
   bloqueServicios,
   bloqueGuias,
-  hrefEmpresaEn,
+  hrefEmpresa,
 } from '@lib/enlaces';
 
 export const getStaticPaths = (async () => {
@@ -70,7 +70,7 @@ const nn = (n: number): string => String(n).padStart(2, '0');
     ]}
     indice="Plaza"
     meta={c.estado}
-    titulo={c.nombre}
+    titulo={`Empresas de seguridad en ${c.nombre}`}
     lede={c.descripcion}
     stats={[
       { k: 'Empresas', v: nn(empresas.length) },
@@ -93,7 +93,7 @@ const nn = (n: number): string => String(n).padStart(2, '0');
         categorias={d.categorias}
         ciudades={d.ciudades}
         ciudadFija={ciudad.id}
-        href={(e) => hrefEmpresaEn(e, e.data.categoria, ciudad.id)}
+        href={(e) => hrefEmpresa(e)}
       />
     ) : (
       <div class="rule mt-12 py-14">

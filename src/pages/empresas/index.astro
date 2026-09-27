@@ -19,7 +19,7 @@ const nn = (n: number): string => String(n).padStart(2, '0');
 ---
 
 <BaseLayout
-  title="Padrón de empresas"
+  title="Padrón de empresas de seguridad en México"
   description="Padrón de empresas de seguridad publicadas en el directorio, con rubro, ciudad y estado de verificación."
   path="/empresas"
   pageType="itemlist"
@@ -32,7 +32,7 @@ const nn = (n: number): string => String(n).padStart(2, '0');
     ruta={[{ nombre: 'Inicio', href: '/' }, { nombre: 'Empresas' }]}
     indice="Padrón"
     meta={`${nn(d.empresas.length)} publicadas · ${nn(verificadas)} verificadas`}
-    titulo="Padrón"
+    titulo="Padrón de empresas de seguridad"
     lede="Todas las empresas publicadas en el directorio. Publicamos una ficha solo cuando podemos confirmar registro y datos de contacto; las verificadas llevan marca."
     stats={[
       { k: 'Empresas', v: nn(d.empresas.length) },

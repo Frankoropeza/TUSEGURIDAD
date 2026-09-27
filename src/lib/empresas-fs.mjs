@@ -15,6 +15,25 @@ const campo = (fm, clave) => {
   return m ? m[1].trim().replace(/^["']|["']$/g, '') : null;
 };
 
+/** Lee listas YAML en línea (`[a, b]`) o en bloque con guiones. */
+export const campoLista = (fm, clave) => {
+  const enLinea = fm.match(new RegExp(`^${clave}:\\s*\\[(.*)\\]\\s*$`, 'm'));
+  if (enLinea) {
+    return enLinea[1]
+      .split(',')
+      .map((x) => x.trim().replace(/^["']|["']$/g, ''))
+      .filter(Boolean);
+  }
+
+  const enBloque = fm.match(new RegExp(`^${clave}:\\s*\\n((?:[\\t ]+-\\s*[^\\n]+\\n?)*)`, 'm'));
+  return enBloque
+    ? enBloque[1]
+        .split('\n')
+        .map((x) => x.replace(/^[\t ]*-\s*/, '').trim().replace(/^["']|["']$/g, ''))
+        .filter(Boolean)
+    : [];
+};
+
 export function rutasCanonicasEmpresas() {
   let archivos = [];
   try {
@@ -77,16 +96,6 @@ export function rutasCrucesVacios() {
     const texto = readFileSync(join(dir, archivo), 'utf-8');
     return texto.split('---')[1] ?? '';
   };
-  const campoLista = (fm, clave) => {
-    // ["a", "b"] o [] en una sola línea del frontmatter
-    const m = fm.match(new RegExp(`^${clave}:\\s*\\[(.*)\\]\\s*$`, 'm'));
-    if (!m) return [];
-    return m[1]
-      .split(',')
-      .map((x) => x.trim().replace(/^["']|["']$/g, ''))
-      .filter(Boolean);
-  };
-
   let archivosCategorias = [];
   let archivosCiudades = [];
   let archivosEmpresas = [];

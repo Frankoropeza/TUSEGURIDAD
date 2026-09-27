@@ -89,10 +89,6 @@ export const zonasDe = (e: Empresa, ciudad?: string): string[] =>
 export const hrefEmpresa = (e: Empresa): string =>
   `/categorias/${e.data.categoria}/${e.data.ciudad}/${e.id}/`;
 
-/** URL de la ficha dentro de un cruce concreto (para navegación coherente). */
-export const hrefEmpresaEn = (e: Empresa, rubro: string, ciudad: string): string =>
-  `/categorias/${rubro}/${ciudad}/${e.id}/`;
-
 /** Empresas que pertenecen a un rubro. */
 export const empresasDeRubro = (d: Datos, rubro: string) =>
   d.empresas.filter((e) => rubrosDe(e).includes(rubro));

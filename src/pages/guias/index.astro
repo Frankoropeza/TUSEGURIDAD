@@ -14,7 +14,7 @@ const fecha = (x: Date): string =>
 ---
 
 <BaseLayout
-  title="Guías"
+  title="Guías para contratar seguridad privada"
   description="Guías prácticas para contratar servicios de seguridad con criterio: permisos, normativa, verificación y señales de alerta."
   path="/guias"
   pageType="itemlist"
@@ -27,7 +27,7 @@ const fecha = (x: Date): string =>
     ruta={[{ nombre: 'Inicio', href: '/' }, { nombre: 'Guías' }]}
     indice="Documentación"
     meta={`${nn(d.guias.length)} ${d.guias.length === 1 ? 'publicada' : 'publicadas'}`}
-    titulo="Guías"
+    titulo="Guías de seguridad privada"
     lede="Material de consulta para contratar seguridad con criterio: qué permisos exigir, cómo verificarlos y qué señales indican que conviene buscar otro proveedor."
     stats={[{ k: 'Publicadas', v: nn(d.guias.length) }]}
   />

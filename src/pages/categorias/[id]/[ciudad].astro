@@ -17,7 +17,7 @@ import {
   bloqueCiudades,
   bloqueServicios,
   bloqueGuias,
-  hrefEmpresaEn,
+  hrefEmpresa,
 } from '@lib/enlaces';
 import {
   padronDe,
@@ -228,7 +228,7 @@ const stats = [
             categorias={d.categorias}
             ciudades={d.ciudades}
             rubroFijo={categoria.id} ciudadFija={ciudad.id}
-            href={(e) => hrefEmpresaEn(e, categoria.id, ciudad.id)}
+            href={(e) => hrefEmpresa(e)}
           />
         </div>
       </>
