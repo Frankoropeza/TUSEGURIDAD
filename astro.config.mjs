@@ -10,6 +10,13 @@ const crucesVacios = rutasCrucesVacios();
 // https://astro.build/config
 export default defineConfig({
   site: SITE.url,
+  cacheDir: '.astro/cache',
+  vite: {
+    // El worktree puede no tener permiso para invalidar node_modules/.vite.
+    // Mantener esta caché generada dentro del árbol del proyecto permite
+    // compilar sin modificar dependencias compartidas.
+    cacheDir: '.astro/vite',
+  },
   trailingSlash: 'ignore',
   build: {
     format: 'directory',
