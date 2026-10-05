@@ -1,6 +1,6 @@
 ---
 nombre: Alarmas y monitoreo
-descripcion: Sistemas de alarma contra intrusión, sensores, sirenas y centrales de monitoreo 24/7 con respuesta a eventos.
+descripcion: "Encuentra empresas de alarmas y monitoreo: sistemas contra intrusión, sensores, sirenas y centrales con respuesta a eventos."
 tituloSeo: Empresas de alarmas y monitoreo en México
 intro: >-
   Una alarma vale lo que vale su respuesta. El equipo detecta, pero lo que en realidad estás

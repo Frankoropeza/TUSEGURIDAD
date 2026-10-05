@@ -1,6 +1,6 @@
 ---
 nombre: Investigación privada
-descripcion: "Investigadores privados, peritos en informática forense y despachos de investigación patrimonial, laboral y familiar. Servicio regulado, con autorización por modalidad."
+descripcion: "Encuentra investigadores privados y peritos forenses para asuntos patrimoniales, laborales y familiares; consulta su autorización por modalidad."
 tituloSeo: Investigadores privados en México
 intro: >-
   Contratar a un investigador privado es de las decisiones que se toman con prisa y con

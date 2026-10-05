@@ -4,7 +4,7 @@ abreviatura: "YUC"
 capital: "Mérida"
 region: "Sureste"
 estado: "Yucatán"
-descripcion: "Empresas de seguridad privada en Yucatán y marco normativo estatal aplicable."
+descripcion: "Consulta empresas de seguridad privada en Yucatán y revisa el marco normativo estatal aplicable antes de contratar un proveedor."
 orden: 31
 normativa:
   ley: "Ley para la Prestación de Servicios de Seguridad Privada en el Estado de Yucatán"

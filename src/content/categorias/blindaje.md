@@ -1,6 +1,6 @@
 ---
 nombre: Blindaje
-descripcion: Blindaje automotriz, arquitectónico y de puntos vulnerables con niveles de protección certificados.
+descripcion: Encuentra empresas de blindaje automotriz, arquitectónico y de puntos vulnerables con niveles de protección certificados.
 tituloSeo: Empresas de blindaje en México
 intro: >-
   El blindaje se compra por nivel de protección, y ese nivel debería salir de una evaluación de

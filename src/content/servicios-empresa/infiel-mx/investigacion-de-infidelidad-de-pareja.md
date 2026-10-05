@@ -4,7 +4,7 @@ slug: investigacion-de-infidelidad-de-pareja
 nombre: Investigación de infidelidad de pareja
 titulo: Investigación de infidelidad de pareja con operativo de campo y reporte documentado
 tituloSeo: Investigador privado de infidelidad, CDMX
-descripcion: "Operativo de campo para documentar sospecha de infidelidad: bitácora horaria, material fotográfico y de video, y reporte ejecutivo de cierre. Tarifa pública desde MX$18,000."
+descripcion: "Investigación de infidelidad con operativo de campo, bitácora horaria, material fotográfico y de video, y reporte ejecutivo de cierre."
 servicio: investigacion-de-infidelidad
 orden: 1
 titulos:

@@ -1,6 +1,6 @@
 ---
 nombre: Ciberseguridad
-descripcion: "Protección de datos, redes y sistemas: pentesting, respuesta a incidentes, firewall y seguridad gestionada."
+descripcion: "Encuentra empresas de ciberseguridad para proteger datos, redes y sistemas con pentesting, firewall y respuesta a incidentes."
 tituloSeo: Empresas de ciberseguridad en México
 intro: >-
   La seguridad de la información y la física resuelven el mismo problema con otro vocabulario:

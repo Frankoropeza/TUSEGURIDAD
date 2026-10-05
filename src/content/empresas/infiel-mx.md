@@ -1,6 +1,6 @@
 ---
 nombre: INFIEL MX
-descripcion: "Plataforma nacional de investigación privada especializada en infidelidad y conflicto de pareja: investigadores, peritos forenses, abogados de familia, psicólogos y mediadores, con tarifa pública."
+descripcion: "Investigación privada para casos de infidelidad y conflicto de pareja, con investigadores, peritos forenses y especialistas de apoyo."
 categoria: investigacion-privada
 categorias: []
 ciudad: cdmx
