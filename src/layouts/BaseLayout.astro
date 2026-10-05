@@ -84,6 +84,8 @@ const seo = buildSeo(Astro.props);
     <slot name="head" />
   </head>
   <body class="flex min-h-screen flex-col">
+    {/* Cloudflare Email Obfuscation reescribe los mailto: a /cdn-cgi/l/email-protection (404 para bots, Ahrefs lo marca como enlace roto). email_off lo desactiva en todo el body. */}
+    <Fragment set:html="<!--email_off-->" />
     <Header />
     {sidebar ? (
       <main class="flex-1 con-sidebar">
@@ -105,5 +107,6 @@ const seo = buildSeo(Astro.props);
       </main>
     )}
     <Footer />
+    <Fragment set:html="<!--/email_off-->" />
   </body>
 </html>
