@@ -1,4 +1,5 @@
 ---
+tituloSeo: "Proyecto Red: extintores y equipo contra incendio CDMX"
 nombre: Proyecto Red
 descripcion: "Equipo contra incendios en CDMX y Estado de México: extintores, gabinetes, mangueras y sistemas fijos, con recarga, mantenimiento e instalación."
 categoria: seguridad-contra-incendios

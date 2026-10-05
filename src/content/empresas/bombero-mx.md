@@ -1,4 +1,5 @@
 ---
+tituloSeo: "BOMBERO.MX: equipo contra incendios en CDMX"
 nombre: BOMBERO.MX
 descripcion: "Equipo de protección personal para bomberos en CDMX: trajes NFPA 1971, cascos, guantes, botas y capuchas, más mantenimiento SCBA y capacitación NFPA."
 categoria: seguridad-contra-incendios

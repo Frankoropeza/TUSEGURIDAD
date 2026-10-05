@@ -1,4 +1,5 @@
 ---
+tituloSeo: "Gama de México: equipo contra incendios en CDMX"
 nombre: GAMA DE MÉXICO
 descripcion: "Componentes contra incendio en CDMX y Querétaro: monitores, boquillas, válvulas, mangueras, gabinetes e hidrantes. Distribuidor Elkhart Brass desde 2010."
 categoria: seguridad-contra-incendios
