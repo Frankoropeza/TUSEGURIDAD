@@ -437,6 +437,63 @@ export const FOTOS: GrupoFotos[] = [
     alt: 'Almacén, entrega coordinada o soporte técnico posventa de equipo contra incendio',
     total: 5,
   },
+  // ── FIREFIGHTER.COM.MX (firefighter.com.mx) — scripts/convertir_firefightercommx.mjs
+  {
+    slug: 'epp-bombero-firefighter-com-mx',
+    categoria: 'seguridad-contra-incendios',
+    titulo: 'EPP estructural',
+    alt: 'Bombero con traje estructural, casco, capucha y protección facial, o equipo de bombero en el vestidor de la estación',
+    total: 7,
+  },
+  {
+    slug: 'respiracion-firefighter-com-mx',
+    categoria: 'seguridad-contra-incendios',
+    titulo: 'Respiración autónoma',
+    alt: 'Bomberos con equipo de respiración autónoma, máscaras faciales o servicio técnico a un equipo de aire comprimido',
+    total: 5,
+  },
+  {
+    slug: 'extintores-firefighter-com-mx',
+    categoria: 'seguridad-contra-incendios',
+    titulo: 'Extintores por clase de fuego',
+    alt: 'Extintor portátil instalado en oficina, centro de datos o planta industrial, o descarga de práctica con polvo químico seco',
+    total: 10,
+  },
+  {
+    slug: 'rescate-firefighter-com-mx',
+    categoria: 'seguridad-contra-incendios',
+    titulo: 'Herramientas de rescate',
+    alt: 'Herramienta hidráulica o manual de rescate en extricación vehicular o en el compartimento de la unidad',
+    total: 6,
+  },
+  {
+    slug: 'forestal-firefighter-com-mx',
+    categoria: 'seguridad-contra-incendios',
+    titulo: 'Equipo forestal',
+    alt: 'Brigadista forestal con equipo de protección, casco forestal, herramienta manual, mochila aspersora o motosierra',
+    total: 5,
+  },
+  {
+    slug: 'deteccion-firefighter-com-mx',
+    categoria: 'seguridad-contra-incendios',
+    titulo: 'Detección y alarma',
+    alt: 'Detector de humo, calor o gas, panel de control o dispositivo de notificación de alarma contra incendio',
+    total: 6,
+  },
+  {
+    slug: 'sistemas-fijos-firefighter-com-mx',
+    categoria: 'seguridad-contra-incendios',
+    titulo: 'Hidrantes y sistemas fijos',
+    alt: 'Cuarto de bombas, gabinetes, colector de válvulas, rociador automático o boquilla de supresión con agente limpio',
+    total: 7,
+  },
+  {
+    slug: 'senalizacion-firefighter-com-mx',
+    categoria: 'seguridad-contra-incendios',
+    titulo: 'Señalización y evacuación',
+    alt: 'Señal de salida de emergencia, alumbrado de emergencia, botiquín o señal de advertencia de riesgo',
+    total: 6,
+  },
 
   // ── investigacion-privada ─────────────────────────────────────────
   // Fotografía ilustrativa del rubro, no documental: representa el tipo de
