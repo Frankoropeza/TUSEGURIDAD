@@ -3,6 +3,7 @@ import type { GetStaticPaths } from 'astro';
 import BaseLayout from '@layouts/BaseLayout.astro';
 import Cabecera from '@components/Cabecera.astro';
 import Relacionados from '@components/Relacionados.astro';
+import Faq from '@components/Faq.astro';
 import { getCollection, render } from 'astro:content';
 import {
   cargarDatos,
@@ -11,6 +12,7 @@ import {
   bloqueServicios,
   bloqueGuias,
   bloqueEmpresas,
+  hrefEmpresa,
 } from '@lib/enlaces';
 
 export const getStaticPaths = (async () => {
@@ -33,6 +35,13 @@ const legible = (x: Date): string =>
   x.toLocaleDateString('es-MX', { year: 'numeric', month: 'long', day: 'numeric' });
 
 const rubroPrincipal = g.rubros[0];
+
+/* Fichas relacionadas: la guía las enlaza y la ficha devuelve el enlace en
+   «Guías sobre <empresa>». Solo las que existen, para no generar rotos. */
+const todasEmpresas = await getCollection('empresas');
+const relacionadas = g.empresas
+  .map((id) => todasEmpresas.find((e) => e.id === id))
+  .filter((e): e is NonNullable<typeof e> => Boolean(e));
 ---
 
 <BaseLayout
@@ -40,6 +49,7 @@ const rubroPrincipal = g.rubros[0];
   description={g.descripcion}
   path={path}
   pageType="article"
+  faq={g.faq}
   jsonld={{
     datePublished: iso(g.fecha),
     ...(g.actualizado ? { dateModified: iso(g.actualizado) } : {}),
@@ -72,6 +82,20 @@ const rubroPrincipal = g.rubros[0];
         <div class="prose-content">
           <Content />
         </div>
+        {g.fuentes.length > 0 && (
+          <div class="mt-14">
+            <p class="label">[ Fuentes consultadas ]</p>
+            <ul class="mt-4 border-b border-ink/20">
+              {g.fuentes.map((f) => (
+                <li class="rule py-3">
+                  <a href={f.url} rel="noopener nofollow" target="_blank" class="text-sm leading-snug underline-hover">
+                    {f.titulo} ↗
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </div>
+        )}
       </article>
 
       <aside class="col-span-12 lg:col-span-3 lg:col-start-10">
@@ -116,6 +140,22 @@ const rubroPrincipal = g.rubros[0];
           </>
         )}
 
+        {relacionadas.length > 0 && (
+          <>
+            <p class="label mt-10">[ Empresa relacionada ]</p>
+            <ul class="mt-4 border-b border-ink/20">
+              {relacionadas.map((e) => (
+                <li class="rule">
+                  <a href={hrefEmpresa(e)} class="flex items-baseline justify-between gap-3 py-3">
+                    <span class="text-sm leading-snug underline-hover">Ficha de {e.data.nombre}</span>
+                    <span class="label muted">→</span>
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </>
+        )}
+
         <div class="rule mt-10 pt-6">
           <p class="text-sm leading-snug">¿Buscas proveedor? Consulta el padrón del directorio.</p>
           <a href="/empresas/" class="cta-solid mt-6">Ver padrón →</a>
@@ -124,8 +164,10 @@ const rubroPrincipal = g.rubros[0];
     </div>
   </section>
 
+  <Faq preguntas={g.faq} indice="02" titulo="Preguntas frecuentes" />
+
   <Relacionados
-    indice="02"
+    indice={g.faq.length > 0 ? '03' : '02'}
     bloques={[
       bloqueGuias(d, { excluir: guia.id, limite: 5, titulo: 'Otras guías' }),
       bloqueRubros(d, { titulo: 'Rubros' }),

@@ -405,6 +405,7 @@ const jsonld: Record<string, unknown> = {
       bloqueEmpresas(d, { excluir: empresa.id, rubro: e.categoria, titulo: 'Mismo rubro', limite: 5 }),
       bloqueEmpresas(d, { excluir: empresa.id, ciudad: e.ciudad, titulo: 'Misma ciudad', limite: 5 }),
       bloqueRubros(d, { titulo: 'Otros rubros' }),
+      bloqueGuias(d, { empresa: empresa.id, limite: 5, titulo: `Guías sobre ${e.nombre}` }),
       bloqueGuias(d, { soloRubro: e.categoria, limite: 4, titulo: 'Guías del rubro' }),
       bloqueServicios(d, { soloRubro: e.categoria, titulo: 'Servicios' }),
       bloqueCiudades(d, { excluir: e.ciudad, titulo: 'Otras ciudades' }),

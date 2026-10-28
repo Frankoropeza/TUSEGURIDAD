@@ -184,7 +184,7 @@ export function bloqueServicios(
 
 export function bloqueGuias(
   d: Datos,
-  opts: { excluir?: string; soloRubro?: string; limite?: number; titulo?: string } = {}
+  opts: { excluir?: string; soloRubro?: string; empresa?: string; limite?: number; titulo?: string } = {}
 ): BloqueEnlaces {
   const fecha = (x: Date) =>
     `${x.getFullYear()}.${String(x.getMonth() + 1).padStart(2, '0')}.${String(x.getDate()).padStart(2, '0')}`;
@@ -195,6 +195,7 @@ export function bloqueGuias(
     enlaces: d.guias
       .filter((g) => g.id !== opts.excluir)
       .filter((g) => !opts.soloRubro || g.data.rubros.includes(opts.soloRubro))
+      .filter((g) => !opts.empresa || (g.data.empresas ?? []).includes(opts.empresa))
       .slice(0, opts.limite ?? 6)
       .map((g) => ({ titulo: g.data.titulo, href: `/guias/${g.id}/`, meta: fecha(g.data.fecha) })),
   };

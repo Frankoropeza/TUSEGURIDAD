@@ -357,6 +357,20 @@ const guias = defineCollection({
     tags: z.array(z.string()).default([]),
     /** slugs de rubros tratados en la guía — habilita el enlazado interno */
     rubros: z.array(z.string()).default([]),
+    /**
+     * Palabra clave principal (investigada en Ahrefs). No se pinta: documenta la
+     * intención de la página y la usa scripts/qa/audit_guias.py.
+     */
+    palabraClave: z.string().optional(),
+    /**
+     * Fichas de empresa relacionadas (ids de la colección `empresas`). La guía
+     * enlaza a la ficha y la ficha muestra la guía en «Guías sobre <empresa>».
+     */
+    empresas: z.array(z.string()).default([]),
+    /** preguntas frecuentes reales de la guía → bloque visible + JSON-LD FAQPage */
+    faq: z.array(z.object({ q: z.string(), a: z.string() })).default([]),
+    /** fuentes oficiales consultadas, pintadas al final de la guía */
+    fuentes: z.array(z.object({ titulo: z.string(), url: z.url() })).default([]),
     draft: z.boolean().default(false),
   }),
 });
