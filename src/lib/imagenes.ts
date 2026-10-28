@@ -380,6 +380,63 @@ export const FOTOS: GrupoFotos[] = [
     alt: 'Gafas o goggle de protección ocular para bombero, compatible con casco estructural o forestal',
     total: 15,
   },
+  // ── FIREFIGHTERS MX (firefighters.mx) — scripts/convertir_firefightersmx.mjs
+  {
+    slug: 'equipo-bombero-firefighters-mx',
+    categoria: 'seguridad-contra-incendios',
+    titulo: 'Equipo de protección para bomberos',
+    alt: 'Traje estructural, casco, guantes, botas o capucha de bombero de un proveedor de equipo contra incendio',
+    total: 10,
+  },
+  {
+    slug: 'respiracion-y-rescate-firefighters-mx',
+    categoria: 'seguridad-contra-incendios',
+    titulo: 'Respiración autónoma y rescate',
+    alt: 'Equipo de respiración autónoma, cámara térmica, herramienta de rescate o traje HAZMAT para cuerpos de bomberos',
+    total: 10,
+  },
+  {
+    slug: 'sistemas-contra-incendio-firefighters-mx',
+    categoria: 'seguridad-contra-incendios',
+    titulo: 'Sistemas contra incendio',
+    alt: 'Sistema contra incendio fijo: rociadores, cuarto de bombas, detección y alarma, hidrante o supresión con agente limpio',
+    total: 9,
+  },
+  {
+    slug: 'extintores-firefighters-mx',
+    categoria: 'seguridad-contra-incendios',
+    titulo: 'Extintores y su mantenimiento',
+    alt: 'Extintor portátil o sobre ruedas (PQS, CO2, agua, espuma AFFF, agente limpio o clase K) o su servicio de mantenimiento',
+    total: 11,
+  },
+  {
+    slug: 'capacitacion-brigadas-firefighters-mx',
+    categoria: 'seguridad-contra-incendios',
+    titulo: 'Capacitación y brigadas',
+    alt: 'Brigadistas o bomberos durante una práctica de combate de incendio con fuego controlado',
+    total: 5,
+  },
+  {
+    slug: 'auditoria-y-expediente-firefighters-mx',
+    categoria: 'seguridad-contra-incendios',
+    titulo: 'Auditoría y expediente técnico',
+    alt: 'Revisión técnica de equipo contra incendio en sitio, integración de expediente o preparación de una cotización formal',
+    total: 6,
+  },
+  {
+    slug: 'cobertura-nacional-firefighters-mx',
+    categoria: 'seguridad-contra-incendios',
+    titulo: 'Cobertura nacional',
+    alt: 'Estación de bomberos, unidad aeroportuaria o zona urbana e industrial de México atendida por un directorio nacional',
+    total: 6,
+  },
+  {
+    slug: 'logistica-y-posventa-firefighters-mx',
+    categoria: 'seguridad-contra-incendios',
+    titulo: 'Logística y posventa',
+    alt: 'Almacén, entrega coordinada o soporte técnico posventa de equipo contra incendio',
+    total: 5,
+  },
 
   // ── investigacion-privada ─────────────────────────────────────────
   // Fotografía ilustrativa del rubro, no documental: representa el tipo de
