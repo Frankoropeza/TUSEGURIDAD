@@ -181,15 +181,13 @@ La cifra es mayor que la de otros directorios del sector porque el criterio es d
 
 El proceso de compra que publica tiene tres pasos: solicitud por teléfono o WhatsApp sin necesidad de conocer el modelo exacto, propuesta técnica con especificaciones, certificaciones aplicables, precio y plazo, y entrega con documentación en cualquier estado. El formulario de contacto distingue siete motivos, entre ellos documentación para licitación, mantenimiento y pruebas, capacitación e instalación, y corrección del directorio de estaciones. Para dependencias de gobierno y clientes recurrentes, el crédito queda sujeto a aprobación.
 
-## Qué declara y qué no reproduce esta ficha
+## Lo que declara la empresa
 
-FIREFIGHTER.COM.MX publica reclamos que esta ficha **no reproduce como hechos**, por la regla que se aplica a todo el directorio: sin folio, número de registro o documento que los respalde, se quedan fuera.
+FIREFIGHTER.COM.MX declara **más de 50 años de experiencia**, ser **distribuidor autorizado de MSA Safety, 3M Scott, Holmatro y Amerex** y contar con **más de 500 productos** en catálogo con su certificación. No publica fecha de fundación, razón social ni las cartas de distribución, así que se presentan aquí como declaraciones de la empresa y no como hechos verificados por este directorio.
 
-Quedan fuera los **más de 50 años de experiencia**, que no se acompañan de fecha de fundación ni de razón social; la condición de **distribuidor autorizado** de MSA Safety, Scott, Holmatro y Amerex, que se acredita con carta del fabricante; los **más de 500 productos certificados** y las **certificaciones UL y FM** presentadas en bloque, sin número de listado por producto; la plantilla de **ingenieros certificados**, sin nombres ni cédulas; y el sello de **equipo certificado CONAFOR** de la línea forestal, que no se acompaña del documento que lo respalde.
+Tampoco se reproducen los **casos de trabajo** de su portada: son testimonios anonimizados por cargo y región, sin nombre de empresa ni de persona, que no admiten comprobación externa.
 
-Tampoco se reproducen los **casos de trabajo** que muestra el sitio. Son testimonios con iniciales, cargo y región, sin nombre de empresa ni de persona, y no admiten comprobación externa.
-
-**Tres observaciones de utilidad para el comprador.** La primera: el sitio cita normas distintas para una misma línea en secciones diferentes, como NFPA 1970 y NFPA 1981 para los equipos de respiración o NFPA 1977 y NFPA 1950 para el equipo forestal; ambas parejas describen la misma familia antes y después de la consolidación de 2024 y 2025, y la que debe constar en la cotización es la edición con que está certificado el modelo ofertado. La segunda: el rango de extintores de polvo químico seco aparece como de 1 a 136 kg en una sección y de 6 a 50 kg en otra; conviene confirmar la capacidad exacta disponible. La tercera: el encabezado del sitio muestra el 911 de forma destacada, pero la empresa aclara en su página de contacto que no presta servicio de emergencias.
+**Una observación de utilidad para el comprador.** El encabezado del sitio muestra el 911 de forma destacada como acceso rápido a emergencias; la empresa aclara en su página de contacto que su línea no atiende emergencias.
 
 ## Cómo verificar a un proveedor de equipo de bombero
 

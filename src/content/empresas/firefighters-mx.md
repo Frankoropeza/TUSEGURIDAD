@@ -193,15 +193,13 @@ Lo que el directorio no hace, y conviene decirlo, es sustituir la confirmación 
 
 Son condiciones declaradas por el proveedor. La garantía aplicable a un equipo concreto es la que emite su fabricante, y conviene pedirla por escrito junto con la factura.
 
-## Qué declara y qué no reproduce esta ficha
+## Lo que declara la empresa
 
-FIREFIGHTERS MX publica una serie de reclamos que esta ficha **no reproduce como hechos**, por la regla que se aplica a todo el directorio: sin folio, número de certificado o documento que los respalde, se quedan fuera.
+FIREFIGHTERS MX declara **más de 45 años de experiencia** equipando a empresas, industria y cuerpos de bomberos, un **convenio de distribución con las marcas de su catálogo** y **más de 500 estaciones equipadas**. Son datos que la empresa sostiene como propios; no publica fecha de fundación, razón social ni las cartas de distribución, de modo que se presentan aquí como declaraciones y no como hechos verificados por este directorio.
 
-Quedan fuera la condición de **distribuidor autorizado** de las marcas que lista su sitio, que se acredita con carta del fabricante y no por declaración; los sellos de **ISO 9001** y **UL Listed** que aparecen sin número de certificado ni organismo emisor; la afirmación de que el **100 % del equipo está certificado**; y la cifra de **más de 500 estaciones equipadas**, que no se acompaña de clientes ni casos verificables.
+Esta ficha tampoco reproduce la afirmación de que el **100 % del equipo está certificado**: la certificación es de cada modelo, con su norma y su edición, y así conviene pedirla.
 
-Tampoco se reproduce la antigüedad de la empresa. El sitio declara a la vez **más de 45 años de experiencia** y **más de 15 años de especialización**, sin fecha de fundación ni razón social que permita resolver cuál de las dos cifras describe a la empresa y cuál a la trayectoria de su equipo.
-
-**Dos observaciones de utilidad para el comprador.** La primera: parte del sitio todavía cita la NFPA 1971 para trajes, una numeración que la NFPA 1970 sustituyó; al cotizar, pide la edición de la norma con la que está certificado el modelo ofertado. La segunda: el correo publicado es una cuenta de dominio genérico, así que para compras institucionales o licitaciones conviene confirmar desde el inicio la razón social y el RFC con los que se facturará.
+**Una observación de utilidad para el comprador.** El correo publicado es una cuenta de dominio genérico, así que para compras institucionales o licitaciones conviene confirmar desde el inicio la razón social y el RFC con los que se facturará.
 
 ## Cómo verificar a un proveedor de equipo contra incendio
 
