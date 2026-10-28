@@ -1,26 +1,25 @@
 ---
 empresa: firefighters-mx
-slug: soporte-para-licitaciones-de-equipo
-nombre: Soporte para licitaciones de equipo
-titulo: Licitaciones públicas de equipo contra incendio
-tituloSeo: Licitaciones de equipo contra incendio y para bomberos
-descripcion: "Expediente técnico por partida para licitaciones de Compras MX, PEMEX, CFE, gobiernos estatales y municipios, con revisión del anexo técnico contra la propuesta."
+slug: licitaciones-de-equipo-contra-incendio
+nombre: Licitaciones de equipo contra incendio
+titulo: "Licitaciones de equipo contra incendio y para bomberos: expediente técnico por partida"
+tituloSeo: Licitaciones de equipo contra incendio y bomberos
+descripcion: "Expediente técnico por partida para licitaciones de equipo contra incendio en Compras MX, PEMEX, CFE, estados y municipios, con matriz de cumplimiento del anexo técnico."
 orden: 7
 titulos:
-  incluye: Qué documentos integramos por partida
-  modalidades: Tipos de procedimiento que atendemos
+  incluye: Documentos que integramos por partida
+  modalidades: Procedimientos de compra que atendemos
   paraQuien: Áreas compradoras que nos buscan
   proceso: Del análisis de la convocatoria al fallo
-  errores: Causas frecuentes de descalificación
-  glosario: Glosario de compras públicas de equipo contra incendio
+  errores: Por qué se descalifica una propuesta de equipo contra incendio
+  glosario: Glosario de licitaciones de equipo contra incendio
   faq: Preguntas sobre licitaciones de equipo contra incendio
 intro: >-
   En una licitación pública, el precio más bajo pierde si un documento no
-  corresponde al modelo ofertado. La evaluación técnica es binaria en
-  muchos procedimientos: cumple o no cumple. Armamos el expediente técnico
-  partida por partida y cruzamos cada requisito del anexo con el documento
-  que lo acredita antes de presentar, para que la propuesta llegue a la
-  evaluación económica.
+  corresponde al modelo ofertado. En muchos procedimientos la evaluación
+  técnica es binaria, cumple o no cumple, y no hay segunda oportunidad.
+  Por eso armamos el expediente partida por partida y cruzamos cada
+  requisito del anexo con el documento que lo acredita antes de presentar.
 stats:
   - k: Compradores atendidos
     v: Dependencias federales, empresas del Estado, estados y municipios
@@ -146,7 +145,7 @@ faq:
 
 ## La propuesta técnica se gana antes que la económica
 
-En las compras públicas de equipo contra incendio, la mayoría de las propuestas que se pierden no se pierden por precio. Se pierden en la evaluación técnica, por un documento que no corresponde, una norma citada con la edición equivocada o una carta que no cumple con lo que pidieron las bases.
+En las compras públicas de equipo contra incendio, la mayoría de las propuestas que se pierden no se pierden por precio. Se caen en la evaluación técnica por un documento que no corresponde, una norma citada con la edición equivocada o una carta que no cumple lo que pedían las bases.
 
 Por eso el trabajo empieza con una matriz de cumplimiento: una tabla que cruza cada requisito del anexo técnico con el documento que lo acredita y la página exacta donde aparece. Es la misma revisión que hará el evaluador, hecha antes que él.
 
@@ -156,10 +155,10 @@ Por eso el trabajo empieza con una matriz de cumplimiento: una tabla que cruza c
 |---|---|---|
 | Ficha técnica | Es de la familia de producto, no del modelo | Ficha del fabricante del modelo ofertado |
 | Norma | Edición anterior a la que pide el anexo | Confirmar la edición de certificación antes de cotizar |
-| Carta del fabricante | Genérica o sin vigencia | Carta dirigida al procedimiento, cuando las bases lo piden |
+| Carta del fabricante | Genérica o sin vigencia | Carta dirigida al procedimiento, si las bases la piden |
 | Cotización | Incluye condiciones o rangos | Precio y plazo en firme, alineados a las bases |
 | Plazo de entrega | Se compromete sin existencia | Verificación de inventario antes de firmar |
 
-## El efecto de la consolidación de normas NFPA en las bases
+## Bases redactadas con la numeración NFPA anterior
 
-Muchas convocatorias de equipo para bomberos siguen redactadas con la numeración NFPA anterior, como NFPA 1971 para trajes o NFPA 1981 para equipos de respiración, mientras que los fabricantes ya certifican con la NFPA 1970. La junta de aclaraciones es el momento de resolverlo por escrito, para que una ficha técnica actualizada no se lea como incumplimiento.
+Muchas convocatorias de equipo para bomberos siguen pidiendo NFPA 1971 para trajes o NFPA 1981 para equipos de respiración, mientras los fabricantes ya certifican con la NFPA 1970. La junta de aclaraciones es el momento de resolverlo por escrito, para que una ficha técnica actualizada no se lea como incumplimiento.

@@ -2,9 +2,9 @@
 empresa: firefighter-com-mx
 slug: extintores-por-clase-de-fuego
 nombre: Extintores por clase de fuego
-titulo: Extintores por clase de fuego, con cálculo por área y recarga
-tituloSeo: Extintores por clase de fuego A, B, C, D y K
-descripcion: "Extintores de polvo químico seco, CO2, clase K, agua, espuma AFFF y agente limpio, con cálculo de cantidad por área, colocación señalizada y ciclo de recarga."
+titulo: "Extintores por clase de fuego: tipo K, CO2, polvo químico seco y agente limpio"
+tituloSeo: "Extintores por clase de fuego: tipo K, CO2 y PQS"
+descripcion: "Extintores por clase de fuego: tipo K para cocinas, CO2 para equipo eléctrico, PQS, agua, espuma y agente limpio, con cálculo por área, señalización y recarga."
 orden: 3
 servicio: recarga-y-mantenimiento-de-extintores
 titulos:
@@ -13,16 +13,16 @@ titulos:
   paraQuien: Dónde va cada extintor
   proceso: Cómo se calcula y se instala
   errores: Errores al elegir y colocar extintores
-  glosario: Términos de extintores
-  faq: Preguntas sobre extintores
+  glosario: Clases de fuego y términos de extintores
+  faq: Preguntas sobre extintores tipo K, CO2 y PQS
 intro: >-
   El extintor correcto depende del tipo de fuego que puede ocurrir en el
-  área, no del presupuesto ni de lo que haya en existencia. Un polvo
-  químico seco en una sala de servidores apaga el fuego y daña el equipo;
-  un extintor de agua junto a un tablero eléctrico es un riesgo. Calculamos
-  la cantidad y la capacidad por zona, colocamos cada equipo con su señal y
-  damos el ciclo completo de recarga y prueba hidrostática con reporte
-  fechado.
+  área, no del presupuesto ni de lo que haya en bodega. Un polvo químico
+  seco en una sala de servidores apaga el fuego y arruina el equipo; un
+  extintor de agua junto a un tablero eléctrico pone en riesgo a quien lo
+  usa. Calculamos la cantidad y la capacidad por zona, colocamos cada
+  equipo con su señal y damos el ciclo completo de recarga y prueba
+  hidrostática con reporte fechado.
 stats:
   - k: Clases de fuego
     v: A, B, C, D y K
@@ -48,11 +48,11 @@ incluye:
 modalidades:
   - titulo: Polvo químico seco ABC
     texto: Versátil para fuegos de sólidos, líquidos y equipo eléctrico. Deja residuo, así que no conviene junto a equipo sensible.
-  - titulo: Bióxido de carbono
+  - titulo: Extintor de CO2
     texto: Para equipo eléctrico y líquidos inflamables. No deja residuo, pero desplaza el oxígeno en espacios cerrados.
   - titulo: Agente limpio
     texto: Gaseoso, sin residuo y no conductor. Para centros de datos, salas de control y archivos.
-  - titulo: Clase K
+  - titulo: Extintor tipo K
     texto: A base de acetato de potasio, para aceites y grasas de cocina. Forma una capa que evita la reignición.
   - titulo: Agua
     texto: Para fuegos de sólidos comunes. Nunca sobre equipo energizado ni líquidos inflamables.
@@ -129,6 +129,10 @@ galeria:
   - extintores-firefighter-com-mx:9
   - extintores-firefighter-com-mx:10
 faq:
+  - q: "¿Para qué sirve un extintor tipo K?"
+    a: Para fuegos de aceites y grasas de cocina. Su agente, a base de acetato de potasio, enfría el aceite y forma una capa que evita que vuelva a encenderse. Va junto a freidoras y planchas de cocinas comerciales.
+  - q: "¿Dónde se usa un extintor de CO2?"
+    a: "En equipo eléctrico energizado y líquidos inflamables: tableros, cuartos eléctricos y centros de cómputo. No deja residuo, pero desplaza el oxígeno, así que en un cuarto pequeño se descarga y se sale."
   - q: "¿Qué extintor necesito para una oficina?"
     a: Por lo general, polvo químico seco ABC en áreas comunes y CO2 o agente limpio cerca de tableros y equipo de cómputo.
   - q: "¿Qué extintor va en una cocina comercial?"
@@ -151,20 +155,22 @@ faq:
     a: Sí, en los 32 estados.
 ---
 
-## Elegir por clase de fuego
+## Clases de fuego y el extintor que corresponde
 
-| Área | Riesgo principal | Agente recomendado | Agente a evitar |
+| Área | Riesgo principal | Extintor recomendado | Qué evitar |
 |---|---|---|---|
-| Oficina | Papel, mobiliario, equipo eléctrico | Polvo ABC | Agua cerca de equipo energizado |
-| Sala de servidores | Equipo electrónico | Agente limpio o CO2 | Polvo químico seco |
-| Cocina comercial | Aceites y grasas | Clase K | Agua |
-| Almacén de solventes | Líquidos inflamables | Polvo BC o ABC, espuma AFFF | Agua |
+| Oficina | Papel, mobiliario, equipo eléctrico | Polvo químico seco ABC | Agua cerca de equipo energizado |
+| Sala de servidores | Equipo electrónico | Agente limpio o extintor de CO2 | Polvo químico seco |
+| Cocina comercial | Aceites y grasas | Extintor tipo K | Agua |
+| Almacén de solventes | Líquidos inflamables | Polvo químico seco o espuma AFFF | Agua |
 | Taller de metales | Metales combustibles | Clase D específico | Agua y polvos comunes |
 
-## El cálculo antes de la compra
+Las clases de fuego son cinco: A para sólidos comunes, B para líquidos y gases inflamables, C para equipo eléctrico energizado, D para metales combustibles y K para aceites de cocina. La tabla de arriba es la forma práctica de llevarlas al plano de tu inmueble.
 
-La pregunta «¿cuántos extintores necesito?» tiene una respuesta técnica: depende de la superficie, del grado de riesgo del centro de trabajo y de la distancia que una persona tendría que recorrer para alcanzar uno. Por eso el suministro empieza con un recorrido y un cálculo por área, y termina con un inventario donde cada equipo tiene ubicación, tipo y fechas.
+## Antes de comprar, el cálculo
+
+La pregunta «¿cuántos extintores necesito?» tiene respuesta técnica: depende de la superficie, del grado de riesgo del centro de trabajo y de la distancia que una persona tendría que recorrer para alcanzar uno. Por eso el suministro empieza con un recorrido y un cálculo por área, y termina con un inventario donde cada extintor tiene ubicación, tipo y fechas.
 
 ## El extintor también vence
 
-Un extintor nuevo se compra una vez, pero se mantiene durante años. La recarga, el mantenimiento anual y la prueba hidrostática periódica son parte del costo real del equipo, y el registro de cada uno es lo que se presenta en una inspección.
+Un extintor se compra una vez y se mantiene durante años. La recarga, el mantenimiento anual y la prueba hidrostática periódica forman parte de su costo real, y el registro de cada uno es lo que se muestra en una inspección.

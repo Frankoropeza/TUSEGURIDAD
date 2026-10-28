@@ -1,25 +1,25 @@
 ---
 empresa: firefighter-com-mx
-slug: equipos-de-respiracion-autonoma
-nombre: Equipos de respiración autónoma
-titulo: Equipos de respiración autónoma SCBA para bomberos
-tituloSeo: Equipos de respiración autónoma SCBA para bomberos
-descripcion: "SCBA de circuito abierto y presión positiva, máscara facial completa, cilindros de 30, 45 y 60 minutos y sistemas RIT, entregados probados en banco y con bitácora."
+slug: equipo-de-respiracion-autonoma
+nombre: Equipo de respiración autónoma
+titulo: Equipo de respiración autónoma (SCBA) para bomberos, con cilindros de 30, 45 y 60 minutos
+tituloSeo: Equipo de respiración autónoma (SCBA) para bomberos
+descripcion: "Equipo de respiración autónoma SCBA de presión positiva, con máscara facial completa, cilindros de 30, 45 y 60 minutos y sistema RIT, probado en banco y con bitácora."
 orden: 2
 titulos:
-  incluye: Qué compone un equipo de respiración autónoma
-  modalidades: Configuraciones de SCBA
-  paraQuien: Quién necesita respiración autónoma
+  incluye: Partes de un equipo de respiración autónoma
+  modalidades: Configuraciones de SCBA según la intervención
+  paraQuien: Quién necesita equipo de respiración autónoma
   proceso: De la especificación a la prueba de ajuste
-  errores: Errores con equipos de respiración autónoma
-  glosario: Términos del equipo de respiración
-  faq: Preguntas sobre SCBA
+  errores: Errores con el equipo de respiración autónoma
+  glosario: Términos del equipo de respiración autónoma
+  faq: Preguntas sobre el equipo de respiración autónoma
 intro: >-
   En un incendio estructural, el humo y los gases incapacitan antes que el
   calor. El equipo de respiración autónoma le da al bombero su propio
-  suministro de aire con presión positiva en la máscara, de modo que si hay
-  una fuga sale aire y no entra humo. Lo entregamos probado en banco, con
-  bitácora de servicio, capacitación de uso y prueba de ajuste de la
+  suministro de aire, con presión positiva en la máscara para que, si hay
+  una fuga, salga aire y no entre humo. Lo entregamos probado en banco,
+  con bitácora de servicio, capacitación de uso y prueba de ajuste de la
   máscara para cada usuario.
 stats:
   - k: Tipo
@@ -128,6 +128,8 @@ galeria:
   - respiracion-firefighter-com-mx:5
   - epp-bombero-firefighter-com-mx:1
 faq:
+  - q: "¿Cuáles son las partes de un equipo de respiración autónoma?"
+    a: Arnés con espaldera, cilindro de aire comprimido, regulador de primera etapa, regulador de demanda, máscara facial completa, manómetro con aviso de reserva y alarma personal integrada.
   - q: "¿Qué norma aplica a un SCBA para bomberos?"
     a: La NFPA 1970, que desde la edición 2025 incorpora lo que antes regulaba la NFPA 1981. La ficha técnica debe indicar la edición de certificación.
   - q: "¿Cuánto dura realmente un cilindro de 30 minutos?"
@@ -150,18 +152,18 @@ faq:
 
 ## La autonomía se mide en presión, no en minutos
 
-El número del cilindro —30, 45 o 60 minutos— describe su capacidad con un consumo de referencia. Un bombero que sube escaleras con equipo y herramienta respira mucho más rápido, y el mismo cilindro puede durar la mitad. Por eso la regla operativa es iniciar la salida por la presión que marca el manómetro y no por el tiempo transcurrido.
+El número del cilindro, 30, 45 o 60 minutos, describe su capacidad con un consumo de referencia. Un bombero que sube escaleras con equipo y herramienta respira mucho más rápido, y ese mismo cilindro puede durar la mitad. Por eso la regla en campo es iniciar la salida por la presión que marca el manómetro, no por el reloj.
 
 | Cilindro | Uso típico | Consideración |
 |---|---|---|
 | 30 minutos | Brigadas industriales, intervenciones cortas | Menor peso, menor margen |
 | 45 minutos | Intervenciones urbanas | Equilibrio entre peso y autonomía |
-| 60 minutos | Edificios altos, sótanos, túneles | Mayor peso, mayor recorrido de salida |
+| 60 minutos | Edificios altos, sótanos, túneles | Más peso, más recorrido de salida |
 
-## La máscara es tan importante como el regulador
+## La máscara importa tanto como el regulador
 
-Un equipo de respiración perfectamente mantenido no protege si la máscara no sella. La prueba de ajuste comprueba ese sello en cada usuario y define su talla de máscara. Es también la razón por la que el vello facial se trata como un tema de seguridad en los cuerpos de bomberos.
+Un equipo de respiración autónoma impecable no protege si la máscara no sella. La prueba de ajuste comprueba ese sello en cada usuario y define su talla de máscara. Es también la razón por la que el vello facial se trata como un tema de seguridad en los cuerpos de bomberos y no como una cuestión de imagen.
 
-## Lo que se controla durante la vida del equipo
+## Las dos fechas que controlan la vida del cilindro
 
-Cada cilindro lleva marcadas su fecha de fabricación y la de su última prueba hidrostática. Con esas dos fechas se programa la prueba siguiente y la baja definitiva, y se evita recargar un cilindro que ya no debe estar en servicio.
+Cada cilindro trae marcadas su fecha de fabricación y la de su última prueba hidrostática. Con esas dos fechas se programa la siguiente prueba y la baja definitiva, y se evita recargar un cilindro que ya no debería estar en servicio.

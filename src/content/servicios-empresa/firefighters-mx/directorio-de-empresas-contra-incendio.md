@@ -1,26 +1,26 @@
 ---
 empresa: firefighters-mx
-slug: alta-de-empresas-en-el-directorio-nacional
-nombre: Alta de empresas en el directorio nacional
-titulo: Alta de empresas en el directorio nacional contra incendio
-tituloSeo: Directorio de empresas contra incendio, alta de ficha
-descripcion: "Alta básica gratuita, reclamación y corrección de fichas en un directorio de 1,384 empresas de equipo contra incendio organizado en cinco giros y en los 32 estados."
+slug: directorio-de-empresas-contra-incendio
+nombre: Directorio de empresas contra incendio
+titulo: "Directorio de empresas contra incendio y estaciones de bomberos: alta y reclamación de ficha"
+tituloSeo: "Empresas contra incendio: directorio nacional y alta"
+descripcion: "Directorio de 1,384 empresas contra incendio en cinco giros y los 32 estados, más 577 estaciones de bomberos. Alta básica gratuita, reclamación y corrección de fichas."
 orden: 8
 titulos:
   incluye: Qué contiene una ficha del directorio
-  modalidades: Tipos de ficha
-  paraQuien: Qué empresas aparecen
-  proceso: Cómo pedir el alta o reclamar una ficha
+  modalidades: Ficha básica, reclamada y destacada
+  paraQuien: Empresas contra incendio que aparecen
+  proceso: Cómo pedir el alta o reclamar tu ficha
   errores: Errores al completar una ficha de directorio
   glosario: Términos del directorio
-  faq: Preguntas sobre el directorio de empresas
+  faq: Preguntas sobre el directorio de empresas contra incendio
 intro: >-
-  El directorio de FIREFIGHTERS MX reúne empresas de equipo contra
-  incendio de todo el país en cinco giros y treinta y dos estados. Parte de
-  registros públicos del DENUE, de modo que muchas empresas ya aparecen sin
-  haberlo pedido. Cualquier empresa del sector puede solicitar su alta
-  básica sin costo, reclamar la ficha que ya existe o corregir los datos
-  que no estén al día.
+  El directorio de FIREFIGHTERS MX reúne empresas contra incendio de todo
+  el país, organizadas en cinco giros y treinta y dos estados, junto con
+  una sección de estaciones de bomberos. Parte de registros públicos del
+  DENUE, así que muchas empresas ya aparecen sin haberlo pedido. Cualquier
+  empresa del sector puede solicitar su alta básica sin costo, reclamar la
+  ficha que ya existe o corregir lo que no esté al día.
 stats:
   - k: Empresas listadas
     v: 1,384 en los 32 estados, al 28 de octubre de 2026
@@ -107,6 +107,8 @@ galeria:
   - cobertura-nacional-firefighters-mx:5
   - cobertura-nacional-firefighters-mx:6
 faq:
+  - q: "¿Dónde encuentro estaciones de bomberos por estado?"
+    a: En la sección de estaciones del directorio, organizada por región y por estado, con 577 estaciones al corte de esta página. Ante una emergencia, marca siempre al 911.
   - q: "¿Cuánto cuesta aparecer en el directorio?"
     a: El alta básica es gratuita según el sitio. La ficha destacada tiene costo, pero su precio no se publica y se cotiza con el directorio.
   - q: "¿Por qué mi empresa aparece si nunca pedí el alta?"
@@ -127,9 +129,9 @@ faq:
 
 ## Un directorio que parte de datos públicos
 
-La mayoría de los directorios comerciales solo listan a quien paga. Este parte del registro público del DENUE, así que una empresa del sector puede encontrarse ya listada con su nombre, giro y ubicación sin haber hecho ningún trámite. Para el comprador eso significa más opciones por estado; para la empresa, que conviene revisar cómo aparece.
+La mayoría de los directorios comerciales solo muestran a quien paga. Este parte del registro público del DENUE, de modo que una empresa del sector puede encontrarse listada con su nombre, giro y ubicación sin haber hecho ningún trámite. Para quien busca proveedor, eso significa más opciones por estado; para la empresa, que conviene revisar cómo aparece.
 
-Al 28 de octubre de 2026 el directorio lista 1,384 empresas en cinco giros. Cada ficha muestra de dónde viene su información y cuándo se verificó por última vez.
+Al 28 de octubre de 2026 el directorio lista 1,384 empresas contra incendio en cinco giros, y cada ficha muestra de dónde viene su información y cuándo se verificó por última vez.
 
 ## Ficha básica, reclamada y destacada
 
@@ -141,4 +143,4 @@ Al 28 de octubre de 2026 el directorio lista 1,384 empresas en cinco giros. Cada
 
 ## Una nota de transparencia
 
-El directorio lo opera INPROSEG, que también vende equipo contra incendio y presta servicios técnicos. Es decir, un proveedor lista a otros proveedores del mismo ramo. El sitio lo reconoce al aclarar que las fichas son de terceros y que cada empresa confirma su propia información. Para quien busca proveedor, la recomendación es la misma que con cualquier directorio: usarlo para encontrar opciones y confirmar condiciones directamente con cada empresa.
+El directorio lo opera INPROSEG, que también vende equipo contra incendio y presta servicios técnicos: un proveedor que lista a otros proveedores del mismo ramo. El propio sitio lo reconoce al aclarar que las fichas son de terceros y que cada empresa confirma su información. La recomendación es la de cualquier directorio: úsalo para encontrar opciones y confirma condiciones directamente con cada empresa.

@@ -1,27 +1,28 @@
 ---
 empresa: firefighters-mx
-slug: instalacion-de-sistemas-contra-incendio
-nombre: Instalación de sistemas contra incendio
-titulo: Instalación de sistemas contra incendio llave en mano
-tituloSeo: Instalación de sistemas contra incendio llave en mano
-descripcion: "Rociadores, red de hidrantes, detección y alarma y supresión con agente limpio, con ingeniería, residente técnico y protocolo firmado de pruebas de aceptación."
+slug: instalacion-de-rociadores-contra-incendio
+nombre: Instalación de rociadores contra incendio
+titulo: Instalación de rociadores contra incendio y sistemas fijos, llave en mano
+tituloSeo: "Rociadores contra incendio: instalación llave en mano"
+descripcion: "Instalación de rociadores contra incendio, red de hidrantes, detección y supresión con agente limpio, con memoria de cálculo y pruebas de aceptación firmadas."
 orden: 2
 servicio: deteccion-y-alarma-contra-incendios
 titulos:
-  incluye: Qué abarca un proyecto llave en mano
-  modalidades: Tipos de sistema fijo que instalamos
-  paraQuien: Inmuebles que suelen requerir un sistema fijo
-  proceso: Las siete etapas de una instalación
-  errores: Errores que encarecen un sistema contra incendio
-  glosario: Glosario de sistemas fijos contra incendio
-  faq: Preguntas sobre instalación de sistemas contra incendio
+  incluye: Qué incluye la instalación de un sistema contra incendio
+  modalidades: Rociadores automáticos, hidrantes y agente limpio
+  paraQuien: ¿Tu inmueble necesita rociadores?
+  proceso: Las siete etapas de la instalación
+  errores: Errores que encarecen un sistema de rociadores
+  glosario: Glosario de rociadores y sistemas fijos
+  faq: Preguntas sobre rociadores contra incendio
 intro: >-
-  Un sistema contra incendio fijo se compra una vez y se prueba muchas: en
-  la aceptación de obra, en cada visita de la aseguradora y, si llega el
-  caso, en un incendio real. Por eso el proyecto empieza en la ingeniería y
-  no en la lista de materiales. Diseñamos, instalamos y probamos rociadores,
-  redes de hidrantes, detección y alarma y supresión con agente limpio, con
-  un residente técnico responsable de la obra de principio a fin.
+  Un sistema de rociadores se compra una vez y se pone a prueba muchas: en
+  la recepción de obra, en cada visita de la aseguradora y, ojalá nunca,
+  en un incendio real. Por eso el proyecto empieza en la ingeniería y no
+  en la lista de materiales. Diseñamos, instalamos y probamos rociadores
+  automáticos, redes de hidrantes, detección y alarma y supresión con
+  agente limpio, con un residente técnico al frente de la obra de
+  principio a fin.
 stats:
   - k: Normas de diseño
     v: NFPA 13, 14, 20, 72 y 2001, según el sistema
@@ -129,6 +130,10 @@ galeria:
   - sistemas-contra-incendio-firefighters-mx:7
   - sistemas-contra-incendio-firefighters-mx:9
 faq:
+  - q: "¿Cómo funcionan los rociadores contra incendio?"
+    a: Cada rociador tiene un elemento sensible al calor, una ampolla de vidrio o un fusible, que se rompe a cierta temperatura y libera el agua solo en esa zona. Abren únicamente los rociadores que alcanzan su temperatura, no todos a la vez.
+  - q: "¿Qué tipos de rociadores contra incendio existen?"
+    a: Por su posición hay colgantes, montantes y de pared; por su respuesta, estándar y rápida; y por su aplicación, de cobertura normal, extendida o para almacenamiento. La NFPA 13 define cuál corresponde a cada ocupación.
   - q: "¿Mi inmueble está obligado a tener rociadores?"
     a: Depende de la clasificación de riesgo, del reglamento de construcción local y de lo que exija la aseguradora. La NOM-002-STPS-2010 clasifica el riesgo; el reglamento municipal o estatal y el análisis de riesgo definen el sistema.
   - q: "¿Qué diferencia hay entre detección y supresión?"
@@ -149,26 +154,28 @@ faq:
     a: Sí. El sitio declara servicio en sitio en los 32 estados.
 ---
 
-## Lo que decide el sistema no es el catálogo, es el riesgo
+## El riesgo decide el sistema, no el catálogo
 
-La conversación sobre un sistema contra incendio suele empezar por el producto: cuántos rociadores, qué panel, qué agente. Es el orden inverso al que funciona. El tipo de sistema lo deciden la ocupación del inmueble, la carga combustible, el suministro de agua disponible y, cuando aplica, lo que exige la aseguradora o el reglamento de construcción local.
+La conversación suele empezar por el producto: cuántos rociadores, qué panel, qué agente. Es el orden al revés. El tipo de sistema lo definen la ocupación del inmueble, la carga combustible, el agua disponible y, cuando aplica, lo que exige la aseguradora o el reglamento de construcción local.
 
-Con ese diagnóstico se define si basta con detección y extintores, si hace falta una red de hidrantes para que la brigada ataque desde el interior o si el riesgo justifica rociadores automáticos en toda la superficie.
+Con ese diagnóstico se ve si basta con detección y extintores, si hace falta una red de hidrantes para que la brigada ataque desde adentro o si el riesgo justifica rociadores automáticos en toda la superficie.
 
-## Qué se prueba antes de recibir la obra
+## Cómo trabaja un rociador automático
 
-La prueba de aceptación es el momento en que el sistema deja de ser un proyecto y pasa a ser una protección. Estas son las pruebas que conviene exigir y presenciar:
+Cada rociador es una válvula cerrada por un elemento térmico. Cuando el calor de un incendio lo alcanza, ese elemento se rompe y el agua sale solo por ese punto. En la mayoría de los incendios en inmuebles protegidos, unos cuantos rociadores bastan para controlar el fuego mientras llegan los bomberos. Para que eso ocurra, la red tiene que entregar el caudal y la presión que calculó el proyecto, y eso solo se demuestra con pruebas.
+
+## Las pruebas que conviene exigir antes de recibir la obra
 
 | Sistema | Prueba | Qué demuestra |
 |---|---|---|
-| Rociadores e hidrantes | Prueba hidrostática de la red | Que la tubería y las uniones no fugan bajo presión |
+| Rociadores e hidrantes | Prueba hidrostática de la red | Que tubería y uniones no fugan bajo presión |
 | Rociadores e hidrantes | Prueba de flujo | Que el caudal y la presión reales coinciden con el cálculo |
-| Cuarto de bombas | Arranque y curva de la bomba | Que la bomba entrega lo especificado y arranca en automático |
+| Cuarto de bombas | Arranque y curva de la bomba | Que la bomba entrega lo especificado y arranca sola |
 | Detección y alarma | Prueba funcional de cada dispositivo | Que todos los detectores y estaciones reportan al panel |
 | Agente limpio | Prueba de integridad del recinto | Que el cuarto retendrá la concentración de diseño |
 
-Cada resultado debe quedar medido y firmado. Un protocolo que solo dice «conforme», sin valores, no sirve de evidencia ante una aseguradora.
+Cada resultado debe quedar medido y firmado. Un protocolo que solo dice «conforme», sin valores, no le sirve a una aseguradora.
 
 ## Después de la entrega
 
-Un sistema sin mantenimiento se degrada en silencio: válvulas cerradas por error, detectores con polvo, baterías del panel vencidas. La póliza posterior programa la inspección, la prueba y el mantenimiento con la frecuencia que fijan la NFPA 25 y la NFPA 72, y deja la bitácora que pedirá el siguiente inspector.
+Un sistema sin mantenimiento se degrada en silencio: una válvula cerrada por error, detectores con polvo, baterías del panel vencidas. La póliza posterior programa inspección, prueba y mantenimiento con la frecuencia de la NFPA 25 y la NFPA 72, y deja la bitácora que pedirá el siguiente inspector.

@@ -1,26 +1,26 @@
 ---
 empresa: firefighters-mx
-slug: brigadas-contra-incendio-para-empresas
-nombre: Brigadas contra incendio para empresas
-titulo: Brigadas contra incendio para empresas, llave en mano
-tituloSeo: Brigada contra incendio para empresas, llave en mano
-descripcion: "Diseño de la brigada contra incendio según superficie, plantilla y grado de riesgo de la NOM-002-STPS-2010, con EPP individual, capacitación DC-3 y simulacros medidos."
+slug: brigada-contra-incendios-para-empresas
+nombre: Brigada contra incendios para empresas
+titulo: "Brigada contra incendios para empresas: diseño, equipo, capacitación y simulacros"
+tituloSeo: Brigada contra incendios para empresas, llave en mano
+descripcion: "Formamos tu brigada contra incendios según la NOM-002-STPS-2010: dimensionada por turno y riesgo, con EPP individual, capacitación con DC-3 y simulacros medidos."
 orden: 5
 titulos:
-  incluye: Qué incluye una brigada llave en mano
-  modalidades: Formas de integrar la brigada
-  paraQuien: Centros de trabajo que la necesitan
-  proceso: Cómo se forma una brigada de principio a fin
-  errores: Errores al formar una brigada contra incendio
-  glosario: Conceptos de la brigada contra incendio
-  faq: Preguntas sobre brigadas contra incendio
+  incluye: Qué incluye formar una brigada contra incendios
+  modalidades: Tipos de brigada de emergencia
+  paraQuien: Qué empresas necesitan brigada contra incendios
+  proceso: Cómo se forma la brigada, de principio a fin
+  errores: Errores al integrar una brigada contra incendios
+  glosario: "Brigada contra incendios: conceptos clave"
+  faq: Preguntas sobre la brigada contra incendios
 intro: >-
-  Una brigada contra incendio no es una lista de voluntarios con chaleco.
-  Es una pequeña organización con roles, turnos, equipo asignado y
-  entrenamiento medido, que tiene que funcionar a las tres de la mañana
-  igual que al mediodía. La diseñamos a partir de la superficie, la
-  plantilla y el grado de riesgo del centro de trabajo, la equipamos, la
-  capacitamos y la ponemos a prueba en simulacros con tiempos registrados.
+  Una brigada contra incendios no es una lista de voluntarios con chaleco.
+  Es un equipo pequeño con roles, turnos, equipo asignado y entrenamiento
+  medido, que tiene que responder igual a las tres de la mañana que al
+  mediodía. La diseñamos a partir de la superficie, la plantilla y el
+  grado de riesgo de tu centro de trabajo; luego la equipamos, la
+  capacitamos y la ponemos a prueba en simulacros con cronómetro.
 stats:
   - k: Marco
     v: NOM-002-STPS-2010 y Programa Interno de Protección Civil
@@ -127,6 +127,10 @@ galeria:
   - auditoria-y-expediente-firefighters-mx:2
   - sistemas-contra-incendio-firefighters-mx:5
 faq:
+  - q: "¿Qué es una brigada contra incendios?"
+    a: Es el grupo de trabajadores organizado y capacitado para atender un conato de incendio y apoyar la evacuación mientras llega la ayuda externa. Forma parte de las brigadas de emergencia del Programa Interno de Protección Civil.
+  - q: "¿Cuáles son las funciones de la brigada contra incendios?"
+    a: Prevenir, revisando que extintores y rutas estén en orden; combatir el conato con el equipo disponible; apoyar la evacuación; y recibir a los bomberos con la información del inmueble.
   - q: "¿Mi empresa está obligada a tener brigada contra incendio?"
     a: La NOM-002-STPS-2010 la exige a los centros de trabajo clasificados como de riesgo alto. En riesgo ordinario, la capacitación del personal sigue siendo obligatoria.
   - q: "¿Cómo se sabe si un centro de trabajo es de riesgo alto?"
@@ -147,13 +151,13 @@ faq:
     a: Acta de integración, constancias DC-3, bitácora de equipo, reportes de simulacro y programa anual.
 ---
 
-## Una brigada se dimensiona por turnos, no por plantilla total
+## Una brigada se dimensiona por turnos
 
-El error más común al formar una brigada es contar a toda la plantilla como si estuviera presente al mismo tiempo. Una planta con 300 trabajadores repartidos en tres turnos tiene, en la madrugada, a una fracción de ese personal. La brigada tiene que existir en cada turno y en cada área, con un jefe y un suplente que sepan lo que tienen que hacer.
+El error más común es contar a toda la plantilla como si estuviera presente al mismo tiempo. Una planta con 300 trabajadores repartidos en tres turnos tiene, en la madrugada, una fracción de esa gente. La brigada tiene que existir en cada turno y en cada área, con un jefe y un suplente que sepan qué hacer sin consultar a nadie.
 
-Por eso el diseño empieza con dos datos: la clasificación de riesgo del centro de trabajo y la distribución real de personas por turno.
+Por eso el diseño arranca con dos datos: la clasificación de riesgo de tu centro de trabajo y cuántas personas hay realmente en cada turno.
 
-## Riesgo ordinario y riesgo alto en la práctica
+## Riesgo ordinario o riesgo alto: lo que define la NOM-002
 
 La NOM-002-STPS-2010 clasifica el riesgo con umbrales concretos. Basta superar uno para que el centro de trabajo sea de riesgo alto:
 
@@ -166,8 +170,8 @@ La NOM-002-STPS-2010 clasifica el riesgo con umbrales concretos. Basta superar u
 | Sólidos combustibles, incluido el mobiliario | 15,000 kilogramos o más |
 | Materiales pirofóricos y explosivos | Cualquier cantidad |
 
-Cuando hay varios conceptos por debajo de su umbral, la norma prevé sumarlos de forma proporcional, y el resultado también puede llevar al centro de trabajo a riesgo alto. De esa clasificación dependen la obligación de tener brigada, el número de simulacros y la densidad de extintores.
+Cuando hay varios conceptos por debajo de su umbral, la norma prevé sumarlos de forma proporcional, y el resultado también puede llevarte a riesgo alto. De esa clasificación dependen la obligación de tener brigada, el número de simulacros y la densidad de extintores.
 
-## Cómo se mide si la brigada funciona
+## Cómo saber si tu brigada funciona
 
-Un simulacro útil no termina con una foto en el punto de reunión. Termina con un reporte que dice cuánto tardó la alarma, cuánto la primera respuesta, cuánto la evacuación completa y qué falló. Con esos tiempos se ajustan los protocolos y se comparan los simulacros siguientes.
+Un buen simulacro no termina con la foto en el punto de reunión. Termina con un reporte que dice cuánto tardó la alarma, cuánto la primera respuesta y cuánto la evacuación completa, y qué falló. Con esos tiempos se ajustan los protocolos y se comparan los simulacros siguientes; sin ellos, no hay forma de saber si la brigada mejora.

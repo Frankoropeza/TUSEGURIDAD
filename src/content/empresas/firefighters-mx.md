@@ -1,7 +1,7 @@
 ---
 nombre: FIREFIGHTERS MX
-tituloSeo: FIREFIGHTERS MX, equipo contra incendio en CDMX
-descripcion: "Proveedor de equipo contra incendio y para bomberos en Polanco, CDMX, con seis servicios técnicos y un directorio nacional de estaciones y empresas del sector."
+tituloSeo: "FIREFIGHTERS MX: equipo contra incendio, CDMX"
+descripcion: "Equipo contra incendio y equipo para bomberos en Polanco, CDMX: rociadores, mantenimiento, curso con DC-3, brigadas, auditoría NOM-002 y directorio nacional."
 categoria: seguridad-contra-incendios
 categorias: []
 ciudad: cdmx
@@ -12,7 +12,7 @@ email: inprosegfire@gmail.com
 sitio: https://firefighters.mx/
 direccion: Av. Homero 229, Piso 5, Col. Polanco V Sección, Miguel Hidalgo, C.P. 11560, Ciudad de México
 servicios:
-  - nombre: Equipamiento para cuerpos de bomberos
+  - nombre: Equipo de bombero completo
     descripcion: Dotación por elemento y por unidad, con traje y casco NFPA 1970, equipo de respiración autónoma, herramienta de rescate y cámara térmica.
     foto: equipo-bombero-firefighters-mx
     detalle:
@@ -25,8 +25,8 @@ servicios:
         - equipo-bombero-firefighters-mx:2
         - respiracion-y-rescate-firefighters-mx:1
         - respiracion-y-rescate-firefighters-mx:5
-  - nombre: Instalación de sistemas contra incendio
-    descripcion: Proyecto llave en mano de rociadores, detección y alarma y supresión con agente limpio, con memoria de cálculo y protocolo de pruebas de aceptación.
+  - nombre: Instalación de rociadores contra incendio
+    descripcion: Rociadores contra incendio, red de hidrantes, detección y agente limpio llave en mano, con memoria de cálculo y pruebas de aceptación firmadas.
     servicio: deteccion-y-alarma-contra-incendios
     foto: sistemas-contra-incendio-firefighters-mx
     detalle:
@@ -39,7 +39,7 @@ servicios:
         - sistemas-contra-incendio-firefighters-mx:1
         - sistemas-contra-incendio-firefighters-mx:3
         - sistemas-contra-incendio-firefighters-mx:6
-  - nombre: Mantenimiento y recarga de equipo
+  - nombre: Mantenimiento de equipo contra incendio
     descripcion: Extintores, equipo de respiración, herramienta hidráulica y EPP estructural, en taller o en sitio, con bitácora por equipo y póliza anual.
     servicio: recarga-y-mantenimiento-de-extintores
     foto: extintores-firefighters-mx
@@ -52,8 +52,8 @@ servicios:
         - extintores-firefighters-mx:1
         - extintores-firefighters-mx:4
         - logistica-y-posventa-firefighters-mx:3
-  - nombre: Capacitación contra incendio con constancia DC-3
-    descripcion: Cursos de brigada conforme a la NOM-002-STPS-2010, uso de equipo de respiración y formación de bombero, con práctica de fuego controlado y constancia DC-3.
+  - nombre: Curso contra incendios con DC-3
+    descripcion: Curso de uso y manejo de extintores, brigada conforme a la NOM-002-STPS-2010 y formación de bombero, con fuego controlado y constancia DC-3.
     foto: capacitacion-brigadas-firefighters-mx
     detalle:
       intro: >-
@@ -65,7 +65,7 @@ servicios:
         - capacitacion-brigadas-firefighters-mx:1
         - capacitacion-brigadas-firefighters-mx:2
         - capacitacion-brigadas-firefighters-mx:5
-  - nombre: Brigadas contra incendio para empresas
+  - nombre: Brigada contra incendios para empresas
     descripcion: Diseño, equipamiento, capacitación y programa anual de simulacros de la brigada, dimensionada por superficie, plantilla y grado de riesgo.
     foto: capacitacion-brigadas-firefighters-mx
     detalle:
@@ -77,7 +77,7 @@ servicios:
         - capacitacion-brigadas-firefighters-mx:3
         - capacitacion-brigadas-firefighters-mx:4
         - equipo-bombero-firefighters-mx:5
-  - nombre: Auditoría de cumplimiento NOM-002-STPS
+  - nombre: Auditoría NOM-002-STPS-2010
     descripcion: Diagnóstico de instalaciones, documentos y brigada con criterios de inspección, informe por semáforo, plan de cierre de brechas y visita de verificación a 90 días.
     foto: auditoria-y-expediente-firefighters-mx
     detalle:
@@ -90,7 +90,7 @@ servicios:
         - auditoria-y-expediente-firefighters-mx:1
         - auditoria-y-expediente-firefighters-mx:2
         - auditoria-y-expediente-firefighters-mx:6
-  - nombre: Soporte para licitaciones de equipo
+  - nombre: Licitaciones de equipo contra incendio
     descripcion: Expediente técnico por partida para Compras MX, PEMEX, CFE y gobiernos estatales y municipales, con revisión del anexo técnico contra la propuesta.
     foto: auditoria-y-expediente-firefighters-mx
     detalle:
@@ -103,8 +103,8 @@ servicios:
         - auditoria-y-expediente-firefighters-mx:3
         - auditoria-y-expediente-firefighters-mx:4
         - logistica-y-posventa-firefighters-mx:1
-  - nombre: Alta de empresas en el directorio nacional
-    descripcion: Alta básica gratuita, reclamación y corrección de fichas en un directorio de empresas de equipo contra incendio organizado por giro y por estado.
+  - nombre: Directorio de empresas contra incendio
+    descripcion: Directorio nacional de empresas contra incendio y estaciones de bomberos, con alta básica gratuita, reclamación y corrección de fichas.
     foto: cobertura-nacional-firefighters-mx
     detalle:
       intro: >-
@@ -121,7 +121,7 @@ verificado: true
 destacado: true
 orden: 100
 ---
-**FIREFIGHTERS MX** es un proveedor de equipo contra incendio y de equipo para bomberos con oficina en Polanco, Ciudad de México, que opera bajo el nombre comercial **INPROSEG** (Ingeniería, Protección y Seguridad Integral). Es la sexta ficha de seguridad contra incendios de este directorio y la primera que reúne en un solo proveedor tres frentes que normalmente se contratan por separado: suministro de equipo, servicios técnicos con entregable documental y un directorio nacional del sector.
+**FIREFIGHTERS MX** vende equipo contra incendio y equipo para bomberos desde una oficina en Polanco, Ciudad de México, y opera con el nombre comercial **INPROSEG** (Ingeniería, Protección y Seguridad Integral). Si buscas un solo proveedor para equipar a tu brigada, instalar rociadores, dar mantenimiento a tus extintores y preparar la inspección de la NOM-002-STPS-2010, aquí encontrarás lo que ofrece, lo que declara y lo que conviene confirmar antes de firmar. Es la sexta empresa de seguridad contra incendios de este directorio y la primera que reúne suministro, servicios técnicos con entregable documental y un directorio nacional del sector.
 
 ## Perfil de la empresa
 
@@ -137,18 +137,18 @@ orden: 100
 
 Datos consultados en firefighters.mx el 28 de octubre de 2026.
 
-## Dos negocios en un mismo dominio
+## Proveedor y directorio en un mismo sitio
 
-Conviene entender la estructura antes de leer el resto de la ficha. Bajo firefighters.mx conviven dos actividades distintas:
+Antes de seguir, vale la pena entender cómo está armado el sitio, porque bajo firefighters.mx conviven dos actividades distintas:
 
 - **Un proveedor comercial**, que vende equipo y presta servicios técnicos con precio y cotización.
 - **Un directorio público**, que lista estaciones de bomberos y empresas del sector en todo el país, incluidas empresas que compiten con el propio proveedor.
 
 El sitio lo dice de forma explícita: las fichas del directorio son de terceros y cada empresa confirma su propia información. Para el lector de esta ficha la consecuencia es práctica. El directorio es una herramienta útil de búsqueda; la decisión de compra se toma con la cotización, la ficha técnica y la factura de quien vende, sea este proveedor o cualquier otro.
 
-## Qué suministra
+## Equipo contra incendio y equipo para bomberos: qué suministra
 
-El catálogo publicado abarca quince líneas, que se entienden mejor agrupadas por quién las usa. La columna de referencia indica la norma que hoy rige cada familia de producto, no una certificación de este proveedor.
+El catálogo publicado abarca quince líneas. Se entienden mejor agrupadas por quién las va a usar: el bombero, la unidad de rescate o el inmueble. La columna de referencia indica la norma que hoy rige cada familia de producto, no una certificación de este proveedor.
 
 | Familia | Líneas del catálogo | Referencia técnica o normativa vigente |
 |---|---|---|
@@ -159,9 +159,9 @@ El catálogo publicado abarca quince líneas, que se entienden mejor agrupadas p
 
 Un dato de contexto que el comprador debe tener presente: entre 2024 y 2025 la NFPA reorganizó sus normas de equipo de protección. La NFPA 1970 sustituyó a las NFPA 1971, 1975, 1981 y 1982, y la NFPA 1950 sustituyó a las NFPA 1951, 1977 y 1999. Una cotización que todavía cite la numeración anterior no es necesariamente incorrecta, porque mucho equipo en existencia se certificó con ella, pero sí obliga a preguntar con qué edición de la norma está certificado el modelo concreto.
 
-## Seis servicios técnicos y lo que debe quedar por escrito
+## Servicios contra incendio y lo que debe quedar por escrito
 
-Además del suministro, FIREFIGHTERS MX publica seis servicios con página propia. La forma más útil de leerlos es por el documento que cada uno deja en manos del cliente, porque ese documento es el que se presenta ante una inspección, una aseguradora o una dependencia.
+Además del suministro, FIREFIGHTERS MX publica seis servicios con página propia. La manera más práctica de compararlos es por el documento que cada uno te deja, porque ese papel es el que vas a mostrar ante un inspector, una aseguradora o una dependencia.
 
 | Servicio | Marco de referencia | Entregable que conviene exigir |
 |---|---|---|
@@ -174,9 +174,9 @@ Además del suministro, FIREFIGHTERS MX publica seis servicios con página propi
 
 El sitio declara diagnóstico sin costo y propuesta en un máximo de 48 horas hábiles para los servicios, y respuesta a solicitudes de cotización de equipo en menos de 24 horas hábiles.
 
-## El directorio nacional: alcance y método
+## Directorio de estaciones de bomberos y empresas contra incendio
 
-El directorio es la parte del sitio con mayor volumen y la que más tráfico de búsqueda atrae. Tiene dos secciones con métodos distintos.
+El directorio es la parte más grande del sitio. Tiene dos secciones, cada una con su propio método.
 
 **Estaciones de bomberos.** Al corte de esta ficha lista 577 estaciones en las 32 entidades, con un criterio declarado de una ficha por estación física y no por corporación. Por tipo de corporación, el desglose publicado es de 391 municipales, 59 estatales, 50 aeroportuarias, 43 de voluntarios, 17 de PEMEX, 13 industriales y 4 de CFE. El sitio fecha la verificación de los registros en septiembre de 2026 y cita como referencia de contexto el conteo del DENUE del INEGI, que ronda 870 unidades económicas de bomberos sin contar las aeroportuarias ni las de PEMEX y CFE.
 
@@ -203,7 +203,7 @@ Tampoco se reproduce la antigüedad de la empresa. El sitio declara a la vez **m
 
 **Dos observaciones de utilidad para el comprador.** La primera: parte del sitio todavía cita la NFPA 1971 para trajes, una numeración que la NFPA 1970 sustituyó; al cotizar, pide la edición de la norma con la que está certificado el modelo ofertado. La segunda: el correo publicado es una cuenta de dominio genérico, así que para compras institucionales o licitaciones conviene confirmar desde el inicio la razón social y el RFC con los que se facturará.
 
-## Cómo verificar antes de comprar o contratar
+## Cómo verificar a un proveedor de equipo contra incendio
 
 1. **Pide la ficha técnica del fabricante del modelo exacto**, no la de la familia de producto, con la norma y la edición de certificación.
 2. **Pide la carta de distribución del fabricante** si la compra depende de ella, por ejemplo en una licitación que la exige.

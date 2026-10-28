@@ -1,7 +1,7 @@
 ---
 nombre: FIREFIGHTER.COM.MX
-tituloSeo: FIREFIGHTER.COM.MX, equipo para bomberos en México
-descripcion: "Proveedor de equipo para bomberos y contra incendio con venta en los 32 estados, catálogo en ocho líneas con su norma y un centro público de normativa contra incendio."
+tituloSeo: "FIREFIGHTER.COM.MX: equipo de bombero en México"
+descripcion: "Equipo de bombero y contra incendio con envío a los 32 estados: traje de bombero, SCBA, extintores, quijadas de la vida, hidrantes y normativa contra incendio por estado."
 categoria: seguridad-contra-incendios
 categorias: []
 ciudad: cdmx
@@ -10,7 +10,7 @@ telefono: "56 4115 1911"
 whatsapp: "56 4115 1911"
 sitio: https://firefighter.com.mx/
 servicios:
-  - nombre: EPP estructural para bomberos
+  - nombre: Traje de bombero profesional
     descripcion: Chaquetón y pantalón en Nomex o PBI, casco, botas, guantes, protector de cuello y caretas para intervención estructural, conforme a la NFPA 1970.
     foto: epp-bombero-firefighter-com-mx
     detalle:
@@ -23,7 +23,7 @@ servicios:
         - epp-bombero-firefighter-com-mx:1
         - epp-bombero-firefighter-com-mx:3
         - epp-bombero-firefighter-com-mx:5
-  - nombre: Equipos de respiración autónoma
+  - nombre: Equipo de respiración autónoma
     descripcion: SCBA de circuito abierto con presión positiva, máscara facial completa, cilindros de 30, 45 y 60 minutos y sistemas RIT para rescate de bomberos.
     foto: respiracion-firefighter-com-mx
     detalle:
@@ -49,7 +49,7 @@ servicios:
         - extintores-firefighter-com-mx:2
         - extintores-firefighter-com-mx:5
         - extintores-firefighter-com-mx:8
-  - nombre: Herramientas hidráulicas de rescate
+  - nombre: Quijadas de la vida y herramientas de rescate
     descripcion: Separadores, cortadoras, arietes telescópicos, cojines de levantamiento y herramienta manual para extricación vehicular y rescate en estructuras colapsadas.
     foto: rescate-firefighter-com-mx
     detalle:
@@ -61,7 +61,7 @@ servicios:
         - rescate-firefighter-com-mx:1
         - rescate-firefighter-com-mx:2
         - rescate-firefighter-com-mx:4
-  - nombre: Equipo forestal para brigadas
+  - nombre: Equipo para incendios forestales
     descripcion: Ropa forestal, casco, goggles, herramienta manual, mochilas aspersoras de 20 litros y equipo motorizado, armado en paquetes por brigada para la temporada.
     foto: forestal-firefighter-com-mx
     detalle:
@@ -74,7 +74,7 @@ servicios:
         - forestal-firefighter-com-mx:1
         - forestal-firefighter-com-mx:3
         - forestal-firefighter-com-mx:5
-  - nombre: Detección y alarma contra incendio
+  - nombre: Sistema de alarma contra incendio
     descripcion: Detectores de humo, calor y gas, paneles direccionables y convencionales, estaciones manuales y notificación audible y visible, con proyecto y prueba punto por punto.
     servicio: deteccion-y-alarma-contra-incendios
     foto: deteccion-firefighter-com-mx
@@ -88,7 +88,7 @@ servicios:
         - deteccion-firefighter-com-mx:1
         - deteccion-firefighter-com-mx:3
         - deteccion-firefighter-com-mx:5
-  - nombre: Hidrantes, gabinetes y sistemas fijos
+  - nombre: Hidrantes contra incendios y toma siamesa
     descripcion: Gabinetes equipados, mangueras de 1½ y 2½ pulgadas, bombas eléctricas y diésel con controlador, rociadores y supresión con agente limpio, del cálculo a la puesta en marcha.
     foto: sistemas-fijos-firefighter-com-mx
     detalle:
@@ -101,7 +101,7 @@ servicios:
         - sistemas-fijos-firefighter-com-mx:1
         - sistemas-fijos-firefighter-com-mx:3
         - sistemas-fijos-firefighter-com-mx:5
-  - nombre: Señalización y equipo de evacuación
+  - nombre: Señalamientos de protección civil
     descripcion: Señalética fotoluminiscente y LED, alumbrado de emergencia, botiquines, kits de brigada y planos de evacuación, con levantamiento del inmueble y colocación.
     foto: senalizacion-firefighter-com-mx
     detalle:
@@ -119,7 +119,7 @@ verificado: true
 destacado: true
 orden: 100
 ---
-**FIREFIGHTER.COM.MX** es un proveedor de equipo para bomberos y de equipo contra incendio que vende y entrega en los 32 estados. Su catálogo se organiza en ocho líneas, cada una asociada a la norma que la rige, y su sitio publica además dos recursos de consulta abiertos: un **centro de cumplimiento normativo** con fichas por estado, por giro y por norma, y un **directorio nacional de estaciones de bomberos**. Es la séptima ficha de seguridad contra incendios de este directorio.
+**FIREFIGHTER.COM.MX** vende equipo de bombero y equipo contra incendio con entrega en los 32 estados: desde el traje de bombero profesional y el equipo de respiración autónoma hasta extintores, quijadas de la vida, hidrantes y señalamientos de protección civil. Su catálogo se organiza en ocho líneas, cada una ligada a la norma que la rige, y su sitio publica además dos recursos de consulta abiertos: un **centro de cumplimiento normativo** con fichas por estado, por giro y por norma, y un **directorio nacional de estaciones de bomberos**. Es la séptima ficha de seguridad contra incendios de este directorio.
 
 ## Perfil de la empresa
 
@@ -139,9 +139,9 @@ Datos consultados en firefighter.com.mx el 28 de octubre de 2026.
 
 **Esta ficha se publica sin domicilio ni correo**, porque el sitio no publica ninguno de los dos. Se clasifica en la plaza Ciudad de México por la lada de su línea de ventas, que corresponde a la zona metropolitana del Valle de México; no es un domicilio declarado. El contacto se hace por teléfono, WhatsApp o el formulario de su sitio.
 
-## Ocho líneas de producto, cada una con su norma
+## Equipo de bombero y contra incendio: ocho líneas, cada una con su norma
 
-El catálogo publicado agrupa el equipo por función y asigna a cada línea una norma de referencia. La columna de la derecha precisa, cuando hace falta, qué norma rige hoy esa familia de producto.
+El catálogo agrupa el equipo por función y le asigna a cada línea una norma de referencia. La columna de la derecha precisa, cuando hace falta, qué norma rige hoy esa familia de producto, porque varias cambiaron de número entre 2024 y 2025.
 
 | Línea | Qué incluye | Norma de referencia vigente |
 |---|---|---|
@@ -156,9 +156,9 @@ El catálogo publicado agrupa el equipo por función y asigna a cada línea una 
 
 La empresa declara entregar cada pedido con factura, ficha técnica en español, número de serie y certificado de origen, y ofrece asesoría técnica sin costo para definir el equipo antes de cotizar.
 
-## El centro de cumplimiento normativo
+## Normativa contra incendio por estado, giro y norma
 
-La sección `/cumplimiento/` es el recurso más útil del sitio para quien no viene a comprar sino a entender qué le exige la ley. Está organizada en cuatro ejes y declara una metodología explícita: cada obligación se toma del texto publicado en el Diario Oficial de la Federación, se cita el numeral exacto, las prácticas de mercado sin respaldo normativo se señalan como tales y lo que no se pudo confirmar en fuente oficial no se publica.
+La sección `/cumplimiento/` es lo más útil del sitio si no vienes a comprar sino a entender qué te exige la ley. Está organizada en cuatro ejes y declara una metodología explícita: cada obligación se toma del texto publicado en el Diario Oficial de la Federación, se cita el numeral exacto, las prácticas de mercado sin respaldo normativo se señalan como tales y lo que no se pudo confirmar en fuente oficial no se publica.
 
 | Eje | Contenido |
 |---|---|
@@ -191,7 +191,7 @@ Tampoco se reproducen los **casos de trabajo** que muestra el sitio. Son testimo
 
 **Tres observaciones de utilidad para el comprador.** La primera: el sitio cita normas distintas para una misma línea en secciones diferentes, como NFPA 1970 y NFPA 1981 para los equipos de respiración o NFPA 1977 y NFPA 1950 para el equipo forestal; ambas parejas describen la misma familia antes y después de la consolidación de 2024 y 2025, y la que debe constar en la cotización es la edición con que está certificado el modelo ofertado. La segunda: el rango de extintores de polvo químico seco aparece como de 1 a 136 kg en una sección y de 6 a 50 kg en otra; conviene confirmar la capacidad exacta disponible. La tercera: el encabezado del sitio muestra el 911 de forma destacada, pero la empresa aclara en su página de contacto que no presta servicio de emergencias.
 
-## Cómo verificar antes de comprar
+## Cómo verificar a un proveedor de equipo de bombero
 
 1. **Pide la razón social y el RFC** con los que se emitirá la factura antes de anticipar cualquier pago, ya que el sitio no los publica.
 2. **Pide la ficha técnica del modelo exacto** con la norma y la edición de certificación, sobre todo en EPP, respiración autónoma y equipo forestal.

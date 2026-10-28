@@ -1,27 +1,27 @@
 ---
 empresa: firefighters-mx
-slug: auditoria-de-cumplimiento-nom-002-stps
-nombre: Auditoría de cumplimiento NOM-002-STPS
-titulo: Auditoría de cumplimiento de la NOM-002-STPS-2010
-tituloSeo: Auditoría NOM-002-STPS-2010 para centros de trabajo
-descripcion: "Diagnóstico de instalaciones, expediente y brigada con criterios de inspección de la NOM-002-STPS-2010, semáforo por área, plan priorizado y visita de verificación a 90 días."
+slug: auditoria-nom-002-stps-2010
+nombre: Auditoría NOM-002-STPS-2010
+titulo: Auditoría de cumplimiento de la NOM-002-STPS-2010, con semáforo por área y plan de cierre
+tituloSeo: Auditoría NOM-002-STPS-2010 para tu centro de trabajo
+descripcion: "Revisamos instalaciones, expediente y brigada con los criterios de una inspección de la NOM-002-STPS-2010: semáforo por área, plan priorizado y visita a 90 días."
 orden: 6
 titulos:
-  incluye: Qué revisa la auditoría
-  modalidades: Alcances de la auditoría
-  paraQuien: Cuándo conviene auditar
+  incluye: Qué revisa una auditoría de la NOM-002-STPS-2010
+  modalidades: Alcances de la auditoría NOM-002
+  paraQuien: Cuándo conviene auditar la NOM-002
   proceso: Las seis fases de la auditoría
-  errores: Errores frecuentes frente a una inspección de la NOM-002
+  errores: Los incumplimientos de la NOM-002 que más se repiten
   glosario: Términos de la NOM-002-STPS-2010
-  faq: Preguntas sobre la auditoría NOM-002
+  faq: Preguntas sobre la NOM-002-STPS-2010 y su auditoría
 intro: >-
-  La NOM-002-STPS-2010 no se verifica con una licencia previa sino con una
-  inspección, y la inspección llega cuando llega. La auditoría sirve para
-  saber antes que el inspector qué está en regla y qué no. Revisamos
-  instalaciones, documentos y brigada con los mismos criterios de una
-  inspección laboral y de los términos de referencia de protección civil
-  local, y entregamos un semáforo por área con un plan priorizado por
-  riesgo legal y por riesgo real.
+  La NOM-002-STPS-2010 no se tramita: se verifica en una inspección, y la
+  inspección llega cuando llega. Una auditoría previa te dice, antes que
+  el inspector, qué está en regla y qué no. Revisamos instalaciones,
+  expediente y brigada con los mismos criterios de una inspección laboral
+  y de los términos de referencia de protección civil local, y entregamos
+  un semáforo por área con un plan ordenado por riesgo legal y por riesgo
+  real.
 stats:
   - k: Norma
     v: NOM-002-STPS-2010, prevención y protección contra incendios
@@ -127,6 +127,8 @@ galeria:
   - extintores-firefighters-mx:9
   - sistemas-contra-incendio-firefighters-mx:8
 faq:
+  - q: "¿Qué es la NOM-002-STPS-2010?"
+    a: Es la norma oficial mexicana de condiciones de seguridad para la prevención y protección contra incendios en los centros de trabajo. Obliga a clasificar el riesgo de incendio, contar con equipo y programas de revisión, capacitar al personal y, en riesgo alto, tener brigada y hacer dos simulacros al año.
   - q: "¿La STPS emite una licencia de la NOM-002?"
     a: No. La norma se verifica por inspección. Lo que se demuestra es el cumplimiento, con instalaciones, documentos y registros.
   - q: "¿Esta auditoría sustituye un dictamen de unidad de verificación?"
@@ -151,9 +153,9 @@ faq:
 
 ## Una norma que se verifica sin aviso
 
-La NOM-002-STPS-2010 tiene una característica que la distingue de otros trámites de seguridad: no hay una licencia que tramitar ni una fecha fija para demostrar el cumplimiento. La autoridad laboral verifica en una inspección, y lo que se revisa ese día es lo que hay ese día.
+La NOM-002-STPS-2010 tiene una particularidad: no hay licencia que tramitar ni una fecha fija para demostrar que cumples. La autoridad laboral revisa en una inspección, y lo que cuenta ese día es lo que hay ese día.
 
-La auditoría reproduce esa revisión con anticipación. Su valor no está en el informe sino en la prioridad: saber qué hallazgo es crítico y cuál puede esperar, para que el presupuesto de prevención se use primero donde importa.
+La auditoría reproduce esa revisión con tiempo. Su valor no está en el informe sino en la prioridad: saber qué hallazgo es crítico y cuál puede esperar, para que el presupuesto de prevención se use primero donde importa.
 
 ## Qué cambia entre riesgo ordinario y riesgo alto
 
@@ -167,8 +169,8 @@ La clasificación del Apéndice A define buena parte de lo que se audita:
 | Detección de incendio | Según el análisis | Obligatoria |
 | Evidencia de cumplimiento | Registros del centro de trabajo | Además, dictamen, acta de protección civil o evidencia de autogestión |
 
-Por eso el primer entregable de la auditoría es la clasificación actualizada. Una empresa que se cree de riesgo ordinario y en realidad es de riesgo alto puede tener todo en orden para la categoría equivocada.
+Por eso el primer entregable es la clasificación actualizada. Una empresa que se cree de riesgo ordinario y en realidad es de riesgo alto puede tener todo en orden para la categoría equivocada.
 
 ## Lo que pesa en una inspección
 
-La Ley Federal del Trabajo prevé sanciones de 250 a 5,000 UMA por violar las normas de seguridad, aplicables por trabajador afectado y con agravante por reincidencia. El riesgo económico no está en un hallazgo aislado sino en la suma: una brigada sin constancias, un programa de extintores incompleto y un simulacro sin registro son tres observaciones distintas.
+La Ley Federal del Trabajo prevé sanciones de 250 a 5,000 UMA por violar las normas de seguridad, aplicables por trabajador afectado y con agravante por reincidencia. El riesgo económico rara vez está en un hallazgo aislado; está en la suma. Una brigada sin constancias, un programa de extintores incompleto y un simulacro sin registro son tres observaciones distintas.

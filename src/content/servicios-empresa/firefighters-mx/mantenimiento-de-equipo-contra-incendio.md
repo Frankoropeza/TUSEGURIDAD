@@ -1,27 +1,27 @@
 ---
 empresa: firefighters-mx
-slug: mantenimiento-y-recarga-de-equipo
-nombre: Mantenimiento y recarga de equipo
-titulo: Mantenimiento y recarga de extintores, SCBA y herramienta de rescate
-tituloSeo: Mantenimiento y recarga de extintores y equipo SCBA
-descripcion: "Mantenimiento y recarga de extintores conforme a la NOM-154-SCFI-2005, servicio a equipo de respiración, herramienta hidráulica y EPP, con bitácora por equipo."
+slug: mantenimiento-de-equipo-contra-incendio
+nombre: Mantenimiento de equipo contra incendio
+titulo: "Mantenimiento de equipo contra incendio: extintores, SCBA y herramienta de rescate"
+tituloSeo: Mantenimiento de equipo contra incendio con póliza
+descripcion: "Mantenimiento de extintores conforme a la NOM-154-SCFI-2005, servicio a equipo de respiración y herramienta hidráulica, con póliza anual y bitácora por equipo."
 orden: 3
 servicio: recarga-y-mantenimiento-de-extintores
 titulos:
-  incluye: Qué equipo atendemos y qué se le hace
-  modalidades: Taller, sitio o recolección
+  incluye: Qué incluye el mantenimiento de equipo contra incendio
+  modalidades: Póliza anual, servicio en sitio o recolección
   paraQuien: Quién contrata una póliza de mantenimiento
-  proceso: Cómo se programa el servicio
-  errores: Errores que invalidan un mantenimiento
-  glosario: Términos del mantenimiento de equipo contra incendio
-  faq: Preguntas sobre mantenimiento y recarga
+  proceso: Cómo programamos el mantenimiento
+  errores: Errores que invalidan el mantenimiento de extintores
+  glosario: Términos del mantenimiento contra incendio
+  faq: Preguntas sobre mantenimiento de extintores y equipo
 intro: >-
-  Un extintor descargado, un regulador de respiración sin prueba de flujo o
-  una herramienta hidráulica con fuga no avisan que fallarán: fallan el día
-  que se usan. El mantenimiento existe para que eso no ocurra y, tan
-  importante como eso, para dejar evidencia de que se hizo. Damos servicio
-  en taller, en sitio o con recolección, y cada equipo queda registrado con
-  fecha, técnico, refacciones y la fecha de su próxima intervención.
+  Un extintor sin presión, un regulador de respiración que nadie probó o
+  una herramienta hidráulica con una fuga mínima no avisan: fallan el día
+  que se necesitan. El mantenimiento sirve para que eso no pase y, casi
+  igual de importante, para dejar constancia de que se hizo. Atendemos en
+  taller, en sitio o con recolección, y cada equipo queda registrado con
+  fecha, técnico, refacciones y la fecha de su siguiente servicio.
 stats:
   - k: Extintores
     v: Mantenimiento y recarga conforme a la NOM-154-SCFI-2005
@@ -147,26 +147,26 @@ faq:
     a: Sí. El servicio por evento cubre recargas después de un uso real o de una práctica.
 ---
 
-## Tres obligaciones distintas que suelen confundirse
+## Mantenimiento de extintores: tres obligaciones que suelen mezclarse
 
-En la mayoría de los centros de trabajo se habla de «el mantenimiento de los extintores» como si fuera una sola cosa. Son tres, con responsables y frecuencias diferentes:
+En muchos centros de trabajo se habla de «el mantenimiento de los extintores» como si fuera una sola tarea. Son tres, con responsables y frecuencias distintas:
 
-| Actividad | Quién la hace | Con qué frecuencia | Qué deja |
+| Actividad | Quién la hace | Frecuencia | Qué deja |
 |---|---|---|---|
 | Revisión visual | Personal del centro de trabajo | Mensual | Registro de revisión |
 | Mantenimiento | Prestador de servicio | Al menos una vez al año | Etiqueta, collarín y bitácora |
-| Prueba hidrostática | Prestador de servicio | Cada cinco años en la mayoría de los extintores | Marca de fecha en el cilindro |
+| Prueba hidrostática | Prestador de servicio | Cada cinco años en la mayoría de los extintores | Fecha marcada en el cilindro |
 
-Confundirlas tiene un costo concreto: un inmueble puede tener todos los extintores recargados y aun así recibir una observación por no tener el registro mensual, o tener los registros al día con cilindros que ya no deberían estar en la pared.
+Confundirlas sale caro. Un inmueble puede tener todos sus extintores recargados y aun así recibir una observación por no llevar la revisión mensual, o tener los registros al día con cilindros que ya no deberían estar en la pared.
 
 ## El equipo del bombero también tiene calendario
 
 El mantenimiento no termina en los extintores. Para un cuerpo de bomberos o una brigada industrial, el equipo crítico tiene sus propios plazos:
 
-- **Equipo de respiración autónoma.** Inspección después de cada uso, prueba de flujo periódica del regulador y control de la vida útil del cilindro.
-- **Herramienta hidráulica de rescate.** Revisión de fugas y prueba de funcionamiento según el manual del fabricante, además de una revisión después de cada uso intenso.
+- **Equipo de respiración autónoma.** Inspección después de cada uso, prueba periódica del regulador y control de la vida útil del cilindro.
+- **Herramienta hidráulica de rescate.** Revisión de fugas y prueba de funcionamiento según el fabricante, y una revisión extra después de cada uso intenso.
 - **Traje estructural.** Inspección y limpieza avanzada al menos una vez al año, y lavado especializado después de cada exposición a contaminantes.
 
-## La bitácora es el producto
+## Lo que te queda al final del año
 
-Al final del año, lo que el cliente conserva no es el servicio sino su registro. Una bitácora por equipo con fecha, técnico, refacciones y próxima intervención es lo que permite responder en minutos a un inspector, a la aseguradora o a una auditoría corporativa, en lugar de reconstruir el historial con facturas sueltas.
+Lo que conservas no es el servicio sino su registro. Una bitácora por equipo, con fecha, técnico, refacciones y próxima intervención, te permite responder en minutos a un inspector, a la aseguradora o a una auditoría corporativa, en lugar de reconstruir el historial con facturas sueltas.

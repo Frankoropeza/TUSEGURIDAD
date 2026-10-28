@@ -1,26 +1,26 @@
 ---
 empresa: firefighter-com-mx
-slug: epp-estructural-para-bomberos
-nombre: EPP estructural para bomberos
-titulo: EPP estructural para bomberos certificado con la NFPA 1970
-tituloSeo: EPP estructural para bomberos, norma NFPA 1970
-descripcion: "Chaquetón y pantalón en Nomex o PBI, casco, capucha, guantes, botas y caretas para intervención estructural, con ficha técnica en español y número de serie."
+slug: traje-de-bombero-profesional
+nombre: Traje de bombero profesional
+titulo: Traje de bombero profesional y EPP estructural certificado con la NFPA 1970
+tituloSeo: "Traje de bombero profesional: EPP NFPA 1970"
+descripcion: "Traje de bombero profesional completo: chaquetón y pantalón en Nomex o PBI, casco, capucha, guantes y botas certificados con la NFPA 1970, con ficha técnica en español."
 orden: 1
 titulos:
-  incluye: Las piezas del ensamble estructural
-  modalidades: Opciones de material y configuración
-  paraQuien: Quién compra EPP estructural
-  proceso: Cómo se especifica y se entrega un ensamble
-  errores: Errores al especificar EPP estructural
-  glosario: Vocabulario del EPP de bombero
-  faq: Preguntas sobre EPP estructural
+  incluye: Las siete piezas del traje de bombero profesional
+  modalidades: Nomex o PBI, casco tradicional o moderno
+  paraQuien: Quién compra traje de bombero profesional
+  proceso: Cómo se especifica y se entrega el traje
+  errores: Errores al comprar un traje de bombero
+  glosario: "Partes del traje de bombero: glosario"
+  faq: Preguntas sobre el traje de bombero profesional
 intro: >-
-  El EPP estructural es lo único que separa al bombero del calor dentro de
-  un edificio en llamas, y se certifica como sistema: chaquetón, pantalón,
-  casco, capucha, guantes y botas tienen que trabajar juntos. Lo
-  especificamos por la norma y la edición con que está certificado cada
-  componente, y cada pedido sale con ficha técnica en español, número de
-  serie y certificado de origen.
+  Un traje de bombero profesional es lo único que separa al bombero del
+  calor dentro de un edificio en llamas, y se certifica como sistema:
+  chaquetón, pantalón, casco, capucha, guantes y botas tienen que trabajar
+  juntos. Lo especificamos por la norma y la edición con que está
+  certificado cada componente, y cada pedido sale con ficha técnica en
+  español, número de serie y certificado de origen.
 stats:
   - k: Norma
     v: NFPA 1970, edición 2025, sucesora de la NFPA 1971
@@ -127,6 +127,8 @@ galeria:
   - respiracion-firefighter-com-mx:1
   - epp-bombero-firefighter-com-mx:3
 faq:
+  - q: "¿Cuánto pesa un traje de bombero?"
+    a: El traje estructural por sí solo pesa varios kilos; con casco, botas y equipo de respiración autónoma, el conjunto suele rebasar los 20 kilos. Por eso la talla y el ajuste importan tanto como el material.
   - q: "¿Qué norma rige hoy el traje estructural?"
     a: La NFPA 1970, edición 2025, que sustituyó a la NFPA 1971. Mucho equipo en existencia sigue certificado con la edición anterior, y la ficha técnica debe decirlo.
   - q: "¿Nomex o PBI?"
@@ -151,11 +153,11 @@ faq:
     a: Con el procedimiento del fabricante y de la NFPA 1851, separado de la ropa común y sin detergentes que dañen las capas.
 ---
 
-## El ensamble se certifica como sistema
+## El traje de bombero se certifica como sistema
 
-Un traje estructural no protege por sus piezas sino por cómo se combinan. La NFPA 1970 evalúa el chaquetón y el pantalón como un conjunto de tres capas, y exige que el traslape entre ambos se mantenga aunque el bombero se agache o levante los brazos. Mezclar un chaquetón de un fabricante con un pantalón de otro, sin confirmar compatibilidad, puede romper esa continuidad sin que se note a simple vista.
+Un traje de bombero profesional no protege por sus piezas sueltas sino por cómo se combinan. La NFPA 1970 evalúa chaquetón y pantalón como un conjunto de tres capas y exige que el traslape entre ambos se mantenga aunque el bombero se agache o levante los brazos. Si mezclas un chaquetón de un fabricante con un pantalón de otro sin confirmar compatibilidad, esa continuidad puede romperse sin que se note a simple vista.
 
-## Qué revisar en la ficha técnica
+## Qué revisar en la ficha técnica antes de comprar
 
 | Dato | Por qué importa |
 |---|---|
@@ -163,8 +165,8 @@ Un traje estructural no protege por sus piezas sino por cómo se combinan. La NF
 | Material de cada capa | Define desempeño térmico, peso y precio |
 | Fecha de fabricación | Marca el inicio de los diez años de vida útil |
 | Número de serie | Permite rastrear garantía y avisos de retiro |
-| Instrucciones de cuidado | Indican cómo lavar e inspeccionar sin dañar las capas |
+| Instrucciones de cuidado | Dicen cómo lavar e inspeccionar sin dañar las capas |
 
 ## La pieza que más se descuida
 
-La capucha suele quedar al final de la lista porque es la más barata. Es también la que cubre la piel con mayor absorción de contaminantes, por eso las capuchas con barrera de partículas se han vuelto una mejora habitual al reponer EPP. Si el presupuesto obliga a elegir, conviene reponer capuchas y guantes, que se desgastan antes, y programar el resto del ensamble por fecha de fabricación.
+La capucha suele quedar al final de la lista porque es la más barata. También es la que cubre la piel que más contaminantes absorbe, y por eso las capuchas con barrera de partículas se han vuelto una mejora habitual al reponer equipo. Si el presupuesto obliga a elegir, conviene reponer primero capuchas y guantes, que se gastan antes, y programar el resto del traje por fecha de fabricación.

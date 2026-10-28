@@ -1,26 +1,26 @@
 ---
 empresa: firefighter-com-mx
-slug: senalizacion-y-equipo-de-evacuacion
-nombre: Señalización y equipo de evacuación
-titulo: Señalización de protección civil y equipo de evacuación
-tituloSeo: Señalización de protección civil y evacuación
-descripcion: "Señalética fotoluminiscente y LED, alumbrado de emergencia, botiquines y planos de evacuación conforme a la NOM-003-SEGOB-2011, con levantamiento y colocación."
+slug: senalamientos-de-proteccion-civil
+nombre: Señalamientos de protección civil
+titulo: Señalamientos de protección civil, señalética de evacuación y lámparas de emergencia
+tituloSeo: Señalamientos de protección civil y de emergencia
+descripcion: "Señalamientos de protección civil y de emergencia conforme a la NOM-003-SEGOB-2011: señalética fotoluminiscente, ruta de evacuación, lámparas de emergencia y colocación."
 orden: 8
 titulos:
-  incluye: Qué se señaliza en un inmueble
-  modalidades: Tipos de señal y de equipo
-  paraQuien: Quién necesita señalizar
+  incluye: Qué señalamientos de protección civil lleva un inmueble
+  modalidades: Señalética fotoluminiscente, LED y de advertencia
+  paraQuien: Quién necesita señalamientos de protección civil
   proceso: Del levantamiento al expediente
-  errores: Errores comunes de señalización
-  glosario: Términos de señalización
-  faq: Preguntas sobre señalización y evacuación
+  errores: Errores comunes en la señalética de emergencia
+  glosario: Términos de señalización y evacuación
+  faq: Preguntas sobre señalamientos de protección civil
 intro: >-
-  La señalización es lo que la gente sigue cuando ya no puede ver o no
-  conoce el edificio. También es uno de los puntos que más observaciones
-  genera en una revisión de protección civil, casi siempre por detalles de
-  ubicación, tamaño o tipo de señal. Levantamos el inmueble, definimos rutas
-  y puntos de reunión, y entregamos el paquete colocado con memoria
-  fotográfica para el expediente.
+  Los señalamientos de protección civil son lo que la gente sigue cuando
+  ya no ve o no conoce el edificio. También son de lo que más
+  observaciones genera en una revisión, casi siempre por detalles de
+  ubicación, tamaño o tipo de señal. Levantamos el inmueble, definimos
+  rutas de evacuación y puntos de reunión, y entregamos el paquete
+  colocado con memoria fotográfica para tu expediente.
 stats:
   - k: Normas
     v: NOM-003-SEGOB-2011 y NOM-026-STPS-2008
@@ -35,8 +35,8 @@ incluye:
     texto: Señales direccionales y de salida, colocadas para que siempre se vea la siguiente.
   - titulo: Señalización de equipo
     texto: Ubicación de extintores, gabinetes, estaciones manuales y botiquines.
-  - titulo: Alumbrado de emergencia
-    texto: Lámparas con batería que iluminan rutas y salidas durante un corte de energía.
+  - titulo: Lámparas de emergencia
+    texto: Con batería, iluminan rutas y salidas durante un corte de energía.
   - titulo: Planos de evacuación
     texto: Con indicación de «usted está aquí», rutas, salidas y punto de reunión.
   - titulo: Botiquines y kits de brigada
@@ -121,6 +121,8 @@ galeria:
   - senalizacion-firefighter-com-mx:5
   - senalizacion-firefighter-com-mx:6
 faq:
+  - q: "¿Cuáles son los señalamientos de protección civil?"
+    a: "Se agrupan en cinco tipos: informativos de evacuación y salida, en verde; de equipo contra incendio, en rojo; de advertencia de riesgo, en amarillo; de prohibición, en rojo con barra; y de obligación, en azul. Sus colores y formas los fija la NOM-003-SEGOB-2011."
   - q: "¿Qué norma regula la señalización de protección civil?"
     a: La NOM-003-SEGOB-2011. En centros de trabajo aplica además la NOM-026-STPS-2008 de colores y señales de seguridad.
   - q: "¿Fotoluminiscente o iluminada?"
@@ -141,22 +143,22 @@ faq:
     a: El sitio declara entrega en los 32 estados.
 ---
 
-## La señal correcta en el lugar correcto
+## Cada señalamiento en su lugar
 
 | Tipo de señal | Color base | Qué indica |
 |---|---|---|
 | Salida y ruta de evacuación | Verde | Por dónde salir |
-| Equipo contra incendio | Rojo | Dónde está el extintor, el gabinete o la alarma |
+| Equipo contra incendio | Rojo | Dónde están el extintor, el gabinete o la alarma |
 | Advertencia | Amarillo | Un riesgo presente en la zona |
 | Prohibición | Rojo con barra | Una conducta no permitida |
 | Obligación | Azul | Una acción obligatoria, como usar EPP |
 
-Los colores y las formas no son una elección de diseño. Están definidos por norma para que cualquier persona los entienda sin leer, y usar otros genera observaciones en la revisión.
+Colores y formas no son una decisión de diseño. Los fija la norma para que cualquier persona los entienda sin leer, y usar otros genera observaciones en la revisión.
 
-## Una ruta que nunca se corta
+## Una ruta de evacuación que nunca se corta
 
-La prueba de una ruta de evacuación es sencilla: desde cualquier punto debe verse la siguiente señal. El proyecto de señalización se hace sobre plano para cumplir esa regla en pasillos, escaleras y cambios de dirección, y se verifica en sitio al colocar.
+La prueba de una ruta de evacuación es sencilla: desde cualquier punto tiene que verse la siguiente señal. El proyecto de señalética se hace sobre plano para cumplir esa regla en pasillos, escaleras y cambios de dirección, y se verifica en sitio al colocar. Las lámparas de emergencia completan el trabajo cuando se va la luz.
 
-## Lo que se entrega al terminar
+## Lo que recibes al terminar
 
-Además de las señales colocadas, el cliente recibe la memoria fotográfica de cada una. Es la evidencia que se integra al expediente de protección civil y la que evita discutir en una revisión si la señal estaba o no estaba.
+Además de los señalamientos colocados, recibes la memoria fotográfica de cada uno. Es la evidencia que se integra al expediente de protección civil y la que evita discutir en una revisión si la señal estaba o no.

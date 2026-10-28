@@ -1,27 +1,28 @@
 ---
 empresa: firefighter-com-mx
-slug: deteccion-y-alarma-contra-incendio
-nombre: Detección y alarma contra incendio
-titulo: Detección y alarma contra incendio con prueba punto por punto
-tituloSeo: Detección y alarma contra incendio, NFPA 72
-descripcion: "Detectores de humo, calor y gas, paneles direccionables y convencionales y notificación audible y visible, con memoria de cálculo, planos finales y prueba de cada dispositivo."
+slug: sistema-de-alarma-contra-incendio
+nombre: Sistema de alarma contra incendio
+titulo: Sistema de alarma contra incendio y detectores de humo, con prueba punto por punto
+tituloSeo: Sistema de alarma contra incendio y detectores de humo
+descripcion: "Sistema de alarma contra incendio con detectores de humo, calor y gas, panel direccionable o convencional, estrobos y prueba documentada de cada dispositivo."
 orden: 6
 servicio: deteccion-y-alarma-contra-incendios
 titulos:
-  incluye: Componentes de un sistema de detección y alarma
-  modalidades: Sistemas convencionales y direccionables
-  paraQuien: Inmuebles que lo requieren
+  incluye: Partes de un sistema de alarma contra incendio
+  modalidades: Panel de alarma convencional o direccionable
+  paraQuien: Inmuebles que necesitan alarma contra incendio
   proceso: Del proyecto a la puesta en marcha
   errores: Errores que provocan falsas alarmas o fallas
-  glosario: Glosario de detección y alarma
-  faq: Preguntas sobre detección y alarma
+  glosario: Glosario de detectores de humo y alarma
+  faq: Preguntas sobre el sistema de alarma contra incendio
 intro: >-
-  Detectar un incendio unos minutos antes cambia todo lo que viene después:
-  la evacuación empieza antes, la brigada llega a un conato y no a un
-  incendio desarrollado. Proyectamos e instalamos sistemas de detección y
-  alarma conforme a la NFPA 72, y los entregamos con memoria de cálculo,
-  planos de lo construido, matriz causa-efecto y la prueba documentada de
-  cada dispositivo, que es lo que revisa protección civil al dictaminar.
+  Detectar un incendio unos minutos antes cambia todo lo que sigue: la
+  evacuación empieza antes y la brigada llega a un conato, no a un
+  incendio desarrollado. Proyectamos e instalamos sistemas de alarma
+  contra incendio conforme a la NFPA 72, y los entregamos con memoria de
+  cálculo, planos de lo construido, matriz causa-efecto y la prueba
+  documentada de cada detector, que es lo que revisa protección civil al
+  dictaminar.
 stats:
   - k: Norma
     v: NFPA 72, código de alarma y señalización contra incendio
@@ -30,8 +31,8 @@ stats:
   - k: Entrega
     v: Planos de lo construido, matriz causa-efecto y prueba punto por punto
 incluye:
-  - titulo: Detectores de humo
-    texto: Fotoeléctricos para fuegos de combustión lenta, la mayoría en oficinas y habitaciones.
+  - titulo: Detectores de humo fotoeléctricos
+    texto: Para fuegos de combustión lenta, los más comunes en oficinas y habitaciones.
   - titulo: Detectores de calor
     texto: De temperatura fija o termovelocimétricos, para cocinas, estacionamientos y áreas con polvo o vapor.
   - titulo: Detectores de gas
@@ -132,6 +133,8 @@ galeria:
   - deteccion-firefighter-com-mx:5
   - deteccion-firefighter-com-mx:6
 faq:
+  - q: "¿Detector de humo fotoeléctrico o iónico?"
+    a: El fotoeléctrico reacciona mejor a los fuegos lentos que producen mucho humo visible, que son los más comunes en oficinas y viviendas. El iónico responde más rápido a fuegos de llama viva. En un sistema de alarma contra incendio se elige el detector por el riesgo de cada área.
   - q: "¿Qué norma se usa para diseñar la detección?"
     a: La NFPA 72 como referencia técnica. En México, la NOM-002-STPS-2010 exige detección en centros de trabajo de riesgo alto y el reglamento local puede pedirla en otros casos.
   - q: "¿Convencional o direccionable?"
@@ -154,13 +157,13 @@ faq:
     a: El sitio declara cobertura en los 32 estados.
 ---
 
-## El detector se elige por el ambiente
+## Cada área pide su detector
 
-No hay un detector bueno para todo. Un detector de humo junto a una cocina dará falsas alarmas, y uno de calor en una oficina tardará demasiado en reaccionar a un fuego que empieza humeando. La selección por área es la primera decisión técnica del proyecto.
+No hay un detector que sirva para todo. Un detector de humo junto a una cocina dará falsas alarmas, y uno de calor en una oficina tardará demasiado en reaccionar a un fuego que empieza humeando. Elegir el detector por área es la primera decisión técnica de cualquier sistema de alarma contra incendio.
 
 | Área | Detector recomendado | Motivo |
 |---|---|---|
-| Oficinas y habitaciones | Humo fotoeléctrico | Detecta fuegos lentos a tiempo |
+| Oficinas y habitaciones | Humo fotoeléctrico | Detecta a tiempo los fuegos lentos |
 | Cocinas | Calor | El vapor y el humo de cocción engañan al detector de humo |
 | Estacionamientos | Calor o gas | Gases de escape y polvo |
 | Cuartos de máquinas | Calor y gas | Riesgo de combustión y de fuga |
@@ -168,8 +171,8 @@ No hay un detector bueno para todo. Un detector de humo junto a una cocina dará
 
 ## Lo que pide protección civil
 
-Cuando la autoridad revisa un sistema, no basta con ver detectores en el techo. Pide la memoria de cálculo, los planos de lo construido y la evidencia de que cada dispositivo se probó y reporta al panel. Esa documentación es parte del sistema tanto como el cableado.
+Cuando la autoridad revisa el sistema no le basta ver detectores en el techo. Pide la memoria de cálculo, los planos de lo construido y la evidencia de que cada dispositivo se probó y reporta al panel de alarma. Esos documentos son parte del sistema tanto como el cableado.
 
-## Una alarma que se escucha y se ve
+## Una alarma que se oye y se ve
 
-La notificación visible no es un accesorio. En hoteles, hospitales y áreas industriales ruidosas, un estrobo es la forma de que la alarma llegue a todos. Se diseña con la misma memoria de cálculo que los detectores.
+La notificación visible no es un accesorio. En hoteles, hospitales y naves ruidosas, un estrobo es la forma de que la alarma llegue a todos, incluidas las personas con discapacidad auditiva. Se diseña con la misma memoria de cálculo que los detectores.

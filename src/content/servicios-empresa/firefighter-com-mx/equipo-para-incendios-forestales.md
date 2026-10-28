@@ -1,25 +1,26 @@
 ---
 empresa: firefighter-com-mx
-slug: equipo-forestal-para-brigadas
-nombre: Equipo forestal para brigadas
-titulo: Equipo forestal para brigadas, armado por paquete de temporada
-tituloSeo: Equipo forestal para brigadas contra incendios
-descripcion: "Ropa y casco forestal, goggles, herramienta manual, mochilas aspersoras de 20 litros y equipo motorizado, cotizados por brigada con tallas y repuestos para la temporada."
+slug: equipo-para-incendios-forestales
+nombre: Equipo para incendios forestales
+titulo: "Equipo para incendios forestales: protección del brigadista y herramientas, por paquete de temporada"
+tituloSeo: Equipo para incendios forestales y brigadistas
+descripcion: "Equipo para incendios forestales: ropa y casco forestal, goggles, herramientas como Pulaski y McLeod, mochilas aspersoras de 20 litros y motosierras, cotizado por brigada."
 orden: 5
 titulos:
   incluye: Qué lleva el equipo de un brigadista forestal
-  modalidades: Formas de equipar una brigada
+  modalidades: Formas de equipar una brigada forestal
   paraQuien: Brigadas que equipamos
   proceso: Cómo se arma un paquete por brigada
   errores: Errores al equipar brigadas forestales
-  glosario: Términos del combate forestal
-  faq: Preguntas sobre equipo forestal
+  glosario: "Herramientas para incendios forestales: glosario"
+  faq: Preguntas sobre equipo para incendios forestales
 intro: >-
-  El combate de incendios forestales pide lo contrario que el estructural:
-  equipo ligero y transpirable para jornadas largas a pie, en pendiente y
-  bajo sol. Lo cotizamos por brigada completa y no por pieza suelta,
-  calculando tallas, consumibles y repuestos para que el equipo alcance
-  toda la temporada de estiaje.
+  Combatir un incendio forestal pide lo contrario que un incendio
+  estructural: equipo ligero y transpirable para jornadas largas a pie, en
+  pendiente y bajo el sol. Por eso cotizamos el equipo para incendios
+  forestales por brigada completa y no por pieza suelta, con tallas,
+  consumibles y repuestos calculados para que alcance toda la temporada de
+  estiaje.
 stats:
   - k: Norma
     v: NFPA 1950, que integró a la antigua NFPA 1977
@@ -122,6 +123,8 @@ galeria:
   - forestal-firefighter-com-mx:5
   - epp-bombero-firefighter-com-mx:5
 faq:
+  - q: "¿Qué herramientas se usan para combatir incendios forestales?"
+    a: Las básicas son la Pulaski, que combina hacha y azadón; la McLeod, con rastrillo y azadón; el batefuego y la pala. Se completan con mochilas aspersoras para liquidar puntos calientes y motosierras para abrir brecha.
   - q: "¿Qué norma aplica a la ropa forestal?"
     a: La NFPA 1950, que desde 2025 integra lo que antes regulaba la NFPA 1977. Conviene confirmar la edición con que está certificado cada modelo.
   - q: "¿Por qué no usar traje estructural en incendio forestal?"
@@ -142,7 +145,7 @@ faq:
 
 ## Ligero, transpirable y para todo el día
 
-Un brigadista forestal camina kilómetros, sube pendientes y trabaja horas bajo el sol con herramienta manual. El equipo que lo protege tiene que ser ligero y dejar salir el calor del cuerpo, porque el riesgo más frecuente en la línea no es la llama sino el agotamiento. Por eso la ropa forestal es de una sola capa y la herramienta se elige por peso tanto como por función.
+Un brigadista forestal camina kilómetros, sube pendientes y trabaja horas bajo el sol con herramienta manual. Su equipo tiene que ser ligero y dejar salir el calor del cuerpo, porque en la línea el riesgo más frecuente no es la llama sino el agotamiento. Por eso la ropa forestal es de una sola capa y las herramientas para incendios forestales se eligen por su peso tanto como por su función.
 
 ## El paquete de una cuadrilla
 
@@ -150,11 +153,11 @@ Un brigadista forestal camina kilómetros, sube pendientes y trabaja horas bajo 
 |---|---|---|
 | Ropa forestal, casco, goggles, guantes y botas | Sí | |
 | Protección respiratoria | Sí | |
-| Herramienta manual | | Combinación según terreno |
+| Herramienta manual: Pulaski, McLeod, batefuego, pala | | Combinación según el terreno |
 | Mochilas aspersoras de 20 L | | Varias, según la tarea |
 | Motosierra y bomba portátil | | Según la operación |
 | Botiquín y comunicación | | Sí |
 
-## Comprar antes de la temporada
+## Comprar antes de que empiece la temporada
 
-En México los incendios forestales se concentran en los meses secos del año. Un pedido que llega a mitad de la temporada deja a la brigada combatiendo con equipo incompleto durante sus semanas de más trabajo. La propuesta por paquete fija precio y plazo con tiempo para entregar antes de que empiece el estiaje.
+En México, los incendios forestales se concentran en los meses secos. Un pedido que llega a mitad de temporada deja a la brigada combatiendo con equipo incompleto justo en sus semanas de más trabajo. La propuesta por paquete fija precio y plazo con tiempo para entregar antes del estiaje.

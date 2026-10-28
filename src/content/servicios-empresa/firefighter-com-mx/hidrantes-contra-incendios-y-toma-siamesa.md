@@ -1,26 +1,26 @@
 ---
 empresa: firefighter-com-mx
-slug: hidrantes-gabinetes-y-sistemas-fijos
-nombre: Hidrantes, gabinetes y sistemas fijos
-titulo: Hidrantes, gabinetes y sistemas fijos contra incendio
-tituloSeo: Hidrantes, gabinetes y sistemas fijos contra incendio
-descripcion: "Gabinetes equipados, mangueras de 1½ y 2½ pulgadas, bombas eléctricas y diésel con controlador, rociadores y supresión con agente limpio, con cálculo y pruebas de aceptación."
+slug: hidrantes-contra-incendios-y-toma-siamesa
+nombre: Hidrantes contra incendios y toma siamesa
+titulo: "Hidrantes contra incendios, gabinetes, toma siamesa y rociadores: del cálculo a la puesta en marcha"
+tituloSeo: Hidrantes contra incendios, gabinetes y toma siamesa
+descripcion: "Red de hidrantes contra incendios con gabinetes de 1½ y 2½ pulgadas, toma siamesa, bombas eléctricas y diésel con controlador y rociadores, con cálculo y pruebas firmadas."
 orden: 7
 titulos:
-  incluye: Qué abarca un sistema fijo de agua
-  modalidades: Componentes que suministramos
-  paraQuien: Proyectos que lo requieren
-  proceso: Del cálculo a la puesta en marcha
-  errores: Errores en redes de hidrantes y rociadores
-  glosario: Glosario de sistemas fijos
-  faq: Preguntas sobre hidrantes y sistemas fijos
+  incluye: Qué abarca una red de hidrantes contra incendios
+  modalidades: Gabinetes, bombas y rociadores que suministramos
+  paraQuien: Proyectos que requieren hidrantes contra incendios
+  proceso: Del cálculo hidráulico a la puesta en marcha
+  errores: Errores en redes de hidrantes y tomas siamesas
+  glosario: Glosario de hidrantes y sistemas fijos
+  faq: Preguntas sobre hidrantes contra incendios y toma siamesa
 intro: >-
-  Un sistema fijo bien calculado contiene el incendio antes de que llegue la
-  primera unidad de bomberos. Diseñamos y suministramos redes de hidrantes,
-  gabinetes, cuartos de bombas, rociadores automáticos y supresión con
-  agente limpio, desde el cálculo hidráulico y los planos para trámite
-  hasta la instalación, las pruebas de aceptación y la puesta en marcha con
-  reporte firmado.
+  Una red de hidrantes bien calculada contiene el incendio antes de que
+  llegue la primera unidad de bomberos. Diseñamos y suministramos
+  hidrantes contra incendios, gabinetes, cuartos de bombas, tomas
+  siamesas, rociadores automáticos y supresión con agente limpio, desde el
+  cálculo hidráulico y los planos para trámite hasta la instalación, las
+  pruebas de aceptación y la puesta en marcha con reporte firmado.
 stats:
   - k: Normas
     v: NFPA 13 rociadores, NFPA 14 hidrantes, NFPA 20 bombas, NFPA 2001 agentes limpios
@@ -130,6 +130,8 @@ galeria:
   - sistemas-fijos-firefighter-com-mx:6
   - sistemas-fijos-firefighter-com-mx:7
 faq:
+  - q: "¿Qué es una toma siamesa?"
+    a: Es la conexión exterior, con dos entradas, por la que los bomberos inyectan agua a la red de hidrantes del inmueble con la bomba de su unidad. Refuerza la presión y el caudal cuando la red propia no alcanza.
   - q: "¿Qué diferencia hay entre gabinete clase I, II y III?"
     a: La clase I tiene conexiones de 2½ pulgadas para bomberos, la clase II mangueras de 1½ para la brigada y la clase III combina ambas.
   - q: "¿Bomba eléctrica o diésel?"
@@ -156,14 +158,14 @@ faq:
 |---|---|---|
 | Gabinetes clase II | La brigada del inmueble | Atacar el fuego en sus primeros minutos |
 | Gabinetes clase I y toma siamesa | Los bomberos | Combatir con la presión y el caudal de su unidad |
-| Rociadores automáticos | Nadie, se activan solos | Controlar el fuego en la zona donde empieza |
+| Rociadores automáticos | Nadie: se activan solos | Controlar el fuego en la zona donde empieza |
 
-Cada uno responde a una etapa distinta del incendio y a un usuario distinto. Un inmueble puede necesitar los tres, y el cálculo hidráulico tiene que considerar que funcionen al mismo tiempo.
+Cada uno responde a una etapa distinta del incendio y a un usuario distinto. Un inmueble puede necesitar los tres, y el cálculo hidráulico tiene que contemplar que funcionen al mismo tiempo.
 
-## La compatibilidad con los bomberos locales
+## La toma siamesa tiene que embonar con los bomberos de tu zona
 
-Una conexión de bomberos solo sirve si su rosca coincide con la de las mangueras del cuerpo de bomberos que responderá. Es un detalle que se revisa en el proyecto y que evita el peor escenario: una unidad conectada a la toma siamesa sin poder acoplar.
+Una toma siamesa solo sirve si su rosca coincide con la de las mangueras del cuerpo de bomberos que responderá. Es un detalle que se revisa en el proyecto y que evita el peor escenario: una unidad estacionada junto a la toma sin poder acoplar.
 
 ## Probar antes de recibir
 
-La red se recibe con pruebas medidas: presión sostenida sin fugas, caudal real en el punto más desfavorable y arranque automático de la bomba. Un reporte que solo dice «funciona» no sirve ante protección civil ni ante una aseguradora.
+La red de hidrantes se recibe con pruebas medidas: presión sostenida sin fugas, caudal real en el punto más desfavorable y arranque automático de la bomba. Un reporte que solo dice «funciona» no le sirve a protección civil ni a una aseguradora.

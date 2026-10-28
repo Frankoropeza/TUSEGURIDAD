@@ -1,26 +1,26 @@
 ---
 empresa: firefighters-mx
-slug: equipamiento-para-cuerpos-de-bomberos
-nombre: Equipamiento para cuerpos de bomberos
-titulo: Equipamiento para cuerpos de bomberos con norma NFPA 1970
-tituloSeo: Equipamiento para cuerpos de bomberos NFPA 1970
-descripcion: "Dotación completa para bomberos y brigadas: traje y casco NFPA 1970, equipo de respiración autónoma, herramienta de rescate y cámara térmica, cotizada por partida."
+slug: equipo-de-bombero-completo
+nombre: Equipo de bombero completo
+titulo: Equipo de bombero completo, armado por elemento y con norma NFPA 1970
+tituloSeo: "Equipo de bombero completo: dotación NFPA 1970"
+descripcion: "Equipo de bombero completo por elemento: traje y casco NFPA 1970, equipo de respiración autónoma, herramientas de bombero y cámara térmica, cotizado por partida."
 orden: 1
 titulos:
-  incluye: Qué lleva la dotación de un bombero
-  modalidades: Cómo se cotiza un equipamiento
-  paraQuien: Quién equipa con nosotros
-  proceso: Del levantamiento de tallas a la entrega por elemento
-  errores: Errores al equipar un cuerpo de bomberos
-  glosario: Términos de la dotación de bombero
-  faq: Preguntas sobre equipamiento de bomberos
+  incluye: Qué incluye un equipo de bombero completo
+  modalidades: Formas de cotizar el equipo para bomberos
+  paraQuien: Quién compra equipo de bomberos
+  proceso: Cómo armamos la dotación, paso a paso
+  errores: Errores al comprar equipo de bombero
+  glosario: "Equipo y herramientas de bombero: glosario"
+  faq: Preguntas frecuentes sobre el equipo de bombero
 intro: >-
-  Un cuerpo de bomberos no se equipa con un catálogo abierto sino con una
-  lista por elemento: quién entra a incendio estructural, quién opera la
-  unidad de rescate, quién cubre el turno de guardia. Armamos la dotación
-  sobre esa lista, con la talla de cada persona, la norma vigente de cada
-  componente y un calendario de reposición, para que el presupuesto se
-  sostenga más allá de la primera compra.
+  Cuando un comandante pide «equipo de bombero completo», la primera
+  pregunta no es de marcas sino de personas: cuántos elementos entran a
+  incendio, quién opera la unidad de rescate y quién cubre la guardia. Con
+  esa lista armamos la dotación pieza por pieza, con la talla de cada
+  quien, la norma vigente de cada componente y un calendario de
+  reposición, para que el presupuesto alcance también el año siguiente.
 stats:
   - k: Norma de referencia
     v: NFPA 1970, edición 2025, para traje estructural, SCBA y alarma personal
@@ -127,6 +127,8 @@ galeria:
   - equipo-bombero-firefighters-mx:8
   - respiracion-y-rescate-firefighters-mx:6
 faq:
+  - q: "¿Qué incluye el equipo de un bombero?"
+    a: El equipo personal lleva traje estructural de dos piezas, casco, capucha, guantes, botas y equipo de respiración autónoma con alarma personal. El equipo de la unidad suma herramientas de bombero como hacha, barra de palanca, herramienta hidráulica de rescate y cámara térmica.
   - q: "¿Qué norma debe cumplir un traje de bombero en 2026?"
     a: La referencia vigente para traje estructural es la NFPA 1970, edición 2025, que sustituyó a la NFPA 1971. Mucho equipo en existencia sigue certificado con la edición anterior, así que conviene preguntar con qué edición está certificado el modelo cotizado.
   - q: "¿Cuánto dura un traje estructural?"
@@ -149,15 +151,15 @@ faq:
     a: Sí. La propuesta se arma por partida con la documentación técnica de cada componente. El servicio de soporte para licitaciones cubre el expediente completo.
 ---
 
-## La dotación se diseña por persona, no por catálogo
+## Primero las personas, después el catálogo
 
-La pregunta que ordena una compra de equipo para bomberos no es qué marcas hay disponibles, sino quién va a usar cada pieza y en qué tipo de intervención. Un elemento que entra a incendio estructural necesita el conjunto completo y un equipo de respiración autónoma; el operador de la unidad de rescate necesita además herramienta hidráulica; el personal de guardia que apoya desde el exterior no siempre necesita lo mismo.
+Un pedido suele llegar así: «necesitamos equipar a doce elementos». Antes de cotizar conviene saber qué hace cada uno. Quien entra a un incendio estructural necesita el conjunto completo y un equipo de respiración autónoma. El operador de la unidad de rescate necesita además herramienta hidráulica. Quien apoya desde el exterior no siempre requiere lo mismo.
 
-Por eso el primer paso es un inventario de lo que el cuerpo ya tiene, con la fecha de fabricación de cada pieza. Con frecuencia el presupuesto rinde más reponiendo lo que vence este año que comprando conjuntos completos para todos.
+Por eso pedimos antes un inventario de lo que ya tienes, con la fecha de fabricación de cada pieza. Es frecuente descubrir que el presupuesto rinde más reponiendo lo que vence este año que comprando conjuntos nuevos para todos.
 
-## La consolidación de normas NFPA y lo que cambia al comprar
+## Qué cambió con la NFPA 1970 y por qué importa al comprar
 
-Entre 2024 y 2025 la NFPA reorganizó sus normas de equipo de protección. Para quien compra, el cambio se resume así:
+Entre 2024 y 2025 la NFPA reorganizó sus normas de equipo de protección. En la práctica, el cambio se resume así:
 
 | Antes | Desde la consolidación | Qué cubre |
 |---|---|---|
@@ -168,16 +170,16 @@ Entre 2024 y 2025 la NFPA reorganizó sus normas de equipo de protección. Para 
 | NFPA 1977 | NFPA 1950 | Equipo para incendio forestal |
 | NFPA 1851 y 1852 | NFPA 1850, en proceso | Cuidado y mantenimiento de EPP y SCBA |
 
-Un conjunto certificado con la NFPA 1971 no deja de proteger por el cambio de número. Lo que cambia es la documentación: en una licitación o en una auditoría de la aseguradora, la ficha técnica tiene que decir con qué norma y qué edición se certificó el modelo entregado.
+Un traje certificado con la NFPA 1971 no deja de proteger por el cambio de número. Lo que cambia es el papel: en una licitación o ante la aseguradora, la ficha técnica tiene que decir con qué norma y con qué edición se certificó el modelo que recibiste.
 
-## Cómo se prioriza cuando el presupuesto no alcanza
+## Si el presupuesto no alcanza, ¿qué se compra primero?
 
-Bajar la especificación para que el monto cuadre es la decisión más cara a largo plazo. Es preferible ordenar la compra por riesgo:
+Bajar la especificación para que el monto cuadre es la decisión que más caro sale a la larga. Funciona mejor ordenar la compra por riesgo:
 
 1. **Equipo de respiración y alarma personal** para quien entra a interiores.
 2. **Conjunto estructural** de los elementos con traje vencido o dañado.
-3. **Capuchas y guantes**, que se desgastan antes que el resto del conjunto.
-4. **Segundo juego** para rotación de lavado.
-5. **Herramienta de rescate y cámara térmica** de la unidad.
+3. **Capuchas y guantes**, que se desgastan antes que el resto.
+4. **Segundo juego** para que nadie use un traje contaminado mientras el otro se lava.
+5. **Herramientas de bombero de la unidad**: rescate hidráulico y cámara térmica.
 
-Con esa lista, la reposición se puede repartir en dos o tres ejercicios sin dejar a nadie expuesto en el intermedio.
+Con esa lista, la reposición se reparte en dos o tres ejercicios sin dejar a nadie expuesto en el camino.

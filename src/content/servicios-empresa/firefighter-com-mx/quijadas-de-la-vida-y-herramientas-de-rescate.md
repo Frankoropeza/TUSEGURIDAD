@@ -1,26 +1,26 @@
 ---
 empresa: firefighter-com-mx
-slug: herramientas-hidraulicas-de-rescate
-nombre: Herramientas hidráulicas de rescate
-titulo: Herramientas hidráulicas de rescate para extricación vehicular
-tituloSeo: Herramientas hidráulicas de rescate NFPA 1936
-descripcion: "Separadores, cortadoras, arietes, cojines de levantamiento y herramienta manual de rescate conforme a la NFPA 1936, elegidos según el parque vehicular que atiende la unidad."
+slug: quijadas-de-la-vida-y-herramientas-de-rescate
+nombre: Quijadas de la vida y herramientas de rescate
+titulo: Quijadas de la vida y herramientas de rescate para extricación vehicular
+tituloSeo: Quijadas de la vida y herramienta de rescate
+descripcion: "Quijadas de la vida: separadores, cortadoras y arietes hidráulicos, cojines de levantamiento y herramienta de rescate NFPA 1936, según tu parque vehicular."
 orden: 4
 titulos:
-  incluye: Qué lleva un equipo de extricación
-  modalidades: Fuentes de poder
-  paraQuien: Unidades que lo usan
+  incluye: Qué lleva un equipo de quijadas de la vida
+  modalidades: "Fuentes de poder: combustión, eléctrica o batería"
+  paraQuien: Unidades que usan herramientas de rescate
   proceso: Cómo se elige y se entrega
-  errores: Errores al comprar herramienta de rescate
+  errores: Errores al comprar herramientas de rescate
   glosario: Vocabulario del rescate vehicular
-  faq: Preguntas sobre herramientas de rescate
+  faq: Preguntas sobre las quijadas de la vida
 intro: >-
-  En un accidente vehicular el tiempo para sacar a una persona atrapada se
-  cuenta en minutos, y la herramienta que no corta el poste de un auto
-  moderno pierde esos minutos. Antes de cotizar revisamos el parque
-  vehicular y el tipo de siniestro que atiende la unidad, porque la
+  En un accidente vehicular, el tiempo para sacar a una persona atrapada
+  se cuenta en minutos, y las quijadas de la vida que no cortan el poste
+  de un auto moderno pierden esos minutos. Antes de cotizar revisamos el
+  parque vehicular y el tipo de siniestro que atiende tu unidad, porque la
   extricación en carretera y el rescate en un derrumbe piden herramienta
-  distinta, y entregamos con capacitación de operación.
+  distinta. Entregamos con capacitación de operación.
 stats:
   - k: Norma
     v: NFPA 1936, herramientas accionadas para rescate
@@ -118,6 +118,8 @@ galeria:
   - rescate-firefighter-com-mx:6
   - rescate-firefighter-com-mx:4
 faq:
+  - q: "¿Qué son las quijadas de la vida?"
+    a: Es el nombre con el que se conoce en México a la herramienta hidráulica de rescate, sobre todo el separador y la cortadora, que usan los bomberos para abrir un vehículo siniestrado y liberar a una persona atrapada.
   - q: "¿Qué norma aplica a la herramienta hidráulica de rescate?"
     a: La NFPA 1936, que establece requisitos de desempeño y seguridad para herramientas de rescate accionadas.
   - q: "¿Por qué importa el tipo de vehículo que atiendo?"
@@ -138,19 +140,19 @@ faq:
     a: Sí, barras de palanca, hachas y kits de apertura rápida como apoyo a la herramienta hidráulica.
 ---
 
-## La capacidad de corte importa más que la fuerza
+## Lo que importa es qué corta, no cuánta fuerza anuncia
 
-La ficha de una cortadora suele destacar su fuerza máxima. Para una unidad de rescate, el dato útil es otro: qué materiales y qué secciones puede cortar. La NFPA 1936 clasifica las cortadoras por su desempeño frente a distintos perfiles, y esa clasificación es la que conviene comparar con el parque vehicular de la zona.
+La ficha de unas quijadas de la vida suele destacar su fuerza máxima. Para una unidad de rescate, el dato útil es otro: qué materiales y qué secciones puede cortar. La NFPA 1936 clasifica las cortadoras por su desempeño frente a distintos perfiles, y esa clasificación es la que conviene comparar con los vehículos que circulan en tu zona, cada vez con más aceros de alta resistencia en los postes.
 
-## Cómo se elige la fuente de poder
+## Cómo elegir la fuente de poder
 
 | Fuente | Ventaja | Limitación |
 |---|---|---|
 | Bomba de combustión | Autonomía y potencia | Ruido, gases y combustible |
-| Bomba eléctrica | Sin gases en interiores | Depende de la unidad o un generador |
+| Bomba eléctrica | Sin gases en interiores | Depende de la unidad o de un generador |
 | Batería | Despliegue inmediato, sin mangueras | Necesita baterías de reserva |
-| Bomba manual | Respaldo sin motor | Lenta y cansada para trabajos largos |
+| Bomba manual | Respaldo sin motor | Lenta y cansada en trabajos largos |
 
 ## La seguridad empieza antes del primer corte
 
-Estabilizar el vehículo, desconectar la energía cuando es posible e identificar las bolsas de aire no desplegadas son pasos previos a cualquier corte. La herramienta más capaz no compensa una maniobra que empieza sin esos controles, y por eso la entrega incluye capacitación de operación.
+Estabilizar el vehículo, desconectar la energía cuando se puede e identificar las bolsas de aire que no se desplegaron son pasos previos a cualquier corte. Ni la herramienta más capaz compensa una maniobra que arranca sin esos controles, y por eso la entrega incluye capacitación de operación.

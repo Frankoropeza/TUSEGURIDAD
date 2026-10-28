@@ -1,26 +1,26 @@
 ---
 empresa: firefighters-mx
-slug: capacitacion-contra-incendio-con-constancia-dc-3
-nombre: Capacitación contra incendio con constancia DC-3
-titulo: Capacitación contra incendio con constancia DC-3
-tituloSeo: Capacitación contra incendio con constancia DC-3
-descripcion: "Cursos de brigada conforme a la NOM-002-STPS-2010, uso de equipo de respiración autónoma y formación de bombero, con práctica de fuego controlado y constancia DC-3."
+slug: curso-contra-incendios-con-dc-3
+nombre: Curso contra incendios con DC-3
+titulo: "Curso contra incendios con constancia DC-3: uso de extintores, brigada y bombero"
+tituloSeo: Curso contra incendios con DC-3 y práctica real
+descripcion: "Curso contra incendios con práctica de fuego controlado: uso y manejo de extintores, brigada conforme a la NOM-002-STPS-2010 y equipo de respiración, con constancia DC-3."
 orden: 4
 titulos:
-  incluye: Qué se aprende en cada curso
-  modalidades: Niveles de formación
-  paraQuien: A quién se capacita
-  proceso: Cómo se organiza un curso
-  errores: Errores que vuelven inútil una capacitación
-  glosario: Vocabulario de la capacitación contra incendio
-  faq: Preguntas sobre capacitación con DC-3
+  incluye: Qué aprendes en el curso contra incendios
+  modalidades: "Niveles del curso: de extintores a bombero"
+  paraQuien: A quién está dirigido el curso
+  proceso: Cómo se organiza el curso
+  errores: Errores que vuelven inútil un curso de extintores
+  glosario: Vocabulario del curso contra incendios
+  faq: Preguntas sobre el curso contra incendios y la DC-3
 intro: >-
-  Un curso contra incendio tiene dos pruebas que pasar. La primera es en la
-  práctica: que el participante sepa elegir el extintor correcto y acercarse
-  al fuego sin exponerse. La segunda es documental: que la capacitación
-  conste ante la autoridad laboral. Impartimos cursos teórico-prácticos con
-  fuego controlado, y cada participante recibe su constancia DC-3 emitida
-  por un agente capacitador externo con registro ante la STPS.
+  Un curso contra incendios tiene que pasar dos exámenes. El primero
+  ocurre frente al fuego: que la persona sepa qué extintor tomar y cómo
+  acercarse sin exponerse. El segundo es de papel: que la capacitación
+  conste ante la autoridad laboral. Damos cursos teórico-prácticos con
+  fuego controlado, y cada participante sale con su constancia DC-3
+  emitida por un agente capacitador externo con registro ante la STPS.
 stats:
   - k: Constancia
     v: Formato DC-3 por participante
@@ -42,7 +42,7 @@ incluye:
   - titulo: Nociones de rescate y materiales peligrosos
     texto: Reconocimiento de la escena y criterio para no entrar cuando el riesgo supera el equipo y la formación del brigadista.
 modalidades:
-  - titulo: Brigadista básico
+  - titulo: Curso de uso y manejo de extintores
     texto: Para todo el personal designado como brigada en un centro de trabajo. Combate de conatos y evacuación.
   - titulo: Brigadista avanzado
     texto: Ataque con manguera desde gabinete, trabajo en equipo y comunicación durante la emergencia.
@@ -123,6 +123,8 @@ galeria:
   - respiracion-y-rescate-firefighters-mx:4
   - capacitacion-brigadas-firefighters-mx:5
 faq:
+  - q: "¿Cuánto dura un curso de uso y manejo de extintores?"
+    a: Depende del nivel y del número de participantes. La duración se define en el diagnóstico, se entrega con el temario y queda asentada en la constancia DC-3 de cada persona.
   - q: "¿Qué es la constancia DC-3?"
     a: Es el formato con el que se acredita que un trabajador recibió una capacitación. Lleva los datos del trabajador, del curso y del agente capacitador, y se conserva en el expediente de la empresa.
   - q: "¿Cómo sé si la DC-3 es válida?"
@@ -145,26 +147,26 @@ faq:
     a: Temario, lista de asistencia, evaluación, reporte fotográfico, constancia DC-3 por participante y diploma.
 ---
 
-## Lo que distingue a una capacitación útil
+## Por qué la práctica con fuego real cambia el resultado
 
-La mayoría de los cursos contra incendio fallan por el mismo motivo: se diseñan para cumplir y no para preparar. Una presentación de dos horas y una foto del grupo pueden llenar un expediente, pero no enseñan a nadie a acercarse a un fuego real con el extintor correcto.
+Muchos cursos contra incendios se diseñan para cumplir y no para preparar. Una presentación de dos horas y una foto del grupo pueden llenar el expediente, pero no le enseñan a nadie a acercarse a un fuego con el extintor correcto. Quien nunca ha descargado uno tarda segundos en hacerlo bajo presión, y esos segundos son los que deciden si un conato se queda en conato.
 
-La diferencia está en tres decisiones: que la práctica sea con fuego controlado, que el temario responda a los riesgos del inmueble y que el nivel de cada persona corresponda a lo que hará en una emergencia.
+La diferencia está en tres decisiones: que la práctica sea con fuego controlado, que el temario responda a los riesgos de tu inmueble y que el nivel de cada persona corresponda a lo que hará en una emergencia.
 
 ## Qué revisar en una constancia DC-3
 
-La DC-3 es el documento que se presenta cuando la autoridad laboral pregunta por la capacitación. Antes de pagar un curso, conviene saber qué debe contener:
+La DC-3 es el documento que muestras cuando la autoridad laboral pregunta por la capacitación. Antes de pagar un curso, vale la pena saber qué debe traer:
 
 | Elemento | Por qué importa |
 |---|---|
-| Datos del trabajador | Vincula la constancia con una persona del expediente |
+| Datos del trabajador | Liga la constancia con una persona de tu expediente |
 | Nombre y duración del curso | Permite comprobar que el contenido corresponde a su función |
-| Periodo de impartición | Fecha la capacitación para el programa anual |
+| Periodo de impartición | Fecha la capacitación dentro del programa anual |
 | Agente capacitador y su registro ante la STPS | Es lo que da validez a la constancia |
-| Firmas | Del instructor y de los representantes que exige el formato |
+| Firmas | Las del instructor y las de los representantes que pide el formato |
 
-## Niveles de formación y quién los necesita
+## Qué nivel de curso necesita cada persona
 
-No todos los integrantes de una brigada necesitan el mismo curso. El nivel básico cubre a quien atiende un conato y apoya la evacuación. El avanzado prepara a quien abrirá un gabinete y atacará con manguera. El operador de equipo de respiración es indispensable para quien entrará a zonas con humo. Los niveles de bombero, con base en la NFPA 1001, están pensados para cuerpos de bomberos y brigadas industriales que hacen combate interior.
+No todos en una brigada necesitan el mismo curso. El de uso y manejo de extintores cubre a quien atiende un conato y apoya la evacuación. El avanzado prepara a quien abrirá un gabinete y atacará con manguera. El de equipo de respiración es indispensable para quien entrará a zonas con humo. Los niveles de bombero, con base en la NFPA 1001, están pensados para cuerpos de bomberos y brigadas industriales que hacen combate interior.
 
-Ordenar la formación así evita dos errores caros: sobrecapacitar al personal de oficina y dejar sin preparación suficiente a quien realmente va a enfrentar el fuego.
+Ordenar la formación así evita dos errores: sobrecapacitar al personal de oficina y dejar corto a quien de verdad va a enfrentar el fuego.
