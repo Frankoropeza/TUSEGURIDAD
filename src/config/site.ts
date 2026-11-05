@@ -48,6 +48,10 @@ export const SITE = {
    */
   analytics: {
     ga4Id: '',
+    // Ahrefs Web Analytics (proyecto tuseguridad.mx) y token de verificación
+    // del sitio en Ahrefs. Los pinta layouts/BaseLayout.astro en el <head>.
+    ahrefsKey: 'vU09yj/P/jvhhtFOrsi3Sg',
+    ahrefsVerification: '40cd9b4cc4c260d40efb96782881710bbb25965aa5bbb6d072dee8e4bf18b4f5',
   },
 
   /**
