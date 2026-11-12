@@ -25,7 +25,6 @@ const seo = buildSeo(Astro.props);
     <title>{seo.title}</title>
     <meta name="description" content={seo.description} />
     <link rel="canonical" href={seo.canonical} />
-    <meta name="ahrefs-site-verification" content={SITE.analytics.ahrefsVerification} />
     {/* follow, no nofollow: la página no se indexa pero sus enlaces siguen
         transmitiendo señales al resto del sitio (variantes canonicalizadas
         y borradores legales). */}
@@ -82,12 +81,10 @@ const seo = buildSeo(Astro.props);
       </>
     )}
 
-    <script is:inline src="https://analytics.ahrefs.com/analytics.js" data-key={SITE.analytics.ahrefsKey} async></script>
 
     <slot name="head" />
   </head>
   <body class="flex min-h-screen flex-col">
-    {/* Cloudflare Email Obfuscation reescribe los mailto: a /cdn-cgi/l/email-protection (404 para bots, Ahrefs lo marca como enlace roto). email_off lo desactiva en todo el body. */}
     <Fragment set:html="<!--email_off-->" />
     <Header />
     {sidebar ? (
