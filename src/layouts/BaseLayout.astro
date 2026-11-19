@@ -3,6 +3,7 @@ import '@styles/global.css';
 import Header from '@components/Header.astro';
 import Footer from '@components/Footer.astro';
 import Sidebar from '@components/Sidebar.astro';
+import Clarity from '@components/Clarity.astro';
 import { SITE } from '@config/site';
 import { buildSeo, type SeoInput } from '@lib/seo';
 
@@ -81,6 +82,7 @@ const seo = buildSeo(Astro.props);
       </>
     )}
 
+    <Clarity />
 
     <slot name="head" />
   </head>
