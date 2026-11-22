@@ -61,6 +61,11 @@ assert.match(site, /completo:\s*false/, 'Los documentos legales deben permanecer
 
 assert.match(headers, /^\/\*/m, 'Debe existir una política global de encabezados');
 assert.match(headers, /Content-Security-Policy-Report-Only:/, 'Debe existir una CSP en modo de observación');
+assert.doesNotMatch(
+  headers,
+  /Content-Security-Policy-Report-Only:[^\n]*upgrade-insecure-requests/,
+  'Una CSP Report-Only no debe incluir directivas que el navegador ignora',
+);
 assert.doesNotMatch(headers, /Strict-Transport-Security:/, 'HSTS requiere validar primero todos los subdominios');
 assert.match(headers, /Permissions-Policy:/, 'Debe limitarse el acceso a capacidades del navegador');
 assert.match(headers, /X-Frame-Options:\s*DENY/, 'El sitio no debe poder incrustarse en frames');
