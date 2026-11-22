@@ -5,13 +5,11 @@ const layoutPath = fileURLToPath(new URL('../src/layouts/BaseLayout.astro', impo
 const configPath = fileURLToPath(new URL('../astro.config.mjs', import.meta.url));
 const layout = readFileSync(layoutPath, 'utf8');
 const config = readFileSync(configPath, 'utf8');
-const fontUrl = 'https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..900&family=JetBrains+Mono:wght@400;500&display=swap';
-const escapedFontUrl = fontUrl.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
 
 const assertions = [
-  ['preload de las fuentes', new RegExp(`<link(?=[^>]*\\brel="preload")(?=[^>]*\\bas="style")(?=[^>]*\\bhref="${escapedFontUrl}")[^>]*>`)],
-  ['carga no bloqueante de las fuentes', new RegExp(`<link(?=[^>]*\\brel="stylesheet")(?=[^>]*\\bhref="${escapedFontUrl}")(?=[^>]*\\bmedia="print")(?=[^>]*\\bonload="this\\.setAttribute\\('media','all'\\)")[^>]*>`)],
-  ['fallback sin JavaScript', new RegExp(`<noscript>\\s*<link(?=[^>]*\\brel="stylesheet")(?=[^>]*\\bhref="${escapedFontUrl}")[^>]*>\\s*</noscript>`)],
+  ['Archivo autoalojada', /@fontsource-variable\/archivo\/wdth\.css/],
+  ['JetBrains Mono autoalojada', /@fontsource-variable\/jetbrains-mono/],
+  ['ausencia de Google Fonts', /^(?![\s\S]*fonts\.(?:googleapis|gstatic)\.com)/],
   ['CSS crítico integrado por Astro', /build:\s*\{[\s\S]*?inlineStylesheets:\s*'always'/],
 ];
 

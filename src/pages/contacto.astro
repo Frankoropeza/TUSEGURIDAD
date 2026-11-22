@@ -6,21 +6,29 @@ import { SITE } from '@config/site';
 import { cargarDatos, bloqueRubros, bloqueCiudades, bloqueServicios, bloqueGuias } from '@lib/enlaces';
 
 const d = await cargarDatos();
+const recibeMensajes = Boolean(SITE.contacto.email || SITE.contacto.telefono);
+const altaDisponible = Boolean(SITE.formEndpoint);
 
 const motivos = [
   {
     t: 'Corregir un dato',
-    dsc: 'Detectaste información incorrecta en una ficha. Indícanos la empresa y el dato: lo verificamos y lo corregimos.',
+    dsc: recibeMensajes
+      ? 'Detectaste información incorrecta en una ficha. Indícanos la empresa y el dato: lo verificamos y lo corregimos.'
+      : 'La recepción de reportes está en habilitación. El canal se publicará en esta página cuando esté operativo.',
     cta: null,
   },
   {
     t: 'Dar de alta tu empresa',
-    dsc: 'Si prestas servicios de seguridad y quieres aparecer en el padrón, el alta tiene su propio formulario.',
+    dsc: altaDisponible
+      ? 'Si prestas servicios de seguridad y quieres aparecer en el padrón, el alta tiene su propio formulario.'
+      : 'La recepción de solicitudes de alta está temporalmente cerrada; la página de registro muestra el estado actual.',
     cta: { t: 'Ir a registrar empresa →', href: '/registrar/' },
   },
   {
     t: 'Baja o edición de ficha',
-    dsc: 'Eres el titular de una empresa listada y quieres modificar o retirar tu ficha. Escríbenos desde un correo de la empresa.',
+    dsc: recibeMensajes
+      ? 'Eres el titular de una empresa listada y quieres modificar o retirar tu ficha. Escríbenos desde un correo de la empresa.'
+      : 'La recepción de solicitudes de edición o baja está en habilitación. El canal se publicará aquí cuando esté operativo.',
     cta: null,
   },
   {

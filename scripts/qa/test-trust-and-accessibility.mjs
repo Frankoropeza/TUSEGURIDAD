@@ -12,6 +12,11 @@ const [
   headers,
   tarjeta,
   categorias,
+  footer,
+  privacidad,
+  terminos,
+  contacto,
+  portada,
 ] = await Promise.all([
   read('dist/registrar/index.html'),
   read('src/layouts/BaseLayout.astro'),
@@ -21,6 +26,11 @@ const [
   read('public/_headers'),
   read('src/components/Tarjeta.astro'),
   read('src/pages/categorias/index.astro'),
+  read('src/components/Footer.astro'),
+  read('src/pages/aviso-de-privacidad.astro'),
+  read('src/pages/terminos.astro'),
+  read('src/pages/contacto.astro'),
+  read('dist/index.html'),
 ]);
 
 assert.doesNotMatch(
@@ -41,6 +51,10 @@ assert.match(categorias, /prioridad=\{i === 0\}/, 'La primera imagen del índice
 
 assert.match(analitica, /localStorage/, 'La analítica debe depender de una preferencia persistente');
 assert.match(analitica, /analytics|clarityId/, 'Los identificadores deben salir de la configuración central');
+assert.match(analitica, /SITE\.legal\.completo/, 'La analítica requiere revisión legal explícita');
+assert.match(analitica, /consent['"],\s*false/, 'Rechazar debe revocar el consentimiento de Clarity');
+assert.match(analitica, /analytics_storage:\s*'denied'/, 'Rechazar debe revocar el almacenamiento de GA4');
+assert.match(footer, /data-open-analytics-consent/, 'Debe existir un control persistente para reabrir preferencias');
 assert.doesNotMatch(site, /ahrefsKey|ahrefsVerification/, 'No deben quedar claves obsoletas de Ahrefs');
 assert.match(site, /clarityId:\s*''/, 'Clarity debe permanecer apagado hasta contar con revisión legal');
 assert.match(site, /completo:\s*false/, 'Los documentos legales deben permanecer como borrador hasta su revisión');
@@ -50,5 +64,10 @@ assert.match(headers, /Content-Security-Policy-Report-Only:/, 'Debe existir una 
 assert.doesNotMatch(headers, /Strict-Transport-Security:/, 'HSTS requiere validar primero todos los subdominios');
 assert.match(headers, /Permissions-Policy:/, 'Debe limitarse el acceso a capacidades del navegador');
 assert.match(headers, /X-Frame-Options:\s*DENY/, 'El sitio no debe poder incrustarse en frames');
+assert.doesNotMatch(privacidad, /Borrador — sin datos del titular/, 'El estado legal no debe contradecir datos configurados');
+assert.doesNotMatch(terminos, /Falta la razón social/, 'Términos no debe marcar como ausente una razón social configurada');
+assert.match(contacto, /SITE\.formEndpoint/, 'La copia de alta debe depender de que el formulario exista');
+assert.doesNotMatch(portada, /fonts\.(?:googleapis|gstatic)\.com/, 'Producción no debe solicitar Google Fonts');
+assert.doesNotMatch(portada, /clarity\.ms|googletagmanager\.com/, 'Producción no debe cargar analítica mientras esté desactivada');
 
 console.log('Confianza, privacidad, accesibilidad y encabezados: OK');

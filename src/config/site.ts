@@ -35,8 +35,8 @@ export const SITE = {
 
   /**
    * Endpoint POST para los formularios (n8n webhook, Formspree, etc.).
-   * Mientras esté vacío, los formularios se muestran en modo correo directo
-   * en vez de enviar a un destino inexistente.
+   * Mientras esté vacío, no se renderiza ningún formulario ni se simulan
+   * envíos a un destino inexistente.
    */
   formEndpoint: '',
 

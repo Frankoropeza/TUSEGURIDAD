@@ -10,8 +10,8 @@ export default {
         signal: '#C72A0A',
       },
       fontFamily: {
-        sans: ['Archivo', 'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif'],
-        mono: ['JetBrains Mono', 'ui-monospace', 'SFMono-Regular', 'Menlo', 'monospace'],
+        sans: ['Archivo Variable', 'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif'],
+        mono: ['JetBrains Mono Variable', 'ui-monospace', 'SFMono-Regular', 'Menlo', 'monospace'],
       },
       borderRadius: {
         none: '0',

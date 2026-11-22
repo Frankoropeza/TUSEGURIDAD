@@ -1,4 +1,6 @@
 ---
+import '@fontsource-variable/archivo/wdth.css';
+import '@fontsource-variable/jetbrains-mono';
 import '@styles/global.css';
 import Header from '@components/Header.astro';
 import Footer from '@components/Footer.astro';
@@ -34,21 +36,6 @@ const jsonLdSeguro = (schema: object): string => JSON.stringify(schema).replace(
 
     <meta name="theme-color" content={SITE.themeColor} />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      rel="preload"
-      as="style"
-      href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..900&family=JetBrains+Mono:wght@400;500&display=swap"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..900&family=JetBrains+Mono:wght@400;500&display=swap"
-      media="print"
-      onload="this.setAttribute('media','all')"
-    />
-    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..900&family=JetBrains+Mono:wght@400;500&display=swap" /></noscript>
 
     <!-- Open Graph -->
     <meta property="og:type" content={seo.ogType} />

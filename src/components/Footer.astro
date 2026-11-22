@@ -3,6 +3,7 @@ import { SITE } from '@config/site';
 
 const year = new Date().getFullYear();
 const socials = Object.entries(SITE.social).filter(([, v]) => Boolean(v));
+const analiticaDisponible = SITE.legal.completo && Boolean(SITE.analytics.clarityId || SITE.analytics.ga4Id);
 ---
 
 <footer class="on-ink mt-24">
@@ -41,6 +42,13 @@ const socials = Object.entries(SITE.social).filter(([, v]) => Boolean(v));
               <a href={item.href} class="label underline-hover">{item.label}</a>
             </li>
           ))}
+          {analiticaDisponible && (
+            <li>
+              <button type="button" class="label underline-hover" data-open-analytics-consent>
+                Preferencias de privacidad
+              </button>
+            </li>
+          )}
         </ul>
       </div>
 

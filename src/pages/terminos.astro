@@ -73,7 +73,7 @@ const secciones = [
   <Cabecera
     ruta={[{ nombre: 'Inicio', href: '/' }, { nombre: 'Términos' }]}
     indice="Legal"
-    meta={borrador ? 'Borrador — sin datos del titular' : undefined}
+    meta={borrador ? 'Borrador — revisión jurídica pendiente' : undefined}
     titulo="Términos de uso"
   />
 
@@ -82,10 +82,10 @@ const secciones = [
       <div class="on-ink mb-14 p-8">
         <p class="label text-signal">Documento incompleto</p>
         <p class="mt-4 max-w-3xl text-base leading-snug">
-          Falta la razón social del titular del sitio. Se completa en
-          <code class="font-mono text-sm"> src/config/site.ts </code> y se marca
-          <code class="font-mono text-sm"> legal.completo: true</code>. Mientras tanto la página
-          no se indexa.
+          Este documento permanece como borrador hasta contar con revisión jurídica final.
+          El estado se controla en <code class="font-mono text-sm"> src/config/site.ts </code>
+          mediante <code class="font-mono text-sm"> legal.completo</code>. Mientras sea falso,
+          la página no se indexa.
         </p>
       </div>
     )}

@@ -2,7 +2,9 @@
 import { SITE } from '@config/site';
 
 const { clarityId, ga4Id } = SITE.analytics;
-const habilitada = import.meta.env.PROD && Boolean(clarityId || ga4Id);
+const habilitada = import.meta.env.PROD && SITE.legal.completo && Boolean(clarityId || ga4Id);
+const proveedores = [clarityId && 'Microsoft Clarity', ga4Id && 'Google Analytics 4'].filter(Boolean);
+const proveedoresTexto = proveedores.join(proveedores.length > 1 ? ' y ' : '');
 ---
 
 {habilitada && (
@@ -10,7 +12,7 @@ const habilitada = import.meta.env.PROD && Boolean(clarityId || ga4Id);
     <aside id="consentimiento-analitica" class="consentimiento-analitica" hidden aria-labelledby="consentimiento-titulo">
       <p id="consentimiento-titulo" class="label text-signal">Analítica opcional</p>
       <p class="mt-3 max-w-2xl text-sm leading-snug">
-        Con tu permiso usamos Microsoft Clarity para entender cómo se consulta el directorio y corregir problemas de uso.
+        Con tu permiso usamos {proveedoresTexto} para entender cómo se consulta el directorio y corregir problemas de uso.
         Puedes rechazarlo y seguir navegando con normalidad.
       </p>
       <div class="mt-5 flex flex-wrap gap-3">
@@ -44,6 +46,7 @@ const habilitada = import.meta.env.PROD && Boolean(clarityId || ga4Id);
           window.clarity = window.clarity || function () {
             (window.clarity.q = window.clarity.q || []).push(arguments);
           };
+          window.clarity('consentv2', { ad_Storage: 'denied', analytics_Storage: 'granted' });
           const script = document.createElement('script');
           script.async = true;
           script.src = `https://www.clarity.ms/tag/${encodeURIComponent(clarityId)}`;
@@ -55,6 +58,13 @@ const habilitada = import.meta.env.PROD && Boolean(clarityId || ga4Id);
           if (!ga4Id || document.querySelector('script[data-tuseguridad-ga4]')) return;
           window.dataLayer = window.dataLayer || [];
           window.gtag = function () { window.dataLayer.push(arguments); };
+          window.gtag('consent', 'default', {
+            ad_storage: 'denied',
+            ad_user_data: 'denied',
+            ad_personalization: 'denied',
+            analytics_storage: 'denied',
+          });
+          window.gtag('consent', 'update', { analytics_storage: 'granted' });
           window.gtag('js', new Date());
           window.gtag('config', ga4Id, { anonymize_ip: true });
           const script = document.createElement('script');
@@ -70,6 +80,32 @@ const habilitada = import.meta.env.PROD && Boolean(clarityId || ga4Id);
         };
         const cerrar = () => { if (panel) panel.hidden = true; };
         const abrir = () => { if (panel) panel.hidden = false; };
+        const borrarCookiesAnalitica = () => {
+          for (const cookie of document.cookie.split(';')) {
+            const nombre = cookie.split('=')[0]?.trim();
+            if (nombre === '_ga' || nombre?.startsWith('_ga_') || nombre === '_clck' || nombre === '_clsk') {
+              document.cookie = `${nombre}=; Max-Age=0; path=/; SameSite=Lax`;
+            }
+          }
+        };
+        const revocar = () => {
+          const habiaScripts = Boolean(document.querySelector('script[data-tuseguridad-clarity], script[data-tuseguridad-ga4]'));
+          if (typeof window.clarity === 'function') window.clarity('consent', false);
+          if (typeof window.gtag === 'function') {
+            window.gtag('consent', 'update', {
+              ad_storage: 'denied',
+              ad_user_data: 'denied',
+              ad_personalization: 'denied',
+              analytics_storage: 'denied',
+            });
+          }
+          borrarCookiesAnalitica();
+          guardar('rechazada');
+          cerrar();
+          // Una recarga elimina los scripts ya ejecutados; con la preferencia
+          // rechazada no vuelven a insertarse en la siguiente carga.
+          if (habiaScripts) window.location.reload();
+        };
 
         document.querySelector('[data-consent-accept]')?.addEventListener('click', () => {
           guardar('aceptada');
@@ -77,8 +113,7 @@ const habilitada = import.meta.env.PROD && Boolean(clarityId || ga4Id);
           cargar();
         });
         document.querySelector('[data-consent-reject]')?.addEventListener('click', () => {
-          guardar('rechazada');
-          cerrar();
+          revocar();
         });
         document.addEventListener('click', (event) => {
           if (event.target instanceof Element && event.target.closest('[data-open-analytics-consent]')) abrir();
