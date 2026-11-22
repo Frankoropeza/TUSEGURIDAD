@@ -8,6 +8,7 @@ import { cargarDatos, bloqueRubros, bloqueCiudades, bloqueServicios, bloqueGuias
 const d = await cargarDatos();
 const activos = d.categorias.filter((c) => c.data.destacada);
 const nn = (n: number): string => String(n).padStart(2, '0');
+const recepcionActiva = Boolean(SITE.formEndpoint || SITE.contacto.email);
 
 const requisitos = [
   {
@@ -28,16 +29,24 @@ const requisitos = [
   },
 ];
 
-const proceso = [
-  { n: '01', t: 'Envías la solicitud', d: 'Con los datos de tu empresa y el rubro en el que quieres aparecer.' },
-  { n: '02', t: 'Revisamos', d: 'Confirmamos autorización, modalidad y que los datos de contacto respondan.' },
-  { n: '03', t: 'Publicamos', d: 'Tu ficha entra al padrón y a los rubros y ciudades que declaraste.' },
-];
+const proceso = recepcionActiva
+  ? [
+      { n: '01', t: 'Envías la solicitud', d: 'Con los datos de tu empresa y el rubro en el que quieres aparecer.' },
+      { n: '02', t: 'Revisamos', d: 'Confirmamos autorización, modalidad y que los datos de contacto respondan.' },
+      { n: '03', t: 'Publicamos', d: 'Tu ficha entra al padrón y a los rubros y ciudades que declaraste.' },
+    ]
+  : [
+      { n: '01', t: 'Recepción pausada', d: 'Actualmente no solicitamos ni recibimos datos para nuevas altas.' },
+      { n: '02', t: 'Canal verificable', d: 'Publicaremos aquí el formulario o correo real cuando la recepción se habilite.' },
+      { n: '03', t: 'Revisión previa', d: 'Toda futura solicitud se verificará antes de publicar una ficha en el directorio.' },
+    ];
 ---
 
 <BaseLayout
-  title="Registrar empresa"
-  description="Solicita el alta de tu empresa de seguridad en el directorio. Revisamos autorización, modalidad y datos de contacto antes de publicar."
+  title={recepcionActiva ? 'Registrar empresa' : 'Alta de empresas temporalmente cerrada'}
+  description={recepcionActiva
+    ? 'Solicita el alta de tu empresa de seguridad en el directorio. Revisamos autorización, modalidad y datos de contacto antes de publicar.'
+    : 'La recepción de nuevas empresas está temporalmente cerrada. Consulta los requisitos y el proceso de revisión que aplicará al reabrir.'}
   path="/registrar"
   breadcrumbs={[
     { name: 'Inicio', href: '/' },
@@ -47,9 +56,11 @@ const proceso = [
   <Cabecera
     ruta={[{ nombre: 'Inicio', href: '/' }, { nombre: 'Registrar empresa' }]}
     indice="Alta de proveedores"
-    meta="Revisión previa a publicación"
-    titulo="Registrar empresa"
-    lede="Publica la ficha de tu empresa en el directorio. No cobramos por el alta ni por el contacto: lo que pedimos es que puedas acreditar tu autorización y que tus datos respondan."
+    meta={recepcionActiva ? 'Revisión previa a publicación' : 'Recepción temporalmente cerrada'}
+    titulo={recepcionActiva ? 'Registrar empresa' : 'Alta de empresas'}
+    lede={recepcionActiva
+      ? 'Publica la ficha de tu empresa en el directorio. No cobramos por el alta ni por el contacto: lo que pedimos es que puedas acreditar tu autorización y que tus datos respondan.'
+      : 'En este momento no recibimos nuevas solicitudes. Puedes consultar los requisitos; aquí publicaremos un canal real y verificable cuando la recepción vuelva a abrir.'}
     stats={[
       { k: 'Costo del alta', v: 'Libre' },
       { k: 'Rubros abiertos', v: nn(activos.length) },
@@ -74,7 +85,7 @@ const proceso = [
   <!-- proceso -->
   <section class="on-ink mt-20 sm:mt-28">
     <div class="wrap py-20 sm:py-28">
-      <p class="label muted">[ 02 — Proceso ]</p>
+      <p class="label muted">[ 02 — {recepcionActiva ? 'Proceso' : 'Estado del proceso'} ]</p>
       <div class="mt-12 border-b border-paper/25">
         {proceso.map((p) => (
           <div class="rule grid grid-cols-12 items-start gap-x-6 gap-y-3 py-10">
@@ -91,8 +102,8 @@ const proceso = [
 
   <!-- formulario -->
   <section class="wrap pt-20 sm:pt-28">
-    <p class="label">[ 03 — Solicitud ]</p>
-    <h2 class="display-lg mt-8">Enviar<br />solicitud</h2>
+    <p class="label">[ 03 — {recepcionActiva ? 'Solicitud' : 'Recepción'} ]</p>
+    <h2 class="display-lg mt-8">{recepcionActiva ? <>Enviar<br />solicitud</> : <>Altas<br />cerradas</>}</h2>
 
     {!SITE.formEndpoint && (
       <div class="on-ink mt-10 p-8 sm:p-10">

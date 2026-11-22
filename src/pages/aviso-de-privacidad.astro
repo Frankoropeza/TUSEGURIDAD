@@ -18,6 +18,7 @@ const proveedoresAnalitica = [
   SITE.analytics.ga4Id && 'Google Analytics 4',
 ].filter(Boolean);
 const analiticaActiva = L.completo && proveedoresAnalitica.length > 0;
+const canalAltaActivo = Boolean(SITE.formEndpoint || SITE.contacto.email);
 
 // Marcador visible para los datos que faltan: nunca inventar razón social,
 // domicilio ni responsable de datos personales.
@@ -42,14 +43,17 @@ const secciones = [
       analiticaActiva
         ? `Sólo con consentimiento, ${proveedoresAnalitica.join(' y ')} procesa datos técnicos de navegación para medir el uso del sitio.`
         : 'La analítica de terceros está desactivada mientras este aviso permanece en revisión.',
-      'De quien solicita el alta de una empresa se recaban: nombre de la empresa, nombre de la persona de contacto, correo, teléfono, rubro, ciudad de operación y la información que la propia empresa decida publicar en su ficha.',
-      'De quien escribe por el formulario de contacto se recaban los datos que incluya en su mensaje.',
+      canalAltaActivo
+        ? 'De quien solicita el alta de una empresa se recaban: nombre de la empresa, nombre de la persona de contacto, correo, teléfono, rubro, ciudad de operación y la información que la propia empresa decida publicar en su ficha.'
+        : 'Actualmente no existe un canal activo para recibir altas, mensajes ni datos personales mediante formularios.',
     ],
   },
   {
     t: 'Finalidades del tratamiento',
     p: [
-      'Finalidades primarias: verificar la información de las empresas que solicitan alta, publicar y mantener actualizada su ficha en el directorio, y responder consultas o reportes de datos incorrectos.',
+      canalAltaActivo
+        ? 'Finalidades primarias: verificar la información de las empresas que solicitan alta, publicar y mantener actualizada su ficha en el directorio, y responder consultas o reportes de datos incorrectos.'
+        : 'Cuando se habilite un canal de alta, sus finalidades primarias serán verificar la información recibida, publicar y mantener actualizada la ficha autorizada, y responder consultas o reportes de datos incorrectos.',
       'No se realizan finalidades secundarias de mercadotecnia ni prospección comercial sin consentimiento expreso.',
     ],
   },
