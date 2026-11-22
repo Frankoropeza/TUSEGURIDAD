@@ -1,6 +1,7 @@
 # El despliegue de Cloudflare Pages también responde en *.pages.dev.
 # Esa copia no debe indexarse: la canónica vive en https://tuseguridad.mx
 /*
+  ! Link
   X-Content-Type-Options: nosniff
   Referrer-Policy: strict-origin-when-cross-origin
   X-Frame-Options: DENY
