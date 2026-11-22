@@ -66,7 +66,18 @@ assert.doesNotMatch(
   /Content-Security-Policy-Report-Only:[^\n]*upgrade-insecure-requests/,
   'Una CSP Report-Only no debe incluir directivas que el navegador ignora',
 );
-assert.doesNotMatch(headers, /Strict-Transport-Security:/, 'HSTS requiere validar primero todos los subdominios');
+assert.match(
+  headers,
+  /^https:\/\/tuseguridad\.mx\/\*\r?\n[ \t]+Strict-Transport-Security:\s*max-age=31536000\s*$/m,
+  'Debe existir HSTS únicamente para el dominio principal con un año de duración',
+);
+for (const line of headers.split(/\r?\n/).filter((value) => /Strict-Transport-Security:/i.test(value))) {
+  assert.doesNotMatch(
+    line,
+    /\b(?:includeSubDomains|preload)\b/i,
+    'HSTS no debe incluir subdominios ni preload',
+  );
+}
 assert.match(headers, /Permissions-Policy:/, 'Debe limitarse el acceso a capacidades del navegador');
 assert.match(headers, /X-Frame-Options:\s*DENY/, 'El sitio no debe poder incrustarse en frames');
 assert.doesNotMatch(privacidad, /Borrador — sin datos del titular/, 'El estado legal no debe contradecir datos configurados');

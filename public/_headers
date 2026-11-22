@@ -8,6 +8,9 @@
   Permissions-Policy: camera=(), geolocation=(), microphone=(), payment=(), usb=()
   Content-Security-Policy-Report-Only: default-src 'self'; base-uri 'self'; object-src 'none'; frame-ancestors 'none'; form-action 'self' https:; img-src 'self' data: https:; style-src 'self' 'unsafe-inline'; font-src 'self' data:; script-src 'self' 'unsafe-inline' https://www.googletagmanager.com https://www.clarity.ms https://static.cloudflareinsights.com https://challenges.cloudflare.com; connect-src 'self' https://www.google-analytics.com https://*.clarity.ms https://cloudflareinsights.com; frame-src https://challenges.cloudflare.com
 
+https://tuseguridad.mx/*
+  Strict-Transport-Security: max-age=31536000
+
 https://tuseguridad.pages.dev/*
   X-Robots-Tag: noindex
 https://:version.tuseguridad.pages.dev/*
