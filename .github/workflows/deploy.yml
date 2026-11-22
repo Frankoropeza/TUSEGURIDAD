@@ -46,7 +46,7 @@ jobs:
       - name: Sellar build-id
         run: echo "${{ github.sha }}" > dist/build-id.txt
       - name: Desplegar en Cloudflare Pages
-        uses: cloudflare/wrangler-action@2ef9f398b9175c68f953e40d679493850d640a85 # v4.1.3
+        uses: cloudflare/wrangler-action@953926a2e2182532811c01a25e53647d93bf07c0 # v4.1.3
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
