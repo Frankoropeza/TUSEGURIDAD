@@ -351,10 +351,10 @@ const guias = defineCollection({
     /** slugs de rubros tratados en la guía — habilita el enlazado interno */
     rubros: z.array(z.string()).default([]),
     /**
-     * Palabra clave principal (investigada en Ahrefs). No se pinta: documenta la
+     * Palabra clave principal editorial. No se pinta: documenta la
      * intención de la página y la usa scripts/qa/audit_guias.py.
      */
-    palabraClave: z.string().optional(),
+    palabraClave: z.string(),
     /**
      * Fichas de empresa relacionadas (ids de la colección `empresas`). La guía
      * enlaza a la ficha y la ficha muestra la guía en «Guías sobre <empresa>».

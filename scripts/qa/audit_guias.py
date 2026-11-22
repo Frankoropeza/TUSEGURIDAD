@@ -2,9 +2,8 @@
 """
 audit_guias.py — candado editorial y SEO de las guías (src/content/guias).
 
-Creado el 2026-10-28 para la tanda de 65 guías ligadas a las fichas VIP. Revisa
-cada guía con `palabraClave` (las anteriores sin ese campo solo entran a la
-comparación de similitud):
+Revisa todas las guías. El campo `palabraClave` es obligatorio; su ausencia
+produce un error editorial y la guía sigue entrando a la comparación de similitud:
 
   · metadatos: tituloSeo ≤ 60, descripción 120–165, palabra clave en título,
     descripción, primeras 120 palabras y al menos un H2; palabra clave única
@@ -97,10 +96,11 @@ for p in files:
     cuerpos[gid] = body
     if SOLO and SOLO in (d.get('empresas') or []): propias.add(gid)
     kw = d.get('palabraClave')
+    e = lambda m: errores.append(f'{gid}: {m}')
     if not kw:
+        e('falta palabraClave obligatoria')
         continue
     nuevas += 1
-    e = lambda m: errores.append(f'{gid}: {m}')
     k = norm(kw)
     claves.setdefault(k, []).append(gid)
     ts = d.get('tituloSeo') or d.get('titulo', '')
