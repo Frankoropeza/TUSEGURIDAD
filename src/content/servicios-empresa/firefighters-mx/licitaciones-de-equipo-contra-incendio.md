@@ -4,7 +4,7 @@ slug: licitaciones-de-equipo-contra-incendio
 nombre: Licitaciones de equipo contra incendio
 titulo: "Licitaciones de equipo contra incendio y para bomberos: expediente técnico por partida"
 tituloSeo: Licitaciones de equipo contra incendio y bomberos
-descripcion: "Expediente técnico por partida para licitaciones de equipo contra incendio en Compras MX, PEMEX, CFE, estados y municipios, con matriz de cumplimiento del anexo técnico."
+descripcion: "Expediente por partida para licitaciones de equipo contra incendio en Compras MX, PEMEX, CFE, estados y municipios, con matriz del anexo técnico."
 orden: 7
 titulos:
   incluye: Documentos que integramos por partida

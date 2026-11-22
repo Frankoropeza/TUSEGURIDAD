@@ -1,7 +1,7 @@
 ---
 nombre: FIREFIGHTER.COM.MX
 tituloSeo: "FIREFIGHTER.COM.MX: equipo de bombero en México"
-descripcion: "Equipo de bombero y contra incendio con envío a los 32 estados: traje de bombero, SCBA, extintores, quijadas de la vida, hidrantes y normativa contra incendio por estado."
+descripcion: "Equipo de bombero y contra incendio con envío nacional: trajes, SCBA, extintores, herramientas de rescate, hidrantes y normativa por estado."
 categoria: seguridad-contra-incendios
 categorias: []
 ciudad: cdmx

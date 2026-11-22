@@ -3,8 +3,8 @@ empresa: firefighters-mx
 slug: directorio-de-empresas-contra-incendio
 nombre: Directorio de empresas contra incendio
 titulo: "Directorio de empresas contra incendio y estaciones de bomberos: alta y reclamación de ficha"
-tituloSeo: "Empresas contra incendio: directorio nacional y alta"
-descripcion: "Directorio de 1,384 empresas contra incendio en cinco giros y los 32 estados, más 577 estaciones de bomberos. Alta básica gratuita, reclamación y corrección de fichas."
+tituloSeo: "Directorio de empresas contra incendio"
+descripcion: "Directorio de 1,384 empresas contra incendio en cinco giros y 32 estados, más 577 estaciones de bomberos. Alta, reclamación y corrección de fichas."
 orden: 8
 titulos:
   incluye: Qué contiene una ficha del directorio

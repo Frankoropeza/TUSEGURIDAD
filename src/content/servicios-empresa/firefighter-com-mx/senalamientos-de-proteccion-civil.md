@@ -4,7 +4,7 @@ slug: senalamientos-de-proteccion-civil
 nombre: Señalamientos de protección civil
 titulo: Señalamientos de protección civil, señalética de evacuación y lámparas de emergencia
 tituloSeo: Señalamientos de protección civil y de emergencia
-descripcion: "Señalamientos de protección civil y de emergencia conforme a la NOM-003-SEGOB-2011: señalética fotoluminiscente, ruta de evacuación, lámparas de emergencia y colocación."
+descripcion: "Señalamientos conforme a la NOM-003-SEGOB-2011: señalética fotoluminiscente, rutas de evacuación, lámparas de emergencia y colocación."
 orden: 8
 titulos:
   incluye: Qué señalamientos de protección civil lleva un inmueble

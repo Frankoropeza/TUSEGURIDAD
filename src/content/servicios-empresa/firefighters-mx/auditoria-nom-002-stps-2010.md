@@ -3,7 +3,7 @@ empresa: firefighters-mx
 slug: auditoria-nom-002-stps-2010
 nombre: Auditoría NOM-002-STPS-2010
 titulo: Auditoría de cumplimiento de la NOM-002-STPS-2010, con semáforo por área y plan de cierre
-tituloSeo: Auditoría NOM-002-STPS-2010 para tu centro de trabajo
+tituloSeo: Auditoría NOM-002-STPS-2010
 descripcion: "Revisamos instalaciones, expediente y brigada con los criterios de una inspección de la NOM-002-STPS-2010: semáforo por área, plan priorizado y visita a 90 días."
 orden: 6
 titulos:

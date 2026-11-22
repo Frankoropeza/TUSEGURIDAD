@@ -3,7 +3,7 @@ empresa: firefighters-mx
 slug: instalacion-de-rociadores-contra-incendio
 nombre: Instalación de rociadores contra incendio
 titulo: Instalación de rociadores contra incendio y sistemas fijos, llave en mano
-tituloSeo: "Rociadores contra incendio: instalación llave en mano"
+tituloSeo: "Instalación de rociadores contra incendio"
 descripcion: "Instalación de rociadores contra incendio, red de hidrantes, detección y supresión con agente limpio, con memoria de cálculo y pruebas de aceptación firmadas."
 orden: 2
 servicio: deteccion-y-alarma-contra-incendios

@@ -7,6 +7,7 @@ const checks = [
   ['npm', ['run', 'test:qa-entrypoints']],
   ['npm', ['run', 'test:workflow']],
   ['node', ['scripts/qa/test-content-schema.mjs']],
+  ['npm', ['run', 'test:html']],
   ['python3', ['scripts/qa/test_audit.py']],
   ['python3', ['scripts/qa/audit.py', '.']],
   ['python3', ['scripts/qa/crawl_dist.py', '.']],

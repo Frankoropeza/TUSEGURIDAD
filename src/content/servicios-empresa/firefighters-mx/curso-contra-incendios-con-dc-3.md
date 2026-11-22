@@ -4,7 +4,7 @@ slug: curso-contra-incendios-con-dc-3
 nombre: Curso contra incendios con DC-3
 titulo: "Curso contra incendios con constancia DC-3: uso de extintores, brigada y bombero"
 tituloSeo: Curso contra incendios con DC-3 y práctica real
-descripcion: "Curso contra incendios con práctica de fuego controlado: uso y manejo de extintores, brigada conforme a la NOM-002-STPS-2010 y equipo de respiración, con constancia DC-3."
+descripcion: "Curso contra incendios con fuego controlado: manejo de extintores, brigada conforme a la NOM-002-STPS-2010 y equipo de respiración, con DC-3."
 orden: 4
 titulos:
   incluye: Qué aprendes en el curso contra incendios

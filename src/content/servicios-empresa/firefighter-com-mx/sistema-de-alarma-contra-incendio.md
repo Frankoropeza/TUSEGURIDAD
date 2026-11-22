@@ -3,7 +3,7 @@ empresa: firefighter-com-mx
 slug: sistema-de-alarma-contra-incendio
 nombre: Sistema de alarma contra incendio
 titulo: Sistema de alarma contra incendio y detectores de humo, con prueba punto por punto
-tituloSeo: Sistema de alarma contra incendio y detectores de humo
+tituloSeo: Alarmas contra incendio y detectores de humo
 descripcion: "Sistema de alarma contra incendio con detectores de humo, calor y gas, panel direccionable o convencional, estrobos y prueba documentada de cada dispositivo."
 orden: 6
 servicio: deteccion-y-alarma-contra-incendios

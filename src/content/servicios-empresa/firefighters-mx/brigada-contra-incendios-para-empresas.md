@@ -3,7 +3,7 @@ empresa: firefighters-mx
 slug: brigada-contra-incendios-para-empresas
 nombre: Brigada contra incendios para empresas
 titulo: "Brigada contra incendios para empresas: diseño, equipo, capacitación y simulacros"
-tituloSeo: Brigada contra incendios para empresas, llave en mano
+tituloSeo: Brigada contra incendios para empresas
 descripcion: "Formamos tu brigada contra incendios según la NOM-002-STPS-2010: dimensionada por turno y riesgo, con EPP individual, capacitación con DC-3 y simulacros medidos."
 orden: 5
 titulos:

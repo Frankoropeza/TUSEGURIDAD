@@ -15,6 +15,7 @@
     "test:qa-entrypoints": "python3 scripts/qa/test-qa-entrypoints.py",
     "test:workflow": "node scripts/qa/test-workflow.mjs",
     "test:content-schema": "node scripts/qa/test-content-schema.mjs",
+    "test:html": "node scripts/qa/audit-html.mjs",
     "test:qa": "node scripts/qa/run-all.mjs",
     "astro": "astro",
     "postbuild": "node scripts/sitemap-check.mjs"

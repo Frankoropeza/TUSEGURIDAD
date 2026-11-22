@@ -3,8 +3,8 @@ empresa: firefighter-com-mx
 slug: hidrantes-contra-incendios-y-toma-siamesa
 nombre: Hidrantes contra incendios y toma siamesa
 titulo: "Hidrantes contra incendios, gabinetes, toma siamesa y rociadores: del cálculo a la puesta en marcha"
-tituloSeo: Hidrantes contra incendios, gabinetes y toma siamesa
-descripcion: "Red de hidrantes contra incendios con gabinetes de 1½ y 2½ pulgadas, toma siamesa, bombas eléctricas y diésel con controlador y rociadores, con cálculo y pruebas firmadas."
+tituloSeo: Hidrantes contra incendio y toma siamesa
+descripcion: "Red de hidrantes con gabinetes de 1½ y 2½ pulgadas, toma siamesa, bombas eléctricas y diésel, rociadores, cálculo y pruebas firmadas."
 orden: 7
 titulos:
   incluye: Qué abarca una red de hidrantes contra incendios

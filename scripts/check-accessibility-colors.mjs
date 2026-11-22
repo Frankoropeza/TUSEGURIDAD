@@ -33,7 +33,7 @@ const requiredUtilities = [
   ['texto secundario sobre ink', /\.on-ink \.muted\s*\{\s*@apply text-paper\/60;/s],
   ['siglas sobre bone', /\.tarjeta-sigla\s*\{\s*@apply text-ink\/65;/s],
   ['siglas al invertir tarjeta', /\.tarjeta:hover \.tarjeta-sigla\s*\{\s*@apply text-paper\/60;/s],
-  ['tarjetas inactivas', /\.tarjeta-inactiva h3,\s*\.tarjeta-inactiva \.tarjeta-flecha\s*\{\s*@apply text-ink\/60;/s],
+  ['tarjetas inactivas', /\.tarjeta-inactiva :is\(h2, h3, h4\),\s*\.tarjeta-inactiva \.tarjeta-flecha\s*\{\s*@apply text-ink\/60;/s],
 ];
 
 if (contrast(signal, paper) < 4.5) failures.push(`signal sobre paper solo alcanza ${contrast(signal, paper).toFixed(2)}:1.`);

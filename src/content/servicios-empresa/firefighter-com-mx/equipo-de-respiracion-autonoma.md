@@ -4,7 +4,7 @@ slug: equipo-de-respiracion-autonoma
 nombre: Equipo de respiración autónoma
 titulo: Equipo de respiración autónoma (SCBA) para bomberos, con cilindros de 30, 45 y 60 minutos
 tituloSeo: Equipo de respiración autónoma (SCBA) para bomberos
-descripcion: "Equipo de respiración autónoma SCBA de presión positiva, con máscara facial completa, cilindros de 30, 45 y 60 minutos y sistema RIT, probado en banco y con bitácora."
+descripcion: "Equipo de respiración autónoma SCBA de presión positiva, con máscara completa, cilindros de 30, 45 y 60 minutos y sistema RIT, probado en banco y con bitácora."
 orden: 2
 titulos:
   incluye: Partes de un equipo de respiración autónoma

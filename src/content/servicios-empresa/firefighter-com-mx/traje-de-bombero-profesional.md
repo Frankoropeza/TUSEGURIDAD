@@ -4,7 +4,7 @@ slug: traje-de-bombero-profesional
 nombre: Traje de bombero profesional
 titulo: Traje de bombero profesional y EPP estructural certificado con la NFPA 1970
 tituloSeo: "Traje de bombero profesional: EPP NFPA 1970"
-descripcion: "Traje de bombero profesional completo: chaquetón y pantalón en Nomex o PBI, casco, capucha, guantes y botas certificados con la NFPA 1970, con ficha técnica en español."
+descripcion: "Traje de bombero profesional: chaquetón y pantalón en Nomex o PBI, casco, capucha, guantes y botas con certificación NFPA 1970 y ficha técnica."
 orden: 1
 titulos:
   incluye: Las siete piezas del traje de bombero profesional

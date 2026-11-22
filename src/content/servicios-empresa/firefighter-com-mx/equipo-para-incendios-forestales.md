@@ -4,7 +4,7 @@ slug: equipo-para-incendios-forestales
 nombre: Equipo para incendios forestales
 titulo: "Equipo para incendios forestales: protección del brigadista y herramientas, por paquete de temporada"
 tituloSeo: Equipo para incendios forestales y brigadistas
-descripcion: "Equipo para incendios forestales: ropa y casco forestal, goggles, herramientas como Pulaski y McLeod, mochilas aspersoras de 20 litros y motosierras, cotizado por brigada."
+descripcion: "Equipo para incendios forestales: ropa, casco, goggles, herramientas Pulaski y McLeod, mochilas aspersoras y motosierras, cotizado por brigada."
 orden: 5
 titulos:
   incluye: Qué lleva el equipo de un brigadista forestal
