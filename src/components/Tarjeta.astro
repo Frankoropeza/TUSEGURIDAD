@@ -27,6 +27,7 @@ interface Props {
   inactivo?: boolean;
   /** nivel semántico del título según el lugar que ocupa la tarjeta */
   headingLevel?: 2 | 3 | 4;
+  prioridad?: boolean;
 }
 
 const {
@@ -42,6 +43,7 @@ const {
   sizes = '(min-width: 1280px) 30vw, (min-width: 640px) 45vw, 92vw',
   inactivo = false,
   headingLevel = 3,
+  prioridad = false,
 } = Astro.props;
 
 const Contenedor = href && !inactivo ? 'a' : 'div';
@@ -55,7 +57,7 @@ const tono = (t: Distintivo['tono']) =>
     <!-- lámina -->
     <div class="tarjeta-lamina">
       {foto ? (
-        <Foto foto={foto} sizes={sizes} mono />
+        <Foto foto={foto} sizes={sizes} prioridad={prioridad} mono />
       ) : (
         <div class="flex h-full w-full items-center justify-center bg-bone px-4">
           <span class="numeral tarjeta-sigla">{laminaTexto ?? titulo.slice(0, 3)}</span>

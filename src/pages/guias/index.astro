@@ -46,6 +46,7 @@ const fecha = (x: Date): string =>
             foto={g.data.rubros.length > 0 && tieneFotos(g.data.rubros[0]!) ? fotoPara(`guia:${g.id}`, g.data.rubros[0]!) : null}
             laminaTexto={String(g.data.fecha.getFullYear())}
             headingLevel={2}
+            prioridad={i === 0}
           />
         ))}
       </div>

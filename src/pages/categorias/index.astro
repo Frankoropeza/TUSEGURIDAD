@@ -75,6 +75,7 @@ const d = await cargarDatos();
             laminaTexto={cat.data.nombre.slice(0, 2)}
             inactivo={!cat.data.destacada}
             headingLevel={2}
+            prioridad={i === 0}
           />
         );
       })}

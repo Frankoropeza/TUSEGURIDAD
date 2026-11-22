@@ -10,6 +10,8 @@ const [
   analitica,
   site,
   headers,
+  tarjeta,
+  categorias,
 ] = await Promise.all([
   read('dist/registrar/index.html'),
   read('src/layouts/BaseLayout.astro'),
@@ -17,6 +19,8 @@ const [
   read('src/components/Analitica.astro'),
   read('src/config/site.ts'),
   read('public/_headers'),
+  read('src/components/Tarjeta.astro'),
+  read('src/pages/categorias/index.astro'),
 ]);
 
 assert.doesNotMatch(
@@ -26,8 +30,14 @@ assert.doesNotMatch(
 );
 assert.match(baseLayout, /class="skip-link"/, 'Debe existir un enlace para saltar al contenido');
 assert.match(baseLayout, /id="contenido-principal"/, 'El contenido principal debe tener un destino accesible');
-assert.match(header, /TuSeguridad MX — inicio|\$\{SITE\.name\} MX — inicio/, 'El nombre accesible debe incluir el texto visible del logotipo');
+assert.doesNotMatch(
+  header,
+  /<a href="\/"[^>]*aria-label/,
+  'El logotipo debe usar su texto visible como nombre accesible, sin texto adicional'
+);
 assert.match(header, /aria-current=\{isActive\(item\.href\)/, 'El menú móvil debe indicar la página actual');
+assert.match(tarjeta, /prioridad=\{prioridad\}/, 'Las tarjetas deben poder priorizar su imagen LCP');
+assert.match(categorias, /prioridad=\{i === 0\}/, 'La primera imagen del índice debe cargarse con prioridad');
 
 assert.match(analitica, /localStorage/, 'La analítica debe depender de una preferencia persistente');
 assert.match(analitica, /analytics|clarityId/, 'Los identificadores deben salir de la configuración central');
