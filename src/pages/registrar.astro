@@ -94,9 +94,20 @@ const proceso = [
     <p class="label">[ 03 — Solicitud ]</p>
     <h2 class="display-lg mt-8">Enviar<br />solicitud</h2>
 
+    {!SITE.formEndpoint && (
+      <div class="on-ink mt-10 p-8 sm:p-10">
+        <p class="label text-signal">Recepción temporalmente cerrada</p>
+        <p class="mt-4 max-w-3xl text-base leading-snug">
+          En este momento no existe un canal activo para recibir altas. No solicitamos tus datos
+          hasta contar con un destino de envío real y verificable. Publicaremos aquí el formulario
+          o el correo de recepción cuando estén habilitados.
+        </p>
+      </div>
+    )}
+
     {/* Confirmación tras el POST: el webhook redirige aquí con ?enviado=1.
         Único script del sitio; solo alterna un hidden. */}
-    <div id="confirmacion-envio" hidden class="on-ink mt-10 p-8">
+    {SITE.formEndpoint && <><div id="confirmacion-envio" hidden class="on-ink mt-10 p-8">
       <p class="label text-signal">Solicitud recibida</p>
       <p class="mt-4 max-w-3xl text-base leading-snug">
         Recibimos tu solicitud de alta. La revisamos y te contactamos al correo que indicaste
@@ -187,7 +198,7 @@ const proceso = [
           </div>
         )}
       </div>
-    </form>
+    </form></>}
   </section>
 
   <Relacionados

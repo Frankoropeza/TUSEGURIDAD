@@ -1,0 +1,92 @@
+---
+import { SITE } from '@config/site';
+
+const { clarityId, ga4Id } = SITE.analytics;
+const habilitada = import.meta.env.PROD && Boolean(clarityId || ga4Id);
+---
+
+{habilitada && (
+  <>
+    <aside id="consentimiento-analitica" class="consentimiento-analitica" hidden aria-labelledby="consentimiento-titulo">
+      <p id="consentimiento-titulo" class="label text-signal">Analítica opcional</p>
+      <p class="mt-3 max-w-2xl text-sm leading-snug">
+        Con tu permiso usamos Microsoft Clarity para entender cómo se consulta el directorio y corregir problemas de uso.
+        Puedes rechazarlo y seguir navegando con normalidad.
+      </p>
+      <div class="mt-5 flex flex-wrap gap-3">
+        <button type="button" class="cta-solid" data-consent-accept>Aceptar analítica</button>
+        <button type="button" class="cta" data-consent-reject>Rechazar</button>
+        <a href="/aviso-de-privacidad/" class="label underline-hover self-center">Ver aviso de privacidad</a>
+      </div>
+    </aside>
+
+    <script is:inline define:vars={{ clarityId, ga4Id }}>
+      (() => {
+        const KEY = 'tuseguridad:consentimiento-analitica';
+        const panel = document.getElementById('consentimiento-analitica');
+        let preferencia = null;
+        try {
+          preferencia = localStorage.getItem(KEY);
+        } catch {
+          preferencia = null;
+        }
+
+        const guardar = (valor) => {
+          try {
+            localStorage.setItem(KEY, valor);
+          } catch {
+            // Si el navegador bloquea storage, la decisión dura esta visita.
+          }
+        };
+
+        const cargarClarity = () => {
+          if (!clarityId || document.querySelector('script[data-tuseguridad-clarity]')) return;
+          window.clarity = window.clarity || function () {
+            (window.clarity.q = window.clarity.q || []).push(arguments);
+          };
+          const script = document.createElement('script');
+          script.async = true;
+          script.src = `https://www.clarity.ms/tag/${encodeURIComponent(clarityId)}`;
+          script.dataset.tuseguridadClarity = 'true';
+          document.head.append(script);
+        };
+
+        const cargarGa4 = () => {
+          if (!ga4Id || document.querySelector('script[data-tuseguridad-ga4]')) return;
+          window.dataLayer = window.dataLayer || [];
+          window.gtag = function () { window.dataLayer.push(arguments); };
+          window.gtag('js', new Date());
+          window.gtag('config', ga4Id, { anonymize_ip: true });
+          const script = document.createElement('script');
+          script.async = true;
+          script.src = `https://www.googletagmanager.com/gtag/js?id=${encodeURIComponent(ga4Id)}`;
+          script.dataset.tuseguridadGa4 = 'true';
+          document.head.append(script);
+        };
+
+        const cargar = () => {
+          cargarClarity();
+          cargarGa4();
+        };
+        const cerrar = () => { if (panel) panel.hidden = true; };
+        const abrir = () => { if (panel) panel.hidden = false; };
+
+        document.querySelector('[data-consent-accept]')?.addEventListener('click', () => {
+          guardar('aceptada');
+          cerrar();
+          cargar();
+        });
+        document.querySelector('[data-consent-reject]')?.addEventListener('click', () => {
+          guardar('rechazada');
+          cerrar();
+        });
+        document.addEventListener('click', (event) => {
+          if (event.target instanceof Element && event.target.closest('[data-open-analytics-consent]')) abrir();
+        });
+
+        if (preferencia === 'aceptada') cargar();
+        else if (preferencia !== 'rechazada') abrir();
+      })();
+    </script>
+  </>
+)}

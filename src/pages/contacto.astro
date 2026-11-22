@@ -44,7 +44,9 @@ const motivos = [
     ruta={[{ nombre: 'Inicio', href: '/' }, { nombre: 'Contacto' }]}
     indice="Contacto"
     titulo="Contacto"
-    lede="Este directorio se corrige con lo que nos reportan. Si algo está mal o falta, dínoslo."
+    lede={SITE.contacto.email || SITE.contacto.telefono
+      ? 'Este directorio se corrige con lo que nos reportan. Si algo está mal o falta, dínoslo.'
+      : 'La recepción de reportes está en habilitación. Publicaremos aquí el primer canal real y verificable en cuanto esté disponible.'}
   />
 
   <section class="wrap pt-16 sm:pt-20">

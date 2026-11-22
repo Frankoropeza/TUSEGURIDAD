@@ -1,5 +1,12 @@
 # El despliegue de Cloudflare Pages también responde en *.pages.dev.
 # Esa copia no debe indexarse: la canónica vive en https://tuseguridad.mx
+/*
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
+  X-Frame-Options: DENY
+  Permissions-Policy: camera=(), geolocation=(), microphone=(), payment=(), usb=()
+  Content-Security-Policy-Report-Only: default-src 'self'; base-uri 'self'; object-src 'none'; frame-ancestors 'none'; form-action 'self' https:; img-src 'self' data: https:; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' data: https://fonts.gstatic.com; script-src 'self' 'unsafe-inline' https://www.googletagmanager.com https://static.cloudflareinsights.com https://challenges.cloudflare.com; connect-src 'self' https://www.google-analytics.com https://cloudflareinsights.com; frame-src https://challenges.cloudflare.com; upgrade-insecure-requests
+
 https://tuseguridad.pages.dev/*
   X-Robots-Tag: noindex
 https://:version.tuseguridad.pages.dev/*

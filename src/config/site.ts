@@ -48,10 +48,9 @@ export const SITE = {
    */
   analytics: {
     ga4Id: '',
-    // Ahrefs Web Analytics (proyecto tuseguridad.mx) y token de verificación
-    // del sitio en Ahrefs. Los pinta layouts/BaseLayout.astro en el <head>.
-    ahrefsKey: 'vU09yj/P/jvhhtFOrsi3Sg',
-    ahrefsVerification: '40cd9b4cc4c260d40efb96782881710bbb25965aa5bbb6d072dee8e4bf18b4f5',
+    // Se mantiene desactivado hasta que el aviso de privacidad sea revisado
+    // y exista una decisión documentada sobre consentimiento y proveedores.
+    clarityId: '',
   },
 
   /**
@@ -69,7 +68,7 @@ export const SITE = {
      * el correo, llenarlo y el aviso lo publica solo.
      */
     correoDatos: '',
-    completo: true,
+    completo: false,
   },
 
   social: {

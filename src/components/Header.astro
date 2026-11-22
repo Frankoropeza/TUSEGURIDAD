@@ -20,7 +20,7 @@ const items = SITE.nav.filter((i) => i.href !== '/');
 
   <!-- barra principal -->
   <div class="wrap flex h-[70px] items-center justify-between gap-6">
-    <a href="/" class="flex items-baseline gap-1.5" aria-label={`${SITE.name} — inicio`}>
+    <a href="/" class="flex items-baseline gap-1.5" aria-label={`${SITE.name} MX — inicio`}>
       <span class="display text-[1.6rem] leading-none sm:text-[1.85rem]">{SITE.name}</span>
       <span class="label text-signal">MX</span>
     </a>
@@ -51,7 +51,11 @@ const items = SITE.nav.filter((i) => i.href !== '/');
         </summary>
         <div class="absolute right-0 z-50 mt-2 w-64 border border-ink bg-paper">
           {SITE.nav.map((item, i) => (
-            <a href={item.href} class="label flex items-baseline gap-2 border-b border-ink/15 px-4 py-3.5 hover:bg-ink hover:text-paper">
+            <a
+              href={item.href}
+              class="label flex items-baseline gap-2 border-b border-ink/15 px-4 py-3.5 hover:bg-ink hover:text-paper"
+              aria-current={isActive(item.href) ? 'page' : undefined}
+            >
               <span class="text-ink/60">{String(i).padStart(2, '0')}</span>
               {item.label}
             </a>

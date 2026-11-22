@@ -11,6 +11,7 @@
     "check": "astro check",
     "test:critical-rendering": "node scripts/check-critical-rendering.mjs",
     "test:accessibility-colors": "node scripts/check-accessibility-colors.mjs",
+    "test:trust-accessibility": "node scripts/qa/test-trust-and-accessibility.mjs",
     "astro": "astro",
     "postbuild": "node scripts/sitemap-check.mjs"
   },
