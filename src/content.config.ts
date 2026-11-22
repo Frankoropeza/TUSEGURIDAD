@@ -2,14 +2,17 @@ import { defineCollection } from 'astro:content';
 import { z } from 'astro/zod';
 import { glob } from 'astro/loaders';
 
+const strictObject = <T extends Record<string, z.ZodType>>(shape: T) =>
+  z.object(shape).strict();
+
 /**
- * Colecciones de contenido (Astro 6 — Content Layer / loader glob).
+ * Colecciones de contenido (Astro 7 — Content Layer / loader glob).
  * Consumo: entry.id (no .slug) + render(entry).
  */
 
 const empresas = defineCollection({
   loader: glob({ pattern: '**/*.{md,mdx}', base: './src/content/empresas' }),
-  schema: z.object({
+  schema: strictObject({
     nombre: z.string(),
     descripcion: z.string(),
     categoria: z.string(), // slug de categoría principal
@@ -35,7 +38,7 @@ const empresas = defineCollection({
       .array(
         z.union([
           z.string(),
-          z.object({
+          strictObject({
             nombre: z.string(),
             descripcion: z.string().optional(),
             servicio: z.string().optional(),
@@ -45,16 +48,14 @@ const empresas = defineCollection({
              * Apartado extendido: texto largo + galería. Los servicios que lo
              * declaran salen además en el módulo a dos columnas de la ficha.
              */
-            detalle: z
-              .object({
+            detalle: strictObject({
                 intro: z.string(),
                 puntos: z
-                  .array(z.object({ titulo: z.string(), texto: z.string() }))
+                  .array(strictObject({ titulo: z.string(), texto: z.string() }))
                   .default([]),
                 /** fotos: "grupo" o "grupo:N" (N = variante del grupo, base 1) */
                 galeria: z.array(z.string()).default([]),
-              })
-              .optional(),
+              }).optional(),
           }),
         ])
       )
@@ -80,13 +81,11 @@ const empresas = defineCollection({
      * que se reproduce de una fuente pública. Su presencia es lo que distingue
      * una ficha de directorio de una ficha de cliente.
      */
-    fuenteDatos: z
-      .object({
+    fuenteDatos: strictObject({
         nombre: z.string(),
         /** fecha en que se consultó la fuente, ISO */
         fechaCorte: z.string(),
-      })
-      .optional(),
+      }).optional(),
 
     /**
      * Valoración publicada en el perfil público del negocio. Se muestra
@@ -94,12 +93,10 @@ const empresas = defineCollection({
      * `aggregateRating` en el JSON-LD: marcar valoraciones de terceros sobre
      * un negocio ajeno va contra las guías de datos estructurados.
      */
-    resenas: z
-      .object({
+    resenas: strictObject({
         calificacion: z.number().min(0).max(5),
         total: z.number().int().min(0),
-      })
-      .optional(),
+      }).optional(),
 
     /**
      * Cruce con un padrón oficial de la autoridad. `localizada: false` no
@@ -107,8 +104,7 @@ const empresas = defineCollection({
      * modalidad, y una empresa de vigilancia de bienes no tiene por qué
      * aparecer en el de protección a personas. La ficha tiene que decirlo.
      */
-    padron: z
-      .object({
+    padron: strictObject({
         localizada: z.boolean(),
         expediente: z.string().optional(),
         /** fin de vigencia del permiso, ISO */
@@ -124,8 +120,7 @@ const empresas = defineCollection({
          * detrás del texto de la fila.
          */
         nota: z.string().optional(),
-      })
-      .optional(),
+      }).optional(),
 
     /**
      * Ficha de maqueta, no una empresa real. Se marca en pantalla, se sirve
@@ -138,7 +133,7 @@ const empresas = defineCollection({
 
 const categorias = defineCollection({
   loader: glob({ pattern: '**/*.{md,mdx}', base: './src/content/categorias' }),
-  schema: z.object({
+  schema: strictObject({
     nombre: z.string(),
     descripcion: z.string(),
     icono: z.string().optional(),
@@ -163,7 +158,7 @@ const categorias = defineCollection({
     // --- bloques editoriales de la ficha de rubro ---
     modalidades: z
       .array(
-        z.object({
+        strictObject({
           nombre: z.string(),
           descripcion: z.string(),
           /** slug de otra categoría del directorio, para enlace interno */
@@ -173,21 +168,21 @@ const categorias = defineCollection({
       .default([]),
 
     verificacion: z
-      .array(z.object({ punto: z.string(), detalle: z.string() }))
+      .array(strictObject({ punto: z.string(), detalle: z.string() }))
       .default([]),
 
-    faq: z.array(z.object({ q: z.string(), a: z.string() })).default([]),
+    faq: z.array(strictObject({ q: z.string(), a: z.string() })).default([]),
 
     /** referencias normativas citadas en la ficha */
     fuentes: z
-      .array(z.object({ titulo: z.string(), url: z.url() }))
+      .array(strictObject({ titulo: z.string(), url: z.url() }))
       .default([]),
   }),
 });
 
 const ciudades = defineCollection({
   loader: glob({ pattern: '**/*.{md,mdx}', base: './src/content/ciudades' }),
-  schema: z.object({
+  schema: strictObject({
     nombre: z.string(),
     /** forma corta para titulares y cruces rubro×plaza */
     nombreCorto: z.string().optional(),
@@ -201,8 +196,7 @@ const ciudades = defineCollection({
     region: z.string().default('Centro'),
 
     /** marco normativo local — es lo que diferencia a cada plaza */
-    normativa: z
-      .object({
+    normativa: strictObject({
         ley: z.string().optional(),
         autoridad: z.string().optional(),
         dependencia: z.string().optional(),
@@ -212,18 +206,17 @@ const ciudades = defineCollection({
         registro: z.string().optional(),
         /** true cuando la materia se regula dentro de la ley de seguridad pública */
         sinLeyEspecifica: z.boolean().default(false),
-      })
-      .optional(),
+      }).optional(),
 
     fuentes: z
-      .array(z.object({ titulo: z.string(), url: z.url() }))
+      .array(strictObject({ titulo: z.string(), url: z.url() }))
       .default([]),
   }),
 });
 
 const servicios = defineCollection({
   loader: glob({ pattern: '**/*.{md,mdx}', base: './src/content/servicios' }),
-  schema: z.object({
+  schema: strictObject({
     /**
      * Etiqueta corta del servicio. Es la llave de enlace: se usa en tarjetas,
      * migas y bloques de relacionados, así que tiene que caber en una línea.
@@ -248,7 +241,7 @@ const servicios = defineCollection({
     orden: z.number().default(0),
     /** slug del rubro al que pertenece — habilita el enlazado interno */
     rubro: z.string().optional(),
-    faq: z.array(z.object({ q: z.string(), a: z.string() })).default([]),
+    faq: z.array(strictObject({ q: z.string(), a: z.string() })).default([]),
   }),
 });
 
@@ -275,7 +268,7 @@ const serviciosEmpresa = defineCollection({
      */
     generateId: ({ entry }) => entry.replace(/\.mdx?$/, ''),
   }),
-  schema: z.object({
+  schema: strictObject({
     /** slug de la ficha de empresa a la que pertenece */
     empresa: z.string(),
     /** segmento final de la URL; debe coincidir con el nombre del archivo */
@@ -300,26 +293,26 @@ const serviciosEmpresa = defineCollection({
     /** párrafo de apertura del apartado 01 */
     intro: z.string(),
     /** cifras declaradas para la cabecera: { k: 'Cobertura', v: 'CDMX · Edomex' } */
-    stats: z.array(z.object({ k: z.string(), v: z.string() })).default([]),
+    stats: z.array(strictObject({ k: z.string(), v: z.string() })).default([]),
     /** qué incluye el servicio */
-    incluye: z.array(z.object({ titulo: z.string(), texto: z.string() })).default([]),
+    incluye: z.array(strictObject({ titulo: z.string(), texto: z.string() })).default([]),
     /** esquemas o modalidades en que se presta */
-    modalidades: z.array(z.object({ titulo: z.string(), texto: z.string() })).default([]),
+    modalidades: z.array(strictObject({ titulo: z.string(), texto: z.string() })).default([]),
     /** perfiles de inmueble o cliente a los que aplica */
-    paraQuien: z.array(z.object({ titulo: z.string(), texto: z.string() })).default([]),
+    paraQuien: z.array(strictObject({ titulo: z.string(), texto: z.string() })).default([]),
     /** pasos del alta del servicio, en orden */
-    proceso: z.array(z.object({ titulo: z.string(), texto: z.string() })).default([]),
+    proceso: z.array(strictObject({ titulo: z.string(), texto: z.string() })).default([]),
     /**
      * Errores frecuentes al contratar. Se pintan en un bloque invertido
      * (`.on-ink`): es lo que más convierte y lo que ningún competidor puede
      * copiar con adjetivos.
      */
-    errores: z.array(z.object({ titulo: z.string(), texto: z.string() })).default([]),
+    errores: z.array(strictObject({ titulo: z.string(), texto: z.string() })).default([]),
     /**
      * Vocabulario del servicio. Imán de búsquedas de cola larga y ayuda real
      * al comprador que no conoce los términos del gremio.
      */
-    glosario: z.array(z.object({ termino: z.string(), definicion: z.string() })).default([]),
+    glosario: z.array(strictObject({ termino: z.string(), definicion: z.string() })).default([]),
     /**
      * Encabezados H2 por apartado, para poder cargarlos de palabra clave sin
      * tocar la plantilla. Claves: incluye, modalidades, paraQuien, proceso,
@@ -330,7 +323,7 @@ const serviciosEmpresa = defineCollection({
     entregables: z.array(z.string()).default([]),
     /** fotos: "grupo" o "grupo:N" (N = variante del grupo, base 1) */
     galeria: z.array(z.string()).default([]),
-    faq: z.array(z.object({ q: z.string(), a: z.string() })).default([]),
+    faq: z.array(strictObject({ q: z.string(), a: z.string() })).default([]),
     /** slug de la página genérica del directorio, si existe */
     servicio: z.string().optional(),
     orden: z.number().default(0),
@@ -339,7 +332,7 @@ const serviciosEmpresa = defineCollection({
 
 const guias = defineCollection({
   loader: glob({ pattern: '**/*.{md,mdx}', base: './src/content/guias' }),
-  schema: z.object({
+  schema: strictObject({
     titulo: z.string(),
     /**
      * `<title>` de la pestaña y del resultado de búsqueda, sin el sufijo del
@@ -368,9 +361,9 @@ const guias = defineCollection({
      */
     empresas: z.array(z.string()).default([]),
     /** preguntas frecuentes reales de la guía → bloque visible + JSON-LD FAQPage */
-    faq: z.array(z.object({ q: z.string(), a: z.string() })).default([]),
+    faq: z.array(strictObject({ q: z.string(), a: z.string() })).default([]),
     /** fuentes oficiales consultadas, pintadas al final de la guía */
-    fuentes: z.array(z.object({ titulo: z.string(), url: z.url() })).default([]),
+    fuentes: z.array(strictObject({ titulo: z.string(), url: z.url() })).default([]),
     draft: z.boolean().default(false),
   }),
 });

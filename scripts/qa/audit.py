@@ -2,7 +2,8 @@
 import glob, re, sys, os
 import yaml
 
-ROOT = os.path.expanduser("~/mnt/Projects/TUSEGURIDAD")
+DEFAULT_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..'))
+ROOT = os.path.abspath(sys.argv[1]) if len(sys.argv) > 1 else DEFAULT_ROOT
 SE_DIR = os.path.join(ROOT, "src/content/servicios-empresa")
 
 # Vocabulario prohibido.
@@ -56,6 +57,9 @@ def leer_fm(path):
     return fm, body, parts[1]
 
 files = sorted(glob.glob(os.path.join(SE_DIR, "*/*.md")))
+if not files:
+    print(f"ERROR: ninguna página de servicio encontrada en {SE_DIR}", file=sys.stderr)
+    sys.exit(2)
 print(f"Auditando {len(files)} paginas de servicio de empresa...")
 
 for path in files:

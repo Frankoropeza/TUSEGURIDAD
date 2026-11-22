@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
-import glob, re, os
+import glob, re, os, sys
 
-ROOT = os.path.expanduser("~/mnt/Projects/TUSEGURIDAD")
+DEFAULT_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..'))
+ROOT = os.path.abspath(sys.argv[1]) if len(sys.argv) > 1 else DEFAULT_ROOT
 DIST = os.path.join(ROOT, "dist")
 
 # construir el conjunto de rutas reales (carpetas con index.html -> ruta con /)
@@ -15,6 +16,9 @@ for root, dirs, files in os.walk(DIST):
             rutas_reales.add("/" + rel.replace(os.sep, "/") + "/")
 
 html_files = glob.glob(os.path.join(DIST, "**/*.html"), recursive=True)
+if not html_files:
+    print(f"ERROR: ningún HTML encontrado en {DIST}", file=sys.stderr)
+    sys.exit(2)
 print(f"Paginas HTML: {len(html_files)}")
 print(f"Rutas reales (index.html): {len(rutas_reales)}")
 
@@ -52,3 +56,5 @@ print()
 print(f"--- Rotos (no resuelven a una ruta real): {len(rotos)} ---")
 for hf, h in rotos[:40]:
     print(" ", os.path.relpath(hf, DIST), "->", h)
+
+sys.exit(1 if dobles or sin_barra or rotos else 0)

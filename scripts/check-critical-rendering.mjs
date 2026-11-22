@@ -10,7 +10,7 @@ const escapedFontUrl = fontUrl.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
 
 const assertions = [
   ['preload de las fuentes', new RegExp(`<link(?=[^>]*\\brel="preload")(?=[^>]*\\bas="style")(?=[^>]*\\bhref="${escapedFontUrl}")[^>]*>`)],
-  ['carga no bloqueante de las fuentes', new RegExp(`<link(?=[^>]*\\brel="stylesheet")(?=[^>]*\\bhref="${escapedFontUrl}")(?=[^>]*\\bmedia="print")(?=[^>]*\\bonload="this\\.media='all'")[^>]*>`)],
+  ['carga no bloqueante de las fuentes', new RegExp(`<link(?=[^>]*\\brel="stylesheet")(?=[^>]*\\bhref="${escapedFontUrl}")(?=[^>]*\\bmedia="print")(?=[^>]*\\bonload="this\\.setAttribute\\('media','all'\\)")[^>]*>`)],
   ['fallback sin JavaScript', new RegExp(`<noscript>\\s*<link(?=[^>]*\\brel="stylesheet")(?=[^>]*\\bhref="${escapedFontUrl}")[^>]*>\\s*</noscript>`)],
   ['CSS crítico integrado por Astro', /build:\s*\{[\s\S]*?inlineStylesheets:\s*'always'/],
 ];
