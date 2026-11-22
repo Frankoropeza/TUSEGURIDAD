@@ -1,67 +1,136 @@
 ---
+palabraClave: tipos de cámaras de seguridad
 titulo: "Tipos de cámaras de seguridad: cuál sirve para cada punto de tu casa o negocio"
 tituloSeo: "Tipos de cámaras de seguridad y cuál elegir"
-descripcion: "Bala, domo, PTZ, 360, IP, analógica, wifi y 4G: qué hace cada tipo de cámara de seguridad, dónde conviene y cuáles funcionan sin internet."
+descripcion: "Tipos de cámaras de seguridad: compara forma, conexión, lentes y grabación. Define qué necesitas observar y verifica la imagen antes de contratar."
 fecha: 2026-09-27
+actualizado: 2026-11-22
 autor: Equipo TuSeguridad
 tags: ["guía", "cctv", "cámaras de seguridad", "videovigilancia"]
 rubros: ["cctv-videovigilancia"]
+empresas: ["seguridadprivadamx"]
+fuentes:
+  - titulo: ONVIF, Profile T para sistemas de video IP
+    url: https://www.onvif.org/profiles/profile-t/
+  - titulo: ONVIF, consulta de productos conformes
+    url: https://www.onvif.org/conformant-products/
+  - titulo: Ley Federal de Protección de Datos Personales en Posesión de los Particulares
+    url: https://www.diputados.gob.mx/LeyesBiblio/pdf/LFPDPPP.pdf
+faq:
+  - q: ¿Una cámara IP siempre tiene mayor resolución que una analógica?
+    a: No. Compara las especificaciones de los modelos y la calidad en la escena real. La tecnología de transporte no establece por sí sola resolución, detalle útil ni calidad nocturna.
+  - q: ¿Wifi significa que la cámara no lleva cables?
+    a: Wifi describe el enlace de datos. La cámara puede necesitar alimentación eléctrica por cable; batería y panel solar son características adicionales que deben revisarse por modelo.
+  - q: ¿Una PTZ cubre todo al mismo tiempo?
+    a: Una cámara que orienta su lente hacia distintas zonas observa el encuadre actual. Evalúa cámaras fijas complementarias si necesitas registro simultáneo de otras áreas.
+  - q: ¿Se puede grabar sin internet?
+    a: Depende de la arquitectura y configuración. El almacenamiento local puede seguir funcionando con energía y conexiones necesarias; nube, avisos y consulta externa pueden perderse.
+  - q: ¿Más megapíxeles garantizan identificar una cara?
+    a: No. Influyen distancia, lente, encuadre, iluminación, exposición, movimiento y compresión. Haz una prueba de reproducción con condiciones representativas del acceso.
+  - q: ¿Una cámara exterior puede instalarse en cualquier sitio?
+    a: Revisa protección ambiental, temperatura, montaje y accesorios en la ficha exacta. La forma de bala, domo o turret no demuestra por sí sola resistencia a lluvia o manipulación.
+  - q: ¿Todos los equipos ONVIF funcionan igual entre marcas?
+    a: Verifica producto, versión y perfiles declarados en la base oficial, y prueba las funciones requeridas con el grabador. Las integraciones particulares pueden tener límites.
 ---
 
-Casi nadie compra la cámara equivocada por marca. La compra equivocada es otra: una cámara de techo con lente abierto para vigilar una puerta a doce metros, una cámara wifi en un patio donde la señal no llega, un domo en la fachada que en diciembre ya tiene telarañas y gotas por dentro.
+Comparar tipos de cámaras de seguridad exige separar forma, conexión y propósito. Una cámara puede ser domo, IP, cableada y apta para exterior al mismo tiempo. Ninguna de esas etiquetas demuestra por sí sola que permita identificar un rostro en el punto donde quieres colocarla.
 
-Los tipos de cámara existen porque cada punto de un predio pide algo distinto. Esta guía los ordena de dos maneras: por su forma, que decide dónde se monta y qué ve, y por su tecnología, que decide cómo graba y si depende de internet.
+Empieza por definir qué debe verse y en qué condiciones. Después compara lente, iluminación, montaje, alimentación y almacenamiento. Esta guía ordena esos criterios para evaluar propuestas con pruebas, sin atribuir capacidades universales a una familia de equipos.
 
-## Por su forma
+## Tipos de cámaras de seguridad según su forma
 
-**Bala (bullet).** El cuerpo alargado que se atornilla a la pared. Es la más común en exterior porque se orienta fácil y se nota: disuade. Buena para perímetro, estacionamientos y accesos vehiculares. Su punto débil es que se puede girar con un palo si queda a mano.
+**Bala (bullet).** Cuerpo alargado con soporte orientable. Puede utilizarse en accesos y perímetros si el modelo admite las condiciones ambientales. Revisa alcance del montaje, acceso para mantenimiento y exposición a manipulación. Su apariencia no garantiza un efecto disuasivo.
 
-**Domo.** La media esfera de techo. Discreta y difícil de manipular, por eso es la estándar en interiores de comercio, pasillos y recepciones. En exterior funciona si tiene protección contra agua y vandalismo, pero la cúpula acumula polvo y humedad y el infrarrojo puede rebotar en ella si no está limpia.
+**Domo.** Lente protegida por una cubierta semiesférica. La resistencia ambiental y a impactos depende del modelo, montaje y accesorios. Inspecciona limpieza de la cubierta y reflejos que puedan afectar la imagen, especialmente con iluminación infrarroja.
 
-**Turret o «eyeball».** Parece un domo sin cúpula: la lente queda expuesta. Resuelve justo el rebote del infrarrojo, así que de noche suele ver mejor que un domo. Es la opción de muchos instaladores para fachadas y cocheras.
+**Turret o «eyeball».** Presenta un módulo orientable sin la cúpula que cubre a ciertos domos. Esa diferencia no asegura mejor imagen nocturna: deben compararse sensor, lente, iluminación, montaje y condiciones de la escena.
 
-**PTZ.** Gira, sube, baja y hace zoom. Sirve cuando alguien la opera: un guardia en un monitor o una central que sigue un evento. Programada en recorrido automático, tiene un problema serio: mientras mira a la izquierda, lo que pasa a la derecha no queda grabado. No sustituye a las cámaras fijas; las complementa.
+**PTZ.** Permite orientar la vista y ajustar el zoom, por operación humana o funciones automáticas según el modelo. Una lente orientada hacia un punto no registra simultáneamente todo lo que queda fuera de su encuadre. Evalúa cámaras fijas complementarias cuando necesites cobertura continua de otras áreas.
 
-**360 u ojo de pez.** Una sola lente que ve todo el cuarto desde el techo. Útil en tiendas y bodegas para entender qué pasó y en qué orden. Mala para identificar caras: los píxeles se reparten en todo el círculo.
+**Panorámica u ojo de pez.** Puede ofrecer una vista amplia mediante una lente o varios sensores, según el diseño. Comprueba puntos ciegos, distancia y corrección de imagen disponible. La cobertura amplia reparte el detalle entre más superficie y no demuestra identificación en cualquier punto.
 
-**Cámaras para placas (LPR).** Lente cerrada, obturador rápido y ángulo calculado para leer matrículas en un acceso. Se instalan donde el coche pasa despacio y siempre por el mismo carril. En una calle abierta no funcionan igual.
+**Captura o lectura de placas.** Distingue obtener una imagen legible de reconocer automáticamente caracteres. Revisa velocidad, ángulo, iluminación, distancia y analítica del modelo. Solicita pruebas en el carril concreto; una demostración de otro acceso no acredita el mismo desempeño.
 
 ## Por su tecnología
 
 | Tipo | Cómo se conecta | Dónde conviene | Lo que hay que saber |
 |---|---|---|---|
-| Analógica HD (TVI, CVI, AHD) | Cable coaxial a un DVR | Donde ya hay coaxial tendido | Resolución menor que IP; más barata de reponer |
-| IP con cable | Cable de red a un NVR, a veces con corriente por el mismo cable (PoE) | Instalaciones nuevas, negocios, condominios | Más resolución y analítica; el cableado se planea |
+| Analógica HD (TVI, CVI, AHD) | Habitualmente coaxial a un DVR compatible | Donde se evalúa conservar infraestructura | Revisar formato, resolución y capacidad del grabador |
+| IP con cable | Red hacia un grabador o servidor; PoE si es compatible | Proyectos con conectividad cableada | Planear tráfico, energía, cuentas e interoperabilidad |
 | Wifi | Señal inalámbrica a la red de la casa | Interiores, departamentos, puntos sin cable | Depende de la señal y de que nadie la sature |
 | 4G con chip | Datos celulares | Terrenos, obras, ranchos sin red | Consume plan de datos; revisar cobertura |
-| De batería o solar | Wifi o 4G, sin cable de corriente | Donde no hay contacto cerca | Graba por evento para ahorrar batería, no continuo |
+| De batería o solar | Alimentación autónoma con enlace según modelo | Puntos sin alimentación convencional | Autonomía y grabación dependen del diseño y configuración |
 
-Una aclaración que evita muchas compras equivocadas: una cámara wifi **es** una cámara IP. La diferencia con la IP cableada no es el tipo de cámara, es el medio. El cable no se cae cuando alguien descarga una película en la sala; el wifi, sí.
+Wifi describe un medio de conexión IP; no significa que la cámara funcione sin cable de alimentación. Tanto una red cableada como una inalámbrica pueden saturarse o fallar. Revisa cobertura, tráfico y disponibilidad del trayecto completo, no solamente la señal junto al teléfono.
 
 ## ¿Las cámaras de seguridad funcionan sin internet?
 
 Depende de dónde guardan el video.
 
-- **Con DVR o NVR:** sí. Las cámaras graban en el disco del equipo aunque no haya internet. Lo único que pierdes es verlas desde el celular y recibir alertas.
-- **Wifi con memoria microSD:** graban en la tarjeta mientras tengan corriente y la red local funcione; sin internet no mandan avisos ni suben nada.
-- **Wifi que solo graban en la nube:** sin internet no guardan nada. Es la configuración más frágil y la más común en las cámaras baratas.
-- **4G:** no necesitan el internet de la casa, necesitan cobertura celular y saldo en el plan.
+- **Grabación local:** puede continuar si conserva energía, comunicación y configuración necesarias; verifica qué otras funciones dependen de internet.
+- **Memoria microSD:** confirma si graba de forma autónoma y cómo recuperas archivos sin servicio externo.
+- **Nube:** revisa qué sucede al perder conectividad y si existe almacenamiento temporal con recuperación posterior.
+- **Conexión celular:** depende de cobertura, servicio contratado y consumo de datos; prueba el enlace donde quedará instalada.
 
-Si lo que te preocupa es que un corte de internet deje el predio a ciegas, la respuesta es un grabador local con disco, más un no-break para que tampoco un apagón lo detenga.
+Si necesitas continuidad, define qué fallas debe soportar el sistema. Un respaldo eléctrico necesita alimentar los componentes necesarios, incluidos switches cuando corresponda, y tener autonomía calculada. No elimina cualquier interrupción.
 
 ## Qué poner en cada punto
 
-**Acceso peatonal o puerta principal:** una cámara fija de lente cerrado a la altura y distancia correctas para ver la cara de quien entra. Una sola bien puesta vale más que tres lejanas.
+**Acceso peatonal:** define si necesitas observar el paso o identificar a una persona. Prueba altura, ángulo y encuadre con el recorrido real, sin fijar una lente universal para cualquier puerta.
 
 **Cochera o acceso vehicular:** una cámara para la escena general y, si hace falta identificar vehículos, otra dedicada a la placa.
 
-**Perímetro y patio:** balas o turrets con buen alcance infrarrojo, apuntando a lo largo de la barda y no hacia la calle.
+**Perímetro y patio:** evalúa montaje e iluminación conforme a la zona que necesitas observar. Limita el encuadre a la finalidad definida y comprueba detalle en los puntos más alejados.
 
-**Interior de negocio:** domos en caja, pasillos y bodega; una 360 si el espacio es abierto.
+**Interior de negocio:** compara encuadres para caja, pasillos y bodega; una vista panorámica puede complementar tomas de detalle si las pruebas lo justifican.
 
-**Terreno u obra sin servicios:** 4G con panel solar, aceptando que grabará por evento.
+**Terreno u obra sin servicios:** evalúa enlace celular y alimentación autónoma a partir de cobertura, autonomía y mantenimiento. Confirma si el modelo graba por evento o de manera continua bajo las condiciones propuestas.
 
-Escena frecuente en una tienda: la cámara de la caja está en el techo, justo arriba del cajero. Graba perfecto la coronilla del cajero y el dinero. Del cliente que pagó con un billete falso, solo se ve la mano. Una segunda cámara frente al mostrador, a la altura de la cara, habría resuelto la denuncia.
+Como ejemplo hipotético, una cámara directamente sobre la caja puede mostrar la transacción y dejar fuera el rostro del cliente. Una segunda toma podría complementar esa información, pero debe probarse y justificarse. Ningún encuadre garantiza por sí solo el resultado de una denuncia.
+
+## Lente, distancia y calidad de la imagen
+
+Más megapíxeles no garantizan más información útil sobre una persona lejana. La cantidad de detalle disponible depende también del campo de visión y de cuánto espacio ocupa el objetivo en la imagen. Pide una demostración a la distancia real, con personas en movimiento y con el encuadre que se conservará al terminar la instalación.
+
+Distingue zoom óptico, recorte digital y corrección de una vista panorámica. Ampliar una imagen guardada no crea detalle que nunca se registró. Antes de aceptar una solución, compara el archivo reproducido con la vista en vivo y confirma que ambos mantienen el nivel de información requerido.
+
+La prueba debe incluir las condiciones más difíciles del horario de operación: contraluz, transición entre interior y exterior, iluminación nocturna o cambios por apertura de puertas. Ajustes que favorecen una escena quieta pueden producir desenfoque de movimiento en personas o vehículos. Solicita al instalador que explique el compromiso entre exposición, ruido, fluidez y almacenamiento.
+
+## Exterior, limpieza y mantenimiento
+
+La forma del gabinete no demuestra resistencia al agua, polvo, golpes ni temperatura. Revisa la clasificación declarada, el manual y los accesorios necesarios para el montaje específico. Una cámara apta para exterior puede fallar por conectores expuestos, entradas de cable mal selladas o una instalación que contradiga las indicaciones del fabricante.
+
+Planea cómo se limpiará y ajustará el equipo. Un punto muy alto puede dificultar el mantenimiento, mientras que uno accesible puede quedar expuesto a manipulación. La decisión debe equilibrar imagen, seguridad física y acceso de servicio, incluyendo permisos y medios de trabajo cuando corresponda.
+
+Define quién reporta desenfoque, suciedad, cambio de orientación o pérdida de señal. La presencia de una imagen no demuestra que siga mostrando el objetivo original. Después de una obra, cambio de mobiliario o crecimiento de vegetación, revisa nuevamente el encuadre y conserva evidencia del ajuste aprobado.
+
+## Compatibilidad con grabador y aplicaciones
+
+La cámara debe funcionar con el sistema donde guardarás y consultarás el video. [ONVIF Profile T](https://www.onvif.org/profiles/profile-t/) define funciones de transmisión para sistemas IP, pero no convierte cualquier mención comercial en compatibilidad completa. Consulta modelo, versión y perfiles en la [base oficial de productos conformes](https://www.onvif.org/conformant-products/).
+
+Haz pruebas separadas de imagen, audio si está justificado, eventos, reproducción y control PTZ cuando se contraten. Algunas funciones dependen de software o licencias particulares. Pide que la propuesta distinga lo incluido de lo que solo estará disponible mediante otro producto o suscripción.
+
+Verifica además quién conservará las cuentas administrativas y cómo se recuperarán. Una cámara vinculada exclusivamente a la cuenta personal del instalador puede complicar la continuidad del servicio. Documenta usuarios autorizados y el procedimiento para retirar acceso al cambiar de proveedor.
+
+## Privacidad desde el encuadre
+
+Captar más superficie no siempre responde a una necesidad. Delimita el área de interés y evita orientar cámaras hacia espacios ajenos o zonas donde la grabación resulte injustificada. Evalúa funciones de máscara de privacidad y verifica cómo afectan la imagen guardada, sin asumir que un ajuste visible en una aplicación se replica en todas las salidas.
+
+La [Ley Federal de Protección de Datos Personales en Posesión de los Particulares](https://www.diputados.gob.mx/LeyesBiblio/pdf/LFPDPPP.pdf), con reforma indicada del 14 de noviembre de 2025, es la referencia vigente consultada para definir finalidades, seguridad y conservación. Los avisos y permisos de acceso deben corresponder al uso concreto del sistema.
+
+No actives audio o funciones de identificación solo porque están disponibles. Evalúa necesidad, proporcionalidad y obligaciones aplicables antes de incorporarlas. También define quién puede exportar imágenes y cómo se atienden solicitudes; compartir el acceso con todas las personas de un grupo no equivale a una política de consulta.
+
+## Pruebas para aceptar la instalación
+
+Prepara una lista por cámara y utiliza el mismo criterio para comparar propuestas:
+
+1. Indica qué escena y tarea debe cubrir el equipo.
+2. Revisa imagen reproducida de día y de noche cuando aplique.
+3. Comprueba grabación, reloj y recuperación de un segmento.
+4. Verifica respuesta ante pérdida controlada de conectividad.
+5. Anota pendientes, responsables y fecha de corrección.
+
+No califiques todo el sistema por una sola toma favorable. Puede haber un acceso bien resuelto y otro donde la iluminación impida identificar detalles. La recepción debe documentar esos límites y las medidas propuestas, con autorización de la administración para cualquier interrupción necesaria.
 
 ## Antes de comprar
 
@@ -72,5 +141,7 @@ Tres preguntas ordenan la decisión mejor que cualquier ficha técnica:
 3. ¿Quién va a revisar las cámaras y cuándo?
 
 Si el sistema lo va a instalar un tercero, la página de [instalación de cámaras de seguridad](/servicios/instalacion-de-camaras-de-seguridad/) explica qué exigir en la cotización, y la guía de [DVR y NVR](/guias/dvr-y-nvr-que-son/) detalla el equipo que graba. Para ver instaladores por estado, entra al rubro de [CCTV y videovigilancia](/categorias/cctv-videovigilancia/).
+
+Como referencia de información publicada, la [ficha de SeguridadPrivadaMX](/categorias/seguridad-privada/cdmx/seguridadprivadamx/) tiene una página de [cámaras y monitoreo](/categorias/seguridad-privada/cdmx/seguridadprivadamx/camaras-y-monitoreo/). Puedes utilizarla para preguntar por equipos, almacenamiento y responsabilidades. Su inclusión no acredita compatibilidad, desempeño, permisos ni calidad y no constituye una recomendación de contratación.
 
 > TuSeguridad es un directorio y no vende ni instala cámaras. Esta guía describe tipos de equipo de uso común; las especificaciones exactas de cada modelo las da el fabricante.
