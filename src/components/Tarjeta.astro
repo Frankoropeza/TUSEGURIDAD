@@ -25,6 +25,8 @@ interface Props {
 
   /** sin enlace y atenuada (p. ej. un rubro en preparación) */
   inactivo?: boolean;
+  /** nivel semántico del título según el lugar que ocupa la tarjeta */
+  headingLevel?: 2 | 3 | 4;
 }
 
 const {
@@ -39,9 +41,11 @@ const {
   laminaTexto,
   sizes = '(min-width: 1280px) 30vw, (min-width: 640px) 45vw, 92vw',
   inactivo = false,
+  headingLevel = 3,
 } = Astro.props;
 
 const Contenedor = href && !inactivo ? 'a' : 'div';
+const Heading = `h${headingLevel}` as 'h2' | 'h3' | 'h4';
 const tono = (t: Distintivo['tono']) =>
   t === 'signal' ? 'bg-signal text-paper' : t === 'suave' ? 'bg-bone text-ink' : 'bg-ink text-paper';
 ---
@@ -75,7 +79,7 @@ const tono = (t: Distintivo['tono']) =>
 
     <!-- identidad -->
     <div class="flex flex-1 flex-col border-t border-ink px-4 pb-3 pt-3.5">
-      <h3 class="display-sm">{titulo}</h3>
+      <Heading class="display-sm">{titulo}</Heading>
       {meta && <p class="label muted mt-2">{meta}</p>}
       {descripcion && (
         <p class="muted mt-3 line-clamp-3 text-[13px] leading-[1.45]">{descripcion}</p>

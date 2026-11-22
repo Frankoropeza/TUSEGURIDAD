@@ -74,6 +74,7 @@ const d = await cargarDatos();
             foto={tieneFotos(cat.id) ? fotoPara(`rubro:${cat.id}`, cat.id) : null}
             laminaTexto={cat.data.nombre.slice(0, 2)}
             inactivo={!cat.data.destacada}
+            headingLevel={2}
           />
         );
       })}
