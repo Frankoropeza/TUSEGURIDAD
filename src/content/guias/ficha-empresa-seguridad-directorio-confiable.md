@@ -1,18 +1,43 @@
 ---
-titulo: Cómo reconocer una ficha confiable de seguridad
-tituloSeo: Ficha confiable de seguridad privada
-descripcion: "Qué datos debe mostrar una ficha de empresa de seguridad para ayudarte a comparar servicios, cotejar documentos y detectar señales de alerta."
+titulo: "Empresa de seguridad confiable: cómo revisar su ficha"
+palabraClave: empresa de seguridad confiable
+tituloSeo: "Empresa de seguridad confiable: revisa su ficha"
+descripcion: "Una empresa de seguridad confiable debe sostener lo que declara: aprende a leer su ficha, comparar servicios y solicitar documentos antes de contratar."
 fecha: 2026-09-25
+actualizado: 2026-11-22
 autor: Equipo TuSeguridad
 tags: ["guía", "seguridad privada", "directorio", "verificación"]
 rubros: ["seguridad-privada"]
+empresas: ["seprico-seguridad-privada-condominios"]
+fuentes:
+  - titulo: Ley Federal de Seguridad Privada vigente
+    url: https://www.diputados.gob.mx/LeyesBiblio/pdf/LFSP.pdf
+  - titulo: STPS, consulta y alcance del registro REPSE
+    url: https://repse.stps.gob.mx/
+  - titulo: Ley Federal de Protección de Datos Personales en Posesión de los Particulares vigente
+    url: https://www.diputados.gob.mx/LeyesBiblio/pdf/LFPDPPP.pdf
+faq:
+  - q: ¿Una ficha completa acredita que una empresa es confiable?
+    a: No. Ayuda a identificar declaraciones y formular preguntas, pero no sustituye documentos ni confirma cómo operará el servicio. La decisión requiere comprobaciones adicionales.
+  - q: ¿Qué hago si la ficha usa una marca y el contrato otra razón social?
+    a: Pide identificar a la persona o sociedad que prestará y facturará el servicio. Compara esa identidad con los documentos correspondientes; compartir marca no demuestra que compartan autorización.
+  - q: ¿La posición de una ficha demuestra calidad o cumplimiento?
+    a: No debes inferirlo. Una ubicación destacada o un diseño más completo no equivalen a una verificación de permisos, solvencia o calidad. Revisa qué significa cada etiqueta del directorio.
+  - q: ¿Una ausencia en un padrón basta para descartar una empresa?
+    a: Revisa primero autoridad, modalidad, fecha y razón social consultadas. Si sigue la duda, pide confirmación oficial. La ausencia en una búsqueda parcial no permite una conclusión general.
+  - q: ¿Todas las empresas del directorio necesitan REPSE?
+    a: El requisito depende del esquema de servicios especializados y puesta a disposición de personal que corresponda al contrato. REPSE no es un permiso general de seguridad ni aplica automáticamente a toda actividad del sector.
+  - q: ¿Qué información debo compartir al pedir una primera propuesta?
+    a: Describe tipo de inmueble, zona general y alcance esperado. Evita entregar contraseñas, planos detallados o bases de residentes antes de identificar al receptor y acordar el uso de los datos.
+  - q: ¿La ficha de SEPRICO enlazada es una recomendación?
+    a: No. Se utiliza como referencia de navegación hacia una empresa y un servicio existentes. Su inclusión no acredita autorizaciones, certificaciones o resultados ni sustituye la validación oficial.
 ---
 
-Una ficha de directorio sirve para reducir preguntas iniciales, no para reemplazar la verificación antes de contratar. Su valor está en que permite saber quién declara el servicio, dónde se le puede localizar, qué cobertura afirma tener y qué documentos conviene pedir para cotejar esa información. Cuando esos elementos faltan, el usuario no tiene una base real para comparar.
+Buscar una empresa de seguridad confiable requiere distinguir lo que una ficha publica de lo que puede comprobarse. El directorio permite identificar quién declara un servicio, dónde dice atender y qué preguntas conviene hacerle. Una presentación completa facilita la revisión inicial, pero no reemplaza la validación oficial ni la evaluación del contrato.
 
 La ficha confiable es específica. Dice qué servicio ofrece y dónde, separa datos de contacto de afirmaciones comerciales y evita presentar como hecho lo que solo debe comprobarse con documentos. También ayuda a detectar desde el principio cuándo una conversación no vale la pena: datos que no conducen a una persona localizable, alcances indefinidos o promesas que parecen diseñadas para evitar preguntas.
 
-## Empieza por identificar a quién podrás localizar
+## Empresa de seguridad confiable: identifica al prestador
 
 Busca una razón social o nombre con el que la empresa se presente de forma consistente, además de medios de contacto que funcionen. Un teléfono, correo o formulario son útiles si permiten obtener una respuesta verificable; un domicilio físico aporta un punto adicional para confirmar que existe una operación identificable. No se trata de exigir que todos los proveedores tengan la misma infraestructura, sino de poder saber con quién se está tratando.
 
@@ -26,7 +51,7 @@ También revisa la fecha de actualización cuando esté disponible. Un dato que 
 
 Busca respuestas concretas a estas preguntas: ¿qué tipo de inmueble atiende?, ¿qué áreas cubre el servicio?, ¿incluye operación, suministro, instalación o mantenimiento?, ¿qué información debe proporcionar el cliente para recibir una propuesta? Si una ficha no detalla todo, úsala para formular las preguntas, no para llenar los huecos con suposiciones.
 
-Al revisar opciones, [la comparativa de directorios que publicó *escudodigital.com*](https://www.escudodigital.com/vigilancia/los-mejores-directorios-de-seguridad-privada-en-mexico-para-condominios-y-residenciales.html) puede orientar la búsqueda inicial. La comparación que importa sigue siendo la de datos verificables y servicios definidos para el inmueble en cuestión.
+Como ejemplo de navegación, la [ficha de SEPRICO Seguridad Privada para Condominios](/categorias/seguridad-privada/cdmx/seprico-seguridad-privada-condominios/) incluye una página de [guardias para condominios](/categorias/seguridad-privada/cdmx/seprico-seguridad-privada-condominios/guardias-para-condominios/). Consulta ambas para separar la identidad anunciada del alcance de un servicio. La mención no es un aval, una recomendación ni una comprobación de sus declaraciones o certificaciones.
 
 El rubro de [seguridad privada](/categorias/seguridad-privada/) permite ubicar la categoría general, pero la comparación debe hacerse entre servicios con el mismo alcance. Dos fichas pueden usar las mismas palabras y describir operaciones muy distintas. Lleva por escrito tus necesidades para pedir la misma definición a cada empresa.
 
@@ -58,7 +83,51 @@ No conviertas una sospecha en acusación. Pide precisiones, compara la respuesta
 
 Cuando ya tengas una ficha que parece pertinente, sigue el proceso de la [guía para elegir una empresa de seguridad](/guias/como-elegir-empresa-seguridad/): define el alcance antes de solicitar propuestas, pide respuestas comparables y conserva los acuerdos importantes por escrito.
 
-## Preguntas frecuentes
+## Registra qué está declarado y qué comprobaste
+
+Una forma útil de leer fichas consiste en llevar tres columnas: dato publicado, evidencia recibida y estado de revisión. Esto evita que una frase repetida en varias páginas termine tratándose como una comprobación independiente. Copiar una declaración entre una ficha, una propuesta y un folleto no aporta tres fuentes distintas.
+
+| Dato anunciado | Evidencia que conviene solicitar | Conclusión que no permite por sí solo |
+|---|---|---|
+| Nombre y contacto | Identidad del prestador y respuesta por canal confirmado | Que tenga autorización vigente |
+| Cobertura geográfica | Alcance operativo para la ubicación concreta | Que atienda todos los servicios en cada ciudad |
+| Número de permiso | Resolución y consulta ante la autoridad | Que cubra cualquier modalidad |
+| Registro REPSE | Consulta de actividad y vigencia, cuando aplique | Que sustituya el permiso de seguridad |
+| Certificación declarada | Emisor, titular, alcance y periodo correspondiente | Que todo el personal tenga esa acreditación |
+| Precio anunciado | Cotización con conceptos y exclusiones | Que incluya relevos, equipo o impuestos |
+
+Usa estados descriptivos: «declarado en ficha», «documento recibido», «consulta pendiente» y «confirmado para este alcance y fecha». Evita una casilla única de aprobado que borre las diferencias entre identidad, permiso y capacidad de operación. Si alguien más recibe el expediente, debe entender de dónde salió cada conclusión.
+
+## Consulta el registro que corresponde a la afirmación
+
+La [Ley Federal de Seguridad Privada](https://www.diputados.gob.mx/LeyesBiblio/pdf/LFSP.pdf) distingue la prestación en varias entidades de la actividad limitada a una sola, sujeta al marco local. Por eso «permiso nacional» no es una respuesta suficiente: necesitas autoridad, titular, modalidad y territorio. La autorización federal tampoco sustituye automáticamente los requisitos locales que correspondan.
+
+Para afirmaciones laborales, la [consulta REPSE de la STPS](https://repse.stps.gob.mx/) es una herramienta diferente. Su aplicación depende del esquema de contratación de servicios especializados y puesta a disposición de trabajadores. No conviertas el registro en una insignia genérica para toda empresa que vende equipos o anuncia servicios de seguridad.
+
+Una ficha puede citar un padrón con fecha de corte. Revisa qué autoridad lo emitió y qué actividades incluye antes de interpretar una coincidencia o ausencia. Si el dato no corresponde al momento de contratar, pide actualización. Una captura antigua puede documentar una situación pasada sin resolver la actual.
+
+## Protege la información durante el primer contacto
+
+La primera conversación debe permitir recibir una propuesta preliminar sin entregar el funcionamiento completo del inmueble. Explica el tipo de lugar, zona y necesidad general; reserva códigos, planos detallados, horarios sensibles y bases de personas hasta identificar al receptor y acordar condiciones para compartirlos.
+
+La [ley federal de datos personales de particulares](https://www.diputados.gob.mx/LeyesBiblio/pdf/LFPDPPP.pdf) ofrece el marco para revisar el uso de información personal. Pide el aviso de privacidad y un canal que corresponda al prestador. Si te solicitan datos de trabajadores o residentes, pregunta por su finalidad, acceso y conservación antes de enviarlos.
+
+- Confirma quién recibirá la solicitud y en nombre de qué empresa responde.
+- Describe el servicio sin incluir contraseñas o accesos activos.
+- Comparte documentos por un canal acordado y registra su destinatario.
+- Conserva la respuesta con su fecha para compararla con la propuesta posterior.
+
+Si cambian de contacto o te piden pagar a un tercero, verifica nuevamente la relación con el prestador antes de avanzar. Una ficha puede estar desactualizada, y una conversación por mensajería no demuestra por sí sola quién controla el número en ese momento. La precaución consiste en comprobar identidades, no en atribuir intenciones sin evidencia.
+
+## Da seguimiento a contradicciones y cambios
+
+Cuando un dato publicado difiere de la cotización, señala ambos textos y solicita una aclaración concreta. Puede tratarse de una actualización pendiente, un servicio disponible solo en cierta zona o una exclusión que no aparece en la ficha. Guarda la respuesta y evita asumir que la versión más favorable será la que se cumpla.
+
+Si administras varias propuestas, registra quién resolvió cada duda y cuándo. Las condiciones acordadas deben incorporarse al documento contractual, no quedarse repartidas entre llamadas y mensajes. Una página puede cambiar después; conservar la propuesta aceptada ayuda a distinguir lo pactado de lo que se anuncia en otro momento.
+
+TuSeguridad es un directorio y no sustituye a la autoridad que valida permisos ni a quien revisa jurídicamente tu contratación. La ficha cumple su función cuando permite formular mejores preguntas y ubicar documentos, sin convertir declaraciones comerciales en garantías.
+
+## Dudas al revisar una ficha
 
 ### ¿Una ficha completa significa que la empresa ya fue verificada?
 
