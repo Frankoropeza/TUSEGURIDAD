@@ -41,13 +41,13 @@ Una compra útil termina con video recuperable y un procedimiento que la persona
 
 ## Qué es un DVR
 
-DVR significa grabador de video digital. Recibe la señal de **cámaras analógicas** por cable coaxial, la convierte a video digital, la comprime y la guarda en un disco duro. Desde el mismo equipo se ve el video en un monitor y, con conexión a internet, desde el celular.
+DVR significa grabador de video digital. Recibe la señal de **cámaras analógicas** por cable coaxial, la convierte a video digital, la comprime y la guarda en un disco duro. Desde el equipo puede consultarse el video en un monitor compatible. La consulta desde el celular requiere compatibilidad y configuración de acceso remoto, además de la conectividad necesaria.
 
 Hay DVR compatibles con formatos analógicos de alta definición, como TVI, CVI y AHD. Otros equipos, identificados como híbridos o XVR, pueden admitir cámaras IP. Revisa la combinación concreta de entradas, resoluciones y cuadros por segundo: el nombre comercial no demuestra todas esas capacidades.
 
 ## Qué es un NVR
 
-NVR significa grabador de video en red. Trabaja con **cámaras IP**: cada cámara ya entrega video digital y el NVR lo recibe por la red, sea por cable o por wifi. Muchos NVR traen puertos PoE, que mandan datos y corriente por el mismo cable de red, así que cada cámara necesita un solo cable.
+NVR significa grabador de video en red. Trabaja con **cámaras IP**: cada cámara ya entrega video digital y el NVR lo recibe por la red, sea por cable o por wifi. Algunos NVR incorporan puertos PoE para enviar datos y energía por el mismo cable Ethernet. Esa conexión con un solo cable requiere cámara y NVR PoE compatibles, con potencia suficiente por puerto y en el presupuesto total del equipo.
 
 ## DVR y NVR: decide a partir del inventario
 
