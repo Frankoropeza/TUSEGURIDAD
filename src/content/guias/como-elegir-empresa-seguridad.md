@@ -37,7 +37,7 @@ faq:
 
 Para saber cómo elegir una empresa de seguridad, empieza por describir la operación que necesitas cubrir. Una cotización solo permite decidir cuando conoces sus tareas, horarios y límites. Esta guía organiza la definición del servicio, la revisión documental, el contrato y el seguimiento de arranque para que las propuestas respondan a las mismas preguntas.
 
-## Cómo elegir una empresa de seguridad: empieza por el alcance
+## 1. Cómo elegir una empresa de seguridad: empieza por el alcance
 
 Antes de contactar al primer proveedor, escribe en una hoja cuatro aspectos que deberá cubrir la propuesta:
 

@@ -127,16 +127,8 @@ Si administras varias propuestas, registra quién resolvió cada duda y cuándo.
 
 TuSeguridad es un directorio y no sustituye a la autoridad que valida permisos ni a quien revisa jurídicamente tu contratación. La ficha cumple su función cuando permite formular mejores preguntas y ubicar documentos, sin convertir declaraciones comerciales en garantías.
 
-## Dudas al revisar una ficha
+## Decide cuándo pasar de la ficha a una visita
 
-### ¿Una ficha completa significa que la empresa ya fue verificada?
+La lectura inicial puede terminar en tres decisiones distintas: solicitar información faltante, programar un recorrido o descartar la opción porque el servicio anunciado no corresponde a tu necesidad. Anota el motivo concreto de esa decisión. Descartar una ficha por falta de cobertura para tu inmueble no significa afirmar que la empresa incumple la ley o presta un mal servicio.
 
-No necesariamente. La ficha puede organizar datos declarados por la empresa, pero debes cotejar documentación y alcance antes de contratar.
-
-### ¿Qué hago si no aparece un domicilio?
-
-Pide una forma verificable de localización y pregunta cuál es su zona de operación. Si la respuesta es evasiva o inconsistente, considera otras opciones.
-
-### ¿Debo elegir por el precio publicado en una ficha?
-
-No. Un precio sin alcance no permite saber qué cubre. Solicita una propuesta que detalle tareas, horarios, responsables y condiciones aplicables.
+Para programar el recorrido, define quién recibe al proveedor, qué áreas podrá observar y qué información necesita preparar. Si la visita requiere autorización de la administración o del propietario, resuélvela antes de confirmar la cita. Así, el siguiente paso tiene un objetivo delimitado y permite completar la evaluación sin dar por aceptada una propuesta comercial.

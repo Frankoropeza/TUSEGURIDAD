@@ -37,7 +37,7 @@ faq:
 
 Para verificar el permiso de una empresa de seguridad necesitas identificar a quien prestará el servicio, reunir el documento completo y consultar la fuente oficial adecuada. Esta guía organiza esa revisión sin confundir una búsqueda en un directorio con una confirmación de la autoridad. El resultado debe indicar qué comprobaste, para qué actividad y en qué fecha.
 
-## Verificar el permiso de una empresa de seguridad: jurisdicción
+## 1. Verificar el permiso de una empresa de seguridad: jurisdicción
 
 El criterio es territorial, y es lo primero porque determina qué documento tienes que pedir.
 

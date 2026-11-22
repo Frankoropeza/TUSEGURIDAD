@@ -9,6 +9,7 @@ comparación de similitud):
   · metadatos: tituloSeo ≤ 60, descripción 120–165, palabra clave en título,
     descripción, primeras 120 palabras y al menos un H2; palabra clave única
   · estructura: ≥ 1,500 palabras, ≥ 6 H2, ≥ 1 tabla, ≥ 2 listas, 6–8 FAQ,
+    máximo 8 preguntas entre frontmatter y secciones FAQ del cuerpo,
     ≥ 2 fuentes, ≤ 3 guiones largos
   · enlaces: rutas internas bien formadas, enlace a la ficha de la empresa
     relacionada y a al menos una de sus páginas de servicio
@@ -39,6 +40,33 @@ def split(path):
     c = open(path, encoding='utf-8').read()
     _, fm, body = c.split('---\n', 2)
     return yaml.safe_load(fm), body
+
+def body_faq_count(body):
+    """Cuenta encabezados interrogativos sólo dentro de secciones FAQ explícitas."""
+    count, section_level, fence = 0, None, None
+    for line in body.splitlines():
+        marker = re.match(r'^ {0,3}(`{3,}|~{3,})(.*)$', line)
+        if fence:
+            if (marker and marker[1][0] == fence[0]
+                    and len(marker[1]) >= fence[1] and not marker[2].strip()):
+                fence = None
+            continue
+        if marker:
+            fence = (marker[1][0], len(marker[1]))
+            continue
+        heading = re.match(r'^ {0,3}(#{1,6})\s+(.+?)\s*$', line)
+        if not heading:
+            continue
+        level = len(heading[1])
+        title = re.sub(r'\s+#+\s*$', '', heading[2]).strip('*_ ')
+        if section_level is not None and level <= section_level:
+            section_level = None
+        label = re.sub(r'^\d+[.)]\s*', '', norm(title)).strip('*_ ')
+        if re.match(r'^(?:preguntas frecuentes\b|faqs?\b|dudas (?:frecuentes\b|comunes\b|al revisar\b))', label):
+            section_level = level
+        elif section_level is not None and level > section_level and title.endswith('?'):
+            count += 1
+    return count
 
 FORBIDDEN = [
     r"somos (el|la|los|las) (mejor|mejores|unico|unica)",
@@ -93,6 +121,10 @@ for p in files:
     if listas < 2: e(f'{listas} listas (mínimo 2)')
     faq = d.get('faq') or []
     if not 6 <= len(faq) <= 8: e(f'{len(faq)} preguntas frecuentes (6–8)')
+    body_faq = body_faq_count(body)
+    if len(faq) + body_faq > 8:
+        e(f'{len(faq) + body_faq} preguntas frecuentes visibles '
+          f'({len(faq)} frontmatter + {body_faq} cuerpo; máximo 8)')
     if len(d.get('fuentes') or []) < 2: e('menos de 2 fuentes')
     if body.count('—') > 3: e(f"{body.count('—')} guiones largos (máx. 3)")
     if re.search(r'^# ', body, re.M): e('H1 en el cuerpo (el H1 lo pone la plantilla)')

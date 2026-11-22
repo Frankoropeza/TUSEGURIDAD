@@ -35,7 +35,7 @@ faq:
 
 Saber cómo contratar un investigador privado empieza por definir qué decisión necesitas tomar y qué información puede obtenerse legalmente. El encargo debe describir trabajo documentado, no prometer una conclusión. Las etapas que siguen ayudan a comparar alcances, comprobar autorizaciones y acordar qué ocurre cuando la información disponible no permite confirmar una sospecha.
 
-## Cómo contratar un investigador privado: define la decisión
+## 1. Cómo contratar un investigador privado: define la decisión
 
 Antes del primer contacto, escribe en una hoja qué vas a hacer con el resultado. Esa decisión permite delimitar el encargo y revisar si la investigación propuesta responde a una necesidad concreta.
 
